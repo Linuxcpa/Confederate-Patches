@@ -1,4 +1,4 @@
-These issues stop some packages from compiling. The cause of the underlying problem is unclear. 
+These issues stop a significant number of packages from compiling. The cause of the underlying problem is unclear. 
 It is uncertan if attempts to resolve the underlying problem are being made:
 
 1. Perl cannot be compiled with threads
@@ -20,3 +20,42 @@ It is uncertan if attempts to resolve the underlying problem are being made:
 9. Some errors that have halted a compilation have later not halted the compilation, or vice versa.
 
 10. Patches between versions of GCC (4 vs 2) do not apply equally, some may only work on 1, but not the other.
+
+***The following issues are chronically problematic, of great annoyance, but are unlikely to be remidied.
+Requests for resolution have been ignored or rebranded as problems with the packages themselves:***
+
+1. A writeable /usr directory
+
+2. Write access to /boot/system
+
+3. XMS Shared memory
+
+4. Headers with very common definitions that are non posix
+
+5. Make changes to the system such that patches submitted to projects rejected.
+
+
+***The following chronic functionality issues undermine the operating system's useability:***
+
+1. There is no clear way to run X11 programs
+
+2. Packages not built inside of Haikuporter can't find libraries
+The libraries are $PATHED properly and even have the library path embedded in them.
+
+3. Patches that work on one system won't work on the other.
+
+4. Printing driver choices are limited, printing services cannot withstand large jobs
+
+5. Networking is limited to ftp
+
+6. NFS is broken
+
+7. CIFS never implemented
+
+8. Lynx has a chronic networking issue. it can't load web pages.
+
+9. Apache can't run, there is not enough memory.
+
+10. Read only portions of the file system.
+The removal of directories that many previously packaged applications required
+Inability to restore the directories has had a strong negative impact on developer morale.
