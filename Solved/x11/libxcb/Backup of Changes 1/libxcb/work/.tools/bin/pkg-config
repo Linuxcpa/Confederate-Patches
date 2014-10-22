@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.work.log}"
+echo "[*] "/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.tools/bin/pkg-config" $@" >> $wrapperlog
+echo "<.> PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.buildlink/share/pkgconfig /boot/home/pkg/bin/pkg-config  "$@"" >> $wrapperlog
+PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.buildlink/share/pkgconfig /boot/home/pkg/bin/pkg-config  "$@"

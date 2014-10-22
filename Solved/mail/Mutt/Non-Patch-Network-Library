@@ -1,0 +1,59 @@
+Package needs -lnetwork, but the build process does not consider it.  
+The are several ways to deal with this in pkgsrc. 
+
+Adding the following /boot/home/pkg/mk.conf will help sometimes:
+
+Version 1:
+BUILDLINK_TRANSFORM+= -lnetwork
+
+Version 2:
+SUBST_CLASSES+= libs
+SUBST_STAGE.libs= pre-build
+SUBST_MESSAGE.libs = Adding Haiku lnetwork to libraries
+SUBST_FILES.libs=Makefile
+SUBST_SED.libs=		-e '/^LFLAGS/s/$$/ -lnetwork/'
+
+Version 3 (Works for Python):
+LDFLAGS+=  -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib
+
+Sometimes the Configure or Makefile like items need to be examined fully to see where this should be inserted.
+
+Version 1 is crude but effective - it takes advantage of pkgsrc's Buildlink process in which copies are placed in .buildlink. During the compile, this variable is inserted into the buildlink copy of the source. 
+
+Version 2 attempts to insert -lnetwork after LDFLAGS into a file spelled Makefile exactly. This will sed in the variable.
+
+Version 3 attempted to insert the above arguements into the LDFLAGS variable.
+
+In the Pkgsrc Makefile:
+
+Version 1:
+
+.if ${OPSYS} == "Haiku"
+LDFLAGS+=	-lnetwork
+.endif
+
+Version 2:
+
+LIBS.Haiku+=	-lnetwork
+
+Version 3:
+
+.if ${OPSYS} == "Haiku"
+MAKE_ENV+=	EXTRA_LIBS="-lnetwork"
+.endif
+
+$NetBSD$
+
+Version 4:
+
+--- Makefile.common.orig	2014-08-31 02:40:28.316407808 +0000
++++ Makefile.common
+@@ -309,7 +309,7 @@ endif
+ # Gcc option (as told by the __FAST_MATH__ preprocessor macro).
+ # Earlier ones do it regardless of __FAST_MATH__.
+ 
+-MATHLIB ?= -lm
++MATHLIB ?= -lnetwork
+ $(PORTBINARIES) $(MATHBINARIES): %: %.o $(NETPBMLIB) $(LIBOPT)
+ # Note that LDFLAGS might contain -L options, so order is important.
+ # LDFLAGS is commonly set as an environment variable.

@@ -1,0 +1,15 @@
+The source code for star-1.4.3 has hard links built into the tar file.
+Right now, the file system for Haiku does not support hard links.
+So extracting the source from the original tar file will fail in Haiku, unless the hard links are removed.
+Pkgsrc will fetch star from ftp ftp://ftp.NetBSD.org/pub/pkgsrc/distfiles/star-1.4.3.tar.gz
+
+To remove the hard links, I ftp'd the source into Linux and extracted the archive as I normally would.
+
+I used the following command to zip the source back up the without hard links:
+
+tar --hard-dereference -cvzf star-1.4.3.tar.gz star-1.4.3
+
+I then FTP'd the source back into Haiku and placed it in the distfiles directory, replacing the original.
+
+
+

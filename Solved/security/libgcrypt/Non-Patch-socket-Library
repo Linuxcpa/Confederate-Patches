@@ -1,0 +1,5 @@
+Package wants -lsocket, but really needs -lnetwork.
+
+Adding the following /boot/home/pkg/mk.conf will solve this rate issue:
+
+BUILDLINK_TRANSFORM+= rm:-lsocket

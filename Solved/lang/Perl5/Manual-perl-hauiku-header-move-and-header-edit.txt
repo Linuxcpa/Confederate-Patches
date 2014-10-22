@@ -1,0 +1,44 @@
+A large number of Perl's modules fail to compile as a result of a missing header and the fact that Haiku doesn't seem to relatively path headers.
+
+When compiling, the Perl modules will look for a header called haikuish.h that is included in the perl.h header, shown as: #include "haiku/haikuish.h." 
+
+The include statement should cause the compiler to expect to find a file called haikuish.h in /boot/home/pkg/lib/perl5/5.20.0/i386-Haiku/CORE/haiku. 
+
+However, when I created the package, the haikuish.h file was not created and therefore, was not present in /boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE/haiku. 
+
+As a result, I copied the "haikuish.h" file from: /boot/system/lib/perl5/5.18.2/BePC-haiku/CORE/haiku/haikuish.h and (initially) placed it in /boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE/haiku.
+
+However, after placing the "haikuish.h" where the perl.h file was supposed to look for it, the perl.h header located in /boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE could not find the relatively pathed "haiku/haikuish.h" file, even after I copied it in place as described above. 
+
+As a result, I edited the perl.h header so that it read: "haikuish.h" instead of "haiku/haikuish.h" such as to look for the "haikuish.h" file in /boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE/. I theb moved the haikuish.h file from /boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE/haiku to 
+/boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE and the modules compiled without issue after that.
+
+The short solution is to do the following:
+
+1. Copy the /boot/system/lib/perl5/5.18.2/BePC-haiku/CORE/haiku/haikuish.h file into /boot/home/pkg/lib/perl5/5.20.0/i386-Haiku/CORE/haikuish.h
+
+2. Edit the /boot/home/pkg/lib/perl5/5.20.0/i386-Haiku/CORE/perl.h file so that line 2453 reads: 
+#   include "haikuish.h"
+
+I need to rethink how I have this set up, perhaps create a patch.
+
+Note, that I am able to do things regular Haiku users cannot with the current nightly version of Haiku, because I have write access to /boot/home/pkg/include. 
+
+Haiku users do not have write access to /boot/system/lib/perl5/5.18.2/BePC-haiku/CORE/haiku where the "haikuish.h" is located or .../CORE where the perl.h file is located. 
+
+Secondly, without modification, Haiku's GCC specs will look in /boot/system/develop/headers for headers.
+
+I was able to make these changes by using my own GCC specs file to override the default settings in Haiku as to where to find headers. If I didn't, I wouldn't be able to make the above changes to allow the modules to compile. 
+
+The contents of the haikuish.h header is as follows, and could be created as a text file if necessary and placed in /boot/system/lib/perl5/5.18.2/BePC-haiku/CORE/:
+
+#ifndef PERL_HAIKU_HAIKUISH_H
+#define PERL_HAIKU_HAIKUISH_H
+
+#include "unixish.h"
+
+/* We need <sys/wait.h> or else the W* macros aren't defined in perl.h. */
+
+#include <sys/wait.h>
+
+#endif

@@ -1,0 +1,5 @@
+This compiles without issue with GCC 4, but has errors in the src/AnnotationList.c file -> undefined functions: potential_contribution and lookaheads.
+
+It also has an error with complain.c.
+
+bison-2.5-c89.diff resolves the first error. (From Haikuports?)

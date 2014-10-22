@@ -1,0 +1,11 @@
+bootstrap	digest>=20010302	../../pkgtools/digest
+tool	libxslt>=1.1.0	../../textproc/libxslt
+tool	py34-xcbgen>=1.9	../../x11/py-xcbgen
+tool	python34>=3.4	../../lang/python34
+tool	libtool-base>=2.2.6bnb3	../../devel/libtool-base
+tool	nbpatch-[0-9]*	../../devel/nbpatch
+tool	pkg-config>=0.25	../../devel/pkg-config
+build	xcb-proto>=1.9	../../x11/xcb-proto
+build	xproto>=7.0.9	../../x11/xproto
+full	libXdmcp>=0.99	../../x11/libXdmcp
+full	libXau>=1.0	../../x11/libXau

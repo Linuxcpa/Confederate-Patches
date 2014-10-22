@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.work.log}"
+echo "[*] "/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.tools/bin/perl" $@" >> $wrapperlog
+echo "<.> echo >> /boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /boot/home/pkgsrc/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."" >> $wrapperlog
+echo >> /boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.warning/perl "Please add USE_TOOLS+=perl to the package Makefile.";  /bin/sh /boot/home/pkgsrc/pkgsrc/mk/scripts/fail echo 1>&2 "ERROR:" "To use this tool, add USE_TOOLS+=perl to the package Makefile."

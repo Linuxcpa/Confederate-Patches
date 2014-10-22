@@ -1,0 +1,215 @@
+@cwd /boot/home/pkg
+@pkgcfl SSLeay-[0-9]*
+@pkgcfl ssleay-[0-9]*
+@name openssl-1.0.1h
+@blddep digest-20121220
+@blddep p5-Perl4-CoreLibs-0.003nb3
+bin/c_rehash
+@comment MD5:0a966d0ba87109e29adfa68002bc4899
+bin/openssl
+@comment MD5:1579993b5f71e751e205bba88b6b9df4
+include/openssl/aes.h
+@comment MD5:72046b82b1a96834c62a1855e24f53ea
+include/openssl/asn1.h
+@comment MD5:c061be0696cbcaa9c76aea2fc336796d
+include/openssl/asn1_mac.h
+@comment MD5:49f1718dd7ae53e4142ff65d714afaa8
+include/openssl/asn1t.h
+@comment MD5:665f09ec9e132db186cd59f1dd932cc3
+include/openssl/bio.h
+@comment MD5:83e222a9d33c6c5a1765d1f2909e3ba8
+include/openssl/blowfish.h
+@comment MD5:720a076bc59723457b4f7da3c32ac55d
+include/openssl/bn.h
+@comment MD5:c75eca54e24cb2e597b5473975859346
+include/openssl/buffer.h
+@comment MD5:83d9c29be67b5ff73979f4815f00f404
+include/openssl/camellia.h
+@comment MD5:4d7f77d8e7d86f2e20a8448f879b27b1
+include/openssl/cast.h
+@comment MD5:f5b3287ff499c2b251fd44acd6206d1d
+include/openssl/cmac.h
+@comment MD5:89d52a7f8ab792840a5f8e344c228a1b
+include/openssl/cms.h
+@comment MD5:2d81a2dd2605dbb8c80e1563a024a138
+include/openssl/comp.h
+@comment MD5:ff60edfd2df2b76b1b5f35a07ea7e259
+include/openssl/conf.h
+@comment MD5:20e7da2267520a43cd59119fffc856b7
+include/openssl/conf_api.h
+@comment MD5:cc278b01a46afa4b6e8d5815ae9b3ff9
+include/openssl/crypto.h
+@comment MD5:8e46d22b7b48fc582174af0241bc5ccb
+include/openssl/des.h
+@comment MD5:6bc4f9163024306180f7e68eb9e6801a
+include/openssl/des_old.h
+@comment MD5:ccb999ed7b4d8fbb3cda5496cd9467bf
+include/openssl/dh.h
+@comment MD5:15ee876c03013f826c2174d9ef69cb68
+include/openssl/dsa.h
+@comment MD5:1146e565a618191a2463f85034482513
+include/openssl/dso.h
+@comment MD5:2d4976493c77e8238aa266362a3f2306
+include/openssl/dtls1.h
+@comment MD5:b58981c41ff779751c76f60c8d3e08dd
+include/openssl/e_os2.h
+@comment MD5:f385d299ac61e4405eec2f7e5e62ba00
+include/openssl/ebcdic.h
+@comment MD5:b39613d8ce01e224ae72baa0246892e7
+include/openssl/ec.h
+@comment MD5:9a42d6a3f8d4d2d2346ca04c274fda79
+include/openssl/ecdh.h
+@comment MD5:e20fbb7760ff681219a4e50cc43999c0
+include/openssl/ecdsa.h
+@comment MD5:d7f3370052729e71c8a029489921a6c9
+include/openssl/engine.h
+@comment MD5:63d487825e4bd035fb113c17e649203a
+include/openssl/err.h
+@comment MD5:fb10b39684c8abacf9a51a1a3c8763c3
+include/openssl/evp.h
+@comment MD5:2dbe71323695dcd604932980fd1e5acd
+include/openssl/hmac.h
+@comment MD5:44725f35454bf676ad1fce986a9b6d25
+@comment include/openssl/idea.h
+include/openssl/krb5_asn.h
+@comment MD5:9c2bcd5acc4bf939f2da51069006fe6b
+include/openssl/kssl.h
+@comment MD5:ef41a4548b7a8a843671d0fc099ed986
+include/openssl/lhash.h
+@comment MD5:21735af68543cd0a54499538fb2aad91
+include/openssl/md4.h
+@comment MD5:0abb566c1f52702733a75b0030cef5bc
+include/openssl/md5.h
+@comment MD5:767219dfc48d51b407d0caf8e6ca6f66
+include/openssl/modes.h
+@comment MD5:bf75b011c4b08d04dc73beacf9ad5dc0
+include/openssl/obj_mac.h
+@comment MD5:a4f71e2aeb6fcc48fcbdb7182b6507b8
+include/openssl/objects.h
+@comment MD5:8e0d582c3832716776507f5e5377e382
+include/openssl/ocsp.h
+@comment MD5:3c6a2686c223596bfe925c8fca229325
+include/openssl/opensslconf.h
+@comment MD5:3e1695f97eb9f534dc9342318ba08b0a
+include/openssl/opensslv.h
+@comment MD5:fb55d821f5cf750bcb9ae0cc85fe8472
+include/openssl/ossl_typ.h
+@comment MD5:3ddaa4d18a86cf70844ef5dec22d029e
+include/openssl/pem.h
+@comment MD5:e19ea67a4c1f7eaf0b3cb14430d4de23
+include/openssl/pem2.h
+@comment MD5:2aee9bcf129f9962f3afaed608385850
+include/openssl/pkcs12.h
+@comment MD5:377c953472d264194defcab01e84acb3
+include/openssl/pkcs7.h
+@comment MD5:60056674d8f372c0c057948ff82cac18
+include/openssl/pqueue.h
+@comment MD5:08e291548d9a920f534ea0717ee3ed88
+include/openssl/rand.h
+@comment MD5:59482dd9d13d5bae11c60b9b58c72dd8
+include/openssl/rc2.h
+@comment MD5:fab3ec0cef078659173ea0f240e550e3
+include/openssl/rc4.h
+@comment MD5:208ef5f4157247735fa4a3b398bb9981
+@comment include/openssl/rc5.h
+include/openssl/ripemd.h
+@comment MD5:47bf4f85f6e64a8b3a256c6054ad978a
+include/openssl/rsa.h
+@comment MD5:fe6eb97639f21e616d2689a38c00c816
+include/openssl/safestack.h
+@comment MD5:f7d4c67f308fbcef4949377de0210fca
+include/openssl/seed.h
+@comment MD5:9223ab5e6fe28f8a1a86ffcfb2ae97d8
+include/openssl/sha.h
+@comment MD5:cf1ab074ac83c2a9a816af7b56956856
+include/openssl/srp.h
+@comment MD5:67a758bb8464e03c871eb319d27715bc
+include/openssl/srtp.h
+@comment MD5:f232ed23f053921415ccbba183450077
+include/openssl/ssl.h
+@comment MD5:bc107091829e2c50e11e3fbabaf9ad26
+include/openssl/ssl2.h
+@comment MD5:1f09055734935df2d4e1ef6f422c5d8e
+include/openssl/ssl23.h
+@comment MD5:71ae764cc97086829353194e4d9ff2e9
+include/openssl/ssl3.h
+@comment MD5:a25aa11379fb6a3a7aa267468e8bf04c
+include/openssl/stack.h
+@comment MD5:496edebcb9743ece2afc4bc30633b78f
+include/openssl/symhacks.h
+@comment MD5:4952d34b8dce07dfcadd89833d8e26aa
+include/openssl/tls1.h
+@comment MD5:21f39b5535561aa64ca2e54b0a34f013
+include/openssl/ts.h
+@comment MD5:8a196b4c58b728d453b904b184bed1f7
+include/openssl/txt_db.h
+@comment MD5:fcc321cd99e3ba3c9b221a8933934112
+include/openssl/ui.h
+@comment MD5:16997bbaaf6308d36de33b23007b374f
+include/openssl/ui_compat.h
+@comment MD5:279bd1f134aeccff4ebfc039a85917dd
+include/openssl/whrlpool.h
+@comment MD5:64527b40b13f086e46e9cc4c67cc060e
+include/openssl/x509.h
+@comment MD5:dd0979374f36c2d46a2a9e82ac80665b
+include/openssl/x509_vfy.h
+@comment MD5:68e8b940490ae136faf07c437c0e0cf8
+include/openssl/x509v3.h
+@comment MD5:2c1df9631ca5c445bb46a01de1046a04
+lib/engines/lib4758cca.so
+@comment MD5:be228db0f73cc2c8a840e79c6cf29ecc
+lib/engines/libaep.so
+@comment MD5:5c9ac15cc454e3b1576ffa92b43a2dcd
+lib/engines/libatalla.so
+@comment MD5:c082ace6fc37aee7f62133d3f0e5d119
+lib/engines/libcapi.so
+@comment MD5:81a110bece2c12fb0686a22e9cbdc6ea
+lib/engines/libchil.so
+@comment MD5:1e9fc7c7b4062e18af08d80a39f1e605
+lib/engines/libcswift.so
+@comment MD5:205d9fb1689b8f3ed4b4ecc4011d35d8
+lib/engines/libgmp.so
+@comment MD5:79d41a38fe5c2b6e3608c2a0467c6381
+lib/engines/libgost.so
+@comment MD5:680e8137eaee349e881d1c7b4170a684
+lib/engines/libnuron.so
+@comment MD5:964ef77dc60858dc0516f9763d2fb540
+lib/engines/libpadlock.so
+@comment MD5:1f7be1eb2cca58bfde287426013db744
+lib/engines/libsureware.so
+@comment MD5:32167cfaa5184928fda7978f1b6626a7
+lib/engines/libubsec.so
+@comment MD5:2a344511236338520143101bcc622018
+lib/libcrypto.a
+@comment MD5:38fcbdb5e460c733362fc5948cd8cb5b
+lib/libssl.a
+@comment MD5:5652214b4945fbc8016c62b5b6eb286c
+lib/pkgconfig/libcrypto.pc
+@comment MD5:43a0f166f9c1af2546b9adfea0676b3c
+lib/pkgconfig/libssl.pc
+@comment MD5:326f54768e66ff1bbad5ea8c37b2fd18
+lib/pkgconfig/openssl.pc
+@comment MD5:890bf623d9a332e4aa82b02b184b69a9
+share/examples/openssl/c_hash
+@comment MD5:11612e0bac6e19e1bb35d038e691b72c
+share/examples/openssl/c_info
+@comment MD5:45bbf2e1f1a5a2ff772ac81ecab10729
+share/examples/openssl/c_issuer
+@comment MD5:7a5ec6cc06ca0d45332feb59a9aaaf1a
+share/examples/openssl/c_name
+@comment MD5:e6828944a8b442b7a040405fbe3f9a1f
+share/examples/openssl/CA.pl
+@comment MD5:5b5f6952f93e8365a22efef5771d3b57
+share/examples/openssl/CA.sh
+@comment MD5:948439fd3f17dc7d9511305aa1f1355a
+share/examples/openssl/openssl.cnf
+@comment MD5:ce31ab5015842bf7c2939514a634e0e4
+share/examples/openssl/tsget
+lib/libcrypto.so
+@comment Symlink:libcrypto.so.1.0.0
+lib/libcrypto.so.1.0.0
+@comment MD5:bd44372d1082488f9bb9f04e6692302f
+lib/libssl.so
+@comment Symlink:libssl.so.1.0.0
+lib/libssl.so.1.0.0
+@comment MD5:13c1ab313a7801ae4b6b94d140952cc9

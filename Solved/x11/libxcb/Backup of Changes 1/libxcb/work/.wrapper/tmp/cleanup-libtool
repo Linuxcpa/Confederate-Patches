@@ -1,0 +1,4 @@
+libtool_fix_la="/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.wrapper/tmp/libtool-fix-la"
+if $test -n "$lafile" && $test -f "$lafile"; then
+        . $libtool_fix_la
+fi

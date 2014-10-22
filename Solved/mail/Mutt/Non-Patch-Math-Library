@@ -1,0 +1,3 @@
+Uses math library. The following added to /boot/home/pkg/mk.conf will eliminate the error.
+
+BUILDLINK_TRANSFORM+= rm:-lm

@@ -1,0 +1,5 @@
+Pkgsrc make file uses hard links.
+
+You have to edit pkgsrc/mk/tools/tools.Haiku.mk, line 90 to read:
+TOOLS_PLATFORM.ln?=		/bin/ln -s
+

@@ -1,0 +1,36 @@
+XCOMM ------------------------------------------------------------------
+XCOMM $Title: Imakefile  --  for gnyaclock $
+XCOMM $Creator: HAYAKAWA Takashi <h-takasi@is.titech.ac.jp> $
+XCOMM $Id: Imakefile,v 1.2 1995/01/06 07:25:50 h-takasi Exp $
+XCOMM ------------------------------------------------------------------
+
+#define SUPPORT_EDITRES
+#define SUPPORT_XPM
+
+/*
+ * for XPM support
+ */
+#ifdef SUPPORT_XPM
+    EXTRA_INCLUDES = -I${X11PREFIX}/include
+       XPM_LIBRARY = -lXpm
+#endif
+
+/*
+ * for Editres Protocol support
+ */
+#ifdef SUPPORT_EDITRES
+           DEFINES = -DSUPPORT_EDITRES
+           DEPLIBS = XawClientDepLibs
+   LOCAL_LIBRARIES = $(XPM_LIBRARY) XawClientLibs
+#else
+           DEPLIBS = $(DEPXTOOLLIB) $(DEPXMULIB) $(DEPEXTENSIONLIB) $(DEPXLIB)
+   LOCAL_LIBRARIES = $(XPM_LIBRARY) $(XTOOLLIB) $(XMULIB) \
+                     $(EXTENSIONLIB) $(XLIB)6
+#endif
+
+
+     SYS_LIBRARIES = -lm
+              SRCS = gnyaclock.c Clock.c XDrBezier.c
+              OBJS = gnyaclock.o Clock.o XDrBezier.o
+
+ComplexProgramTarget(gnyaclock)

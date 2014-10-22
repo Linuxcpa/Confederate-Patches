@@ -1,0 +1,1 @@
+I had to uninstall and remake libelf, otherwise glib2 would not link.

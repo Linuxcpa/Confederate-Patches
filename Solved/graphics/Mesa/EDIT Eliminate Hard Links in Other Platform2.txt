@@ -1,0 +1,12 @@
+The source code for Mesalib has hard links built into the tar file.
+pkgsrc will fetch star from ftp ftp://ftp.NetBSD.org/pub/pkgsrc/distfiles/
+Right now, the file system for Haiku does not support hard links.
+So extracting the source from the original tar file will fail in Haiku, unless the hard links are removed.
+
+To remove the hard links in Linux, I extracted the archive as I normally would.
+
+I used the following command to zip the source back up the without hard links:
+
+tar --hard-dereference -cvjf 
+
+

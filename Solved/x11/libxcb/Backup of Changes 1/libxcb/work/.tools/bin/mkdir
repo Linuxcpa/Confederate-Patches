@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.work.log}"
+echo "[*] "/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.tools/bin/mkdir" $@" >> $wrapperlog
+echo "<.> /bin/mkdir -p "$@"" >> $wrapperlog
+/bin/mkdir -p "$@"

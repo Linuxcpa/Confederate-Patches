@@ -1,0 +1,5 @@
+#!/bin/sh
+wrapperlog="${TOOLS_WRAPPER_LOG-/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.work.log}"
+echo "[*] "/boot/home/pkgsrc/pkgsrc/x11/libxcb/work/.tools/bin/automake-1.13" $@" >> $wrapperlog
+echo "<.> /boot/home/pkgsrc/pkgsrc/mk/gnu-config/missing automake" >> $wrapperlog
+/boot/home/pkgsrc/pkgsrc/mk/gnu-config/missing automake

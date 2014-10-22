@@ -1,0 +1,11 @@
+bootstrap	digest>=20010302	digest-20121220
+tool	libxslt>=1.1.0	libxslt-1.1.28nb3
+tool	py34-xcbgen>=1.9	py34-xcbgen-1.10nb1
+tool	python34>=3.4	python34-3.4.1nb1
+tool	libtool-base>=2.2.6bnb3	libtool-base-2.4.2nb7
+tool	nbpatch-[0-9]*	nbpatch-20100124
+tool	pkg-config>=0.25	pkg-config-0.28
+build	xcb-proto>=1.9	xcb-proto-1.11
+build	xproto>=7.0.9	xproto-7.0.26
+full	libXdmcp>=0.99	libXdmcp-1.1.1
+full	libXau>=1.0	libXau-1.0.8

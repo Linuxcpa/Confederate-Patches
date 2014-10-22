@@ -1,0 +1,27 @@
+DEPLIBS=XawClientDepLibs
+LOCAL_LIBRARIES=XawClientLibs
+SRCS=xtimer.c
+OBJS=xtimer.o
+XCOMM ----- FreeBSD
+CDEBUGFLAGS+=-Wall -O -g -pipe
+XCOMM -----
+XCOMM CDEBUGFLAGS=
+
+ComplexProgramTarget(xtimer)
+
+V=8089
+BASENAME=xtimer
+DISTFILES= $(SRCS) $(HEADERS) Imakefile README $(BASENAME).man mkport
+dist:
+	$(RM) -r $(BASENAME)-$(V)
+	mkdir $(BASENAME)-$(V)
+	ln $(DISTFILES) $(BASENAME)-$(V)
+	tar -czf $(BASENAME)-$(V).tar.gz $(BASENAME)-$(V)
+	$(RM) -r $(BASENAME)-$(V)
+
+clean::
+	$(RM) -r $(BASENAME)-$(V).tar.gz $(BASENAME)-$(V) $(BASENAME)-$(V)-port*.tar.gz
+
+port: dist
+	$(RM) $(BASENAME)
+	sh mkport

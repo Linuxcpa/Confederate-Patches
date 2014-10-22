@@ -1,0 +1,23 @@
+In file included from /boot/home/pkgsrc/pkgsrc/lang/python27/work/Python-2.7.7/Modules/tk.h:96:0,
+                 from /boot/home/pkgsrc/pkgsrc/lang/python27/work/Python-2.7.7/Modules/_tkinter.c:71:
+/boot/home/pkgsrc/pkgsrc/lang/python27/work/Python-2.7.7/Modules/Xlib.h:47:28: fatal error: X11/Xfuncproto.h: No such file or directory
+ #include <X11/Xfuncproto.h>
+                            ^
+compilation terminated.
+
+Python build finished, but the necessary bits to build these modules were not found:
+bsddb185           gdbm               linuxaudiodev   
+nis                ossaudiodev        sunaudiodev     
+To find the necessary bits, look in setup.py in detect_modules() for the module's name.
+
+
+Failed to build these modules:
+_curses            _curses_panel      _sqlite3        
+_tkinter           dbm                readline        
+
+running build_scripts
+/bin/install -c -o user -g root -m 644 ./Lib/BaseHTTPServer.py /boot/home/pkg/lib/python2.7
+/bin/install -c -o user -g root -m 644 ./Lib/Bastion.py /boot/home/pkg/lib/python2.7
+/bin/install -c -o user -g root -m 644 ./Lib/CGIHTTPServer.py /boot/home/pkg/lib/python2.7
+/bin/install -c -o user -g root -m 644 ./Lib/ConfigParser.py /boot/home/pkg/lib/python2.7
+/

@@ -1,0 +1,3 @@
+You have to get the source some other way besides pkgsrc, which insusts on using tar.
+
+If hard links are built into the archive - I don't know how to make this use symlinks instead. The --hard-delimit does not work.
