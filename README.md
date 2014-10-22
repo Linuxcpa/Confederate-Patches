@@ -1,7 +1,7 @@
 Confederate-Patches
 ===================
 
-For pkgsrc in Haiku
+USE HKPKGSRC!!!! MY REPOSITORY IS JUST FOR IDEAS.
 
 I am not a programmer. I just did whatever I could to get things to compile. 
 This repository is meant for people who know to fix what I could not.
