@@ -53,30 +53,136 @@ underlying chronic issue, not because I made changes to the code or the compile 
 
 In general, Haiku only has a 10% to 20% sucessful build rate.
 By vanilla, I mean the source code is not patched and pkgsrc settings to avoid errors, are not in place.
+Clearly the pkgsrc overrides, discussed in another readme, provide a bulk of thesucess the below statistics imply.
+
+I will provide, in separate files, an updated set of statistics for each category in a different location.
+However, a summary is below:
 
 Category statistics:
 
-I will provide, in separate files, an updated set of statistics for each category.
-However, the breakdown is as follows:
-
-Archivers: 
+1. Archivers: 
 105 Available, 76 compiled
 18 known packages that required modification to compile:
 a.) Code changes: 18
 b.) Changes to makefiles: 2
 c.) Pkgsrc settings produced sucessful compile: 4
 
-1. Audio: 
-477 Available, 93 compiled
+2. Audio: 
+477 Available, 94 compiled
 No further analysis has been performed yet.
 However, I had issues getting SDL to compile, until I recently used Diger's settings.
 
-2. Benchmarks: 
-43 Available, 27 compiled
+3. Benchmarks: 
+43 Available, 28 compiled
 8 known packages that required modification to compile:
 a.) Code changes: 6
 b.) Pkgsrc settings produced sucessful compile: 2
 
-3. Biolgy: 
+4. Biolgy: 
 35 Available, 21 compiled
 0 known packages that required modification to compile.
+
+5. Cad: 
+68 Available, 22 compiled
+
+6. Chat:
+138 Available, 41 compiled
+
+7. Comms:
+71 Available, 21 compiled
+
+8. Converters:
+117 Available, 80 compiled
+
+9. Databases:
+457 Available, 120 compiled
+
+10. Devel:
+1855 Available, 1104 compiled
+
+11. Editors:
+163 Available, 34 compiled
+
+12. Emulators:
+102 Available, 21 compiled
+
+13. Filsystems:
+10 Available, 5 compiled
+
+14. Finance:
+32 Available, 9 compiled
+
+15. Fonts:
+322 Available, 236 compiled
+
+16. Games:
+375 Available, 88 compiled
+
+17. Geography:
+55 Available, 30 compiled
+
+18. Graphics:
+567 Available, 161 compiled
+
+19. Ham:
+34 Available, 3 compiled
+
+20. Inputmethod:
+129 Available, 26 compiled
+
+21. Lang:
+129 Available, 26 compiled
+
+22. Mail:
+227 Available, 67 compiled
+
+23. Math:
+267 Available, 108 compiled
+
+24. Mbone:
+12 Available, 2 compiled
+
+25. Misc:
+336 Available, 99 compiled
+
+26. Multimedia:
+193 Available, 18 compiled
+
+27. Net:
+780 Available, 206 compiled
+
+28. News:
+20 Available, 6 compiled
+
+29. Parallel:
+19 Available, 5 compiled
+
+30. Pkgtools:
+60 Available, 47 compiled
+
+31. Print:
+782 Available, 526 compiled
+
+32. Security:
+452 Available, 162 compiled
+
+33. Shells:
+29 Available, 9 compiled
+
+34. Sysutils:
+580 Available, 119 compiled
+
+35. Textproc:
+810 Available, 478 compiled
+
+36. Time:
+158 Available, 118 compiled
+
+37. Wm:
+94 Available, 35 compiled
+
+38. Www:
+760 Available, 340 compiled
+
+39. X11:
+698 Available, 193 compiled
