@@ -1,0 +1,37 @@
+These patches were created in a GCC4 nighly, Rev 47523.
+
+I used pkgsrc stable 2014-Q2.
+
+Origin of patches:
+
+Unfortunately, I didn't follow a consistent framework when making changes. 
+However, in general, my methodology was as follows:
+
+1. Attempt to compile without my actively patching:
+If the compile suceeded, it was because:
+a.) The pkgsrc settings used replaced otherwise necessary patching
+b.) The source code will compile in a vanilla state
+c.) Pkgsrc patches caused the compile to suceed
+d.) Diger's localpatches for pkgsrc caused the compile to succeed
+In situations a - d above, I am most likely unaware of which of these factors resulted in success.
+
+2. Attempt to patch the source with:
+a.) Patches from Haikuports
+b.) Patches otherwise available (pingwinek, email list discussions, etc.)
+c.) Patch the source myself in a way that is most likely acceptable (add a header, simple function definition)
+d.) Patch the source myself in away that I cannot determine the appropriateness of the change
+I cannot easily differentiate between situatons a-d above. 
+However, I have tracked the changes by providing either a full file (Most cases) or a patch (rarely).
+
+Statistics:
+
+In geberal, Pkgsrc provides 39 categories in which packages can be compiled for Haiku.
+I will provide, in separate files, an updated set of statistics for each category.
+However, the breakdown is as follows:
+
+Archivers: 
+105 Available, 76 compiled
+18 known packages that required modification to compile:
+a.) Code changes: 18
+b.) Changes to makefiles: 2
+c.) Pkgsrc settings produced sucessful compile: 4
