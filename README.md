@@ -1,5 +1,5 @@
-Confederate-Patches
-===================
+Confederate-Patches FOR PKGSRC IN HAIKU 
+=======================================
 
 USE HKPKGSRC!!!! 
 
