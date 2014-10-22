@@ -1,0 +1,34 @@
+Since you have taken the time to read this, I assume that you are either:
+
+A. Sophisticated with regard to compiling applications (Which I am not)
+
+B. Desparate enough to try what I've done, but not sophisticated enough to know if my changes are correct.
+
+C. Curious
+
+***A. For those sofisticated with regard to compiling applications:***
+
+I. I released files with code changes, in the manner that I did, because I am aware that:
+
+1. *In some cases*, although I have made *some* progress with *some* applications, there probably is a better
+way to solve the problem I had. My hope is that you will improve upon my changes and deliver them for use 
+by the masses.
+
+2. Even though I am not a programmer, I have started the process. I hope to save you time by bringing you right
+to the problem.
+
+3. Full files allow you to judge the soundness of the code as a whole when my changes are included.
+
+4. If I made fundamental mistakes in my changes, they won't end up auto-patched into code without examination.
+
+II. I released the tools settings to:
+
+1. Raise awareness of patch reducing technologies
+
+2. Encourage the incorporation of these technologies into application porting toolsets
+
+***B. For those desparate enough to try what I have done:***
+
+I released these files, in the manner that I did, because I am aware that:
+
+1. You may decide that it is worth the risk to try
