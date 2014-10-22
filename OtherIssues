@@ -1,0 +1,22 @@
+These issues stop some packages from compiling. The cause of the underlying problem is unclear. 
+It is uncertan if attempts to resolve the underlying problem are being made:
+
+1. Perl cannot be compiled with threads
+
+2. Python 27 will not build all of the modules
+
+3. PHP 54 Dependent programs will fail to create shared libraries
+
+4. Libexecinfo will report that it can't determine the gcc version
+
+5. Numerous programs will report: Trouble resolving symbol -2147477870, including zlib and libintl.
+
+6. Programs dependent upon heirloom-libcommon will fail to find heirloom-libcommon at link time.
+
+7. Programs dependent upon libpcap will fail to find libpcap at link time.
+
+8. A patched Flex, consistant with BEOS patching will allow programs to build that otherwise wouldn't.
+
+9. Some errors that have halted a compilation have later not halted the compilation, or vice versa.
+
+10. Patches between versions of GCC (4 vs 2) do not apply equally, some may only work on 1, but not the other.
