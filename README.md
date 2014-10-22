@@ -1,7 +1,15 @@
 Confederate-Patches
 ===================
 
-USE HKPKGSRC!!!! MY REPOSITORY IS JUST FOR IDEAS.
+USE HKPKGSRC!!!! 
+
+http://code.google.com/p/hpkgsrc/
+
+MY REPOSITORY IS JUST FOR IDEAS.
+
+COME BACK IF YOU ARE DESPERATE.
+
+OR USE IF YOU WANT TO TAKE WHAT I STARTED AND MAKE IT USEABLE.
 
 I am not a programmer. I just did whatever I could to get things to compile. 
 This repository is meant for people who know to fix what I could not.
