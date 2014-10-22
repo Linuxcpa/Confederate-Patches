@@ -11,8 +11,13 @@ COME BACK IF YOU ARE DESPERATE.
 
 OR USE IF YOU WANT TO TAKE WHAT I STARTED AND MAKE IT USEABLE.
 
-I am not a programmer. I just did whatever I could to get things to compile. 
-This repository is meant for people who know to fix what I could not.
+I am not a programmer. 
+
+I just did whatever I could to get things to compile. 
+
+Sometimes, I had to use a dog's wishbone, or poke a voodoo doll.
+
+***This repository is meant for people who know to fix what I could not.***
 
 If you see purple smoke coming out the back of your computer, don't be surprised.
 
