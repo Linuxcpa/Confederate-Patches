@@ -23,9 +23,8 @@ d.) Patch the source myself in away that I cannot determine the appropriateness 
 I cannot easily differentiate between situatons a-d above. 
 However, I have tracked the changes by providing either a full file (Most cases) or a patch (rarely).
 
-Statistics:
+Chronic Haiku Issues That Make Creation of a Full Suite of Packages Unrealistically Difficult:
 
-In geberal, Pkgsrc provides 39 categories in which packages can be compiled for Haiku.
 Additional to the specific statistics I provide below by category, there are chronic
 system wide issues that cause compilation failures thatare common to each category.
 In some cases, I was able to sucessfully compile a package because I had resolved the 
@@ -51,12 +50,16 @@ underlying chronic issue, not because I made changes to the code or the compile 
 18. Function undeclared in scope
 19. Configure file not modified to build for Haiku
 
+Statistics:
+
 In general, Haiku only has a 10% to 20% sucessful build rate.
 By vanilla, I mean the source code is not patched and pkgsrc settings to avoid errors, are not in place.
 Clearly the pkgsrc overrides, discussed in another readme, provide a bulk of thesucess the below statistics imply.
 
 I will provide, in separate files, an updated set of statistics for each category in a different location.
 However, a summary is below:
+
+In general, Pkgsrc provides 39 categories in which packages can be compiled for Haiku.
 
 Category statistics:
 
@@ -84,105 +87,174 @@ b.) Pkgsrc settings produced sucessful compile: 2
 
 5. Cad: 
 68 Available, 22 compiled
+0 known packages that required modification to compile.
 
 6. Chat:
 138 Available, 41 compiled
+3 known packages that required modification to compile:
+a.) Code changes: 3
 
 7. Comms:
 71 Available, 21 compiled
+2 known packages that required modification to compile:
+a.) Pkgsrc settings produced sucessful compile: 2
 
 8. Converters:
 117 Available, 80 compiled
+2 known packages that required modification to compile:
+a.) Changes to makefiles: 2
+b.) 1 incomplete build
 
 9. Databases:
 457 Available, 120 compiled
+0 known packages that required modification to compile.
 
 10. Devel:
 1855 Available, 1104 compiled
+11 known packages that required modification to compile:
+a.) Code changes: 7
+b.) Changes to makefiles: 2
+c.) Pkgsrc settings produced sucessful compile: 2
+Note: Bison required no patch for GCC4, but a patch for GCC2
 
 11. Editors:
 163 Available, 34 compiled
+3 known packages that required modification to compile:
+a.) Code changes: 1
+b.) Changes to makefiles: 1
+c.) Pkgsrc settings produced sucessful compile: 1
 
 12. Emulators:
 102 Available, 21 compiled
+4 known packages that required modification to compile:
+a.) Code changes: 1
+b.) Changes to makefiles: 2
+c.) Pkgsrc settings produced sucessful compile: 1
 
 13. Filsystems:
 10 Available, 5 compiled
+0 known packages that required modification to compile.
 
 14. Finance:
 32 Available, 9 compiled
+0 known packages that required modification to compile.
 
 15. Fonts:
 322 Available, 236 compiled
+0 known packages that required modification to compile.
 
 16. Games:
 375 Available, 88 compiled
+1 known package that required modification to compile:
+a.) Changes to makefiles: 1
 
 17. Geography:
 55 Available, 30 compiled
+1 known package that required modification to compile:
+a.) Code changes: 1
 
 18. Graphics:
 567 Available, 161 compiled
+3 known packages that required modification to compile:
+a.) Code changes: 2
+b.) Pkgsrc settings produced sucessful compile: 1
 
 19. Ham:
 34 Available, 3 compiled
+0 known packages that required modification to compile.
 
 20. Inputmethod:
 129 Available, 26 compiled
+0 known packages that required modification to compile.
 
 21. Lang:
 129 Available, 26 compiled
+6 known packages that required modification to compile:
+a.) Code changes: 5
+b.) File relocations: 1
 
 22. Mail:
 227 Available, 67 compiled
+1 known package that required modification to compile:
+a.) Pkgsrc settings produced sucessful compile: 1
 
 23. Math:
 267 Available, 108 compiled
+0 known packages that required modification to compile.
 
 24. Mbone:
 12 Available, 2 compiled
+1 known package that required modification to compile.
+a.) Code changes: 1
 
 25. Misc:
 336 Available, 99 compiled
+0 known packages that required modification to compile.
 
 26. Multimedia:
 193 Available, 18 compiled
+2 known packages that required modification to compile:
+a.) Pkgsrc settings produced sucessful compile: 2
 
 27. Net:
 780 Available, 206 compiled
+3 known packages that required modification to compile:
+a.) Code changes: 1
+b.) Changes to makefiles: 2
 
 28. News:
 20 Available, 6 compiled
+0 known packages that required modification to compile.
 
 29. Parallel:
 19 Available, 5 compiled
+0 known packages that required modification to compile.
 
 30. Pkgtools:
 60 Available, 47 compiled
+1 known package that required modification to compile:
+a.) Code changes: 1
 
 31. Print:
 782 Available, 526 compiled
+0 known packages that required modification to compile.
 
 32. Security:
 452 Available, 162 compiled
+4 known packages that required modification to compile:
+a.) Code changes: 1
+b.) Changes to makefiles: 2
+c.) Pkgsrc settings produced sucessful compile: 1
 
 33. Shells:
 29 Available, 9 compiled
+0 known packages that required modification to compile.
 
 34. Sysutils:
 580 Available, 119 compiled
 
 35. Textproc:
 810 Available, 478 compiled
+1 known package that required modification to compile:
+a.) Code changes: 1
 
 36. Time:
 158 Available, 118 compiled
+7 known packages that required modification to compile:
+a.) Code changes: 1
+b.) Changes to makefiles: 6
 
 37. Wm:
 94 Available, 35 compiled
+0 known packages that required modification to compile.
 
 38. Www:
 760 Available, 340 compiled
+3 known packages that required modification to compile:
+a.) Code changes: 3
 
 39. X11:
 698 Available, 193 compiled
+7 known packages that required modification to compile:
+a.) Code changes: 4
+b.) Changes to makefiles: 3
