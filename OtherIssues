@@ -1,5 +1,12 @@
-These issues stop a significant number of packages from compiling. The cause of the underlying problem is unclear. 
-It is uncertan if attempts to resolve the underlying problem are being made:
+Keep in mind, that I used a nightly build, that is not officially supported. 
+
+I cannot determinbe if any of the issues outlined below are not issues on the Hybrid build.
+Some issues may be pkgsrc related, or simply a result of my not knowing how to patch things correctly.
+
+These issues represent my experience with the operating system, using pkgsrc with the changes I made to source. 
+They stopped a noticeable number of packages from compiling. The cause of the underlying problem is unclear. 
+It is uncertan (to me) if attempts to resolve the underlying problem are being made.
+It is very possible that I patched something incorrectly:
 
 1. Perl cannot be compiled with threads
 
@@ -19,34 +26,34 @@ It is uncertan if attempts to resolve the underlying problem are being made:
 
 9. Some errors that have halted a compilation have later not halted the compilation, or vice versa.
 
-10. Patches between versions of GCC (4 vs 2) do not apply equally, some may only work on 1, but not the other.
+10. Patches between versions of GCC (4 vs 2) do not apply equally at times. 
+Most do work for both, but some may only work on 1, but not the other.
 
-***The following issues are chronically problematic, of great annoyance, but are unlikely to be remidied.
-Requests for resolution have been ignored or rebranded as problems with the packages themselves:***
+***The following issues are chronically problematic, of great annoyance, but are unlikely to be remidied.***
 
-1. A writeable /usr directory
+1. A writeable /usr directory (There is a work around for this)
 
 2. Write access to /boot/system
 
 3. XMS Shared memory
 
-4. Headers with very common definitions that are non posix
+4. Headers don't contain frequently used definitions but are non posix
 
-5. Make changes to the system such that patches submitted to projects rejected.
+5. Support for hard links in file system.
 
 
 ***The following chronic functionality issues undermine the operating system's useability:***
 
 1. There is no clear way to run X11 programs
 
-2. Packages not built inside of Haikuporter can't find libraries
+2. Packages not built inside of Haikuporter can't find libraries.
 The libraries are $PATHED properly and even have the library path embedded in them.
 
-3. Patches that work on one system won't work on the other.
+3. Printing driver choices are limited, printing services cannot withstand large jobs
 
-4. Printing driver choices are limited, printing services cannot withstand large jobs
+4. Networking is limited to ftp and email. 
 
-5. Networking is limited to ftp
+5. Ocassional kernel panics when files are downloaded
 
 6. NFS is broken
 
