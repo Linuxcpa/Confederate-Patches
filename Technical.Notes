@@ -8,10 +8,10 @@ Unfortunately, I didn't follow a consistent framework when making changes.
 However, in general, my methodology was as follows:
 
 1. Attempt to compile without my actively patching:
-If the compile suceeded, it was because:
+If the compile succeeded, it was because:
 a.) The pkgsrc settings used replaced otherwise necessary patching
 b.) The source code will compile in a vanilla state
-c.) Pkgsrc patches caused the compile to suceed
+c.) Pkgsrc patches caused the compile to succeed
 d.) Diger's localpatches for pkgsrc caused the compile to succeed
 In situations a - d above, I am most likely unaware of which of these factors resulted in success.
 
@@ -26,15 +26,13 @@ However, I have tracked the changes by providing either a full file (Most cases)
 ***Chronic Haiku Issues That Make Creation of a Full Suite of Packages Unrealistically Difficult:***
 
 Additional to the specific statistics I provide below by category, there are chronic
-system wide issues that cause compilation failures thatare common to each category.
-In some cases, I was able to sucessfully compile a package because I had resolved the 
-underlying chronic issue, not because I made changes to the code or the compile process:
+system wide issues that cause compilation failures that are common to each category:
 
 1. Dependencies that will not compile without patching or pkgsrc override.
 2. Undefined references
 3. Previously defined references
 4. Unavailable header
-5. Available headers not found, source code #include <> pathed differenly from system, no redirecting header 
+5. Available headers not found, source code #include <> is pathed differenly from system, no redirecting header 
 6. Trouble resolving symbols
 7. Unrecognized command line option: -rdynamic
 8. Unknown name type: fd_set
@@ -52,14 +50,23 @@ underlying chronic issue, not because I made changes to the code or the compile 
 
 Statistics:
 
-In general, Haiku only has a 10% to 20% sucessful build rate.
-By vanilla, I mean the source code is not patched and pkgsrc settings to avoid errors, are not in place.
-Clearly the pkgsrc overrides, discussed in another readme, provide a bulk of thesucess the below statistics imply.
+In some cases, I was able to sucessfully compile a package because I had resolved an 
+issue that prevented a dependency from compiling. I cannot judge the quaity or 
+appropriateness of my changes, I just assume they were poor. 
+
+However, once the dependent package compiled, it allowed the dependecy to compile.
+
+In general, Haiku has a 10% to 30% sucessful build rate for vanilla builds.
+By vanilla, I mean the source code is not patched, nor are and pkgsrc settings crafted to avoid errors.
+In other words, a build with no effort to port.
+
+Clearly the pkgsrc overrides, discussed in another readme, provide a bulk of the success the below statistics imply.
+But, success was still limited - as I am not experienced and have no programming skills.
 
 I will provide, in separate files, an updated set of statistics for each category in a different location.
 However, a summary is below:
 
-In general, Pkgsrc provides 39 categories in which packages can be compiled for Haiku.
+Pkgsrc provides 39 categories in which packages can be compiled for Haiku.
 
 Category statistics:
 
@@ -79,7 +86,7 @@ However, I had issues getting SDL to compile, until I recently used Diger's sett
 43 Available, 28 compiled
 8 known packages that required modification to compile:
 a.) Code changes: 6
-b.) Pkgsrc settings produced sucessful compile: 2
+b.) Pkgsrc settings produced successful compile: 2
 
 4. Biolgy: 
 35 Available, 21 compiled
@@ -97,7 +104,7 @@ a.) Code changes: 3
 7. Comms:
 71 Available, 21 compiled
 2 known packages that required modification to compile:
-a.) Pkgsrc settings produced sucessful compile: 2
+a.) Pkgsrc settings produced successful compile: 2
 
 8. Converters:
 117 Available, 80 compiled
@@ -114,7 +121,7 @@ b.) 1 incomplete build
 11 known packages that required modification to compile:
 a.) Code changes: 7
 b.) Changes to makefiles: 2
-c.) Pkgsrc settings produced sucessful compile: 2
+c.) Pkgsrc settings produced successful compile: 2
 Note: Bison required no patch for GCC4, but a patch for GCC2
 
 11. Editors:
@@ -122,14 +129,14 @@ Note: Bison required no patch for GCC4, but a patch for GCC2
 3 known packages that required modification to compile:
 a.) Code changes: 1
 b.) Changes to makefiles: 1
-c.) Pkgsrc settings produced sucessful compile: 1
+c.) Pkgsrc settings produced successful compile: 1
 
 12. Emulators:
 102 Available, 21 compiled
 4 known packages that required modification to compile:
 a.) Code changes: 1
 b.) Changes to makefiles: 2
-c.) Pkgsrc settings produced sucessful compile: 1
+c.) Pkgsrc settings produced successful compile: 1
 
 13. Filsystems:
 10 Available, 5 compiled
@@ -157,7 +164,7 @@ a.) Code changes: 1
 567 Available, 161 compiled
 3 known packages that required modification to compile:
 a.) Code changes: 2
-b.) Pkgsrc settings produced sucessful compile: 1
+b.) Pkgsrc settings produced successful compile: 1
 
 19. Ham:
 34 Available, 3 compiled
@@ -176,7 +183,7 @@ b.) File relocations: 1
 22. Mail:
 227 Available, 67 compiled
 1 known package that required modification to compile:
-a.) Pkgsrc settings produced sucessful compile: 1
+a.) Pkgsrc settings produced successful compile: 1
 
 23. Math:
 267 Available, 108 compiled
@@ -194,7 +201,7 @@ a.) Code changes: 1
 26. Multimedia:
 193 Available, 18 compiled
 2 known packages that required modification to compile:
-a.) Pkgsrc settings produced sucessful compile: 2
+a.) Pkgsrc settings produced successful compile: 2
 
 27. Net:
 780 Available, 206 compiled
@@ -224,7 +231,7 @@ a.) Code changes: 1
 4 known packages that required modification to compile:
 a.) Code changes: 1
 b.) Changes to makefiles: 2
-c.) Pkgsrc settings produced sucessful compile: 1
+c.) Pkgsrc settings produced successful compile: 1
 
 33. Shells:
 29 Available, 9 compiled
