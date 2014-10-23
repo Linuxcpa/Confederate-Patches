@@ -1,0 +1,40 @@
+My aim in writing this is to provide information about certain pkgsrc 
+features that are very well suited for Haiku.
+My hope is to help people that want to use these features.
+Or, perhaps, to inform anyone working on Haikuporter the usefulness 
+of the features, such that they may decide to add them.
+
+To enact a feature or turn off a setting, edit /boot/home/pkg/etc/mk.conf
+
+1. Pkgsrc annoyance to turn off:
+
+a.) License checks 
+
+SKIP_LICENSE_CHECK = YES
+
+2. Pkgsrc file location settings you can change:
+
+a.) Where packages are compiled
+By default, packages compile in pkgsrc/NameOfPackage/work/PackageName-VersionNumber
+
+It is easier to just delete work directories, rather than bmake clean.
+To allow for this, without deleting the recipies and patches for a package, 
+you can change the location where packages compile. So, for example, if you want
+to have your packages land in /boot/work//NameOfPackage/work/PackageName-VersionNumber, 
+use the followig setting:
+
+WRKOBJDIR= /boot/work
+
+b.) Where source code is downloaded to
+By default, pkgsrc places downloaded source files in pkgsrc/distfiles.
+
+If you want to change this, and have the files land in say /boot/distfiles, 
+use the following setting:
+
+DISTDIR= /boot/distfiles
+
+c.) Where compiled packages are ultimately placed.
+NOTE: THERE MAY BE A BETTER WAY TO DO THIS
+
+To do so, you have to edit two files: pkgsrc/mk/pkg
+
