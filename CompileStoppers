@@ -1,5 +1,6 @@
 In spite of the preexistance of some recipes or patches made at Haikuporter, or even some of Diger's patches,
-the following non-exhaustive list of uncompiled dependent packages will not compile with a newer version under GCC 4.
+the following non-exhaustive list of uncompiled dependent packages will not compile for me under GCC 4.
+These packages are newer or older than what has been successfuly previously built with Haikuporter recipies or patches.
 These packages cause their dependent packages to fail:
 
 1. ACUNIA-JAM
