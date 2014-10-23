@@ -1,0 +1,183 @@
+├── archivers ***105*** ***70 Installed, 6 Installable*** ***Count 76*** ***Pass Complete***
+│   ├── 9e 				(Installed)
+│   ├── advancecomp 			(Installed)
+│   ├── afio 				{3}
+│   ├── arc  				(Installed){8}
+│   ├── archangel 			{9}
+│   ├── arj 				(Installed){45}{16}
+│   ├── ark				{71}{18}{62}
+│   ├── bicom 				(Installed)
+│   ├── bsdtar 				(Installed){7}
+│   ├── bunzip 				(Installed)
+│   ├── bzip2 				(Installed){2}{5}{10}{70}
+│   ├── cabextract 			(Installed)
+│   ├── dact 				(Installed)
+│   ├── dar				{19}
+│   ├── fastjar 			(Installed)
+│   ├── fcrackzip 			(Installed)
+│   ├── file-roller			{73}{72}{57}{20}
+│   ├── freeze				(Installed){22}
+│   ├── gcpio 				(Installable){9}{38}{39}{64}
+│   ├── gsharutils 			(Installed)
+│   ├── gtar				(Installed){21}{38}{40}{64}
+│   ├── gtar-base			(Installed){21}{38}{40}{64}
+│   ├── gtar-info 			(Installed)
+│   ├── gzip 				(Installed){15}
+│   ├── gzrecover 			(Installed)
+│   ├── ha 				(Installed)
+│   ├── heirloom-tar			{74}{17} 
+│   ├── hpack 				{58}{59}{47}
+│   ├── jamjar				{41}
+│   ├── lbrate 				(Installed)
+│   ├── lcab				{49}
+│   ├── lha 				(Installed){6}{11}
+│   ├── lhasa 				(Installable){12}
+│   ├── libarchive 			(Installed){60} {4}
+│   ├── libcomprex 			(Installed)
+│   ├── liblzo 				(Installed)
+│   ├── libunrar			(Installed){42}{65}
+│   ├── libzip 				(Installed}{10}{63}{70}
+│   ├── lrzip				{24}{2}
+│   ├── lz4				(Installed)
+│   ├── lzip 				(Installed)
+│   ├── lziprecover 			(Installed)
+│   ├── lzma				(Installable){32}{33}
+│   ├── lzmalib 			(Installed)
+│   ├── lzo 				(Installed)
+│   ├── lzop 				(Installed)
+│   ├── macutil				{51}
+│   ├── makeself 			(Installed)
+│   ├── mousetar			{52}
+│   ├── mscompress 			(Installed)
+│   ├── nomarch 			(Installed)
+│   ├── nulib2 				(Installed)
+│   ├── ocaml-bz2			{54}{25}{67}{68}
+│   ├── ocaml-zip			{54}{25}{67}{68}
+│   ├── p5-Archive-Any 			(Installed)
+│   ├── p5-Archive-Any-Lite		(Installed){27}
+│   ├── p5-Archive-Peek  		(Installed)
+│   ├── p5-Archive-Tar 			(Installed)
+│   ├── p5-Archive-Zip 			(Installed)
+│   ├── p5-Compress-Bzip2		(Installed){26}
+│   ├── p5-Compress-LZMA-Simple		(Installed){33}{26}
+│   ├── p7zip				(Installed){29}{75}
+│   ├── par2 				(Installed)
+│   ├── pax 				(Installed)
+│   ├── pbzip2				{53}
+│   ├── pdbar 				(Installed)
+│   ├── php-bz2				{1}{28}
+│   ├── php-zip				{1}{28}
+│   ├── php-zlib			{1}{28}
+│   ├── pigz 				(Installed){2}{10}{70}
+│   ├── ppmd				(Installed)(44}
+│   ├── ppunpack 			(Installed)
+│   ├── py-yuicompressor		{50}{66}
+│   ├── rar				{30}
+│   ├── rox-archive			{61}{57}{55}
+│   ├── ruby-archive-tar-minitar	{31}
+│   ├── ruby-bz2			{31}
+│   ├── ruby-libarchive			{31}
+│   ├── ruby-xz				{31}
+│   ├── ruby-zip			{31}
+│   ├── rzip				(Installed)
+│   ├── sarab				{48}
+│   ├── squsq 				(Installed)
+│   ├── star 				(Installed){56}{69}
+│   ├── szip 				(Installed)
+│   ├── torrentzip 			(Installed)
+│   ├── unace 				(Installed){6}
+│   ├── unalz 				(Installed){4}
+│   ├── unarj 				(Installed){6}
+│   ├── undms 				(Installed)
+│   ├── unlzx 				(Installed)
+│   ├── unrar				(Installed){42}{65}
+│   ├── unshield 			(Installed)
+│   ├── unzip 				(Installed){10}{63}{70}
+│   ├── unzoo 				(Installed)
+│   ├── upx 				(Installable){36}
+│   ├── xar				{43}
+│   ├── xbin				{46}
+│   ├── xmill 				(Installed){6}
+│   ├── xpk 				(Installed)
+│   ├── xz 				(Installable){34}{37}
+│   ├── zip 				(Installed)
+│   ├── zoo				(Installed){23}
+│   ├── zutils 				(Installable){14}
+│   └── zziplib 			(Installed){13}{35}
+
+{1} Linking error: Fails to build .so files
+{2} Original error: -lpthread
+{3} Missing: <sys/sysmacros.h>.
+{4} Original note: Seems to favor or require GCC 4
+{5} Original error: Required edit to pkgsrc makefile convert 'ln -f' to 'ln -sf' Dealt with by pkgsrc settings.
+{6} Original pkgsrc error: non BSD license
+{7} Original note: broken build from architecture switch
+{8} Original error: storage size of variable 'tvp' unknown
+{9} Multiple warnings, and mention of develop/headers/bsd/zlib.h (Need a better description)
+{10} Original pkgsrc error: hard links in pkgsrc build process.
+{11} Package conflict: lhasa
+{12} Package conflict: lha
+{13} Original note: Took several attempts to build. Cause and solution is unclear
+{14} Package conflict: gzip
+{15} Package conflict: zutils
+{16} Original error: environ.c. related to disk storage space and priority functions in Windows or windowing. (Need a better description)
+{17} Original error: wanted herloom-libcommon before it was built
+{18} Original error: wanted glu before it was built
+{19} Error in filesystem.cpp: makedev: declared: major, minor
+{20} Original error: wanted py27-expat before it was built.
+{21} Original error: -lnetwork
+{22} Original error: pkgsrc issue - unable to find files in .destdir for package assembly
+{23} Original error: makefile presupposed location of system headers at /usr/include/stdio.h
+{24} Error in ____: Undefined references to 'mlock' 'munlock' 'getpriority' and 'gethash'
+{25} Original error: wanted ocaml before it was built
+{26} Original error: missing perl header inet.h
+{27} Original error: wanted p5-PathTools before it was built.
+{28} Original error: wanted php54 before it was built
+{29} Original error: failed at ld build.
+{30} Error in ./configure: Haiku unsupported
+{31} Wants ruby, but its not built yet
+{32} Original error: -lm
+{33} Package conflict: xz
+{34} Package conflict: lzma.
+{35} Original error: Error in ____: undefined reference to 'lchmod.'
+{36} Original error: needed overrides in mk.conf turned off.
+{37} Original error: needed configure arguement: CONFIGURE_ARGS+=sys_lib_d/search_path_spec="/boot/home/pkg/lib /boot/pkg/lib."
+{38} Original error: can't build "grmt" part of package.
+{39} Package conflict: gtar or gtar-base.
+{40} Package conflict: gcpio
+{41} Wants acunia-jam, but its not built yet.
+{42} Original error: "little Endian".
+{43} Pkgsrc has an incomplete Makefile and when configure is run natively, without Haikuports, it "cannot guess build type."
+{44} Original error: wanted unrar before it was built
+{45} Original error: missing: <sys/statfs.h>
+{46} Original error: Storage size of variable 'tzone' unknown.
+{47} Previous declartation of 'strlwr' in develop/headers/bsd/string.h
+{48} Wants archivers/dar, but its not built yet
+{49} Error in main.c: Undefined reference to 'warn'
+{50} Wants lang/kaffe, but its not built yet.
+{51} Missing: <sys/dir.h>
+{52} Missing: <sys/mtio.h>
+{53} Error in pbzip2.cpp:'getloadavg' undeclaired
+{54} Wants ocaml-findlib, but its not built yet.
+{55} Original error: wanted glib2 before it was built
+{56} Original error: Had hard links in source tar
+{57} Original error: wanted gnome-doc-utils before it was built
+{57} Original error: wanted gobject-introspection before it was built
+{58} Error in system.h: conflicting types, previous declaration of 'strlwr' at /boot/home/system/develop/headers/bsd/string.h
+{59} Original error: Error in _____: unknown type 'va_list'
+{60} Original error: require specs override
+{61} Wants pango, but its not built yet
+{62} Original error: wanted cmake  before it was built
+{63} Original error: multiple undefined references in unzip.c: 'G', 'version', 'handler', 'zstrnicmp', 'envargs', 'frames', 'process_zipfiles' and 'globalsCstor.'
+{64} Original error: local headers not found, copied in.
+{65} Original error: consio.cpp: undefined reference to "getpass". Patches involving .rsrc files were problematic, once eliminated, success.
+{66} Original error: wanted Python 27 before it was built
+{67} Original error: wanted Ocaml before it was built
+{68} Original note: It doesn't like mk.conf PKG_CONFIG_PATH=boot/home/pkg/lib/pkgconfig setting.
+{69} Original error: -lnetwork
+{70} Original error: Errors in unix.c
+{71} Wants qt4-libs, but its not built yet
+{72} Original error: wanted pixman before it was built
+{73} Wants cairo, but its not built yet
+{74} Error in tar.c: missing: <sys/scsi.h>
+{75} With Haikuports patches, an undefined reference to "getpass" remained in UserInputUtils.cpp, removing the function allowed the build to proceed.

@@ -1,0 +1,156 @@
+├── emulators ***102*** ***19 Installed, 0 Installable*** ***Count 19*** ***Pass Complete***
+│   ├── aliados					{3}
+│   ├── applyppf 				(Installed)
+│   ├── aranym					{7}				
+│   ├── arcem					{35}
+│   ├── arnold					{7}
+│   ├── atari800				{7}
+│   ├── b-em					{31}{5}
+│   ├── BasiliskII				{3}
+│   ├── blinkensim				{50}{51}{32}{6}
+│   ├── bochs					{8}
+│   ├── ckmame 					(Installed)
+│   ├── cmdpack 				(Installed)
+│   ├── Cygne-SDL				{7}
+│   ├── darcnes					{46}{36}{4}
+│   ├── DatLib 					(Installed)
+│   ├── DatUtil 				(Installed)
+│   ├── dega					{44}{9}
+│   ├── dgen					{44}{9}
+│   ├── dosbox					{44}{1}
+│   ├── dynagen					{36}{10}
+│   ├── dynamips				{52}{37}{10}
+│   ├── e-uae					{50}{51}{32}{6}
+│   ├── fceu					{7}
+│   ├── fmsx					{11}
+│   ├── free42					{38}{6}
+│   ├── fuse					{38}{6}
+│   ├── fuse-utils				(Installed){12}
+│   ├── gambatte				{7}
+│   ├── gcube					{44}{9}{10}
+│   ├── generator				{44}{9}{10}
+│   ├── generator-cbiere			{44}{9}{10}
+│   ├── gens					{44}{9}{10}
+│   ├── gns3					{41}{10}
+│   ├── gnuboy 					(Installed)
+│   ├── gnuboy-sdl				{7}
+│   ├── gpsim					{50}{51}{32}{12}
+│   ├── gpsim-devel				{50}{51}{32}{12}
+│   ├── gpsim-oscilloscope			{50}{51}{32}{12}
+│   ├── gxemul					(Installed) {33} {13}
+│   ├── handy_sdl				{7}
+│   ├── hatari					{34}{5}
+│   ├── hercules 				{2}
+│   ├── hercules-images 			(Installed)
+│   ├── ia64sim					{46}{36}{40}
+│   ├── kegs					{46}{36}{39}
+│   ├── kenigma					{14}
+│   ├── klh10					{15}
+│   ├── libspectrum				(Installed){5}
+│   ├── lrmi					{16}
+│   ├── makeppf 				(Installed)
+│   ├── mame					{48}{43}{12}
+│   ├── MAMEDiff 				(Installed)
+│   ├── mednafen				{7}
+│   ├── mess					{48}{43}{12}
+│   ├── minivmac 				(Installed)
+│   ├── mmix					{14}
+│   ├── NeoPop-SDL				{7}
+│   ├── nestopia				{17}
+│   ├── openmsx					{18}
+│   ├── or1ksim					(Installed){19}
+│   ├── p11					{20}
+│   ├── palmosemulator				{14}
+│   ├── pcemu					{21}
+│   ├── pearpc					{45}{9}
+│   ├── qemu					{7}
+│   ├── qemu0					{7}
+│   ├── raine					{44}{9}
+│   ├── realboy					{7}
+│   ├── ROMBuild 				(Installed)
+│   ├── ROMInfo 				(Installed)
+│   ├── simh					{22}
+│   ├── simulavr				{14}
+│   ├── ski					{10}
+│   ├── sms_sdl					{7}
+│   ├── snes9x					{47}{9}
+│   ├── snes9x-gtk				{34}{9}
+│   ├── spim					{23}
+│   ├── stella					{7}{12}
+│   ├── swarm					{29}
+│   ├── sys161					{30}
+│   ├── tme					{50}{51}{32}{6}
+│   ├── tuxnes					{24}
+│   ├── twin					{5}
+│   ├── uae					{50}{51}{32}{6}
+│   ├── ucon64 					(Installed)
+│   ├── vba					{42}{9}
+│   ├── vice					{21}
+│   ├── vmips					{25}
+│   ├── wine					{50}{51}{32}{6}
+│   ├── wine-devel				{50}{51}{32}{42}{6}
+│   ├── x48 					(Installed)
+│   ├── xbeeb					{26}
+│   ├── xcopilot				{46}{36}{39}
+│   ├── xhomer					{46}{49}{36}{39}{4}
+│   ├── xm7					{11}
+│   ├── xnp2					{50}{51}{32}{6}
+│   ├── xtrs					{27}
+│   ├── xyame					{28}
+│   ├── yabause					{53}{31}{5}
+│   ├── z26					{44}{9}
+│   ├── ZIPIdent 				(Installed)
+│   └── zsnes					{48}{9}
+{1} Note: will compile patched in Haiku if gcc4 is used, but the keyboard has problems.
+{2} Error in ctc_lcs.c: incomplete type
+{3} Error in realconsole.cpp: 'tputs' not declared in this scope.
+{4} Original error: missing: <sys/shm.h> 
+{5} Original error: wanted cmake before it was built
+{6} Original error: wanted py27-cElementTree before it was built
+{7} Wants esound, but its not built yet.
+{8} Compile error: no rule to make target '-lltdl'
+{9} Original error: wanted nasm before it was built
+{10} Original error: can't find '-lelf'
+{11} Pkgsrc did not download sources
+{12} Original error: wanted glib2 before it was built
+{13} Original error: my -lnetwork injection from mk.conf interferes, it can't find the Makefile.
+{14} Original error: wanted mesalib before it was built
+{15} Has hard links in tar file
+{16} Error in vbetest.c: Unused variable
+{17} Wants alsa, but that isn't built yet
+{18} Compile error: Can't find liboss.la
+{19} Original error: -lnetwork
+{20} Functions defined but not used: 'mkd' and 'dmpflt'
+{21} Wants libXfont, but it isn't built yet.
+{22} Error ib sim_sock.c: undeclaired identifier
+{23} Previous declaration of 'strtol' in posix/stdlib.h
+{24} Error in x11.c: xariable set but not used: 'count'
+{25} Error in TerminalController.h: 'unready_keyboards' not declaired in this scope
+{26} Error in fserve.c: misassigned arguement type 'StartLfwiFunc'
+{27} Compile error: pkgsrc sed error
+{28} Compile error: Not available for Haiku
+{29} Compile error: fatal error: sys/endian.h: No such file or directory in swarm_types.h
+{30} Compile error: "Cannot configure more than one architecture"
+{31} Original error: wanted glu before it was built
+{32} Original error: wanted gobject-introspection before it was built
+{33} Original error: Required manual edit to makefile to add -lnetwork
+{34} Wants portaudio, but it hasn't been built yet.
+{35} Missing: <sys/utime.h>
+{36} Original error: Unknown type name: VA_LIST
+{37} Compile error: can't find -ldl
+{38} Wants gtk2, but its not built yet.
+{39} Original error was: Missing <sys/xcb.h>
+{40} Original error was: Missing <sys/elf.h>
+{41} Wants dynamips, but its not built yet
+{42} Original error: wanted flex before it was built
+{43} Original error: wanted libidl before it was built
+{44} Wants SDL, but its not built yet
+{45} Compile error: unable to find timer mechanism
+{46} Error in ____: undefined reference to 'shmget' 'shmdt' 'shmctl' 'shmat'
+{47} Wants libusb, but its not built yet
+{48} Wants esound, but its not built yet
+{49} Original note: needs specs on and pkgsrc patches gone
+{50} Wants cairo, but its not built yet
+{51} Original error: wanted pixman before it was built
+{52} Compile error: libpcap: unresolved symbol
+{53} WEants qt4-libs, but its not built yet

@@ -1,0 +1,781 @@
+├── net ***780*** ***201 Installed, 3 Installable*** ***Count 204*** ***Pass Complete***
+│   ├── 3proxy
+│   ├── 6tunnel
+│   ├── adns					(Installed)
+│   ├── aget					(Installed)
+│   ├── aiccu
+│   ├── airport2basestationconfig
+│   ├── airportbasestationconfig
+│   ├── airportmodemutility
+│   ├── amule
+│   ├── aoe-vblade
+│   ├── apollo
+│   ├── argus
+│   ├── aria2
+│   ├── arp-scan
+│   ├── arpd
+│   ├── arping
+│   ├── arpwatch
+│   ├── autonet
+│   ├── avahi
+│   ├── awhois					(Installed)
+│   ├── balance
+│   ├── barnyard
+│   ├── batchftp
+│   ├── bftpd
+│   ├── bind96					(Installable)
+│   ├── bind98
+│   ├── bind99					(Installed)
+│   ├── bing					(Installed)
+│   ├── bird
+│   ├── bird6
+│   ├── bittornado
+│   ├── bittornado-gui
+│   ├── bittorrent
+│   ├── bittorrent-gui
+│   ├── bmon					(Installed)
+│   ├── bounce
+│   ├── bpalogin				(Installed)
+│   ├── bridged
+│   ├── bsddip
+│   ├── btget
+│   ├── btpd					(Installed)
+│   ├── bug-buddy
+│   ├── bwping					(Installed)
+│   ├── cacti
+│   ├── cacti-spine
+│   ├── calypso
+│   ├── cclive
+│   ├── ccrtp
+│   ├── cdpd
+│   ├── cftp
+│   ├── chimera					(Installed)
+│   ├── chksniff
+│   ├── choparp
+│   ├── choqok
+│   ├── chrony
+│   ├── cia
+│   ├── cidr
+│   ├── cisco-mibs				(Installed)
+│   ├── citrix_ica
+│   ├── clisp-rawsock
+│   ├── clive					(Installed)
+│   ├── cmu-dhcpd
+│   ├── cntlm
+│   ├── coda
+│   ├── coherence
+│   ├── coilmq
+│   ├── connect
+│   ├── corkscrew				(Installed)
+│   ├── couriertcpd
+│   ├── csup
+│   ├── dante
+│   ├── darkstat
+│   ├── DarwinStreamingServer
+│   ├── dc_gui2
+│   ├── dcsharp
+│   ├── dctc
+│   ├── ddclient				(Installed)
+│   ├── delegate
+│   ├── dgd
+│   ├── dhcpcd
+│   ├── dhcpcd-dbus
+│   ├── dhcpcd-gtk
+│   ├── dhcpd-pools
+│   ├── dhid					(Installed)
+│   ├── dhisd
+│   ├── djbdns					(Installed)
+│   ├── djbdns-run				(Installed)
+│   ├── dlint					(Installed)
+│   ├── dnscap
+│   ├── dnscheck
+│   ├── dnsdoctor
+│   ├── dnsmasq
+│   ├── dnstop
+│   ├── dnstracer				(Installed)
+│   ├── docsis
+│   ├── driftnet
+│   ├── drill
+│   ├── dtcp
+│   ├── dtcpclient
+│   ├── dtorrent
+│   ├── dynipclient
+│   ├── echoping
+│   ├── ed2k-gtk-gui
+│   ├── edonkey2k
+│   ├── ekiga
+│   ├── entropy
+│   ├── ether2dns
+│   ├── etherape
+│   ├── ettercap
+│   ├── ettercap-NG
+│   ├── exabgp
+│   ├── ez-ipupdate
+│   ├── fair-identd				(Installed)
+│   ├── fetch					(Installed)
+│   ├── filezilla
+│   ├── firewalk
+│   ├── flickcurl
+│   ├── flodo
+│   ├── flow-tools
+│   ├── fmirror					(Installed)
+│   ├── fpdns					(Installed)
+│   ├── fping					(Installed)
+│   ├── fping6
+│   ├── freeDiameter
+│   ├── freenet-tools				(Installed)
+│   ├── freeradius
+│   ├── freeradius2
+│   ├── freerdp
+│   ├── ftplibpp
+│   ├── ftpproxy
+│   ├── gated
+│   ├── GeoIP					(Installed)
+│   ├── Geomyidae
+│   ├── get-flash-videos
+│   ├── gethost					(Installed)
+│   ├── gift					(Installed)
+│   ├── gift-fasttrack				(Installed)
+│   ├── gift-gnutella				(Installed)
+│   ├── gift-openft				(Installed)
+│   ├── giftcurs
+│   ├── gini
+│   ├── gitso
+│   ├── gkrellm-multiping
+│   ├── gkrellm-snmp
+│   ├── gkrellm-wireless
+│   ├── glib-networking
+│   ├── gnapfetch				(Installed)
+│   ├── gnet
+│   ├── gnet1
+│   ├── gnetcat					(Installed)
+│   ├── gnome-netstatus
+│   ├── gnome-nettool
+│   ├── gnome-vfs-smb
+│   ├── gnugk
+│   ├── gofish					(Installed)
+│   ├── gopher					(Installed)
+│   ├── grilo
+│   ├── grilo-plugins
+│   ├── grilo-testui
+│   ├── grive
+│   ├── gsnmp
+│   ├── gssdp
+│   ├── gst-plugins0.10-mms
+│   ├── gst-plugins0.10-rtmp
+│   ├── gst-plugins0.10-soup
+│   ├── gst-plugins1-libnice
+│   ├── gst-plugins1-mms
+│   ├── gst-plugins1-rtmp
+│   ├── gst-plugins1-soup
+│   ├── gt-itm
+│   ├── gtk_wicontrol
+│   ├── gtk-gnutella
+│   ├── gtk-vnc
+│   ├── gupnp
+│   ├── gupnp-av
+│   ├── gupnp-dlna
+│   ├── gupnp-igd
+│   ├── gupnp-tools
+│   ├── haproxy
+│   ├── hesiod					(Installed)
+│   ├── hf6to4					(Installed)
+│   ├── hlfl					(Installed)
+│   ├── host
+│   ├── howl
+│   ├── hping
+│   ├── hping3
+│   ├── hs-network
+│   ├── httping
+│   ├── httptunnel				(Installed)
+│   ├── iana-etc				(Installed)
+│   ├── icinga-base
+│   ├── icsi-finger
+│   ├── iftop
+│   ├── IglooFTP
+│   ├── inadyn
+│   ├── iodine
+│   ├── ipcalc					(Installed)
+│   ├── ipcheck					(Installed)
+│   ├── iperf					(Installed)
+│   ├── ipgrab					(Installed)
+│   ├── iplog
+│   ├── ipv6calc				(Installed)
+│   ├── ipw					(Installed)
+│   ├── irrd
+│   ├── irrtoolset5
+│   ├── isc-dhclient4
+│   ├── isc-dhcp4
+│   ├── isc-dhcpd4
+│   ├── isc-dhcrelay4
+│   ├── ishell					(Installed)
+│   ├── isic
+│   ├── istgt
+│   ├── jftpgw
+│   ├── jigdo
+│   ├── jumpgate
+│   ├── jwhois
+│   ├── kdenetwork-filesharing
+│   ├── kdenetwork-strigi-analyzers
+│   ├── kdenetwork3
+│   ├── kdnssd
+│   ├── kftpgrabber
+│   ├── kget
+│   ├── kiax
+│   ├── kismet
+│   ├── kmldonkey
+│   ├── kmldonkey-kde3
+│   ├── knock
+│   ├── knot
+│   ├── kopete
+│   ├── kphone
+│   ├── kppp
+│   ├── krdc
+│   ├── krfb
+│   ├── ktorrent
+│   ├── ktorrent-kde3
+│   ├── LaBrea
+│   ├── lambdamoo
+│   ├── lambdamoo-core				(Installed)
+│   ├── lambdamoo-doc				(Installed)
+│   ├── latd
+│   ├── ldns					(Installed)
+│   ├── lft
+│   ├── lftp					(Installed)
+│   ├── libares					(Installable)
+│   ├── libasyncns
+│   ├── libbind
+│   ├── libcares				(Installed)
+│   ├── libcmis
+│   ├── libdlna
+│   ├── libdmapsharing
+│   ├── libdmapsharing3
+│   ├── libdnet
+│   ├── libexosip				(Installed)
+│   ├── libfetch				(Installed)
+│   ├── libgdata
+│   ├── libIDL
+│   ├── libktorrent
+│   ├── liblive
+│   ├── libmms
+│   ├── libnice
+│   ├── libnids
+│   ├── libnipper
+│   ├── libpcap					(Installed)
+│   ├── libquvi					(Installed)
+│   ├── libquvi-scripts				(Installed)
+│   ├── libradius				(Installed)
+│   ├── libsoup24
+│   ├── libsscript
+│   ├── libtorrent
+│   ├── libtrace
+│   ├── libupnp
+│   ├── libvncserver
+│   ├── libzrtpcpp
+│   ├── linc
+│   ├── lldpd
+│   ├── llnlxdir
+│   ├── llnlxftp
+│   ├── logjam
+│   ├── lopster
+│   ├── lua-socket				(Installed)
+│   ├── maradns
+│   ├── mbrowse
+│   ├── mcast-tools
+│   ├── md-whois
+│   ├── mDNSResponder
+│   ├── mDNSResponder-nss
+│   ├── microdc2
+│   ├── mikutter
+│   ├── mimms
+│   ├── miniupnpd
+│   ├── mirall
+│   ├── miredo
+│   ├── mirror					(Installed)
+│   ├── mitmproxy
+│   ├── mldonkey
+│   ├── mldonkey-gui
+│   ├── modpcap					(Installed)
+│   ├── mono-nat
+│   ├── monotorrent
+│   ├── monsoon
+│   ├── mosh
+│   ├── mouse-pppoe
+│   ├── mping					(Installed)
+│   ├── mppe-lkm
+│   ├── mrstat
+│   ├── mrt
+│   ├── mrtg					(Installed)
+│   ├── msdl					(Installed)
+│   ├── mtftpd
+│   ├── mtr
+│   ├── mydns-mysql
+│   ├── mydns-pgsql
+│   ├── nagios-base
+│   ├── nagios-nrpe				(Installed)
+│   ├── nagios-nsca				(Installed)
+│   ├── nagios-plugin-dotpid
+│   ├── nagios-plugin-dumpdates
+│   ├── nagios-plugin-fstab
+│   ├── nagios-plugin-ldap
+│   ├── nagios-plugin-milter
+│   ├── nagios-plugin-mysql
+│   ├── nagios-plugin-pgsql
+│   ├── nagios-plugin-radius
+│   ├── nagios-plugin-raidctl
+│   ├── nagios-plugin-snmp
+│   ├── nagios-plugin-spamd
+│   ├── nagios-plugins
+│   ├── nagstamon
+│   ├── nam
+│   ├── nap
+│   ├── napshare
+│   ├── nasd
+│   ├── nbtscan
+│   ├── ncftp3
+│   ├── nemesis
+│   ├── net-snmp
+│   ├── net6
+│   ├── netatalk22
+│   ├── netatalk30
+│   ├── netbsd-iscsi-initiator
+│   ├── netbsd-iscsi-target
+│   ├── netcat
+│   ├── netcat-openbsd
+│   ├── netcat6
+│   ├── netdisco
+│   ├── netgroup
+│   ├── netname
+│   ├── netpipes
+│   ├── nfdump
+│   ├── ngrep
+│   ├── nicotine
+│   ├── nicovideo-dl				(Installed)
+│   ├── nidentd
+│   ├── nipper
+│   ├── nload
+│   ├── nmap
+│   ├── nocol
+│   ├── nprobe
+│   ├── ns
+│   ├── nsd					(Installed)
+│   ├── nslint
+│   ├── nstx
+│   ├── ntop
+│   ├── ntp4
+│   ├── ocamlnet
+│   ├── ocsinventory-agent
+│   ├── ocsync
+│   ├── oidentd
+│   ├── oinkmaster
+│   ├── omniNotify
+│   ├── omniORB
+│   ├── openag					(Installed)
+│   ├── openh323
+│   ├── openntpd
+│   ├── openresolv				(Installed)
+│   ├── openslp
+│   ├── openvmps
+│   ├── openvpn					(Installed)
+│   ├── openvpn-acct-wtmpx
+│   ├── openvpn-nagios
+│   ├── openwbem
+│   ├── ORBit
+│   ├── ORBit2
+│   ├── ortp
+│   ├── overnet
+│   ├── p5-Cisco-Abbrev				(Installed)
+│   ├── p5-Danga-Socket				(Installed)
+│   ├── p5-Data-Stream-Bulk			(Installed)
+│   ├── p5-DNS-ZoneParse			(Installed)
+│   ├── p5-eBay-API				(Installed)
+│   ├── p5-FusionInventory-Agent
+│   ├── p5-FusionInventory-Agent-Task-Network
+│   ├── p5-gcap					(Installed)
+│   ├── p5-Geo-IP				(Installed)
+│   ├── p5-Geo-IPfree				(Installed)
+│   ├── p5-grake				(Installed)
+│   ├── p5-IO-Interface				(Installed)
+│   ├── p5-IO-Socket-INET6			(Installed)
+│   ├── p5-IO-Socket-Multicast			(Installed)
+│   ├── p5-IP-Country				(Installed)
+│   ├── p5-Net					(Installed)
+│   ├── p5-Net-Akismet				(Installed)
+│   ├── p5-Net-Amazon				(Installed)
+│   ├── p5-Net-Amazon-S3			(Installed)
+│   ├── p5-Net-AMQP				(Installed)
+│   ├── p5-Net-Bind				(Installed)
+│   ├── p5-Net-Bonjour				(Installed)
+│   ├── p5-Net-CIDR-Lite			(Installed)
+│   ├── p5-Net-CIDR-Set				(Installed)
+│   ├── p5-Net-Daemon				(Installed)
+│   ├── p5-Net-DBus				(Installed)
+│   ├── p5-Net-Dev-MIBLoadOrder			(Installed)
+│   ├── p5-Net-DHCP				(Installed)
+│   ├── p5-Net-DNS				(Installed)
+│   ├── p5-Net-DNS-Resolver-Programmable	(Installed)
+│   ├── p5-Net-DNS-Zone-Parser			(Installed)
+│   ├── p5-Net-DNSServer
+│   ├── p5-Net-eBay				(Installed)
+│   ├── p5-Net-Frame				(Installed)
+│   ├── p5-Net-Frame-Dump
+│   ├── p5-Net-Frame-Layer-IPv6			(Installed)
+│   ├── p5-Net-Frame-Simple			(Installed)
+│   ├── p5-Net-FTPSSL				(Installed)
+│   ├── p5-Net-GitHub				(Installed)
+│   ├── p5-Net-Gnats				(Installed)
+│   ├── p5-Net-Google				(Installed)
+│   ├── p5-Net-Google-AuthSub			(Installed)
+│   ├── p5-Net-Google-Code			(Installed)
+│   ├── p5-Net-Ident				(Installed)
+│   ├── p5-Net-INET6Glue			(Installed)
+│   ├── p5-Net-Interface
+│   ├── p5-Net-IP				(Installed)
+│   ├── p5-Net-IPv4Addr				(Installed)
+│   ├── p5-Net-IPv6Addr				(Installed)
+│   ├── p5-Net-Jifty				(Installed)
+│   ├── p5-Net-LDAP-Server			(Installed)
+│   ├── p5-Net-Libdnet
+│   ├── p5-Net-Libdnet6
+│   ├── p5-Net-LibIDN				(Installed)
+│   ├── p5-Net-MAC				(Installed)
+│   ├── p5-Net-NBName				(Installed)
+│   ├── p5-Net-OAuth				(Installed)
+│   ├── p5-Net-OpenID-Consumer
+│   ├── p5-Net-Packet
+│   ├── p5-Net-Pcap
+│   ├── p5-Net-RabbitFoot			(Installed)
+│   ├── p5-Net-RawIP
+│   ├── p5-Net-Server				(Installed)
+│   ├── p5-Net-Server-Coro			(Installed)
+│   ├── p5-Net-Server-SS-PreFork
+│   ├── p5-Net-SMTP-TLS				(Installed)
+│   ├── p5-Net-SNMP
+│   ├── p5-Net-SNMP-Mixin
+│   ├── p5-Net-Telnet				(Installed)
+│   ├── p5-Net-Telnet-Cisco			(Installed)
+│   ├── p5-Net-TFTP				(Installed)
+│   ├── p5-Net-Trac				(Installed)
+│   ├── p5-Net-Twitter				(Installed)
+│   ├── p5-Net-Write
+│   ├── p5-Net-XMPP
+│   ├── p5-Net-XWhois				(Installed)
+│   ├── p5-Net-Z3950-ZOOM
+│   ├── p5-NetAddr-IP				(Installed)
+│   ├── p5-NetPacket				(Installed)
+│   ├── p5-Nmap-Parser				(Installed)
+│   ├── p5-POE-Component-Client-DNS
+│   ├── p5-POE-Component-Client-Ident
+│   ├── p5-POE-Component-SNMP
+│   ├── p5-RADIUS				(Installed)
+│   ├── p5-RadiusPerl				(Installed)
+│   ├── p5-Regexp-Common-net-CIDR		(Installed)
+│   ├── p5-Regexp-IPv6				(Installed)
+│   ├── p5-RPC-XML				(Installed)
+│   ├── p5-RT-Client-REST			(Installed)
+│   ├── p5-SNMP_Session				(Installable)
+│   ├── p5-SNMP-Info
+│   ├── p5-SNMP-MIB-Compiler			(Installed)
+│   ├── p5-SOAP-Lite				(Installed)
+│   ├── p5-Socket6				(Installed)
+│   ├── p5-Test-DNS				(Installed)
+│   ├── p5-Test-TCP				(Installed)
+│   ├── p5-umph					(Installed)
+│   ├── p5-Umph-Prompt				(Installed)
+│   ├── p5-WebService-Google-Reader		(Installed)
+│   ├── p5-X500-DN				(Installed)
+│   ├── packit
+│   ├── paris-traceroute			(Installed)
+│   ├── parpd
+│   ├── partysip
+│   ├── pchar
+│   ├── pconsole
+│   ├── pear-Net_DIME
+│   ├── pear-Net_IDNA2
+│   ├── pear-Net_LDAP2
+│   ├── pear-Net_Sieve
+│   ├── pear-Net_SMTP
+│   ├── pear-Net_Socket
+│   ├── pear-Net_URL
+│   ├── pear-SOAP
+│   ├── pen					(Installed)
+│   ├── perlbal
+│   ├── pfnet					(Installed)
+│   ├── php-ftp
+│   ├── php-geoip
+│   ├── php-snmp
+│   ├── php-soap
+│   ├── php-sockets
+│   ├── php-xmlrpc
+│   ├── php-yaz
+│   ├── pim6dd
+│   ├── pim6sd
+│   ├── pload
+│   ├── podcastdl
+│   ├── poink					(Installed)
+│   ├── polsms					(Installed)
+│   ├── poptop
+│   ├── portmap
+│   ├── powerdns
+│   ├── powerdns-ldap
+│   ├── powerdns-mysql
+│   ├── powerdns-pgsql
+│   ├── powerdns-recursor
+│   ├── powerdns-sqlite
+│   ├── powerdns-sqlite3
+│   ├── pppd
+│   ├── pptp
+│   ├── proftpd
+│   ├── proxycheck
+│   ├── proxytunnel				(Installed)
+│   ├── publicfile				(Installed)
+│   ├── puf					(Installed)
+│   ├── pure-ftpd
+│   ├── pxe					(Installed)
+│   ├── py-adns
+│   ├── py-amqp
+│   ├── py-apache-libcloud
+│   ├── py-beanstalkc
+│   ├── py-boto
+│   ├── py-caldav
+│   ├── py-celery
+│   ├── py-dns					(Installed) [x2]
+│   ├── py-dns3
+│   ├── py-dpkt
+│   ├── py-dropbox				(Installed)
+│   ├── py-eventlib
+│   ├── py-foolscap
+│   ├── py-GeoIP
+│   ├── py-gevent
+│   ├── py-google
+│   ├── py-hatop
+│   ├── py-IP					(Installed)
+│   ├── py-irclib
+│   ├── py-kenosis
+│   ├── py-kombu
+│   ├── py-libdnet
+│   ├── py-libpcap
+│   ├── py-medusa				(Installed)
+│   ├── py-metar
+│   ├── py-netifaces
+│   ├── py-netlib				(Installed)
+│   ├── py-omniORBpy
+│   ├── py-ORBit
+│   ├── py-pcap
+│   ├── py-ptt
+│   ├── py-s3cmd
+│   ├── py-simplesoap				(Installed)
+│   ├── py-smb					(Installed)
+│   ├── py-soaplib				(Installed)
+│   ├── py-soappy
+│   ├── py-socketpool
+│   ├── py-softlayer				(Installed)
+│   ├── py-softlayer_messaging
+│   ├── py-spreadmodule
+│   ├── py-suds					(Installed)
+│   ├── py-tweepy
+│   ├── py-twisted
+│   ├── py-twisted-docs				(Installed)
+│   ├── py-twython
+│   ├── py-zmq
+│   ├── py-zsi
+│   ├── pygopherd				(Installed)
+│   ├── qadsl
+│   ├── quagga
+│   ├── queryperf				(Installed)
+│   ├── quvi					(Installed)
+│   ├── ra-rtsp-proxy
+│   ├── rabbiter
+│   ├── rabbitmq
+│   ├── rabbitmq-c
+│   ├── Radicale
+│   ├── radiusclient-ng				(Installed)
+│   ├── radiusd-cistron
+│   ├── rancid
+│   ├── rbldnsd
+│   ├── rdesktop
+│   ├── rdist6
+│   ├── remmina
+│   ├── remmina-plugins
+│   ├── rinetd					(Installed)
+│   ├── rootprobe
+│   ├── rp-l2tp
+│   ├── rp-pppoe
+│   ├── rsync					(Installed)
+│   ├── rtmpdump
+│   ├── rtorrent
+│   ├── ruby-addressable
+│   ├── ruby-amq-client
+│   ├── ruby-amq-protocol
+│   ├── ruby-amqp
+│   ├── ruby-dnsruby
+│   ├── ruby-domain_name
+│   ├── ruby-em-socksify
+│   ├── ruby-icmp
+│   ├── ruby-ipaddress
+│   ├── ruby-net-ldap
+│   ├── ruby-net-ping
+│   ├── ruby-netaddr
+│   ├── ruby-rubytter
+│   ├── ruby-snmp
+│   ├── ruby-soap4r
+│   ├── ruby-stompserver
+│   ├── ruby-tw
+│   ├── ruby-twitter
+│   ├── ruby-twitter-stream
+│   ├── ruby-userstream
+│   ├── samba
+│   ├── samba35
+│   ├── scamper
+│   ├── scapy
+│   ├── scdp
+│   ├── scli
+│   ├── sdig
+│   ├── sdist
+│   ├── SDL_net
+│   ├── SDL2_net
+│   ├── sendfile
+│   ├── ser
+│   ├── sharity-light
+│   ├── sipcalc					(Installed)
+│   ├── sipsak
+│   ├── sitescooper
+│   ├── skype1
+│   ├── skype21
+│   ├── slurm
+│   ├── smokeping
+│   ├── sniffit
+│   ├── sniproxy
+│   ├── snmptt
+│   ├── snort
+│   ├── snort-rules
+│   ├── socat
+│   ├── socket++
+│   ├── socks4
+│   ├── socks5
+│   ├── solaris-tap
+│   ├── speedtouch
+│   ├── spegla
+│   ├── spread
+│   ├── spreadlogd
+│   ├── srsh
+│   ├── sslh
+│   ├── ssmping
+│   ├── ssync
+│   ├── stripes					(Installed)
+│   ├── sup
+│   ├── synergy
+│   ├── synergy1.2
+│   ├── sysmon
+│   ├── tacacs
+│   ├── tacacs-shrubbery
+│   ├── tcl-scotty
+│   ├── tcpdmerge				(Installed)
+│   ├── tcpdpriv
+│   ├── tcpdstat
+│   ├── tcpdump
+│   ├── tcpflow
+│   ├── tcpick
+│   ├── tcpillust
+│   ├── tcpreplay
+│   ├── tcpslice
+│   ├── tcptrace
+│   ├── tcptraceroute
+│   ├── teamspeak-client
+│   ├── teamspeak-server
+│   ├── tightvnc
+│   ├── tightvncviewer
+│   ├── tinc
+│   ├── tinyfugue
+│   ├── tkined
+│   ├── tn5250					(Installed)
+│   ├── tnftp
+│   ├── tnftpd
+│   ├── tor					(Installed)
+│   ├── torrentutils				(Installed)
+│   ├── totd
+│   ├── traceroute-as
+│   ├── traceroute-nanog			(Installed)
+│   ├── trafshow
+│   ├── transmission
+│   ├── transmission-gtk
+│   ├── transmission-qt
+│   ├── trickle
+│   ├── tsclient
+│   ├── tsocks
+│   ├── tspc
+│   ├── ttt
+│   ├── twittering-mode
+│   ├── twitux
+│   ├── u6rd
+│   ├── ucarp
+│   ├── ucspi-ssl				(Installed)
+│   ├── ucspi-tcp				(Installed)
+│   ├── udns
+│   ├── udpcast
+│   ├── udptunnel				(Installed)
+│   ├── uftp
+│   ├── unbound
+│   ├── unfs3
+│   ├── unison
+│   ├── unison2.32
+│   ├── unworkable
+│   ├── upclient
+│   ├── upnpinspector
+│   ├── urlgfe
+│   ├── userppp
+│   ├── uucp
+│   ├── vcheck					(Installed)
+│   ├── vde
+│   ├── vinagre
+│   ├── vino
+│   ├── vnc
+│   ├── vncviewer
+│   ├── vnstat
+│   ├── vpnc
+│   ├── vsftpd
+│   ├── vtun
+│   ├── wakeup					(Installed)
+│   ├── walker					(Installed)
+│   ├── wap-utils				(Installed)
+│   ├── waste
+│   ├── wget					(Installed)
+│   ├── wgetpaste				(Installed)
+│   ├── whatmask				(Installed)
+│   ├── whois3					(Installed)
+│   ├── whoson					(Installed)
+│   ├── wide-dhcpv6
+│   ├── wimon
+│   ├── wireshark
+│   ├── wistumbler
+│   ├── wistumbler2
+│   ├── wistumbler2-gtk
+│   ├── wmget
+│   ├── wminet
+│   ├── wmnd					(Installed)
+│   ├── wmnet
+│   ├── wmpload
+│   ├── wol					(Installed)
+│   ├── wpa_gui
+│   ├── wpa_supplicant
+│   ├── wu-ftpd
+│   ├── x2vnc
+│   ├── xfce4-wavelan-plugin
+│   ├── xfindproxy				(Installed)
+│   ├── xipdump
+│   ├── xl2tpd
+│   ├── xmftp
+│   ├── xnap
+│   ├── xorp
+│   ├── xrmftp
+│   ├── xtraceroute
+│   ├── xymon
+│   ├── xymonclient
+│   ├── yafc
+│   ├── yale-tftpd
+│   ├── yaz
+│   ├── youtube-dl				(Installed)
+│   ├── ytalk					(Installed)
+│   ├── ywho
+│   ├── zeromq
+│   └── zsync					(Installed)

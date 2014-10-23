@@ -1,0 +1,480 @@
+├── audio ***477*** ***92 Installed, 0 Installable, 1 Double Packaged*** ***Count 93***  ***Pass Complete***
+│   ├── abcde
+│   ├── abcmidi 				(Installed)
+│   ├── adplug 					(Installed)
+│   ├── akode 					(Installed)
+│   ├── akode-plugins-alsa
+│   ├── akode-plugins-jack
+│   ├── akode-plugins-mpc 			(Installed)
+│   ├── akode-plugins-mpeg 			(Installed)
+│   ├── akode-plugins-oss
+│   ├── akode-plugins-pulseaudio
+│   ├── akode-plugins-resampler
+│   ├── akode-plugins-sun
+│   ├── akode-plugins-xiph 			(Installed)
+│   ├── alacconvert 				(Installed)
+│   ├── albumplayer
+│   ├── alsa-lib
+│   ├── alsa-plugins-oss
+│   ├── alsa-plugins-pulse
+│   ├── alsa-utils
+│   ├── amaroc
+│   ├── amarok
+│   ├── amarok-kde3
+│   ├── amp
+│   ├── ampache
+│   ├── applerecords
+│   ├── ario
+│   ├── arts
+│   ├── asunder
+│   ├── aubio
+│   ├── audacious
+│   ├── audacious-plugins
+│   ├── audacity
+│   ├── aumix
+│   ├── aumix-gtk
+│   ├── bladeenc
+│   ├── blop
+│   ├── bml 					(Installed)
+│   ├── bmp
+│   ├── bmp-crossfade
+│   ├── bmp-esound
+│   ├── bmp-flac
+│   ├── bmp-mac
+│   ├── bmp-musepack
+│   ├── bmp-pulse
+│   ├── bmp-scrobbler
+│   ├── bmpx
+│   ├── bsl
+│   ├── buzztard
+│   ├── cam
+│   ├── cd-discid
+│   ├── cddb-bundle
+│   ├── cddbd
+│   ├── cdparanoia
+│   ├── cdplayer
+│   ├── celt 					(Installed)
+│   ├── chromaprint
+│   ├── cmp3
+│   ├── cmus
+│   ├── cplay
+│   ├── cripple 				(Installed)
+│   ├── cs4235
+│   ├── csound5
+│   ├── csound5-manual 				(Installed)
+│   ├── csound6
+│   ├── csound6-manual
+│   ├── daapd
+│   ├── dap
+│   ├── darkice
+│   ├── deforaos-mixer
+│   ├── disc-cover
+│   ├── distmp3 				(Installed)
+│   ├── easyh10 				(Installed)
+│   ├── easytag
+│   ├── eawpatches 				(Installed)
+│   ├── emixer
+│   ├── esound
+│   ├── espeak
+│   ├── exaile
+│   ├── ezstream
+│   ├── faac 					(Installed)
+│   ├── faad2 					(Installed)
+│   ├── festival
+│   ├── festival-doc
+│   ├── festlex-cmu
+│   ├── festlex-oald
+│   ├── festlex-ogi
+│   ├── festlex-poslex
+│   ├── festogi-spanish
+│   ├── festvox-abc
+│   ├── festvox-aec
+│   ├── festvox-don
+│   ├── festvox-el11
+│   ├── festvox-en1
+│   ├── festvox-hvs
+│   ├── festvox-jph
+│   ├── festvox-kal16
+│   ├── festvox-kal8
+│   ├── festvox-ked16
+│   ├── festvox-ked8
+│   ├── festvox-mwm
+│   ├── festvox-ogirab
+│   ├── festvox-rab16
+│   ├── festvox-rab8
+│   ├── festvox-tll
+│   ├── festvox-us1
+│   ├── festvox-us2
+│   ├── festvox-us3
+│   ├── flac 					(Installed) {1} {2}
+│   ├── flac123
+│   ├── flac2mp3
+│   ├── flactag
+│   ├── flite 					(Installed)
+│   ├── fluidsynth
+│   ├── freealut 				(Installed)
+│   ├── freepats 				(Installed)
+│   ├── freeswitch-music 			(Installed)
+│   ├── freeswitch-sounds-en 			(Installed)
+│   ├── freeswitch-sounds-fr 			(Installed)
+│   ├── freeswitch-sounds-ru 			(Installed)
+│   ├── freezetag
+│   ├── gbemol
+│   ├── gimmix
+│   ├── gkrellm-volume
+│   ├── glurp
+│   ├── glyr
+│   ├── gmp3info
+│   ├── gmpc
+│   ├── gmpc-alarm
+│   ├── gmpc-albumview
+│   ├── gmpc-jamendo
+│   ├── gmpc-libnotify
+│   ├── gmpc-lyrics
+│   ├── gmpc-lyricwiki
+│   ├── gmpc-magnatune
+│   ├── gmpc-tagedit
+│   ├── gmpc-wikipedia
+│   ├── gnome-audio 				(Installed)
+│   ├── gnome-speech
+│   ├── gnome-speech-espeak
+│   ├── gnome-vfs-cdda
+│   ├── goom
+│   ├── gqmpeg-devel
+│   ├── gqmpeg-skins
+│   ├── gramofile
+│   ├── gsm
+│   ├── gst-buzztard
+│   ├── gst-plugins0.10-a52
+│   ├── gst-plugins0.10-alsa
+│   ├── gst-plugins0.10-cdparanoia
+│   ├── gst-plugins0.10-dts
+│   ├── gst-plugins0.10-esound
+│   ├── gst-plugins0.10-faac
+│   ├── gst-plugins0.10-faad
+│   ├── gst-plugins0.10-flac
+│   ├── gst-plugins0.10-fluendo-mp3
+│   ├── gst-plugins0.10-jack
+│   ├── gst-plugins0.10-lame
+│   ├── gst-plugins0.10-libvisual
+│   ├── gst-plugins0.10-mad
+│   ├── gst-plugins0.10-musepack
+│   ├── gst-plugins0.10-oss
+│   ├── gst-plugins0.10-pulse
+│   ├── gst-plugins0.10-sid
+│   ├── gst-plugins0.10-spc
+│   ├── gst-plugins0.10-speex
+│   ├── gst-plugins0.10-twolame
+│   ├── gst-plugins0.10-vorbis
+│   ├── gst-plugins0.10-wavpack
+│   ├── gst-plugins1-a52
+│   ├── gst-plugins1-alsa
+│   ├── gst-plugins1-cdparanoia
+│   ├── gst-plugins1-dts
+│   ├── gst-plugins1-faac
+│   ├── gst-plugins1-faad
+│   ├── gst-plugins1-flac
+│   ├── gst-plugins1-jack
+│   ├── gst-plugins1-lame
+│   ├── gst-plugins1-libvisual
+│   ├── gst-plugins1-mad
+│   ├── gst-plugins1-oss
+│   ├── gst-plugins1-pulse
+│   ├── gst-plugins1-sid
+│   ├── gst-plugins1-spc
+│   ├── gst-plugins1-speex
+│   ├── gst-plugins1-twolame
+│   ├── gst-plugins1-vorbis
+│   ├── gst-plugins1-wavpack
+│   ├── gtick
+│   ├── gtkmserv
+│   ├── gtkpod
+│   ├── guspatches 				(Installed)
+│   ├── herrie
+│   ├── hydrogen
+│   ├── ibniz
+│   ├── icecast
+│   ├── icecast1
+│   ├── ices-mp3
+│   ├── id3 			`		(Installed)
+│   ├── id3ed 					(Installed)
+│   ├── id3lib 					(Installed)
+│   ├── id3v2 					(Installed)
+│   ├── ifp-line
+│   ├── jack
+│   ├── jack-rack
+│   ├── juke 			`		(Installed)
+│   ├── kid3
+│   ├── kmp
+│   ├── ladspa
+│   ├── lame
+│   ├── liba52 			`		(Installed)
+│   ├── libalac 				(Installed)
+│   ├── libao 					(Installed)
+│   ├── libao-alsa
+│   ├── libao-arts
+│   ├── libao-esound
+│   ├── libao-macosx
+│   ├── libao-nas
+│   ├── libao-oss
+│   ├── libao-pulse
+│   ├── libao-sun
+│   ├── libaudiofile 				(Installed)
+│   ├── libcanberra
+│   ├── libcdaudio
+│   ├── libcddb 				(Installed)
+│   ├── libcuefile
+│   ├── libdca 					(Installed)
+│   ├── libdiscid
+│   ├── libebur128
+│   ├── libfishsound
+│   ├── libgpod
+│   ├── libgroove
+│   ├── libid3tag 				(Installed)
+│   ├── libifp
+│   ├── liblastfm
+│   ├── libmad 					(Installed)
+│   ├── libmikmod 				(Installed)
+│   ├── libmodplug 				(Installed)
+│   ├── libmp3splt 				(Installed)
+│   ├── libmpcdec 				(Installed)
+│   ├── libmpd
+│   ├── libmpdclient
+│   ├── libmtag
+│   ├── libmusepack 				(Installed)
+│   ├── libmusicbrainz
+│   ├── libmusicbrainz5
+│   ├── libofa
+│   ├── libopenspc 				(Installed)
+│   ├── libopus 				(Installed)
+│   ├── libreplaygain
+│   ├── libsamplerate
+│   ├── libshout
+│   ├── libsidplay 				(Installed)
+│   ├── libsidplay2
+│   ├── libsmf
+│   ├── libsndfile
+│   ├── libspiff 		\		(Installed)
+│   ├── libtunepimp
+│   ├── libvisual
+│   ├── libvisual-bmp
+│   ├── libvisual-plugins
+│   ├── libvisual0.2
+│   ├── libvisual0.2-plugins
+│   ├── libvorbis 				(Installed)
+│   ├── libwildmidi
+│   ├── libxmp 					(Installed)
+│   ├── libxspf 				(Installed)
+│   ├── liteamp
+│   ├── liveice
+│   ├── lmms
+│   ├── mac
+│   ├── mad 					(Installed)
+│   ├── mad123
+│   ├── madplay 				(Installed)
+│   ├── malint 					(Installed)
+│   ├── maplay
+│   ├── mbrola
+│   ├── mbrolavox-en1
+│   ├── mbrolavox-us1
+│   ├── mbrolavox-us2
+│   ├── mbrolavox-us3
+│   ├── mikmod 					(Installed)
+│   ├── milkytracker
+│   ├── mixer.app
+│   ├── mkcdtoc 				(Installed)
+│   ├── moc
+│   ├── moc-devel
+│   ├── moodbar
+│   ├── moss
+│   ├── mp3_check 				(Installed)
+│   ├── mp32ogg
+│   ├── mp3asm 					(Installed)
+│   ├── mp3blaster
+│   ├── mp3check 				(Installed)
+│   ├── mp3cut 					(Installed)
+│   ├── mp3diags
+│   ├── mp3gain 				(Installed)
+│   ├── mp3info 				(Installed)
+│   ├── mp3splt
+│   ├── mp3splt-gtk
+│   ├── mp3to
+│   ├── mp3val 					(Installed)
+│   ├── mp3wrap 				(Installed)
+│   ├── mpc
+│   ├── mpdas
+│   ├── mpegaudio 				(Installed)
+│   ├── mpg123
+│   ├── mpg123-arts
+│   ├── mpg123-esound
+│   ├── mpg123-nas
+│   ├── mpg123-oss
+│   ├── mpg123-pulse
+│   ├── mpg123-sun
+│   ├── mpg321
+│   ├── mppenc
+│   ├── mserv
+│   ├── mserv-devel
+│   ├── mserv-irman
+│   ├── mstream
+│   ├── mt-daapd
+│   ├── muse
+│   ├── musepack
+│   ├── musicbrainz
+│   ├── musicpd
+│   ├── mutagen-tools 				(Installed)
+│   ├── nas
+│   ├── nas-auscope
+│   ├── ncmpc
+│   ├── normalize 				(Installed)
+│   ├── nosefart
+│   ├── nspmod
+│   ├── ocp
+│   ├── oggasm
+│   ├── openal 					(Installed)
+│   ├── opencore-amr 				(Installed)
+│   ├── opus-tools 				(Installed)
+│   ├── opusfile 				(Installed)
+│   ├── p5-Audio-CD
+│   ├── p5-Audio-Scan 				(Installed)
+│   ├── p5-Audio-Wav 				(Installed)
+│   ├── p5-CDDB 				(Installed)
+│   ├── p5-CDDB_get 				(Installed)
+│   ├── p5-CDDB-File 				(Installed)
+│   ├── p5-MP3-Info 				(Installed)
+│   ├── p5-MP3-Tag 				(Installed)
+│   ├── p5-MPEG-Audio-Frame 			(Installed)
+│   ├── p5-MusicBrainz-Client
+│   ├── p5-MusicBrainz-Queries
+│   ├── paman
+│   ├── paprefs
+│   ├── pavucontrol
+│   ├── pavumeter
+│   ├── pd
+│   ├── picard
+│   ├── portaudio
+│   ├── portaudio-devel
+│   ├── pulseaudio
+│   ├── py-acoustid
+│   ├── py-ao
+│   ├── py-audioread 				(Installed) [Twice - Python 27 & 34]
+│   ├── py-audiotools
+│   ├── py-beets
+│   ├── py-cddb
+│   ├── py-daap
+│   ├── py-discogs_client
+│   ├── py-dynampd
+│   ├── py-id3 					(Installed)
+│   ├── py-id3lib
+│   ├── py-karaoke
+│   ├── py-last 				(Installed)
+│   ├── py-libmtag
+│   ├── py-mad
+│   ├── py-mpd 			`		(Installed)
+│   ├── py-musicbrainz
+│   ├── py-musicbrainz-ngs
+│   ├── py-musique
+│   ├── py-mutagen 				(Installed)
+│   ├── py-ogg
+│   ├── py-vorbis
+│   ├── qjackctl
+│   ├── qsynth
+│   ├── qtplay
+│   ├── quodlibet2
+│   ├── rexima
+│   ├── rhythmbox
+│   ├── rhythmbox-gtk3
+│   ├── rio
+│   ├── rio500
+│   ├── rioutil
+│   ├── rip 					(Installed)
+│   ├── rosegarden
+│   ├── rplay
+│   ├── rsynth
+│   ├── rtunes
+│   ├── ruby-mp3info
+│   ├── ruby-taglib
+│   ├── SDL_mixer
+│   ├── SDL_sound
+│   ├── SDL2_mixer
+│   ├── sfxr
+│   ├── shntool
+│   ├── shorten 				(Installed)
+│   ├── sidplay
+│   ├── sidplay2
+│   ├── snd
+│   ├── solfege
+│   ├── sonata
+│   ├── sound-juicer
+│   ├── sound-theme-freedesktop
+│   ├── sox
+│   ├── speex 					(Installed)
+│   ├── spiralloops
+│   ├── spiralsynth
+│   ├── splay
+│   ├── sptk
+│   ├── squeezeboxserver
+│   ├── streamripper 				(Installed)
+│   ├── streamripper-current
+│   ├── streamtuner
+│   ├── sweep
+│   ├── taglib
+│   ├── taglib-extras
+│   ├── tap-plugins
+│   ├── tcd
+│   ├── tcl-snack
+│   ├── terminatorx
+│   ├── tfmxplay
+│   ├── timidity
+│   ├── toolame 				(Installed)
+│   ├── tracker
+│   ├── tremor
+│   ├── tremor-tools
+│   ├── trm
+│   ├── tunapie
+│   ├── twolame
+│   ├── ubs 					(Installed)
+│   ├── vcf
+│   ├── vorbis-tools
+│   ├── vorbisgain 				(Installed)
+│   ├── wavesurfer
+│   ├── wavpack 				(Installed)
+│   ├── wmmixer
+│   ├── wmmp
+│   ├── wmmp3
+│   ├── wmsmixer
+│   ├── wmusic
+│   ├── wsoundprefs
+│   ├── wsoundserver
+│   ├── xanalyser
+│   ├── xcdplayer
+│   ├── xfce4-mixer
+│   ├── xfce4-xmms-plugin
+│   ├── xhippo
+│   ├── xine-alsa
+│   ├── xine-esound
+│   ├── xine-pulse
+│   ├── xmcd
+│   ├── xmix
+│   ├── xmmix
+│   ├── xmms
+│   ├── xmms-cdread
+│   ├── xmms-crossfade
+│   ├── xmms-esound
+│   ├── xmms-faad
+│   ├── xmms-flac
+│   ├── xmms-mac
+│   ├── xmms-mad
+│   ├── xmms-meta-input
+│   ├── xmms-meta-timidity
+│   ├── xmms-musepack
+│   ├── xmms-nas
+│   ├── xmms-pulse
+│   ├── xmms-sid
+│   ├── xmms-wma
+│   ├── xmp
+│   ├── xmradio
+│   ├── xsidplay
+│   └── xwave
+{1} Seems to want GCC4
+{2} For GCC2, setarch X86, native configure, trick pkgsrc .configure_done, manual file move.

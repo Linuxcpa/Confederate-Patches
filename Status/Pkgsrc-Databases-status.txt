@@ -1,0 +1,460 @@
+├── databases ***457*** ***118 installed, 1 installable*** ***Count 119*** ***Pass complete***
+│   ├── abook 					(Installed){1}
+│   ├── adodb
+│   ├── apache-cassandra
+│   ├── bdb-xml
+│   ├── cdb 					(Installed)
+│   ├── clisp-bdb
+│   ├── clisp-gdbm
+│   ├── clisp-pgsql
+│   ├── couchdb
+│   ├── csharp-mysql
+│   ├── cstore
+│   ├── datadraw 				(Installed)
+│   ├── db 					(Installed)
+│   ├── db3 					(Installed)
+│   ├── db4 					(Installed)
+│   ├── db5
+│   ├── dbfsak 					(Installed)
+│   ├── dbh 					(Installed)
+│   ├── deforaos-libdatabase
+│   ├── edb 					(Installed)
+│   ├── elasticsearch
+│   ├── freetds
+│   ├── gdbm 					(Installed)
+│   ├── gdbm_compat 				(Installed)
+│   ├── gdbm_primitive 				(Installed)
+│   ├── geneweb
+│   ├── gigabase
+│   ├── gnats
+│   ├── gnome-mime-data 			(Installed)
+│   ├── gourmet
+│   ├── gq
+│   ├── gramps3
+│   ├── gtkdbfeditor
+│   ├── gtksql
+│   ├── guile-pg
+│   ├── hiredis
+│   ├── hsqldb18
+│   ├── idzebra
+│   ├── innotop
+│   ├── iodbc
+│   ├── ipa_sdb
+│   ├── java-db3
+│   ├── java-qdbm
+│   ├── java-tokyocabinet
+│   ├── jdbc-mysql31
+│   ├── jdbc-mysql5
+│   ├── jdbc-postgresql84
+│   ├── jdbc-postgresql92
+│   ├── kmysqladmin
+│   ├── krecipes
+│   ├── lbdb
+│   ├── ldapvi
+│   ├── libcassandra
+│   ├── libdbi 					(Installed)
+│   ├── libdbi-driver-mysql
+│   ├── libdbi-driver-pgsql
+│   ├── libdbi-driver-sqlite
+│   ├── libdbi-driver-sqlite3 			(Installed)
+│   ├── libgda
+│   ├── libgda-mysql
+│   ├── libgda-postgres
+│   ├── libpqxx
+│   ├── libpqxx-doc 				(Installed)
+│   ├── lua-sqlite
+│   ├── lua-sqlite3 				(Installed)
+│   ├── lua-tokyocabinet
+│   ├── luma
+│   ├── maatkit
+│   ├── metakit-lib 				(Installed)
+│   ├── mongo-c-driver
+│   ├── myodbc
+│   ├── mysql-connector-c++
+│   ├── mysql-workbench
+│   ├── mysql51-client
+│   ├── mysql51-server
+│   ├── mysql55-client
+│   ├── mysql55-server
+│   ├── mysql56-client
+│   ├── mysql56-server
+│   ├── mysqlcc
+│   ├── mytop
+│   ├── nss_ldap
+│   ├── nss-pgsql
+│   ├── ocaml-dbm
+│   ├── ocaml-mysql
+│   ├── ocaml-sqlite3
+│   ├── odbc-postgresql
+│   ├── openldap
+│   ├── openldap-client 			(Installed)
+│   ├── openldap-cloak
+│   ├── openldap-doc 				(Installed)
+│   ├── openldap-nops
+│   ├── openldap-server
+│   ├── openldap-smbk5pwd
+│   ├── oraedit 				(Installed)
+│   ├── p5-AddressBook
+│   ├── p5-AnyEvent-BDB 			(Installed)
+│   ├── p5-Apache-DBI 				(Installed)
+│   ├── p5-App-Sqitch
+│   ├── p5-BDB 					(Installed)
+│   ├── p5-BerkeleyDB 				(Installed)
+│   ├── p5-Catalyst-Model-DBIC-Schema
+│   ├── p5-Catalyst-Model-RDBO 			(Installed)
+│   ├── p5-CatalystX-CRUD 			(Installed)
+│   ├── p5-CatalystX-CRUD-Model-RDBO 		(Installed)
+│   ├── p5-CatalystX-CRUD-ModelAdapter-DBIC
+│   ├── p5-CDB_File 				(Installed)
+│   ├── p5-Class-DBI 				(Installed)
+│   ├── p5-Class-DBI-AbstractSearch 		(Installed)
+│   ├── p5-Class-DBI-BaseDSN 			(Installed)
+│   ├── p5-Class-DBI-Pg
+│   ├── p5-Class-DBI-Plugin 			(Installed)
+│   ├── p5-Class-DBI-Plugin-DeepAbstractSearch 	(Installed)
+│   ├── p5-Dancer-Plugin-DBIC 			(Installed)
+│   ├── p5-Data-Table 				(Installed)
+│   ├── p5-DB_File 				(Installed)
+│   ├── p5-DB_File-Lock 			(Installed)
+│   ├── p5-DBD-CSV 				(Installed)
+│   ├── p5-DBD-DB2
+│   ├── p5-DBD-Google 				(Installed)
+│   ├── p5-DBD-Mock 				(Installed)
+│   ├── p5-DBD-mysql
+│   ├── p5-DBD-ODBC 				(Installed)
+│   ├── p5-DBD-Oracle
+│   ├── p5-DBD-PgPP 				(Installed)
+│   ├── p5-DBD-postgresql
+│   ├── p5-DBD-SQLite 				(Installed)
+│   ├── p5-DBD-SQLite2 				(Installed)
+│   ├── p5-DBD-Sybase
+│   ├── p5-DBD-XBase 				(Installed)
+│   ├── p5-DBI 					(Installed)
+│   ├── p5-DBI-Shell 				(Installed)
+│   ├── p5-DBICx-Deploy
+│   ├── p5-DBICx-MapMaker
+│   ├── p5-DBICx-TestDatabase
+│   ├── p5-DBIWrapper 				(Installed)
+│   ├── p5-DBIx-Abstract 			(Installed)
+│   ├── p5-DBIx-Class 				(Installed)
+│   ├── p5-DBIx-Class-Candy 			(Installed)
+│   ├── p5-DBIx-Class-Cursor-Cached
+│   ├── p5-DBIx-Class-DigestColumns 		(Installed)
+│   ├── p5-DBIx-Class-DynamicDefault
+│   ├── p5-DBIx-Class-EncodedColumn
+│   ├── p5-DBIx-Class-Fixtures
+│   ├── p5-DBIx-Class-Helpers 			(Installed)
+│   ├── p5-DBIx-Class-InflateColumn-FS
+│   ├── p5-DBIx-Class-InflateColumn-IP 		(Installed)
+│   ├── p5-DBIx-Class-IntrospectableM2M 	(Installed)
+│   ├── p5-DBIx-Class-Loader 			(Installed)
+│   ├── p5-DBIx-Class-RDBOHelpers
+│   ├── p5-DBIx-Class-Schema-Loader 		(Installed)
+│   ├── p5-DBIx-Class-TimeStamp
+│   ├── p5-DBIx-Class-UUIDColumns
+│   ├── p5-DBIx-Class-Validation 		(Installed)
+│   ├── p5-DBIx-Connector 			(Installed)
+│   ├── p5-DBIx-ContextualFetch 		(Installed)
+│   ├── p5-DBIx-Datasource 			(Installed)
+│   ├── p5-DBIx-DBSchema 			(Installed)
+│   ├── p5-DBIx-Schema 				(Installed)
+│   ├── p5-DBIx-SearchBuilder 			(Installed)
+│   ├── p5-DBM-Deep 				(Installed)
+│   ├── p5-DublinCore-Record 			(Installed)
+│   ├── p5-Fsdb
+│   ├── p5-gdbm 				(Installed)
+│   ├── p5-Ima-DBI 				(Installed)
+│   ├── p5-Jifty-DBI 				(Installed)
+│   ├── p5-MARC 				(Installed)
+│   ├── p5-MARC-Record 				(Installed)
+│   ├── p5-MARC-XML 				(Installed)
+│   ├── p5-MLDBM 				(Installed)
+│   ├── p5-MLDBM-Serializer-JSON 		(Installed)
+│   ├── p5-MLDBM-Sync 				(Installed)
+│   ├── p5-Net-Cassandra 			(Installed)
+│   ├── p5-Net-MySQL 				(Installed)
+│   ├── p5-ORLite 				(Installed)
+│   ├── p5-ORLite-Migrate 			(Installed)
+│   ├── p5-Palm 				(Installed)
+│   ├── p5-perl-ldap 				(Installed)
+│   ├── p5-postgresql
+│   ├── p5-qdbm
+│   ├── p5-Redis 				(Installed)
+│   ├── p5-Rose-DB 				(Installed)
+│   ├── p5-Rose-DB-Object 			(Installed)
+│   ├── p5-Rose-DBx-AutoReconnect 		(Installed)
+│   ├── p5-Rose-DBx-Garden 			(Installed)
+│   ├── p5-Rose-DBx-Garden-Catalyst
+│   ├── p5-Rose-DBx-Object-MoreHelpers 		(Installed)
+│   ├── p5-Rose-DBx-TestDB 			(Installed)
+│   ├── p5-RRD-Simple
+│   ├── p5-Search-QueryParser 			(Installed)
+│   ├── p5-Search-QueryParser-SQL 		(Installed)
+│   ├── p5-Sort-SQL 				(Installed)
+│   ├── p5-SQL-Abstract 			(Installed)
+│   ├── p5-SQL-Abstract-Limit 			(Installed)
+│   ├── p5-SQL-ReservedWords 			(Installed)
+│   ├── p5-SQL-Statement 			(Installed)
+│   ├── p5-SQL-Translator
+│   ├── p5-sqlrelay 				(Installed)
+│   ├── p5-sybperl
+│   ├── p5-Template-DBI 			(Installed)
+│   ├── p5-Tie-DBI 				(Installed)
+│   ├── p5-tokyocabinet
+│   ├── p5-tokyotyrant 				(Installed)
+│   ├── p5-YAML-MLDBM 				(Installed)
+│   ├── palm-db-tools
+│   ├── pear-DB
+│   ├── pear-MDB2
+│   ├── pear-MDB2_Driver_mysql
+│   ├── pear-MDB2_Driver_mysqli
+│   ├── pear-MDB2_Driver_pgsql
+│   ├── pear-MDB2_Driver_sqlite
+│   ├── percona-toolkit
+│   ├── pgadmin3
+│   ├── pgbouncer
+│   ├── pgbuildfarm
+│   ├── pgpool
+│   ├── pgtcl
+│   ├── pgtclng
+│   ├── php-dba
+│   ├── php-dbx
+│   ├── php-ldap
+│   ├── php-mssql
+│   ├── php-mysql
+│   ├── php-mysqli
+│   ├── php-oci8
+│   ├── php-pdo
+│   ├── php-pdo_dblib
+│   ├── php-pdo_mysql
+│   ├── php-pdo_odbc
+│   ├── php-pdo_pgsql
+│   ├── php-pdo_sqlite
+│   ├── php-pgsql
+│   ├── php-redis
+│   ├── php-sqlite
+│   ├── php-sqlrelay
+│   ├── phpldapadmin
+│   ├── phpmyadmin
+│   ├── phppgadmin
+│   ├── poco-data
+│   ├── poco-data-mysql
+│   ├── poco-data-odbc
+│   ├── poco-data-sqlite
+│   ├── postgresql-pgbench
+│   ├── postgresql-postgis
+│   ├── postgresql-uuid
+│   ├── postgresql84
+│   ├── postgresql84-adminpack
+│   ├── postgresql84-client
+│   ├── postgresql84-dblink
+│   ├── postgresql84-pgcrypto
+│   ├── postgresql84-plperl
+│   ├── postgresql84-plpython
+│   ├── postgresql84-pltcl
+│   ├── postgresql84-server
+│   ├── postgresql84-uuid
+│   ├── postgresql90
+│   ├── postgresql90-adminpack
+│   ├── postgresql90-client
+│   ├── postgresql90-datatypes
+│   ├── postgresql90-dblink
+│   ├── postgresql90-docs
+│   ├── postgresql90-fuzzystrmatch
+│   ├── postgresql90-monitoring
+│   ├── postgresql90-pgcrypto
+│   ├── postgresql90-plperl
+│   ├── postgresql90-plpython
+│   ├── postgresql90-pltcl
+│   ├── postgresql90-replicationtools
+│   ├── postgresql90-server
+│   ├── postgresql90-upgrade
+│   ├── postgresql90-uuid
+│   ├── postgresql91
+│   ├── postgresql91-adminpack
+│   ├── postgresql91-client
+│   ├── postgresql91-datatypes
+│   ├── postgresql91-dblink
+│   ├── postgresql91-docs
+│   ├── postgresql91-fuzzystrmatch
+│   ├── postgresql91-monitoring
+│   ├── postgresql91-pgcrypto
+│   ├── postgresql91-plperl
+│   ├── postgresql91-plpython
+│   ├── postgresql91-pltcl
+│   ├── postgresql91-replicationtools
+│   ├── postgresql91-server
+│   ├── postgresql91-upgrade
+│   ├── postgresql92
+│   ├── postgresql92-adminpack
+│   ├── postgresql92-client
+│   ├── postgresql92-datatypes
+│   ├── postgresql92-dblink
+│   ├── postgresql92-docs
+│   ├── postgresql92-fuzzystrmatch
+│   ├── postgresql92-monitoring
+│   ├── postgresql92-pgcrypto
+│   ├── postgresql92-plperl
+│   ├── postgresql92-plpython
+│   ├── postgresql92-pltcl
+│   ├── postgresql92-replicationtools
+│   ├── postgresql92-server
+│   ├── postgresql92-upgrade
+│   ├── postgresql93
+│   ├── postgresql93-adminpack
+│   ├── postgresql93-client
+│   ├── postgresql93-datatypes
+│   ├── postgresql93-dblink
+│   ├── postgresql93-docs
+│   ├── postgresql93-fuzzystrmatch
+│   ├── postgresql93-monitoring
+│   ├── postgresql93-pgcrypto
+│   ├── postgresql93-plperl
+│   ├── postgresql93-plpython
+│   ├── postgresql93-pltcl
+│   ├── postgresql93-replicationtools
+│   ├── postgresql93-server
+│   ├── postgresql93-upgrade
+│   ├── pxtools 				(Installed)
+│   ├── py-apsw
+│   ├── py-bdb-xml
+│   ├── py-bsddb3
+│   ├── py-cassa 				(Installed)
+│   ├── py-cdb
+│   ├── py-ckanclient
+│   ├── py-couchdb
+│   ├── py-cx_Oracle
+│   ├── py-datapkg
+│   ├── py-elasticsearch
+│   ├── py-elixir
+│   ├── py-gdbm
+│   ├── py-ldap
+│   ├── py-metakit 				(Installed)
+│   ├── py-mongo
+│   ├── py-mssql
+│   ├── py-mysql-connector
+│   ├── py-mysqldb
+│   ├── py-pgnotify
+│   ├── py-PgSQL
+│   ├── py-postgresql
+│   ├── py-psycopg2
+│   ├── py-pymysql 				(Installed)
+│   ├── py-python-sql 				(Installed) [x2]
+│   ├── py-redis-py
+│   ├── py-sqlalchemy
+│   ├── py-sqlalchemy-migrate
+│   ├── py-sqlite
+│   ├── py-sqlite2
+│   ├── py-sqlite3 				(Installed)
+│   ├── py-sqlparse 				(Installed)
+│   ├── py-sqlrelay 				(Installed)
+│   ├── py-sqlsoup
+│   ├── py-sybase
+│   ├── py-table
+│   ├── py-tokyocabinet
+│   ├── qdbm
+│   ├── qdbm-cgi
+│   ├── qdbm-plus
+│   ├── quicklist
+│   ├── rdb 					(Installed)
+│   ├── redis
+│   ├── rrdtool 				(Installed)
+│   ├── rrdtool12
+│   ├── ruby-activeldap
+│   ├── ruby-activerecord-cassandra
+│   ├── ruby-activerecord-odbc
+│   ├── ruby-activerecord32
+│   ├── ruby-arel
+│   ├── ruby-cassandra
+│   ├── ruby-data_objects
+│   ├── ruby-datamapper
+│   ├── ruby-dbd-mysql
+│   ├── ruby-dbd-odbc
+│   ├── ruby-dbd-pg
+│   ├── ruby-dbd-sqlite
+│   ├── ruby-dbd-sqlite3
+│   ├── ruby-dbi
+│   ├── ruby-dm-active_model
+│   ├── ruby-dm-adjust
+│   ├── ruby-dm-aggregates
+│   ├── ruby-dm-ar-finders
+│   ├── ruby-dm-cli
+│   ├── ruby-dm-constraints
+│   ├── ruby-dm-core
+│   ├── ruby-dm-do-adapter
+│   ├── ruby-dm-ferret-adapter
+│   ├── ruby-dm-is-list
+│   ├── ruby-dm-is-nested_set
+│   ├── ruby-dm-is-remixable
+│   ├── ruby-dm-is-searchable
+│   ├── ruby-dm-is-state_machine
+│   ├── ruby-dm-is-tree
+│   ├── ruby-dm-is-versioned
+│   ├── ruby-dm-migrations
+│   ├── ruby-dm-mysql-adapter
+│   ├── ruby-dm-observer
+│   ├── ruby-dm-postgres-adapter
+│   ├── ruby-dm-rails
+│   ├── ruby-dm-rest-adapter
+│   ├── ruby-dm-serializer
+│   ├── ruby-dm-sqlite-adapter
+│   ├── ruby-dm-sweatshop
+│   ├── ruby-dm-tags
+│   ├── ruby-dm-timestamps
+│   ├── ruby-dm-transactions
+│   ├── ruby-dm-types
+│   ├── ruby-dm-validations
+│   ├── ruby-dm-yaml-adapter
+│   ├── ruby-do_mysql
+│   ├── ruby-do_postgres
+│   ├── ruby-do_sqlite3
+│   ├── ruby-gdbm
+│   ├── ruby-hiera
+│   ├── ruby-ldap
+│   ├── ruby-moneta
+│   ├── ruby-mysql
+│   ├── ruby-mysql2
+│   ├── ruby-odbc
+│   ├── ruby-pg
+│   ├── ruby-postgres-pr
+│   ├── ruby-qdbm
+│   ├── ruby-rrdtool
+│   ├── ruby-sequel
+│   ├── ruby-sqlite
+│   ├── ruby-sqlite3
+│   ├── ruby-sqlrelay
+│   ├── ruby-tokyocabinet
+│   ├── ruby-tokyotyrant
+│   ├── ruby-vapor
+│   ├── sdbm
+│   ├── shared-mime-info 			(Installed)
+│   ├── skytools
+│   ├── slony1
+│   ├── soci
+│   ├── sqlite
+│   ├── sqlite3 				(Installed)
+│   ├── sqlite3-docs 				(Installed)
+│   ├── sqlite3-tcl 				(Installed)
+│   ├── sqlitebrowser
+│   ├── sqlrelay 				(Installed)
+│   ├── sqlrelay-freetds
+│   ├── sqlrelay-mysql
+│   ├── sqlrelay-odbc
+│   ├── sqlrelay-pgsql
+│   ├── sqlrelay-sqlite
+│   ├── sqsh
+│   ├── sqsh-motif
+│   ├── sqsh-x11
+│   ├── tcl-fbsql
+│   ├── tcl-gdbm
+│   ├── tdb
+│   ├── tinycdb					(Installable)
+│   ├── tokyocabinet
+│   ├── tokyotyrant
+│   ├── unixodbc 				(Installed)
+│   ├── virtuoso
+│   ├── xsqlmenu
+│   ├── yap2lc
+│   └── yasql
+
+{1} Previous error with file edit.c, line 50.

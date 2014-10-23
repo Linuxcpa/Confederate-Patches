@@ -1,0 +1,817 @@
+├── textproc ***810*** ***455 Installed, 8 Installable, 1 Duplicate*** ***Count 466*** ***Pass Complete***
+│   ├── aiksaurus 				(Installed)
+│   ├── antiword 				(Installed)
+│   ├── asciidoc 				(Installed)
+│   ├── aspell 					(Installed)
+│   ├── aspell-af 				(Installed){5}
+│   ├── aspell-am 				(Installed){5}
+│   ├── aspell-ar 				(Installed){5}
+│   ├── aspell-ast 				(Installed){5}
+│   ├── aspell-az 				(Installed){5}
+│   ├── aspell-be 				(Installed){5}
+│   ├── aspell-bg 				(Installed){5}
+│   ├── aspell-bn 				(Installed){5}
+│   ├── aspell-br 				(Installed){5}
+│   ├── aspell-ca 				(Installed){5}
+│   ├── aspell-cs 				(Installed){5}
+│   ├── aspell-csb
+│   ├── aspell-cy 				(Installed){5}
+│   ├── aspell-da 				(Installed){5}
+│   ├── aspell-de 				(Installed)
+│   ├── aspell-de-alt 				(Installed){5}
+│   ├── aspell-el 				(Installed){5}
+│   ├── aspell-en 				(Installed){5}
+│   ├── aspell-eo 				(Installed){5}
+│   ├── aspell-es 				(Installed){5}
+│   ├── aspell-et 				(Installed){5}
+│   ├── aspell-fi 				(Installed){5}
+│   ├── aspell-fo
+│   ├── aspell-fr 				(Installed){5}
+│   ├── aspell-fy 				(Installed){5}
+│   ├── aspell-ga 				(Installed){5}
+│   ├── aspell-gd 				(Installed){5}
+│   ├── aspell-gl 				(Installed){5}
+│   ├── aspell-grc 				(Installed){5}
+│   ├── aspell-gu 				(Installed){5}
+│   ├── aspell-gv 				(Installed){5}
+│   ├── aspell-he 				(Installed){5}
+│   ├── aspell-hi 				(Installed){5}
+│   ├── aspell-hil 				(Installed){5}
+│   ├── aspell-hr 				(Installed){5}
+│   ├── aspell-hsb 				(Installed){5}
+│   ├── aspell-hu 				(Installed){5}
+│   ├── aspell-hus 				(Installed){5}
+│   ├── aspell-hy 				(Installed){5}
+│   ├── aspell-ia 				(Installed){5}
+│   ├── aspell-id 				(Installed){5}
+│   ├── aspell-is
+│   ├── aspell-it 				(Installed){5}
+│   ├── aspell-kn 				(Installed){5}
+│   ├── aspell-ku 				(Installed){5}
+│   ├── aspell-ky 				(Installed){5}
+│   ├── aspell-la 				(Installed){5}
+│   ├── aspell-lt 				(Installed){5}
+│   ├── aspell-lv 				(Installed){5}
+│   ├── aspell-mg 				(Installed){5}
+│   ├── aspell-mi 				(Installed){5}
+│   ├── aspell-mk 				(Installed){5}
+│   ├── aspell-ml 				(Installed){5}
+│   ├── aspell-mn 				(Installed){5}
+│   ├── aspell-mr 				(Installable){5}
+│   ├── aspell-mt 				(Installed){5}
+│   ├── aspell-nb
+│   ├── aspell-nl 				(Installed){5}
+│   ├── aspell-nn 				(Installed){5}
+│   ├── aspell-ny 				(Installed){5}
+│   ├── aspell-or				(Installed){5}
+│   ├── aspell-pa 				(Installed){5}
+│   ├── aspell-pl 				(Installed){5}
+│   ├── aspell-pt_BR 				(Installed){5}
+│   ├── aspell-pt_PT 				(Installed){5}
+│   ├── aspell-qu 				(Installed){5}
+│   ├── aspell-ro 				(Installed){5}
+│   ├── aspell-ru 				(Installed){5}
+│   ├── aspell-rw 				(Installed){5}
+│   ├── aspell-sc 				(Installed){5}
+│   ├── aspell-sk 				(Installed){5}
+│   ├── aspell-sl 				(Installed){5}
+│   ├── aspell-sr				(Installed){5}
+│   ├── aspell-sv 				(Installed){5}
+│   ├── aspell-sw 				(Installed){5}
+│   ├── aspell-ta 				(Installed){5}
+│   ├── aspell-te 				(Installed){5}
+│   ├── aspell-tet 				(Installed){5}
+│   ├── aspell-tk 				(Installed){5}
+│   ├── aspell-tl 				(Installed){5}
+│   ├── aspell-tn 				(Installed){5}
+│   ├── aspell-tr 				(Installed){5}
+│   ├── aspell-uk 				(Installed){5}
+│   ├── aspell-uz 				(Installed){5}
+│   ├── aspell-vi 				(Installed){5}
+│   ├── aspell-wa 				(Installed){5}
+│   ├── aspell-yi 				(Installed){5}
+│   ├── aspell-zu 				(Installed){5}
+│   ├── awf 					(Installed){5}
+│   ├── bibclean
+│   ├── biblook 				(Installed)
+│   ├── bibparse
+│   ├── bsdgrep-devel
+│   ├── btparse 				(Installed)
+│   ├── c2html 					(Installed)
+│   ├── cabocha
+│   ├── catdoc
+│   ├── catdoc-tk
+│   ├── cawf 					(Installed)
+│   ├── cdif 					(Installed)
+│   ├── chasen 					(Installed)
+│   ├── chasen-base 				(Installed)
+│   ├── cityhash
+│   ├── cmigemo 				(Installed)
+│   ├── coccigrep
+│   ├── colorit 				(Installed)
+│   ├── convertlit
+│   ├── CRF++ 					(Installed)
+│   ├── crimson
+│   ├── crush-tools
+│   ├── dadadodo 				(Installed)
+│   ├── db2latex 				(Installed)
+│   ├── dblatex
+│   ├── dbtoepub
+│   ├── detex 					(Installed)
+│   ├── dict-client
+│   ├── dict-dictionaries
+│   ├── dict-mueller7
+│   ├── dict-server
+│   ├── dictem
+│   ├── diction 				(Installed)
+│   ├── diffsplit 				(Installed)
+│   ├── diffstat 				(Installed)
+│   ├── dikt
+│   ├── discount 				(Installed){2}
+│   ├── docbook					(Installed)
+│   ├── docbook-simple 				(Installed)
+│   ├── docbook-website 			(Installed)
+│   ├── docbook-xml 				(Installed)
+│   ├── docbook-xsl 				(Installed)
+│   ├── docbook2mdoc
+│   ├── doclifter 				(Installed)
+│   ├── dsssl-docbook-modular 			(Installed)
+│   ├── dtdparse
+│   ├── eb 					(Installed)
+│   ├── eblook 					(Installed)
+│   ├── ebook-tools
+│   ├── ebview
+│   ├── emacs-dict-client
+│   ├── emacs-muse
+│   ├── enca 					(Installed)
+│   ├── enchant
+│   ├── epubcheck
+│   ├── epubpreflight
+│   ├── expat 					(Installed)
+│   ├── expatobjc
+│   ├── ezxml
+│   ├── FlightCrew
+│   ├── flyspell
+│   ├── fop
+│   ├── freepwing 				(Installed)
+│   ├── gdome2
+│   ├── glimpse 				(Installed)
+│   ├── gnome-doc-utils
+│   ├── gnome-spell
+│   ├── gnome-subtitles
+│   ├── grep 					(Installed)
+│   ├── grepcidr
+│   ├── groff 					(Installable)
+│   ├── groonga
+│   ├── gsed 					(Installed)
+│   ├── gtk-doc
+│   ├── gtkspell
+│   ├── gutcheck 				(Installed)
+│   ├── GutenMark 				(Installed)
+│   ├── GutenMark-words 			(Installed)
+│   ├── halibut 				(Installed)
+│   ├── harmony
+│   ├── heirloom-bdiff
+│   ├── heirloom-bfs
+│   ├── heirloom-col
+│   ├── heirloom-comm
+│   ├── heirloom-cut
+│   ├── heirloom-diff3
+│   ├── heirloom-ed
+│   ├── heirloom-fmt
+│   ├── heirloom-fold
+│   ├── heirloom-grep
+│   ├── heirloom-head
+│   ├── heirloom-join
+│   ├── heirloom-line
+│   ├── heirloom-nl
+│   ├── heirloom-paste
+│   ├── heirloom-pg
+│   ├── heirloom-pr
+│   ├── heirloom-sdiff
+│   ├── heirloom-sed
+│   ├── heirloom-tail
+│   ├── heirloom-tr
+│   ├── heirloom-ul
+│   ├── heirloom-uniq
+│   ├── heirloom-wc
+│   ├── helpdeco
+│   ├── hevea
+│   ├── highlight 				(Installed)
+│   ├── hre 					(Installed)
+│   ├── hs-blaze-markup
+│   ├── hs-parsec
+│   ├── hs-polyparse
+│   ├── html 					(Installed)
+│   ├── html2text 				(Installed)
+│   ├── html2wml
+│   ├── hugs-HaXml
+│   ├── hunspell 				(Installed)
+│   ├── hunspell-af_ZA 				(Installed)
+│   ├── hunspell-ar 				(Installed)
+│   ├── hunspell-bg_BG 				(Installed)
+│   ├── hunspell-ca_ES 				(Installed)
+│   ├── hunspell-cs_CZ 				(Installed)
+│   ├── hunspell-cy_GB 				(Installed)
+│   ├── hunspell-da_DK 				(Installed)
+│   ├── hunspell-de
+│   ├── hunspell-el_GR 				(Installed)
+│   ├── hunspell-en_CA 				(Installed)
+│   ├── hunspell-en_GB 				(Installed)
+│   ├── hunspell-en_NZ 				(Installed)
+│   ├── hunspell-en_US				(Installed)
+│   ├── hunspell-en_ZA 				(Installed)
+│   ├── hunspell-es_ES 				(Installed)
+│   ├── hunspell-es_MX 				(Installed)
+│   ├── hunspell-fo_FO 				(Installed)
+│   ├── hunspell-fr_FR 				(Installed)
+│   ├── hunspell-fy_NL 				(Installed)
+│   ├── hunspell-ga_IE 				(Installed)
+│   ├── hunspell-he_IL 				(Installed)
+│   ├── hunspell-hr_HR 				(Installed)
+│   ├── hunspell-hu_HU 				(Installed)
+│   ├── hunspell-id_ID 				(Installed)
+│   ├── hunspell-it_IT 				(Installed)
+│   ├── hunspell-lt_LT 				(Installed)
+│   ├── hunspell-lv_LV 				(Installed)
+│   ├── hunspell-mg_MG 				(Installed)
+│   ├── hunspell-ms_MY 				(Installed)
+│   ├── hunspell-nl_NL 				(Installed)
+│   ├── hunspell-ny_MW 				(Installed)
+│   ├── hunspell-pl_PL 				(Installed)
+│   ├── hunspell-ru_RU 				(Installed)
+│   ├── hunspell-sk_SK 				(Installed)
+│   ├── hunspell-sv_SE 				(Installed)
+│   ├── hyperestraier
+│   ├── hyphen 					(Installed)
+│   ├── icu 					(Installed)
+│   ├── iksemel
+│   ├── intltool 				(Installed)
+│   ├── ipadic 					(Installed)
+│   ├── isearch 				(Installed)
+│   ├── iso-codes
+│   ├── iso12083 				(Installed)
+│   ├── iso8879 				(Installed)
+│   ├── ispell
+│   ├── ispell-ca
+│   ├── ispell-de
+│   ├── ispell-emacs
+│   ├── ispell-en_GB
+│   ├── ispell-es
+│   ├── ispell-fr
+│   ├── ispell-ga
+│   ├── ispell-gl
+│   ├── ispell-ku
+│   ├── ispell-lt
+│   ├── ispell-pl
+│   ├── ispell-pt_BR
+│   ├── ispell-ro
+│   ├── ispell-ru
+│   ├── ispell-ru-io
+│   ├── ispell-sk
+│   ├── ispell-sv
+│   ├── itex2MML 				(Installed)
+│   ├── itstool
+│   ├── ja-grep 				(Installable)
+│   ├── ja-groff 				(Installed)
+│   ├── ja-sed 					(Installable)
+│   ├── jansson 				(Installed)
+│   ├── java-mecab
+│   ├── java-native-hyperestraier
+│   ├── java-pure-hyperestraier
+│   ├── jdom 					(Installed)
+│   ├── jing
+│   ├── json-c 					(Installed)
+│   ├── json-glib
+│   ├── jsoncpp
+│   ├── kakasi 					(Installed)
+│   ├── kbanner 				(Installed)
+│   ├── kdoc 					(Installed)
+│   ├── latex2html
+│   ├── libclucene
+│   ├── libcroco
+│   ├── libexttextcat 				(Installed)
+│   ├── liblinebreak 				(Installed)
+│   ├── liblrdf
+│   ├── libnxml 				(Installed)
+│   ├── libodfgen
+│   ├── libpinyin
+│   ├── libplist
+│   ├── libunicode 				(Installed)
+│   ├── libunistring 				(Installed)
+│   ├── libxml 					(Installed)
+│   ├── libxml++
+│   ├── libxml++1 				(Installed)
+│   ├── libxml2 				(Installed)
+│   ├── libxslt 				(Installed)
+│   ├── libyaml 				(Installed)
+│   ├── link-grammar 				(Installed)
+│   ├── lit2epub
+│   ├── lout
+│   ├── lq-sp
+│   ├── lua-cjson 				(Installed)
+│   ├── lua-expat 				(Installed)
+│   ├── lua-slnunicode
+│   ├── makeindexk 				(Installed)
+│   ├── makeztxt 				(Installed)
+│   ├── marisa 					(Installed)
+│   ├── Markdown 				(Installed)
+│   ├── markdown-mode
+│   ├── mdoclint 				(Installed)
+│   ├── mdocml 					(Installed)
+│   ├── mecab 					(Installed)
+│   ├── mecab-base 				(Installed)
+│   ├── mecab-ipadic 				(Installed)
+│   ├── mecab-jumandic 				(Installed)
+│   ├── mecab-naistdic 				(Installed)
+│   ├── mendexk 				(Installed)
+│   ├── metauml 				(Installed)
+│   ├── migemo
+│   ├── migemo-elisp
+│   ├── mxml 					(Installed)
+│   ├── mythes 					(Installed)
+│   ├── namazu 					(Installed)
+│   ├── nbsed 					(Installed)
+│   ├── ndtpd
+│   ├── nxml-mode
+│   ├── o3read 					(Installed)
+│   ├── ocaml-csv
+│   ├── ocaml-expat
+│   ├── ocaml-text
+│   ├── ocaml-tyxml
+│   ├── OdfConverter
+│   ├── oniguruma 				(Installed)
+│   ├── openjade
+│   ├── opensp
+│   ├── p5-ack 					(Installed)
+│   ├── p5-Biblio-EndnoteStyle 			(Installed)
+│   ├── p5-cabocha
+│   ├── p5-CAM-PDF
+│   ├── p5-Convert-ASCII-Armour 		(Installed)
+│   ├── p5-Convert-ASN1 			(Installed)
+│   ├── p5-Convert-BER 				(Installed)
+│   ├── p5-Convert-PEM
+│   ├── p5-Convert-Translit 			(Installed)
+│   ├── p5-Cz-Cstools
+│   ├── p5-Data-FormValidator 			(Installed)
+│   ├── p5-Data-HexDump 			(Installed)
+│   ├── p5-Dist-Zilla-Plugin-PodWeaver
+│   ├── p5-Encode
+│   ├── p5-Encode-Detect
+│   ├── p5-Encode-Locale 			(Installed)
+│   ├── p5-Feed-Find 				(Installed)
+│   ├── p5-File-ReadBackwards 			(Installed)
+│   ├── p5-Filter 				(Installed)
+│   ├── p5-FormValidator-Simple			(Installed)
+│   ├── p5-HTML-FormatText-WithLinks 		(Installed)
+│   ├── p5-HTML-FormatText-WithLinks-AndTables
+│   ├── p5-iCal-Parser 				(Installed)
+│   ├── p5-Kwalify 				(Installed)
+│   ├── p5-libxml 				(Installed)
+│   ├── p5-Lingua-EN-FindNumber 		(Installed)
+│   ├── p5-Lingua-EN-Inflect 			(Installed)
+│   ├── p5-Lingua-EN-Inflect-Number 		(Installed)
+│   ├── p5-Lingua-EN-Inflect-Phrase 		(Installed)
+│   ├── p5-Lingua-EN-Number-IsOrdinal 		(Installed)
+│   ├── p5-Lingua-EN-Numbers-Ordinate 		(Installed)
+│   ├── p5-Lingua-EN-Sentence 			(Installed)
+│   ├── p5-Lingua-EN-Tagger 			(Installed)
+│   ├── p5-Lingua-EN-Words2Nums 		(Installed)
+│   ├── p5-Lingua-Identify
+│   ├── p5-Lingua-Preferred 			(Installed)
+│   ├── p5-Lingua-PT-Stemmer 			(Installed)
+│   ├── p5-Lingua-Stem 				(Installed)
+│   ├── p5-Lingua-Stem-Fr 			(Installed)
+│   ├── p5-Lingua-Stem-It 			(Installed)
+│   ├── p5-Lingua-Stem-Ru 			(Installed)
+│   ├── p5-Lingua-Stem-Snowball
+│   ├── p5-Lingua-Stem-Snowball-Da 		(Installed)
+│   ├── p5-List-Compare 			(Installed)
+│   ├── p5-Locale-Maketext-Gettext 		(Installed)
+│   ├── p5-marisa
+│   ├── p5-mecab
+│   ├── p5-mobiperl
+│   ├── p5-native-hyperestraier
+│   ├── p5-Net-Dict
+│   ├── p5-Number-Format 			(Installed)
+│   ├── p5-Number-Spell 			(Installed)
+│   ├── p5-PDF 					(Installed)
+│   ├── p5-PDF-API2 				(Installed)
+│   ├── p5-PDF-Create 				(Installed)
+│   ├── p5-PDF-Reuse 				(Installed)
+│   ├── p5-PDF-Reuse-Barcode 			(Installed)
+│   ├── p5-PDF-Table 				(Installed)
+│   ├── p5-Pod-Abstract 			(Installed)
+│   ├── p5-Pod-Coverage 			(Installed)
+│   ├── p5-Pod-Elemental
+│   ├── p5-Pod-Elemental-PerlMunger
+│   ├── p5-Pod-Escapes 				(Installable)
+│   ├── p5-Pod-Eventual
+│   ├── p5-Pod-Markdown 			(Installed)
+│   ├── p5-Pod-Parser 				(Installable)
+│   ├── p5-Pod-POM 				(Installed)
+│   ├── p5-Pod-Readme 				(Installed)
+│   ├── p5-Pod-Simple 				(Installed)
+│   ├── p5-Pod-Spell 				(Installed)
+│   ├── p5-Pod-Spell-CommonMistakes 		(Installed)
+│   ├── p5-Pod-Strip 				(Installed)
+│   ├── p5-Pod-Tests 				(Installed)
+│   ├── p5-Pod-Tree 				(Installed)
+│   ├── p5-Pod-Weaver
+│   ├── p5-POD2-Base 				(Installed)
+│   ├── p5-podlators 				(Installed)
+│   ├── p5-PPI-HTML 				(Installed)
+│   ├── p5-Regexp-Common 			(Installed)
+│   ├── p5-Regexp-Copy
+│   ├── p5-Search-Indexer 			(Installed)
+│   ├── p5-Search-Xapian
+│   ├── p5-SGMLS 				(Installed)
+│   ├── p5-Snowball-Norwegian 			(Installed)
+│   ├── p5-Snowball-Swedish 			(Installed)
+│   ├── p5-String-Approx 			(Installed)
+│   ├── p5-String-BufferStack 			(Installed)
+│   ├── p5-String-CamelCase 			(Installed)
+│   ├── p5-String-Compare-ConstantTime
+│   ├── p5-String-CRC32 			(Installed)
+│   ├── p5-String-Errf 				(Installed)
+│   ├── p5-String-Flogger 			(Installed)
+│   ├── p5-String-Formatter 			(Installed)
+│   ├── p5-String-Koremutake 			(Installed)
+│   ├── p5-String-RewritePrefix 		(Installed)
+│   ├── p5-String-ShellQuote 			(Installed)
+│   ├── p5-String-Similarity
+│   ├── p5-String-ToIdentifier-EN 		(Installed)
+│   ├── p5-String-Truncate 			(Installed)
+│   ├── p5-Syntax-Highlight-Engine-Kate 	(Installed)
+│   ├── p5-Template-Declare
+│   ├── p5-Template-Plugin-Autoformat
+│   ├── p5-Template-Plugin-CSV
+│   ├── p5-Template-Plugin-Latex
+│   ├── p5-Template-Plugin-Number-Format
+│   ├── p5-Template-Plugin-YAML
+│   ├── p5-Template-Tiny 			(Installed)
+│   ├── p5-Text-Affixes 			(Installed)
+│   ├── p5-Text-Aspell
+│   ├── p5-Text-Autoformat 			(Installed)
+│   ├── p5-Text-Balanced 			(Installed)
+│   ├── p5-Text-BibTeX
+│   ├── p5-Text-Brew 				(Installed)
+│   ├── p5-Text-CharWidth 			(Installed)
+│   ├── p5-Text-ChaSen
+│   ├── p5-Text-Context-EitherSide 		(Installed)
+│   ├── p5-Text-CSV 				(Installed)
+│   ├── p5-Text-CSV_XS 				(Installed)
+│   ├── p5-Text-CSV-Encoded
+│   ├── p5-Text-CSV-Hash 			(Installed)
+│   ├── p5-Text-DelimMatch 			(Installed)
+│   ├── p5-Text-DHCPLeases 			(Installed)
+│   ├── p5-Text-Diff 				(Installed)
+│   ├── p5-Text-Diff-HTML 			(Installed)
+│   ├── p5-Text-Diff-Parser 			(Installed)
+│   ├── p5-Text-DoubleMetaphone
+│   ├── p5-Text-Emoticon 			(Installed)
+│   ├── p5-Text-Emoticon-MSN 			(Installed)
+│   ├── p5-Text-FindIndent 			(Installed)
+│   ├── p5-Text-Format 				(Installed)
+│   ├── p5-Text-German 				(Installed)
+│   ├── p5-Text-Glob 				(Installed)
+│   ├── p5-Text-Kakasi 				(Installed)
+│   ├── p5-Text-LevenshteinXS 			(Installed)
+│   ├── p5-Text-Markdown 			(Installed)
+│   ├── p5-Text-Markdown-Discount 		(Installed)
+│   ├── p5-Text-Microformat
+│   ├── p5-Text-MicroTemplate 			(Installed)
+│   ├── p5-Text-Ngram
+│   ├── p5-Text-Nimble 				(Installed)
+│   ├── p5-Text-Patch 				(Installed)
+│   ├── p5-Text-PDF 				(Installed)
+│   ├── p5-Text-Quoted 				(Installed)
+│   ├── p5-Text-RecordParser
+│   ├── p5-Text-Reflow
+│   ├── p5-Text-Reform 				(Installed)
+│   ├── p5-Text-RewriteRules 			(Installed)
+│   ├── p5-Text-Sass 				(Installed)
+│   ├── p5-Text-Shellwords 			(Installed)
+│   ├── p5-Text-SimpleTable 			(Installed)
+│   ├── p5-Text-SpellChecker
+│   ├── p5-Text-Substitute 			(Installed)
+│   ├── p5-Text-Tabs+Wrap 			(Installed)
+│   ├── p5-Text-TabularDisplay 			(Installed)
+│   ├── p5-Text-Template 			(Installed)
+│   ├── p5-Text-Textile 			(Installed)
+│   ├── p5-Text-Trac
+│   ├── p5-Text-Typography 			(Installed)
+│   ├── p5-Text-Unaccent
+│   ├── p5-Text-Unidecode 			(Installed)
+│   ├── p5-Text-vCard
+│   ├── p5-Text-vFile-asData 			(Installed)
+│   ├── p5-Text-WagnerFischer 			(Installed)
+│   ├── p5-Text-WikiCreole 			(Installed)
+│   ├── p5-Text-WikiFormat 			(Installed)
+│   ├── p5-Text-WrapI18N 			(Installed)
+│   ├── p5-Text-Wrapper 			(Installed)
+│   ├── p5-Text-Xslate
+│   ├── p5-Unicode-LineBreak 			(Installed)
+│   ├── p5-XML-Atom 				(Installed)
+│   ├── p5-XML-Atom-SimpleFeed 			(Installed)
+│   ├── p5-XML-Atom-Stream
+│   ├── p5-XML-AutoWriter 			(Installed)
+│   ├── p5-XML-Bare
+│   ├── p5-XML-Catalog
+│   ├── p5-XML-Checker
+│   ├── p5-XML-Clean 				(Installed)
+│   ├── p5-XML-DOM				(Installed)
+│   ├── p5-XML-Dumper 				(Installed)
+│   ├── p5-XML-Elemental 			(Installed)
+│   ├── p5-XML-Encoding 			(Installed)
+│   ├── p5-XML-Entities 			(Installed)
+│   ├── p5-XML-Feed 				(Installed)
+│   ├── p5-XML-FeedPP 				(Installed)
+│   ├── p5-XML-Filter-BufferText 		(Installed)
+│   ├── p5-XML-Filter-DetectWS 			(Installed)
+│   ├── p5-XML-Filter-DOMFilter-LibXML
+│   ├── p5-XML-Filter-Reindent 			(Installed)
+│   ├── p5-XML-Filter-SAXT 			(Installed)
+│   ├── p5-XML-Generator
+│   ├── p5-XML-Grove 				(Installed)
+│   ├── p5-XML-Handler-Trees 			(Installed)
+│   ├── p5-XML-Handler-YAWriter 		(Installed)
+│   ├── p5-XML-LibXML 				(Installed)
+│   ├── p5-XML-LibXML-Iterator 			(Installed)
+│   ├── p5-XML-LibXML-Simple
+│   ├── p5-XML-LibXSLT
+│   ├── p5-XML-NamespaceSupport 		(Installed)
+│   ├── p5-XML-Node 				(Installed)
+│   ├── p5-XML-NodeFilter 			(Installed)
+│   ├── p5-XML-Parser 				(Installed){6}
+│   ├── p5-XML-Parser-Lite-Tree 		(Installed)
+│   ├── p5-XML-Rabbit
+│   ├── p5-XML-RAI 				(Installed)
+│   ├── p5-XML-RegExp 				(Installed)
+│   ├── p5-XML-RSS 				(Installed)
+│   ├── p5-XML-RSS-Parser 			(Installed)
+│   ├── p5-XML-Sablotron
+│   ├── p5-XML-SAX 				(Installed)
+│   ├── p5-XML-SAX-Base 			(Installed)
+│   ├── p5-XML-SAX-Expat 			(Installed)
+│   ├── p5-XML-SAX-ExpatXS
+│   ├── p5-XML-SAX-Writer 			(Installed)
+│   ├── p5-XML-SemanticDiff 			(Installed)
+│   ├── p5-XML-Simple 				(Installed)
+│   ├── p5-XML-Stream
+│   ├── p5-XML-Tidy 				(Installed)
+│   ├── p5-XML-Tiny 				(Installed)
+│   ├── p5-XML-TreeBuilder
+│   ├── p5-XML-TreePP 				(Installed)
+│   ├── p5-XML-Twig 				(Installed)
+│   ├── p5-XML-UM 				(Installed)
+│   ├── p5-XML-Writer 				(Installed)
+│   ├── p5-XML-Writer-String 			(Installed)
+│   ├── p5-XML-XPath 				(Installed)
+│   ├── p5-XML-XPathEngine 			(Installed)
+│   ├── p5-XML-XQL
+│   ├── p5-XML-XSLT 				(Installed)
+│   ├── p5-XML-XUpdate-LibXML
+│   ├── p5-yamcha
+│   ├── p5-YAML 				(Installed)
+│   ├── p5-YAML-LibYAML 			(Installed)
+│   ├── p5-YAML-Syck 				(Installed)
+│   ├── p5-YAML-Tiny 				(Installed)
+│   ├── par 					(Installed)
+│   ├── pdfgrep
+│   ├── pear-Console_Table
+│   ├── pear-File_Find
+│   ├── php-dom
+│   ├── php-enchant
+│   ├── php-intl
+│   ├── php-json
+│   ├── php-mecab
+│   ├── php-pspell
+│   ├── php-wddx
+│   ├── php-xsl
+│   ├── po-mode
+│   ├── po4a 					(Installed)
+│   ├── pod2mdoc 				(Installed)
+│   ├── postgresql-autodoc
+│   ├── psgml-mode
+│   ├── pxp
+│   ├── py-4Suite
+│   ├── py-acora
+│   ├── py-anyjson 				(Installed)
+│   ├── py-biplist 				(Installed)
+│   ├── py-cabocha
+│   ├── py-cElementTree 			(Installed){3}{4} [x2]
+│   ├── py-cjson
+│   ├── py-cmTemplate 				(Installed)
+│   ├── py-color 				(Installed)
+│   ├── py-colour 				(Installed)
+│   ├── py-creole 				(Installed)
+│   ├── py-cssselect 				(Installed)
+│   ├── py-cssutils 				(Installed)
+│   ├── py-defusedxml 				(Installed)
+│   ├── py-docutils 				(Installed) [x12]
+│   ├── py-ejson 				(Installed)
+│   ├── py-elementtree
+│   ├── py-empy 				(Installed)
+│   ├── py-enchant
+│   ├── py-Excelerator 				(Installed)
+│   ├── py-expat 				(Installed){3}{4} [x2]
+│   ├── py-feedparser 				(Installed)
+│   ├── py-gnosis-utils
+│   ├── py-HappyDoc 				(Installed)
+│   ├── py-html2text 				(Installable)
+│   ├── py-html5lib 				(Installed)
+│   ├── py-iniparse 				(Installed)
+│   ├── py-jinja2
+│   ├── py-jsonlib
+│   ├── py-jsonlib3
+│   ├── py-libxml2 				(Installed)
+│   ├── py-libxslt 				(Installed)
+│   ├── py-lxml
+│   ├── py-marisa
+│   ├── py-markdown 				(Installed) [x2]
+│   ├── py-markdown2 				(Installed)
+│   ├── py-markupsafe
+│   ├── py-mecab
+│   ├── py-pdf-parser 				(Installed)
+│   ├── py-phonenumbers 			(Installed)
+│   ├── py-prettytable 				(Installed)
+│   ├── py-pygments 				(Installed)
+│   ├── py-pyquery
+│   ├── py-relatorio
+│   ├── py-sphinx
+│   ├── py-sphinx-theme-cloud
+│   ├── py-Tempita 				(Installed)
+│   ├── py-textile 				(Installed)
+│   ├── py-tinycss
+│   ├── py-Unidecode 				(Installed)
+│   ├── py-validators 				(Installed)
+│   ├── py-vobject
+│   ├── py-Whoosh
+│   ├── py-X
+│   ├── py-X2
+│   ├── py-xlrd 				(Installed)
+│   ├── py-xlwt 				(Installed)
+│   ├── py-xml
+│   ├── py-yamcha
+│   ├── py-yaml
+│   ├── qprint 					(Installed)
+│   ├── qsubst
+│   ├── queequeg
+│   ├── raptor
+│   ├── raptor2
+│   ├── rarian
+│   ├── rasqal
+│   ├── redland
+│   ├── regexx 					(Installed)
+│   ├── regxml
+│   ├── rfcutil 				(Installable)
+│   ├── rman 					(Installed)
+│   ├── robodoc 				(Installed)
+│   ├── rtf-tools
+│   ├── rtfm
+│   ├── rubber
+│   ├── ruby-albino
+│   ├── ruby-amrita
+│   ├── ruby-bluecloth
+│   ├── ruby-buftok
+│   ├── ruby-builder
+│   ├── ruby-cabocha
+│   ├── ruby-classifier
+│   ├── ruby-coderay
+│   ├── ruby-diff-lcs
+│   ├── ruby-eruby
+│   ├── ruby-escape
+│   ├── ruby-fast-stemmer
+│   ├── ruby-fastercsv
+│   ├── ruby-feed-normalizer
+│   ├── ruby-ferret
+│   ├── ruby-haml
+│   ├── ruby-hikidoc
+│   ├── ruby-hpricot
+│   ├── ruby-html-parser
+│   ├── ruby-htree
+│   ├── ruby-itex2MML
+│   ├── ruby-json
+│   ├── ruby-json-pure
+│   ├── ruby-json-utils
+│   ├── ruby-kramdown
+│   ├── ruby-levenshtein
+│   ├── ruby-libxml
+│   ├── ruby-mab
+│   ├── ruby-marisa
+│   ├── ruby-markaby
+│   ├── ruby-maruku
+│   ├── ruby-mecab
+│   ├── ruby-multi_json
+│   ├── ruby-native-hyperestraier
+│   ├── ruby-nokogiri
+│   ├── ruby-nqxml
+│   ├── ruby-oniguruma
+│   ├── ruby-plist
+│   ├── ruby-pure-hyperestraier
+│   ├── ruby-rdtool
+│   ├── ruby-redcarpet
+│   ├── ruby-redcloth
+│   ├── ruby-rison
+│   ├── ruby-rttool
+│   ├── ruby-safe_yaml
+│   ├── ruby-sary
+│   ├── ruby-simple-rss
+│   ├── ruby-stringex
+│   ├── ruby-suikyo
+│   ├── ruby-syntax
+│   ├── ruby-text
+│   ├── ruby-textpow
+│   ├── ruby-tilt
+│   ├── ruby-toml
+│   ├── ruby-treetop
+│   ├── ruby-ultraviolet
+│   ├── ruby-will-paginate
+│   ├── ruby-xmlparser
+│   ├── ruby-xslt
+│   ├── ruby-yajl
+│   ├── ruby-yamcha
+│   ├── sablotron
+│   ├── sary
+│   ├── saxon
+│   ├── scew
+│   ├── scrollkeeper-dtd 			(Installed)
+│   ├── sgrep 					(Installed)
+│   ├── shared-desktop-ontologies
+│   ├── soprano
+│   ├── source-highlight
+│   ├── sphinxsearch
+│   ├── stardic
+│   ├── sub2srt 				(Installed)
+│   ├── sublib 					(Installed)
+│   ├── subtitleripper 				(Installed)
+│   ├── suikyo
+│   ├── suikyo-conv-table 			(Installed)
+│   ├── suikyo-docs 				(Installed)
+│   ├── suikyo-elisp
+│   ├── swath
+│   ├── tcl-dom 				(Installed)
+│   ├── tcl-expat
+│   ├── tcl-tDOM
+│   ├── tcl-xml 				(Installed)
+│   ├── tei 					(Installed)
+│   ├── tei-p5-schema 				(Installed)
+│   ├── tei-xsl 				(Installed)
+│   ├── tex-makeindex 				(Installed)
+│   ├── tex-makeindex-doc 			(Installed)
+│   ├── tex-xmltex
+│   ├── tex-xmltex-doc 				(Installed)
+│   ├── tex2page
+│   ├── texi2html 				(Installed)
+│   ├── texi2roff 				(Installed)
+│   ├── the_silver_searcher 			(Installed)
+│   ├── tinyxml
+│   ├── tokyodystopia
+│   ├── trang
+│   ├── troffcvt
+│   ├── unac
+│   ├── uncrustify 				(Installed)
+│   ├── uni2ascii 				(Installed)
+│   ├── unroff
+│   ├── untex 					(Installed)
+│   ├── uriparser 				(Installed)
+│   ├── urlview 				(Installed)
+│   ├── vis
+│   ├── wbxml2
+│   ├── wdiff 					(Installed)
+│   ├── WordNet 				(Installed)
+│   ├── writer2latex
+│   ├── xalan-j
+│   ├── xapian
+│   ├── xapian-omega
+│   ├── xerces-c
+│   ├── xerces-j
+│   ├── xfce4-dict-plugin
+│   ├── xhtml 					(Installed)
+│   ├── xhtmldiff
+│   ├── xml-coreutils
+│   ├── xml2
+│   ├── xml2doc
+│   ├── xmlada
+│   ├── xmlcatmgr 				(Installed){1}
+│   ├── xmlindent 				(Installed)
+│   ├── xmlrpc-c
+│   ├── xmlstarlet
+│   ├── xmlto 					(Installed)
+│   ├── xmltoman
+│   ├── xmltooling
+│   ├── xp
+│   ├── xqilla
+│   ├── xslide
+│   ├── xt
+│   ├── yamcha 					(Installed)
+│   ├── yelp-xsl
+│   ├── yodl
+│   └── zoem 					(Installed)
+{1} Made a patch for this.
+{2} Mk.conf - could not handle PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig
+{3} Mk.conf specs=/boot/home/pkg/etc/specs caused failure
+{4} Worked fine earlier - now can't build with unresolved DDO symbols in libroot.so. I cheated and recreated package.
+{5} Mk.conf can't handle CONFIGURE_ARGS+= --enable-shared or --prefix=/boot/home/pkg
+{6} Needed my specs specs=/boot/home/pkg/etc/specs in place to work

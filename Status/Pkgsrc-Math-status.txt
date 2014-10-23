@@ -1,0 +1,268 @@
+├── math ***267***  ***108 Installed, 1 Installable*** ***Count 107*** ***Pass Complete***
+│   ├── aamath					(Installed)
+│   ├── abs					(Installed)
+│   ├── admesh					(Installed)
+│   ├── algae
+│   ├── analitza
+│   ├── antixls					(Installed)
+│   ├── aribas					(Installed)
+│   ├── arpack
+│   ├── bc					(Installed)
+│   ├── blas
+│   ├── blitz++
+│   ├── calc
+│   ├── calcoo
+│   ├── cantor
+│   ├── capc-calc
+│   ├── cgal
+│   ├── clisp-pari
+│   ├── cln
+│   ├── cloog					(Installed)
+│   ├── dcdflib.c				(Installed)
+│   ├── dcdflib.f
+│   ├── dfftpack
+│   ├── dieharder				(Installed)
+│   ├── djbfft					(Installed)
+│   ├── eigen2					(Installed)
+│   ├── eigen3
+│   ├── eispack
+│   ├── ess
+│   ├── eukleides				(Installed)
+│   ├── eukleides10
+│   ├── euler
+│   ├── extcalc
+│   ├── fftpack
+│   ├── fftw
+│   ├── fftw2
+│   ├── fftwf
+│   ├── fgmp					(Installed)
+│   ├── fityk
+│   ├── fricas
+│   ├── galculator
+│   ├── gap
+│   ├── gcalctool
+│   ├── geg					(Installed)
+│   ├── genius
+│   ├── glpk					(Installed)
+│   ├── gnome-calculator
+│   ├── gnumeric
+│   ├── gnumeric110
+│   ├── gnumeric112
+│   ├── gp-autpgrp
+│   ├── gp-factint
+│   ├── gp-fplsa
+│   ├── gp-grape
+│   ├── gp-grpconst
+│   ├── gp-lag
+│   ├── grace
+│   ├── graphopt				(Installed)
+│   ├── grpn
+│   ├── gsl					(Installed)
+│   ├── gtklife
+│   ├── harminv
+│   ├── heirloom-factor				(Installed)
+│   ├── heirloom-units				(Installed)
+│   ├── hs-nats
+│   ├── hs-scientific
+│   ├── ipopt
+│   ├── isl					(Installed)
+│   ├── itpp
+│   ├── kalgebra
+│   ├── kcalc
+│   ├── kseg
+│   ├── lapack
+│   ├── libffm
+│   ├── libint					(Installed)
+│   ├── libmatheval
+│   ├── libsvm					(Installed)
+│   ├── linpack
+│   ├── lp_solve				(Installed)
+│   ├── ltm					(Installed)
+│   ├── mapm					(Installed)
+│   ├── mathomatic				(Installed)
+│   ├── maxima
+│   ├── mcsim					(Installed)
+│   ├── meschach
+│   ├── metis					(Installed)
+│   ├── minisat					(Installed)
+│   ├── minpack
+│   ├── mpcomplex				(Installed)
+│   ├── mpfr					(Installed)
+│   ├── mprime-bin
+│   ├── mtl					(Installed)
+│   ├── muparser
+│   ├── newmat					(Installed)
+│   ├── nickle
+│   ├── ntl					(Installed)
+│   ├── octave
+│   ├── odepack
+│   ├── openaxiom
+│   ├── openfst					(Installed)
+│   ├── ordCalc					(Installed)
+│   ├── otter					(Installed)
+│   ├── p5-Algorithm-Cluster			(Installed)
+│   ├── p5-Algorithm-Munkres			(Installed)
+│   ├── p5-Excel-Template			(Installed)
+│   ├── p5-Excel-Template-Plus			(Installed)
+│   ├── p5-Math-Base36				(Installed)
+│   ├── p5-Math-Base85				(Installed)
+│   ├── p5-Math-BaseCnv				(Installed)
+│   ├── p5-Math-Bezier				(Installed)
+│   ├── p5-Math-BigInt-GMP			(Installed)
+│   ├── p5-Math-BigInt-Pari
+│   ├── p5-Math-BigInteger			(Installed)
+│   ├── p5-Math-Complex
+│   ├── p5-Math-Derivative			(Installed)
+│   ├── p5-Math-FFT				(Installed)
+│   ├── p5-Math-GMP				(Installed)
+│   ├── p5-Math-Interpolate			(Installed)
+│   ├── p5-Math-MatrixReal			(Installed)
+│   ├── p5-Math-Pari
+│   ├── p5-Math-Permute-List
+│   ├── p5-Math-Prime-Util			(Installed)
+│   ├── p5-Math-Random				(Installed)
+│   ├── p5-Math-Random-ISAAC			(Installed)
+│   ├── p5-Math-Random-ISAAC-XS			(Installed)
+│   ├── p5-Math-Random-MT
+│   ├── p5-Math-Random-MT-Auto			(Installed)
+│   ├── p5-Math-Random-MT-Perl			(Installed)
+│   ├── p5-Math-Round				(Installed)
+│   ├── p5-Math-Spline				(Installed)
+│   ├── p5-Math-VecStat				(Installed)
+│   ├── p5-Number-Compare			(Installed)
+│   ├── p5-Number-Latin				(Installed)
+│   ├── p5-Number-Range				(Installed)
+│   ├── p5-Number-Tolerant			(Installed)
+│   ├── p5-Roman				(Installed)
+│   ├── p5-Set-Crontab				(Installed)
+│   ├── p5-Set-Infinite				(Installed)
+│   ├── p5-Spreadsheet-ParseExcel		(Installed)
+│   ├── p5-Spreadsheet-Read
+│   ├── p5-Spreadsheet-ReadSXC			(Installed)
+│   ├── p5-Spreadsheet-WriteExcel		(Installed)
+│   ├── p5-Spreadsheet-XLSX			(Installed)
+│   ├── p5-Statistics-Descriptive		(Installed)
+│   ├── p5-Test-Number-Delta			(Installed)
+│   ├── pari
+│   ├── pari-galdata
+│   ├── pear-Math_BigInteger			(Installed)
+│   ├── pear-Numbers_Roman			(Installed)
+│   ├── pear-Numbers_Words			(Installed)
+│   ├── php-bcmath
+│   ├── ppl					(Installed)
+│   ├── prng					(Installed)
+│   ├── pspp
+│   ├── py-cdecimal				(Installed)
+│   ├── py-ephem				(Installed)
+│   ├── py-ephem3
+│   ├── py-fpconst				(Installed)
+│   ├── py-gmpy					(Installed)
+│   ├── py-infinity				(Installed)
+│   ├── py-mpmath				(Installed)
+│   ├── py-munkres				(Installed)
+│   ├── py-networkx				(Installed)
+│   ├── py-numarray				(Installed)
+│   ├── py-Numeric				(Installed)
+│   ├── py-numexpr
+│   ├── py-numpy
+│   ├── py-pandas
+│   ├── py-pytables
+│   ├── py-roman				(Installed) [x2]
+│   ├── py-rpy
+│   ├── py-Scientific
+│   ├── py-Scientific-doc			(Installed)
+│   ├── py-scipy
+│   ├── py-sympy				(Installed)
+│   ├── qalculate
+│   ├── qalculate-bases
+│   ├── qalculate-currency
+│   ├── qalculate-gtk
+│   ├── qalculate-kde
+│   ├── qalculate-units
+│   ├── qhull					(Installed)
+│   ├── quadpack
+│   ├── R
+│   ├── R-abind
+│   ├── R-akima
+│   ├── R-bitops
+│   ├── R-car
+│   ├── R-CGIwithR
+│   ├── R-chron
+│   ├── R-circular
+│   ├── R-classInt
+│   ├── R-clim.pact
+│   ├── R-combinat
+│   ├── R-DAAG
+│   ├── R-date
+│   ├── R-DBI
+│   ├── R-e1071
+│   ├── R-gdata
+│   ├── R-genetics
+│   ├── R-geoR
+│   ├── R-geoRglm
+│   ├── R-GRASS
+│   ├── R-gstat
+│   ├── R-gtools
+│   ├── R-httpRequest
+│   ├── R-hwde
+│   ├── R-intervals
+│   ├── R-ISwR
+│   ├── R-lmm
+│   ├── R-mapproj
+│   ├── R-maps
+│   ├── R-mvtnorm
+│   ├── R-ncdf
+│   ├── R-PHYLOGR
+│   ├── R-pixmap
+│   ├── R-plyr
+│   ├── R-R2HTML
+│   ├── R-RandomFields
+│   ├── R-randomForest
+│   ├── R-RArcInfo
+│   ├── R-Rcmdr
+│   ├── R-RColorBrewer
+│   ├── R-RPostgreSQL
+│   ├── R-sgeostat
+│   ├── R-shapefiles
+│   ├── R-sp
+│   ├── R-spacetime
+│   ├── R-splancs
+│   ├── R-statmod
+│   ├── R-wle
+│   ├── R-XML
+│   ├── R-xts
+│   ├── R-zoo
+│   ├── randlib					(Installed)
+│   ├── ruby-gsl
+│   ├── ruby-narray
+│   ├── ruby-spreadsheet
+│   ├── sc
+│   ├── scilab
+│   ├── slatec
+│   ├── snns					(Installable)
+│   ├── speedcrunch
+│   ├── statist
+│   ├── superlu
+│   ├── tasp-vsipl				(Installed)
+│   ├── teapot
+│   ├── tex-fp
+│   ├── tex-fp-doc				(Installed)
+│   ├── tex-kastrup				(Installed)
+│   ├── tex-kastrup-doc				(Installed)
+│   ├── texdrive
+│   ├── TinySVM					(Installed)
+│   ├── tochnog					(Installed)
+│   ├── udunits
+│   ├── units					(Installed)
+│   ├── vista
+│   ├── wxMaxima
+│   ├── xeukleides10				(Installed)
+│   ├── xfractint
+│   ├── xgap
+│   ├── xldlas
+│   ├── xlife
+│   ├── xlispstat
+│   ├── xmgr
+│   ├── xylib
+│   ├── yacas
+│   └── yorick

@@ -1,0 +1,105 @@
+├── comms ***71*** ***21 installed, 0 installable*** ***Count 21*** ***Pass Complete***
+│   ├── asterisk				{1}
+│   ├── asterisk-sounds-de-x9media		(Installed)
+│   ├── asterisk-sounds-native			{2}
+│   ├── asterisk10				{1}
+│   ├── asterisk18				{1}
+│   ├── binkd					(Installed){3}
+│   ├── birda					{4}
+│   ├── conserver				{5}
+│   ├── conserver8				{6}
+│   ├── deforaos-phone				{31}{17}{7}
+│   ├── dl-ezkit				{8}
+│   ├── efax					{9}
+│   ├── efax-gtk				{31}{17}{7}
+│   ├── estic					{10}
+│   ├── fidogate				(Installed)
+│   ├── gkermit					(Installed)
+│   ├── gnome-pilot				{13}
+│   ├── gsmlib					{11}
+│   ├── hylafax					{12}
+│   ├── jpilot					{14}
+│   ├── jpilot-syncmal				{14}
+│   ├── kermit					{15}
+│   ├── libmal					{14}
+│   ├── libopensync				(Installed){17}{16}
+│   ├── libopensync-plugin-evolution2		{31}{17}{23}
+│   ├── libopensync-plugin-file			(Installed){17}{23}
+│   ├── libopensync-plugin-kdepim		{32}{17}{23}
+│   ├── libopensync-plugin-syncml		{31}{17}{23}
+│   ├── libsyncml				{17}
+│   ├── libticables2				{18}
+│   ├── libticalcs2				{18}
+│   ├── libticonv				(Installed)
+│   ├── libtifiles2				(Installed)
+│   ├── lrzsz					(Installed)
+│   ├── malsync					{19}
+│   ├── mgetty+sendfax				{20}
+│   ├── minicom					{21}
+│   ├── modemd					{22}
+│   ├── msynctool				{23}
+│   ├── multisync-gui				{31}{17}{7}
+│   ├── obexftp					{17}
+│   ├── op_panel				(Installed)
+│   ├── openobex				{31}{17}
+│   ├── p5-Asterisk				(Installed)
+│   ├── p5-Data-AMF				(Installed)
+│   ├── p5-Device-Gsm				{24}
+│   ├── p5-Device-Modem				{24}
+│   ├── p5-Device-SerialPort			{24}
+│   ├── p5-Device-XBee-API			{24}
+│   ├── p5-pilot-link				{24}
+│   ├── p5-SMS-Send				(Installed)
+│   ├── pilot-link				{14}
+│   ├── pilot-link-libs				{14}
+│   ├── pilotmgr				{14}
+│   ├── plp					{5}
+│   ├── py-gammu				{18}
+│   ├── py-serial				(Installed)
+│   ├── qpage					(Installed)
+│   ├── ruby-termios				{25}
+│   ├── scmxx					(Installed)
+│   ├── snooper					{26}
+│   ├── spandsp					(Installed)
+│   ├── synce-librapi2				(Installed)
+│   ├── synce-libsynce				(Installed)
+│   ├── synce-rra				(Installed)
+│   ├── synce-serial				(Installed)
+│   ├── tilp2					{31}{7}
+│   ├── tkhylafax				{27}
+│   ├── tn3270					{28}
+│   ├── xisp					{29}
+│   └── xtel					{30}
+
+{1} Wants gnutls, but its not built yet
+{2} Hard links in source tar
+{3} Original error: -lnetwork
+{4} Error in sendobex.c: 0_ASYNC undeclared
+{5} Missing: <sys/errno.h>
+{6} Error in cutil.c: Struct 'ifreq' has no member named 'ifr_ifru'
+{7} Original error: wanted gobject-introspection before it was built
+{8} Missing: <machine/ansi.h>
+{9} Error in efaxio.c: SIGIOT undeclared
+{10} Missing: <machine/endian.h>
+{11} Error in ___: IMAXBEL undeclaired
+{12} Haiku not included in configure scripts
+{13} Does not like overridden specs
+{14} Wants libpisock, but its not built yet
+{15} Missing: <sgtty.h>
+{16} Error in opensync_debug.c: undefined reference to va_list
+{17} Original error: wanted pixman before it was built
+{18} Wants libusb, but its not built yet
+{19} Wants pilot-link-libs, but its not built yet
+{20} Missing: <termio.h>
+{21} No suitable lock directory
+{22} Error in parse.c: incompatable implicit declaration 'memcpy'
+{23} Original error: wanted libopensync before it was built
+{24} Wants p5-perl-headers, but its not built yet
+{25} Wants ruby, but its not built yet
+{26} Missing: <sys/fcntl.h>
+{27} Wants gv, but its not built yet
+{28} Error in dohits.c: 'stark_check_guard'
+{29} Error in makefile, incomplete
+{30} Wants libXfont, but its not built yet
+{31} Wants cairo, but its not built yet
+{32} Wants cyrus-sasl, but its not built yet

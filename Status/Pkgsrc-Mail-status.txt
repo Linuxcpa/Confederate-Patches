@@ -1,0 +1,342 @@
+├── mail ***339*** ***132 Installed, 1 Installable*** ***Count 133*** ***Pass Complete***
+│   ├── akonadi
+│   ├── alpine
+│   ├── amavis-perl
+│   ├── amavisd-new
+│   ├── anomy-sanitizer				(Installed)
+│   ├── archivemail				(Installed)
+│   ├── autorespond
+│   ├── avenger
+│   ├── balsa
+│   ├── bbmail					(Installed)
+│   ├── bmf
+│   ├── bogofilter				(Installed)
+│   ├── bulk_mailer
+│   ├── clamsmtp
+│   ├── claws-mail
+│   ├── claws-mail-archive
+│   ├── claws-mail-attachwarner
+│   ├── claws-mail-attremover
+│   ├── claws-mail-bogofilter
+│   ├── claws-mail-cachesaver
+│   ├── claws-mail-fetchinfo
+│   ├── claws-mail-mailmbox
+│   ├── claws-mail-newmail
+│   ├── claws-mail-notification
+│   ├── claws-mail-pgp
+│   ├── claws-mail-pgpcore
+│   ├── claws-mail-pgpinline
+│   ├── claws-mail-pgpmime
+│   ├── claws-mail-rssyl
+│   ├── claws-mail-smime
+│   ├── claws-mail-spamassassin
+│   ├── claws-mail-spamreport
+│   ├── claws-mail-synce
+│   ├── claws-mail-tnef
+│   ├── claws-mail-vcalendar
+│   ├── clawsker
+│   ├── cone
+│   ├── coolmail				(Installed)
+│   ├── courier-analog				(Installed)
+│   ├── courier-imap
+│   ├── courier-maildir				(Installed)
+│   ├── courier-mta
+│   ├── cucipop
+│   ├── cue
+│   ├── cyrus-imapd
+│   ├── cyrus-imapd23
+│   ├── cyrus-imapd24
+│   ├── dbmail
+│   ├── dcc
+│   ├── deforaos-mailer
+│   ├── deliver					(Installed)
+│   ├── demime					(Installed)
+│   ├── distribute
+│   ├── dk-milter
+│   ├── dkim-milter
+│   ├── dnsbl-milter
+│   ├── dot-forward
+│   ├── dovecot
+│   ├── dovecot2
+│   ├── dovecot2-pigeonhole
+│   ├── drac
+│   ├── dspam
+│   ├── elm
+│   ├── elm-me
+│   ├── elmo
+│   ├── enma
+│   ├── esmtp					(Installed)
+│   ├── etach
+│   ├── etpan
+│   ├── evolution
+│   ├── evolution-data-server
+│   ├── evolution-exchange
+│   ├── exim
+│   ├── exim-html				(Installed)
+│   ├── exim3
+│   ├── exmh
+│   ├── ezmlm
+│   ├── ezmlm-idx
+│   ├── faces
+│   ├── fastforward
+│   ├── fdm
+│   ├── fetchmail				(Installed)
+│   ├── fetchmailconf
+│   ├── fetchyahoo				(Installed)
+│   ├── fix-mime-charset			(Installed)
+│   ├── fml
+│   ├── fml4					(Installed)
+│   ├── freepops				(Installed)
+│   ├── fromto					(Installed)
+│   ├── getmail					(Installed)
+│   ├── gld
+│   ├── gmime
+│   ├── gmime20
+│   ├── gmime24					(Installed)
+│   ├── GNUMail
+│   ├── gnus
+│   ├── greetdelay				(Installed)
+│   ├── grepmail				(Installed)
+│   ├── heirloom-mailx				(Installed)
+│   ├── hypermail				(Installed)
+│   ├── ifile					(Installed)
+│   ├── ifile-procmail
+│   ├── im					(Installed)
+│   ├── imap-uw
+│   ├── imap-uw-utils
+│   ├── imapfilter				(Installed)
+│   ├── imapproxy
+│   ├── imapsync
+│   ├── imp
+│   ├── incm					(Installed)
+│   ├── ingo
+│   ├── isync
+│   ├── ja-mh
+│   ├── jchkmail
+│   ├── kbiff
+│   ├── libesmtp				(Installed)
+│   ├── libetpan
+│   ├── libmilter
+│   ├── libsieve				(Installed)
+│   ├── libspf-alt
+│   ├── libspf2
+│   ├── libsylph
+│   ├── libytnef				(Installed)
+│   ├── mail-notification
+│   ├── mailagent
+│   ├── mailcrypt
+│   ├── maildrop
+│   ├── mailfront
+│   ├── mailgraph				(Installed)
+│   ├── mailhops				(Installed)
+│   ├── mailman
+│   ├── mailserv				(Installed)
+│   ├── mailsort				(Installed)
+│   ├── mailsync
+│   ├── mailwrapper
+│   ├── mairix
+│   ├── majordomo				(Installed)
+│   ├── mb2md					(Installed)
+│   ├── mdfrm			`		(Installed)
+│   ├── mess822
+│   ├── metamail
+│   ├── mew
+│   ├── mhonarc				`	(Installed)
+│   ├── milter-greylist
+│   ├── milter-manager
+│   ├── milter-regex
+│   ├── mime-construct				(Installed)
+│   ├── mimedefang
+│   ├── mimp
+│   ├── mini_sendmail				(Installed)
+│   ├── minimalist				(Installed)
+│   ├── mpop
+│   ├── msmtp
+│   ├── mush
+│   ├── mutt 					(Installed) {1}
+│   ├── mutt-devel
+│   ├── mutt-kz
+│   ├── netbiff
+│   ├── newmail
+│   ├── newspipe
+│   ├── nmh
+│   ├── nmzmail					(Installed)
+│   ├── notmuch
+│   ├── nullmailer
+│   ├── oe2mbx					(Installed)
+│   ├── offlineimap
+│   ├── opendkim
+│   ├── opendmarc
+│   ├── opensmtpd
+│   ├── OSBF-lua				(Installed)
+│   ├── p5-App-Siesh
+│   ├── p5-Catalyst-View-Email
+│   ├── p5-Email-Abstract			(Installed)
+│   ├── p5-Email-Address			(Installed)
+│   ├── p5-Email-Address-List			(Installed)
+│   ├── p5-Email-Date				(Installed)
+│   ├── p5-Email-Date-Format			(Installed)
+│   ├── p5-Email-Find				(Installed)
+│   ├── p5-Email-Folder				(Installed)
+│   ├── p5-Email-FolderType			(Installed)
+│   ├── p5-Email-LocalDelivery			(Installed)
+│   ├── p5-Email-MessageID			(Installed)
+│   ├── p5-Email-MIME				(Installed)
+│   ├── p5-Email-MIME-Attachment-Stripper	(Installed)
+│   ├── p5-Email-MIME-ContentType		(Installed)
+│   ├── p5-Email-MIME-Encodings			(Installed)
+│   ├── p5-Email-Reply				(Installed)
+│   ├── p5-Email-Send				(Installed)
+│   ├── p5-Email-Sender				(Installed)
+│   ├── p5-Email-Simple				(Installed)
+│   ├── p5-Email-Stuff				(Installed)
+│   ├── p5-Email-Valid				(Installed)
+│   ├── p5-Email-Valid-Loose			(Installed)
+│   ├── p5-GMail-IMAPD				(Installed)
+│   ├── p5-IMAP-Admin				(Installed)
+│   ├── p5-IMAP-Client				(Installed)
+│   ├── p5-Mail-Alias				(Installed)
+│   ├── p5-Mail-Audit				(Installed)
+│   ├── p5-Mail-Box				(Installed)
+│   ├── p5-Mail-ClamAV
+│   ├── p5-Mail-DeliveryStatus-BounceParser
+│   ├── p5-Mail-DKIM				(Installed)
+│   ├── p5-Mail-Ezmlm
+│   ├── p5-Mail-IMAPClient
+│   ├── p5-Mail-ListDetector			(Installed)
+│   ├── p5-Mail-Mbox-MessageParser		(Installed)
+│   ├── p5-Mail-Milter				(Installed)
+│   ├── p5-Mail-POP3Client			(Installed)
+│   ├── p5-Mail-RFC822-Address			(Installed)
+│   ├── p5-Mail-Sender				(Installed)
+│   ├── p5-Mail-Sender-Easy			(Installed)
+│   ├── p5-Mail-Sendmail			(Installed)
+│   ├── p5-Mail-SPF				(Installed)
+│   ├── p5-Mail-SPF-Query			(Installable)
+│   ├── p5-Mail-SRS				(Installed)
+│   ├── p5-Mail-Webmail-Gmail			(Installed)
+│   ├── p5-MailTools 				(Installed)
+│   ├── p5-MIME-Charset				(Installed)
+│   ├── p5-MIME-EncWords			(Installed)
+│   ├── p5-MIME-Lite				(Installed)
+│   ├── p5-MIME-Lite-HTML			(Installed)
+│   ├── p5-MIME-tools 				(Installed)
+│   ├── p5-MIME-Types 				(Installed)
+│   ├── p5-Net-LMTP				(Installed)
+│   ├── p5-Net-ManageSieve			(Installed)
+│   ├── p5-Net-SMTP_auth
+│   ├── p5-Net-SMTP-SSL				(Installed)
+│   ├── p5-Net-validMX				(Installed)
+│   ├── p5-razor-agents				(Installed)
+│   ├── p5-Sendmail-AccessDB			(Installed)
+│   ├── p5-Sendmail-PMilter			(Installed)
+│   ├── p5-Test-Email				(Installed)
+│   ├── p5-URI-imap				(Installed)
+│   ├── p5-User-Identity			(Installed)
+│   ├── Pantomime
+│   ├── pear-Auth_SASL
+│   ├── pear-Mail
+│   ├── pear-Mail_Mime
+│   ├── pear-Mail_mimeDecode
+│   ├── perdition
+│   ├── perdition-bdb
+│   ├── perdition-gdbm
+│   ├── perdition-ldap
+│   ├── perdition-mysql
+│   ├── perdition-odbc
+│   ├── perdition-postgresql
+│   ├── pfqueue					(Installed)
+│   ├── php-imap
+│   ├── pine
+│   ├── pine-pgp-filters
+│   ├── policyd
+│   ├── policyd-weight				(Installed)
+│   ├── popa3d
+│   ├── poppassd
+│   ├── poppy					(Installed)
+│   ├── postfix
+│   ├── postgrey				(Installed)
+│   ├── prayer
+│   ├── procmail
+│   ├── proxsmtp
+│   ├── pulsar					(Installed)
+│   ├── py-libgmail
+│   ├── py-sendmail-admin			(Installed)
+│   ├── py-spf					(Installed)
+│   ├── pymsgauth				(Installed)
+│   ├── qcheck					(Installed)
+│   ├── qgreylist
+│   ├── qmail
+│   ├── qmail-conf
+│   ├── qmail-lint				(Installed)
+│   ├── qmail-qfilter
+│   ├── qmail-run
+│   ├── qmailanalog				(Installed)
+│   ├── qmHandle				(Installed)
+│   ├── qmqtool
+│   ├── qpopper
+│   ├── qtools
+│   ├── queue-fix				(Installed)
+│   ├── queue-repair				(Installed)
+│   ├── quickml
+│   ├── rblcheck
+│   ├── re-alpine
+│   ├── relay-ctrl
+│   ├── ripmime					(Installed)
+│   ├── rmail-mime
+│   ├── roundcube
+│   ├── rspamd
+│   ├── rss2email
+│   ├── ruby-actionmailer32
+│   ├── ruby-mail
+│   ├── ruby-mail24
+│   ├── ruby-mailfactory
+│   ├── ruby-mime-types
+│   ├── ruby-tmail
+│   ├── safecat					(Installed)
+│   ├── sendmail
+│   ├── sendmail-cidrexpand			(Installed)
+│   ├── sendmail-qtool				(Installed)
+│   ├── sendymail				(Installed)
+│   ├── serialmail
+│   ├── sid-milter
+│   ├── sigrot					(Installed)
+│   ├── sma					(Installed)
+│   ├── smtp-vilter
+│   ├── smtpfeed
+│   ├── solid-pop3d				(Installed)
+│   ├── spamass-milter
+│   ├── spamassassin				(Installed)
+│   ├── spamd
+│   ├── spamdyke
+│   ├── spamprobe
+│   ├── sqlgrey
+│   ├── squirrelmail
+│   ├── squirrelmail-decode
+│   ├── squirrelmail-locales
+│   ├── sqwebmail
+│   ├── ssmtp
+│   ├── sylpheed
+│   ├── sympa
+│   ├── t-prot					(Installed)
+│   ├── teapop
+│   ├── thunderbird
+│   ├── thunderbird-l10n			(Installed)
+│   ├── tmda					(Installed)
+│   ├── tnef					(Installed)
+│   ├── tnef2txt				(Installed)
+│   ├── turba
+│   ├── up-imapproxy
+│   ├── vm
+│   ├── wl
+│   ├── wl-snapshot
+│   ├── wmbiff
+│   ├── wmmail
+│   ├── xbiff					(Installed)
+│   ├── xbuffy					(Installed)
+│   ├── xfmail
+│   ├── xmailbox
+│   ├── xmailwatcher
+│   └── YoSucker				(Installed)
+
+{1} Changes for temporary File - Needs Sendmail Really - Better match with GCC2

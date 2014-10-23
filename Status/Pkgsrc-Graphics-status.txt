@@ -1,0 +1,568 @@
+├── graphics ***567***  ***154 Installed, 1 Installable*** ***Count 155*** ***Pass Complete*** 
+│   ├── aalib
+│   ├── AfterShotPro
+│   ├── agg
+│   ├── aqsis
+│   ├── artist
+│   ├── asymptote
+│   ├── autopano-sift-C
+│   ├── autotrace
+│   ├── aview
+│   ├── babl					(Installed)
+│   ├── barcode
+│   ├── bktr2jpeg
+│   ├── blender
+│   ├── blender-doc				(Installed)
+│   ├── blinkenthemes
+│   ├── blinkentools
+│   ├── cairo
+│   ├── cairo-gobject
+│   ├── cairomm
+│   ├── cal3d
+│   ├── cal3d-examples
+│   ├── cambevao
+│   ├── camediaplay
+│   ├── camlimages
+│   ├── cdlabelgen				(Installed)
+│   ├── Cenon
+│   ├── cheese
+│   ├── cinepaint
+│   ├── circos
+│   ├── claraocr				(Installed)
+│   ├── clutter
+│   ├── clutter-box2d
+│   ├── clutter-gtk
+│   ├── clutter-gtk0.10
+│   ├── clutter-mx
+│   ├── cnxtview
+│   ├── cogl
+│   ├── Coin
+│   ├── comix
+│   ├── compface				(Installed)
+│   ├── cpia2view
+│   ├── cqcam
+│   ├── CRWInfo					(Installed)
+│   ├── darktable
+│   ├── dcraw					(Installed)
+│   ├── deforaos-camera
+│   ├── denemo
+│   ├── dia
+│   ├── dia-python
+│   ├── digikam
+│   ├── digikam-doc-kde3
+│   ├── digikam-kde3
+│   ├── djview4
+│   ├── djvulibre-lib				(Installed)
+│   ├── djvulibre-tools				(Installed)
+│   ├── dvipng					(Installed)
+│   ├── dx
+│   ├── dxsamples
+│   ├── edje
+│   ├── enblend-enfuse
+│   ├── eog
+│   ├── eog-plugins
+│   ├── eog-plugins-map
+│   ├── eog3
+│   ├── epeg					(Installed)
+│   ├── evas
+│   ├── evas-buffer
+│   ├── evas-edb
+│   ├── evas-eet
+│   ├── evas-gif
+│   ├── evas-jpeg
+│   ├── evas-pmaps
+│   ├── evas-png
+│   ├── evas-software-x11
+│   ├── evas-svg
+│   ├── evas-tiff
+│   ├── evas-xpm
+│   ├── ewipe					(Installed)
+│   ├── exif					(Installed)
+│   ├── exifprobe
+│   ├── exiftags
+│   ├── exiv2					(Installed)
+│   ├── exiv2-organize
+│   ├── extrema
+│   ├── f-spot
+│   ├── f4l
+│   ├── fbm					(Installed)
+│   ├── feh
+│   ├── flphoto
+│   ├── fly
+│   ├── fnlib
+│   ├── fotoxx
+│   ├── frameworks
+│   ├── freeglut
+│   ├── freetype				(Installed)
+│   ├── freetype-lib				(Installed)
+│   ├── freetype-utils				(Installed)
+│   ├── freetype2 				(Installed)
+│   ├── fujiplay				(Installed)
+│   ├── g2					(Installed)
+│   ├── gd					(Installed)
+│   ├── gdchart					(Installed)
+│   ├── gdk-pixbuf
+│   ├── gdk-pixbuf2
+│   ├── gdk-pixbuf2-jasper
+│   ├── gdk-pixbuf2-xlib
+│   ├── geeqie
+│   ├── gegl
+│   ├── geomview
+│   ├── get_ds7					(Installed)
+│   ├── gfract
+│   ├── gif2png					(Installed)
+│   ├── gif320					(Installed)
+│   ├── giflib 					(Installed)
+│   ├── giflib-util				(Installed)
+│   ├── gifsicle				(Installed)
+│   ├── giftrans				(Installed)
+│   ├── gimmage
+│   ├── gimp
+│   ├── gimp-color-manager
+│   ├── gimp-docs-de
+│   ├── gimp-docs-en
+│   ├── gimp-docs-es
+│   ├── gimp-docs-fr
+│   ├── gimp-docs-it
+│   ├── gimp-docs-ja
+│   ├── gimp-docs-ko
+│   ├── gimp-docs-nl
+│   ├── gimp-docs-nn
+│   ├── gimp-docs-pl
+│   ├── gimp-docs-ru
+│   ├── gimp-docs-sv
+│   ├── gimp-docs-zh_CN
+│   ├── gimp-exif-browser
+│   ├── gimp-fix-ca
+│   ├── gimp-high-pass-filter
+│   ├── gimp-liquid-rescale
+│   ├── gimp-rawphoto
+│   ├── gimp-refocus-it
+│   ├── gimp-resynthesizer
+│   ├── gimp-ufraw
+│   ├── gimp-warp-sharp
+│   ├── gimp2-wideangle
+│   ├── giram
+│   ├── gle
+│   ├── glew
+│   ├── glitz					(Installed)
+│   ├── gliv
+│   ├── glm					(Installed)
+│   ├── glpng
+│   ├── glu
+│   ├── glut
+│   ├── glx-utils
+│   ├── gmngview
+│   ├── GMT
+│   ├── gnome-backgrounds			(Installed)
+│   ├── gnome-icon-theme
+│   ├── gnome-icon-theme-extras
+│   ├── gnome-icon-theme-symbolic
+│   ├── gnuplot
+│   ├── gocr					(Installed)
+│   ├── goocanvas
+│   ├── goocanvas2
+│   ├── goocanvasmm
+│   ├── gource
+│   ├── gphoto2
+│   ├── gpicview
+│   ├── gqview
+│   ├── gqview-devel
+│   ├── grap					(Installed)
+│   ├── GraphicsMagick				(Installed)
+│   ├── graphite2
+│   ├── graphviz
+│   ├── graphviz-dot-mode
+│   ├── gri
+│   ├── gst-plugins0.10-cairo
+│   ├── gst-plugins0.10-jpeg
+│   ├── gst-plugins0.10-png
+│   ├── gst-plugins1-cairo
+│   ├── gst-plugins1-jpeg
+│   ├── gst-plugins1-png
+│   ├── gthumb
+│   ├── gthumb3
+│   ├── gtkam
+│   ├── gtkglext
+│   ├── gtkimageview
+│   ├── gtksee
+│   ├── guile-cairo
+│   ├── GUIlib
+│   ├── gwenview
+│   ├── gwenview-i18n-kde3
+│   ├── gwenview-kde3
+│   ├── h5utils
+│   ├── hermes
+│   ├── hicolor-icon-theme			(Installed)
+│   ├── hp2xx					(Installed)
+│   ├── hugin
+│   ├── icon-naming-utils			(Installed)
+│   ├── iGMT
+│   ├── ilmbase					(Installed)
+│   ├── ImageMagick
+│   ├── ImageViewer
+│   ├── imlib					(Installed)
+│   ├── imlib-gtk
+│   ├── imlib2					(Installed)
+│   ├── impress
+│   ├── inkscape
+│   ├── ivtools
+│   ├── jasper					(Installed)
+│   ├── jbig2dec				(Installed)
+│   ├── jbigkit 				(Installed)
+│   ├── jhead					(Installed)
+│   ├── jpeg 					(Installed)
+│   ├── jpeg_ls					(Installed)
+│   ├── jpeg2ps					(Installed)
+│   ├── jpeginfo				(Installed)
+│   ├── jpegoptim				(Installed)
+│   ├── jpegpixi				(Installed)
+│   ├── jpegquality				(Installed)
+│   ├── kamera
+│   ├── kbarcode
+│   ├── kcolorchooser
+│   ├── kde-base-artwork
+│   ├── kdegraphics-mobipocket
+│   ├── kdegraphics-strigi-analyzer
+│   ├── kdegraphics-thumbnailers
+│   ├── kdegraphics3
+│   ├── kgamma
+│   ├── kipi-plugins
+│   ├── kipi-plugins-calendar-kde3
+│   ├── kipi-plugins-kde3
+│   ├── kolourpaint
+│   ├── koverartist
+│   ├── kphotoalbum
+│   ├── kphotobook
+│   ├── kphotools
+│   ├── kruler
+│   ├── ksaneplugin
+│   ├── ksnapshot
+│   ├── lasem
+│   ├── lcms					(Installed)
+│   ├── lcms2					(Installed)
+│   ├── lensfun
+│   ├── lib3ds
+│   ├── libart					(Installed)
+│   ├── libcaca					(Installed)
+│   ├── libexif					(Installed)
+│   ├── libexif-gtk
+│   ├── libgdiplus
+│   ├── libgexiv2
+│   ├── libggi
+│   ├── libggigcp
+│   ├── libggimisc
+│   ├── libggiwmh
+│   ├── libgii
+│   ├── libgiigic
+│   ├── libgnomecanvas
+│   ├── libgnomecanvasmm
+│   ├── libjpeg-turbo
+│   ├── libkdcraw
+│   ├── libkdcraw-kde3
+│   ├── libkexif
+│   ├── libkexiv2
+│   ├── libkexiv2-kde3
+│   ├── libkface
+│   ├── libkipi
+│   ├── libkipi-kde3
+│   ├── libksane
+│   ├── liblqr
+│   ├── libotf					(Installed)
+│   ├── libpano13
+│   ├── libpuzzle				(Installed)
+│   ├── libraw					(Installed)
+│   ├── libraw013
+│   ├── librsvg
+│   ├── libscigraphica
+│   ├── libv4l
+│   ├── libvideogfx
+│   ├── libwebp					(Installed)
+│   ├── libwmf					(Installed)
+│   ├── libxmi					(Installed)
+│   ├── ljpeg					(Installed)
+│   ├── lprof
+│   ├── magicpoint
+│   ├── mandelbulber
+│   ├── Mesa
+│   ├── MesaDemos
+│   ├── MesaLib
+│   ├── metacam					(Installed)
+│   ├── mgl
+│   ├── mng					(Installed)
+│   ├── mpeg2codec
+│   ├── mpgtx
+│   ├── mscgen					(Installed)
+│   ├── mypaint
+│   ├── ncview
+│   ├── netpbm					(Installed)
+│   ├── Ngraph
+│   ├── ns-cult3d
+│   ├── nvtv
+│   ├── ocrad					(Installed)
+│   ├── opencsg
+│   ├── opencv
+│   ├── opendis
+│   ├── openexr					(Installed)
+│   ├── openimageio
+│   ├── openjpeg
+│   ├── openjpeg15
+│   ├── OpenRM
+│   ├── optipng
+│   ├── osg
+│   ├── oxygen-icons
+│   ├── p5-Barcode-Code128			(Installed)
+│   ├── p5-cairo
+│   ├── p5-cairo-gobject
+│   ├── p5-Chart
+│   ├── p5-Chart-ThreeD
+│   ├── p5-clutter
+│   ├── p5-GD					(Installable)
+│   ├── p5-GD-Barcode				(Installed)
+│   ├── p5-GD-Graph-sparklines
+│   ├── p5-GD-Graph3d
+│   ├── p5-GD-SecurityImage
+│   ├── p5-GD-SVG
+│   ├── p5-GDGraph
+│   ├── p5-GDGraph-boxplot
+│   ├── p5-GDTextUtil
+│   ├── p5-GIFgraph
+│   ├── p5-Gnome2-Canvas
+│   ├── p5-GraphicsMagick
+│   ├── p5-GraphViz
+│   ├── p5-GraphViz2
+│   ├── p5-Image-BMP				(Installed)
+│   ├── p5-Image-ExifTool			(Installed)
+│   ├── p5-Image-Imlib2				(Installed)
+│   ├── p5-Image-Info				(Installed)
+│   ├── p5-Image-Size				(Installed)
+│   ├── p5-PerlMagick
+│   ├── p5-RRDTool-OO
+│   ├── p5-SVG					(Installed)
+│   ├── p5-SVG-Graph				(Installed)
+│   ├── p5-SWF-File				(Installed)
+│   ├── p5-Template-GD
+│   ├── panomatic
+│   ├── PanoTools
+│   ├── pdiff
+│   ├── pear-Image_Canvas
+│   ├── pear-Image_Color
+│   ├── pear-Image_Graph
+│   ├── pfstmo
+│   ├── pfstools				(Installed)
+│   ├── pgraf					(Installed)
+│   ├── photopc					(Installed)
+│   ├── php-exif
+│   ├── php-gd
+│   ├── php-jpgraph
+│   ├── pixmap
+│   ├── ploticus				(Installed)
+│   ├── ploticus-examples			(Installed)
+│   ├── plotmtv
+│   ├── plotutils
+│   ├── png					(Installed)
+│   ├── png2html				(Installed)
+│   ├── pngcheck				(Installed)
+│   ├── pngcrush				(Installed)
+│   ├── potrace					(Installed)
+│   ├── povray
+│   ├── prag					(Installed)
+│   ├── ps2eps					(Installed)
+│   ├── pstoedit
+│   ├── py-aafigure
+│   ├── py-actdiag
+│   ├── py-altgraph				(Installed)
+│   ├── py-biggles
+│   ├── py-blockdiag
+│   ├── py-cairo
+│   ├── py-cairo3
+│   ├── py-cairocffi
+│   ├── py-dot
+│   ├── py-fits
+│   ├── py-gdchart				(Installed)
+│   ├── py-gdmodule
+│   ├── py-gnuplot
+│   ├── py-goocanvas
+│   ├── py-gtkglext
+│   ├── py-imaging
+│   ├── py-imagingtk
+│   ├── py-matplotlib
+│   ├── py-matplotlib-gtk2
+│   ├── py-matplotlib-tk
+│   ├── py-nwdiag
+│   ├── py-OpenGL
+│   ├── py-piddle				(Installed)
+│   ├── py-Pillow
+│   ├── py-pycha
+│   ├── py-pygal
+│   ├── py-qrcode
+│   ├── py-seqdiag
+│   ├── py-sk1libs
+│   ├── py-uniconvertor
+│   ├── qcomicbook
+│   ├── qimageblitz
+│   ├── qiv
+│   ├── qiviewer
+│   ├── quesoglc
+│   ├── qvplay
+│   ├── rabbit
+│   ├── radiance
+│   ├── rayshade
+│   ├── refocus-it				(Installed)
+│   ├── resize_image
+│   ├── ristretto
+│   ├── ruby-chunky_png
+│   ├── ruby-color
+│   ├── ruby-color-japanese
+│   ├── ruby-color-tools
+│   ├── ruby-gd
+│   ├── ruby-gnome2-cairo-gobject
+│   ├── ruby-gnome2-clutter
+│   ├── ruby-gnome2-clutter-gtk
+│   ├── ruby-gnome2-gdk3
+│   ├── ruby-gnome2-gdkpixbuf
+│   ├── ruby-gnome2-goocanvas
+│   ├── ruby-gnome2-rsvg
+│   ├── ruby-gnuplot
+│   ├── ruby-imlib2
+│   ├── ruby-mini-magick
+│   ├── ruby-oily_png
+│   ├── ruby-opengl
+│   ├── ruby-rcairo
+│   ├── ruby-RMagick
+│   ├── s10sh
+│   ├── sane-backends
+│   ├── sane-frontends
+│   ├── scidavis
+│   ├── scigraphica
+│   ├── scrot
+│   ├── SDL_image
+│   ├── SDL2_image
+│   ├── shotwell
+│   ├── shotwell-gtk3
+│   ├── showimg
+│   ├── silgraphite				(Installed)
+│   ├── silgraphite-ft				(Installed)
+│   ├── silgraphite-xft				(Installed)
+│   ├── simage
+│   ├── skencil
+│   ├── spcaview
+│   ├── svgpart
+│   ├── tango-icon-theme
+│   ├── tesseract
+│   ├── tex-a2ping				(Installed)
+│   ├── tex-a2ping-doc				(Installed)
+│   ├── tex-asyfig				(Installed)
+│   ├── tex-asyfig-doc				(Installed)
+│   ├── tex-auto-pst-pdf
+│   ├── tex-auto-pst-pdf-doc			(Installed)
+│   ├── tex-dvipng-doc				(Installed)
+│   ├── tex-eepic				(Installed)
+│   ├── tex-eepic-doc				(Installed)
+│   ├── tex-epstopdf				(Installed)
+│   ├── tex-epstopdf-doc			(Installed)
+│   ├── tex-metapost
+│   ├── tex-metapost-doc			(Installed)
+│   ├── tex-mptopdf
+│   ├── tex-mptopdf-doc				(Installed)
+│   ├── tex-pdfcrop				(Installed)
+│   ├── tex-pdfcrop-doc				(Installed)
+│   ├── tex-psgo
+│   ├── tex-psgo-doc				(Installed)
+│   ├── tex-pst-2dplot
+│   ├── tex-pst-2dplot-doc			(Installed)
+│   ├── tex-pst-3d
+│   ├── tex-pst-3d-doc				(Installed)
+│   ├── tex-pst-3dplot
+│   ├── tex-pst-3dplot-doc			(Installed)
+│   ├── tex-pst-barcode
+│   ├── tex-pst-barcode-doc			(Installed)
+│   ├── tex-pst-blur
+│   ├── tex-pst-blur-doc			(Installed)
+│   ├── tex-pst-circ
+│   ├── tex-pst-circ-doc			(Installed)
+│   ├── tex-pst-coil
+│   ├── tex-pst-coil-doc			(Installed)
+│   ├── tex-pst-eps
+│   ├── tex-pst-eps-doc				(Installed)
+│   ├── tex-pst-fill
+│   ├── tex-pst-fill-doc			(Installed)
+│   ├── tex-pst-ghsb
+│   ├── tex-pst-ghsb-doc			(Installed)
+│   ├── tex-pst-gr3d
+│   ├── tex-pst-gr3d-doc			(Installed)
+│   ├── tex-pst-grad
+│   ├── tex-pst-grad-doc			(Installed)
+│   ├── tex-pst-lens
+│   ├── tex-pst-lens-doc			(Installed)
+│   ├── tex-pst-math
+│   ├── tex-pst-math-doc			(Installed)
+│   ├── tex-pst-node
+│   ├── tex-pst-node-doc			(Installed)
+│   ├── tex-pst-osci
+│   ├── tex-pst-osci-doc			(Installed)
+│   ├── tex-pst-pdf
+│   ├── tex-pst-pdf-doc				(Installed)
+│   ├── tex-pst-plot
+│   ├── tex-pst-plot-doc			(Installed)
+│   ├── tex-pst-poly
+│   ├── tex-pst-poly-doc			(Installed)
+│   ├── tex-pst-slpe
+│   ├── tex-pst-slpe-doc			(Installed)
+│   ├── tex-pst-text
+│   ├── tex-pst-text-doc			(Installed)
+│   ├── tex-pst-tree
+│   ├── tex-pst-tree-doc			(Installed)
+│   ├── tex-pst-vue3d
+│   ├── tex-pst-vue3d-doc			(Installed)
+│   ├── tex-pstools
+│   ├── tex-pstools-doc				(Installed)
+│   ├── tex-pstricks
+│   ├── tex-pstricks-add
+│   ├── tex-pstricks-add-doc			(Installed)
+│   ├── tex-pstricks-doc			(Installed)
+│   ├── tex-tex-ps				(Installed)
+│   ├── tex-tex-ps-doc				(Installed)
+│   ├── tex-xypic				(Installed)
+│   ├── tex-xypic-doc				(Installed)
+│   ├── tgif
+│   ├── tiff					(Installed)
+│   ├── TiffIO
+│   ├── tkpiechart
+│   ├── tuxpaint
+│   ├── tuxpaint-config
+│   ├── tuxpaint-stamps
+│   ├── ucview
+│   ├── unicap
+│   ├── urt
+│   ├── vcg
+│   ├── veusz
+│   ├── vid
+│   ├── viewfax					(Installed)
+│   ├── viewnior
+│   ├── vigra
+│   ├── vnc2swf
+│   ├── vp
+│   ├── vtk
+│   ├── vtk-data				(Installed)
+│   ├── vtk-docs				(Installed)
+│   ├── wmphoto					(Installed)
+│   ├── wxsvg
+│   ├── x11rec
+│   ├── xart
+│   ├── xbmbrowser
+│   ├── xdot
+│   ├── xdvipresent
+│   ├── xfce4-icon-theme
+│   ├── xfig
+│   ├── xgc					(Installed)
+│   ├── xgraph
+│   ├── xli
+│   ├── xmorph
+│   ├── xpaint
+│   ├── xplot			`		(Installed)
+│   ├── xplot-devel
+│   ├── xsane
+│   ├── xv
+│   ├── xzgv
+│   └── zphoto

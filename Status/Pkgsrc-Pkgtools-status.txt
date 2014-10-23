@@ -1,0 +1,73 @@
+├── pkgtools ***60*** ***47 Installed, 0 Installable*** ***Count 47*** ***Pass Complete***
+│   ├── autoswc 				(Installed)
+│   ├── binpatch 				(Installed)
+│   ├── bootstrap-extras 			(Installed)
+│   ├── bootstrap-mk-files 			(Installed)
+│   ├── cdpack 					(Installed)
+│   ├── compat_headers 				(Installed)
+│   ├── createbuildlink 			(Installed)
+│   ├── dfdisk 					(Installed)
+│   ├── digest 					(Installed)
+│   ├── distbb					{1}
+│   ├── genpkgng 				(Installed)
+│   ├── genrpm					{2}
+│   ├── gnome-packagekit			{4}{3}
+│   ├── libnbcompat 				(Installed)
+│   ├── lintpkgsrc 				(Installed)
+│   ├── mksandbox 				(Installed)
+│   ├── mtree					{5}
+│   ├── nih					{1}
+│   ├── osabi 					(Installed)
+│   ├── p5-pkgsrc-Dewey 			(Installed)
+│   ├── packagekit				{7}
+│   ├── pbulk 					(Installed)
+│   ├── pbulk-base 				(Installed)
+│   ├── pkg_alternatives 			(Installed)
+│   ├── pkg_chk 				(Installed)
+│   ├── pkg_distinst 				(Installed)
+│   ├── pkg_filecheck				(Installed){6}
+│   ├── pkg_install 				(Installed)
+│   ├── pkg_install-info 			(Installed)
+│   ├── pkg_leaves 				(Installed)
+│   ├── pkg_notify 				(Installed)
+│   ├── pkg_online-client			{1}
+│   ├── pkg_online-server			{1}
+│   ├── pkg_p5up2date 				(Installed)
+│   ├── pkg_regress 				(Installed)
+│   ├── pkg_rolling-replace 			(Installed)
+│   ├── pkg_select				{10}
+│   ├── pkg_summary-utils			{1}
+│   ├── pkg_tarup 				(Installed)
+│   ├── pkgclean 				(Installed)
+│   ├── pkgdep 					(Installed)
+│   ├── pkgdepgraph 				(Installed)
+│   ├── pkgdiff 				(Installed)
+│   ├── pkgfind					{9}
+│   ├── pkgin					{8}
+│   ├── pkglint 				(Installed)
+│   ├── pkgse 					(Installed)
+│   ├── pkgsrc-todo 				(Installed)
+│   ├── pkgsurvey 				(Installed)
+│   ├── port2pkg 				(Installed)
+│   ├── prereq-readme 				(Installed)
+│   ├── rc.subr 				(Installed)
+│   ├── rcorder 				(Installed)
+│   ├── rdigest 				(Installed)
+│   ├── revbump 				(Installed)
+│   ├── rpm2pkg 				(Installed)
+│   ├── shlock 					(Installed)
+│   ├── url2pkg 				(Installed)
+│   ├── verifypc 				(Installed)
+│   └── xpkgwedge				{11}
+
+{1} Wants mk-configure, but its not built yet
+{2} Wants nspr, but its not built yet
+{3} Original error: wanted gnome-doc-utils before it was built
+{4} Wants policykit, but its not built yet
+{5} Error in pack_dev.c: undefined references to 'makedev' 'major' 'minor'
+{6} Original error: pkg_filecheck.c: passing arguement 3 of 'fts_open' from incompatable pointer type. Numerous errors associated with u_int32_t
+{7} Error in polkit-auth.c: undefined reference to 'WEXITSTATUS'
+{8} Error at ld link: libfetch not found
+{9} Error in pkgfind.c: undefined reference to 'warnx' 'err' 'getprogname' 'setprogname'
+{10} Missing <sys/queue>
+{11} Pkgsrc says not for modular x11

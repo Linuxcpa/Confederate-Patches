@@ -1,0 +1,62 @@
+├── biology ***35*** ***21 Installed, 0 Installable*** ***Count 21*** ***Pass Complete***
+│   ├── arka 					(Installed){10}{1}
+│   ├── azara 					{24}{11}{17}{18}{1}
+│   ├── bioperl					{2}{21}
+│   ├── bodr					(Installed){12}{1}
+│   ├── chemical-mime-data			{13}{1}
+│   ├── chemtool				{25}{23}{16}{3}
+│   ├── clustalw 				(Installed)
+│   ├── coalesce 				(Installed)
+│   ├── fastDNAml 				(Installed)
+│   ├── fluctuate 				(Installed)
+│   ├── genesplicer 				(Installed)
+│   ├── glimmer 				(Installed)
+│   ├── gnome-chemistry-utils			{25}{23}{22}{19}{14}
+│   ├── gp 					(Installed)
+│   ├── gromacs					{4}
+│   ├── hmmer 					(Installed)
+│   ├── lucy 					(Installed)
+│   ├── mopac					{4}
+│   ├── mpqc					{4}
+│   ├── mummer					{5}
+│   ├── nut 					(Installed)
+│   ├── openbabel				(Installed){6}{20}
+│   ├── p5-Bio-ASN1-EntrezGene 			(Installed)
+│   ├── pdbalign 				(Installed)
+│   ├── phylip					(Installed){15}
+│   ├── plink					{4}
+│   ├── plinkseq				{7}
+│   ├── primer3 				(Installed)
+│   ├── profit					(Installed){8}
+│   ├── puzzle					{4}
+│   ├── py-mol					{4}
+│   ├── rasmol					{9}
+│   ├── sewer 					(Installed)
+│   ├── stride 					(Installed)
+│   └── xylem 					(Installed)
+
+{1} Original error: wanted Libxt before it was built
+{2} Wants p5-XML-LibXSLT, but its not built yet
+{3} Original error: Wanted py-cElementTree before it was built.
+{4} Wants g95, but its not built yet
+{5} Wants tcsh, but its not built yet
+{6} Original error: can't find -lc.
+{7} Wants protobuf, but its not built yet
+{8} Original error: Hard links in source tar
+{9} Missing: <sys/shm.h>. Its there, but the compiler can't find it
+{10} Original error: wanted glib1 before it was built
+{11} Original error: wanted glu, before it was built
+{12} Original error: Trouble resolving symbol -214747870 in libxml.so.2.9.1
+{13} Wants fftw, but its not built yet
+{14} Original error: wanted py-expat, before it was built
+{15} Original error: unknown
+{16} Original error: wanted gobject-introspection before it was built
+{17} Original error: wanted mesalib before it was built
+{18} Original error: wanted libXt before it was built
+{19} Original error: wanted gnome-doc-utils before it was built
+{20} Original error: wanted cmake before it was built
+{21} Original error: missing Perl header: inet.h
+{22} Original error: wanted orbit2 before it was built
+{23} Original error: wanted pixman before it was built
+{24} Wants glut, but its not built yet
+{25} Wants cairo, but its not built yet

@@ -1,0 +1,30 @@
+├── shells ***29***  ***9 Installed, 0 Installable*** ***Count 9*** ***Pass Complete***
+│   ├── ast-ksh
+│   ├── bash 					(Installed)
+│   ├── bash-completion 			(Installed)
+│   ├── bash2
+│   ├── bash2-doc 				(Installed)
+│   ├── dash
+│   ├── eltclsh
+│   ├── es
+│   ├── esh
+│   ├── fish
+│   ├── heirloom-sh
+│   ├── lshell
+│   ├── mksh 					(Installed)
+│   ├── mudsh 					(Installed)
+│   ├── nologinmsg
+│   ├── osh 					(Installed)
+│   ├── pdksh 					(Installed)
+│   ├── perlsh
+│   ├── posh
+│   ├── rc 					(Installed)
+│   ├── rssh
+│   ├── scponly
+│   ├── scsh
+│   ├── standalone-tcsh
+│   ├── static-ast-ksh
+│   ├── static-tcsh
+│   ├── tcsh
+│   ├── xsh 					(Installed)
+│   └── zsh

@@ -1,0 +1,382 @@
+├── games ***375*** ***69 Installed, 2 installable*** ***Count 71*** ***Pass Complete***
+│   ├── 0verkill
+│   ├── 4stAttack
+│   ├── abuse
+│   ├── adom
+│   ├── alephone
+│   ├── amaze 					(Installed){5}
+│   ├── amor
+│   ├── an 					(Installed)
+│   ├── angband-tty
+│   ├── angband-x11
+│   ├── anise
+│   ├── aop 					(Installed)
+│   ├── asc
+│   ├── asciiquarium
+│   ├── atomix
+│   ├── bastet 					(Installed){5}
+│   ├── battalion
+│   ├── battleball 				(Installed)
+│   ├── billardgl
+│   ├── blindmine
+│   ├── blinken
+│   ├── blokus
+│   ├── bluemoon
+│   ├── bomber
+│   ├── bomberclone
+│   ├── bos
+│   ├── boson
+│   ├── bovo
+│   ├── bridge-hands 				(Installed)
+│   ├── bzflag
+│   ├── cbzone
+│   ├── ccgo
+│   ├── cgoban 					(Installed)
+│   ├── cgoban-java
+│   ├── chest 					(Installed)
+│   ├── chromium-bsu
+│   ├── circuslinux
+│   ├── civctp-demo
+│   ├── cmatrix 				(Installed)
+│   ├── colchess
+│   ├── colchess-book-colchess
+│   ├── colchess-book-large
+│   ├── corewars
+│   ├── crack-attack
+│   ├── crack-attack-sounds 			(Installed)
+│   ├── craft
+│   ├── crafty 		
+│   ├── crafty-book-medium
+│   ├── crafty-book-small
+│   ├── crafty-doc				(Installed)
+│   ├── crimsonfields
+│   ├── criticalmass
+│   ├── crossfire-client
+│   ├── crossfire-client-gtk
+│   ├── crossfire-client-gtk2
+│   ├── crossfire-server
+│   ├── d2x
+│   ├── dd2
+│   ├── defendguin 				{1}
+│   ├── digger
+│   ├── dipmap
+│   ├── doom1 					(Installed)
+│   ├── dopewars
+│   ├── duckmaze
+│   ├── dungeon 				(Installed){5}
+│   ├── eboard
+│   ├── enigma
+│   ├── et
+│   ├── eus-demo
+│   ├── exchess 				(Installed)
+│   ├── exchess-book-medium 			(Installed)
+│   ├── exchess-book-small 			(Installed)
+│   ├── exult
+│   ├── falcons-eye
+│   ├── fillets-ng
+│   ├── fillets-ng-data 			(Installed)
+│   ├── finalbattle
+│   ├── fire
+│   ├── fkiss 					(Installed)
+│   ├── flare-engine
+│   ├── flare-game
+│   ├── flightgear
+│   ├── flightgear-data 			(Installed)
+│   ├── fltk-sudoku
+│   ├── foobillard
+│   ├── fortune-strfile 			(Installed)
+│   ├── fortunes-calvin 			(Installed)
+│   ├── fortunes-de 				(Installed)
+│   ├── fortunes-futurama 			(Installed)
+│   ├── fortunes-h2g2 				(Installed)
+│   ├── freeciv-client
+│   ├── freeciv-manual 				(Installed)
+│   ├── freeciv-server
+│   ├── freeciv-share 				(Installed)
+│   ├── freedroid
+│   ├── freesci
+│   ├── frotz
+│   ├── frozen-bubble
+│   ├── fruit 					(Installed)
+│   ├── galaxa
+│   ├── gamazons
+│   ├── gate88
+│   ├── gbrainy
+│   ├── gcompris
+│   ├── gemdropx
+│   ├── genecys-client
+│   ├── genecys-data 				(Installed)
+│   ├── ggz-client-libs
+│   ├── glaxium
+│   ├── glickomania
+│   ├── gltron
+│   ├── gnome-games
+│   ├── gnome-games-extra-data
+│   ├── gnome-mastermind
+│   ├── gnuchess 				(Installed)
+│   ├── gnuchess-book 				(Installable) {2}
+│   ├── gnuchess-book-medium 			(Installable)
+│   ├── gnuchess4
+│   ├── gnugo 					(Installed)
+│   ├── gogui
+│   ├── golddig 				(Installed)
+│   ├── granatier
+│   ├── greed 					(Installed)
+│   ├── grhino
+│   ├── gtetrinet
+│   ├── gtkballs
+│   ├── gtklevel9
+│   ├── gtkmagnetic
+│   ├── gturing
+│   ├── heretic2-demo 				(Installed)
+│   ├── hex-a-hop
+│   ├── holtz
+│   ├── hugo 					(Installed)
+│   ├── icbm3d 					(Installed)
+│   ├── icebreaker
+│   ├── imaze
+│   ├── InterLOGIC
+│   ├── ioquake3 				(Installed)
+│   ├── ioquake3-pk3
+│   ├── ivan
+│   ├── jetpack
+│   ├── jools
+│   ├── kajaani-kombat
+│   ├── kajongg
+│   ├── kanagram
+│   ├── kanatest
+│   ├── kapman
+│   ├── kapooka
+│   ├── katomic
+│   ├── kblackbox
+│   ├── kblocks
+│   ├── kbounce
+│   ├── kbreakout
+│   ├── kdegames3
+│   ├── kdetoys3
+│   ├── kdiamond
+│   ├── ketm
+│   ├── kfourinline
+│   ├── kgoldrunner
+│   ├── khangman
+│   ├── kigo
+│   ├── killbots
+│   ├── kiriki
+│   ├── kjumpingcube
+│   ├── klavaro
+│   ├── klickety
+│   ├── klines
+│   ├── kmahjongg
+│   ├── kmines
+│   ├── knavalbattle
+│   ├── knetwalk
+│   ├── knightcap
+│   ├── knightcap-brain 			(Installed)
+│   ├── knights
+│   ├── KoboDeluxe
+│   ├── kolf
+│   ├── kollision
+│   ├── konquest
+│   ├── koth
+│   ├── kpat
+│   ├── kreversi
+│   ├── kshisen
+│   ├── ksirk
+│   ├── ksnakeduel
+│   ├── kspaceduel
+│   ├── ksquares
+│   ├── ksudoku
+│   ├── ktuberling
+│   ├── kubrick
+│   ├── kye
+│   ├── lbreakout
+│   ├── lbreakout2
+│   ├── level9 					(Installed)
+│   ├── lgeneral
+│   ├── lgeneral-data
+│   ├── lgogdownloader
+│   ├── libggz
+│   ├── libkdegames
+│   ├── libkmahjongg
+│   ├── lincity
+│   ├── lincity-ng
+│   ├── liquidwar
+│   ├── lmarbles
+│   ├── lnl 					(Installed)
+│   ├── LostPixels
+│   ├── lpairs
+│   ├── lskat
+│   ├── ltris 					{1}
+│   ├── maelstrom-sdl
+│   ├── maelstrom-x11
+│   ├── majesty-demo
+│   ├── marathon-evil
+│   ├── marathon-trilogy 			(Installed) {3}
+│   ├── minami
+│   ├── mirrormagic 				(Installed)
+│   ├── mirrormagic-sdl
+│   ├── monsterz
+│   ├── moon-buggy 				(Installed)
+│   ├── moria
+│   ├── nagi
+│   ├── nethack
+│   ├── nethack-lib
+│   ├── nethack-qt
+│   ├── nethack-tty
+│   ├── nethack-x11
+│   ├── netmaj
+│   ├── netmaze
+│   ├── netris 					(Installed){5} {6}
+│   ├── neverball
+│   ├── newvox
+│   ├── nighthawk
+│   ├── ninvaders 				(Installed){5}
+│   ├── omega 					(Installed){5}
+│   ├── onscripter
+│   ├── openmortal
+│   ├── openttd
+│   ├── openttd-data 				(Installed)
+│   ├── orbital_eunuchs_sniper
+│   ├── pag
+│   ├── palapeli
+│   ├── picmi
+│   ├── pingus
+│   ├── pioneers
+│   ├── plib
+│   ├── polyglot
+│   ├── powder
+│   ├── powermanga
+│   ├── powwow
+│   ├── prboom
+│   ├── pushover 				{1}
+│   ├── puzzles 				{1}
+│   ├── py-ranking
+│   ├── py-renpy
+│   ├── py-trueskill
+│   ├── pysolfc
+│   ├── pytraffic
+│   ├── qnetwalk
+│   ├── qonk
+│   ├── qstat 					(Installed){4}
+│   ├── quake
+│   ├── quake2forge
+│   ├── quake3arena
+│   ├── quake3arena-demo
+│   ├── quake3server
+│   ├── quake3server-excessive
+│   ├── quake3server-osp
+│   ├── quake3server-ra3
+│   ├── quake3server-ut
+│   ├── quake6
+│   ├── quakedata
+│   ├── quakeforge
+│   ├── quakespasm
+│   ├── quarry
+│   ├── REminiscence
+│   ├── rftg
+│   ├── robotfindskitten
+│   ├── rocksndiamonds
+│   ├── rocksndiamonds-levels
+│   ├── rollemup
+│   ├── rtcw
+│   ├── sarien
+│   ├── scid
+│   ├── scummvm
+│   ├── scummvm-bass
+│   ├── scummvm-fotaq
+│   ├── scummvm-tools
+│   ├── sex 					(Installed)
+│   ├── simgear 				{1}
+│   ├── singularity
+│   ├── sirius
+│   ├── six
+│   ├── sjeng					(Installed)
+│   ├── sl
+│   ├── solarus
+│   ├── spaceracer
+│   ├── spellcast 				(Installed){1}
+│   ├── spider
+│   ├── stegavorto
+│   ├── stratagus
+│   ├── sudoku-cli				(Installed)
+│   ├── supertuxkart
+│   ├── svb
+│   ├── tads
+│   ├── tanked
+│   ├── teg
+│   ├── tetrinetx				(Installed)
+│   ├── thew
+│   ├── tileworld
+│   ├── toppler
+│   ├── tscp					(Installed)
+│   ├── tuxmath
+│   ├── tuxracer
+│   ├── tyrquake
+│   ├── ufoai
+│   ├── uqm
+│   ├── urban
+│   ├── velena					(Installed)
+│   ├── vms-empire
+│   ├── wargames				(Installed)
+│   ├── warmux
+│   ├── warzone2100
+│   ├── wesnoth
+│   ├── wormz
+│   ├── wxhugo
+│   ├── xarchon
+│   ├── xbat
+│   ├── xbill
+│   ├── xblast
+│   ├── xblockout [xbl]				(Installed)
+│   ├── xboard
+│   ├── xboing
+│   ├── xbomb					(Installed)
+│   ├── xbomber					(Installed)
+│   ├── xbreaky
+│   ├── xconq					(Installed)
+│   ├── xcowsay
+│   ├── xdemineur				(Installed)
+│   ├── xdoom
+│   ├── xemeraldia
+│   ├── xevil
+│   ├── xfreecell
+│   ├── xfrisk					(Installed)
+│   ├── xgalaga
+│   ├── xgospel					(Installed)
+│   ├── xjewel
+│   ├── xjig
+│   ├── xjump					(Installed)
+│   ├── xkobo
+│   ├── xmahjongg				(Installed)
+│   ├── xmris
+│   ├── xnibbles
+│   ├── xpat2
+│   ├── xpilot
+│   ├── xpipeman
+│   ├── xpuyopuyo
+│   ├── xracer
+│   ├── xrick
+│   ├── xroach					(Installed)
+│   ├── xroads					(Installed)
+│   ├── xsc					(Installed)
+│   ├── xscavenger
+│   ├── xscorch
+│   ├── xscrabble
+│   ├── xskat
+│   ├── xsokoban
+│   ├── xsoldier
+│   ├── xtris
+│   ├── xtux
+│   ├── xu4
+│   ├── xvier
+│   ├── xworm
+│   ├── xye
+│   ├── xzip					(Installed)
+│   ├── zombies					(Installed)
+│   └── zoom
+{1} Wanted gcc-3c
+{2} Inconsstent
+{3} License
+{4} Undefined References
+{5} Needs mk.conf to have "CURSES_DEFAULT? = ncurses" for success.
+{6} Hard to inject -lnetwork - configure file spelt with capital c in Configure.

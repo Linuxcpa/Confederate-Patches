@@ -1,0 +1,230 @@
+├── lang ***227*** ***58 Installed, 4 Installable, 1 Double Packaged*** ***Count 63*** ***Pass Complete*** 
+│   ├── a60					(Installed)
+│   ├── abcl
+│   ├── algol68g				(Installed)
+│   ├── asn1c					(Installed)
+│   ├── awka					(Installed)
+│   ├── baci					(Installed)
+│   ├── basic256
+│   ├── boomerang
+│   ├── brandybasic
+│   ├── bwbasic					(Installed)
+│   ├── caml-light				(Installed)
+│   ├── camlp5
+│   ├── ccsh					(Installed)
+│   ├── cdl3					(Installed)
+│   ├── Cg-compiler
+│   ├── chicken					(Installed)
+│   ├── cim
+│   ├── cint
+│   ├── clang
+│   ├── classpath
+│   ├── classpath-gui
+│   ├── clisp
+│   ├── clojure
+│   ├── coq
+│   ├── cparser
+│   ├── cu-prolog
+│   ├── eag					(Installed)
+│   ├── ecl
+│   ├── eieio
+│   ├── elisp-manual				(Installed)
+│   ├── elk					(Installed)
+│   ├── embryo
+│   ├── erlang
+│   ├── erlang-doc
+│   ├── erlang-man
+│   ├── f2c					(Installed)
+│   ├── ficl					(Installed)
+│   ├── focal					(Installed)
+│   ├── fort77					(Installed)
+│   ├── g95
+│   ├── gambc
+│   ├── gauche
+│   ├── gawk					(Installed)
+│   ├── gcc
+│   ├── gcc-aux
+│   ├── gcc3
+│   ├── gcc3-c 						{2}
+│   ├── gcc3-c++
+│   ├── gcc3-f77
+│   ├── gcc3-objc
+│   ├── gcc34
+│   ├── gcc44
+│   ├── gcc45
+│   ├── gcc46
+│   ├── gcc47
+│   ├── gcc47-libs
+│   ├── gcc48
+│   ├── gcc48-cc++
+│   ├── gcc48-fortran
+│   ├── gcc48-libs
+│   ├── gcc48-objc
+│   ├── gforth					(Installed)
+│   ├── ghc
+│   ├── ghc-bootstrap
+│   ├── ghc7
+│   ├── gnat_util
+│   ├── gnat-aux
+│   ├── go
+│   ├── gpc
+│   ├── gprolog
+│   ├── guile
+│   ├── guile16
+│   ├── gwydion-dylan
+│   ├── heirloom-awk				(Installed)
+│   ├── hugs					(Installed)
+│   ├── icc11
+│   ├── icon
+│   ├── inform					(Installed)
+│   ├── intercal				(Installed)
+│   ├── ja-gawk					(Installable)
+│   ├── jamvm
+│   ├── japhar					(Installed)
+│   ├── jasmin
+│   ├── java-lang-spec				(Installed)
+│   ├── java-vm-spec				(Installed)
+│   ├── jikes 					(Installed)
+│   ├── jini
+│   ├── joos
+│   ├── js					(Installed)
+│   ├── kaffe
+│   ├── kaffe-esound
+│   ├── kaffe-x11
+│   ├── kali
+│   ├── konoha
+│   ├── ksi
+│   ├── librep
+│   ├── libtcl-nothread
+│   ├── likepython				(Installed)
+│   ├── lua
+│   ├── lua51					(Installed)
+│   ├── lua52 					(Installed)
+│   ├── LuaJIT
+│   ├── LuaJIT2					(Installed)
+│   ├── lush
+│   ├── maude
+│   ├── mawk 					(Installed)
+│   ├── mercury
+│   ├── minischeme				(Installed)
+│   ├── mit-scheme-bin
+│   ├── mono
+│   ├── mono-basic
+│   ├── mono2
+│   ├── moscow_ml
+│   ├── mpd
+│   ├── nawk					(Installed)
+│   ├── newlisp
+│   ├── nhc98
+│   ├── nodejs
+│   ├── nqp
+│   ├── nuitka
+│   ├── objc
+│   ├── ocaml					(Installed)
+│   ├── onyx
+│   ├── oo2c
+│   ├── open-cobol-ce				(Installed)
+│   ├── opencobol				(Installable)
+│   ├── openjdk7
+│   ├── openjdk7-bin
+│   ├── opensource-cobol			(Installable)
+│   ├── ossp-js					(Installable)
+│   ├── p2c					(Installed)
+│   ├── p5-Switch				(Installed)
+│   ├── parrot
+│   ├── pcc
+│   ├── pcc-current
+│   ├── pear
+│   ├── perl5 					(Installed)
+│   ├── pfe
+│   ├── pforth					(Installed)
+│   ├── php
+│   ├── php5-perl
+│   ├── php53
+│   ├── php54
+│   ├── php55
+│   ├── picoc
+│   ├── pict
+│   ├── polyml
+│   ├── py-basicproperty
+│   ├── py-cxfreeze
+│   ├── py-hy					(Installed)
+│   ├── py-pyrex				(Installed)
+│   ├── py-pythonz
+│   ├── py-six					(Installed)
+│   ├── py26-html-docs				(Installed)
+│   ├── py27-html-docs				(Installed)
+│   ├── python
+│   ├── python26
+│   ├── python27 				(Installed){1}
+│   ├── python33
+│   ├── python34				(Installed)
+│   ├── racket
+│   ├── racket-textual
+│   ├── rakudo-star
+│   ├── rcfunge
+│   ├── rexx-imc
+│   ├── rexx-regina
+│   ├── ruby
+│   ├── ruby-coffee-script
+│   ├── ruby-coffee-script-source
+│   ├── ruby-doc-stdlib				(Installed)
+│   ├── ruby-execjs
+│   ├── ruby18
+│   ├── ruby18-base
+│   ├── ruby193
+│   ├── ruby193-base
+│   ├── ruby200
+│   ├── ruby200-base
+│   ├── ruby21
+│   ├── ruby21-base
+│   ├── runawk
+│   ├── sablevm					(Installed)
+│   ├── sablevm-classpath			(Installed)
+│   ├── sablevm-classpath-gui
+│   ├── sather
+│   ├── sbcl
+│   ├── scala
+│   ├── scheme48				(Installed)
+│   ├── scm
+│   ├── see
+│   ├── sigscheme
+│   ├── siod
+│   ├── smalltalk
+│   ├── smlnj
+│   ├── spidermonkey
+│   ├── spl
+│   ├── squeak
+│   ├── squeak-vm
+│   ├── sr
+│   ├── sr-examples				(Installed)
+│   ├── stalin
+│   ├── STk
+│   ├── sun-jdk6
+│   ├── sun-jdk7
+│   ├── sun-jre6
+│   ├── sun-jre7
+│   ├── swi-prolog
+│   ├── swi-prolog-jpl
+│   ├── swi-prolog-lite
+│   ├── swi-prolog-packages
+│   ├── tcl					(Installed) [Double Build]
+│   ├── tcl-expect
+│   ├── tcl-otcl				(Installed)
+│   ├── tcl85
+│   ├── tinyscheme
+│   ├── twelf
+│   ├── ucblogo
+│   ├── umb-scheme				(Installed)
+│   ├── utilisp
+│   ├── vala
+│   ├── vala014
+│   ├── vala018
+│   ├── vala020
+│   ├── vscm
+│   ├── vslisp
+│   ├── wsbasic					(Installed)
+│   ├── yabasic					(Installed)
+│   └── yap
+{1} Had initial compile issues and still partially broken.
+{2} Error

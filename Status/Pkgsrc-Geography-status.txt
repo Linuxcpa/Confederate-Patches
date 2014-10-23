@@ -1,0 +1,79 @@
+├── geography ***55*** ***30 Installed, 0 installable*** ***Count 30*** ***Pass Complete***
+│   ├── cm2gpx					(Installed)
+│   ├── cmconvert				(Installed)
+│   ├── emerillon				{20}{11}{{17}{2}{1}
+│   ├── epsg					(Installed)
+│   ├── epsg-docs				(Installed)
+│   ├── gama					(Installed)
+│   ├── garmin-utils				{12}{13}{3}
+│   ├── garmintools				{4}
+│   ├── gdal-lib				{5}
+│   ├── geoclue					(Installed){2}{6}
+│   ├── geos					{7}
+│   ├── gipfel					{21}{8}
+│   ├── gpsbabel				{4}
+│   ├── gpsd					{9}
+│   ├── gpsdrive				{9}
+│   ├── gpspoint				(Installed)
+│   ├── gpsutils				{10}
+│   ├── libchamplain04				{20}{17}{11}
+│   ├── libchamplain06				{20}{17}{11}
+│   ├── libchamplain08				{20}{17}{11}
+│   ├── libdrg					(Installed){12}
+│   ├── libgeotiff				(Installed)
+│   ├── mapserver				{5}
+│   ├── merkaartor				{22}{8}
+│   ├── opencpn					{20}{17}{11}
+│   ├── p5-Geo-Coordinates-UTM			(Installed)
+│   ├── p5-Geo-Distance				(Installed)
+│   ├── p5-Geo-Mercator				(Installed)
+│   ├── p5-Geo-ShapeFile			(Installed)
+│   ├── p5-Geo-Weather				(Installed)
+│   ├── p5-Geography-Countries			(Installed)
+│   ├── proj					(Installed)
+│   ├── proj-doc				(Installed)
+│   ├── proj-swig				{14}
+│   ├── py-geojson				(Installed)
+│   ├── py-proj					(Installed)
+│   ├── py-trytond-country			{15}
+│   ├── qgis					{19}
+│   ├── qlandkartegt				{22}{8}
+│   ├── qlandkartegt-garmindev			{16}
+│   ├── qlandkartem				{22}{8}
+│   ├── shapelib				(Installed)
+│   ├── tex-pst-geo				{20}{17}
+│   ├── tex-pst-geo-doc				(Installed)
+│   ├── viking					{4}{18}
+│   ├── vis5d+					{5}
+│   ├── xrmap					(Installed)
+│   ├── xrmap-anthems				(Installed)
+│   ├── xrmap-base				(Installed)
+│   ├── xrmap-data				(Installed)
+│   ├── xrmap-factbook_html			(Installed)
+│   ├── xrmap-factbook_text			(Installed)
+│   ├── xrmap-flags				(Installed)
+│   ├── xrmap-hymns				(Installed)
+│   └── xrmap-pdfmaps				(Installed)
+
+{1} Original error: wanted flex before it was built
+{2} Original error: wanted orbit2 before it was built
+{3} Error in gpslib.h: unknown name type u_int32_t
+{4} Haiku not suipported
+{5} Wants g95, but its not built yet
+{6} Original error: wanted libIDL before it was built
+{7} Error in coordinate.idl: ISNAN not declaired
+{8} Original error: wanted glu before it was built
+{9} Missing: <sys/shim.h>
+{10} Missing: <sys/fcntl.h>
+{11} Original error: wanted gobject-introspection before it was built
+{12} Error in drg_tiff.c: unknown type name int32_t
+{13} Error in in gpsl.c: unknown name type TIOCSETAF
+{14} Wants guile, but its not built yet
+{15} Configure can't find pyconfig.h
+{16} Wants libusb, but its not built yet
+{17} Original error: wanted pixman before it was built
+{18} Original error: wanted gnome-doc-utils before it was built
+{19} Package marked as broken in pkgsrc
+{20} Wants cairo, but its not built yet
+{21} Wants glut, but its not built yet
+{22} Wants qt4-libs, but its not built yet

@@ -1,0 +1,581 @@
+├── sysutils ***580*** ***119 Installed, 0 Installable*** ***Count 119*** ***Pass Complete***
+│   ├── 855resolution
+│   ├── 915resolution
+│   ├── 9base
+│   ├── acpica-utils
+│   ├── acpidump
+│   ├── adtool
+│   ├── afbinit
+│   ├── agedu					(Installed)
+│   ├── amanda
+│   ├── amanda-client
+│   ├── amanda-common
+│   ├── amanda-plot
+│   ├── amanda-server
+│   ├── amtterm
+│   ├── ansible
+│   ├── apcupsd
+│   ├── asapm
+│   ├── atitvout
+│   ├── bacula
+│   ├── bacula-clientonly
+│   ├── bacula-doc
+│   ├── bacula-qt-console
+│   ├── bacula-tray-monitor
+│   ├── bacula-wx-console
+│   ├── bbsload
+│   ├── bchunk					(Installed)
+│   ├── bcmfw
+│   ├── bcollect
+│   ├── bkpupsd
+│   ├── boxbackup-client
+│   ├── boxbackup-server
+│   ├── brasero
+│   ├── brasero-nautilus
+│   ├── bsdinstall
+│   ├── bsign
+│   ├── btpin-qt
+│   ├── bubblemon
+│   ├── bup
+│   ├── burn
+│   ├── capistrano
+│   ├── ccd2iso 				(Installed)
+│   ├── ccze
+│   ├── cdbkup
+│   ├── cdrdao
+│   ├── cdrkit
+│   ├── cdrtools				(Installed)
+│   ├── cfengine2
+│   ├── cfengine3
+│   ├── checkpassword				(Installed)
+│   ├── checkpassword-pam			(Installed)
+│   ├── checkperms				(Installed)
+│   ├── clex
+│   ├── collectd
+│   ├── collectd-amqp
+│   ├── collectd-curl
+│   ├── collectd-dbi
+│   ├── collectd-dns
+│   ├── collectd-memcached
+│   ├── collectd-mysql
+│   ├── collectd-network
+│   ├── collectd-notify-email
+│   ├── collectd-postgresql
+│   ├── collectd-rrdtool
+│   ├── collectd-snmp
+│   ├── conky
+│   ├── consolekit
+│   ├── coreutils
+│   ├── cpmtools				(Installed)
+│   ├── cpogm					(Installed)
+│   ├── cpuburn					(Installed)
+│   ├── cpuid
+│   ├── crashme					(Installed)
+│   ├── cuisine
+│   ├── cvsreport				(Installed)
+│   ├── daemond
+│   ├── daemontools				(Installed)
+│   ├── dbus					(Installed)
+│   ├── dbus-glib				(Installed)
+│   ├── dbus-python-common			(Installed)
+│   ├── dbus-qt3
+│   ├── dbus-sharp
+│   ├── dbus-sharp-glib
+│   ├── dc-tools				(Installed)
+│   ├── dd_rescue				(Installed)
+│   ├── dd_rhelp				(Installed)
+│   ├── ddrescue				(Installed)
+│   ├── deforaos-browser
+│   ├── deforaos-terminal
+│   ├── depot
+│   ├── desktop-file-utils			(Installed)
+│   ├── detox					(Installed)
+│   ├── devkitd
+│   ├── di
+│   ├── dirsize
+│   ├── dirvish					(Installed)
+│   ├── disk-filltest				(Installed)
+│   ├── diskscrub				(Installed)
+│   ├── dmassage
+│   ├── dmesg2gif
+│   ├── dmg2img					(Installed)
+│   ├── dmidecode
+│   ├── dmsdos
+│   ├── dog					(Installed)
+│   ├── dptutil
+│   ├── dtpstree
+│   ├── duplicity
+│   ├── dvd+rw-tools
+│   ├── dvdisaster
+│   ├── dvdrecord				(Installed)
+│   ├── e2fsprogs
+│   ├── easydiskpasswd
+│   ├── edbus
+│   ├── efreet
+│   ├── eggdbus
+│   ├── entr
+│   ├── estd
+│   ├── etckeeper				(Installed)
+│   ├── etcmanage				(Installed)
+│   ├── etcutils				(Installed)
+│   ├── euca2ools
+│   ├── eventlog				(Installed)
+│   ├── extipl
+│   ├── fabric
+│   ├── fakeroot				(Installed)
+│   ├── fam
+│   ├── fastfs
+│   ├── fatback
+│   ├── fdupes					(Installed)
+│   ├── file 					(Installed)
+│   ├── filelight
+│   ├── filelight-kde3
+│   ├── findutils				(Installed)
+│   ├── fix4SA110rev2
+│   ├── fixelfprot
+│   ├── flashrom
+│   ├── foremost
+│   ├── free					(Installed)
+│   ├── fs-kit
+│   ├── fscd
+│   ├── fsviewer
+│   ├── ftwin
+│   ├── gamin
+│   ├── gcdmaster
+│   ├── gcombust
+│   ├── genpasswd
+│   ├── gentoo
+│   ├── gfm
+│   ├── gio-fam
+│   ├── gkrellm
+│   ├── gkrellm-est
+│   ├── gkrellm-server
+│   ├── gkrellm-share				(Installed)
+│   ├── gnome-commander
+│   ├── gnome-device-manager
+│   ├── gnome-menus
+│   ├── gnome-mount
+│   ├── gnome-nds-thumbnailer
+│   ├── gnome-pkgview
+│   ├── gnome-power-manager
+│   ├── gnome-settings-daemon
+│   ├── gnome-system-monitor
+│   ├── gnome-system-tools
+│   ├── gnome-vfs
+│   ├── gnome-vfs-monikers
+│   ├── gnome-vfsmm
+│   ├── gnome-volume-manager
+│   ├── gnometoaster
+│   ├── gnuit
+│   ├── gpart
+│   ├── grub
+│   ├── grub2
+│   ├── grun
+│   ├── gsettings-desktop-schemas
+│   ├── gst-plugins0.10-gio
+│   ├── gst-plugins0.10-gnomevfs
+│   ├── gst-plugins1-gio
+│   ├── gtk-send-pr
+│   ├── gvfs
+│   ├── gworkspace
+│   ├── hal
+│   ├── hal-info				(Installed)
+│   ├── hddtemp
+│   ├── heirloom-basename
+│   ├── heirloom-cat
+│   ├── heirloom-chmod
+│   ├── heirloom-chown
+│   ├── heirloom-cksum
+│   ├── heirloom-cmp
+│   ├── heirloom-copy
+│   ├── heirloom-cp
+│   ├── heirloom-csplit
+│   ├── heirloom-dd
+│   ├── heirloom-dirname
+│   ├── heirloom-doc				(Installed)
+│   ├── heirloom-du
+│   ├── heirloom-env
+│   ├── heirloom-file
+│   ├── heirloom-find
+│   ├── heirloom-getconf
+│   ├── heirloom-groups
+│   ├── heirloom-hostname
+│   ├── heirloom-id
+│   ├── heirloom-listusers
+│   ├── heirloom-ln
+│   ├── heirloom-logins
+│   ├── heirloom-logname
+│   ├── heirloom-ls
+│   ├── heirloom-mesg
+│   ├── heirloom-mkdir
+│   ├── heirloom-mkfifo
+│   ├── heirloom-mknod
+│   ├── heirloom-nice
+│   ├── heirloom-nohup
+│   ├── heirloom-pathchk
+│   ├── heirloom-pgrep
+│   ├── heirloom-priocntl
+│   ├── heirloom-ps
+│   ├── heirloom-psrinfo
+│   ├── heirloom-pwd
+│   ├── heirloom-renice
+│   ├── heirloom-rm
+│   ├── heirloom-rmdir
+│   ├── heirloom-setpgrp
+│   ├── heirloom-shl
+│   ├── heirloom-sort
+│   ├── heirloom-split
+│   ├── heirloom-stty
+│   ├── heirloom-sync
+│   ├── heirloom-tapecntl
+│   ├── heirloom-tee
+│   ├── heirloom-touch
+│   ├── heirloom-tsort
+│   ├── heirloom-tty
+│   ├── heirloom-uname
+│   ├── heirloom-users
+│   ├── heirloom-who
+│   ├── heirloom-whoami
+│   ├── heirloom-whodo
+│   ├── heirloom-xargs
+│   ├── heirloom-yes
+│   ├── hfsutils				(Installed)
+│   ├── htop
+│   ├── i2ocfg
+│   ├── i810switch
+│   ├── iat					(Installed)
+│   ├── idesk
+│   ├── install-sh				(Installed)
+│   ├── intel-microcode-netbsd
+│   ├── ipa
+│   ├── ipmitool
+│   ├── ipw-firmware
+│   ├── ir-account
+│   ├── isapnptools
+│   ├── iwi-firmware
+│   ├── iwi-firmware3
+│   ├── iwn-firmware				(Installed)
+│   ├── k3b
+│   ├── k3b-kde3
+│   ├── k4dirstat
+│   ├── kcron
+│   ├── kdf
+│   ├── kdirstat
+│   ├── kfloppy
+│   ├── krusader
+│   ├── ksystemlog
+│   ├── kuser
+│   ├── lambd
+│   ├── lavaps
+│   ├── libburn					(Installed)
+│   ├── libdevkit-gobject
+│   ├── libgamin
+│   ├── libgksu
+│   ├── libgtop
+│   ├── libirman				(Installed)
+│   ├── libisoburn
+│   ├── libisofs
+│   ├── libnotify
+│   ├── libol					(Installed)
+│   ├── liboobs
+│   ├── libpciaccess
+│   ├── libvirt
+│   ├── lilo
+│   ├── lockf
+│   ├── logfinder
+│   ├── logrider				(Installed)
+│   ├── logrot
+│   ├── logrotate
+│   ├── lsof
+│   ├── magicrescue				(Installed)
+│   ├── manifold
+│   ├── mbmon
+│   ├── mc
+│   ├── mc46
+│   ├── mcollective
+│   ├── mdf2iso					(Installed)
+│   ├── memconf
+│   ├── memtest86
+│   ├── memtester
+│   ├── memtestplus
+│   ├── mencvcd
+│   ├── menu-cache
+│   ├── mesure
+│   ├── mgm					(Installed)
+│   ├── mklivecd
+│   ├── mkmemstick				(Installed)
+│   ├── mksunbootcd
+│   ├── mktemp					(Installed)
+│   ├── monit
+│   ├── monitoring				(Installed)
+│   ├── mrsync
+│   ├── mtools					(Installed)
+│   ├── mtoolsfm
+│   ├── mtscan
+│   ├── munin-doc
+│   ├── munin-node
+│   ├── munin-server
+│   ├── nautilus
+│   ├── nautilus-sendto
+│   ├── ncdu					(Installed)
+│   ├── ndesk-dbus
+│   ├── ndesk-dbus-glib
+│   ├── neb-wipe
+│   ├── netbsd-kmod-tools
+│   ├── netbt-hcidump
+│   ├── news
+│   ├── notification-daemon
+│   ├── nrg2iso					(Installed)
+│   ├── ntfsprogs
+│   ├── nvnet
+│   ├── nvramtool
+│   ├── oak
+│   ├── open-vm-tools
+│   ├── openstack_init				(Installed)
+│   ├── openxenmanager
+│   ├── osname					(Installed)
+│   ├── p5-Config-Simple			(Installed)
+│   ├── p5-File-chmod				(Installed)
+│   ├── p5-File-Copy-Recursive			(Installed)
+│   ├── p5-File-Inplace
+│   ├── p5-File-Remove				(Installed)
+│   ├── p5-Filesys-Df				(Installed)
+│   ├── p5-Filesys-DfPortable			(Installed)
+│   ├── p5-Filesys-Statvfs			(Installed)
+│   ├── p5-Gnome2-VFS
+│   ├── p5-GTop
+│   ├── p5-IO-BufferedSelect			(Installed)
+│   ├── p5-IO-KQueue
+│   ├── p5-Lchown				(Installed)
+│   ├── p5-Linux-Inotify2
+│   ├── p5-Mac-AppleScript
+│   ├── p5-Mac-AppleScript-Glue
+│   ├── p5-Parse-Syslog				(Installed)
+│   ├── p5-Quota
+│   ├── p5-Server-Starter
+│   ├── p5-SSH-Batch				(Installed)
+│   ├── p5-Sys-CpuLoad				(Installed)
+│   ├── p5-Sys-Filesystem
+│   ├── p5-Sys-Hostname-Long			(Installed)
+│   ├── p5-Sys-SigAction			(Installed)
+│   ├── p5-Sys-Syslog				(Installed)
+│   ├── p5-Sys-Utmp				(Installed)
+│   ├── p5-Unix-ConfigFile			(Installed)
+│   ├── p5-Unix-Statgrab
+│   ├── p5-Unix-Syslog
+│   ├── p5-UPS-Nut
+│   ├── pciutils
+│   ├── pcmanfm
+│   ├── pcvt-utils
+│   ├── pdumpfs
+│   ├── pear-Log
+│   ├── pflogsumm				(Installed)
+│   ├── pfstat
+│   ├── pftop
+│   ├── pluged
+│   ├── polysh					(Installed)
+│   ├── pscpug					(Installed)
+│   ├── psftools
+│   ├── psmisc
+│   ├── pstree					(Installed)
+│   ├── puppet
+│   ├── pv
+│   ├── pwgen					(Installed)
+│   ├── py-dbus
+│   ├── py-gnome-menus
+│   ├── py-kazoo				(Installed)
+│   ├── py-magic				(Installed)
+│   ├── py-notify
+│   ├── py-notify-python
+│   ├── py-pefile
+│   ├── py-psutil
+│   ├── py-setproctitle
+│   ├── py-xattr
+│   ├── qlogtools
+│   ├── radeontool
+│   ├── radmind
+│   ├── rconfig
+│   ├── rdiff-backup
+│   ├── rename					(Installed)
+│   ├── rfstool					(Installed)
+│   ├── roller					(Installed)
+│   ├── rox
+│   ├── rsnapshot				(Installed)
+│   ├── rtty
+│   ├── ruby-activesambaldap
+│   ├── ruby-chef
+│   ├── ruby-chef-zero
+│   ├── ruby-directory-watcher
+│   ├── ruby-facter
+│   ├── ruby-fssm
+│   ├── ruby-libnotify
+│   ├── ruby-listen
+│   ├── ruby-notify
+│   ├── ruby-quota
+│   ├── ruby-rb-appscript
+│   ├── safetynet				(Installed)
+│   ├── salt
+│   ├── salt-docs
+│   ├── same
+│   ├── sarah					(Installed)
+│   ├── screentest
+│   ├── scsiinfo
+│   ├── service-config				(Installed)
+│   ├── setquota
+│   ├── sformat
+│   ├── shc					(Installed)
+│   ├── shelldap				(Installed)
+│   ├── shmux					(Installed)
+│   ├── skill
+│   ├── slay					(Installed)
+│   ├── slocate					(Installed)
+│   ├── smartmontools
+│   ├── smbldap-tools				(Installed)
+│   ├── socket
+│   ├── spice-protocol				(Installed)
+│   ├── sredird
+│   ├── sshsh					(Installed)
+│   ├── storage-manager
+│   ├── stow					(Installed)
+│   ├── strace
+│   ├── strigi
+│   ├── su2
+│   ├── sux					(Installed)
+│   ├── swapd
+│   ├── swatch					(Installed)
+│   ├── sysbuild
+│   ├── sysbuild-user
+│   ├── sysgen					(Installed)
+│   ├── sysinfo
+│   ├── syslog-ng
+│   ├── system-tools-backends
+│   ├── sysupgrade
+│   ├── tarsnap
+│   ├── tcx
+│   ├── tdir					(Installed)
+│   ├── testdisk
+│   ├── tits
+│   ├── tkcron					(Installed)
+│   ├── tkdesk
+│   ├── tload
+│   ├── tob					(Installed)
+│   ├── top
+│   ├── torsmo
+│   ├── toshutils
+│   ├── tpb
+│   ├── tphdisk					(Installed)
+│   ├── tree 					(Installed)
+│   ├── ts					(Installed)
+│   ├── ups-nut
+│   ├── ups-nut-cgi
+│   ├── ups-nut-snmp
+│   ├── ups-nut-usb
+│   ├── usbutil
+│   ├── user_cygwin
+│   ├── user_darwin
+│   ├── user_interix
+│   ├── user_irix
+│   ├── vbetool
+│   ├── vcdimager				(Installed)
+│   ├── vcdimager-devel
+│   ├── vidc-tools
+│   ├── vifm					(Installed)
+│   ├── vip					(Installed)
+│   ├── virt-manager
+│   ├── virtinst				(Installed)
+│   ├── vobcopy
+│   ├── vxargs
+│   ├── wbm-apache
+│   ├── wbm-at
+│   ├── wbm-bandwidth
+│   ├── wbm-bind8
+│   ├── wbm-change-user
+│   ├── wbm-cluster-copy
+│   ├── wbm-cluster-cron
+│   ├── wbm-cluster-passwd
+│   ├── wbm-cluster-shell
+│   ├── wbm-cluster-useradmin
+│   ├── wbm-cluster-webmin
+│   ├── wbm-custom
+│   ├── wbm-cyrus-imapd
+│   ├── wbm-dhcpd
+│   ├── wbm-dovecot
+│   ├── wbm-fetchmail
+│   ├── wbm-file
+│   ├── wbm-htaccess-htpasswd
+│   ├── wbm-inetd
+│   ├── wbm-ipfilter
+│   ├── wbm-ldap-useradmin
+│   ├── wbm-lpadmin
+│   ├── wbm-mailboxes
+│   ├── wbm-mount
+│   ├── wbm-mysql
+│   ├── wbm-net
+│   ├── wbm-openslp
+│   ├── wbm-passwd
+│   ├── wbm-postfix
+│   ├── wbm-postgresql
+│   ├── wbm-qmailadmin
+│   ├── wbm-quota
+│   ├── wbm-sendmail
+│   ├── wbm-shell
+│   ├── wbm-sshd
+│   ├── wbm-status
+│   ├── wbm-syslog
+│   ├── wbm-telnet
+│   ├── wbm-time
+│   ├── wbm-tunnel
+│   ├── wbm-useradmin
+│   ├── wbm-virtual-server
+│   ├── webmin
+│   ├── whowatch
+│   ├── wipe
+│   ├── wmcpuload
+│   ├── wmmemmon
+│   ├── wmSMPmon
+│   ├── wpi-firmware				(Installed)
+│   ├── wpi-firmware2				(Installed)
+│   ├── wtail					(Installed)
+│   ├── xapply
+│   ├── xbatt
+│   ├── xbattbar
+│   ├── xc3028l-firmware			(Installed)
+│   ├── xc5k-firmware				(Installed)
+│   ├── xcdroast
+│   ├── xdu
+│   ├── xe-guest-utilities
+│   ├── xenkernel3
+│   ├── xenkernel33
+│   ├── xenkernel41
+│   ├── xenkernel42
+│   ├── xenstoretools
+│   ├── xentools3
+│   ├── xentools3-hvm
+│   ├── xentools33
+│   ├── xentools41
+│   ├── xentools42
+│   ├── xenvstat
+│   ├── xfce4-appfinder
+│   ├── xfce4-battery-plugin
+│   ├── xfce4-cpugraph-plugin
+│   ├── xfce4-diskperf-plugin
+│   ├── xfce4-fsguard-plugin
+│   ├── xfce4-genmon-plugin
+│   ├── xfce4-netload-plugin
+│   ├── xfce4-quicklauncher-plugin
+│   ├── xfce4-systemload-plugin
+│   ├── xfce4-thunar
+│   ├── xfce4-volman
+│   ├── xfce4-xarchiver
+│   ├── xfce4-xkb-plugin
+│   ├── xfe
+│   ├── xfm
+│   ├── xfsprogs
+│   ├── xhfs					(Installed)
+│   ├── xmbmon
+│   ├── xmeter
+│   ├── xnc
+│   ├── xosview
+│   ├── xps
+│   ├── xuvmstat
+│   └── zidrav					(Installed)

@@ -1,0 +1,18 @@
+├──Filesystems ***10*** ***5 Installed, 0 Installable*** ***Count 5*** ***Pass Complete***
+├── glusterfs					{1}
+├── libntfs					(Installed)
+├── openafs					{2}
+├── openafs-devel				{3}
+├── p5-Module-Path				(Installed)
+├── p5-MooseX-Types-Path-Tiny			(Installed)
+├── p5-Path-Tiny				(Installed)					
+├── py-filesystem				(Installed)
+├── tahoe-lafs					{6}{4}
+└── u9fs					{5}
+
+{1} Wants boehm-gc, but its not built yet
+{2} Configure: an AFS sysname is required
+{3} Wants heimdal, but its not nuilt yet
+{4} Original error: Wanted py27-cElementTree - but it wasn't built yet.
+{5} Undefined reference to 'MKDEV' in u9fs.c
+{6} Wants py34-markupsafe, but it isn't built yet

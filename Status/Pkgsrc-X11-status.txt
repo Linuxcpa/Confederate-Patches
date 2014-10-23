@@ -1,0 +1,701 @@
+└── x11 ***698*** ***182 Installed, 5 Installable, 1 Duplicate*** ***Count 188*** ***Pass Complete***
+    ├── 9term
+    ├── alacarte
+    ├── antiright
+    ├── appmenu-qt
+    ├── appres 					(Installed)
+    ├── asnap
+    ├── aterm
+    ├── autocutsel
+    ├── avant-window-navigator
+    ├── bbapm
+    ├── beforelight				(Installed)
+    ├── bigreqsproto 				(Installed)
+    ├── bitmap					(Installed)
+    ├── blt
+    ├── clipit
+    ├── clisp-gtk2
+    ├── clisp-mit-clx
+    ├── clisp-new-clx
+    ├── compositeproto 				(Installed)
+    ├── damageproto 				(Installed)
+    ├── deforaos-keyboard
+    ├── deforaos-libdesktop
+    ├── deforaos-locker
+    ├── deforaos-panel
+    ├── desklaunch 				(Installed)
+    ├── deskmenu
+    ├── devilspie
+    ├── dmenu 					(Installed)
+    ├── docker
+    ├── dri2proto 				(Installed)
+    ├── dri3proto 				(Installed)
+    ├── driconf
+    ├── dtx11session
+    ├── dxpc
+    ├── ede
+    ├── editres 				(Installed)
+    ├── eekboard
+    ├── efltk
+    ├── elementary
+    ├── elementary-icon-theme 			(Installed)
+    ├── enlightenment
+    ├── eterm
+    ├── evieext 				(Installed)
+    ├── fast-user-switch-applet
+    ├── fbdesk
+    ├── filerunner
+    ├── fixesproto 				(Installed)
+    ├── fixesproto4
+    ├── fltk
+    ├── fltk13
+    ├── fltk2
+    ├── fontcacheproto 				(Installed)
+    ├── fontsproto 				(Installed)
+    ├── fox
+    ├── fspanel 				(Installed)
+    ├── ftmenu
+    ├── fvwm-wharf 				(Installed)
+    ├── gdm
+    ├── ggiterm
+    ├── glproto 				(Installed)
+    ├── gnome-applets
+    ├── gnome-control-center
+    ├── gnome-desktop
+    ├── gnome-desktop-sharp
+    ├── gnome-desktop3
+    ├── gnome-mag
+    ├── gnome-panel
+    ├── gnome-screensaver
+    ├── gnome-session
+    ├── gnome-sharp
+    ├── gnome-terminal
+    ├── gnome-themes
+    ├── gnome-themes-extras
+    ├── gnopernicus
+    ├── gnustep-back
+    ├── gnustep-gui
+    ├── gnustep-preferences
+    ├── grandr_applet
+    ├── gromit
+    ├── gselt
+    ├── gst-plugins0.10-x11
+    ├── gst-plugins1-x11
+    ├── gtk
+    ├── gtk-mac-integration
+    ├── gtk-sharp
+    ├── gtk+extra
+    ├── gtk2
+    ├── gtk2-chtheme
+    ├── gtk2-engines
+    ├── gtk2-engines-bluecurve
+    ├── gtk2-engines-murrine
+    ├── gtk2-theme-switch
+    ├── gtk2+extra
+    ├── gtk3
+    ├── gtk3-engines-unico
+    ├── gtkada
+    ├── gtkdatabox
+    ├── gtkglarea
+    ├── gtkglarea2
+    ├── gtkmm
+    ├── gtkmm-utils
+    ├── gtkmm3
+    ├── gtksourceview
+    ├── gtksourceview-sharp2
+    ├── gtksourceview2
+    ├── gtksourceview3
+    ├── gtksourceviewmm
+    ├── gtkstep
+    ├── gtkterm2
+    ├── gxmessage
+    ├── hanterm
+    ├── hot-babe
+    ├── hs-X11
+    ├── hs-X11-xft
+    ├── hsetroot
+    ├── hyena
+    ├── iceauth 				(Installed)
+    ├── ico					(Installed)
+    ├── imwheel 				(Installed)
+    ├── inputproto 				(Installed)
+    ├── kactivities
+    ├── kbproto 				(Installed)
+    ├── kde-baseapps4
+    ├── kde-runtime4
+    ├── kde-workspace4
+    ├── kde3-i18n-af
+    ├── kde3-i18n-ar
+    ├── kde3-i18n-az
+    ├── kde3-i18n-bg
+    ├── kde3-i18n-bn
+    ├── kde3-i18n-br
+    ├── kde3-i18n-bs
+    ├── kde3-i18n-ca
+    ├── kde3-i18n-cs
+    ├── kde3-i18n-cy
+    ├── kde3-i18n-da
+    ├── kde3-i18n-de
+    ├── kde3-i18n-el
+    ├── kde3-i18n-en_GB
+    ├── kde3-i18n-eo
+    ├── kde3-i18n-es
+    ├── kde3-i18n-et
+    ├── kde3-i18n-eu
+    ├── kde3-i18n-fa
+    ├── kde3-i18n-fi
+    ├── kde3-i18n-fr
+    ├── kde3-i18n-fy
+    ├── kde3-i18n-ga
+    ├── kde3-i18n-gl
+    ├── kde3-i18n-he
+    ├── kde3-i18n-hi
+    ├── kde3-i18n-hr
+    ├── kde3-i18n-hu
+    ├── kde3-i18n-is
+    ├── kde3-i18n-it
+    ├── kde3-i18n-ja
+    ├── kde3-i18n-kk
+    ├── kde3-i18n-km
+    ├── kde3-i18n-ko
+    ├── kde3-i18n-lt
+    ├── kde3-i18n-lv
+    ├── kde3-i18n-mk
+    ├── kde3-i18n-mn
+    ├── kde3-i18n-ms
+    ├── kde3-i18n-nb
+    ├── kde3-i18n-nds
+    ├── kde3-i18n-nl
+    ├── kde3-i18n-nn
+    ├── kde3-i18n-pa
+    ├── kde3-i18n-pl
+    ├── kde3-i18n-pt
+    ├── kde3-i18n-pt_BR
+    ├── kde3-i18n-ro
+    ├── kde3-i18n-ru
+    ├── kde3-i18n-rw
+    ├── kde3-i18n-se
+    ├── kde3-i18n-sk
+    ├── kde3-i18n-sl
+    ├── kde3-i18n-sr
+    ├── kde3-i18n-sr_Latn
+    ├── kde3-i18n-ss
+    ├── kde3-i18n-sv
+    ├── kde3-i18n-ta
+    ├── kde3-i18n-tg
+    ├── kde3-i18n-tr
+    ├── kde3-i18n-uk
+    ├── kde3-i18n-uz
+    ├── kde3-i18n-vi
+    ├── kde3-i18n-zh_CN
+    ├── kde3-i18n-zh_TW
+    ├── kde4-l10n-ar
+    ├── kde4-l10n-bg
+    ├── kde4-l10n-bs
+    ├── kde4-l10n-ca
+    ├── kde4-l10n-cat
+    ├── kde4-l10n-cs
+    ├── kde4-l10n-da
+    ├── kde4-l10n-de
+    ├── kde4-l10n-el
+    ├── kde4-l10n-en_GB
+    ├── kde4-l10n-es
+    ├── kde4-l10n-et
+    ├── kde4-l10n-eu
+    ├── kde4-l10n-fa
+    ├── kde4-l10n-fi
+    ├── kde4-l10n-fr
+    ├── kde4-l10n-ga
+    ├── kde4-l10n-gl
+    ├── kde4-l10n-he
+    ├── kde4-l10n-hi
+    ├── kde4-l10n-hr
+    ├── kde4-l10n-hu
+    ├── kde4-l10n-ia
+    ├── kde4-l10n-is
+    ├── kde4-l10n-it
+    ├── kde4-l10n-ja
+    ├── kde4-l10n-kk
+    ├── kde4-l10n-km
+    ├── kde4-l10n-ko
+    ├── kde4-l10n-lt
+    ├── kde4-l10n-lv
+    ├── kde4-l10n-mr
+    ├── kde4-l10n-nb
+    ├── kde4-l10n-nds
+    ├── kde4-l10n-nl
+    ├── kde4-l10n-nn
+    ├── kde4-l10n-pa
+    ├── kde4-l10n-pl
+    ├── kde4-l10n-pt
+    ├── kde4-l10n-pt_BR
+    ├── kde4-l10n-ro
+    ├── kde4-l10n-ru
+    ├── kde4-l10n-sk
+    ├── kde4-l10n-sl
+    ├── kde4-l10n-sr
+    ├── kde4-l10n-sv
+    ├── kde4-l10n-tg
+    ├── kde4-l10n-tr
+    ├── kde4-l10n-ug
+    ├── kde4-l10n-uk
+    ├── kde4-l10n-vi
+    ├── kde4-l10n-wa
+    ├── kde4-l10n-zh_CN
+    ├── kde4-l10n-zh_TW
+    ├── kdebase3
+    ├── kdebindings-ruby
+    ├── kdelibdocs3
+    ├── kdelibs3
+    ├── kdelibs4
+    ├── keylaunch 				(Installed)
+    ├── kkbswitch
+    ├── kmessage
+    ├── konsole
+    ├── kterm
+    ├── lablgtk
+    ├── lablgtk1
+    ├── labltk
+    ├── lesstif
+    ├── libdesktop-agnostic
+    ├── libdrm
+    ├── libfakekey 				(Installed)
+    ├── libFS
+    ├── libgnomekbd
+    ├── libICE 					(Installed) {1}
+    ├── liboldXrandr
+    ├── libSM 					(Installed)
+    ├── libunique
+    ├── libunique3
+    ├── libX11 					(Installed)
+    ├── libXau 					(Installed)
+    ├── libXaw 					(Installed)
+    ├── libxcb 					(Installed)
+    ├── libXcomposite 				(Installed)
+    ├── libXcursor 				(Installable)
+    ├── libXdamage 				(Installed)
+    ├── libxdg-basedir 				(Installed)
+    ├── libXdmcp 				(Installed)
+    ├── libXevie 				(Installed)
+    ├── libXext 				(Installed)
+    ├── libxfce4gui
+    ├── libxfce4menu
+    ├── libxfce4util
+    ├── libXfixes 				(Installed)
+    ├── libXfont
+    ├── libXft 					(Installed)
+    ├── libXi 					(Installed)
+    ├── libXinerama 				(Installed)
+    ├── libxkbcommon
+    ├── libxkbfile 				(Installed)
+    ├── libxkbui 				(Installed)
+    ├── libxklavier
+    ├── libXmu 					(Installed)
+    ├── libXp
+    ├── libXpm 					(Installed)
+    ├── libXprintUtil
+    ├── libXrandr 				(Installed)
+    ├── libXrender 				(Installed)
+    ├── libXres 				(Installed)
+    ├── libXScrnSaver 				(Installed)
+    ├── libXt 					(Installed)
+    ├── libXTrap 				(Installed)
+    ├── libXtst 				(Installed)
+    ├── libXv 					(Installed)
+    ├── libXvMC 				(Installed)
+    ├── libXxf86dga 				(Installed)
+    ├── libXxf86misc 				(Installed)
+    ├── libXxf86vm 				(Installed)
+    ├── listres 				(Installed)
+    ├── luit 					(Installed)
+    ├── lxsession
+    ├── matchbox-common
+    ├── matchbox-desktop
+    ├── matchbox-nest
+    ├── matchbox-panel
+    ├── matchbox-panel-manager
+    ├── matchbox-themes-extra 			(Installed)
+    ├── mlterm
+    ├── modeline 				(Installed)
+    ├── modular-xorg-server
+    ├── motif
+    ├── mowitz 					(Installed)
+    ├── mrxvt
+    ├── multi-aterm 				(Installed)
+    ├── mxterm
+    ├── neXtaw 					(Installed)
+    ├── numlockx 				(Installed)
+    ├── ocaml-graphics
+    ├── oneko 					(Installed)
+    ├── openbsd-input-ws
+    ├── openmotif
+    ├── p5-Alien-wxWidgets
+    ├── p5-Clipboard 				(Installed)
+    ├── p5-gtk2
+    ├── p5-Gtk2-Ex-FormFactory 			(Installed)
+    ├── p5-Tk 					(Installed)
+    ├── p5-Wx
+    ├── p5-Wx-Perl-ProcessStream
+    ├── p5-X11-Protocol 			(Installed)
+    ├── paragui
+    ├── pixman
+    ├── presentproto 				(Installed)
+    ├── printproto 				(Installed)
+    ├── py-gnome2
+    ├── py-gnome2-desktop
+    ├── py-gnome2-extras
+    ├── py-gtk2
+    ├── py-gtksourceview
+    ├── py-kde4
+    ├── py-kiwi
+    ├── py-Pmw
+    ├── py-Pmw2
+    ├── py-qt3-base
+    ├── py-qt3-modules
+    ├── py-qt3-qscintilla
+    ├── py-qt4
+    ├── py-qt4-qscintilla
+    ├── py-sip
+    ├── py-Tk
+    ├── py-vte
+    ├── py-wxWidgets
+    ├── py-xcbgen				(Installed)
+    ├── py-Xlib					(Installed) [x2]
+    ├── qt3
+    ├── qt3-docs
+    ├── qt3-libs
+    ├── qt3-mysql
+    ├── qt3-pgsql
+    ├── qt3-qscintilla
+    ├── qt3-tools
+    ├── qt4
+    ├── qt4-creator
+    ├── qt4-docs
+    ├── qt4-libs
+    ├── qt4-mng
+    ├── qt4-mysql
+    ├── qt4-pgsql
+    ├── qt4-qdbus
+    ├── qt4-qscintilla
+    ├── qt4-sqlite3
+    ├── qt4-tiff
+    ├── qt4-tools
+    ├── qt5
+    ├── qt5-dbus
+    ├── qt5-mysql
+    ├── qt5-odbc
+    ├── qt5-psql
+    ├── qt5-qtbase
+    ├── qt5-qtdeclarative
+    ├── qt5-qtdoc
+    ├── qt5-qtgraphicaleffects
+    ├── qt5-qtimageformats
+    ├── qt5-qtlocation
+    ├── qt5-qtmultimedia
+    ├── qt5-qtquick1
+    ├── qt5-qtquickcontrols
+    ├── qt5-qtscript
+    ├── qt5-qtsensors
+    ├── qt5-qtserialport
+    ├── qt5-qtsvg
+    ├── qt5-qttools
+    ├── qt5-qttranslations
+    ├── qt5-qtwebkit
+    ├── qt5-qtx11extras
+    ├── qt5-qtxmlpatterns
+    ├── qt5-sqlite3
+    ├── qwt
+    ├── qwt-qt4
+    ├── qwt6-qt4
+    ├── qwtplot3d-qt4
+    ├── randrproto 				(Installed)
+    ├── ratmen 					(Installed)
+    ├── razor-qt
+    ├── recordproto 				(Installed)
+    ├── rendercheck
+    ├── renderproto 				(Installed)
+    ├── renderproto9 				(Installed)
+    ├── rep-gtk2
+    ├── resourceproto 				(Installed)
+    ├── rgb 					(Installed)
+    ├── rox-session
+    ├── rox-wallpaper
+    ├── ruby-gnome2-gtk
+    ├── ruby-gnome2-gtk3
+    ├── ruby-gnome2-gtksourceview2
+    ├── ruby-gnome2-gtksourceview3
+    ├── ruby-gnome2-vte
+    ├── ruby-tk
+    ├── ruby-wxruby
+    ├── rxvt
+    ├── rxvt-unicode
+    ├── sakura
+    ├── scrnsaverproto 				(Installed)
+    ├── sessreg
+    ├── setxkbmap 				(Installed)
+    ├── slock
+    ├── space_dapp
+    ├── speyes 					(Installed)
+    ├── ssystem
+    ├── stalonetray 				(Installed)
+    ├── startup-notification			(Installed)
+    ├── startup-notification010
+    ├── tile
+    ├── tint2
+    ├── tk 					(Installed)
+    ├── tk-BWidget 				(Installed)
+    ├── tk-Tix
+    ├── tk85
+    ├── tkinfo 					(Installed)
+    ├── tktable
+    ├── transset 				(Installed)
+    ├── trapproto 				(Installed)
+    ├── tzosdclock 				(Installed)
+    ├── unclutter
+    ├── unicode-screensaver
+    ├── videoproto 				(Installed)
+    ├── viewres 				(Installed)
+    ├── vte
+    ├── vte029
+    ├── wdm
+    ├── wmavgload
+    ├── wmfire
+    ├── wmfstatus
+    ├── wmweather 				(Installed)
+    ├── worker 					(Installed)
+    ├── wterm
+    ├── wxGTK24
+    ├── wxGTK26
+    ├── wxGTK26-contrib
+    ├── wxGTK28
+    ├── wxGTK28-contrib
+    ├── wxhaskell
+    ├── wxWindows-docs 				(Installed)
+    ├── x11perf
+    ├── x11vnc
+    ├── x2x 					(Installed)
+    ├── x3270
+    ├── xaniroc
+    ├── XaoS
+    ├── xauth 					(Installed)
+    ├── xautolock
+    ├── Xaw-Xpm 				(Installable)
+    ├── Xaw3d 					(Installed)
+    ├── xbacklight 				(Installed)
+    ├── Xbae
+    ├── xbanner					(Installed)
+    ├── xbindkeys
+    ├── xbindkeys-tk
+    ├── xbitmaps 				(Installed)
+    ├── xcalc 					(Installed)
+    ├── xcalib
+    ├── xcb
+    ├── xcb-proto 				(Installed) {2}
+    ├── xcb-util 				(Installed)
+    ├── xcb-util-cursor
+    ├── xcb-util-image
+    ├── xcb-util-keysyms 			(Installed)
+    ├── xcb-util-renderutil
+    ├── xcb-util-wm 				(Installed)
+    ├── xcb-util036
+    ├── xclip 					(Installed)
+    ├── xclipboard
+    ├── xcmiscproto 				(Installed)
+    ├── xcolors
+    ├── xcolorsel 				(Installed)
+    ├── xcompmgr 				(Installed)
+    ├── xconsole 				(Installed)
+    ├── xcruise
+    ├── xcursor 				(Installed)
+    ├── xcursorgen
+    ├── xdaemon 				(Installed)
+    ├── xdaemon2
+    ├── xdesktopwaves
+    ├── xdg-user-dirs 				(Installed)
+    ├── xdialog
+    ├── xditview 				(Installed)
+    ├── xdm
+    ├── xdm3d
+    ├── xdpyinfo
+    ├── xdriinfo
+    ├── xearth
+    ├── xephem
+    ├── xev 					(Installed)
+    ├── xextproto 				(Installed)
+    ├── xeyes 					(Installed)
+    ├── xf86-input-acecad
+    ├── xf86-input-keyboard
+    ├── xf86-input-mouse
+    ├── xf86-input-penmount
+    ├── xf86-input-vmmouse
+    ├── xf86-input-void
+    ├── xf86-video-apm
+    ├── xf86-video-ark
+    ├── xf86-video-ast
+    ├── xf86-video-ati
+    ├── xf86-video-ati6
+    ├── xf86-video-chips
+    ├── xf86-video-cirrus
+    ├── xf86-video-dummy
+    ├── xf86-video-fbdev
+    ├── xf86-video-glint
+    ├── xf86-video-i128
+    ├── xf86-video-i740
+    ├── xf86-video-intel
+    ├── xf86-video-mach64
+    ├── xf86-video-mga
+    ├── xf86-video-neomagic
+    ├── xf86-video-newport
+    ├── xf86-video-nv
+    ├── xf86-video-openchrome
+    ├── xf86-video-r128
+    ├── xf86-video-rendition
+    ├── xf86-video-s3
+    ├── xf86-video-s3virge
+    ├── xf86-video-savage
+    ├── xf86-video-siliconmotion
+    ├── xf86-video-sis
+    ├── xf86-video-suncg14
+    ├── xf86-video-suncg3
+    ├── xf86-video-sunffb
+    ├── xf86-video-tdfx
+    ├── xf86-video-tga
+    ├── xf86-video-trident
+    ├── xf86-video-tseng
+    ├── xf86-video-vesa
+    ├── xf86-video-vmware
+    ├── xf86-video-wsfb
+    ├── xf86bigfontproto 			(Installed)
+    ├── xf86dgaproto 				(Installed)
+    ├── xf86driproto
+    ├── xf86miscproto 				(Installed)
+    ├── xf86vidmodeproto 			(Installed)
+    ├── xfce4-clipman-plugin
+    ├── xfce4-desktop
+    ├── xfce4-exo
+    ├── xfce4-eyes-plugin
+    ├── xfce4-gtk2-engine
+    ├── xfce4-notes-plugin
+    ├── xfce4-panel
+    ├── xfce4-places-plugin
+    ├── xfce4-screenshooter-plugin
+    ├── xfce4-session
+    ├── xfce4-settings
+    ├── xfce4-terminal
+    ├── xfce4-utils
+    ├── xfd 					(Installed)
+    ├── xfishtank 				(Installed)
+    ├── Xfixes
+    ├── xflame
+    ├── xfontsel 				(Installed)
+    ├── xforms
+    ├── xfstt 					(Installed)
+    ├── xfwp 					(Installed)
+    ├── xgamma 					(Installed)
+    ├── xgas
+    ├── xglobe
+    ├── xgrk 					(Installed)
+    ├── xhangglider 				(Installed)
+    ├── xhost 					(Installed)
+    ├── xicc
+    ├── xineramaproto 				(Installed)
+    ├── xinit 					(Installed)
+    ├── xinput 					(Installed)
+    ├── xjman 					(Installed)
+    ├── xkbcomp 				(Installed)
+    ├── xkbd 					(Installed)
+    ├── xkbdata 				(Installable)
+    ├── xkbevd 					(Installed)
+    ├── xkbprint 				(Installed)
+    ├── xkbset 					(Installed)
+    ├── xkbutils 				(Installed)
+    ├── xkeyboard-config 			(Installed)
+    ├── xkeycaps
+    ├── xkill 					(Installed)
+    ├── xless
+    ├── xload
+    ├── xlockmore
+    ├── xlockmore-lite
+    ├── xlogo 					(Installed)
+    ├── xlogout
+    ├── xlsatoms 				(Installed)
+    ├── xlsclients 				(Installed)
+    ├── xlsfonts
+    ├── xlt
+    ├── xlupe
+    ├── xmag 					(Installed)
+    ├── xman 					(Installed)
+    ├── xmascot
+    ├── xmessage 				(Installed)
+    ├── XmHTML
+    ├── xmindpath
+    ├── xmms-osd
+    ├── xmodmap 				(Installed)
+    ├── xmon
+    ├── xmore 					(Installed)
+    ├── xmountains
+    ├── xmove
+    ├── xmx
+    ├── xneko 					(Installed)
+    ├── xnodecor 				(Installed)
+    ├── xorg-cf-files 				(Installed)
+    ├── xosd 					(Installed)
+    ├── xp
+    ├── xpad
+    ├── xpaste
+    ├── xpenguins 				(Installed)
+    ├── xphoon 					(Installed)
+    ├── xplanet
+    ├── xplsprinters
+    ├── xpmicons 				(Installed)
+    ├── xpmroot 				(Installed)
+    ├── xpns 					(Installed)
+    ├── xpostit
+    ├── xprehashprinterlist
+    ├── xprop 					(Installed)
+    ├── xproto 					(Installed)
+    ├── xproxymanagementprotocol 		(Installed)
+    ├── xrandr 					(Installable)
+    ├── xrdb 					(Installed)
+    ├── xrefresh 				(Installed)
+    ├── Xrender
+    ├── xrestop					(Installed)
+    ├── xscope
+    ├── xscreensaver
+    ├── xscreensaver-demo
+    ├── xscribble
+    ├── xscript
+    ├── xsel 					(Installed)
+    ├── xservers
+    ├── xset
+    ├── xsetroot
+    ├── xsm
+    ├── xsnow 					(Installed)
+    ├── xstdcmap 				(Installed)
+    ├── xteddy 					(Installable)
+    ├── xteddy2 				(Installed)
+    ├── xterm
+    ├── xtermset 				(Installed)
+    ├── xtoolwait
+    ├── xtrans 					(Installed)
+    ├── xvattr
+    ├── xvidcap
+    ├── xvidcap-gtk2
+    ├── xvidtune 				(Installed)
+    ├── xview
+    ├── xview-clients
+    ├── xview-config 				(Installed)
+    ├── xview-lib
+    ├── xvinfo 					(Installed)
+    ├── xvkbd
+    ├── xwatchwin
+    ├── xwd 					(Installed)
+    ├── xwininfo 				(Installed)
+    ├── xwit
+    ├── xworld
+    ├── xwrits 					(Installed)
+    ├── xwud 					(Installed)
+    ├── xxkb
+    └── zenity
+{1} Not repeatable in either gcc4 or gcc2, I had to pkg_add old compile.
+{2} Gcc4 needed to go into work/ ./configutre prefix=/boot/home/pkg then trick pkgsrc into believing configure was finished. It thought I had old Python

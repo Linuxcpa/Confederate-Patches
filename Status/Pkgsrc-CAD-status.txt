@@ -1,0 +1,102 @@
+├── cad ***68*** ***22 installed, 0 installable*** ***Count 22*** ***Pass Complete***
+│   ├── adms 				(Installed){33}{1}
+│   ├── atlc 				(Installed)
+│   ├── boolean				{37}{4}{34}{10}{20}
+│   ├── cascade 			(Installed)
+│   ├── cgi-wcalc 			(Installed)
+│   ├── covered				*{3}
+│   ├── covered-current			*{3}
+│   ├── dinotrace			{5}
+│   ├── dinotrace-mode			{37}{4}{35}{1}
+│   ├── diylc				{6}
+│   ├── eagle				{7}
+│   ├── electric			{5}
+│   ├── fastcap				{37}{4}{8}
+│   ├── fasthenry 			(Installed)
+│   ├── felt				{38}{9}
+│   ├── freehdl 			(Installed)
+│   ├── gdsreader 			(Installed)
+│   ├── geda				{11}{1}
+│   ├── gerbv				{37}{1}
+│   ├── ghdl				{7}
+│   ├── gnetman 			(Installed)
+│   ├── gnucap				{37}{4}{8}
+│   ├── gplcver				{2}
+│   ├── gsmc				{10}
+│   ├── gtk1-wcalc			(Installed){43}{36}{1}
+│   ├── gtk2-wcalc			{37}{36}{10}
+│   ├── gtkwave				{37}{36}{10}
+│   ├── gwave				{11}
+│   ├── kicad				{21}
+│   ├── kicad-doc 			(Installed){20}
+│   ├── kicad-lib 			(Installed){20}
+│   ├── lc				{7}
+│   ├── librecad			{12}
+│   ├── libwcalc 			(Installed)
+│   ├── magic				{13}
+│   ├── mcalc 				(Installed)
+│   ├── mex-wcalc			{7}
+│   ├── mpac 				(Installed)
+│   ├── MyHDL-gplcver			{2}
+│   ├── MyHDL-iverilog			*{3}
+│   ├── nelma 				(Installed)
+│   ├── ng-spice			{14}
+│   ├── ntesla 				(Installed)
+│   ├── openscad			{21}{20}
+│   ├── pcb				{37}{34}{10}
+│   ├── py-MyHDL 			(Installed)
+│   ├── py-simpy 			(Installed)
+│   ├── qcad				{40}{21}{8}
+│   ├── qcad-manual-cs			{39}{21}{8}
+│   ├── qcad-manual-de			{39}{21}{8}
+│   ├── qcad-manual-en			{39}{21}{8}
+│   ├── qcad-manual-hu			{39}{21}{8}
+│   ├── qcad-partlibrary		{39}{21}{8}
+│   ├── sci-wcalc			{15}
+│   ├── spice				{16}
+│   ├── spiceprm 			(Installed)
+│   ├── stdio-wcalc 			(Installed)
+│   ├── tkgate				(Installed){41}{17}
+│   ├── tnt-mmtl			{37}{4}{8}
+│   ├── transcalc			{37}{34}{10}
+│   ├── verilog				*{3}
+│   ├── verilog-current			*{3}
+│   ├── verilog-mode			{37}{34}{1}
+│   ├── vipec				{40}{21}{8}
+│   ├── wcalc				{15}
+│   ├── wcalc-docs 			(Installed)
+│   ├── xchiplogo			{42}{16}
+│   └── xcircuit			{19}
+{1} Original error: wanted glib2 before it was built
+{2} Missing: <sys/dir.h>
+{3} Unrecognized command line option '-rdynamic'
+{4} Original error: wanted pixman before it was built
+{5} Wants motif, but it's not built yet
+{6} Wants kaffe, but it's not built yet
+{7} Not available for Haiku
+{8} Original error: wanted mesalib before it was built
+{9} Multiple definitions (Needs better description)
+{10} Original error: wanted py27-cElementTree before it was built
+{11} Wants guile, but it isn't built yet.
+{12} Wants muparser, but it isn't built yet.
+{13} Wants tcsh, but its not built yet.
+{14} Error in xpJob.c: too few arguements for 'getpwuid_r'
+{15} Wants g95, but it's not built yet
+{16} Pkgsrc error: No such file or directory in .buildlink
+{17} Multiple linking and header issues (Needs better description)
+{18} Compile error: Makefile missing dependency operator
+{19} Configure error: cannot run C compiled programs
+{20} Original error: wanted cmake before it was built
+{21} Original error: wanted glu before it was built
+{22} Original error: wanted bison before it was built
+{33} Original error: wanted flex before it was built correctly
+{34} Original error: wanted gobject-introspection before it was built
+{35} Wants pango, but its not built yet
+{36} Presumed to want gtk2, but its not built yet
+{37} Wants cairo, but its not built yet
+{38} Wants velvet, but its not built yet
+{39} Wants qcad, but its not built yet
+{40} Wants qt3-libs, but its not built yet
+{41} Original error: don't know how to make libxaw.a
+{42} Wants xforms, but its not built yet
+{43} Original error: wanted gtk1 before it was built

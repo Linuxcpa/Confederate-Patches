@@ -1,0 +1,73 @@
+├── benchmarks ***43*** ***27 installed, 0 Installable*** ***Count 27*** ***Pass Complete***
+│   ├── benchfft			{1}
+│   ├── blogbench 			(Installed)
+│   ├── bonnie 				(Installed)
+│   ├── bonnie++ 			(Installed)
+│   ├── bytebench 			(Installed)
+│   ├── dbench				{18}{24}
+│   ├── dhrystone 			(Installed)
+│   ├── dnsperf				(Installed){3}
+│   ├── fib 				(Installed)
+│   ├── filebench			{19}
+│   ├── flops 				(Installed)
+│   ├── forkbomb 			(Installed)
+│   ├── hbench				{28}{27}{11}{4}{23}
+│   ├── heapsort 			(Installed)
+│   ├── hint 				(Installed)
+│   ├── httperf				(Installed) {16}
+│   ├── iozone				{6}
+│   ├── libmicro			{8}
+│   ├── linpack-bench 			(Installed)
+│   ├── lmbench				{2}
+│   ├── nbench 				(Installed)
+│   ├── netio				(Installed) {20}{24}
+│   ├── netperf				(Installed) {23}{14}{5}
+│   ├── netpipe				(Installed) {20}{24}
+│   ├── nettest				{8}
+│   ├── nsieve 				(Installed)
+│   ├── nttcp				(Installed){17}
+│   ├── paranoia 			(Installed)
+│   ├── phoronix-test-suite		{26}{9}
+│   ├── pipebench			(Installed){10}
+│   ├── postal				(Installed){15}{25}{5}
+│   ├── postmark			{7}
+│   ├── ramspeed 			(Installed)
+│   ├── randread			{7}
+│   ├── skampi				{1}{11}
+│   ├── super_pi			{7}
+│   ├── sysbench 			(Installed)
+│   ├── thrulay 			(Installed)
+│   ├── ttcp				{12}
+│   ├── ubench 				(Installed)
+│   ├── whetstone 			(Installed)
+│   ├── xengine				{13}
+│   └── zelibm				{22}
+
+{1} Wants g95, but isn't built yet
+{2} Missing: <rpc/rpc.h>
+{3} Original error: wanted bind99 before it was built
+{4} Original error: wanted gobject-introspection before it was built
+{5} Original error: was missing -lnetwork in makefile LDFLAGS
+{6} Error in iozone.c: Undeclaired functions in 'MADV_NORMAL', 'MADV_RANDOM', 'MADV_SEQUENTIAL', 'MADV_DONTNEED', 'MADV_WILLNEED' and 'EISCONN.'
+{7} Error in postmark.c: undefined reference to 'getwd'
+{8} Compile error: No rule to make target Makefile.Haiku, don't know how to make Haiku
+{9} Original error: wanted php before it was built
+{10} Original error: error in pipebench.c: unknown type name 'u_int64_t'; format '%s' or '%d' expects arguements of type 'char *' but arguements 4, 5 and 6 has type 'int'; implicit delaration of built in function 'free'; ISO C90 does not support the 'll' gnu_printf length modifier or unnamed structs/unions; implicit declaration of functions 'atoi' 'malloc' 'unitify'; incompatable implicit declaration of built in function 'malloc.'
+{11} Original error: wanted Py-cElementTree before it was built
+{12} Error in ttcp.c: struct rusage has no member named 'ru_nvcsw', 'ru_nivcsw', 'ru_oublock', 'ru_inblock', 'ru_minflt', 'ru_majflt', 'ru_isrss' and 'ru_nswap.'
+{13} Error in xengine.c: expexted XtTimer CallBackProc, but arguement is void.
+{14} Original error: Missing <sys/shm.h>. Second error:  netserver.c: unknown type name fd_set-> solved by adding #include <sys/select.h>. Third error: Redefinition, conflicting types, previous declarations and unmatched prototypes in getaddrinfo: 'addrinfo' 'freeaddrinfo' and 'getaddrinfo'.
+{15} Original error: cannot find -lnsl.
+{16} Original error: error in core.c: FDS_BITS
+{17) Original error: could not find <sys/signal.h> I changed netio.c, line 33 to read: #include <signal.h>
+{18} Error in util.c: undefined references to 'shmget' 'shmat' and 'shmctl.'
+{19} Errors in ipc.c & getline.c: undefined references in "tputs", "tparm", "tigetstr" and 'tigetnum'
+{20} Original error: missing -lnetwork in makefile LDFLAGS: undefined references in tcp.c to: 'socket', 'getprotobyname', 'setsockopt', 'inet_addr', 'gethostbyname', 'bind', 'connect', 'listen', 'accept' and 'setsockopt.'
+{21} Original error: missing -lnetwork in makefile LDFLAGS: undefined references in netio.c to: 'send', 'recv', 'socket', 'setsockopt', 'bind', 'listen', 'accept', 'recvfrom', 'gethostbyname', 'inet_addr' and 'setsockopt.'
+{22} Error in dbl2mpq.c: missing <machine/ieee.h>.
+{23} Original error: wanted libXt before it was built
+{24} Original error: could not find <sys/shm.h> -> an xcb header.
+{25} Original error: missing -lnetwork in makefile LDFLAGS: undefined references in address.cpp and tcp.cpp to: 'gethostbyname', 'socket', 'bind', 'connect', 'getsockname', 'inet_ntoa' and 'gethostbyaddr.'
+{26} Wants php54-curl, but its not built yet
+{27} Original error: wanted pixman before it was built
+{28} Wants cairo, but its not built yet

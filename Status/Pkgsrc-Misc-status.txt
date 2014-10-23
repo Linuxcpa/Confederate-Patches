@@ -1,0 +1,337 @@
+├── misc ***336***  ***95 Installed, 3 Installable*** ***Count 98*** ***Pass Complete***
+│   ├── 9menu					(Installed)
+│   ├── Addresses
+│   ├── ascii					(Installed)
+│   ├── asr-manpages				(Installed)
+│   ├── astrolog				(Installed)
+│   ├── attica
+│   ├── autocue
+│   ├── basket
+│   ├── bbappconf				(Installed)
+│   ├── bbdb
+│   ├── bbweather				(Installed)
+│   ├── blccc
+│   ├── bottlerocket
+│   ├── brs					(Installed)
+│   ├── bsdiff
+│   ├── bsdstats
+│   ├── buffer
+│   ├── byobu
+│   ├── calibre
+│   ├── celestia
+│   ├── chipmunk
+│   ├── chord					(Installed)
+│   ├── chordii					(Installable)
+│   ├── cksfv					(Installed)
+│   ├── color-theme
+│   ├── colorblind				(Installed)
+│   ├── colorize				(Installed)
+│   ├── colorls
+│   ├── colortail				(Installed)
+│   ├── cowsay					(Installed)
+│   ├── cstream					(Installed)
+│   ├── cuecat
+│   ├── cuetools
+│   ├── deskbar-applet
+│   ├── dgpsip
+│   ├── dialog					(Installed)
+│   ├── dirdiff					(Installed)
+│   ├── dotfile					(Installed)
+│   ├── dpkg
+│   ├── dt
+│   ├── dtach
+│   ├── dvorakng				(Installed)
+│   ├── dvtm
+│   ├── dync
+│   ├── easymenu				(Installed)
+│   ├── ec2-ami-tools
+│   ├── ec2-api-tools
+│   ├── edict					(Installed)
+│   ├── elizatalk				(Installed)
+│   ├── elscreen
+│   ├── emacs-wiki
+│   ├── epm					(Installed)
+│   ├── esniper					(Installed)
+│   ├── fbreader
+│   ├── fd
+│   ├── fep
+│   ├── figlet					(Installed)
+│   ├── figlet-fonts				(Installed)
+│   ├── firelib					(Installed)
+│   ├── gaupol
+│   ├── gelemental
+│   ├── getopt					(Installed)
+│   ├── gkrellm-flynn
+│   ├── gkrellm-launch
+│   ├── gkrellm-leds
+│   ├── gkrellm-moon
+│   ├── gkrellm-weather
+│   ├── gnome-devel-docs
+│   ├── gnome-user-docs
+│   ├── gnome-utils
+│   ├── gnuls
+│   ├── goffice0.10
+│   ├── goffice0.6
+│   ├── goffice0.8
+│   ├── gok
+│   ├── gone
+│   ├── gperiodic
+│   ├── granulate				(Installed)
+│   ├── gwaei
+│   ├── hanzim
+│   ├── heirloom-banner
+│   ├── heirloom-cal
+│   ├── heirloom-calendar
+│   ├── heirloom-hd
+│   ├── heirloom-more
+│   ├── heirloom-od
+│   ├── heirloom-printenv
+│   ├── heirloom-printf
+│   ├── heirloom-random
+│   ├── heirloom-sleep
+│   ├── heirloom-sum
+│   ├── heirloom-tcopy
+│   ├── heirloom-time
+│   ├── heyu
+│   ├── howm
+│   ├── ibutton-pdkit				(Installed)
+│   ├── ipbt					(Installed)
+│   ├── iselect
+│   ├── ja-less					(Installed)
+│   ├── ja-man					(Installed)
+│   ├── JBidwatcher
+│   ├── jhd
+│   ├── jive					(Installed)
+│   ├── JMdict					(Installed)
+│   ├── kaccessible
+│   ├── kalzium
+│   ├── kanjidic				(Installed)
+│   ├── kanjidic2				(Installed)
+│   ├── kanjipad
+│   ├── kbruch
+│   ├── kcharselect
+│   ├── kchm
+│   ├── kchmviewer
+│   ├── kde-wallpapers4
+│   ├── kdeaccessibility3
+│   ├── kdeaddons3
+│   ├── kdeadmin3
+│   ├── kdeartwork3
+│   ├── kdeartwork4
+│   ├── kdeedu3
+│   ├── kdepim-runtime4
+│   ├── kdepim3
+│   ├── kdepim4
+│   ├── kdepimlibs4
+│   ├── kdeplasma-addons4
+│   ├── kdeutils3
+│   ├── kdrill
+│   ├── kgeography
+│   ├── kig
+│   ├── kiten
+│   ├── klettres
+│   ├── kmag
+│   ├── kmousetool
+│   ├── kmouth
+│   ├── kodos
+│   ├── koffice
+│   ├── koffice-l10n-da
+│   ├── koffice-l10n-de
+│   ├── koffice-l10n-en_GB
+│   ├── koffice-l10n-es
+│   ├── koffice-l10n-et
+│   ├── koffice-l10n-fi
+│   ├── koffice-l10n-fr
+│   ├── koffice-l10n-pl
+│   ├── kp					(Installed)
+│   ├── kremotecontrol
+│   ├── kstars
+│   ├── kteatime
+│   ├── ktouch
+│   ├── kturtle
+│   ├── ktux
+│   ├── kwordquiz
+│   ├── kz_h8write				(Installed)
+│   ├── labelnation				(Installed)
+│   ├── latin-words-bin
+│   ├── less					(Installed)
+│   ├── libcarddav
+│   ├── libcdio					(Installed)
+│   ├── libkdeedu
+│   ├── libkgeomap
+│   ├── libkkc-data
+│   ├── libkvkontakte
+│   ├── libquantum				(Installed)
+│   ├── libreoffice
+│   ├── libreoffice3-bin
+│   ├── libreoffice4
+│   ├── libreoffice4-bin
+│   ├── libutf 					(Installed)
+│   ├── lile
+│   ├── linux-words				(Installed)
+│   ├── loco					(Installed)
+│   ├── logsurfer				(Installed)
+│   ├── lookup
+│   ├── lv
+│   ├── m17n-contrib				(Installed)
+│   ├── m17n-db					(Installed)
+│   ├── m17n-docs				(Installed)
+│   ├── marble
+│   ├── mbuffer
+│   ├── mirmon					(Installed)
+│   ├── mkcue
+│   ├── mmv
+│   ├── mnemosyne
+│   ├── molden
+│   ├── most					(Installed)
+│   ├── mousetweaks
+│   ├── mtail					(Installed)
+│   ├── multitail
+│   ├── nepomuk-core
+│   ├── nepomuk-widgets
+│   ├── nxtvepg
+│   ├── open2300				(Installed)
+│   ├── open2300-mysql
+│   ├── openoffice3
+│   ├── orca
+│   ├── p5-App-MrShell
+│   ├── p5-Array-PrintCols			(Installed)
+│   ├── p5-Business-CreditCard			(Installed)
+│   ├── p5-Business-ISBN 			(Installed)
+│   ├── p5-Business-ISBN-Data 			(Installed)
+│   ├── p5-Business-UPS				(Installed)
+│   ├── p5-ControlX10-CM11
+│   ├── p5-ControlX10-CM17
+│   ├── p5-File-MMagic 				(Installed)
+│   ├── p5-File-MMagic-XS
+│   ├── p5-File-Tail				(Installed)
+│   ├── p5-Locale-Codes				(Installable)
+│   ├── p5-Locale-libintl 			(Installed)
+│   ├── p5-Locale-Maketext			(Installable)
+│   ├── p5-Locale-Maketext-Fuzzy		(Installed)
+│   ├── p5-Locale-Maketext-Lexicon		(Installed)
+│   ├── p5-Locale-Maketext-Simple		(Installed)
+│   ├── p5-Locale-US				(Installed)
+│   ├── p5-Mac-Macbinary			(Installed)
+│   ├── p5-Mac-PropertyList			(Installed)
+│   ├── p5-Msgcat				(Installed)
+│   ├── p5-Parse-Win32Registry			(Installed)
+│   ├── p5-Search				(Installed)
+│   ├── p5-Vroom
+│   ├── parchive				(Installed)
+│   ├── parley
+│   ├── pciids					(Installed)
+│   ├── pdmenu
+│   ├── php-orangehrm
+│   ├── pinfo
+│   ├── ppower
+│   ├── pty-redir				(Installed)
+│   ├── py-anita
+│   ├── py-anki2
+│   ├── py-carddav
+│   ├── py-stdnum				(Installed)
+│   ├── py-trytond-company
+│   ├── py-trytond-party
+│   ├── py-trytond-party-siret
+│   ├── py-trytond-product
+│   ├── py-trytond-stock
+│   ├── py-trytond-stock-lot
+│   ├── qbrew
+│   ├── qterm					(Installed)
+│   ├── raspberrypi-userland
+│   ├── reed
+│   ├── rhash					(Installed)
+│   ├── rlwrap
+│   ├── rocs
+│   ├── root
+│   ├── root-tail
+│   ├── routeplanner-cli
+│   ├── rox-memo
+│   ├── rpm
+│   ├── ruby-ansi
+│   ├── ruby-args_parser
+│   ├── ruby-bundler
+│   ├── ruby-colorator
+│   ├── ruby-columnize
+│   ├── ruby-commander
+│   ├── ruby-configuration
+│   ├── ruby-daemons
+│   ├── ruby-descendants_tracker
+│   ├── ruby-equalizer
+│   ├── ruby-gem_plugin
+│   ├── ruby-hashie
+│   ├── ruby-hashie2
+│   ├── ruby-launchy
+│   ├── ruby-memoizable
+│   ├── ruby-method_source
+│   ├── ruby-mini_portile
+│   ├── ruby-naught
+│   ├── ruby-ohai
+│   ├── ruby-parallel
+│   ├── ruby-progressbar
+│   ├── ruby-pry
+│   ├── ruby-rainbow
+│   ├── ruby-slop
+│   ├── ruby-sprockets
+│   ├── ruby-sprockets22
+│   ├── ruby-systemu
+│   ├── ruby-thread_safe
+│   ├── ruby-transaction-simple
+│   ├── ruby-typed-array
+│   ├── rubygems
+│   ├── rump
+│   ├── sch
+│   ├── sci
+│   ├── screen
+│   ├── send-pr					(Installed)
+│   ├── siag
+│   ├── since					(Installed)
+│   ├── softmaker-office-demo
+│   ├── splitvt
+│   ├── starplot
+│   ├── stellarium
+│   ├── step
+│   ├── superkaramba
+│   ├── sweeper
+│   ├── taskjuggler
+│   ├── tds					(Installed)
+│   ├── team
+│   ├── tellico
+│   ├── tellico-kde3
+│   ├── teseq					(Installed)
+│   ├── tmux
+│   ├── toilet
+│   ├── topless					(Installed)
+│   ├── ttyrec
+│   ├── udfclient
+│   ├── ukpostcodes				(Installed)
+│   ├── uptimec
+│   ├── urjtag
+│   ├── usbids					(Installed)
+│   ├── usbprog
+│   ├── utftools				(Installed)
+│   ├── vera					(Installed)
+│   ├── vfu
+│   ├── vimpager				(Installed)
+│   ├── visual-regexp				(Installed)
+│   ├── vttest					(Installed)
+│   ├── vym
+│   ├── watch					(Installed)
+│   ├── wdic
+│   ├── whohas					(Installed)
+│   ├── window
+│   ├── xchm
+│   ├── xdg-utils				(Installed)
+│   ├── xfce4-weather-plugin
+│   ├── xjdic
+│   ├── xorg-docs				(Installed)
+│   ├── xorg-sgml-doctools			(Installed)
+│   ├── xrolodex
+│   ├── xtail					(Installed)
+│   ├── xtend
+│   ├── yelp
+│   ├── yelp3
+│   ├── yrolo
+│   ├── zorro					(Installed)
+│   ├── zyGrib
+│   └── zyGrib-maps

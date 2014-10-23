@@ -1,0 +1,51 @@
+├── ham ***34***  ***3 Installed, 0 Installable*** ***Count 3*** ***Pass Complete*** 
+│   ├── 7plus					{1}
+│   ├── cwtext					(Installed)
+│   ├── dpbox					{10}
+│   ├── fl_logbook				{13}
+│   ├── fldigi					{3}
+│   ├── gmfsk					{4}
+│   ├── gnuradio-audio-jack			{14}{5}
+│   ├── gnuradio-audio-oss			{14}{5}
+│   ├── gnuradio-audio-portaudio		{14}{5}
+│   ├── gnuradio-core				{14}{5}
+│   ├── gnuradio-core-docs			{14}{5}
+│   ├── gnuradio-examples			{14}{5}
+│   ├── gnuradio-gsm				{14}{5}
+│   ├── gnuradio-howto				{14}{5}
+│   ├── gnuradio-radio-astronomy		{14}{5}
+│   ├── gnuradio-trellis			{14}{5}
+│   ├── gnuradio-usrp				{14}{5}
+│   ├── gnuradio-video-sdl			{14}{5}
+│   ├── gnuradio-wxgui				{14}{5}
+│   ├── gpredict				{4}
+│   ├── grig					{6}
+│   ├── hamlib					{7}
+│   ├── linpsk					{15}{2}
+│   ├── locator					(Installed)
+│   ├── nec2c					{8}
+│   ├── tlf					{6}
+│   ├── trustedQSL				{9}
+│   ├── usrp					{14}{5}
+│   ├── usrp-docs				{14}{5}
+│   ├── wwl					(Installed)
+│   ├── xdx					{11}
+│   ├── xlog					{6}
+│   ├── xnec2c					{14}{5}{11}
+│   └── yaesu					{12}
+
+{1} Missing: <termio.h>
+{2} Original error: wanted glu before it was built
+{3} Wants libsndfile, but its not built yet
+{4} Original error: wanted libIDL before it was built
+{5} Original error: wanted pixman before it was built
+{6} Wants hamlib, but its not built yet
+{7} Error in serial.c: TIO_CAR undeclared
+{8} Missing: <complex.h>
+{9} Wants db5, but its not built yet
+{10} Error in filesys.c: 'FO_READ' 'FO_CREATE' 'FC_FILE_RALL' 'nohandle' 'minhandle' undeclared
+{11} Original error: wanted gobject-introspection before it was built
+{12} Error in main.c: IMAXBEL undeclaired
+{13} Wants glut, but its not built yet
+{14} Wants cairo, but its not built yet
+{15} Wants qt4-libs, but its not built yet

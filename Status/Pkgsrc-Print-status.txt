@@ -1,0 +1,783 @@
+├── print ***782*** ***525 Installed, 1 Duplicate*** ***Count 526*** ***Pass Complete***
+│   ├── a2ps 					(Installed)
+│   ├── abc2ps 					(Installed)
+│   ├── abcm2ps
+│   ├── acroread7
+│   ├── acroread8
+│   ├── acroread9
+│   ├── adobeps-win
+│   ├── advi
+│   ├── apsfilter
+│   ├── auctex
+│   ├── bg5pdf
+│   ├── bg5ps 					(Installed)
+│   ├── bibtool
+│   ├── bww2tex 				(Installed)
+│   ├── chktex
+│   ├── cjkutils 				(Installed)
+│   ├── cnprint
+│   ├── cups
+│   ├── cups-drivers-Magicolor5440DL
+│   ├── cups-filters
+│   ├── cups-pdf
+│   ├── cups15
+│   ├── deforaos-pdfviewer
+│   ├── diffpdf
+│   ├── dvidvi 					(Installed)
+│   ├── dviljk
+│   ├── dvipdfmx
+│   ├── dvipsk 					(Installed)
+│   ├── electrix
+│   ├── enscript
+│   ├── epdfview
+│   ├── epstool 				(Installed)
+│   ├── evince
+│   ├── evince-nautilus
+│   ├── evince3
+│   ├── flpsed
+│   ├── foo2zjs
+│   ├── foomatic-filters
+│   ├── foomatic-filters-cups
+│   ├── foomatic-ppds 				(Installed)
+│   ├── foomatic-ppds-cups
+│   ├── foomatic4-db
+│   ├── foomatic4-db-engine 			(Installed)
+│   ├── foomatic4-filters 			(Installed)
+│   ├── ghostscript 				(Installed)
+│   ├── ghostscript-agpl
+│   ├── ghostscript-gpl 			(Installed)
+│   ├── glabels
+│   ├── gtklp
+│   ├── gutenprint-lib
+│   ├── gv
+│   ├── hpijs 					(Installed)
+│   ├── hplip
+│   ├── html2ps
+│   ├── if-psprint 				(Installed)
+│   ├── ijs 					(Installed)
+│   ├── img2eps 				(Installed)
+│   ├── imposter
+│   ├── ja-a2ps 				(Installed)
+│   ├── ja-ptex
+│   ├── ja-vflib 				(Installed)
+│   ├── ja-vflib-lib 				(Installed)
+│   ├── ja-vflib-utils 				(Installed)
+│   ├── ja-vfxdvik
+│   ├── jcabc2ps
+│   ├── kbibtex
+│   ├── kbibtex-kde3
+│   ├── kpathsea 				(Installed)
+│   ├── latex-mk
+│   ├── latexmk
+│   ├── lgrind
+│   ├── libgnomecups
+│   ├── libgnomeprint
+│   ├── libgnomeprintui
+│   ├── libgxps
+│   ├── libpaper 				(Installed)
+│   ├── libspectre 				(Installed)
+│   ├── lilypond
+│   ├── LPRng
+│   ├── LPRng-core
+│   ├── LPRng-doc 				(Installed)
+│   ├── luatex
+│   ├── magicfilter
+│   ├── mp
+│   ├── mpage 					(Installed)
+│   ├── mupdf
+│   ├── okular
+│   ├── p5-biblatex-biber
+│   ├── p5-LaTeX-Driver
+│   ├── p5-LaTeX-Encode 			(Installed)
+│   ├── p5-LaTeX-Table
+│   ├── p5-Net-CUPS
+│   ├── p5-PostScript
+│   ├── p5-PostScript-MailLabels 		(Installed)
+│   ├── p5-PostScript-Simple 			(Installed)
+│   ├── papersize 				(Installed)
+│   ├── paps
+│   ├── pcps 					(Installed)
+│   ├── pdf2djvu 				(Installed)
+│   ├── pdfjam
+│   ├── pdflib 					(Installed)
+│   ├── pdflib-lite 				(Installed)
+│   ├── pdfmod
+│   ├── pdfshuffler
+│   ├── pdvipsk
+│   ├── php-pdflib
+│   ├── pnm2ppa 				(Installed)
+│   ├── podofo
+│   ├── poppler					(Installed)
+│   ├── poppler-cpp				(Installed)
+│   ├── poppler-data				(Installed)
+│   ├── poppler-glib
+│   ├── poppler-includes 			(Installed)
+│   ├── poppler-qt
+│   ├── poppler-qt4
+│   ├── poppler-qt5
+│   ├── poppler-utils				(Installed)
+│   ├── poppler016
+│   ├── poster					(Installed)
+│   ├── pscal					(Installed)
+│   ├── psify					(Installed)
+│   ├── psjoin					(Installed)
+│   ├── pslib					(Installed)
+│   ├── psutils					(Installed)
+│   ├── ptexenc 				(Installed)
+│   ├── py-cups
+│   ├── py-Pdf					(Installed)[Duplicate]
+│   ├── py-PDF2					(Installed)
+│   ├── py-pisa
+│   ├── py-poppler
+│   ├── py-pslib
+│   ├── py-reportlab
+│   ├── qpdf					(Installed)
+│   ├── qpdfview
+│   ├── rlpr
+│   ├── rtf2latex				(Installed)
+│   ├── rtf2latex2e				(Installed)
+│   ├── ruby-gnome2-poppler
+│   ├── ruby-pdf-core
+│   ├── ruby-pdf-reader
+│   ├── ruby-pdf-writer
+│   ├── ruby-prawn
+│   ├── scribus
+│   ├── scribus-qt4
+│   ├── stylewriter
+│   ├── tcl-pdflib
+│   ├── teTeX
+│   ├── teTeX3-bin
+│   ├── teTeX3-texmf
+│   ├── tex-2up					(Installed)
+│   ├── tex-2up-doc				(Installed)
+│   ├── tex-a0poster				(Installed)
+│   ├── tex-a0poster-doc			(Installed)
+│   ├── tex-a4wide
+│   ├── tex-a4wide-doc				(Installed)
+│   ├── tex-a5comb				(Installed)
+│   ├── tex-a5comb-doc				(Installed)
+│   ├── tex-abc
+│   ├── tex-abc-doc				(Installed)
+│   ├── tex-abstract				(Installed)
+│   ├── tex-abstract-doc			(Installed)
+│   ├── tex-acmconf				(Installed)
+│   ├── tex-acmconf-doc				(Installed)
+│   ├── tex-acmtrans
+│   ├── tex-acmtrans-doc			(Installed)
+│   ├── tex-acromake				(Installed)
+│   ├── tex-acromake-doc			(Installed)
+│   ├── tex-acronym				(Installed)
+│   ├── tex-acronym-doc				(Installed)
+│   ├── tex-adrconv				(Installed)
+│   ├── tex-adrconv-doc				(Installed)
+│   ├── tex-advdate				(Installed)
+│   ├── tex-advdate-doc				(Installed)
+│   ├── tex-aeguill				(Installed)
+│   ├── tex-aeguill-doc				(Installed)
+│   ├── tex-algorithm2e
+│   ├── tex-algorithm2e-doc			(Installed)
+│   ├── tex-algorithmicx			(Installed)
+│   ├── tex-algorithmicx-doc			(Installed)
+│   ├── tex-algorithms
+│   ├── tex-algorithms-doc			(Installed)
+│   ├── tex-amscls 				(Installed)
+│   ├── tex-amscls-doc
+│   ├── tex-amsmath
+│   ├── tex-amsmath-doc				(Installed)
+│   ├── tex-amsrefs
+│   ├── tex-amsrefs-doc 			(Installed)
+│   ├── tex-anonchap 				(Installed)
+│   ├── tex-anonchap-doc 			(Installed)
+│   ├── tex-answers 				(Installed)
+│   ├── tex-answers-doc 			(Installed)
+│   ├── tex-anysize 				(Installed)
+│   ├── tex-anysize-doc 			(Installed)
+│   ├── tex-appendix 				(Installed)
+│   ├── tex-appendix-doc 			(Installed)
+│   ├── tex-arabi 				(Installed)
+│   ├── tex-arabi-doc 				(Installed)
+│   ├── tex-arabtex 				(Installed)
+│   ├── tex-arabtex-doc 			(Installed)
+│   ├── tex-babel
+│   ├── tex-babel-doc 				(Installed)
+│   ├── tex-babelbib 				(Installed)
+│   ├── tex-babelbib-doc 			(Installed)
+│   ├── tex-bagpipetex
+│   ├── tex-beamer
+│   ├── tex-beamer-doc 				(Installed)
+│   ├── tex-beton
+│   ├── tex-beton-doc 				(Installed)
+│   ├── tex-bezos 				(Installed)
+│   ├── tex-bezos-doc 				(Installed)
+│   ├── tex-biblatex 				(Installed)
+│   ├── tex-biblatex-doc 			(Installed)
+│   ├── tex-bibtex
+│   ├── tex-bibtex-doc 				(Installed)
+│   ├── tex-bibtex8 				(Installed)
+│   ├── tex-bibtopic
+│   ├── tex-bibtopic-doc 			(Installed)
+│   ├── tex-bibunits 				(Installed)
+│   ├── tex-bibunits-doc 			(Installed)
+│   ├── tex-block 				(Installed)
+│   ├── tex-block-doc 				(Installed)
+│   ├── tex-bold-extra 				(Installed)
+│   ├── tex-bold-extra-doc 			(Installed)
+│   ├── tex-booktabs
+│   ├── tex-booktabs-doc 			(Installed)
+│   ├── tex-boxedminipage 			(Installed)
+│   ├── tex-boxedminipage-doc 			(Installed)
+│   ├── tex-braket 				(Installed)
+│   ├── tex-braket-doc 				(Installed)
+│   ├── tex-breakcites 				(Installed)
+│   ├── tex-breakcites-doc 			(Installed)
+│   ├── tex-cancel 				(Installed)
+│   ├── tex-cancel-doc 				(Installed)
+│   ├── tex-capt-of 				(Installed)
+│   ├── tex-capt-of-doc 			(Installed)
+│   ├── tex-captdef 				(Installed)
+│   ├── tex-captdef-doc 			(Installed)
+│   ├── tex-caption
+│   ├── tex-caption-doc 			(Installed)
+│   ├── tex-carlisle
+│   ├── tex-carlisle-doc 			(Installed)
+│   ├── tex-cases 				(Installed)
+│   ├── tex-cases-doc 				(Installed)
+│   ├── tex-cellspace
+│   ├── tex-cellspace-doc 			(Installed)
+│   ├── tex-changebar
+│   ├── tex-changebar-doc 			(Installed)
+│   ├── tex-changepage 				(Installed)
+│   ├── tex-changepage-doc 			(Installed)
+│   ├── tex-chbibref 				(Installed)
+│   ├── tex-chbibref-doc 			(Installed)
+│   ├── tex-chemarrow 				(Installed)
+│   ├── tex-chemarrow-doc 			(Installed)
+│   ├── tex-chessfss 				(Installed)
+│   ├── tex-chessfss-doc 			(Installed)
+│   ├── tex-chngcntr 				(Installed)
+│   ├── tex-chngcntr-doc 			(Installed)
+│   ├── tex-circle 				(Installed)
+│   ├── tex-circle-doc 				(Installed)
+│   ├── tex-cite 				(Installed)
+│   ├── tex-cite-doc 				(Installed)
+│   ├── tex-cjk
+│   ├── tex-cjk-doc 				(Installed)
+│   ├── tex-cjkutils				(Installed)
+│   ├── tex-cjkutils-doc 			(Installed)
+│   ├── tex-clrscode
+│   ├── tex-clrscode-doc 			(Installed)
+│   ├── tex-collection-basic
+│   ├── tex-collection-basic-doc 		(Installed)
+│   ├── tex-collection-genericrecommended
+│   ├── tex-collection-genericrecommended-doc 	(Installed)
+│   ├── tex-collection-latex
+│   ├── tex-collection-latex-doc 		(Installed)
+│   ├── tex-colortbl
+│   ├── tex-colortbl-doc 			(Installed)
+│   ├── tex-comment 				(Installed)
+│   ├── tex-comment-doc 			(Installed)
+│   ├── tex-context
+│   ├── tex-context-doc 			(Installed)
+│   ├── tex-cooking
+│   ├── tex-cooking-doc 			(Installed)
+│   ├── tex-csquotes
+│   ├── tex-csquotes-doc 			(Installed)
+│   ├── tex-cweb 				(Installed)
+│   ├── tex-cweb-doc 				(Installed)
+│   ├── tex-cyrillic 				(Installed)
+│   ├── tex-cyrillic-bin 			(Installed)
+│   ├── tex-cyrillic-bin-doc 			(Installed)
+│   ├── tex-cyrillic-doc 			(Installed)
+│   ├── tex-datatool 				(Installed)
+│   ├── tex-datatool-doc 			(Installed)
+│   ├── tex-datetime
+│   ├── tex-datetime-doc 			(Installed)
+│   ├── tex-dblfloatfix 			(Installed)
+│   ├── tex-dblfloatfix-doc 			(Installed)
+│   ├── tex-dehyph-exptl 			(Installed)
+│   ├── tex-dehyph-exptl-doc 			(Installed)
+│   ├── tex-draftwatermark
+│   ├── tex-draftwatermark-doc
+│   ├── tex-dvipdfmx 				(Installed)
+│   ├── tex-dvipdfmx-def 			(Installed)
+│   ├── tex-dvipdfmx-doc 			(Installed)
+│   ├── tex-dvips 				(Installed)
+│   ├── tex-dvips-doc 				(Installed)
+│   ├── tex-elsarticle
+│   ├── tex-elsarticle-doc 			(Installed)
+│   ├── tex-enctex 				(Installed)
+│   ├── tex-enctex-doc 				(Installed)
+│   ├── tex-endfloat
+│   ├── tex-endfloat-doc 			(Installed)
+│   ├── tex-endnotes 				(Installed)
+│   ├── tex-endnotes-doc 			(Installed)
+│   ├── tex-enumitem 				(Installed)
+│   ├── tex-enumitem-doc 			(Installed)
+│   ├── tex-environ 				(Installed)
+│   ├── tex-environ-doc 			(Installed)
+│   ├── tex-epsf 				(Installed)
+│   ├── tex-epsf-doc 				(Installed)
+│   ├── tex-eso-pic
+│   ├── tex-eso-pic-doc
+│   ├── tex-etex
+│   ├── tex-etex-doc 				(Installed)
+│   ├── tex-etex-pkg
+│   ├── tex-etex-pkg-doc 			(Installed)
+│   ├── tex-euler
+│   ├── tex-euler-doc 				(Installed)
+│   ├── tex-everypage 				(Installed)
+│   ├── tex-everypage-doc 			(Installed)
+│   ├── tex-exam
+│   ├── tex-exam-doc 				(Installed)
+│   ├── tex-excludeonly 			(Installed)
+│   ├── tex-excludeonly-doc 			(Installed)
+│   ├── tex-extsizes
+│   ├── tex-extsizes-doc 			(Installed)
+│   ├── tex-fancybox 				(Installed)
+│   ├── tex-fancybox-doc 			(Installed)
+│   ├── tex-fancyhdr
+│   ├── tex-fancyhdr-doc 			(Installed)
+│   ├── tex-fancyvrb 				(Installed)
+│   ├── tex-fancyvrb-doc 			(Installed)
+│   ├── tex-fix2col 				(Installed)
+│   ├── tex-fix2col-doc 			(Installed)
+│   ├── tex-fixme
+│   ├── tex-fixme-doc 				(Installed)
+│   ├── tex-float 				(Installed)
+│   ├── tex-float-doc 				(Installed)
+│   ├── tex-fmtcount
+│   ├── tex-fmtcount-doc 			(Installed)
+│   ├── tex-fncylab 				(Installed)
+│   ├── tex-fncylab-doc 			(Installed)
+│   ├── tex-fnpara 				(Installed)
+│   ├── tex-fnpara-doc 				(Installed)
+│   ├── tex-foiltex
+│   ├── tex-footmisc 				(Installed)
+│   ├── tex-footmisc-doc 			(Installed)
+│   ├── tex-forloop 				(Installed)
+│   ├── tex-forloop-doc 			(Installed)
+│   ├── tex-framed 				(Installed)
+│   ├── tex-framed-doc 				(Installed)
+│   ├── tex-ftcap 				(Installed)
+│   ├── tex-ftcap-doc 				(Installed)
+│   ├── tex-fwlw 				(Installed)
+│   ├── tex-fwlw-doc 				(Installed)
+│   ├── tex-genmisc 				(Installed)
+│   ├── tex-geometry
+│   ├── tex-geometry-doc 			(Installed)
+│   ├── tex-german 				(Installed)
+│   ├── tex-german-doc 				(Installed)
+│   ├── tex-glossaries
+│   ├── tex-glossaries-doc 			(Installed)
+│   ├── tex-graphics 				(Installed)
+│   ├── tex-graphics-doc 			(Installed)
+│   ├── tex-guide-to-latex 			(Installed)
+│   ├── tex-gustlib 				(Installed)
+│   ├── tex-gustlib-doc 			(Installed)
+│   ├── tex-harvard 				(Installed)
+│   ├── tex-harvard-doc 			(Installed)
+│   ├── tex-here 				(Installed)
+│   ├── tex-here-doc 				(Installed)
+│   ├── tex-hyper 				(Installed)
+│   ├── tex-hyper-doc 				(Installed)
+│   ├── tex-hypernat 				(Installed)
+│   ├── tex-hypernat-doc 			(Installed)
+│   ├── tex-hyperref
+│   ├── tex-hyperref-doc 			(Installed)
+│   ├── tex-hyph-utf8 				(Installed)
+│   ├── tex-hyph-utf8-doc
+│   ├── tex-hyphen-ancientgreek
+│   ├── tex-hyphen-arabic
+│   ├── tex-hyphen-base 			(Installed)
+│   ├── tex-hyphen-basque 			(Installed)
+│   ├── tex-hyphen-bulgarian 			(Installed)
+│   ├── tex-hyphen-catalan 			(Installed)
+│   ├── tex-hyphen-chinese 			(Installed)
+│   ├── tex-hyphen-coptic 			(Installed)
+│   ├── tex-hyphen-croatian 			(Installed)
+│   ├── tex-hyphen-czech 			(Installed)
+│   ├── tex-hyphen-danish 			(Installed)
+│   ├── tex-hyphen-dutch 			(Installed)
+│   ├── tex-hyphen-esperanto 			(Installed)
+│   ├── tex-hyphen-estonian 			(Installed)
+│   ├── tex-hyphen-farsi 			(Installed)
+│   ├── tex-hyphen-finnish 			(Installed)
+│   ├── tex-hyphen-french 			(Installed)
+│   ├── tex-hyphen-galician 			(Installed)
+│   ├── tex-hyphen-german 			(Installed)
+│   ├── tex-hyphen-greek 			(Installed)
+│   ├── tex-hyphen-greek-doc 			(Installed)
+│   ├── tex-hyphen-hungarian 			(Installed)
+│   ├── tex-hyphen-hungarian-doc 		(Installed)
+│   ├── tex-hyphen-icelandic 			(Installed)
+│   ├── tex-hyphen-indonesian 			(Installed)
+│   ├── tex-hyphen-interlingua 			(Installed)
+│   ├── tex-hyphen-irish 			(Installed)
+│   ├── tex-hyphen-italian 			(Installed)
+│   ├── tex-hyphen-latin 			(Installed)
+│   ├── tex-hyphen-lithuanian 			(Installed)
+│   ├── tex-hyphen-mongolian 			(Installed)
+│   ├── tex-hyphen-norwegian 			(Installed)
+│   ├── tex-hyphen-polish 			(Installed)
+│   ├── tex-hyphen-portuguese 			(Installed)
+│   ├── tex-hyphen-romanian 			(Installed)
+│   ├── tex-hyphen-russian 			(Installed)
+│   ├── tex-hyphen-sanskrit 			(Installed)
+│   ├── tex-hyphen-serbian 			(Installed)
+│   ├── tex-hyphen-slovak 			(Installed)
+│   ├── tex-hyphen-slovenian 			(Installed)
+│   ├── tex-hyphen-spanish 			(Installed)
+│   ├── tex-hyphen-swedish 			(Installed)
+│   ├── tex-hyphen-turkish 			(Installed)
+│   ├── tex-hyphen-ukenglish 			(Installed)
+│   ├── tex-hyphen-ukrainian 			(Installed)
+│   ├── tex-hyphen-uppersorbian 		(Installed)
+│   ├── tex-hyphen-welsh 			(Installed)
+│   ├── tex-hyphenat
+│   ├── tex-hyphenat-doc 			(Installed)
+│   ├── tex-IEEEconf
+│   ├── tex-IEEEconf-doc 			(Installed)
+│   ├── tex-IEEEtran
+│   ├── tex-IEEEtran-doc 			(Installed)
+│   ├── tex-ifluatex 				(Installed)
+│   ├── tex-ifluatex-doc 			(Installed)
+│   ├── tex-ifmtarg 				(Installed)
+│   ├── tex-ifmtarg-doc 			(Installed)
+│   ├── tex-ifplatform
+│   ├── tex-ifplatform-doc 			(Installed)
+│   ├── tex-ifxetex 				(Installed)
+│   ├── tex-ifxetex-doc 			(Installed)
+│   ├── tex-igo
+│   ├── tex-index 				(Installed)
+│   ├── tex-index-doc 				(Installed)
+│   ├── tex-jadetex
+│   ├── tex-jadetex-doc 			(Installed)
+│   ├── tex-japanese 				(Installed)
+│   ├── tex-japanese-doc 			(Installed)
+│   ├── tex-jsclasses
+│   ├── tex-jurabib
+│   ├── tex-jurabib-doc 			(Installed)
+│   ├── tex-kix 				(Installed)
+│   ├── tex-kix-doc 				(Installed)
+│   ├── tex-koma-script
+│   ├── tex-kotex
+│   ├── tex-kotex-dev
+│   ├── tex-kotex-dev-doc 			(Installed)
+│   ├── tex-kotex-doc 				(Installed)
+│   ├── tex-kotex-utils 			(Installed)
+│   ├── tex-kpathsea 				(Installed)
+│   ├── tex-kpathsea-doc 			(Installed)
+│   ├── tex-lambda 				(Installed)
+│   ├── tex-lastpage
+│   ├── tex-lastpage-doc 			(Installed)
+│   ├── tex-latex
+│   ├── tex-latex-bin
+│   ├── tex-latex-bin-doc 			(Installed)
+│   ├── tex-latex-doc 				(Installed)
+│   ├── tex-latexconfig 			(Installed)
+│   ├── tex-lazylist 				(Installed)
+│   ├── tex-lazylist-doc 			(Installed)
+│   ├── tex-leaflet
+│   ├── tex-leaflet-doc 			(Installed)
+│   ├── tex-lipsum
+│   ├── tex-lipsum-doc 				(Installed)
+│   ├── tex-listing 				(Installed)
+│   ├── tex-listing-doc 			(Installed)
+│   ├── tex-listings
+│   ├── tex-listings-doc 			(Installed)
+│   ├── tex-logreq 				(Installed)
+│   ├── tex-logreq-doc 				(Installed)
+│   ├── tex-ltxmisc
+│   ├── tex-luatex
+│   ├── tex-luatex-doc 				(Installed)
+│   ├── tex-magaz 				(Installed)
+│   ├── tex-magaz-doc 				(Installed)
+│   ├── tex-marginnote 				(Installed)
+│   ├── tex-marginnote-doc 			(Installed)
+│   ├── tex-mdframed
+│   ├── tex-mdframed-doc 			(Installed)
+│   ├── tex-mdwtools
+│   ├── tex-mdwtools-doc 			(Installed)
+│   ├── tex-memoir
+│   ├── tex-memoir-doc 				(Installed)
+│   ├── tex-metalogo
+│   ├── tex-metalogo-doc 			(Installed)
+│   ├── tex-mfnfss 				(Installed)
+│   ├── tex-mfnfss-doc 				(Installed)
+│   ├── tex-mh 					(Installed)
+│   ├── tex-mh-doc 				(Installed)
+│   ├── tex-mhchem
+│   ├── tex-mhchem-doc 				(Installed)
+│   ├── tex-microtype
+│   ├── tex-microtype-doc 			(Installed)
+│   ├── tex-midpage 				(Installed)
+│   ├── tex-midpage-doc 			(Installed)
+│   ├── tex-minitoc
+│   ├── tex-minitoc-doc 			(Installed)
+│   ├── tex-minted 				(Installed)
+│   ├── tex-minted-doc 				(Installed)
+│   ├── tex-misc 				(Installed)
+│   ├── tex-misc209 				(Installed)
+│   ├── tex-mltex
+│   ├── tex-mltex-doc 				(Installed)
+│   ├── tex-moreverb 				(Installed)
+│   ├── tex-moreverb-doc 			(Installed)
+│   ├── tex-ms
+│   ├── tex-ms-doc 				(Installed)
+│   ├── tex-multirow 				(Installed)
+│   ├── tex-multirow-doc 			(Installed)
+│   ├── tex-musixtex
+│   ├── tex-musixtex-doc 			(Installed)
+│   ├── tex-natbib
+│   ├── tex-natbib-doc 				(Installed)
+│   ├── tex-needspace 				(Installed)
+│   ├── tex-needspace-doc 			(Installed)
+│   ├── tex-nextpage 				(Installed)
+│   ├── tex-nolbreaks 				(Installed)
+│   ├── tex-nolbreaks-doc 			(Installed)
+│   ├── tex-nomencl 				(Installed)
+│   ├── tex-nomencl-doc 			(Installed)
+│   ├── tex-nopageno 				(Installed)
+│   ├── tex-nopageno-doc 			(Installed)
+│   ├── tex-notoccite 				(Installed)
+│   ├── tex-notoccite-doc 			(Installed)
+│   ├── tex-ntgclass 				(Installed)
+│   ├── tex-ntgclass-doc 			(Installed)
+│   ├── tex-ntheorem 				(Installed)
+│   ├── tex-ntheorem-doc 			(Installed)
+│   ├── tex-oberdiek
+│   ├── tex-oberdiek-doc 			(Installed)
+│   ├── tex-optional 				(Installed)
+│   ├── tex-optional-doc 			(Installed)
+│   ├── tex-oubraces 				(Installed)
+│   ├── tex-oubraces-doc 			(Installed)
+│   ├── tex-paralist 				(Installed)
+│   ├── tex-paralist-doc 			(Installed)
+│   ├── tex-parskip 				(Installed)
+│   ├── tex-parskip-doc 			(Installed)
+│   ├── tex-passivetex
+│   ├── tex-path 				(Installed)
+│   ├── tex-path-doc 				(Installed)
+│   ├── tex-pdfcomment
+│   ├── tex-pdfcomment-doc 			(Installed)
+│   ├── tex-pdfpages
+│   ├── tex-pdfpages-doc 			(Installed)
+│   ├── tex-pdftex
+│   ├── tex-pdftex-def 				(Installed)
+│   ├── tex-pdftex-doc 				(Installed)
+│   ├── tex-pdftools
+│   ├── tex-pdftools-doc 			(Installed)
+│   ├── tex-pgf
+│   ├── tex-pgf-doc 				(Installed)
+│   ├── tex-pgfplots
+│   ├── tex-pgfplots-doc 			(Installed)
+│   ├── tex-picinpar 				(Installed)
+│   ├── tex-picinpar-doc 			(Installed)
+│   ├── tex-pkfix
+│   ├── tex-pkfix-doc 				(Installed)
+│   ├── tex-placeins 				(Installed)
+│   ├── tex-placeins-doc 			(Installed)
+│   ├── tex-placeins-plain 			(Installed)
+│   ├── tex-plain 				(Installed)
+│   ├── tex-polytable
+│   ├── tex-polytable-doc 			(Installed)
+│   ├── tex-preprint 				(Installed)
+│   ├── tex-preprint-doc 			(Installed)
+│   ├── tex-preview
+│   ├── tex-preview-doc 			(Installed)
+│   ├── tex-printlen 				(Installed)
+│   ├── tex-printlen-doc 			(Installed)
+│   ├── tex-prosper
+│   ├── tex-prosper-doc 			(Installed)
+│   ├── tex-psfrag
+│   ├── tex-psfrag-doc 				(Installed)
+│   ├── tex-pslatex 				(Installed)
+│   ├── tex-pspicture 				(Installed)
+│   ├── tex-pspicture-doc 			(Installed)
+│   ├── tex-ptex 				(Installed)
+│   ├── tex-ptex-doc
+│   ├── tex-rcsinfo 				(Installed)
+│   ├── tex-rcsinfo-doc 			(Installed)
+│   ├── tex-realscripts 			(Installed)
+│   ├── tex-realscripts-doc
+│   ├── tex-relsize 				(Installed)
+│   ├── tex-resume
+│   ├── tex-romanneg 				(Installed)
+│   ├── tex-romanneg-doc 			(Installed)
+│   ├── tex-rotating
+│   ├── tex-rotating-doc 			(Installed)
+│   ├── tex-ruhyphen 				(Installed)
+│   ├── tex-sansmath 				(Installed)
+│   ├── tex-sansmath-doc 			(Installed)
+│   ├── tex-sauerj
+│   ├── tex-sauerj-doc 				(Installed)
+│   ├── tex-secdot
+│   ├── tex-secdot-doc 				(Installed)
+│   ├── tex-section 				(Installed)
+│   ├── tex-section-doc 			(Installed)
+│   ├── tex-sectsty 				(Installed)
+│   ├── tex-sectsty-doc 			(Installed)
+│   ├── tex-selectp 				(Installed)
+│   ├── tex-seminar
+│   ├── tex-seminar-doc 			(Installed)
+│   ├── tex-sepnum 				(Installed)
+│   ├── tex-sepnum-doc 				(Installed)
+│   ├── tex-setspace 				(Installed)
+│   ├── tex-shadethm
+│   ├── tex-shadow 				(Installed)
+│   ├── tex-shadow-doc 				(Installed)
+│   ├── tex-showtags 				(Installed)
+│   ├── tex-showtags-doc 			(Installed)
+│   ├── tex-SIstyle 				(Installed)
+│   ├── tex-SIstyle-doc 			(Installed)
+│   ├── tex-SIunits 				(Installed)
+│   ├── tex-SIunits-doc 			(Installed)
+│   ├── tex-skak 				(Installed)
+│   ├── tex-skak-doc 				(Installed)
+│   ├── tex-skaknew 				(Installed)
+│   ├── tex-skaknew-doc 			(Installed)
+│   ├── tex-soul
+│   ├── tex-soul-doc 				(Installed)
+│   ├── tex-sphack 				(Installed)
+│   ├── tex-sphack-doc 				(Installed)
+│   ├── tex-splitbib
+│   ├── tex-srcltx 				(Installed)
+│   ├── tex-srcltx-doc 				(Installed)
+│   ├── tex-statex 				(Installed)
+│   ├── tex-statex-doc 				(Installed)
+│   ├── tex-sttools 				(Installed)
+│   ├── tex-sttools-doc 			(Installed)
+│   ├── tex-subfig
+│   ├── tex-subfig-doc 				(Installed)
+│   ├── tex-subfigmat 				(Installed)
+│   ├── tex-subfigmat-doc 			(Installed)
+│   ├── tex-subfigure 				(Installed)
+│   ├── tex-subfigure-doc 			(Installed)
+│   ├── tex-substr 				(Installed)
+│   ├── tex-substr-doc 				(Installed)
+│   ├── tex-supertabular 			(Installed)
+│   ├── tex-supertabular-doc 			(Installed)
+│   ├── tex-svninfo 				(Installed)
+│   ├── tex-svninfo-doc 			(Installed)
+│   ├── tex-t2 					(Installed)
+│   ├── tex-t2-doc 				(Installed)
+│   ├── tex-tabls 				(Installed)
+│   ├── tex-tabls-doc 				(Installed)
+│   ├── tex-tetex 				(Installed)
+│   ├── tex-tetex-doc 				(Installed)
+│   ├── tex-tex
+│   ├── tex-texconfig 				(Installed)
+│   ├── tex-texconfig-doc 			(Installed)
+│   ├── tex-texdoc
+│   ├── tex-texdoc-doc 				(Installed)
+│   ├── tex-texlive-common-doc 			(Installed)
+│   ├── tex-texlive-docindex 			(Installed)
+│   ├── tex-texlive-docindex-doc 		(Installed)
+│   ├── tex-texlive-en-doc 			(Installed)
+│   ├── tex-texlive-scripts
+│   ├── tex-texlive.infra 			(Installed)
+│   ├── tex-texmate 				(Installed)
+│   ├── tex-texmate-doc 			(Installed)
+│   ├── tex-texpower 				(Installed)
+│   ├── tex-texpower-doc 			(Installed)
+│   ├── tex-textcase
+│   ├── tex-textcase-doc 			(Installed)
+│   ├── tex-thailatex 				(Installed)
+│   ├── tex-threeparttable 			(Installed)
+│   ├── tex-threeparttable-doc 			(Installed)
+│   ├── tex-titleref 				(Installed)
+│   ├── tex-titleref-doc 			(Installed)
+│   ├── tex-titlesec 				(Installed)
+│   ├── tex-titlesec-doc 			(Installed)
+│   ├── tex-tocbibind
+│   ├── tex-tocbibind-doc 			(Installed)
+│   ├── tex-tocloft
+│   ├── tex-tocloft-doc 			(Installed)
+│   ├── tex-tools 				(Installed)
+│   ├── tex-tools-doc 				(Installed)
+│   ├── tex-tpslifonts 				(Installed)
+│   ├── tex-tpslifonts-doc 			(Installed)
+│   ├── tex-truncate 				(Installed)
+│   ├── tex-truncate-doc 			(Installed)
+│   ├── tex-tufte-latex
+│   ├── tex-tufte-latex-doc 			(Installed)
+│   ├── tex-twoinone 				(Installed)
+│   ├── tex-twoinone-doc 			(Installed)
+│   ├── tex-type1cm 				(Installed)
+│   ├── tex-type1cm-doc 			(Installed)
+│   ├── tex-typehtml 				(Installed)
+│   ├── tex-typehtml-doc 			(Installed)
+│   ├── tex-ucs
+│   ├── tex-ucs-doc 				(Installed)
+│   ├── tex-ukrhyph 				(Installed)
+│   ├── tex-ukrhyph-doc 			(Installed)
+│   ├── tex-ulem 				(Installed)
+│   ├── tex-ulem-doc 				(Installed)
+│   ├── tex-umlaute
+│   ├── tex-umlaute-doc 			(Installed)
+│   ├── tex-underscore 				(Installed)
+│   ├── tex-underscore-doc 			(Installed)
+│   ├── tex-units 				(Installed)
+│   ├── tex-units-doc 				(Installed)
+│   ├── tex-upquote 				(Installed)
+│   ├── tex-upquote-doc 			(Installed)
+│   ├── tex-url 				(Installed)
+│   ├── tex-url-doc 				(Installed)
+│   ├── tex-verbasef 				(Installed)
+│   ├── tex-verbasef-doc 			(Installed)
+│   ├── tex-verbdef 				(Installed)
+│   ├── tex-verbdef-doc 			(Installed)
+│   ├── tex-version 				(Installed)
+│   ├── tex-version-doc 			(Installed)
+│   ├── tex-vertbars 				(Installed)
+│   ├── tex-vruler 				(Installed)
+│   ├── tex-vruler-doc 				(Installed)
+│   ├── tex-wallpaper
+│   ├── tex-wallpaper-doc
+│   ├── tex-wrapfig
+│   ├── tex-wrapfig-doc
+│   ├── tex-xargs
+│   ├── tex-xargs-doc
+│   ├── tex-xcolor
+│   ├── tex-xcolor-doc
+│   ├── tex-xcomment
+│   ├── tex-xcomment-doc
+│   ├── tex-xdvi
+│   ├── tex-xetex
+│   ├── tex-xetex-def
+│   ├── tex-xetex-doc
+│   ├── tex-xetexconfig
+│   ├── tex-xfor
+│   ├── tex-xfor-doc
+│   ├── tex-xkeyval
+│   ├── tex-xkeyval-doc
+│   ├── tex-xltxtra
+│   ├── tex-xltxtra-doc
+│   ├── tex-xtab
+│   ├── tex-xtab-doc
+│   ├── tex-xunicode
+│   ├── tex-xunicode-doc
+│   ├── tex-yfonts
+│   ├── tex-yfonts-doc
+│   ├── texlive
+│   ├── transfig 				(Installed)
+│   ├── web2c
+│   ├── xdvik
+│   ├── xdvipdfmx
+│   ├── xetex
+│   ├── xfce4-print
+│   ├── xpdf
+│   ├── xpdf-arabic
+│   ├── xpdf-chinese-simplified
+│   ├── xpdf-chinese-traditional
+│   ├── xpdf-cyrillic
+│   ├── xpdf-greek
+│   ├── xpdf-hebrew
+│   ├── xpdf-japanese
+│   ├── xpdf-korean
+│   ├── xpdf-latin2
+│   ├── xpdf-thai
+│   ├── xpdf-turkish
+│   ├── xpdfopen
+│   ├── xpp
+│   └── yup 					(Installed)

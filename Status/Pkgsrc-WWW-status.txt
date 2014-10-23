@@ -1,0 +1,764 @@
+├── www ***760*** ***336 Installed, 2 Installable*** ***Count 338*** ***Pass Complete***
+│   ├── adzap					(Installed)
+│   ├── aipo
+│   ├── album
+│   ├── album_themes
+│   ├── amaya
+│   ├── analog
+│   ├── ap-auth-kerb
+│   ├── ap-auth-mysql
+│   ├── ap-fastcgi				(Installed)
+│   ├── ap-geoip2				(Installed)
+│   ├── ap-mono
+│   ├── ap-php
+│   ├── ap-rpaf					(Installed)
+│   ├── ap-ruby
+│   ├── ap-scgi
+│   ├── ap2-auth-external			(Installed)
+│   ├── ap2-auth-mellon
+│   ├── ap2-auth-mysql
+│   ├── ap2-auth-ntlm
+│   ├── ap2-auth-pgsql
+│   ├── ap2-auth-radius				(Installed)
+│   ├── ap2-auth-xradius			(Installed)
+│   ├── ap2-authn-otp				(Installed)
+│   ├── ap2-bw					(Installed)
+│   ├── ap2-cband
+│   ├── ap2-fcgid				(Installed)
+│   ├── ap2-jk
+│   ├── ap2-perl				(Installed)
+│   ├── ap2-python
+│   ├── ap2-subversion
+│   ├── ap2-suphp				(Installed)
+│   ├── ap2-transform
+│   ├── ap2-wsgi				(Installed)
+│   ├── ap2-xsendfile				(Installed)
+│   ├── ap22-authn-sasl
+│   ├── ap22-authnz-external			(Installed)
+│   ├── ap22-authz-ldap				(Installed)
+│   ├── ap22-dnssd
+│   ├── ap22-limitipconn			(Installed)
+│   ├── ap22-vhost-ldap
+│   ├── apache-roller
+│   ├── apache-tomcat55
+│   ├── apache-tomcat6
+│   ├── apache-tomcat7
+│   ├── apache22				(Installed)
+│   ├── apache24
+│   ├── apachetop				(Installed)
+│   ├── asp2php					(Installed)
+│   ├── august					(Installed)
+│   ├── aws
+│   ├── aws-demos
+│   ├── awstats					(Installed)
+│   ├── bannerfilter				(Installed)
+│   ├── bins
+│   ├── bkedit
+│   ├── bluefish
+│   ├── blur6ex
+│   ├── bozohttpd
+│   ├── browser-bookmarks-menu
+│   ├── c-icap
+│   ├── c-icap-modules
+│   ├── cadaver
+│   ├── calamaris				(Installed)
+│   ├── camping
+│   ├── cgic					(Installed)
+│   ├── cgicc					(Installed)
+│   ├── cgilib					(Installed)
+│   ├── checkbot				(Installed)
+│   ├── cherokee
+│   ├── clearsilver
+│   ├── clearsilver-base
+│   ├── clisp-fastcgi
+│   ├── contao
+│   ├── contao32
+│   ├── contao33
+│   ├── cppcms
+│   ├── crawl
+│   ├── cronolog				(Installed)
+│   ├── curl					(Installed)
+│   ├── cvsweb
+│   ├── dansguardian
+│   ├── davical
+│   ├── deforaos-surfer
+│   ├── dillo
+│   ├── dojo					(Installed)
+│   ├── drivel
+│   ├── drraw					(Installed)
+│   ├── drupal6
+│   ├── drupal7
+│   ├── elinks
+│   ├── eliom
+│   ├── emacs-w3m
+│   ├── emacs-w3m-snapshot
+│   ├── epiphany
+│   ├── epiphany-extensions
+│   ├── fcgi					(Installed)
+│   ├── fengoffice
+│   ├── ffproxy					(Installed)
+│   ├── firefox
+│   ├── firefox-l10n				(Installed)
+│   ├── firefox10
+│   ├── firefox10-l10n				(Installed)
+│   ├── firefox17
+│   ├── firefox17-l10n				(Installed)
+│   ├── firefox24
+│   ├── firefox24-l10n				(Installed)
+│   ├── firefox36
+│   ├── firefox36-l10n				(Installed)
+│   ├── gallery
+│   ├── gallery2
+│   ├── ganglia-webfrontend
+│   ├── geeklog
+│   ├── gitweb
+│   ├── goaccess
+│   ├── gtkasp2php
+│   ├── gtkhtml314
+│   ├── gwt
+│   ├── haskell-cgi				(Installed)
+│   ├── heel
+│   ├── hiawatha
+│   ├── horde
+│   ├── htdig
+│   ├── htmlcxx
+│   ├── htmldoc
+│   ├── htmldoc-x11
+│   ├── htmlfix					(Installed)
+│   ├── htmllint				(Installed)
+│   ├── http_load
+│   ├── icedtea-web
+│   ├── ies4linux
+│   ├── ijb					(Installed)
+│   ├── ikiwiki
+│   ├── ja-trac
+│   ├── jalbum
+│   ├── jetty7
+│   ├── kahua
+│   ├── kannel					(Installed)
+│   ├── kazehakase
+│   ├── kdewebdev3
+│   ├── kdewebdev4
+│   ├── lhs
+│   ├── libghttp				(Installed)
+│   ├── libgtkhtml
+│   ├── libmediawiki
+│   ├── libmicrohttpd
+│   ├── libmrss					(Installed)
+│   ├── libproxy
+│   ├── librest
+│   ├── librest07
+│   ├── libwww
+│   ├── liferea
+│   ├── liferea-current
+│   ├── lighttpd				(Installed)
+│   ├── links					(Installable)
+│   ├── links-gui				(Installed)
+│   ├── litmus
+│   ├── llgal
+│   ├── loggerhead
+│   ├── lua-curl				(Installed)
+│   ├── lynx 					(Installed)
+│   ├── make_album
+│   ├── mediawiki
+│   ├── micro_httpd
+│   ├── midori 					{1}
+│   ├── mimetex					(Installed)
+│   ├── mini_httpd
+│   ├── mknmz-wwwoffle				(Installed)
+│   ├── mMosaic 				{2}
+│   ├── mongrel
+│   ├── mongrel-cluster
+│   ├── mongrel-config
+│   ├── mongrel-console
+│   ├── mongrel-upload-progress
+│   ├── mono-xsp
+│   ├── moodle
+│   ├── mserv-php
+│   ├── nanoblogger
+│   ├── nanoblogger-extra
+│   ├── neon
+│   ├── netscape 				{2}
+│   ├── netsurf
+│   ├── nginx
+│   ├── nginx-devel
+│   ├── ns-plugger-common
+│   ├── ns-remote				(Installed)
+│   ├── nspluginwrapper
+│   ├── nvu
+│   ├── ocaml-curl
+│   ├── ocaml-http
+│   ├── ocsigen
+│   ├── opera
+│   ├── opera-acroread7
+│   ├── opera-plugins
+│   ├── p5-Alien-GvaScript			(Installed)
+│   ├── p5-AnyEvent-HTTP			(Installed)
+│   ├── p5-AnyEvent-HTTPD			(Installed)
+│   ├── p5-AnyEvent-ReverseHTTP			(Installed)
+│   ├── p5-AnyEvent-SCGI			(Installed)
+│   ├── p5-Apache-ASP				(Installed)
+│   ├── p5-Apache-DBILogConfig			(Installed)
+│   ├── p5-Apache-DBILogger			(Installed)
+│   ├── p5-Apache-Filter			(Installed)
+│   ├── p5-Apache-Gallery			(Installed)
+│   ├── p5-Apache-LogFormat-Compiler		(Installed)
+│   ├── p5-Apache-Session			(Installed)
+│   ├── p5-Apache-Session-SharedMem
+│   ├── p5-Apache-Session-Wrapper		(Installed)
+│   ├── p5-Apache-SSI				(Installed)
+│   ├── p5-Apache-Test				(Installable)
+│   ├── p5-Apache2-AuthCASSimple		(Installed)
+│   ├── p5-Apache2-AuthCookie			(Installed)
+│   ├── p5-Apache2-AuthCookieDBI		(Installed)
+│   ├── p5-App-Nopaste
+│   ├── p5-Captcha-reCAPTCHA			(Installed)
+│   ├── p5-Captcha-reCAPTCHA-Mailhide
+│   ├── p5-Catalyst-Action-RenderView		(Installed)
+│   ├── p5-Catalyst-Action-REST			(Installed)
+│   ├── p5-Catalyst-Authentication-Credential-HTTP
+│   ├── p5-Catalyst-Authentication-Credential-HTTP-Proxy
+│   ├── p5-Catalyst-Authentication-Store-DBIx-Class
+│   ├── p5-Catalyst-Authentication-Store-Htpasswd	(Installed)
+│   ├── p5-Catalyst-Component-ACCEPT_CONTEXT	(Installed)
+│   ├── p5-Catalyst-Component-InstancePerContext(Installed)
+│   ├── p5-Catalyst-Controller-BindLex		(Installed)
+│   ├── p5-Catalyst-Controller-FormBuilder	(Installed)
+│   ├── p5-Catalyst-Controller-HTML-FormFu
+│   ├── p5-Catalyst-Devel
+│   ├── p5-Catalyst-DispatchType-Regex		(Installed)
+│   ├── p5-Catalyst-Engine-HTTP-Prefork		(Installed)
+│   ├── p5-Catalyst-Engine-JobQueue-POE
+│   ├── p5-Catalyst-Engine-PSGI			(Installed)
+│   ├── p5-Catalyst-Manual			(Installed)
+│   ├── p5-Catalyst-Model-Adaptor		(Installed)
+│   ├── p5-Catalyst-Model-File			(Installed)
+│   ├── p5-Catalyst-Plugin-Authentication	(Installed)
+│   ├── p5-Catalyst-Plugin-Authentication-Store-RDBO	(Installed)
+│   ├── p5-Catalyst-Plugin-Authorization-ACL	(Installed)
+│   ├── p5-Catalyst-Plugin-Authorization-Roles	(Installed)
+│   ├── p5-Catalyst-Plugin-AutoRestart		(Installed)
+│   ├── p5-Catalyst-Plugin-ConfigLoader		(Installed)
+│   ├── p5-Catalyst-Plugin-I18N			(Installed)
+│   ├── p5-Catalyst-Plugin-RequireSSL		(Installed)
+│   ├── p5-Catalyst-Plugin-Server		(Installed)
+│   ├── p5-Catalyst-Plugin-Session		(Installed)
+│   ├── p5-Catalyst-Plugin-Session-State-Cookie	(Installed)
+│   ├── p5-Catalyst-Plugin-Session-Store-DBIC	(Installed)
+│   ├── p5-Catalyst-Plugin-Session-Store-Delegate	(Installed)
+│   ├── p5-Catalyst-Plugin-Session-Store-FastMmap	(Installed)
+│   ├── p5-Catalyst-Plugin-Session-Store-File
+│   ├── p5-Catalyst-Plugin-StackTrace		(Installed)
+│   ├── p5-Catalyst-Plugin-Static-Simple	(Installed)
+│   ├── p5-Catalyst-Plugin-StatusMessage	(Installed)
+│   ├── p5-Catalyst-Runtime			(Installed)
+│   ├── p5-Catalyst-View-Excel-Template-Plus	(Installed)
+│   ├── p5-Catalyst-View-Jemplate		(Installed)
+│   ├── p5-Catalyst-View-JSON			(Installed)
+│   ├── p5-Catalyst-View-Mason
+│   ├── p5-Catalyst-View-TT			(Installed)
+│   ├── p5-CatalystX-Component-Traits		(Installed)
+│   ├── p5-CatalystX-CRUD-Controller-REST	(Installed)
+│   ├── p5-CatalystX-CRUD-Controller-RHTMLO	(Installed)
+│   ├── p5-CatalystX-CRUD-View-Excel		(Installed)
+│   ├── p5-CatalystX-CRUD-YUI
+│   ├── p5-CatalystX-LeakChecker		(Installed)
+│   ├── p5-CGI					(Installed)
+│   ├── p5-CGI-Ajax				(Installed)
+│   ├── p5-CGI-Application			(Installed)
+│   ├── p5-CGI-Application-Plugin-DBH		(Installed)
+│   ├── p5-CGI-Application-Plugin-ValidateRM	(Installed)
+│   ├── p5-CGI-Application-PSGI			(Installed)
+│   ├── p5-CGI-Compile				(Installed)
+│   ├── p5-CGI-Cookie-Splitter			(Installed)
+│   ├── p5-CGI-Cookie-XS			(Installed)
+│   ├── p5-CGI-Emulate-PSGI			(Installed)
+│   ├── p5-CGI-Fast				(Installed)
+│   ├── p5-CGI-FastTemplate			(Installed)
+│   ├── p5-CGI-FormBuilder			(Installed)
+│   ├── p5-CGI-Kwiki				(Installed)
+│   ├── p5-CGI-Lite				(Installed)
+│   ├── p5-CGI-Minimal				(Installed)
+│   ├── p5-CGI-ProgressBar			(Installed)
+│   ├── p5-CGI-PSGI				(Installed)
+│   ├── p5-CGI-Session				(Installed)
+│   ├── p5-CGI-Session-Driver-memcached		(Installed)
+│   ├── p5-CGI-Session-Plugin-Redirect		(Installed)
+│   ├── p5-CGI-Session-Serialize-yaml		(Installed)
+│   ├── p5-CGI-Simple				(Installed)
+│   ├── p5-CGI-Struct				(Installed)
+│   ├── p5-Continuity				(Installed)
+│   ├── p5-Cookie-XS				(Installed)
+│   ├── p5-Corona				(Installed)
+│   ├── p5-CSS					(Installed)
+│   ├── p5-CSS-Squish				(Installed)
+│   ├── p5-CSS-Tiny				(Installed)
+│   ├── p5-Dancer				(Installed)
+│   ├── p5-Dancer-Session-Cookie
+│   ├── p5-Dancer2				(Installed)
+│   ├── p5-Data-URIEncode			(Installed)
+│   ├── p5-FCGI					(Installed)
+│   ├── p5-FCGI-Client				(Installed)
+│   ├── p5-FCGI-ProcManager			(Installed)
+│   ├── p5-File-Mork				(Installed)
+│   ├── p5-Handel
+│   ├── p5-HTML-Clean				(Installed)
+│   ├── p5-HTML-Element-Extended		(Installed)
+│   ├── p5-HTML-Email-Obfuscate			(Installed)
+│   ├── p5-HTML-Entities-Interpolate		(Installed)
+│   ├── p5-HTML-FillInForm			(Installed)
+│   ├── p5-HTML-FixEntities			(Installed)
+│   ├── p5-HTML-Form				(Installed)
+│   ├── p5-HTML-Format				(Installed)
+│   ├── p5-HTML-FormFu
+│   ├── p5-HTML-LinkExtractor			(Installed)
+│   ├── p5-HTML-Lint				(Installed)
+│   ├── p5-HTML-Mason
+│   ├── p5-HTML-Mason-PSGIHandler
+│   ├── p5-HTML-Parser				(Installed)
+│   ├── p5-HTML-PrettyPrinter			(Installed)
+│   ├── p5-HTML-Prototype			(Installed)
+│   ├── p5-HTML-Prototype-Useful		(Installed)
+│   ├── p5-HTML-Quoted				(Installed)
+│   ├── p5-HTML-RewriteAttributes		(Installed)
+│   ├── p5-HTML-Scrubber			(Installed)
+│   ├── p5-HTML-Selector-XPath			(Installed)
+│   ├── p5-HTML-SimpleParse			(Installed)
+│   ├── p5-HTML-StickyQuery			(Installed)
+│   ├── p5-HTML-Stream				(Installed)
+│   ├── p5-HTML-Strip				(Installed)
+│   ├── p5-HTML-StripScripts			(Installed)
+│   ├── p5-HTML-StripScripts-Parser		(Installed)
+│   ├── p5-HTML-Table				(Installed)
+│   ├── p5-HTML-TableExtract			(Installed)
+│   ├── p5-HTML-Tagset				(Installed)
+│   ├── p5-HTML-Template			(Installed)
+│   ├── p5-HTML-Template-Expr			(Installed)
+│   ├── p5-HTML-Template-Pro			(Installed)
+│   ├── p5-HTML-Tiny				(Installed)
+│   ├── p5-HTML-TokeParser-Simple		(Installed)
+│   ├── p5-HTML-Tree				(Installed)
+│   ├── p5-HTML-TreeBuilder-LibXML		(Installed)
+│   ├── p5-HTML-TreeBuilder-XPath		(Installed)
+│   ├── p5-HTML-WikiConverter			(Installed)
+│   ├── p5-HTML-WikiConverter-DokuWiki		(Installed)
+│   ├── p5-HTMLObject				(Installed)
+│   ├── p5-HTTP-Async				(Installed)
+│   ├── p5-HTTP-Body				(Installed)
+│   ├── p5-HTTP-Cache-Transparent		(Installed)
+│   ├── p5-HTTP-Cookies				(Installed)
+│   ├── p5-HTTP-Daemon				(Installed)
+│   ├── p5-HTTP-Date				(Installed)
+│   ├── p5-HTTP-DAV				(Installed)
+│   ├── p5-HTTP-GHTTP				(Installed)
+│   ├── p5-HTTP-HeaderParser-XS			(Installed)
+│   ├── p5-HTTP-Lite				(Installed)
+│   ├── p5-HTTP-Message				(Installed)
+│   ├── p5-HTTP-Negotiate			(Installed)
+│   ├── p5-HTTP-OAI				(Installed)
+│   ├── p5-HTTP-Parser				(Installed)
+│   ├── p5-HTTP-Parser-XS			(Installed)
+│   ├── p5-HTTP-Proxy				(Installed)
+│   ├── p5-HTTP-Request-AsCGI			(Installed)
+│   ├── p5-HTTP-Request-Form			(Installed)
+│   ├── p5-HTTP-Response-Encoding		(Installed)
+│   ├── p5-HTTP-Server-EV			(Installed)
+│   ├── p5-HTTP-Server-Simple			(Installed)
+│   ├── p5-HTTP-Server-Simple-Authen		(Installed)
+│   ├── p5-HTTP-Server-Simple-Kwiki
+│   ├── p5-HTTP-Server-Simple-Mason
+│   ├── p5-HTTP-Server-Simple-PSGI		(Installed)
+│   ├── p5-HTTP-Server-Simple-Recorder		(Installed)
+│   ├── p5-HTTP-Server-Simple-Static		(Installed)
+│   ├── p5-HTTP-Tiny				(Installed)
+│   ├── p5-HTTPD-User-Manage			(Installed)
+│   ├── p5-I18N-AcceptLanguage			(Installed)
+│   ├── p5-JavaScript-Value-Escape		(Installed)
+│   ├── p5-Jemplate				(Installed)
+│   ├── p5-JSON-RPC				(Installed)
+│   ├── p5-Kwiki
+│   ├── p5-Kwiki-Archive-Cvs
+│   ├── p5-Kwiki-Archive-Rcs
+│   ├── p5-Kwiki-BreadCrumbs
+│   ├── p5-Kwiki-Edit-RequireUserName
+│   ├── p5-Kwiki-Favorites
+│   ├── p5-Kwiki-HtmlBlocks
+│   ├── p5-Kwiki-Icons-Gnome
+│   ├── p5-Kwiki-ModPerl
+│   ├── p5-Kwiki-NewPage
+│   ├── p5-Kwiki-Notify-Mail
+│   ├── p5-Kwiki-PagePrivacy
+│   ├── p5-Kwiki-ParagraphBlocks
+│   ├── p5-Kwiki-PreformattedBlocks
+│   ├── p5-Kwiki-RecentChanges
+│   ├── p5-Kwiki-Revisions
+│   ├── p5-Kwiki-Scode
+│   ├── p5-Kwiki-Search
+│   ├── p5-Kwiki-Simple-Server-HTTP
+│   ├── p5-Kwiki-UserName
+│   ├── p5-Kwiki-UserPreferences
+│   ├── p5-Kwiki-Users-Remote
+│   ├── p5-Kwiki-Weather
+│   ├── p5-Kwiki-Wikiwyg
+│   ├── p5-Kwiki-Zipcode
+│   ├── p5-libapreq
+│   ├── p5-libapreq2				(Installed)
+│   ├── p5-libwww				(Installed)
+│   ├── p5-LWP-Authen-Negotiate
+│   ├── p5-LWP-Authen-Wsse			(Installed)
+│   ├── p5-LWP-MediaTypes			(Installed)
+│   ├── p5-LWP-Online				(Installed)
+│   ├── p5-LWP-Protocol-https			(Installed)
+│   ├── p5-LWP-UserAgent-Determined		(Installed)
+│   ├── p5-LWPx-ParanoidAgent			(Installed)
+│   ├── p5-LWPx-TimedHTTP			(Installed)
+│   ├── p5-MasonX-Request-WithApacheSession
+│   ├── p5-Mojolicious				(Installed)
+│   ├── p5-Net-FastCGI				(Installed)
+│   ├── p5-Net-HTTP				(Installed)
+│   ├── p5-ParallelUserAgent			(Installed)
+│   ├── p5-Plack				(Installed)
+│   ├── p5-Plack-App-Proxy			(Installed)
+│   ├── p5-Plack-Handler-AnyEvent-HTTPD		(Installed)
+│   ├── p5-Plack-Handler-AnyEvent-ReverseHTTP	(Installed)
+│   ├── p5-Plack-Handler-AnyEvent-SCGI		(Installed)
+│   ├── p5-Plack-Handler-SCGI			(Installed)
+│   ├── p5-Plack-Middleware-Auth-Digest		(Installed)
+│   ├── p5-Plack-Middleware-ConsoleLogger	(Installed)
+│   ├── p5-Plack-Middleware-Debug		(Installed)
+│   ├── p5-Plack-Middleware-Deflater		(Installed)
+│   ├── p5-Plack-Middleware-File-Sass		(Installed)
+│   ├── p5-Plack-Middleware-Header		(Installed)
+│   ├── p5-Plack-Middleware-JSConcat		(Installed)
+│   ├── p5-Plack-Middleware-ReverseProxy	(Installed)
+│   ├── p5-Plack-Middleware-Session		(Installed)
+│   ├── p5-Plack-Middleware-Test-StashWarnings	(Installed)
+│   ├── p5-Plack-Test-ExternalServer		(Installed)
+│   ├── p5-Pod-POM-Web				(Installed)
+│   ├── p5-POE-Component-Server-PSGI
+│   ├── p5-POE-Component-Server-SimpleHTTP
+│   ├── p5-POE-Component-Server-SOAP
+│   ├── p5-POE-Filter-HTTP-Parser
+│   ├── p5-PSGI					(Installed)
+│   ├── p5-Reaction
+│   ├── p5-Rose-HTML-Objects			(Installed)
+│   ├── p5-Rose-HTMLx-Form-Field-Autocomplete	(Installed)
+│   ├── p5-Rose-HTMLx-Form-Field-Boolean	(Installed)
+│   ├── p5-Rose-HTMLx-Form-Field-PopUpMenuNumeric	(Installed)
+│   ├── p5-Rose-HTMLx-Form-Field-Serial		(Installed)
+│   ├── p5-Rose-HTMLx-Form-Related
+│   ├── p5-Rose-URI				(Installed)
+│   ├── p5-Router-Simple			(Installed)
+│   ├── p5-SCGI					(Installed)
+│   ├── p5-Session-Storage-Secure
+│   ├── p5-Squatting
+│   ├── p5-Squatting-On-PSGI
+│   ├── p5-Starlet
+│   ├── p5-Starman
+│   ├── p5-SVN-Web
+│   ├── p5-Task-Catalyst-Tutorial
+│   ├── p5-Task-CatInABox
+│   ├── p5-Task-Plack
+│   ├── p5-Tatsumaki
+│   ├── p5-Template-Extract
+│   ├── p5-Template-Generate
+│   ├── p5-Template-Multilingual		(Installed)
+│   ├── p5-Template-Plugin-Clickable		(Installed)
+│   ├── p5-Template-Plugin-Clickable-Email	(Installed)
+│   ├── p5-Template-Plugin-Subst		(Installed)
+│   ├── p5-Template-Provider-Encoding		(Installed)
+│   ├── p5-Template-Stash-EscapeHTML		(Installed)
+│   ├── p5-Template-Stash-HTML-Entities		(Installed)
+│   ├── p5-Template-Timer			(Installed)
+│   ├── p5-Template-Toolkit			(Installed)
+│   ├── p5-Template-Toolkit-Simple		(Installed)
+│   ├── p5-Test-HTTP-Server-Simple		(Installed)
+│   ├── p5-Test-WWW-Declare			(Installed)
+│   ├── p5-Test-WWW-Mechanize			(Installed)
+│   ├── p5-Test-WWW-Mechanize-Catalyst		(Installed)
+│   ├── p5-Test-WWW-Mechanize-PSGI		(Installed)
+│   ├── p5-Twiggy
+│   ├── p5-URI 					(Installed)
+│   ├── p5-URI-db				(Installed)
+│   ├── p5-URI-Escape-XS			(Installed)
+│   ├── p5-URI-Fetch				(Installed)
+│   ├── p5-URI-Find				(Installed)
+│   ├── p5-URI-FromHash				(Installed)
+│   ├── p5-URI-Nested				(Installed)
+│   ├── p5-VRML					(Installed)
+│   ├── p5-Web-Scraper				(Installed)
+│   ├── p5-WordPress-XMLRPC			(Installed)
+│   ├── p5-WWW-Amazon-Wishlist			(Installed)
+│   ├── p5-WWW-Curl				(Installed)
+│   ├── p5-WWW-Facebook-API			(Installed)
+│   ├── p5-WWW-Mechanize			(Installed)
+│   ├── p5-WWW-Mechanize-GZip			(Installed)
+│   ├── p5-WWW-Mechanize-Timed			(Installed)
+│   ├── p5-WWW-Pastebin-PastebinCom-Create	(Installed)
+│   ├── p5-WWW-Pastebin-RafbNet-Create		(Installed)
+│   ├── p5-WWW-RobotRules			(Installed)
+│   ├── p5-WWW-Shorten				(Installed)
+│   ├── paros
+│   ├── pear-HTML_Common
+│   ├── pear-HTML_Select
+│   ├── pear-HTML_TreeMenu
+│   ├── pear-HTTP
+│   ├── pear-HTTP_Request
+│   ├── php-apc
+│   ├── php-basercms
+│   ├── php-concrete5
+│   ├── php-curl
+│   ├── php-eaccelerator
+│   ├── php-fpm
+│   ├── php-http
+│   ├── php-ja-wordpress
+│   ├── php-owncloud
+│   ├── php-phrasea2
+│   ├── php-piwigo
+│   ├── php-soycms
+│   ├── php-sugarcrm
+│   ├── php-tidy
+│   ├── php-tiki6
+│   ├── php-tt-rss
+│   ├── php-tt-rss-fever-plugin
+│   ├── php-uploadprogress
+│   ├── php-zendoptimizerplus
+│   ├── phraseanet
+│   ├── phraseanet-indexer
+│   ├── pound
+│   ├── privoxy					(Installed)
+│   ├── py-beautifulsoup			(Installed)
+│   ├── py-beautifulsoup4
+│   ├── py-bleach				(Installed)
+│   ├── py-blosxom
+│   ├── py-bottle				(Installed)
+│   ├── py-cherrypy				(Installed)
+│   ├── py-clearsilver
+│   ├── py-ClientForm
+│   ├── py-curl
+│   ├── py-django
+│   ├── py-django-appconf
+│   ├── py-django-appmedia
+│   ├── py-django-classy-tags
+│   ├── py-django-cms
+│   ├── py-django-cmsplugin_gallery
+│   ├── py-django-easy-thumbnails
+│   ├── py-django-inline-ordering
+│   ├── py-django-mezzanine-filebrowser
+│   ├── py-django-mezzanine-grappelli
+│   ├── py-django-mptt
+│   ├── py-django-photologue
+│   ├── py-django-registration
+│   ├── py-django-reversion
+│   ├── py-django-sekizai
+│   ├── py-django-south
+│   ├── py-django-tagging
+│   ├── py-django-tastypie
+│   ├── py-django14
+│   ├── py-djangocms-admin-style
+│   ├── py-djangorestframework
+│   ├── py-flask
+│   ├── py-flask-admin
+│   ├── py-flask-assets
+│   ├── py-flask-babel
+│   ├── py-flask-babelex
+│   ├── py-flask-bootstrap
+│   ├── py-flask-cache
+│   ├── py-flask-debugtoolbar
+│   ├── py-flask-flatpages
+│   ├── py-flask-frozen
+│   ├── py-flask-login
+│   ├── py-flask-mail
+│   ├── py-flask-principal
+│   ├── py-flask-rest
+│   ├── py-flask-script
+│   ├── py-flask-security
+│   ├── py-flask-sqlalchemy
+│   ├── py-flask-sslify
+│   ├── py-flask-testing			(Installed)
+│   ├── py-flask-uploads
+│   ├── py-flask-user
+│   ├── py-flask-wtf
+│   ├── py-flup					(Installed)
+│   ├── py-flup3
+│   ├── py-gdata
+│   ├── py-genshi				(Installed)
+│   ├── py-gunicorn				(Installed)
+│   ├── py-HTMLgen				(Installed)
+│   ├── py-http-parser
+│   ├── py-httplib2				(Installed)
+│   ├── py-jonpy				(Installed)
+│   ├── py-mechanize
+│   ├── py-mezzanine
+│   ├── py-moin					(Installed)
+│   ├── py-nevow
+│   ├── py-paste
+│   ├── py-PasteDeploy
+│   ├── py-pendrell
+│   ├── py-python-digest			(Installed)
+│   ├── py-python-mimeparse			(Installed)
+│   ├── py-python3-digest
+│   ├── py-pywebdav
+│   ├── py-recaptcha				(Installed)
+│   ├── py-rss2gen				(Installed)
+│   ├── py-scgi
+│   ├── py-simpletal				(Installed)
+│   ├── py-swish-e
+│   ├── py-tornado
+│   ├── py-twill
+│   ├── py-uliweb
+│   ├── py-urllib3
+│   ├── py-uwsgi
+│   ├── py-uwsgitop
+│   ├── py-webassets				(Installed)
+│   ├── py-webcolors				(Installed)
+│   ├── py-webpy
+│   ├── py-werkzeug				(Installed)
+│   ├── py-werkzeug-docs
+│   ├── py-wtforms				(Installed)
+│   ├── py-wtforms-recaptcha			(Installed)
+│   ├── py-wtforms-test				(Installed)
+│   ├── qDecoder
+│   ├── raggle
+│   ├── ramaze
+│   ├── ruby-actionpack32
+│   ├── ruby-activeresource32
+│   ├── ruby-borges
+│   ├── ruby-clearsilver
+│   ├── ruby-coffee-rails32
+│   ├── ruby-compass
+│   ├── ruby-compass-susy-plugin
+│   ├── ruby-cookiejar
+│   ├── ruby-css-parser
+│   ├── ruby-cssmin
+│   ├── ruby-csspool
+│   ├── ruby-div
+│   ├── ruby-em-http-request
+│   ├── ruby-erubis
+│   ├── ruby-faraday
+│   ├── ruby-fcgi
+│   ├── ruby-gnome2-webkit-gtk
+│   ├── ruby-gnome2-webkit-gtk2
+│   ├── ruby-htmlsplit
+│   ├── ruby-http
+│   ├── ruby-http_parser.rb
+│   ├── ruby-http_router
+│   ├── ruby-http-cookie
+│   ├── ruby-innate
+│   ├── ruby-jekyll
+│   ├── ruby-journey
+│   ├── ruby-jquery-rails
+│   ├── ruby-jsmin
+│   ├── ruby-liquid
+│   ├── ruby-mechanize
+│   ├── ruby-multipart-post
+│   ├── ruby-net-flickr
+│   ├── ruby-net-http-digest_auth
+│   ├── ruby-net-http-persistent
+│   ├── ruby-ntlm-http
+│   ├── ruby-padrino
+│   ├── ruby-padrino-admin
+│   ├── ruby-padrino-cache
+│   ├── ruby-padrino-contrib
+│   ├── ruby-padrino-core
+│   ├── ruby-padrino-gen
+│   ├── ruby-padrino-helpers
+│   ├── ruby-padrino-mailer
+│   ├── ruby-patron
+│   ├── ruby-puma
+│   ├── ruby-pygments.rb
+│   ├── ruby-rack
+│   ├── ruby-rack-cache
+│   ├── ruby-rack-contrib
+│   ├── ruby-rack-mount
+│   ├── ruby-rack-protection
+│   ├── ruby-rack-rewrite
+│   ├── ruby-rack-ssl
+│   ├── ruby-rack-test
+│   ├── ruby-rack14
+│   ├── ruby-rails32
+│   ├── ruby-raindrops
+│   ├── ruby-rest-client
+│   ├── ruby-sass
+│   ├── ruby-sass-rails32
+│   ├── ruby-sinatra
+│   ├── ruby-sinatra-contrib
+│   ├── ruby-staticmatic
+│   ├── ruby-tag
+│   ├── ruby-unicorn
+│   ├── ruby-url_mount
+│   ├── ruby-webrobots
+│   ├── ruby-webunit
+│   ├── screws
+│   ├── seamonkey 				{1}
+│   ├── seamonkey-l10n				(Installed)
+│   ├── sencha-sns
+│   ├── serf 					{1}
+│   ├── serf0					(Installed)
+│   ├── shibboleth-sp
+│   ├── sitecopy
+│   ├── snarf
+│   ├── snownews
+│   ├── SOGo
+│   ├── spawn-fcgi				(Installed)
+│   ├── SpeedyCGI				(Installed)
+│   ├── sqtop
+│   ├── squid3
+│   ├── squidanalyzer
+│   ├── squidclamav
+│   ├── squidGuard				(Installed)
+│   ├── squidpurge
+│   ├── squidview				(Installed)
+│   ├── squirm					(Installed)
+│   ├── surfraw					(Installed)
+│   ├── swiftsurf				(Installed)
+│   ├── swiggle
+│   ├── swill
+│   ├── swish-e					(Installed)
+│   ├── tcl-cgi
+│   ├── termtter
+│   ├── thin
+│   ├── thoth
+│   ├── thoth-delicious
+│   ├── thoth-flickr
+│   ├── thttpd
+│   ├── tidy
+│   ├── tinyproxy
+│   ├── trac
+│   ├── typo3_45
+│   ├── typo3_47
+│   ├── typo3_60
+│   ├── typo3_61
+│   ├── urlget
+│   ├── urlgrabber
+│   ├── varnish
+│   ├── viewvc
+│   ├── visitors
+│   ├── w3
+│   ├── w3c-httpd
+│   ├── w3m
+│   ├── w3m-img
+│   ├── waplet					(Installed)
+│   ├── wApua					(Installed)
+│   ├── wdg-validate
+│   ├── webalizer				(Installed)
+│   ├── webby
+│   ├── webkit-gtk
+│   ├── webkit-gtk3
+│   ├── weblint					(Installed)
+│   ├── webnew					(Installed)
+│   ├── websvn
+│   ├── weex
+│   ├── whisker					(Installed)
+│   ├── wiliki
+│   ├── wmd					(Installed)
+│   ├── wml
+│   ├── wordpress
+│   ├── www6to4
+│   ├── wwwcount				(Installed)
+│   ├── wwwoffle				(Installed)
+│   ├── yaws
+│   └── zopeedit				(Installed)
+
+{1} Broken Python io.py and zlib.py
+{2} Dependency in Hybrid: GCC3-c

@@ -1,0 +1,27 @@
+├── mbone ***12***   ***2 Installed, 0 Installable*** ***Count 2*** ***Pass Complete***
+│   ├── beacon				{1}
+│   ├── common-mml			(Installed){2}
+│   ├── dbeacon				{3}
+│   ├── mdd				(Installed){4}
+│   ├── mdp				{5}
+│   ├── rat				{6}
+│   ├── rtptools			{7}
+│   ├── sapserver			{8}
+│   ├── vat				{9}
+│   ├── vic				{10}{13}
+│   ├── vic-devel			{11}
+│   └── wbd				{12}
+
+{1} Wants <sys/signal.h>. currently in Haiku's posix directory. Porting requires a change to <signal.h>.Change did not result in sucessful compile: beacon_wrap.c "unknown type name 'FILE' included from perl.h and memory.h. Project last made release in 2005.
+{2} Original error: Wanted <sys/fcntl.h>. currently in Haiku's posix directory, which should show up as: <fcntl.h>. When I copied the header into <sys/*>, it compiled.
+{3} Fails on unknown arguement type related to dbeacon.cpp, lines 463 & 470.
+{4} Failed on missing -lnetwork. Added "CFLAGS= -lnetwork" to inside Makefile for success.
+{5} Fails on error: control reaches end of non-void function .../common/mdpObject.cpp, multiple lines.
+{6} Says Haiku Not Supported! Requires a make file for Haiku, small codebase. Source files date from 1998.
+{7} Lists its own header in local directory included as <rpcsvc/ypclnt.h>. After pathing to local, fails on undefined reference: host2ip.o on link.
+{8} Fails on undefined reference to daemon: sapserver.cpp.
+{9} Dependency "audio/gsm" fails to build on incomplete element type: toast.c
+{10} Original error: wanted xcb headers "shm.h, xcb.h & xproto.h in <sys/*>
+{11} Error in malloc_debug.c from file included from net/inet.h "conflicting types for int8_t'"
+{12} Error: Dies after numerous warnings about depreciated declarations: main.c, comms.c
+{13} Original note: once pathed, dies on declaration: main.cc: "error 'nice' was not declaied in this scope.

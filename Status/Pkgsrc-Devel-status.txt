@@ -1,0 +1,1860 @@
+├── devel ***1855***  ***1055 Installed, 22 Installable, 2 Double Packaged *** ***Count 1079*** ***Pass Complete***
+│   ├── accerciser
+│   ├── accerciser3
+│   ├── acme 					(Installed)
+│   ├── acr 					(Installed)
+│   ├── acunia-jam
+│   ├── adocman 				(Installed)
+│   ├── aegis
+│   ├── ald
+│   ├── allegro
+│   ├── anjuta
+│   ├── apache-ant
+│   ├── apache-ant15
+│   ├── apache-ivy
+│   ├── apache-maven
+│   ├── apel
+│   ├── appdata-tools
+│   ├── apr 					(Installed)
+│   ├── apr-util 				(Installed)
+│   ├── arena 					(Installed)
+│   ├── argp 					(Installed)
+│   ├── argtable 				(Installed)
+│   ├── as31
+│   ├── asm2html 				(Installed)
+│   ├── astyle 					(Installed)
+│   ├── at-spi
+│   ├── at-spi2-atk
+│   ├── at-spi2-core
+│   ├── atf
+│   ├── atk
+│   ├── atkmm
+│   ├── autoconf 				(Installed)
+│   ├── autoconf-archive 			(Installed)
+│   ├── autoconf213 				(Installed)
+│   ├── autogen
+│   ├── automake 				(Installed)
+│   ├── automake14 				(Installed)
+│   ├── automoc4
+│   ├── avl 					(Installed)
+│   ├── avltree 				(Installed)
+│   ├── bcc
+│   ├── bglibs
+│   ├── bin86 					(Installed)
+│   ├── binutils
+│   ├── bison 					(Installed) {1}
+│   ├── blame 					(Installed)
+│   ├── blib
+│   ├── bmake					(Installed) {3}
+│   ├── bmkdep
+│   ├── boa-constructor
+│   ├── boehm-gc
+│   ├── boost-build 				(Installed)
+│   ├── boost-docs 				(Installed)
+│   ├── boost-headers 				(Installed)
+│   ├── boost-jam 				(Installed)
+│   ├── boost-libs 				(Installed)
+│   ├── boost-python
+│   ├── bouml
+│   ├── bpython
+│   ├── buddy 					(Installed)
+│   ├── bugzilla
+│   ├── bugzilla3
+│   ├── bullet
+│   ├── byacc
+│   ├── bzr
+│   ├── bzr-explorer
+│   ├── bzr-gtk
+│   ├── bzr-svn
+│   ├── bzrtools
+│   ├── c-cpp-reference
+│   ├── cbrowser
+│   ├── ccache 					(Installed)
+│   ├── cdecl
+│   ├── cdk 					(Installed)
+│   ├── cervisia
+│   ├── cfitsio
+│   ├── cflow 					(Installed)
+│   ├── cflow-mode
+│   ├── cgdb 					(Installed)
+│   ├── cgen
+│   ├── check
+│   ├── chmlib 					(Installed)
+│   ├── chrpath
+│   ├── clib
+│   ├── clisp-pcre
+│   ├── clisp-syscalls
+│   ├── clisp-wildcard
+│   ├── clisp-zlib
+│   ├── cmake 					(Installed) {4}
+│   ├── cmake-fedora 				(Installed)
+│   ├── cmake-mode
+│   ├── cmph 					(Installed)
+│   ├── coccinelle
+│   ├── coconut
+│   ├── codeville
+│   ├── cogito
+│   ├── colordiff 				(Installed)
+│   ├── compiz-bcop 				(Installed)
+│   ├── compizconfig-backend-gconf
+│   ├── concurrencykit
+│   ├── confuse 				(Installed)
+│   ├── cook 					(Installed)
+│   ├── cppcheck
+│   ├── cppunit 				(Installed)
+│   ├── cproto
+│   ├── cpuflags
+│   ├── cqual
+│   ├── cscope
+│   ├── cssc 					(Installed)
+│   ├── ctemplate 				(Installed)
+│   ├── cunit 					(Installed)
+│   ├── cut 					(Installed)
+│   ├── cutter
+│   ├── cvs (scmcvs) 				(Installed)
+│   ├── cvs-fast-export
+│   ├── cvs2cl 					(Installed)
+│   ├── cvs2html 				(Installed)
+│   ├── cvs2svn
+│   ├── cvsclone 				(Installed)
+│   ├── cvsd
+│   ├── cvsdiff2patch
+│   ├── cvsgraph 				(Installed)
+│   ├── cvslock 				(Installed)
+│   ├── cvsps 					(Installed)
+│   ├── cvsps3
+│   ├── cvsup-bin
+│   ├── cvsup-gui-bin
+│   ├── cvsutils 				(Installed)
+│   ├── cvsync
+│   ├── cxref 					(Installed)
+│   ├── darcs
+│   ├── darts 					(Installed)
+│   ├── dconf
+│   ├── dconf-editor
+│   ├── ddd
+│   ├── deforaos-coder
+│   ├── deforaos-libsystem
+│   ├── dejagnu
+│   ├── delta 					(Installed)
+│   ├── dev86 					(Installed)
+│   ├── devhelp
+│   ├── device-driver-doc-de 			(Installed)
+│   ├── devIL
+│   ├── dia2code 				(Installed)
+│   ├── diffuse
+│   ├── diffutils 				(Installed)
+│   ├── distcc
+│   ├── distcc-pump
+│   ├── distccmon-gnome
+│   ├── distccmon-gtk
+│   ├── dlcompat
+│   ├── dmake
+│   ├── dmalloc 				(Installed)
+│   ├── doc++ 					(Installed)
+│   ├── dolphin-plugins
+│   ├── dotconf 				(Installed)
+│   ├── doxygen
+│   ├── doxymacs
+│   ├── easygit
+│   ├── eclipse
+│   ├── ecore
+│   ├── edcommon
+│   ├── editline 				(Installed)
+│   ├── eet
+│   ├── eina
+│   ├── eio
+│   ├── electric-fence 				(Installed)
+│   ├── elf
+│   ├── elfsh
+│   ├── elftoolchain
+│   ├── elib
+│   ├── emacs-ilisp
+│   ├── emacs20-elib
+│   ├── epydoc
+│   ├── eric3
+│   ├── eric4
+│   ├── error
+│   ├── ethos
+│   ├── ETL 					(Installed)
+│   ├── etrace 					(Installed)
+│   ├── exctags 				(Installed)
+│   ├── exempi 					(Installed)
+│   ├── ExmanIDE
+│   ├── fann 					(Installed)
+│   ├── fastdep 				(Installed)
+│   ├── ffcall 					(Installed)
+│   ├── fhist 					(Installed)
+│   ├── flex 					(Installed)
+│   ├── flexdock
+│   ├── flim
+│   ├── florist
+│   ├── fortran-utils
+│   ├── fossil
+│   ├── frama-c
+│   ├── frink 					(Installed)
+│   ├── fromcvs
+│   ├── ftnchek 				(Installed)
+│   ├── g-wrap
+│   ├── gccmakedep 				(Installed)
+│   ├── GConf
+│   ├── GConf-ui
+│   ├── gconfmm
+│   ├── gcvs
+│   ├── gdb
+│   ├── gdb6
+│   ├── gdbus-codegen
+│   ├── gdl
+│   ├── geany
+│   ├── gearmand
+│   ├── generate 				(Installed)
+│   ├── gengetopt 				(Installed)
+│   ├── gentle 					(Installed)
+│   ├── gettext 				(Installed)
+│   ├── gettext-asprintf 			(Installed)
+│   ├── gettext-lib 				(Installed)
+│   ├── gettext-m4 				(Installed)
+│   ├── gettext-tools 				(Installed)
+│   ├── gflib 					(Installed)
+│   ├── giblib 					(Installed)
+│   ├── gindent 				(Installed)
+│   ├── git
+│   ├── git-base
+│   ├── git-docs
+│   ├── git-gitk
+│   ├── git-svn
+│   ├── gitolite
+│   ├── glade
+│   ├── glade3
+│   ├── glib
+│   ├── glib2 					(Installed)
+│   ├── glibmm
+│   ├── global
+│   ├── gmake 					(Installed)
+│   ├── gmock 					(Installed)
+│   ├── gmp 					(Installed) {2}
+│   ├── gmtk
+│   ├── gnatpython
+│   ├── gnome-common 				(Installed)
+│   ├── gnustep-base
+│   ├── gnustep-examples
+│   ├── gnustep-make
+│   ├── gnustep-objc
+│   ├── gnustep-objc-lf2
+│   ├── gob2
+│   ├── gobject-introspection
+│   ├── google-glog
+│   ├── googletest 				(Installed)
+│   ├── Gorm
+│   ├── gperf 					(Installed)
+│   ├── gperftools
+│   ├── gprbuild-aux
+│   ├── gps
+│   ├── gputils 				(Installed)
+│   ├── grantlee
+│   ├── gsoap
+│   ├── gst-plugins0.10-pango
+│   ├── gst-plugins1-pango
+│   ├── gtexinfo 				(Installed)
+│   ├── gtl 					(Installed)
+│   ├── guile-gnome
+│   ├── guile-gtk
+│   ├── guile-lib
+│   ├── guile-slib
+│   ├── guile-www
+│   ├── gyp
+│   ├── haskell-mode
+│   ├── hdevtools
+│   ├── hdf
+│   ├── hdf5 					(Installed)
+│   ├── hdf5-c++ 				(Installed)
+│   ├── heirloom-getopt 			(Installed)
+│   ├── heirloom-libcommon 			(Installed)
+│   ├── heirloom-what 				(Installed)
+│   ├── hg-git
+│   ├── hoe
+│   ├── hptools 				(Installed)
+│   ├── hs-blaze-builder
+│   ├── hs-cmdargs
+│   ├── hs-data-default
+│   ├── hs-data-default-class
+│   ├── hs-data-default-instances-base
+│   ├── hs-data-default-instances-containers
+│   ├── hs-data-default-instances-dlist
+│   ├── hs-data-default-instances-old-locale
+│   ├── hs-dlist
+│   ├── hs-exceptions
+│   ├── hs-extensible-exceptions
+│   ├── hs-ghc-paths
+│   ├── hs-hashable
+│   ├── hs-mmorph
+│   ├── hs-mtl
+│   ├── hs-primitive
+│   ├── hs-random
+│   ├── hs-stm
+│   ├── hs-syb
+│   ├── hs-tagged
+│   ├── hs-text
+│   ├── hs-tf-random
+│   ├── hs-transformers
+│   ├── hs-transformers-base
+│   ├── hs-transformers-compat
+│   ├── hs-unordered-containers
+│   ├── hs-utf8-string
+│   ├── hs-vector
+│   ├── ht 					(Installed)
+│   ├── hugs-HUnit 				(Installed)
+│   ├── hugs-unix
+│   ├── idiff 					(Installed)
+│   ├── idutils 				(Installed)
+│   ├── imake 					(Installed)
+│   ├── iniparser 				(Installed)
+│   ├── intel2gas 				(Installed)
+│   ├── intellij-idea-ce
+│   ├── isect
+│   ├── its4
+│   ├── jam
+│   ├── java-subversion
+│   ├── javacc
+│   ├── javadeps
+│   ├── jenkins
+│   ├── jflex
+│   ├── jq 					(Installed)
+│   ├── js_of_ocaml
+│   ├── js2-mode
+│   ├── kapptemplate
+│   ├── kcachegrind
+│   ├── kdbg
+│   ├── kde-dev-scripts
+│   ├── kde-dev-utils
+│   ├── kdesdk-kioslaves
+│   ├── kdesdk-strigi-analyzers
+│   ├── kdesdk-thumbnailers
+│   ├── kdesdk3
+│   ├── kdevelop
+│   ├── kdevelop-base
+│   ├── kdevelop4
+│   ├── kdevplatform
+│   ├── kdiff3
+│   ├── kdiff3-kde3
+│   ├── ko-po-check 				(Installed)
+│   ├── kompare
+│   ├── kscope
+│   ├── kyua-atf-compat
+│   ├── kyua-cli
+│   ├── kyua-testers
+│   ├── lcc 					(Installed)
+│   ├── lcov 					(Installed)
+│   ├── ldapsdk
+│   ├── ldpc 					(Installed)
+│   ├── lemon 					(Installed)
+│   ├── lettuce
+│   ├── libarena 				(Installed)
+│   ├── libargparse 				(Installed)
+│   ├── libast 					(Installed)
+│   ├── libatomic_ops 				(Installed)
+│   ├── libbegemot 				(Installed)
+│   ├── libbinio 				(Installed)
+│   ├── libblkid
+│   ├── libbonobo
+│   ├── libbonoboui
+│   ├── libbson 				(Installed)
+│   ├── libcfg+ 				(Installed)
+│   ├── libcompizconfig
+│   ├── libconfig 				(Installed)
+│   ├── libconfuse 				(Installed)
+│   ├── libctl
+│   ├── libdaemon
+│   ├── libdatrie 				(Installed)
+│   ├── libdbusmenu-qt
+│   ├── libdnsres
+│   ├── libdockapp 				(Installed)
+│   ├── libdshconfig 				(Installed)
+│   ├── libebml 				(Installed)
+│   ├── libelf 					(Installed)
+│   ├── libetm 					(Installed)
+│   ├── libev 					(Installed)
+│   ├── libevent 				(Installed)
+│   ├── libexecinfo 				(Installed)
+│   ├── libextractor
+│   ├── libf2c 					(Installed)
+│   ├── libffi 					(Installed)
+│   ├── libfirm
+│   ├── libFoundation
+│   ├── libFoundation-examples
+│   ├── libftdi
+│   ├── libftdi1
+│   ├── libgail-gnome
+│   ├── libgcroots
+│   ├── libgee
+│   ├── libgee0.8
+│   ├── libgetopt 				(Installed)
+│   ├── libglade
+│   ├── libglademm
+│   ├── libgnome
+│   ├── libgnomemm
+│   ├── libgnomeui
+│   ├── libgnomeuimm
+│   ├── libgphoto2
+│   ├── libgsf
+│   ├── libgweather
+│   ├── libhfs 					(Installed)
+│   ├── libhid
+│   ├── libiberty 				(Installed)
+│   ├── libidn 					(Installed)
+│   ├── libinotify
+│   ├── libixp
+│   ├── libjit
+│   ├── libjudy 				(Installed)
+│   ├── liblangtag
+│   ├── libltdl 				(Installed)
+│   ├── libmaa 					(Installed)
+│   ├── libmatchbox 				(Installed)
+│   ├── libmcs 					(Installed)
+│   ├── libmemcache 				(Installed)
+│   ├── libmemcached
+│   ├── libmemmgr
+│   ├── libmimedir 				(Installed)
+│   ├── libmm
+│   ├── libmowgli 				(Installed)
+│   ├── libmtp
+│   ├── libnet10
+│   ├── libnet11
+│   ├── libnjb
+│   ├── libntlm 				(Installed)
+│   ├── liboil 					(Installed)
+│   ├── liboop 					(Installed)
+│   ├── libosip 				(Installed)
+│   ├── libowfat 				(Installed)
+│   ├── libpeas
+│   ├── libpgm
+│   ├── libportlib 				(Installed)
+│   ├── libproplist 				(Installed)
+│   ├── librfuncs 				(Installed)
+│   ├── librlog 				(Installed)
+│   ├── librsync 				(Installed)
+│   ├── librxspencer 				(Installed)
+│   ├── libsexy
+│   ├── libsexymm
+│   ├── libsigc++ 				(Installed)
+│   ├── libsigc++1 				(Installed)
+│   ├── libsigsegv 				(Installed)
+│   ├── libslang 				(Installed)
+│   ├── libslang2 				(Installed)
+│   ├── libsmi
+│   ├── libstash 				(Installed)
+│   ├── libstatgrab
+│   ├── libstree
+│   ├── libstroke 				(Installed)
+│   ├── libtai 					(Installed)
+│   ├── libtar 					(Installed)
+│   ├── libtecla 				(Installed)
+│   ├── libthai 				(Installed)
+│   ├── libthrift
+│   ├── libtool
+│   ├── libtool-base 				(Installed)
+│   ├── libtool-fortran
+│   ├── libtool-info 				(Installed)
+│   ├── libts
+│   ├── libusb
+│   ├── libusb-compat
+│   ├── libusb1
+│   ├── libusbx
+│   ├── libuuid 				(Installed)
+│   ├── libuv
+│   ├── libuxre 				(Installed)
+│   ├── libview
+│   ├── libvolume_id
+│   ├── libwhisker2 				(Installed)
+│   ├── libwnck
+│   ├── libwnck3
+│   ├── libxenserver 				(Installed)
+│   ├── libzen
+│   ├── lincvs
+│   ├── lmdbg
+│   ├── locktests 				(Installed)
+│   ├── log4cplus
+│   ├── log4cxx 				(Installed)
+│   ├── log4shib 				(Installed)
+│   ├── lokalize
+│   ├── ltsa
+│   ├── lua-alt-getopt 				(Installed)
+│   ├── lua-BitOp 				(Installed)
+│   ├── lua-filesystem 				(Installed)
+│   ├── lua-gi
+│   ├── lua-lpeg 				(Installed)
+│   ├── lua-lrexlib 				(Installed)
+│   ├── lua-lrexlib-onig 			(Installed)
+│   ├── lua-lrexlib-pcre 			(Installed)
+│   ├── lua-lrexlib-posix 			(Installed)
+│   ├── lua-mode
+│   ├── lua-penlight 				(Installed)
+│   ├── lua-posix
+│   ├── lua-stdlib 				(Installed)
+│   ├── lutok
+│   ├── lwp 					(Installed)
+│   ├── m17n-lib
+│   ├── m4 					(Installed)
+│   ├── mad-flute
+│   ├── magit
+│   ├── makedepend 				(Installed)
+│   ├── makedepf90 				(Installed)
+│   ├── maketool
+│   ├── man-pages 				(Installed)
+│   ├── mantis
+│   ├── matio 					(Installed)
+│   ├── mcpp 					(Installed)
+│   ├── mdds 					(Installed)
+│   ├── meld
+│   ├── meld-devel
+│   ├── mell
+│   ├── memcached 				(Installed)
+│   ├── menhir
+│   ├── mercurial
+│   ├── mico
+│   ├── mk-configure
+│   ├── mkcmd
+│   ├── mm-common 				(Installed)
+│   ├── mono-addins
+│   ├── mono-tools
+│   ├── monodevelop
+│   ├── monodevelop-database
+│   ├── monotone
+│   ├── monotone-server
+│   ├── monotone-viz
+│   ├── mph 					(Installed)
+│   ├── myrepos (mr) 				(Installed)
+│   ├── msgpack 				(Installed)
+│   ├── nana
+│   ├── nant
+│   ├── nasm
+│   ├── nbitools
+│   ├── nbpatch 				(Installed)
+│   ├── ncc 					(Installed)
+│   ├── ncurses 				(Installed)
+│   ├── ncursesw 				(Installed)
+│   ├── netbeans-ide
+│   ├── netbsd-iscsi-lib
+│   ├── netcdf 					(Installed)
+│   ├── netcdf-fortran
+│   ├── newfile
+│   ├── noweb
+│   ├── npapi-sdk 				(Installed)
+│   ├── nqc 			`		(Installed)
+│   ├── nsis 					(Installed)
+│   ├── nspr
+│   ├── nspr-reference 				(Installed)
+│   ├── nss
+│   ├── ObjectiveLib
+│   ├── ocaml-batteries
+│   ├── ocaml-deriving-ocsigen
+│   ├── ocaml-findlib
+│   ├── ocaml-lwt
+│   ├── ocaml-optcomp
+│   ├── ocaml-react
+│   ├── ode 					(Installed)
+│   ├── ogre
+│   ├── okteta
+│   ├── omake
+│   ├── opal
+│   ├── open-vcdiff 				(Installed)
+│   ├── opencm
+│   ├── opengrok
+│   ├── openrcs
+│   ├── orc
+│   ├── ossp-uuid 				(Installed)
+│   ├── p5-accessors 				(Installed)
+│   ├── p5-accessors-fast
+│   ├── p5-Acme-PlayCode 			(Installed)
+│   ├── p5-Algorithm-Annotate 			(Installed)
+│   ├── p5-Algorithm-C3 			(Installed)
+│   ├── p5-Algorithm-CheckDigits 		(Installed)
+│   ├── p5-Algorithm-Dependency 		(Installed)
+│   ├── p5-Algorithm-Diff 			(Installed)
+│   ├── p5-Algorithm-HowSimilar 		(Installed)
+│   ├── p5-Algorithm-Merge 			(Installed)
+│   ├── p5-Algorithm-Permute 			(Installed)
+│   ├── p5-aliased 				(Installed)
+│   ├── p5-Alien-Packages 			(Installed)
+│   ├── p5-AnnoCPAN-Perldoc 			(Installed)
+│   ├── p5-Any-Moose 				(Installed)
+│   ├── p5-AnyEvent 				(Installed)
+│   ├── p5-AnyEvent-AIO 			(Installed)
+│   ├── p5-AnyEvent-IRC 			(Installed)
+│   ├── p5-AnyEvent-RabbitMQ 			(Installed)
+│   ├── p5-AnyEvent-XMPP
+│   ├── p5-App-Cache 				(Installed)
+│   ├── p5-App-CLI 				(Installed)
+│   ├── p5-App-Cmd 				(Installed)
+│   ├── p5-App-cpanminus 			(Installed)
+│   ├── p5-App-cpanoutdated 			(Installed)
+│   ├── p5-App-FatPacker 			(Installed)
+│   ├── p5-App-perlbrew
+│   ├── p5-App-Prove-Plugin-ProgressBar 	(Installed)
+│   ├── p5-AppConfig 				(Installed)
+│   ├── p5-AppConfig-Std 			(Installed)
+│   ├── p5-Array-Compare 			(Installed)
+│   ├── p5-Array-Diff 				(Installed)
+│   ├── p5-Array-RefElem 			(Installed)
+│   ├── p5-asa 					(Installed)
+│   ├── p5-Async-Interrupt 			(Installed)
+│   ├── p5-AtExit 				(Installed)
+│   ├── p5-Attribute-Lexical 			(Installed)
+│   ├── p5-autobox 				(Installed)
+│   ├── p5-autobox-Core 			(Installed)
+│   ├── p5-Autodia 				(Installed)
+│   ├── p5-autodie 				(Installed)
+│   ├── p5-AutoLoader 				(Installed)
+│   ├── p5-AutoXS-Header 			(Installed)
+│   ├── p5-B-Compiling 				(Installed)
+│   ├── p5-B-Hooks-EndOfScope 			(Installed)
+│   ├── p5-B-Hooks-OP-Annotation 		(Installed)
+│   ├── p5-B-Hooks-OP-Check 			(Installed)
+│   ├── p5-B-Hooks-OP-Check-EntersubForCV 	(Installed)
+│   ├── p5-B-Hooks-OP-Check-StashChange 	(Installed)
+│   ├── p5-B-Hooks-OP-PPAddr 			(Installed)
+│   ├── p5-B-Hooks-Parser 			(Installed)
+│   ├── p5-B-Keywords 				(Installed)
+│   ├── p5-B-Utils 				(Installed)
+│   ├── p5-BackPAN-Index 			(Installed)
+│   ├── p5-bareword-filehandles 		(Installed)
+│   ├── p5-Bit-Vector 				(Installed)
+│   ├── p5-boolean 				(Installed)
+│   ├── p5-BSD-Resource
+│   ├── p5-Cache 				(Installed)
+│   ├── p5-Cache-Cache
+│   ├── p5-Cache-FastMmap 			(Installed)
+│   ├── p5-Cache-Memcached 			(Installed)
+│   ├── p5-Cache-Simple-TimedExpiry 		(Installed)
+│   ├── p5-capitalization 			(Installed)
+│   ├── p5-Capture-Tiny 			(Installed)
+│   ├── p5-Carp-Always 				(Installed)
+│   ├── p5-Carp-Assert 				(Installed)
+│   ├── p5-Carp-Assert-More 			(Installed)
+│   ├── p5-Carp-Clan 				(Installed)
+│   ├── p5-Carp-REPL
+│   ├── p5-Check-ISA 				(Installed)
+│   ├── p5-CHI
+│   ├── p5-circular-require 			(Installed)
+│   ├── p5-CLASS 				(Installed)
+│   ├── p5-Class-Accessor 			(Installed)
+│   ├── p5-Class-Accessor-Chained 		(Installed)
+│   ├── p5-Class-Accessor-Grouped 		(Installed)
+│   ├── p5-Class-Accessor-Lite 			(Installed)
+│   ├── p5-Class-Accessor-Named 		(Installed)
+│   ├── p5-Class-Adapter 			(Installed)
+│   ├── p5-Class-Autouse 			(Installed)
+│   ├── p5-Class-Base 				(Installed)
+│   ├── p5-Class-C3 				(Installed)
+│   ├── p5-Class-C3-Adopt-NEXT 			(Installed)
+│   ├── p5-Class-C3-Componentised 		(Installed)
+│   ├── p5-Class-C3-XS 				(Installed)
+│   ├── p5-Class-Container 			(Installed)
+│   ├── p5-Class-Data-Accessor 			(Installed)
+│   ├── p5-Class-Data-Inheritable 		(Installed)
+│   ├── p5-Class-ErrorHandler 			(Installed)
+│   ├── p5-Class-Factory 			(Installed)
+│   ├── p5-Class-Factory-Util 			(Installed)
+│   ├── p5-Class-Field 				(Installed)
+│   ├── p5-Class-Fields 			(Installed)
+│   ├── p5-Class-Gomor 				(Installed)
+│   ├── p5-Class-Inner 				(Installed)
+│   ├── p5-Class-InsideOut 			(Installed)
+│   ├── p5-Class-Inspector 			(Installed)
+│   ├── p5-Class-ISA 				(Installed)
+│   ├── p5-Class-Load 				(Installed)
+│   ├── p5-Class-Load-XS 			(Installed)
+│   ├── p5-Class-Loader 			(Installed)
+│   ├── p5-Class-MakeMethods 			(Installed)
+│   ├── p5-Class-Method-Modifiers 		(Installed)
+│   ├── p5-Class-MethodMaker 			(Installed)
+│   ├── p5-Class-Mix 				(Installed)
+│   ├── p5-Class-ObjectTemplate 		(Installed)
+│   ├── p5-Class-OOorNO 			(Installed)
+│   ├── p5-Class-ReturnValue 			(Installed)
+│   ├── p5-Class-Singleton 			(Installed)
+│   ├── p5-Class-Std 				(Installed)
+│   ├── p5-Class-Throwable 			(Installed)
+│   ├── p5-Class-Tiny 				(Installed)
+│   ├── p5-Class-Trigger 			(Installed)
+│   ├── p5-Class-Unload 			(Installed)
+│   ├── p5-Class-Virtual 			(Installed)
+│   ├── p5-Class-WhiteHole 			(Installed)
+│   ├── p5-Class-XML 				(Installed)
+│   ├── p5-Class-XPath 				(Installed)
+│   ├── p5-Class-XSAccessor 			(Installed)
+│   ├── p5-Clone 				(Installed)
+│   ├── p5-Clone-Fast 				(Installed)
+│   ├── p5-Clone-PP 				(Installed)
+│   ├── p5-common-sense 			(Installed)
+│   ├── p5-Compress-PPMd 			(Installed)
+│   ├── p5-Compress-Raw-Bzip2 			(Installed)
+│   ├── p5-Compress-Raw-Zlib 			(Installed)
+│   ├── p5-Config-Any 				(Installed)
+│   ├── p5-Config-Any-Merge 			(Installed)
+│   ├── p5-Config-Auto 				(Installed)
+│   ├── p5-Config-AutoConf 			(Installed)
+│   ├── p5-Config-Find 				(Installed)
+│   ├── p5-Config-General 			(Installed)
+│   ├── p5-Config-GitLike 			(Installed)
+│   ├── p5-Config-Grammar 			(Installed)
+│   ├── p5-Config-INI
+│   ├── p5-Config-IniFiles 			(Installed)
+│   ├── p5-Config-MVP 				(Installed)
+│   ├── p5-Config-MVP-Reader-INI
+│   ├── p5-Config-Properties 			(Installed)
+│   ├── p5-Config-Std 				(Installed)
+│   ├── p5-Config-Tiny 				(Installed)
+│   ├── p5-Const-Fast 				(Installed)
+│   ├── p5-constant 				(Installed)
+│   ├── p5-constant-def
+│   ├── p5-Context-Preserve 			(Installed)
+│   ├── p5-Contextual-Return 			(Installed)
+│   ├── p5-Convert-Binary-C 			(Installed)
+│   ├── p5-Coro 				(Installed)
+│   ├── p5-CPAN
+│   ├── p5-CPAN-Changes 			(Installed)
+│   ├── p5-CPAN-Checksums 			(Installed)
+│   ├── p5-CPAN-DistnameInfo 			(Installed)
+│   ├── p5-CPAN-FindDependencies 		(Installed)
+│   ├── p5-CPAN-Inject 				(Installed)
+│   ├── p5-CPAN-Meta 				(Installed)
+│   ├── p5-CPAN-Meta-Check 			(Installed)
+│   ├── p5-CPAN-Meta-Requirements 		(Installed)
+│   ├── p5-CPAN-Meta-YAML 			(Installed)
+│   ├── p5-CPAN-Mini 				(Installed)
+│   ├── p5-CPAN-Perl-Releases 			(Installed)
+│   ├── p5-CPAN-Reporter 			(Installed)
+│   ├── p5-CPAN-Uploader 			(Installed)
+│   ├── p5-Curses
+│   ├── p5-Curses-UI
+│   ├── p5-Curses-UI-POE
+│   ├── p5-Data-Alias 				(Installed)
+│   ├── p5-Data-Buffer 				(Installed)
+│   ├── p5-Data-Compare 			(Installed)
+│   ├── p5-Data-Denter 				(Installed)
+│   ├── p5-Data-Dump 				(Installed)
+│   ├── p5-Data-Dump-Streamer 			(Installed)
+│   ├── p5-Data-Dumper-Concise 			(Installed)
+│   ├── p5-Data-Dumper-Names 			(Installed)
+│   ├── p5-Data-GUID
+│   ├── p5-Data-Hierarchy 			(Installed)
+│   ├── p5-Data-Integer 			(Installed)
+│   ├── p5-Data-MessagePack 			(Installed)
+│   ├── p5-Data-OptList 			(Installed)
+│   ├── p5-Data-Page 				(Installed)
+│   ├── p5-Data-Pageset 			(Installed)
+│   ├── p5-Data-Peek 				(Installed)
+│   ├── p5-Data-Printer 			(Installed)
+│   ├── p5-Data-Record 				(Installed)
+│   ├── p5-Data-Section 			(Installed)
+│   ├── p5-Data-Section-Simple 			(Installed)
+│   ├── p5-Data-Serializer 			(Installed)
+│   ├── p5-Data-ShowTable 			(Installed)
+│   ├── p5-Data-Stag
+│   ├── p5-Data-Taxi 				(Installed)
+│   ├── p5-Data-TemporaryBag 			(Installed)
+│   ├── p5-Data-Uniqid 				(Installed)
+│   ├── p5-Data-UUID
+│   ├── p5-Data-Visitor 			(Installed)
+│   ├── p5-Date-Business 			(Installed)
+│   ├── p5-Date-Calc 				(Installed)
+│   ├── p5-Date-Calc-XS 			(Installed)
+│   ├── p5-Date-Manip 				(Installed)
+│   ├── p5-Date-Simple 				(Installed)
+│   ├── p5-Debug-Client 			(Installed)
+│   ├── p5-Declare-Constraints-Simple 		(Installed)
+│   ├── p5-Devel-Autoflush 			(Installed)
+│   ├── p5-Devel-BeginLift 			(Installed)
+│   ├── p5-Devel-Caller 			(Installed)
+│   ├── p5-Devel-CheckCompiler 			(Installed)
+│   ├── p5-Devel-CheckLib 			(Installed)
+│   ├── p5-Devel-CheckOS 			(Installed)
+│   ├── p5-Devel-Cover 				(Installed)
+│   ├── p5-Devel-Cycle 				(Installed)
+│   ├── p5-Devel-Declare 			(Installed)
+│   ├── p5-Devel-Dumpvar 			(Installed)
+│   ├── p5-Devel-ebug 				(Installed)
+│   ├── p5-Devel-EvalContext 			(Installed)
+│   ├── p5-Devel-Events 			(Installed)
+│   ├── p5-Devel-Events-Objects 		(Installed)
+│   ├── p5-Devel-FindPerl 			(Installed)
+│   ├── p5-Devel-FindRef 			(Installed)
+│   ├── p5-Devel-Gladiator 			(Installed)
+│   ├── p5-Devel-GlobalDestruction 		(Installed)
+│   ├── p5-Devel-Hide 				(Installed)
+│   ├── p5-Devel-Leak-Object 			(Installed)
+│   ├── p5-Devel-LexAlias 			(Installed)
+│   ├── p5-Devel-NYTProf 			(Installed)
+│   ├── p5-Devel-PartialDump 			(Installed)
+│   ├── p5-Devel-PatchPerl 			(Installed)
+│   ├── p5-Devel-PPPort 			(Installed)
+│   ├── p5-Devel-Pragma 			(Installed)
+│   ├── p5-Devel-Profile 			(Installed)
+│   ├── p5-Devel-Refactor 			(Installed)
+│   ├── p5-Devel-REPL
+│   ├── p5-Devel-Size 				(Installed)
+│   ├── p5-Devel-SmallProf 			(Installed)
+│   ├── p5-Devel-StackTrace 			(Installed)
+│   ├── p5-Devel-StackTrace-AsHTML 		(Installed)
+│   ├── p5-Devel-StackTrace-WithLexicals 	(Installed)
+│   ├── p5-Devel-Symdump 			(Installed)
+│   ├── p5-Devel-Trace 				(Installed)
+│   ├── p5-Devel-TraceUse 			(Installed)
+│   ├── p5-Dir-Self 				(Installed)
+│   ├── p5-Dist-CheckConflicts 			(Installed)
+│   ├── p5-Dist-Zilla
+│   ├── p5-Dist-Zooky
+│   ├── p5-enum 				(Installed)
+│   ├── p5-Env-Path 				(Installed)
+│   ├── p5-Error 				(Installed)
+│   ├── p5-EV 					(Installed)
+│   ├── p5-Eval-Closure 			(Installed)
+│   ├── p5-Event 				(Installed)
+│   ├── p5-Event-ExecFlow 			(Installed)
+│   ├── p5-Event-RPC
+│   ├── p5-ex-lib 				(Installed)
+│   ├── p5-Exception-Class 			(Installed)
+│   ├── p5-Exception-Handler 			(Installed)
+│   ├── p5-Expect 				(Installed)
+│   ├── p5-Expect-Simple 			(Installed)
+│   ├── p5-experimental 			(Installed)
+│   ├── p5-Exporter-Lite 			(Installed)
+│   ├── p5-ExtUtils-AutoInstall 		(Installed)
+│   ├── p5-ExtUtils-CBuilder 			(Installed)
+│   ├── p5-ExtUtils-Command 			(Installed)
+│   ├── p5-ExtUtils-Config 			(Installed)
+│   ├── p5-ExtUtils-CppGuess 			(Installed)
+│   ├── p5-ExtUtils-Depends 			(Installed)
+│   ├── p5-ExtUtils-F77
+│   ├── p5-ExtUtils-Helpers 			(Installed)
+│   ├── p5-ExtUtils-InstallPaths 		(Installed)
+│   ├── p5-ExtUtils-LibBuilder 			(Installed)
+│   ├── p5-ExtUtils-MakeMaker 			(Installed)
+│   ├── p5-ExtUtils-Manifest 			(Installed)
+│   ├── p5-ExtUtils-ModuleMaker 		(Installed)
+│   ├── p5-ExtUtils-ModuleMaker-TT 		(Installed)
+│   ├── p5-ExtUtils-ParseXS 			(Installed)
+│   ├── p5-ExtUtils-PkgConfig 			(Installed)
+│   ├── p5-ExtUtils-XSBuilder 			(Installed)
+│   ├── p5-ExtUtils-XSpp 			(Installed)
+│   ├── p5-File-BaseDir 			(Installed)
+│   ├── p5-File-Binary
+│   ├── p5-File-BOM 				(Installed)
+│   ├── p5-File-ChangeNotify 			(Installed)
+│   ├── p5-File-chdir 				(Installed)
+│   ├── p5-File-ConfigDir 			(Installed)
+│   ├── p5-File-DesktopEntry 			(Installed)
+│   ├── p5-File-DirCompare 			(Installed)
+│   ├── p5-File-DirSync 			(Installed)
+│   ├── p5-File-Find-Rule 			(Installed)
+│   ├── p5-File-Find-Rule-Age 			(Installed)
+│   ├── p5-File-Find-Rule-Perl 			(Installed)
+│   ├── p5-File-Find-Rule-Permissions 		(Installed)
+│   ├── p5-File-Find-Rule-PPI 			(Installed)
+│   ├── p5-File-Find-Rule-VCS 			(Installed)
+│   ├── p5-File-Flat 				(Installed)
+│   ├── p5-File-FlockDir 			(Installed)
+│   ├── p5-File-HomeDir 			(Installed)
+│   ├── p5-File-LibMagic 			(Installed)
+│   ├── p5-File-Listing 			(Installed)
+│   ├── p5-File-MimeInfo
+│   ├── p5-File-Modified 			(Installed)
+│   ├── p5-File-Next 				(Installed)
+│   ├── p5-File-NFSLock 			(Installed)
+│   ├── p5-File-Path 				(Installed)
+│   ├── p5-File-Path-Expand 			(Installed)
+│   ├── p5-File-Path-Tiny 			(Installed)
+│   ├── p5-File-PathConvert 			(Installed)
+│   ├── p5-File-Policy 				(Installed)
+│   ├── p5-File-pushd 				(Installed)
+│   ├── p5-File-Save-Home 			(Installed)
+│   ├── p5-File-ShareDir 			(Installed)
+│   ├── p5-File-ShareDir-Install 		(Installed)
+│   ├── p5-File-Slurp 				(Installed)
+│   ├── p5-File-Slurp-Tiny 			(Installed)
+│   ├── p5-File-Slurp-Unicode 			(Installed)
+│   ├── p5-File-Temp 				(Installed)
+│   ├── p5-File-Tempdir 			(Installed)
+│   ├── p5-File-Touch 				(Installed)
+│   ├── p5-File-Type 				(Installed)
+│   ├── p5-File-Util 				(Installed)
+│   ├── p5-File-Which 				(Installed)
+│   ├── p5-FileHandle-Fmode 			(Installed)
+│   ├── p5-FileHandle-Unget 			(Installed)
+│   ├── p5-Filesys-Notify-Simple 		(Installed)
+│   ├── p5-FindBin-libs 			(Installed)
+│   ├── p5-Format-Human-Bytes 			(Installed)
+│   ├── p5-FreezeThaw 				(Installed)
+│   ├── p5-Future 				(Installed)
+│   ├── p5-Getopt-ArgvFile 			(Installed)
+│   ├── p5-Getopt-Euclid 			(Installed)
+│   ├── p5-Getopt-Long 				(Installed)
+│   ├── p5-Getopt-Long-Descriptive 		(Installed)
+│   ├── p5-Getopt-Mixed 			(Installed)
+│   ├── p5-Getopt-Simple 			(Installed)
+│   ├── p5-gettext 				(Installed)
+│   ├── p5-Git-CPAN-Patch
+│   ├── p5-Git-Repository
+│   ├── p5-Git-Wrapper
+│   ├── p5-Glib-Object-Introspection
+│   ├── p5-glib2
+│   ├── p5-Gnome2
+│   ├── p5-Gnome2-GConf
+│   ├── p5-Graph 				(Installed)
+│   ├── p5-Gravatar-URL 			(Installed)
+│   ├── p5-Gtk2-GladeXML
+│   ├── p5-Guard 				(Installed)
+│   ├── p5-Hash-Case 				(Installed)
+│   ├── p5-Hash-FieldHash 			(Installed)
+│   ├── p5-Hash-Flatten 			(Installed)
+│   ├── p5-Hash-Merge 				(Installed)
+│   ├── p5-Hash-Merge-Simple 			(Installed)
+│   ├── p5-Hash-MoreUtils 			(Installed)
+│   ├── p5-Hash-MultiValue 			(Installed)
+│   ├── p5-Hash-Util-FieldHash-Compat 		(Installed)
+│   ├── p5-Heap 				(Installed)
+│   ├── p5-Hook-LexWrap 			(Installed)
+│   ├── p5-IMDB-Film
+│   ├── p5-Import-Into 				(Installed)
+│   ├── p5-indirect 				(Installed)
+│   ├── p5-Inline 				(Installed)
+│   ├── p5-InlineX-C2XS 			(Installed)
+│   ├── p5-Internals 				(Installed)
+│   ├── p5-IO-AIO 				(Installed)
+│   ├── p5-IO-All
+│   ├── p5-IO-Async 				(Installed)
+│   ├── p5-IO-Capture 				(Installed)
+│   ├── p5-IO-CaptureOutput 			(Installed)
+│   ├── p5-IO-Compress 				(Installed)
+│   ├── p5-IO-Digest 				(Installed)
+│   ├── p5-IO-Handle-Util 			(Installed)
+│   ├── p5-IO-HTML 				(Installed)
+│   ├── p5-IO-InSitu 				(Installed)
+│   ├── p5-IO-Interactive 			(Installed)
+│   ├── p5-IO-LockedFile 			(Installed)
+│   ├── p5-IO-Multiplex 			(Installed)
+│   ├── p5-IO-Null 				(Installed)
+│   ├── p5-IO-Pager 				(Installed)
+│   ├── p5-IO-Pipeline 				(Installed)
+│   ├── p5-IO-Pipely 				(Installed)
+│   ├── p5-IO-Prompt 				(Installed)
+│   ├── p5-IO-Prompter 				(Installed)
+│   ├── p5-IO-String 				(Installed)
+│   ├── p5-IO-stringy 				(Installed)
+│   ├── p5-IO-Stty 				(Installed)
+│   ├── p5-IO-Tee 				(Installed)
+│   ├── p5-IO-TieCombine 			(Installed)
+│   ├── p5-IO-Tty 				(Installed)
+│   ├── p5-IO-Util 				(Installed)
+│   ├── p5-IO-Zlib 				(Installed)
+│   ├── p5-IPC-Cache
+│   ├── p5-IPC-Cmd 				(Installed)
+│   ├── p5-IPC-DirQueue 			(Installed)
+│   ├── p5-IPC-PubSub
+│   ├── p5-IPC-Run 				(Installed)
+│   ├── p5-IPC-Run3 				(Installed)
+│   ├── p5-IPC-Shareable 			(Installed)
+│   ├── p5-IPC-SharedCache
+│   ├── p5-IPC-ShareLite
+│   ├── p5-IPC-Signal 				(Installed)
+│   ├── p5-IPC-System-Simple 			(Installed)
+│   ├── p5-IPC-SysV 				(Installed)
+│   ├── p5-LDAP
+│   ├── p5-LEOCHARRE-CLI2 			(Installed)
+│   ├── p5-LEOCHARRE-Debug 			(Installed)
+│   ├── p5-LEOCHARRE-Dir 			(Installed)
+│   ├── p5-Lexical-Persistence 			(Installed)
+│   ├── p5-Lexical-SealRequireHints 		(Installed)
+│   ├── p5-lib-abs 				(Installed)
+│   ├── p5-List-AllUtils 			(Installed)
+│   ├── p5-List-MoreUtils 			(Installed)
+│   ├── p5-List-UtilsBy 			(Installed)
+│   ├── p5-local-lib 				(Installed)
+│   ├── p5-Locale-Msgfmt 			(Installed)
+│   ├── p5-Locale-PO 				(Installed)
+│   ├── p5-Log-Agent 				(Installed)
+│   ├── p5-Log-Any 				(Installed)
+│   ├── p5-Log-Any-Adapter 			(Installed)
+│   ├── p5-Log-Any-Adapter-Dispatch 		(Installed)
+│   ├── p5-Log-Any-Adapter-Log4perl 		(Installed)
+│   ├── p5-Log-Dispatch 			(Installed)
+│   ├── p5-Log-Dispatch-Array 			(Installed)
+│   ├── p5-Log-Dispatch-Config 			(Installed)
+│   ├── p5-Log-Dispatch-DBI 			(Installed)
+│   ├── p5-Log-Dispatch-FileRotate 		(Installed)
+│   ├── p5-Log-Dispatch-Perl 			(Installed)
+│   ├── p5-Log-Dispatchouli 			(Installed)
+│   ├── p5-Log-Handler 				(Installed)
+│   ├── p5-Log-Log4perl 			(Installed)
+│   ├── p5-Log-LogLite 				(Installed)
+│   ├── p5-Log-Report 				(Installed)
+│   ├── p5-Log-Report-Optional 			(Installed)
+│   ├── p5-Log-Trace 				(Installed)
+│   ├── p5-Mac-Carbon
+│   ├── p5-Mac-SystemDirectory
+│   ├── p5-Make 				(Installed)
+│   ├── p5-Memoize 				(Installed)
+│   ├── p5-Memoize-ExpireLRU 			(Installed)
+│   ├── p5-Memoize-Memcached 			(Installed)
+│   ├── p5-MetaCPAN-API 			(Installed)
+│   ├── p5-Method-Signatures 			(Installed)
+│   ├── p5-Method-Signatures-Simple 		(Installed)
+│   ├── p5-Mixin-ExtraFields 			(Installed)
+│   ├── p5-Mixin-ExtraFields-Param 		(Installed)
+│   ├── p5-Mixin-Linewise
+│   ├── p5-Mo 					(Installed)
+│   ├── p5-Modern-Perl 				(Installed)
+│   ├── p5-Module-Build 			(Installed)
+│   ├── p5-Module-Build-Tiny 			(Installed)
+│   ├── p5-Module-Build-WithXSpp 		(Installed)
+│   ├── p5-Module-Build-XSUtil 			(Installed)
+│   ├── p5-Module-CoreList 			(Installed)
+│   ├── p5-Module-CPANTS-Analyse 		(Installed)
+│   ├── p5-Module-Dependency
+│   ├── p5-Module-ExtractUse 			(Installed)
+│   ├── p5-Module-Find 				(Installed)
+│   ├── p5-Module-Implementation 		(Installed)
+│   ├── p5-Module-Install
+│   ├── p5-Module-Install-AuthorTests 		(Installed)
+│   ├── p5-Module-Install-PadrePlugin
+│   ├── p5-Module-Install-ReadmeFromPod
+│   ├── p5-Module-Install-Repository 		(Installed)
+│   ├── p5-Module-Install-RTx
+│   ├── p5-Module-Install-Substitute
+│   ├── p5-Module-Install-XSUtil
+│   ├── p5-Module-Load 				(Installed)
+│   ├── p5-Module-Manifest 			(Installed)
+│   ├── p5-Module-Metadata 			(Installed)
+│   ├── p5-Module-Pluggable 			(Installed)
+│   ├── p5-Module-Refresh 			(Installed)
+│   ├── p5-Module-Runtime 			(Installed)
+│   ├── p5-Module-ScanDeps 			(Installed)
+│   ├── p5-Module-Starter 			(Installed)
+│   ├── p5-Module-Starter-PBP 			(Installed)
+│   ├── p5-Module-Util 				(Installed)
+│   ├── p5-Module-Versions 			(Installed)
+│   ├── p5-Module-Versions-Report 		(Installed)
+│   ├── p5-Moo 					(Installed)
+│   ├── p5-Moose 				(Installed)
+│   ├── p5-Moose-Autobox 			(Installed)
+│   ├── p5-Moose-Policy 			(Installed)
+│   ├── p5-MooseX-Aliases 			(Installed)
+│   ├── p5-MooseX-App-Cmd 			(Installed)
+│   ├── p5-MooseX-Attribute-Chained 		(Installed)
+│   ├── p5-MooseX-AttributeHelpers 		(Installed)
+│   ├── p5-MooseX-Attributes-Curried 		(Installed)
+│   ├── p5-MooseX-ClassAttribute 		(Installed)
+│   ├── p5-MooseX-CompileTime-Traits 		(Installed)
+│   ├── p5-MooseX-ConfigFromFile 		(Installed)
+│   ├── p5-MooseX-Daemonize 			(Installed)
+│   ├── p5-MooseX-Declare 			(Installed)
+│   ├── p5-MooseX-Emulate-Class-Accessor-Fast 	(Installed)
+│   ├── p5-MooseX-FollowPBP 			(Installed)
+│   ├── p5-MooseX-Getopt 			(Installed)
+│   ├── p5-MooseX-Has-Options 			(Installed)
+│   ├── p5-MooseX-InsideOut 			(Installed)
+│   ├── p5-MooseX-LazyRequire 			(Installed)
+│   ├── p5-MooseX-MarkAsMethods 		(Installed)
+│   ├── p5-MooseX-Meta-TypeConstraint-ForceCoercion (Installed)
+│   ├── p5-MooseX-Method-Signatures 		(Installed)
+│   ├── p5-MooseX-MethodAttributes 		(Installed)
+│   ├── p5-MooseX-MultiInitArg 			(Installed)
+│   ├── p5-MooseX-NonMoose 			(Installed)
+│   ├── p5-MooseX-Object-Pluggable 		(Installed)
+│   ├── p5-MooseX-OneArgNew 			(Installed)
+│   ├── p5-MooseX-Param 			(Installed)
+│   ├── p5-MooseX-Params-Validate 		(Installed)
+│   ├── p5-MooseX-POE
+│   ├── p5-MooseX-Role-Parameterized 		(Installed)
+│   ├── p5-MooseX-Role-WithOverloading 		(Installed)
+│   ├── p5-MooseX-SemiAffordanceAccessor 	(Installed)
+│   ├── p5-MooseX-SetOnce 			(Installed)
+│   ├── p5-MooseX-SimpleConfig 			(Installed)
+│   ├── p5-MooseX-Singleton 			(Installed)
+│   ├── p5-MooseX-StrictConstructor 		(Installed)
+│   ├── p5-MooseX-Traits 			(Installed)
+│   ├── p5-MooseX-Traits-Pluggable 		(Installed)
+│   ├── p5-MooseX-Types 			(Installed)
+│   ├── p5-MooseX-Types-Common 			(Installed)
+│   ├── p5-MooseX-Types-JSON 			(Installed)
+│   ├── p5-MooseX-Types-LoadableClass 		(Installed)
+│   ├── p5-MooseX-Types-LogAny 			(Installed)
+│   ├── p5-MooseX-Types-Path-Class 		(Installed)
+│   ├── p5-MooseX-Types-Perl 			(Installed)
+│   ├── p5-MooseX-Types-Stringlike 		(Installed)
+│   ├── p5-MooseX-Types-Structured 		(Installed)
+│   ├── p5-MooseX-Types-URI 			(Installed)
+│   ├── p5-MooX-Cmd 				(Installed)
+│   ├── p5-MooX-ConfigFromFile 			(Installed)
+│   ├── p5-MooX-File-ConfigDir 			(Installed)
+│   ├── p5-MooX-Log-Any 			(Installed)
+│   ├── p5-MooX-Options 			(Installed)
+│   ├── p5-MooX-Roles-Pluggable 		(Installed)
+│   ├── p5-MooX-Types-MooseLike 		(Installed)
+│   ├── p5-MooX-Types-MooseLike-Numeric 	(Installed)
+│   ├── p5-Mouse 				(Installed)
+│   ├── p5-MouseX-Getopt 			(Installed)
+│   ├── p5-MouseX-NativeTraits 			(Installed)
+│   ├── p5-MouseX-Types 			(Installed)
+│   ├── p5-MouseX-Types-Path-Class 		(Installed)
+│   ├── p5-MRO-Compat 				(Installed)
+│   ├── p5-multidimensional 			(Installed)
+│   ├── p5-namespace-autoclean 			(Installed)
+│   ├── p5-namespace-clean 			(Installed)
+│   ├── p5-Net-CIDR 				(Installed)
+│   ├── p5-Net-LDAP-Batch 			(Installed)
+│   ├── p5-Net-LDAP-Class 			(Installed)
+│   ├── p5-Net-LDAP-Server-Test 		(Installed)
+│   ├── p5-Net-Netmask 				(Installed)
+│   ├── p5-NEXT 				(Installed)
+│   ├── p5-Object-Declare 			(Installed)
+│   ├── p5-Object-Event 			(Installed)
+│   ├── p5-Object-InsideOut 			(Installed)
+│   ├── p5-Object-Pluggable 			(Installed)
+│   ├── p5-Object-Realize-Later 		(Installed)
+│   ├── p5-Object-Signature 			(Installed)
+│   ├── p5-OLE-Storage_Lite 			(Installed)
+│   ├── p5-OOTools 				(Installed)
+│   ├── p5-Ouch 				(Installed)
+│   ├── p5-Package-Constants 			(Installed)
+│   ├── p5-Package-DeprecationManager 		(Installed)
+│   ├── p5-Package-Generator 			(Installed)
+│   ├── p5-Package-Stash 			(Installed)
+│   ├── p5-Package-Stash-XS 			(Installed)
+│   ├── p5-Package-Variant 			(Installed)
+│   ├── p5-PadWalker 				(Installed)
+│   ├── p5-pango
+│   ├── p5-PAR
+│   ├── p5-PAR-Dist
+│   ├── p5-Parallel-ForkManager 		(Installed)
+│   ├── p5-Parallel-Prefork
+│   ├── p5-Params-Classify 			(Installed)
+│   ├── p5-Params-Coerce 			(Installed)
+│   ├── p5-Params-Util 				(Installed)
+│   ├── p5-Params-Validate 			(Installed)
+│   ├── p5-parent 				(Installed)
+│   ├── p5-Parse-CPAN-Meta 			(Installed)
+│   ├── p5-Parse-CPAN-Packages 			(Installed)
+│   ├── p5-Parse-ErrorString-Perl 		(Installed)
+│   ├── p5-Parse-ExuberantCTags 		(Installed)
+│   ├── p5-Parse-Method-Signatures 		(Installed)
+│   ├── p5-Parse-RecDescent 			(Installed)
+│   ├── p5-Parse-Yapp 				(Installed)
+│   ├── p5-PatchReader 				(Installed)
+│   ├── p5-Path-Class 				(Installed)
+│   ├── p5-Path-Class-File-Stat 		(Installed)
+│   ├── p5-Path-Dispatcher 			(Installed)
+│   ├── p5-Path-Dispatcher-Declarative 		(Installed)
+│   ├── p5-PathTools 				(Installed)
+│   ├── p5-Perl-APIReference 			(Installed)
+│   ├── p5-Perl-Critic 				(Installed)
+│   ├── p5-perl-headers
+│   ├── p5-Perl-MinimumVersion 			(Installed)
+│   ├── p5-Perl-PrereqScanner 			(Installed)
+│   ├── p5-Perl-Tidy 				(Installed)
+│   ├── p5-Perl-Version 			(Installed)
+│   ├── p5-Perl4-CoreLibs 			(Installed)
+│   ├── p5-Perl6-Export 			(Installed)
+│   ├── p5-Perl6-Export-Attrs 			(Installed)
+│   ├── p5-Perl6-Junction 			(Installed)
+│   ├── p5-Perl6-Slurp 				(Installed)
+│   ├── p5-PerlIO-eol 				(Installed)
+│   ├── p5-PerlIO-gzip 				(Installed)
+│   ├── p5-PerlIO-utf8_strict 			(Installed)
+│   ├── p5-PerlIO-via-Bzip2 			(Installed)
+│   ├── p5-PerlIO-via-dynamic 			(Installed)
+│   ├── p5-PerlIO-via-symlink
+│   ├── p5-PHP-Serialization 			(Installed)
+│   ├── p5-pip
+│   ├── p5-Pod-Usage 				(Installed)
+│   ├── p5-POE
+│   ├── p5-POE-Component-Cron
+│   ├── p5-POE-Component-Pluggable
+│   ├── p5-POE-Component-Schedule
+│   ├── p5-POE-Component-Syndicator
+│   ├── p5-POE-Test-Loops 			(Installed)
+│   ├── p5-POEx-Types
+│   ├── p5-PPI 					(Installed)
+│   ├── p5-PPI-PowerToys 			(Installed)
+│   ├── p5-PPI-XS 				(Installed)
+│   ├── p5-PPIx-Regexp 				(Installed)
+│   ├── p5-PPIx-Utilities 			(Installed)
+│   ├── p5-prefork 				(Installed)
+│   ├── p5-Probe-Perl 				(Installed)
+│   ├── p5-Proc-Background 			(Installed)
+│   ├── p5-Proc-Daemon 				(Installed)
+│   ├── p5-Proc-InvokeEditor 			(Installed)
+│   ├── p5-Proc-PID-File 			(Installed)
+│   ├── p5-Proc-Pidfile 			(Installed)
+│   ├── p5-Proc-ProcessTable 			(Installed)
+│   ├── p5-Proc-Queue 				(Installed)
+│   ├── p5-Proc-Simple 				(Installed)
+│   ├── p5-Proc-Wait3
+│   ├── p5-Proc-WaitStat 			(Installed)
+│   ├── p5-PV
+│   ├── p5-Python-Serialise-Marshal
+│   ├── p5-Readonly 				(Installed)
+│   ├── p5-Readonly-XS 				(Installed)
+│   ├── p5-Regexp-Assemble 			(Installed)
+│   ├── p5-Regexp-MatchContext 			(Installed)
+│   ├── p5-Regexp-Parser 			(Installed)
+│   ├── p5-Regexp-Shellish 			(Installed)
+│   ├── p5-Return-MultiLevel 			(Installed)
+│   ├── p5-Return-Value 			(Installed)
+│   ├── p5-Role-Basic 				(Installed)
+│   ├── p5-Role-HasMessage 			(Installed)
+│   ├── p5-Role-Identifiable 			(Installed)
+│   ├── p5-Role-Tiny 				(Installed)
+│   ├── p5-Rose-Object 				(Installed)
+│   ├── p5-RT-Authen-ExternalAuth 		(Installed)
+│   ├── p5-Safe-Hole 				(Installed)
+│   ├── p5-Safe-Isa 				(Installed)
+│   ├── p5-Scalar-Defer 			(Installed)
+│   ├── p5-Scalar-List-Utils 			(Installed)
+│   ├── p5-Scalar-Util-Refcount 		(Installed)
+│   ├── p5-Schedule-RateLimiter 		(Installed)
+│   ├── p5-Scope-Guard 				(Installed)
+│   ├── p5-Scope-Upper 				(Installed)
+│   ├── p5-SDL
+│   ├── p5-Set-Array 				(Installed)
+│   ├── p5-Set-IntSpan 				(Installed)
+│   ├── p5-Set-Object 				(Installed)
+│   ├── p5-Set-Scalar 				(Installed)
+│   ├── p5-Shell-Perl 				(Installed)
+│   ├── p5-ShipIt 				(Installed)
+│   ├── p5-signatures 				(Installed)
+│   ├── p5-Smart-Comments 			(Installed)
+│   ├── p5-Software-License 			(Installed)
+│   ├── p5-Sort-Maker 				(Installed)
+│   ├── p5-Sort-Naturally 			(Installed)
+│   ├── p5-Sort-Versions 			(Installed)
+│   ├── p5-Spiffy 				(Installed)
+│   ├── p5-Spoon
+│   ├── p5-Storable 				(Installed)
+│   ├── p5-Stream-Buffered 			(Installed)
+│   ├── p5-strictures 				(Installed)
+│   ├── p5-String-Escape 			(Installed)
+│   ├── p5-String-Format 			(Installed)
+│   ├── p5-String-PerlIdentifier 		(Installed)
+│   ├── p5-String-Print 			(Installed)
+│   ├── p5-Sub-Exporter 			(Installed)
+│   ├── p5-Sub-Exporter-ForMethods 		(Installed)
+│   ├── p5-Sub-Exporter-GlobExporter 		(Installed)
+│   ├── p5-Sub-Exporter-Progressive 		(Installed)
+│   ├── p5-Sub-Identify 			(Installed)
+│   ├── p5-Sub-Install 				(Installed)
+│   ├── p5-Sub-Installer 			(Installed)
+│   ├── p5-Sub-Name 				(Installed)
+│   ├── p5-Sub-Override 			(Installed)
+│   ├── p5-Sub-Uplevel 				(Installed)
+│   ├── p5-subversion
+│   ├── p5-SUPER 				(Installed)
+│   ├── p5-SVN-Class
+│   ├── p5-SVN-Dump 				(Installed)
+│   ├── p5-SVN-Mirror
+│   ├── p5-SVN-Notify
+│   ├── p5-SVN-Simple
+│   ├── p5-Symbol-Global-Name 			(Installed)
+│   ├── p5-syntax 				(Installed)
+│   ├── p5-Syntax-Keyword-Junction 		(Installed)
+│   ├── p5-Sys-Syscall 				(Installed)
+│   ├── p5-System-Command 			(Installed)
+│   ├── p5-TAP-Formatter-HTML 			(Installed)
+│   ├── p5-TAP-Harness-Archive 			(Installed)
+│   ├── p5-Task-Weaken 				(Installed)
+│   ├── p5-Tee 					(Installed)
+│   ├── p5-Template-Plugin-Handy 		(Installed)
+│   ├── p5-Template-Plugin-HashMerge 		(Installed)
+│   ├── p5-Template-Plugin-ListMoreUtils 	(Installed)
+│   ├── p5-Template-Plugin-ListUtil 		(Installed)
+│   ├── p5-Template-Plugin-VMethods 		(Installed)
+│   ├── p5-Term-Animation
+│   ├── p5-Term-ANSIColor 			(Installed)
+│   ├── p5-Term-Cap 				(Installed)
+│   ├── p5-Term-Encoding 			(Installed)
+│   ├── p5-Term-ProgressBar 			(Installed)
+│   ├── p5-Term-Prompt 				(Installed)
+│   ├── p5-Term-ReadKey 			(Installed)
+│   ├── p5-Term-ReadLine 			(Installed)
+│   ├── p5-Term-ReadLine-Perl 			(Installed)
+│   ├── p5-Term-ReadLine-TTYtter 		(Installed)
+│   ├── p5-Term-ReadPassword 			(Installed)
+│   ├── p5-Term-Screen 				(Installed)
+│   ├── p5-Term-Shell 				(Installed)
+│   ├── p5-Term-ShellUI 			(Installed)
+│   ├── p5-Term-Size
+│   ├── p5-Term-Size-Any 			(Installed)
+│   ├── p5-Term-Size-Perl 			(Installed)
+│   ├── p5-Test-Aggregate 			(Installed)
+│   ├── p5-Test-Approx 				(Installed)
+│   ├── p5-Test-Assertions 			(Installed)
+│   ├── p5-Test-Base 				(Installed)
+│   ├── p5-Test-BDD-Cucumber 			(Installed)
+│   ├── p5-Test-CheckDeps 			(Installed)
+│   ├── p5-Test-CheckManifest 			(Installed)
+│   ├── p5-Test-Class 				(Installed)
+│   ├── p5-Test-ClassAPI 			(Installed)
+│   ├── p5-Test-Cmd 				(Installed)
+│   ├── p5-Test-Command-Simple 			(Installed)
+│   ├── p5-Test-Compile 			(Installed)
+│   ├── p5-Test-CPAN-Meta-YAML 			(Installed)
+│   ├── p5-Test-Deep 				(Installed)
+│   ├── p5-Test-Differences 			(Installed)
+│   ├── p5-Test-Dir 				(Installed)
+│   ├── p5-Test-DistManifest 			(Installed)
+│   ├── p5-Test-Distribution 			(Installed)
+│   ├── p5-Test-Exception 			(Installed)
+│   ├── p5-Test-Expect 				(Installed)
+│   ├── p5-Test-FailWarnings 			(Installed)
+│   ├── p5-Test-Fatal 				(Installed)
+│   ├── p5-Test-File 				(Installed)
+│   ├── p5-Test-File-Contents 			(Installed)
+│   ├── p5-Test-File-ShareDir 			(Installed)
+│   ├── p5-Test-Fixture-DBIC-Schema 		(Installed)
+│   ├── p5-Test-Harness 			(Installed)
+│   ├── p5-Test-HexString 			(Installed)
+│   ├── p5-Test-Identity 			(Installed)
+│   ├── p5-Test-InDistDir 			(Installed)
+│   ├── p5-Test-Inline 				(Installed)
+│   ├── p5-Test-Inter 				(Installed)
+│   ├── p5-Test-Kwalitee 			(Installed)
+│   ├── p5-Test-LeakTrace 			(Installed)
+│   ├── p5-Test-Log4perl 			(Installed)
+│   ├── p5-Test-LongString 			(Installed)
+│   ├── p5-Test-Manifest 			(Installed)
+│   ├── p5-Test-Memory-Cycle 			(Installed)
+│   ├── p5-Test-MinimumVersion 			(Installed)
+│   ├── p5-Test-Mock-LWP 			(Installed)
+│   ├── p5-Test-MockModule 			(Installed)
+│   ├── p5-Test-MockObject 			(Installed)
+│   ├── p5-Test-More-Behaviour 			(Installed)
+│   ├── p5-Test-Most 				(Installed)
+│   ├── p5-Test-NoWarnings 			(Installed)
+│   ├── p5-Test-Object 				(Installed)
+│   ├── p5-Test-Output 				(Installed)
+│   ├── p5-Test-Perl-Critic 			(Installed)
+│   ├── p5-Test-Pod 				(Installed)
+│   ├── p5-Test-Pod-Coverage 			(Installed)
+│   ├── p5-Test-Pod-Spelling-CommonMistakes 	(Installed)
+│   ├── p5-Test-POE-Client-TCP
+│   ├── p5-Test-POE-Server-TCP
+│   ├── p5-Test-Refcount 			(Installed)
+│   ├── p5-Test-Reporter 			(Installed)
+│   ├── p5-Test-Requires 			(Installed)
+│   ├── p5-Test-Script 				(Installed)
+│   ├── p5-Test-Script-Run 			(Installed)
+│   ├── p5-Test-SharedFork 			(Installed)
+│   ├── p5-Test-Simple 			`	(Installed)
+│   ├── p5-Test-Spec 				(Installed)
+│   ├── p5-Test-SubCalls 			(Installed)
+│   ├── p5-Test-Taint 				(Installed)
+│   ├── p5-Test-TempDir 			(Installed)
+│   ├── p5-Test-Tester 				(Installed)
+│   ├── p5-Test-TinyMocker 			(Installed)
+│   ├── p5-Test-Trap 				(Installed)
+│   ├── p5-Test-Unit 				(Installed)
+│   ├── p5-Test-use-ok 				(Installed)
+│   ├── p5-Test-UseAllModules 			(Installed)
+│   ├── p5-Test-Version 			(Installed)
+│   ├── p5-Test-Warn 				(Installed)
+│   ├── p5-Test-Warnings 			(Installed)
+│   ├── p5-Test-Weaken 				(Installed)
+│   ├── p5-Test-Without-Module 			(Installed)
+│   ├── p5-Test-WWW-Selenium 			(Installed)
+│   ├── p5-Test-YAML-Meta 			(Installed)
+│   ├── p5-Test-YAML-Valid 			(Installed)
+│   ├── p5-Throwable 				(Installed)
+│   ├── p5-Tie-Array-AsHash 			(Installed)
+│   ├── p5-Tie-Array-Sorted 			(Installed)
+│   ├── p5-Tie-Cache 				(Installed)
+│   ├── p5-Tie-Cache-LRU 			(Installed)
+│   ├── p5-Tie-Cache-LRU-Expires		(Installed)
+│   ├── p5-Tie-Function 			(Installed)
+│   ├── p5-Tie-IxHash 				(Installed)
+│   ├── p5-Tie-LLHash 				(Installed)
+│   ├── p5-Tie-RefHash 				(Installed)
+│   ├── p5-Tie-RefHash-Weak 			(Installed)
+│   ├── p5-Tie-RegexpHash 			(Installed)
+│   ├── p5-Tie-ToObject 			(Installed)
+│   ├── p5-Tree-DAG_Node 			(Installed)
+│   ├── p5-Tree-Simple 				(Installed)
+│   ├── p5-Tree-Simple-VisitorFactory 		(Installed)
+│   ├── p5-Try-Tiny 				(Installed)
+│   ├── p5-TryCatch 				(Installed)
+│   ├── p5-Types-Serialiser 			(Installed)
+│   ├── p5-UNIVERSAL-can 			(Installed)
+│   ├── p5-UNIVERSAL-isa 			(Installed)
+│   ├── p5-UNIVERSAL-moniker 			(Installed)
+│   ├── p5-UNIVERSAL-require 			(Installed)
+│   ├── p5-UUID-Tiny 				(Installed)
+│   ├── p5-Variable-Magic 			(Installed)
+│   ├── p5-VCP 					(Installed)
+│   ├── p5-VCP-Dest-svk
+│   ├── p5-version 				(Installed)
+│   ├── p5-Want 				(Installed)
+│   ├── p5-WeakRef 				(Installed)
+│   ├── p5-Wx-Perl-DataWalker
+│   ├── p5-XSLoader 				(Installed)
+│   ├── palmpower
+│   ├── pango
+│   ├── pangomm
+│   ├── pangox-compat
+│   ├── papaya 					(Installed)
+│   ├── pardiff
+│   ├── patch 					(Installed)
+│   ├── patchutils 				(Installed)
+│   ├── pcc-libs
+│   ├── pccts 					(Installed)
+│   ├── pcl-cvs
+│   ├── pcre 					(Installed)
+│   ├── pcre-ocaml
+│   ├── pcre++ 					(Installed)
+│   ├── pdcurses
+│   ├── pedisassem 				(Installed)
+│   ├── php-gettext
+│   ├── php-gmp
+│   ├── php-libawl
+│   ├── php-memcache
+│   ├── php-memcached
+│   ├── php-mode
+│   ├── php-opcache
+│   ├── php-pcntl
+│   ├── php-posix
+│   ├── php-shmop
+│   ├── php-sysvmsg
+│   ├── php-sysvsem
+│   ├── php-sysvshm
+│   ├── physfs
+│   ├── picp
+│   ├── picprg
+│   ├── pilrc
+│   ├── pipestatus 				(Installed)
+│   ├── pkg-config 				(Installed)
+│   ├── ply
+│   ├── pmccabe 				(Installed)
+│   ├── poco
+│   ├── popt 					(Installed)
+│   ├── poxml
+│   ├── prcs
+│   ├── ProjectCenter
+│   ├── protobuf
+│   ├── pstreams 				(Installed)
+│   ├── psvn
+│   ├── pth 			`		(Installed)
+│   ├── pthread-sem 				(Installed)
+│   ├── pthread-stublib
+│   ├── ptlib
+│   ├── pvs
+│   ├── pwlib
+│   ├── py-argparse 				(Installed)
+│   ├── py-astor 				(Installed)
+│   ├── py-astroid
+│   ├── py-at-spi
+│   ├── py-at-spi2
+│   ├── py-babel 				(Installed)
+│   ├── py-blinker 				(Installed)
+│   ├── py-buildbot
+│   ├── py-buildbot-slave
+│   ├── py-cffi
+│   ├── py-checker 				(Installed)
+│   ├── py-cheetah
+│   ├── py-compizconfig
+│   ├── py-coverage
+│   ├── py-cparser 				(Installed)
+│   ├── py-curses
+│   ├── py-cursespanel
+│   ├── py-cython
+│   ├── py-daemon
+│   ├── py-daemonize
+│   ├── py-darcsver 				(Installed)
+│   ├── py-decorator 				(Installed)
+│   ├── py-distribute 				(Installed)
+│   ├── py-docopt 				(Installed)
+│   ├── py-doctor
+│   ├── py-dulwich
+│   ├── py-enum34
+│   ├── py-expect
+│   ├── py-filechunkio 				(Installed)
+│   ├── py-flakes
+│   ├── py-flexmock 				(Installed)
+│   ├── py-funcparserlib
+│   ├── py-game
+│   ├── py-generate
+│   ├── py-gobject
+│   ├── py-gobject-shared
+│   ├── py-gobject3
+│   ├── py-gobject3-common
+│   ├── py-greenlet
+│   ├── py-h5py
+│   ├── py-hgtools 				(Installed)
+│   ├── py-hgview
+│   ├── py-idle
+│   ├── py-InlineEgg 				(Installed)
+│   ├── py-iowait 				(Installed)
+│   ├── py-ipaddr 				(Installed)
+│   ├── py-ipython
+│   ├── py-ipython010
+│   ├── py-ipython013
+│   ├── py-ipython1
+│   ├── py-jaraco_util 				(Installed)
+│   ├── py-jersey
+│   ├── py-kjbuckets
+│   ├── py-kqueue
+│   ├── py-libevent-rpcgen 			(Installed)
+│   ├── py-libmc
+│   ├── py-lockfile
+│   ├── py-logan
+│   ├── py-logilab-astng
+│   ├── py-logilab-common
+│   ├── py-macholib
+│   ├── py-mako 				(Installed)
+│   ├── py-memcached
+│   ├── py-mercurial
+│   ├── py-minimock
+│   ├── py-mock
+│   ├── py-modulegraph
+│   ├── py-more-itertools 			(Installed)
+│   ├── py-msgpack
+│   ├── py-multiprocessing
+│   ├── py-newt
+│   ├── py-nose 				(Installed)
+│   ├── py-open-vcdiff
+│   ├── py-Optik 				(Installed)
+│   ├── py-ordereddict 				(Installed)
+│   ├── py-pbr 				`	(Installed)
+│   ├── py-pep8
+│   ├── py-pexpect 				(Installed) [X 2 DP]
+│   ├── py-pip 					(Installed)
+│   ├── py-polib 				(Installed) [x2]
+│   ├── py-pqueue
+│   ├── py-pretend 				(Installed)
+│   ├── py-py
+│   ├── py-py2app
+│   ├── py-pyev
+│   ├── py-pylint
+│   ├── py-pyparsing 				(Installed)  [X 2 DP]
+│   ├── py-Pyro
+│   ├── py-pysvn
+│   ├── py-pytemplate 				(Installed)
+│   ├── py-pyutil
+│   ├── py-quixote
+│   ├── py-readline
+│   ├── py-requests
+│   ├── py-rope
+│   ├── py-rply 				(Installed)
+│   ├── py-serpent 				(Installed)
+│   ├── py-setuptools 				(Installed) [x2]
+│   ├── py-setuptools_trial
+│   ├── py-speaklater
+│   ├── py-spwd
+│   ├── py-stompclient
+│   ├── py-subversion
+│   ├── py-subvertpy
+│   ├── py-sysctl
+│   ├── py-tabular
+│   ├── py-test
+│   ├── py-testtools
+│   ├── py-tryton
+│   ├── py-trytond
+│   ├── py-unit 				(Installed)
+│   ├── py-unitgui
+│   ├── py-unittest2
+│   ├── py-unittest2py3k
+│   ├── py-urwid
+│   ├── py-usb
+│   ├── py-virtualenv
+│   ├── py-windbg
+│   ├── py-xdg 					(Installed)
+│   ├── py-zconfig
+│   ├── py-ZopeInterface
+│   ├── python-mode
+│   ├── pythontidy 				(Installed)
+│   ├── qbzr
+│   ├── qconf
+│   ├── qjson
+│   ├── qof
+│   ├── qtscriptgenerator
+│   ├── quilt
+│   ├── ragel 					(Installed)
+│   ├── rainbow-delimiters-el
+│   ├── rapidsvn
+│   ├── ratfor 					(Installed)
+│   ├── RBTools
+│   ├── rcs 					(Installed)
+│   ├── rdp 					(Installed)
+│   ├── re2c 					(Installed)
+│   ├── readline 				(Installed)
+│   ├── refinecvs 				(Installed)
+│   ├── Renaissance
+│   ├── reposurgeon
+│   ├── roundup
+│   ├── rox-lib
+│   ├── rpc2
+│   ├── rscode 					(Installed)
+│   ├── rsltc
+│   ├── rt-mysql
+│   ├── rt-pgsql
+│   ├── rt3
+│   ├── rt4
+│   ├── RTFM
+│   ├── RTx-RightsMatrix
+│   ├── rubigen
+│   ├── ruby-abstract
+│   ├── ruby-activemodel32
+│   ├── ruby-activesupport32
+│   ├── ruby-amstd
+│   ├── ruby-assistance
+│   ├── ruby-atomic
+│   ├── ruby-backports
+│   ├── ruby-blankslate
+│   ├── ruby-bsearch
+│   ├── ruby-byaccr 				(Installed)
+│   ├── ruby-cmd
+│   ├── ruby-curses
+│   ├── ruby-daemon_controller
+│   ├── ruby-debug
+│   ├── ruby-debug-base
+│   ├── ruby-debug-extra
+│   ├── ruby-debug-ide
+│   ├── ruby-delayer
+│   ├── ruby-deprecated
+│   ├── ruby-dhaka
+│   ├── ruby-docile
+│   ├── ruby-eet
+│   ├── ruby-eventmachine
+│   ├── ruby-extlib
+│   ├── ruby-facade
+│   ├── ruby-fast_gettext
+│   ├── ruby-ffi
+│   ├── ruby-fiddle
+│   ├── ruby-flexmock
+│   ├── ruby-gemcutter
+│   ├── ruby-getopt
+│   ├── ruby-gettext
+│   ├── ruby-gettext_i18n_rails
+│   ├── ruby-gettext-activerecord
+│   ├── ruby-gettext-rails
+│   ├── ruby-gnome2-atk
+│   ├── ruby-gnome2-gio
+│   ├── ruby-gnome2-glib
+│   ├── ruby-gnome2-gobject-introspection
+│   ├── ruby-gnome2-pango
+│   ├── ruby-hashery
+│   ├── ruby-heckle
+│   ├── ruby-highline
+│   ├── ruby-hike
+│   ├── ruby-i18n
+│   ├── ruby-inline
+│   ├── ruby-io-console
+│   ├── ruby-io-like
+│   ├── ruby-kgio
+│   ├── ruby-linecache
+│   ├── ruby-little-plugger
+│   ├── ruby-locale
+│   ├── ruby-locale-rails
+│   ├── ruby-lockfile
+│   ├── ruby-log4r
+│   ├── ruby-logging
+│   ├── ruby-loquacious
+│   ├── ruby-memcache
+│   ├── ruby-memoize
+│   ├── ruby-mercenary
+│   ├── ruby-metaclass
+│   ├── ruby-metaid
+│   ├── ruby-minitest
+│   ├── ruby-mixlib-authentication
+│   ├── ruby-mixlib-cli
+│   ├── ruby-mixlib-config
+│   ├── ruby-mixlib-log
+│   ├── ruby-mixlib-shellout
+│   ├── ruby-mkrf
+│   ├── ruby-mocha
+│   ├── ruby-mode
+│   ├── ruby-msgpack
+│   ├── ruby-ncurses
+│   ├── ruby-needle
+│   ├── ruby-ole
+│   ├── ruby-open4
+│   ├── ruby-parseconfig
+│   ├── ruby-parser
+│   ├── ruby-parsetree
+│   ├── ruby-parslet
+│   ├── ruby-path
+│   ├── ruby-pathname2
+│   ├── ruby-pkg-config
+│   ├── ruby-polyglot
+│   ├── ruby-posix-spawn
+│   ├── ruby-priority-queue
+│   ├── ruby-racc
+│   ├── ruby-railties32
+│   ├── ruby-rake
+│   ├── ruby-randexp
+│   ├── ruby-rbtree
+│   ├── ruby-rbx-require-relative
+│   ├── ruby-rcov
+│   ├── ruby-rcsparse
+│   ├── ruby-rd-mode
+│   ├── ruby-rdoc
+│   ├── ruby-readline
+│   ├── ruby-rgl
+│   ├── ruby-rspec
+│   ├── ruby-rspec-core
+│   ├── ruby-rspec-expectations
+│   ├── ruby-rspec-mocks
+│   ├── ruby-rspec-rails
+│   ├── ruby-SDL
+│   ├── ruby-setup
+│   ├── ruby-sexp-processor
+│   ├── ruby-simple_uuid
+│   ├── ruby-simplecov
+│   ├── ruby-simplecov-html
+│   ├── ruby-spruz
+│   ├── ruby-stomp
+│   ├── ruby-stream
+│   ├── ruby-subexec
+│   ├── ruby-subversion
+│   ├── ruby-templater
+│   ├── ruby-term-ansicolor
+│   ├── ruby-termcolor
+│   ├── ruby-test-spec
+│   ├── ruby-test-unit
+│   ├── ruby-test-unit-notify
+│   ├── ruby-thor
+│   ├── ruby-thrift
+│   ├── ruby-thrift_client
+│   ├── ruby-tins
+│   ├── ruby-turn
+│   ├── ruby-uglifier
+│   ├── ruby-uuidtools
+│   ├── ruby-validatable
+│   ├── ruby2ruby
+│   ├── rubyforge
+│   ├── rudiments 				(Installed)
+│   ├── rvm
+│   ├── rx 					(Installed)
+│   ├── sablecc
+│   ├── scintilla
+│   ├── scons 					(Installed)
+│   ├── sdcc
+│   ├── sdcc3
+│   ├── SDL
+│   ├── SDL_gfx
+│   ├── SDL_Pango
+│   ├── SDL_ttf
+│   ├── SDL-intro-en 				(Installed)
+│   ├── SDL-intro-ko 				(Installed)
+│   ├── SDL2
+│   ├── SDLmm
+│   ├── semantic
+│   ├── semi
+│   ├── sfio
+│   ├── sfslite
+│   ├── sgb
+│   ├── sgi-stl 				(Installed)
+│   ├── sgi-stl-docs 				(Installed)
+│   ├── shtk
+│   ├── silc-toolkit
+│   ├── slib 					(Installed)
+│   ├── sml-mode
+│   ├── snappy
+│   ├── snappy-java10
+│   ├── sofia-sip
+│   ├── SOPE
+│   ├── sparse 					(Installed)
+│   ├── sparsehash 				(Installed)
+│   ├── spiff 					(Installed)
+│   ├── spin 					(Installed)
+│   ├── splint
+│   ├── st
+│   ├── startbug1 				(Installed)
+│   ├── stgit
+│   ├── stooop 					(Installed)
+│   ├── subversion
+│   ├── subversion-base
+│   ├── subversion16
+│   ├── subversion16-base
+│   ├── sunifdef 				(Installed)
+│   ├── svk
+│   ├── swig 					(Installed)
+│   ├── swig2 					(Installed)
+│   ├── swt
+│   ├── syncdir
+│   ├── sysexits 				(Installed)
+│   ├── tailor
+│   ├── talloc
+│   ├── tavrasm
+│   ├── tcl-tclcl 				(Installed)
+│   ├── tcl-tclOO 				(Installed)
+│   ├── tclap
+│   ├── tcllib 					(Installed)
+│   ├── tclreadline
+│   ├── teem
+│   ├── tet3
+│   ├── tex-etoolbox
+│   ├── tex-etoolbox-doc 			(Installed)
+│   ├── tex-l3kernel
+│   ├── tex-l3kernel-doc 			(Installed)
+│   ├── tex-l3packages
+│   ├── tex-l3packages-doc 			(Installed)
+│   ├── tex-lualibs
+│   ├── tex-lualibs-doc 			(Installed)
+│   ├── tex-luatexbase
+│   ├── tex-luatexbase-doc 			(Installed)
+│   ├── tex-multido 				(Installed)
+│   ├── tex-multido-doc 			(Installed)
+│   ├── tex-pst-uml
+│   ├── tex-pst-uml-doc 			(Installed)
+│   ├── tex-xifthen
+│   ├── tex-xifthen-doc 			(Installed)
+│   ├── tig
+│   ├── tkcvs
+│   ├── tkdiff 					(Installed)
+│   ├── tla
+│   ├── tmake 					(Installed)
+│   ├── topgit
+│   ├── tpasm 					(Installed)
+│   ├── tradcpp 				(Installed)
+│   ├── transifex-client
+│   ├── tre 					(Installable)
+│   ├── treecc
+│   ├── trio 					(Installed)
+│   ├── tvision
+│   ├── ucl 					(Installed)
+│   ├── ucommon
+│   ├── ucpp 					(Installed)
+│   ├── umbrello
+│   ├── unidiff
+│   ├── uno
+│   ├── userspace-rcu
+│   ├── valgrind
+│   ├── valide
+│   ├── vanessa_adt
+│   ├── vanessa_logger
+│   ├── vanessa_socket
+│   ├── vera++
+│   ├── vtcl 					(Installed)
+│   ├── wide
+│   ├── xa65 					(Installed)
+│   ├── xdelta 					(Installed)
+│   ├── xdelta3
+│   ├── xfce4-dev-tools
+│   ├── xfconf
+│   ├── xmake 					(Installed)
+│   ├── xorg-util-macros 			(Installed)
+│   ├── xsd
+│   ├── xulrunner10
+│   ├── xulrunner17
+│   ├── xulrunner192
+│   ├── xulrunner24
+│   ├── xxgdb
+│   ├── yajl 					(Installed)
+│   ├── yasm 					(Installed)
+│   ├── z80-asm 				(Installed)
+│   ├── ZenTest
+│   ├── zlib 					(Installed)
+│   └── zzuf
+{1} Installed without intervention with GCC4
+{2} Inconsistent - I had to build this in haikuporer first - then copy source tree into pkgsrc and do some manual placings.
+{3} Builds with system bootstrap but creates no package there. To create a package, a second build is necessary here.
+{4} Doesn't like mk.conf PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig setting. Had to remove to build.

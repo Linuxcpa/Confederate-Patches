@@ -1,0 +1,132 @@
+├── wm ***91*** ***26 Installed, 1 Installable*** ***Count 27*** ***Pass Complete***
+│   ├── 3ddesktop				{1}
+│   ├── 9wm					(Installed)
+│   ├── aewm++					(Installed)
+│   ├── afterstep				{2}{3}
+│   ├── amaterus				{4}
+│   ├── amiwm					(Installed)
+│   ├── awesome					{5}
+│   ├── bbkeys					(Installed)
+│   ├── bbkeys09				{6}
+│   ├── bbpager					(Installed)
+│   ├── bbpager04				{6}
+│   ├── bbrun					{7}{4}
+│   ├── blackbox				{8}
+│   ├── blackbox70				{9}
+│   ├── bmpanel2				{2}{3}
+│   ├── bsetroot				{10}
+│   ├── ccsm					{11}
+│   ├── compiz					{2}{3}
+│   ├── compiz-fusion-plugins-extra		{2}{3}
+│   ├── compiz-fusion-plugins-main		{2}{3}
+│   ├── ctwm					{12}
+│   ├── cwm					{13}
+│   ├── dwm					{14}
+│   ├── e16menuedit2				{15}
+│   ├── echinus					{14}
+│   ├── enlightenment				{15}
+│   ├── ethemes					{15}
+│   ├── evilwm					(Installed)
+│   ├── fluxbox					(Installed)
+│   ├── fluxconf				{2}{3}
+│   ├── fluxter					(Installed)
+│   ├── flwm					{16}
+│   ├── fvwm					{17}
+│   ├── fvwm-devel				{18}
+│   ├── fvwm-themes				{18}
+│   ├── fvwm1					(Installed)
+│   ├── golem					{17}
+│   ├── i3					{2}{3}
+│   ├── icecc					{16}
+│   ├── icewm					{19}
+│   ├── icewm-imlib				{20}
+│   ├── icewm13					{21}
+│   ├── icewmconf				(Installed)
+│   ├── jwm					(Installed)
+│   ├── larswm					{22}
+│   ├── libWindowsWM				(Installed)
+│   ├── lwm					(Installed)
+│   ├── matchbox-wm				(Installed)
+│   ├── metacity				{2}{3}
+│   ├── mlvwm					{23}
+│   ├── musca					{14}
+│   ├── notion					{24}
+│   ├── novawm					{25}
+│   ├── obconf					{2}{3}
+│   ├── obpager					(Installed)
+│   ├── olvwm					{26}
+│   ├── openbox					{2}{3}
+│   ├── oroborox				{2}{3}
+│   ├── oroborus				(Installed)
+│   ├── pekwm					(Installed)
+│   ├── piewm					{27}
+│   ├── pwm					(Installed)
+│   ├── py-tyle					(Installed)
+│   ├── ratpoison				(Installed)
+│   ├── sawfish					{2}{3}
+│   ├── selectwm				{2}{3}
+│   ├── skippy					{28}
+│   ├── spectrwm				{33}{29}
+│   ├── tvtwm					{30}
+│   ├── twm					(Installed)
+│   ├── uwm					{31}
+│   ├── vtwm					{32}
+│   ├── w9wm					(Installed)
+│   ├── waimea					{34}
+│   ├── wampager				{35}
+│   ├── wbar					{2}{3}
+│   ├── weewm					(Installed)
+│   ├── windowlab				(Installed)
+│   ├── windowmaker				{36}
+│   ├── windowswmproto				(Installed)
+│   ├── wm2					{37}
+│   ├── wmakerconf				{38}
+│   ├── wmctrl					(Installed)
+│   ├── wmextra					{38}
+│   ├── wmi					(Installed)
+│   ├── wmii					{39}
+│   ├── wmthemes				{38}
+│   ├── wmx					(Installed)
+│   ├── wmx-gnome				(Installable)
+│   ├── xfce4-wm				{2}{3}
+│   ├── xfce4-wm-themes				{2}{3}
+
+{1} Wants glut, but its not built yet
+{2} Original error: wanted pixman before it was built
+{3} Original error: wanted gobject-introspection before it was built
+{4} Original error: wanted glib1 before it was built
+{5} Wants fftw, but its not built yet
+{6} Wants blackbox, but its not built yet
+{7} Error in bbrun.c: fd_set undefined
+{8} Wants besetroot, but its not built yet
+{9} Missing: <x11/xft/ut.h>
+{10} Pkgsrc error: missing package components
+{11) Original error: wanted orbit2 before it was built
+{12} Error in util.c, arguement 's' doesn't match prototype
+{13} Error in font.c: undefined reference to 'fcnameparse'
+{14} Compile error: cannot find -lc
+{15} Wants esound, but its not built yet
+{16} Original error: wanted glu before it was built
+{17} Missing: <sys/shm.h>
+{18} Wants fvwm, but its not built yet
+{19} Error in icewmbg.cc: 'nice' undeclaired in scope
+{20} Wants icewm, but its not built yet
+{21} Error in icewmg.cc: 'nice' undeclaired in scope
+{22} Original error: don't know how to make libxaw.a
+{23} Error in mlvwm.c: undefined reference to 'wait3'
+{24} Compile error: no lva interpreter found
+{25} Compile error: numerous warnings
+{26} Missing: <sys/ucontectx.h>
+{27} Hard links in source tar
+{28} Error in skippy.c: undefined reference to 'imlib_set_display' and other similar variables
+{29} Wantede libXcursor before it was built
+{30} Error in y.tab.h: previous declaration of 'yyparse'
+{31} Error in gram.y: conflicting types for 'yyerror' and others
+{32} Wants gsm, but its not built yet
+{33} Missing: <sys/queue.h>
+{34} Error in image.cc: undefined reference to 'imlib_context_set_mask' and other similar variables
+{35} Wants waimea, but its not built yet
+{36} Error in error.c: SC_LINE_MAX undefined
+{37} Error in client.c: expected ';' before 'x'
+{38} Wants wmaker, but its not built yet
+{39} Wants libixp, but its not built yet

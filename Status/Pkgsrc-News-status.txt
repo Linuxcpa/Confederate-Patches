@@ -1,0 +1,42 @@
+├── news ***20*** ***6 Installed, 0 Installable*** ***Count 6*** ***Pass Complete***
+│   ├── cg				(Installed)
+│   ├── cleanscore			(Installed)
+│   ├── heirloom-news			{14} {1}
+│   ├── hellanzb			{2}
+│   ├── inn				{3}
+│   ├── knews				{4}
+│   ├── leafnode			{5}
+│   ├── lottanzb			{17}{13}{6}
+│   ├── newsfetch			{12}
+│   ├── newsx				{3}
+│   ├── nget				{7}
+│   ├── nn				{8}
+│   ├── nntpcache			(Installed)
+│   ├── nntpclnt			{9}
+│   ├── pan				{20}{19}{18}{16}{11}
+│   ├── slrn				(Installed)
+│   ├── suck				(Installed)
+│   ├── tin				(Installed)
+│   ├── trn				{15}
+│   └── xrn				{10}
+
+{1} Original error: missing <sys/dirent.h>
+{2} Compile error: Python socket has no attribute get peer name
+{3} Wants p5-GD, but its not built yet. 
+{4} Compile error: Can't find its own local header: rpcsvc/ypclnt.h
+{5} Error in checkpeerlocal.c: 'struct_ifreq' has no member named 'ifr_ifru'
+{6} Original error: wanted py27-cElementTree before it was built.
+{7} Error in misc.cc: control reaches end of non void function.
+{8} Error in global.c: Undeclaired function: NGROUPS
+{9} Compile error: No mention of Haiku in Makefile probably, now not available for Haiku.
+{10} Error in tempnam.c: undeclaired function 'X_OK'
+{11} Original error: Wanted glib2, before it was built.
+{12} Original error: missing <sys/syscall.h>
+{13} Original error: Wants gnome-doc-utils, but its not built yet.
+{14} Error in ____: unknown type name: 'VA_LIST'
+{15} Wants nntpclient, but its not built yet.
+{16} Original error: wanted itstool before it was built.
+{17} Wants py34-markupsafe, but its not built yet
+{18} Original error: wanted gobject-introspection before it was built
+{19} Original error: wanted pixman before it was built
+{20} Wants cairo, but its not built yet

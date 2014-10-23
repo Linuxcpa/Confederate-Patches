@@ -1,0 +1,209 @@
+├── chat ***138*** ***41 installed, 0 installable*** ***Count 41*** ***Pass Complete***
+│   ├── amsn				{5}{19}
+│   ├── anope 				(Installed){1}{2}
+│   ├── atheme 				(Installed)
+│   ├── bitchbot 			(Installed)
+│   ├── bitchx				{6}
+│   ├── bitlbee				{7}
+│   ├── blackened			{4}
+│   ├── bnc				{8}{9}{3}
+│   ├── bsflite 			(Installed)
+│   ├── centerim			{10}
+│   ├── cgiirc				(Installed)
+│   ├── climm				(Installed){11}
+│   ├── ctrlproxy			{12}{2}
+│   ├── dccserver 			(Installed)
+│   ├── dircproxy 			(Installed)
+│   ├── eggdrop				{13}{3}
+│   ├── ejabberd			{14}
+│   ├── ekg				{15}
+│   ├── emacs-jabber			{16}{21}
+│   ├── emech				(Installed){3}
+│   ├── empathy				{17}{21}
+│   ├── epic4				{18}
+│   ├── epic4-doc			{20}
+│   ├── finch				{23}{22}{21}
+│   ├── fisg 				(Installed)
+│   ├── gajim				{24}{21}
+│   ├── gale				{25}
+│   ├── gg2				{26}
+│   ├── gloox				{7}
+│   ├── gnomeicu			{24}{21}
+│   ├── goofey 				(Installed)
+│   ├── gossip				{26}
+│   ├── gtmess 				(Installed)
+│   ├── i2cb				{27}
+│   ├── i2cbd				{29}{28}
+│   ├── icb				{31}{30}
+│   ├── icbirc				{32}{33}{3}
+│   ├── icqlib 				(Installed)
+│   ├── iip 				(Installed)
+│   ├── inspircd			{34}
+│   ├── inspircd12			{35}
+│   ├── ircd-hybrid			{36}
+│   ├── irchat-pj			{16}{21}
+│   ├── ircII 				(Installed)
+│   ├── ircservices			{40}{37}{3}
+│   ├── ircu				{38}
+│   ├── iroffer				{39}
+│   ├── irssi				(Installed)
+│   ├── irssi-icb			(Installed)
+│   ├── irssi-xmpp			{41}
+│   ├── jabberd 			(Installed)
+│   ├── jabberd2			{69}{3}
+│   ├── kadu				{44}{42}
+│   ├── kgb-bot				{43}
+│   ├── kmess				{44}{42}
+│   ├── konversation			{45}{42}
+│   ├── konversation-kde3		{44}{42}
+│   ├── libfolks			{64}{21}
+│   ├── libirc				{46}
+│   ├── libmsn				{47}{48}
+│   ├── libotr 				(Installed)
+│   ├── libpurple			{23}
+│   ├── libtelepathy			{64}{21}
+│   ├── libtlen 			(Installed)
+│   ├── licq-core			(Installed)
+│   ├── licq-gui-console		(Installed)
+│   ├── licq-gui-qt			{44}
+│   ├── loudmouth			{49}
+│   ├── mcabber				{50}
+│   ├── meanwhile			(Installed)
+│   ├── msn-pecan			{23}
+│   ├── msnre				{43}
+│   ├── mu-conference			(Installed)
+│   ├── naim 				(Installed)
+│   ├── navi2ch				{16}
+│   ├── ninja				{51}
+│   ├── p5-IRC-Utils 			(Installed)
+│   ├── p5-Net-AIM 			(Installed)
+│   ├── p5-Net-AOLIM 			(Installed)
+│   ├── p5-Net-Goofey 			(Installed)
+│   ├── p5-Net-ICQ2000 			(Installed)
+│   ├── p5-Net-Jabber			{14}
+│   ├── p5-POE-Component-IRC		{43}
+│   ├── p5-POE-Filter-IRCD		{43}
+│   ├── phone				{52}
+│   ├── pidgin				{24}{21}
+│   ├── pidgin-facebookchat		{53}{21}
+│   ├── pidgin-icb			{53}{21}
+│   ├── pidgin-latex			{54}
+│   ├── pidgin-libnotify		{23}
+│   ├── pidgin-otr			{24}{21}
+│   ├── pidgin-sametime			{23}
+│   ├── pidgin-silc			{23}
+│   ├── pircbot				{55}
+│   ├── prosody				{56}
+│   ├── psi				{45}{42}
+│   ├── psybnc				{57}
+│   ├── py-xmpppy			(Installed)
+│   ├── quirc				{58}
+│   ├── riece				{16}{21}
+│   ├── roxirc 				(Installed)
+│   ├── ruby-net-irc			{59}
+│   ├── scrollz				{60}
+│   ├── silc-client			{61}
+│   ├── silc-client-icb			{61}
+│   ├── silc-server			{61}
+│   ├── sirc				{62}
+│   ├── smirk 				(Installed)
+│   ├── spectrum			{63}
+│   ├── swift				{45}{42}
+│   ├── telepathy-farsight		{24}{21}
+│   ├── telepathy-gabble		{24}{21}
+│   ├── telepathy-glib			{24}{21}
+│   ├── telepathy-idle			{64}{21}
+│   ├── telepathy-logger		{64}{21}
+│   ├── telepathy-mission-control	{64}{21}
+│   ├── telepathy-mission-control5	{65}{21}
+│   ├── tik 				(Installed)
+│   ├── tirc				{66}
+│   ├── tkabber				(Installed)
+│   ├── tkicb 				(Installed)
+│   ├── tkirc 				(Installed)
+│   ├── tkirc2 				(Installed)
+│   ├── tzc				{68}
+│   ├── unrealircd			{68}{67}
+│   ├── vicq 				(Installed)
+│   ├── weechat				{7}
+│   ├── xaric				{7}
+│   ├── xchat				{17}{21}
+│   ├── xchat-perl			{17}{21}
+│   ├── xchat-python			{17}{21}
+│   ├── xchat-systray-integration	{17}{21}
+│   ├── ysm 				(Installed)
+│   ├── zenicb				{54}{21}
+│   ├── zenirc				{54}{21}
+│   ├── zephyr				{68}{67}
+│   ├── zephyr-mode			{68}{67}
+│   └── zircon				(Installed)
+
+{1} Original error: error in sysconf.h: unknown type names 'int16_t' 'u_int16_t' 'int32_t''u_int32_t.' Solution: #include <stdint.h>
+{2} Original error: unrecognized command line option: '-rdynamic.' Solution: BUILDLINK_TRANSFORM+= rm:-rdynamic
+{3} Original error: missing: -lnetwork
+{4} Error: hard links in source tar
+{5} Wants farsight2 & gstreamer for a complete build.
+{6} Error in irc_std.h: expected void bcopy
+{7} Wants gnutls, but its not built yet
+{8} Error in mkpasswd.c: undefined reference to 'getpass.'
+{9} Original error (with specs on): error in mkpasswd.c, <stdio.h> and <libio.h> unknown type name 'va_list.' Solution: Turn off specs. (Need a better answer to improve specs)
+{10} Wants gsm, but its not built yet
+{11} Original error: error in xmpp_base.h: unknown type name 'int8_t.' Solution: #include <stdint.h>
+{12} Missing <galloca.h>.
+{13} Link error: undefined reference to 'main' in start_dyn.c Note: This results from gcc being sent a gcc 2 command not used in gcc 4.
+{14} Wants heimdal, but its not built yet
+{15} Linking error in common.lo: file format not recognized
+{16} Wants pango, but its not built yet
+{17} Wants gtk2, but its not built yet
+{18} Error in sig.inc: conflicting types for 'sys_siglist'
+{19} Incomplete build, but theoretically packageable.
+{20} Wants epic4, but its not built yet
+{21} Original error: wanted gobject-introspection before it was built
+{22} Original error: wanted gstreamer before it was built.
+{23} Wants nspr, but its not built yet
+{24} Wants cairo, but its not built yet
+{25} Wants boehm-gc, but its not built yet
+{26} Wants esound, but its not built yet
+{27} Error in ipcf.h: unknown type name 'fd_set'
+{28} Error in globals.c: unknown type name 'fd_set'
+{29} Missing: <db.h>
+{30} Error in externs.h: unknown type name 'fd_set'
+{31} Missing: <sys/errno.h>
+{32} Error in libirc.c: undefined reference to 'daemon.'
+{33} Original error (with specs on): error in icb.c, <stdio.h> and <libio.h> unknown type name 'va_list.' Solution: Turn off specs. (Need a better answer to improve specs)
+{34} Error in cmd_stats.cpp: struct rusage has no member named 'ru_maxrss'
+{35} Missing: <ulimit.h>
+{36} Error in m_stats.cpp: struct rusage has no member named 'ru_maxrss' 'ru_ixrss' 'ru_idrss' 'ru_isrss' 'ru_nswap' 'ru_minflt' 'ru_majflt' 'ru_inblock' 'ru_oublock' 'ru_msgrcv' 'ru_msgsnd' 'ru_nsignals' and 'ru_nvcsw.'
+{37} Original error (with specs on): error in services.h, actions.c, <stdio.h> and <libio.h> unknown type name 'va_list.' Solution: Turn off specs. (Need a better answer to improve specs)
+{38} Error at install: cannot stat ircd
+{39} Compile error: cannot open makefile.
+{40} Error in langcomp.c Previous declaration of getline
+{41} Wants loudmouth, but its not built yet
+{42} Original error: wanted glu berfore it was built
+{43} Wants p5-curses, but its not built yet
+{44} Wants qt3-libs, but its not built yet
+{45} Wants qt4-libs, but its not built yet
+{46} Missing: <sys/signal.h>
+{47} Error in runtime loader: Failed to get gcc version
+{48} Error in msntest.cpp undefined reference to 'getpass' in function 'main'
+{49} Missing: <stringprep.h>
+{50} Wants libassuan, but its not built yet
+{51} Compile error: i cannot get tgetent
+{52} Link error: cannot stat 'phone' 'convd' or 'phoned.'
+{53} Wants pidgin, but its not built yet
+{54} Wants pixman, but its not built yet
+{55} Wants kaffe, but its not built yet
+{56} Compile error: unknown flag: PKG_CONFIG_PATH. Solution: Turn off in mk.conf
+{57} Compile error: cannot find libcares
+{58} Error in dcc.cc invalid conversion from 'int*' to 'socklen_t*'
+{59} Wants ruby, but its not built yet
+{60} Compile error: don't know how to make /usr/include/sys/stat.h
+{61} Error in runtime_loader: "locale_charset" returned -2147878780
+{62} Unknown configuration: Haiku
+{63} Wants poco, but its not built yet
+{64} Wants telepathy-glib, but its not built yet
+{65} Wants libgnome-keyring, but its not built yet
+{66} Configure error: socketpair() not found on SVR4, thus no full duplex pipes
+{67} Won't build without libares instattled
+{68} Wants kth-krb4, but its not built yet
+{69} Wants udns, but its not built yet

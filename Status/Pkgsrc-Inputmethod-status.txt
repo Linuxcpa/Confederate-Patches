@@ -1,0 +1,130 @@
+├── inputmethod ***129***  ***19 Installed, 4 Installable*** ***Count 23*** ***Pass Complete*** 
+│   ├── anthy					(Installed)
+│   ├── anthy-elisp
+│   ├── canna
+│   ├── canna-canuum
+│   ├── canna-dict
+│   ├── canna-lib
+│   ├── canna-server
+│   ├── Chinput
+│   ├── dbskkd-cdb
+│   ├── fcitx					(Installed)
+│   ├── gcin
+│   ├── gtk-im-libthai
+│   ├── ibus
+│   ├── ibus-anthy
+│   ├── ibus-array
+│   ├── ibus-chewing
+│   ├── ibus-el
+│   ├── ibus-handwrite
+│   ├── ibus-hangul
+│   ├── ibus-input-pad
+│   ├── ibus-kkc
+│   ├── ibus-libpinyin
+│   ├── ibus-libthai
+│   ├── ibus-m17n
+│   ├── ibus-mozc
+│   ├── ibus-pinyin
+│   ├── ibus-python
+│   ├── ibus-qt
+│   ├── ibus-skk
+│   ├── ibus-t9
+│   ├── ibus-table
+│   ├── ibus-table-chinese
+│   ├── ibus-table-others
+│   ├── ibus-tegaki
+│   ├── ibus-unikey
+│   ├── iiimecf
+│   ├── im-ja
+│   ├── imhangul
+│   ├── imhangul_status_applet
+│   ├── input-pad
+│   ├── ja-freewnn-lib
+│   ├── ja-freewnn-server
+│   ├── kasumi
+│   ├── kimera
+│   ├── kimera-tomoe-gtk
+│   ├── kinput2
+│   ├── libchewing				(Installed)
+│   ├── libchewing02				(Installable)
+│   ├── libhangul				(Installed)
+│   ├── libskk
+│   ├── libtabe					(Installed)
+│   ├── m17n-im-config
+│   ├── mozc-elisp
+│   ├── mozc-renderer
+│   ├── mozc-server
+│   ├── mozc-tool
+│   ├── multiskkserv
+│   ├── nabi
+│   ├── novel-pinyin
+│   ├── p5-zinnia				(Installed)
+│   ├── prime
+│   ├── prime-dict
+│   ├── prime-el
+│   ├── py-input-pad
+│   ├── py-zinnia
+│   ├── qt5-uim
+│   ├── ruby-zinnia
+│   ├── scim
+│   ├── scim-anthy
+│   ├── scim-array
+│   ├── scim-canna
+│   ├── scim-ccinput
+│   ├── scim-chewing
+│   ├── scim-fcitx
+│   ├── scim-hangul
+│   ├── scim-input-pad
+│   ├── scim-m17n
+│   ├── scim-pinyin
+│   ├── scim-prime
+│   ├── scim-python
+│   ├── scim-sinhala
+│   ├── scim-skk
+│   ├── scim-tables
+│   ├── scim-tables-vietnamese-ext
+│   ├── scim-tegaki
+│   ├── scim-thai
+│   ├── scim-tomoe
+│   ├── scim-uim
+│   ├── scim-unikey
+│   ├── sj3
+│   ├── sj3-client				(Installed)
+│   ├── sj3-server
+│   ├── skk
+│   ├── skk-jisyo				(Installed)
+│   ├── skk-jisyo-cdb
+│   ├── skkfep
+│   ├── skkinput
+│   ├── skkserv
+│   ├── skktools
+│   ├── tc
+│   ├── tegaki-pygtk
+│   ├── tegaki-python
+│   ├── tegaki-recognize
+│   ├── tegaki-tools
+│   ├── tegaki-train
+│   ├── tegaki-wagomu
+│   ├── tegaki-wagomu-japanese			(Installed)
+│   ├── tegaki-wagomu-japanese-joyo		(Installed)
+│   ├── tegaki-wagomu-japanese-kyoiku		(Installed)
+│   ├── tegaki-wagomu-simplified-chinese	(Installed)
+│   ├── tegaki-zinnia-japanese			(Installed)
+│   ├── tegaki-zinnia-japanese-joyo		(Installed)
+│   ├── tegaki-zinnia-japanese-kyoiku		(Installed)
+│   ├── tegaki-zinnia-japanese-light		(Installable)
+│   ├── tegaki-zinnia-simplified-chinese	(Installed)
+│   ├── tegaki-zinnia-simplified-chinese-light	(Installable)
+│   ├── tegaki-zinnia-traditional-chinese	(Installed)
+│   ├── tegaki-zinnia-traditional-chinese-light	(Installable)
+│   ├── tomoe
+│   ├── tomoe-gtk
+│   ├── uim
+│   ├── uim-chewing
+│   ├── uim-elisp
+│   ├── uim-mozc
+│   ├── uim-tomoe-gtk
+│   ├── unicon-im
+│   ├── xcin
+│   ├── zinnia					(Installed)
+│   └── zinnia-tomoe				(Installed)

@@ -1,0 +1,34 @@
+├── parallel ***19*** ***5 Installed, 0 Installable*** ***Count 5*** ***Pass Complete***
+│   ├── clusterit				{1}
+│   ├── dqs					{10}
+│   ├── dsh					(Installed)
+│   ├── ganglia-monitor-core			{13}{12}{11}{2}
+│   ├── gridscheduler				{3}
+│   ├── hwloc					{4}
+│   ├── linda					(Installed){2}
+│   ├── mpi-ch					{5}
+│   ├── openmpi					{5}
+│   ├── openpa					(Installed)
+│   ├── p5-Parallel-Pvm				{5}
+│   ├── paexec					{6}
+│   ├── parallel				(Installed)
+│   ├── pdsh					{7}					
+│   ├── pvm3					{5}
+│   ├── py-billiard				(Installed)
+│   ├── sge					{3}
+│   ├── slurm					{9}{2}
+│   └── threadingbuildingblocks			{8}
+
+{1} Missing <sys/syslog.h>
+{2} Original error: wanted glib2 before it was built
+{3} SGE_BUILDARCH needs to be configured for your OS
+{4} Undeclaired functions in lstopo-text.c: initialize_color, orig_pair, max_colors and others.
+{5} Wants g95, but it isn't built yet
+{6} Undefined reference to 'err' in mkdep.c
+{7} Undeclaired identifier 'F_SETDOWN' in xrcmd.c
+{8} Haiku not supported
+{9} Missing <sys/mount.h>
+{10} Missing <sys/signal.h>
+{11} Original error: wanted gobject-introspection before it was built
+{12} Original error: wanted pixman before it was built
+{13} Wants cairo, but its not built yet

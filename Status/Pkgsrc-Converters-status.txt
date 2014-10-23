@@ -1,0 +1,142 @@
+├── converters ***117*** ***74 Installed, 1 installable*** ***Count 75*** ***Pass complete***
+│   ├── 2vcard 				(Installed)
+│   ├── ack 				(Installed)
+│   ├── autoconvert 			(Installed)
+│   ├── base64 				(Installed)
+│   ├── bbcim 				(Installed)
+│   ├── bib2xml				(Installed)
+│   ├── bibtex2html			{23}{1}
+│   ├── cbmconvert 			(Installed)
+│   ├── chef				{2}
+│   ├── cn2jp 				(Installed)
+│   ├── code2html 			(Installed)
+│   ├── convmv 				(Installed)
+│   ├── doc2html			{3}
+│   ├── docx2txt			(Installed)
+│   ├── dos2unix 			(Installed)
+│   ├── dvi2tty 			(Installed)
+│   ├── enriched2html 			(Installed)
+│   ├── fondu 				(Installed)
+│   ├── fribidi 			(Installed)
+│   ├── gbase				{23}{4}
+│   ├── help2man 			(Installed)
+│   ├── hztty 				{5}
+│   ├── ish				{6}
+│   ├── ja-dvi2tty 			(Installed)
+│   ├── jcode-perl 			(Installed)
+│   ├── kcc				(Installed)
+│   ├── latex2rtf 			(Installed)
+│   ├── libabw				{7}
+│   ├── libcdr				{7}
+│   ├── libe-book			{7}{22}
+│   ├── libetonyek			{7}
+│   ├── libfreehand 			(Installed)
+│   ├── libiconv 			(Installed)
+│   ├── libkkc				(Installed){4}
+│   ├── libmspub			{7}
+│   ├── libmwaw				{8}
+│   ├── libvisio			{1}
+│   ├── libwpd 				(Installed)
+│   ├── libwpg 				(Installed)
+│   ├── libwps 				(Installed)
+│   ├── macfork				(Installed){9}
+│   ├── mpack 				(Installed)
+│   ├── nkf 				(Installed)
+│   ├── odt2txt				{10}
+│   ├── orcus				{11}{22}
+│   ├── p5-chkjis 			(Installed)
+│   ├── p5-Convert-BinHex 		(Installed)
+│   ├── p5-Convert-Color 		(Installed)
+│   ├── p5-Convert-TNEF 		(Installed)
+│   ├── p5-Convert-UUlib		(Installed)
+│   ├── p5-Data-Hexify 			(Installed)
+│   ├── p5-Jcode			(Installed)
+│   ├── p5-JSON 			(Installed)
+│   ├── p5-JSON-Any			(Installed)
+│   ├── p5-JSON-MaybeXS 		(Installed)
+│   ├── p5-JSON-PP 			(Installed)
+│   ├── p5-JSON-XS			(Installed)
+│   ├── p5-JSON-XS-VersionOneAndTwo 	(Installed)
+│   ├── p5-MARC-Charset			(Installed)
+│   ├── p5-MARC-Crosswalk-DublinCore 	(Installed)
+│   ├── p5-MIME-Base32 			(Installed)
+│   ├── p5-MIME-Base64			(Installed)
+│   ├── p5-MIME-Base64-URLSafe 		(Installed)
+│   ├── p5-nkf				(Installed)
+│   ├── p5-Sereal-Decoder		{12}
+│   ├── p5-Sereal-Encoder		{12}
+│   ├── p5-Text-Iconv			{13}
+│   ├── p5-Unicode-Collate		{14}
+│   ├── p5-Unicode-EastAsianWidth 	(Installed)
+│   ├── p5-Unicode-IMAPUtf7		{12}
+│   ├── p5-Unicode-Map 			(Installed)
+│   ├── p5-Unicode-Map8 		(Installed)
+│   ├── p5-Unicode-MapUTF8		(Installed)
+│   ├── p5-Unicode-Normalize		{12}
+│   ├── p5-Unicode-String		(Installed)
+│   ├── p5-Unicode-UTF8simple 		(Installed)
+│   ├── pear-I18n_UnicodeNormalizer	{21}
+│   ├── php-iconv			{13}
+│   ├── php-mbstring			{15}
+│   ├── psiconv 			(Installed)
+│   ├── pstotext			(Installed)
+│   ├── py-cairosvg			{23}{4}
+│   ├── py-chardet			(Installed)
+│   ├── py-jpCodecs			(Installed)
+│   ├── py-simplejson			{15}
+│   ├── py-zbase32			(Installed)
+│   ├── py-zfec				{16}
+│   ├── py-zhCodecs			{14}
+│   ├── pyzy				{17}
+│   ├── qkc 				(Installed)
+│   ├── qrencode 			(Installed)
+│   ├── recode 				(Installed)
+│   ├── rpm2cpio 			(Installed)
+│   ├── rss2html 			(Installed)
+│   ├── rtf2html 			(Installed)
+│   ├── ru-d1489 			(Installed)
+│   ├── ruby-Ascii85			{18}
+│   ├── ruby-romkan			{18}
+│   ├── ruby-uconv			{18}
+│   ├── ruby-unf			{18}
+│   ├── ruby-unf_ext			{18}
+│   ├── skf				(Installed)
+│   ├── smbchartool			{19}
+│   ├── TECkit				(Installed)
+│   ├── tex2rtf				{23}{4}
+│   ├── txt2html			(Installed)
+│   ├── txt2man 			(Installed)
+│   ├── txt2pdbdoc 			(Installed)
+│   ├── unix2dos 			(Installable)
+│   ├── uudeview 			(Installed)
+│   ├── uulib 				(Installed)
+│   ├── wv				(Installed){4}
+│   ├── wv2				(Installed){4}
+│   ├── xdeview 			(Installed)
+│   ├── xlhtml				{3}
+│   ├── xlreader 			(Installed)
+│   └── yencode				(Installed){20}
+
+{1} Original error: wanted pixman before it was built
+{2} Compile error: cannot find -ll
+{3} Wants tcsh, but its not built yet
+{4} Original error: wanted gobject-introspection before it was built
+{5} Missing: <sys/signal.h>
+{6} Error in decode.c: conflicting types for 'index'
+{7} Error in ____: Boost headers not found
+{8} Error in xattr.c: undefined reference to 'getxattr'
+{9} Original error: don't know how to make /usr/include/netinet/in.h
+{10} Error in odt2txt.c: undefined references to 'libiconv' 'libiconv_open' 'libiconv_close' 'libiconvlist'
+{11} Compile error: /boost/config/platform/haiku.cpp does not exist
+{12} Error in _____: undefined reference to va_list
+{13} Compile error: cannot find 'iconv'
+{14} Has hard links in source tar
+{15} Link error: fails to build .so
+{16} Error in ____: invalid literal
+{17} Missing: <uuid/uuid.h>
+{18} Wants Ruby, but its not built yet
+{19} Wants P5-text-iconv, but its not built yet
+{20} Original error: error in misc.h: unknown type name: 'u_int64_t'
+{21} Wants php-mbstring, but its not built yet.
+{22} Original error: pkgsrc froze at toolchain wrapper stage
+{23} Wants cairo, but its not built yet

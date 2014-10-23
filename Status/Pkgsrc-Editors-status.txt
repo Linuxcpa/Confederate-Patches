@@ -1,0 +1,170 @@
+├── editors ***163*** ***31 Installed, 1 Installable*** ***Count 32*** ***Pass Complete***
+│   ├── abiword 				{1}
+│   ├── abiword-plugins
+│   ├── beav 					{3}
+│   ├── beaver 					{1}
+│   ├── biew
+│   ├── bvi 					(Installed)
+│   ├── ce 					(Installed)
+│   ├── ce-doc 					(Installed)
+│   ├── ce-x11 					(Installed)
+│   ├── conglomerate
+│   ├── cooledit
+│   ├── dasher
+│   ├── deforaos-editor
+│   ├── dhex 					(Installed)
+│   ├── easyedit
+│   ├── ed 					(Installed)
+│   ├── edt 					(Installed)
+│   ├── elvis 					{2}
+│   ├── elvis-x11
+│   ├── em 					(Installed)
+│   ├── emacs
+│   ├── emacs-nox11
+│   ├── emacs-packages
+│   ├── emacs-snapshot
+│   ├── emacs20
+│   ├── emacs21
+│   ├── emacs21-nox11
+│   ├── emacs22
+│   ├── emacs22-nox11
+│   ├── emacs23
+│   ├── emacs23-nox11
+│   ├── emacs24
+│   ├── emacs24-nox11
+│   ├── ex
+│   ├── fe
+│   ├── gate
+│   ├── gconf-editor
+│   ├── gedit
+│   ├── gedit-python
+│   ├── gedit3
+│   ├── gedit3-spell
+│   ├── ghex
+│   ├── gice
+│   ├── gnuserv
+│   ├── gobby
+│   ├── gtranslator
+│   ├── gummi
+│   ├── heme 					(Installed)
+│   ├── hexedit 				(Installed)
+│   ├── hnb 					(Installed)
+│   ├── javascript-mode
+│   ├── jde
+│   ├── jed 					(Installed)
+│   ├── joe 					(Installed)
+│   ├── jove 					(Installed)
+│   ├── kate
+│   ├── kdissert
+│   ├── kile
+│   ├── kile-kde3
+│   ├── leafpad
+│   ├── leim20
+│   ├── leim21
+│   ├── lpe 					(Installed)
+│   ├── lyx
+│   ├── manedit
+│   ├── matlab-mode
+│   ├── medit
+│   ├── mflteco 				(Installed)
+│   ├── mg
+│   ├── mg2a
+│   ├── mined
+│   ├── mlview
+│   ├── mule
+│   ├── mule-ucs
+│   ├── nano 					(Installed)
+│   ├── ne
+│   ├── nedit
+│   ├── ng
+│   ├── notecase
+│   ├── nts
+│   ├── nvi
+│   ├── nvi-m17n
+│   ├── obby
+│   ├── OmegaT
+│   ├── p5-Acme-Padre-PlayCode
+│   ├── p5-Padre
+│   ├── p5-Padre-Plugin-Autoformat
+│   ├── p5-Padre-Plugin-Catalyst
+│   ├── p5-Padre-Plugin-DataWalker
+│   ├── p5-Padre-Plugin-Debugger
+│   ├── p5-Padre-Plugin-Ecliptic
+│   ├── p5-Padre-Plugin-Encrypt
+│   ├── p5-Padre-Plugin-Git
+│   ├── p5-Padre-Plugin-HG
+│   ├── p5-Padre-Plugin-Kate
+│   ├── p5-Padre-Plugin-Nopaste
+│   ├── p5-Padre-Plugin-PerlCritic
+│   ├── p5-Padre-Plugin-PerlTidy
+│   ├── p5-Padre-Plugin-SpellCheck
+│   ├── p5-Padre-Plugin-SVN
+│   ├── p5-Padre-Plugin-Vi
+│   ├── p5-Padre-Plugin-XS
+│   ├── p5-PPIx-EditorTools 			(Installed)
+│   ├── p5-Wx-Scintilla
+│   ├── pico 					(Installed) {5}
+│   ├── poedit
+│   ├── qgoogletranslator
+│   ├── rox-edit
+│   ├── sam
+│   ├── sandy
+│   ├── scite
+│   ├── se 					(Installed)
+│   ├── Sigil
+│   ├── speedbar
+│   ├── ssam 					(Installed)
+│   ├── tamago
+│   ├── tea
+│   ├── ted
+│   ├── ted-cs
+│   ├── ted-da
+│   ├── ted-de
+│   ├── ted-en-gb
+│   ├── ted-en-us
+│   ├── ted-es
+│   ├── ted-fr
+│   ├── ted-it
+│   ├── ted-nl
+│   ├── ted-no
+│   ├── ted-pl
+│   ├── ted-pt
+│   ├── ted-sv
+│   ├── TeXmacs
+│   ├── TeXmacs-devel
+│   ├── texmaker
+│   ├── texworks
+│   ├── tomboy
+│   ├── tweak 					(Installed)
+│   ├── uemacs
+│   ├── ve
+│   ├── vigor
+│   ├── vile 					(Installed) {4}
+│   ├── vilearn 				(Installed)
+│   ├── vim 					(Installed)
+│   ├── vim-gtk2
+│   ├── vim-lang 				(Installed)
+│   ├── vim-motif
+│   ├── vim-share 				(Installed)
+│   ├── vim-xaw 				(Installable)
+│   ├── wily
+│   ├── xcoral 					(Installed)
+│   ├── xemacs
+│   ├── xemacs-current
+│   ├── xemacs-current-nox11
+│   ├── xemacs-nox11
+│   ├── xemacs-packages
+│   ├── xfce4-mousepad
+│   ├── xjed
+│   ├── xournal
+│   ├── xvile 					(Installed)
+│   ├── xwpe 					(Installed)
+│   ├── yudit 					(Installed)
+│   ├── zile
+│   └── zim
+
+{1} Dependency - GCC3-c
+{2} Undefined references
+{3} Error - missing variables
+{4} GCC4 - Create 2 files in .destdir
+{5} License

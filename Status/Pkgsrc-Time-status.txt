@@ -1,0 +1,198 @@
+├── time ***158*** ***114 Installed, 4 Installable*** ***Count 118*** ***Pass Complete***
+│   ├── abclock					(Installed){1}
+│   ├── anacron					(Installed)
+│   ├── asclock					(Installed)
+│   ├── asclock-gtk				(Installed){2}
+│   ├── asclock-xlib				(Installed)
+│   ├── bbdate					(Installed)
+│   ├── cairo-clock				{31}{30}{3}
+│   ├── cal					{4}
+│   ├── cardboard-schedule			{5}
+│   ├── catclock				{6}
+│   ├── dateutils				(Installed)
+│   ├── dclock					(Installed)
+│   ├── deforaos-todo				{31}{30}{3}
+│   ├── devtodo					(Installed)
+│   ├── emiclock				{7}
+│   ├── etm					{34}{8}
+│   ├── evolution-webcal			{10}{9}
+│   ├── gcal					(Installed)
+│   ├── gchore					{31}{30}{3}
+│   ├── gdeskcal				{31}{30}{3}
+│   ├── glclock					{33}{8}
+│   ├── globe					(Installed)
+│   ├── gnotime					{31}{30}{3}{10}{9}
+│   ├── gnutime					{35}[10}{9}
+│   ├── gnyaclock				(Installed){11}
+│   ├── grdc					{12}
+│   ├── gtodo					{32}{10}{9}
+│   ├── gtodo-applet				{29}{10}{9}
+│   ├── hamster-applet				{31}{30}{3}
+│   ├── hebcal					(Installed)
+│   ├── heirloom-date				{13}
+│   ├── ical					{14}
+│   ├── ical2rem				(Installed)
+│   ├── jday					(Installed)
+│   ├── kronolith				{15}
+│   ├── ktimer					{28}{8}
+│   ├── leapsunpack				(Installed)
+│   ├── libgcal					(Installed){16}
+│   ├── libical					(Installed)
+│   ├── lmclock					(Installed){11}
+│   ├── logtime					(Installed)
+│   ├── ocaml-calendar				{26}
+│   ├── oclock					(Installed)
+│   ├── p5-Calendar-Simple			(Installed)
+│   ├── p5-Convert-NLS_DATE_FORMAT		(Installed)
+│   ├── p5-Data-ICal				(Installed)
+│   ├── p5-Data-ICal-DateTime			(Installed)
+│   ├── p5-Date-Extract				(Installed)
+│   ├── p5-Date-ICal				(Installed)
+│   ├── p5-Date-Leapyear			(Installed)
+│   ├── p5-DateTime				(Installed)
+│   ├── p5-DateTime-Calendar-Discordian		(Installed)
+│   ├── p5-DateTime-Calendar-Mayan		(Installed)
+│   ├── p5-DateTime-Event-Cron			(Installed)
+│   ├── p5-DateTime-Event-ICal			(Installed)
+│   ├── p5-DateTime-Event-Random		(Installed)
+│   ├── p5-DateTime-Event-Recurrence		(Installed)
+│   ├── p5-DateTime-Format-Builder		(Installed)
+│   ├── p5-DateTime-Format-DateManip		(Installed)
+│   ├── p5-DateTime-Format-DateParse		(Installed)
+│   ├── p5-DateTime-Format-Epoch		(Installed)
+│   ├── p5-DateTime-Format-Flexible		(Installed)
+│   ├── p5-DateTime-Format-HTTP			(Installed)
+│   ├── p5-DateTime-Format-ICal			(Installed)
+│   ├── p5-DateTime-Format-ISO8601		(Installed)
+│   ├── p5-DateTime-Format-Mail			(Installed)
+│   ├── p5-DateTime-Format-MySQL		(Installed)
+│   ├── p5-DateTime-Format-Natural		(Installed)
+│   ├── p5-DateTime-Format-Oracle		(Installed)
+│   ├── p5-DateTime-Format-Pg			(Installed)
+│   ├── p5-DateTime-Format-SQLite		(Installed)
+│   ├── p5-DateTime-Format-Strptime		(Installed)
+│   ├── p5-DateTime-Format-W3CDTF		(Installed)
+│   ├── p5-DateTime-Locale			(Installed)
+│   ├── p5-DateTime-Precise			(Installed)
+│   ├── p5-DateTime-Set				(Installed)
+│   ├── p5-DateTime-TimeZone			(Installed)
+│   ├── p5-DateTimeX-Easy			(Installed)
+│   ├── p5-MooseX-Types-DateTime		(Installed)
+│   ├── p5-MooseX-Types-DateTime-ButMaintained	(Installed)
+│   ├── p5-MooseX-Types-DateTimeX		(Installed)
+│   ├── p5-Net-Google-Calendar			(Installed)
+│   ├── p5-Olson-Abbreviations			(Installed)
+│   ├── p5-Rose-DateTime			(Installed)
+│   ├── p5-Schedule-At				(Installed)
+│   ├── p5-Schedule-Cron-Events			(Installed)
+│   ├── p5-Template-Plugin-DateTime		(Installed)
+│   ├── p5-Test-MockTime			(Installed)
+│   ├── p5-Time-Clock				(Installed)
+│   ├── p5-Time-Duration			(Installed)
+│   ├── p5-Time-Duration-Parse			(Installed)
+│   ├── p5-Time-Elapsed				(Installed)
+│   ├── p5-Time-Format				(Installed)
+│   ├── p5-Time-Format_XS			(Installed)
+│   ├── p5-Time-HiRes				(Installed)
+│   ├── p5-Time-Interval			(Installed)
+│   ├── p5-Time-Local				(Installed)
+│   ├── p5-Time-modules				(Installed)
+│   ├── p5-Time-Period				(Installed)
+│   ├── p5-Time-Piece				(Installed)
+│   ├── p5-Time-Progress			(Installed)
+│   ├── p5-Time-TAI64				(Installed)
+│   ├── p5-Time-Warp				(Installed)
+│   ├── p5-TimeDate				(Installed)
+│   ├── pcal					(Installed)
+│   ├── pclock					(Installed)
+│   ├── pear-Date				{Installed){15}
+│   ├── phoon					(Installed)
+│   ├── php-calendar				{15}
+│   ├── plan					{36}{6}
+│   ├── planner					{31}{30}{3}{10}{9}
+│   ├── polclock				(Installed){11}
+│   ├── projclock				(Installed)
+│   ├── ptimetracker				{37}{8}
+│   ├── py-arrow				(Installed)
+│   ├── py-dateutil				(Installed) [x2]
+│   ├── py-dateutil2				{17}
+│   ├── py-goocalendar				{31}{30}{3}
+│   ├── py-icalendar				(Installed)
+│   ├── py-iso8601				(Installed) [x2]
+│   ├── py-mxDateTime				(Installed)
+│   ├── py-parsedatetime			(Installed)
+│   ├── py-pytz					(Installed) [x2]
+│   ├── py-trytond-calendar			{18}
+│   ├── rclock					(Installed)
+│   ├── rem2ics					(Installed)
+│   ├── remind					(Installed)
+│   ├── rsibreak				{28}{8}
+│   ├── rsibreak-kde3				{37}{8}
+│   ├── ruby-tzinfo				{19}
+│   ├── sunclock				(Installed){11}
+│   ├── swisswatch				(Installed)
+│   ├── tdl					(Installed)
+│   ├── titrax					(Installed){11}
+│   ├── vixie-cron				{20}
+│   ├── wmCalClock				(Installed)
+│   ├── wmclockmon				{38}
+│   ├── wmfishtime				(Installed){2}
+│   ├── wmitime					(Installed)
+│   ├── wmmoonclock				(Installed)
+│   ├── wmtime					(Installed)
+│   ├── wmzcalock				(Installed){21}
+│   ├── wxRemind				{34}{8}
+│   ├── wyrd					{22}
+│   ├── xalarm					{23}
+│   ├── xbeats					{27}{11}
+│   ├── xcal					(Installable){11}
+│   ├── xchrono					{24}
+│   ├── xclock					(Installed)
+│   ├── xdaliclock				(Installed)
+│   ├── xdkcal					(Installed)
+│   ├── xfce4-datetime-plugin			{31}{30}{3}
+│   ├── xfce4-orage				{31}{30}{3}
+│   ├── xfce4-timer-plugin			{31}{30}{3}
+│   ├── xonclock				{25}
+│   ├── xtide					(Installed)
+│   ├── xtimer					(Installed){11}
+│   ├── xtu					(Installed)
+
+{1} Original error: wanted gcc3-c (hybrid only)
+{2} Original error: wanted glib1 before it was built
+{3} Original error: wanted gobject-introspection before it was built
+{4} Error in cal.c: undefined reference to 'stricmp'
+{5} Wants kaffe, but its not built yet
+{6} Wants motif, but its not built yet
+{7} Pkgsrc error: source not fetchable
+{8} Original error: wanted glu before it was built
+{9} Original error: wanted libIDL before it was built
+{10} Original error: wanted orbit2 before it was built
+{11) Original error: don't know how to make libXaw.a. Solution: change to libXaw6.a
+{12} Error in grdc.c, undefined reference to 'errorx'
+{13} Missing: utmpx.c
+{14} Error in uid.c: undefined reference to gethostid() *-lnetwork?*
+{15} Original error: wanted php54 before it was built
+{16} Original error: wanted check before it was built
+{17} Compile error: Invalid literal in python build
+{18} Wants py-lxml, but its not built yet
+{19} Wants ruby, but its not built yet
+{20} Missing: <sys/fcntl.h>
+{21} Original error: compile error: can't find -lc
+{22} Compile error: error while running structural preprocessor caml4po
+{23} Wants skill, but its not built yet
+{24} Error in multiclock.c: undefined reference to 'tzgetwall'
+{25} Error in cache.c: undefined reference to 'XRenderFindStandardFormat'
+{26} Compile error: run configure -h for help
+{27} Link error: can't find Xext
+{28} Wants qt4-libs, but its not built yet
+{29} Wants gtodo, but its not built yet
+{30} Original error: wanted pixman before it was built
+{31} Wants cairo, but its not built yet
+{32} Wants fam, but its not built yet
+{33} Wants glut, but its not built yet
+{34} Wants orc, but its not built yet
+{35} Error in time.c: struct rusage redefined resuse.h
+{36} Build error: fails to build .so
+{37} Wants qt3-libs, but its not built yet
+{38} Compile error: Haiku not supported
