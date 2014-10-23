@@ -1,0 +1,4348 @@
+~/pkgsrc/pkgsrc> cd chat/
+~/pkgsrc/pkgsrc/chat> do
+===> amsn
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Creating binary package /boot/home/packages/amsn-0.98.3nb14.tgz
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/TkCximage/TkCximage.so'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/TkCximage/pkgIndex.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/asyncresolver/asyncresolver.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/asyncresolver/libasyncresolver.so'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/asyncresolver/pkgIndex.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/tclISF/pkgIndex.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/tclISF/tclISF.so'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/tcl_siren/pkgIndex.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/tcl_siren/tcl_siren.so'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/webcamsn/pkgIndex.tcl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/amsn/work/.destdir/boot/home/pkg/share/amsn/utils/webcamsn/webcamsn.so'
+pkg_create: lstat failed for file share/amsn/utils/TkCximage/TkCximage.so: No such file or directory
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/amsn
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/amsn
+===> bitchx
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ircii-pana-1.1-final.tar.gz
+=> Total size: 2532476 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   414    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   395    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2473k  100 2473k    0     0   439k      0  0:00:05  0:00:05 --:--:--  594k
+===> Building for bitchx-1.1nb7
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+cd source  && make 'local_dir=/boot/home/pkgsrc/pkgsrc/chat/bitchx/work/.home'              'INSTALL_IRC=/boot/home/pkg/bin/BitchX'                  'IRCLIB=/boot/home/pkg/share/bx'   'CC=gcc'                                         'CFLAGS=-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -Wall'                                 'HELPDIR=/boot/home/pkg/share/bx/help'                              'INSTALL_WSERV=/boot/home/pkg/share/bx/wserv'                 'IRCPATH=~/.BitchX:~/.BitchX/plugins:.:/boot/home/pkg/lib/bx/plugins:/boot/home/pkg/share/bx/script:/boot/home/pkg/share/bx'                              'TRANSLATION_PATH=/boot/home/pkg/share/bx/translation'              'LDFLAGS=-L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib'                           'LIBS=-lncurses -lssl -lm  -lcrypto'                                        'LN=ln -s'                                      'RM=rm -f'                                  'TCL_SRCS='                             'TCL_OBJS= 'CD_PLAY='                               'CD_SRCS='                              'CD_OBJS=' 'TCL_LIBS='                              'PLUGINDIR=/boot/home/pkg/lib/bx/plugins'          '_VERSION_=BitchX'                       'VERSION=BitchX-1.1-final'                         'INSTALL_DATA=/bin/install -c -o user -g root -m 644'                    'INSTALL_SCRIPT=/boot/home/pkg/share/bx/script'             'EXEEXT='                               'SHLIB_CFLAGS='                     'SHLIB_SUFFIX=.so'  all
+gcc -I. -I/boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/include -I../include -I. -I./include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -Wall -c alias.c
+In file included from /boot/system/develop/headers/bsd/string.h:9:0,
+                 from /boot/system/develop/headers/posix/sys/select.h:47,
+                 from /boot/system/develop/headers/posix/sys/time.h:17,
+                 from /boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/include/irc.h:70,
+                 from alias.c:12:
+/boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/include/irc_std.h:210:6: error: expected declaration specifiers or '...' before '(' token
+ void bcopy (const void *src, void *dest, size_t n);
+      ^
+/boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/include/irc_std.h:210:6: error: expected declaration specifiers or '...' before '(' token
+ void bcopy (const void *src, void *dest, size_t n);
+      ^
+/boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/include/irc_std.h:210:6: error: expected declaration specifiers or '...' before '(' token
+ void bcopy (const void *src, void *dest, size_t n);
+      ^
+
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX/source
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bitchx/work/BitchX
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bitchx
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bitchx
+===> bitlbee
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+                          ^
+make[4]: *** [common.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/x509'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bitlbee
+===> blackened
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching blackened-1.7.1.tar.gz
+=> Total size: 675752 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  659k  100  659k    0     0    99k      0  0:00:06  0:00:06 --:--:--  165k
+===> Extracting for blackened-1.7.1nb1
+/bin/tar: blackened-1.7.1/include/config.h.dist: Cannot hard link to `blackened-1.7.1/include/config.h': Operation not supported
+/bin/tar: Exiting with failure status due to previous errors
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/blackened
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/blackened
+===> bnc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for bnc-2.9.4nb4
+gcc -Wno-error -I/boot/home/pkg/include -Wno-error -include config.h -o mkpasswd mkpasswd.c -lssl -lnetwork -lsocket -lnsl -lssl -lcrypto
+/tmp//cc87uDt2.o: In function `main':
+mkpasswd.c:(.text+0x1fb): undefined reference to `getpass'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bnc/work/bnc2.9.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bnc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/bnc
+===> centerim
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/sox
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/centerim
+===> ctrlproxy
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ctrlproxy-3.0.8nb4
+In file included from src/ctrlproxy.h:27:0,
+                 from src/internals.h:44,
+                 from src/network.c:20:
+/boot/home/pkgsrc/pkgsrc/chat/ctrlproxy/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ctrlproxy
+===> eggdrop
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for eggdrop-1.6.21nb2
+
+This may take a while. Go get some runts.
+
+
+---------- Yeah! That's the compiling, now the linking! ----------
+
+Linking eggdrop (standard build).
+
+gcc -o ../eggdrop bg.o botcmd.o botmsg.o botnet.o chanprog.o cmds.o dcc.o  dccutil.o dns.o flags.o language.o match.o main.o mem.o misc.o misc_file.o  modules.o net.o rfc1459.o tcl.o tcldcc.o tclhash.o tclmisc.o tcluser.o  userent.o userrec.o users.o  -Wl,-R/boot/home/pkg/lib -L/boot/home/pkg/lib -ltcl86 -lm -ldl -lsocket -lnetwork -lsupc++ md5/md5c.o compat/*.o `cat mod/mod.xlibs`
+touch ../eggdrop
+
+Successful compile: eggdrop
+
+gcc -R /boot/home/pkg/lib -o ../../../assoc.so ../assoc.o -L/boot/home/pkg/lib -ltcl86 -lm -ldl -lsocket -lnetwork -lsupc++ 
+/boot/system/develop/lib/start_dyn.o: In function `_start':
+start_dyn.c:(.text+0x4c): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/eggdrop/work/eggdrop1.6.21/src/mod/assoc.mod
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/eggdrop/work/eggdrop1.6.21/src/mod
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/eggdrop/work/eggdrop1.6.21
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/eggdrop
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/eggdrop
+===> ejabberd
+                                                      ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/p5-GSSAPI
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/p5-Authen-SASL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/git-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ejabberd
+===> ekg
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ekg-1.7.tar.gz
+=> Total size: 530314 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file ekg-1.7.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  517k  100  517k    0     0   161k      0  0:00:03  0:00:03 --:--:--  182k
+===> Building for ekg-1.7nb8
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+cd lib && /boot/home/pkgsrc/pkgsrc/chat/ekg/work/.tools/bin/gmake all
+gmake[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ekg/work/ekg-1.7/lib'
+libtool  --mode=link gcc  -o libgadu.la common.lo libgadu.lo pubdir.lo http.lo dcc.lo events.lo pubdir50.lo obsolete.lo -rpath /boot/home/pkg/lib -version-info 3:5
+libtool: link: rm -fr  .libs/libgadu.a .libs/libgadu.la .libs/libgadu.lai .libs/libgadu.lai.blsav .libs/libgadu.so .libs/libgadu.so.3 .libs/libgadu.so.3.0.5
+libtool: link: gcc -shared  .libs/common.o .libs/libgadu.o .libs/pubdir.o .libs/http.o .libs/dcc.o .libs/events.o .libs/pubdir50.o .libs/obsolete.o   -L/boot/home/pkgsrc/pkgsrc/chat/ekg/work/.buildlink/lib    -Wl,-soname -Wl,libgadu.so.3 -o .libs/libgadu.so.3.0.5
+libtool: link: (cd ".libs" && rm -f "libgadu.so.3" && ln -s "libgadu.so.3.0.5" "libgadu.so.3")
+libtool: link: (cd ".libs" && rm -f "libgadu.so" && ln -s "libgadu.so.3.0.5" "libgadu.so")
+libtool: link: ar cru .libs/libgadu.a  common.o libgadu.o pubdir.o http.o dcc.o events.o pubdir50.o obsolete.o
+libtool: link: ranlib .libs/libgadu.a
+libtool: link: ( cd ".libs" && rm -f "libgadu.la" && ln -s "../libgadu.la" "libgadu.la" )
+gcc  -shared -Wl,-soname,libgadu.so.3 -o libgadu.so.3.5 common.lo libgadu.lo pubdir.lo http.lo dcc.lo events.lo pubdir50.lo obsolete.lo -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lssl -lcrypto    -lsocket -lc
+common.lo: file not recognized: File format not recognized
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [libgadu.so.3.5] Error 1
+gmake[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ekg/work/ekg-1.7/lib'
+make: *** [libgadu] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ekg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ekg
+===> emacs-jabber
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/emacs-jabber
+===> empathy
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+Making all in doc
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in public
+/boot/home/pkg/bin/bmake  all-am
+Making all in util
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in .
+Making all in cairo-missing
+Making all in cairo-gobject
+  CC     libcairo_gobject_la-cairo-gobject-enums.lo
+In file included from cairo-gobject-enums.c:8:0:
+cairo-gobject.h:47:25: fatal error: glib-object.h: No such file or directory
+ #include <glib-object.h>
+                         ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-gobject
+Making all in cairo-script
+Making all in examples
+bmake: don't know how to make ../../src/libcairo.la. Stop
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-script
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-script
+Making all in cairo-sphinx
+  CC     cairo_sphinx-sphinx.o
+sphinx.c:24:41: fatal error: glib.h: No such file or directory
+ #include <glib.h> /* for checksumming */
+                                         ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-sphinx
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util
+Making all in boilerplate
+/boot/home/pkg/bin/bmake  all-am
+Making all in test
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pdiff
+/boot/home/pkg/bin/bmake  all-am
+Making all in .
+  CC     cairo_test_suite-cairo-test.o
+cairo-test.c: In function '_cairo_test_init':
+cairo-test.c:153:5: error: implicit declaration of function 'feenableexcept' [-Werror=implicit-function-declaration]
+     feenableexcept (FE_DIVBYZERO | FE_INVALID | FE_OVERFLOW);
+     ^
+cairo-test.c:153:5: warning: nested extern declaration of 'feenableexcept' [-Wnested-externs]
+cc1: some warnings being treated as errors
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+Making all in perf
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in micro
+/boot/home/pkg/bin/bmake  all-am
+cd ../src && /boot/home/pkg/bin/bmake  libcairo.la
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/libcanberra
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/empathy
+===> epic4
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for epic4-2.10.2nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -I./../include -I../include -Wno-error -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include  -c exec.c
+In file included from exec.c:108:0:
+./../include/sig.inc:1:14: error: conflicting types for 'sys_siglist'
+ static char *sys_siglist[] = { "ZERO"};
+              ^
+In file included from /boot/system/develop/headers/bsd/signal.h:9:0,
+                 from ./../include/irc_std.h:43,
+                 from ./../include/irc.h:28,
+                 from exec.c:37:
+/boot/system/develop/headers/posix/signal.h:218:26: note: previous declaration of 'sys_siglist' was here
+ extern const char* const sys_siglist[NSIG];
+                          ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4/work/epic4-2.10.2/source
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4/work/epic4-2.10.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4
+===> epic4-doc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching epic4-help-20050315.tar.gz
+=> Total size: 332502 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  324k  100  324k    0     0  59574      0  0:00:05  0:00:05 --:--:-- 72630
+===> Installing dependencies for epic4-doc-1.0.20050315
+=> Full dependency epic4>=2.0: NOT found
+=> Verifying reinstall for ../../chat/epic4
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for epic4-2.10.2nb1
+gcc -I./../include -I../include -Wno-error -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include  -c exec.c
+In file included from exec.c:108:0:
+./../include/sig.inc:1:14: error: conflicting types for 'sys_siglist'
+ static char *sys_siglist[] = { "ZERO"};
+              ^
+In file included from /boot/system/develop/headers/bsd/signal.h:9:0,
+                 from ./../include/irc_std.h:43,
+                 from ./../include/irc.h:28,
+                 from exec.c:37:
+/boot/system/develop/headers/posix/signal.h:218:26: note: previous declaration of 'sys_siglist' was here
+ extern const char* const sys_siglist[NSIG];
+                          ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4/work/epic4-2.10.2/source
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4/work/epic4-2.10.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/epic4-doc
+===> finch
+=> Verifying reinstall for ../../devel/nss
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for nss-3.16.1nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency sqlite3>=3.8.4.3nb1: found sqlite3-3.8.5
+=> Full dependency nspr>=4.9.3.2: NOT found
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/finch
+===> gajim
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gajim
+===> gale
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for boehm-gc-7.4.2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/boehm-gc/work/gc-7.4.2'
+depbase=`echo allchblk.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H   -I./include -I./include -I/boot/home/pkg/include  -I/boot/home/pkg/include -fexceptions -Wall -Wextra -Wno-error -I/boot/home/pkg/include -fno-strict-aliasing -MT allchblk.lo -MD -MP -MF $depbase.Tpo -c -o allchblk.lo allchblk.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I./include -I/boot/home/pkgsrc/pkgsrc/devel/boehm-gc/work/.buildlink/include -fexceptions -Wall -Wextra -fno-strict-aliasing -MT allchblk.lo -MD -MP -MF .deps/allchblk.Tpo -c allchblk.c  -DPIC -o .libs/allchblk.o
+In file included from ./include/private/gc_priv.h:94:0,
+                 from allchblk.c:17:
+./include/private/gcconfig.h:570:5: error: #error "The collector has not been ported to this machine/OS combination."
+ #   error "The collector has not been ported to this machine/OS combination."
+     ^
+./include/private/gcconfig.h:2541:3: error: #error --> undefined ALIGNMENT
+ # error --> undefined ALIGNMENT
+   ^
+make[1]: *** [allchblk.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/boehm-gc/work/gc-7.4.2'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/boehm-gc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/boehm-gc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gale
+===> gg2
+checking for ARTS artsc - version >= 0.9.5... no
+*** The artsc-config script installed by ARTS could not be found
+*** If ARTS was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the ARTS_CONFIG environment variable to the
+*** full path to artsc-config.
+configure: error: Could not find a support sound driver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+WARNING: *** Please consider adding fortran to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gg2
+===> gloox
+
+=> Verifying reinstall for ../../security/gnutls
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gnutls-3.2.15
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+Making all in gl
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+/bin/make  all-recursive
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+Making all in tests
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+/bin/make  all-recursive
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+Making all in .
+make[6]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+make[6]: Nothing to be done for `all-am'.
+make[6]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl/tests'
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+Making all in lib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+/bin/make  all-recursive
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+Making all in includes
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/includes'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/includes'
+Making all in x509
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/x509'
+  CC       common.lo
+In file included from /boot/home/pkg/include/stdio_pre.h:13:0,
+                 from /boot/home/pkg/include/stdio.h:57,
+                 from ./../../gl/stdio.h:43,
+                 from ./../gnutls_int.h:33,
+                 from common.c:23:
+/boot/home/pkg/include/libio.h:204:50: error: unknown type name 'va_list'
+ extern int _IO_vfscanf(_IO_FILE *, const char *, va_list, int *);
+                                                  ^
+/boot/home/pkg/include/libio.h:205:51: error: unknown type name 'va_list'
+ extern int _IO_vfprintf(_IO_FILE *, const char *, va_list);
+                                                   ^
+In file included from ./../../gl/stdio.h:43:0,
+                 from ./../gnutls_int.h:33,
+                 from common.c:23:
+/boot/home/pkg/include/stdio.h:159:41: error: unknown type name 'va_list'
+ extern int  vprintf(char const *format, va_list ap);
+                                         ^
+/boot/home/pkg/include/stdio.h:160:56: error: unknown type name 'va_list'
+ extern int  vfprintf(FILE *stream, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:161:56: error: unknown type name 'va_list'
+ extern int  vsprintf(char *string, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:162:70: error: unknown type name 'va_list'
+ extern int  vsnprintf(char *string, size_t size, char const *format, va_list ap);
+                                                                      ^
+/boot/home/pkg/include/stdio.h:163:55: error: unknown type name 'va_list'
+ extern int  vasprintf(char **ret, char const *format, va_list ap);
+                                                       ^
+/boot/home/pkg/include/stdio.h:168:40: error: unknown type name 'va_list'
+ extern int  vscanf(char const *format, va_list ap);
+                                        ^
+/boot/home/pkg/include/stdio.h:169:58: error: unknown type name 'va_list'
+ extern int  vsscanf(char const *str, char const *format, va_list ap);
+                                                          ^
+/boot/home/pkg/include/stdio.h:170:55: error: unknown type name 'va_list'
+ extern int  vfscanf(FILE *stream, char const *format, va_list ap);
+                                                       ^
+In file included from ./../../gl/wchar.h:79:0,
+                 from ./../../gl/stdint.h:554,
+                 from ./../gnutls_int.h:36,
+                 from common.c:23:
+/boot/home/pkg/include/wchar.h:82:60: error: unknown type name 'va_list'
+ extern int  vfwprintf(FILE *stream, const wchar_t *format, va_list arg);
+                                                            ^
+/boot/home/pkg/include/wchar.h:83:59: error: unknown type name 'va_list'
+ extern int  vfwscanf(FILE *stream, const wchar_t *format, va_list arg);
+                                                           ^
+/boot/home/pkg/include/wchar.h:85:29: error: unknown type name 'va_list'
+      const wchar_t *format, va_list arg);
+                             ^
+/boot/home/pkg/include/wchar.h:87:6: error: unknown type name 'va_list'
+      va_list arg);
+      ^
+/boot/home/pkg/include/wchar.h:88:45: error: unknown type name 'va_list'
+ extern int  vwprintf(const wchar_t *format, va_list arg);
+                                             ^
+/boot/home/pkg/include/wchar.h:89:44: error: unknown type name 'va_list'
+ extern int  vwscanf(const wchar_t *format, va_list arg);
+                                            ^
+In file included from /boot/home/pkg/include/zlib.h:34:0,
+                 from ./../gnutls_compress.h:33,
+                 from ./../gnutls_int.h:480,
+                 from common.c:23:
+/boot/home/pkg/include/zlib.h:1760:51: error: unknown type name 'va_list'
+                                                   va_list va));
+                                                   ^
+/boot/home/pkg/include/zconf.h:275:26: note: in definition of macro 'Z_ARG'
+ #    define Z_ARG(args)  args
+                          ^
+make[4]: *** [common.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/x509'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gloox
+===> gnomeicu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+Making all in doc
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in public
+/boot/home/pkg/bin/bmake  all-am
+Making all in util
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in .
+Making all in cairo-missing
+Making all in cairo-gobject
+  CC     libcairo_gobject_la-cairo-gobject-enums.lo
+In file included from cairo-gobject-enums.c:8:0:
+cairo-gobject.h:47:25: fatal error: glib-object.h: No such file or directory
+ #include <glib-object.h>
+                         ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-gobject
+Making all in cairo-script
+Making all in examples
+bmake: don't know how to make ../../src/libcairo.la. Stop
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-script
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-script
+Making all in cairo-sphinx
+  CC     cairo_sphinx-sphinx.o
+sphinx.c:24:41: fatal error: glib.h: No such file or directory
+ #include <glib.h> /* for checksumming */
+                                         ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util/cairo-sphinx
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/util
+Making all in boilerplate
+/boot/home/pkg/bin/bmake  all-am
+Making all in test
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pdiff
+/boot/home/pkg/bin/bmake  all-am
+Making all in .
+  CC     cairo_test_suite-cairo-test.o
+cairo-test.c: In function '_cairo_test_init':
+cairo-test.c:153:5: error: implicit declaration of function 'feenableexcept' [-Werror=implicit-function-declaration]
+     feenableexcept (FE_DIVBYZERO | FE_INVALID | FE_OVERFLOW);
+     ^
+cairo-test.c:153:5: warning: nested extern declaration of 'feenableexcept' [-Wnested-externs]
+cc1: some warnings being treated as errors
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/test
+Making all in perf
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in micro
+/boot/home/pkg/bin/bmake  all-am
+cd ../src && /boot/home/pkg/bin/bmake  libcairo.la
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/perf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libglade
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gnomeicu
+===> gossip
+=> Verifying reinstall for ../../chat/loudmouth
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching loudmouth-1.4.3.tar.bz2
+=> Total size: 366818 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  358k  100  358k    0     0   130k      0  0:00:02  0:00:02 --:--:--  154k
+===> Building for loudmouth-1.4.3nb9
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+Making all in loudmouth
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -DLM_NO_DEBUG -I/boot/home/pkg/include  -DLM_COMPILATION -DRUNTIME_ENDIAN  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -Wall  -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c -o lm-connection.lo lm-connection.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/lib/glib-2.0/include -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include -DLM_NO_DEBUG -DLM_COMPILATION -DRUNTIME_ENDIAN -Wall -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c lm-connection.c  -DPIC -o .libs/lm-connection.o
+In file included from lm-connection.c:38:0:
+/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[2]: *** [lm-connection.lo] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+Making all in docs
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs'
+Making all in reference
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs/reference'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs/reference'
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/docs'
+Making all in examples
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/examples'
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -DLM_NO_DEBUG  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -Wall  -MT test-lm.o -MD -MP -MF .deps/test-lm.Tpo -c -o test-lm.o test-lm.c
+In file included from test-lm.c:26:0:
+/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[2]: *** [test-lm.o] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/examples'
+Making all in tests
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests'
+Making all in parser-tests
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests/parser-tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests/parser-tests'
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/tests'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/gossip
+===> i2cb
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching i2cb-6.0_ALPHA.tar.gz
+=> Total size: 73607 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file i2cb-6.0_ALPHA.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 73607  100 73607    0     0  16858      0  0:00:04  0:00:04 --:--:-- 17874
+===> Building for i2cb-6.0_ALPHAnb7
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Making in src
+gcc -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -Wno-error -Wall -g -I/boot/home/pkg/include -I/boot/home/pkg/include/tcl/generic -DLOCALBASE=\"/boot/home/pkg\" -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -c globals.c
+In file included from globals.c:8:0:
+ipcf.h:19:1: error: unknown type name 'fd_set'
+ extern fd_set fdset;  /* player fd set for select() */
+ ^
+globals.c:72:1: error: unknown type name 'fd_set'
+ fd_set fdset;   /* player fd set for select() */
+ ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cb/work/icb/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cb/work/icb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cb
+===> i2cbd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching i2cbd-2.0_BETA5.tar.gz
+=> Total size: 59158 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 59158  100 59158    0     0  70651      0 --:--:-- --:--:-- --:--:--  125k
+===> Building for i2cbd-2.0_BETA5nb3
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Making in src
+gcc -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Werror -Wcast-qual -Wcast-align  -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations  -Wnested-externs -DDEBUG -DVERBOSE -g -DPREFIX=\"/boot/home/pkg\" -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc/icbd\" -I..  -c globals.c
+globals.c:107:1: error: unknown type name 'fd_set'
+ fd_set fdset;   /* player fd set for select() */
+ ^
+globals.c:108:1: error: unknown type name 'fd_set'
+ fd_set serversocks;
+ ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cbd/work/i2cbd-2.0_BETA5/src
+Making in util
+gcc -Wall -ansi -pedantic -Wshadow -Wpointer-arith -Werror -Wcast-qual -Wcast-align  -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations  -Wnested-externs -DDEBUG -DVERBOSE -g -DPREFIX=\"/boot/home/pkg\" -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc/icbd\" -I.. -I../src -o icbdb icbdb.c ../src/userdb.c -lutil 
+icbdb.c:7:16: fatal error: db.h: No such file or directory
+ #include <db.h>
+                ^
+compilation terminated.
+../src/userdb.c:5:16: fatal error: db.h: No such file or directory
+ #include "db.h"
+                ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cbd/work/i2cbd-2.0_BETA5/util
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cbd/work/i2cbd-2.0_BETA5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cbd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/i2cbd
+===> icb
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching icb-5.0.9.tar.gz
+=> Total size: 357565 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file icb-5.0.9.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  349k  100  349k    0     0  66710      0  0:00:05  0:00:05 --:--:-- 84271
+===> Building for icb-5.0.9pl1nb6
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Making in murgil
+cc -O2  -DNO_LRAND48 -DSTRINGS_H -DTIME_H -DVOID_SIGHANDLER=1 -I/boot/home/pkg/include/ncurses -c contoport.c
+In file included from contoport.c:14:0:
+externs.h:8:1: error: unknown type name 'fd_set'
+ extern fd_set fdset;  /* player fd set for select() */
+ ^
+externs.h:9:1: error: unknown type name 'fd_set'
+ extern fd_set ignorefds;  /* fds that are not to be polled */
+ ^
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb/work/icb-5.0.9/murgil
+Making in tcl
+cc -O2  -DNO_LRAND48 -DSTRINGS_H -DTIME_H -DVOID_SIGHANDLER=1 -I. -DTCL_VERSION=\"3.3\" -I/boot/home/pkg/include/ncurses -c tclCmdAH.c
+In file included from tclCmdAH.c:30:0:
+./stdlib.h:72:9: warning: conflicting types for built-in function 'free' [enabled by default]
+ extern  free();
+         ^
+tclCmdAH.c:33:23: fatal error: sys/errno.h: No such file or directory
+ #include <sys/errno.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb/work/icb-5.0.9/tcl
+Making in readline
+Making in icb
+cc -O2  -DNO_LRAND48 -DSTRINGS_H -DTIME_H -DVOID_SIGHANDLER=1 -I/boot/home/pkg/include/ncurses -c tcl.c
+In file included from icb.h:94:0,
+                 from tcl.c:11:
+protos.h:71:23: warning: 'struct _iobuf' declared inside parameter list [enabled by default]
+ int linebuffer(struct _iobuf *fp);
+                       ^
+protos.h:71:23: warning: its scope is only this definition or declaration, which is probably not what you want [enabled by default]
+tcl.c: In function 'getrcname':
+tcl.c:147:23: error: 'F_OK' undeclared (first use in this function)
+   if (access(rcfile, (F_OK | R_OK)) < 0) {
+                       ^
+tcl.c:147:23: note: each undeclared identifier is reported only once for each function it appears in
+tcl.c:147:30: error: 'R_OK' undeclared (first use in this function)
+   if (access(rcfile, (F_OK | R_OK)) < 0) {
+                              ^
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb/work/icb-5.0.9/icb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb/work/icb-5.0.9
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/icb
+===> icbirc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for icbirc-1.8nb1
+cd /boot/home/pkgsrc/pkgsrc/chat/icbirc/work/icbirc && gcc -Wno-error    -c icb.c
+cd /boot/home/pkgsrc/pkgsrc/chat/icbirc/work/icbirc && gcc -Wno-error    -c irc.c
+cd /boot/home/pkgsrc/pkgsrc/chat/icbirc/work/icbirc && gcc -Wno-error    -c icbirc.c
+cd /boot/home/pkgsrc/pkgsrc/chat/icbirc/work/icbirc && gcc -Wno-error      -Wl,-R/boot/home/pkg/lib -o icbirc icb.o irc.o icbirc.o
+icbirc.o: In function `.L6':
+icbirc.c:(.text+0x192): undefined reference to `inet_addr'
+icbirc.c:(.text+0x1b1): undefined reference to `gethostbyname'
+icbirc.c:(.text+0x1c2): undefined reference to `__h_errno'
+icbirc.c:(.text+0x1cd): undefined reference to `hstrerror'
+icbirc.c:(.text+0x22a): undefined reference to `socket'
+icbirc.c:(.text+0x2a7): undefined reference to `setsockopt'
+icbirc.c:(.text+0x2ed): undefined reference to `inet_addr'
+icbirc.c:(.text+0x325): undefined reference to `bind'
+icbirc.c:(.text+0x366): undefined reference to `inet_ntoa'
+icbirc.c:(.text+0x399): undefined reference to `listen'
+icbirc.c:(.text+0x3db): undefined reference to `daemon'
+icbirc.c:(.text+0x515): undefined reference to `accept'
+icbirc.c:(.text+0x56a): undefined reference to `inet_ntoa'
+icbirc.o: In function `handle_client':
+icbirc.c:(.text+0x691): undefined reference to `inet_ntoa'
+icbirc.c:(.text+0x6d3): undefined reference to `inet_ntoa'
+icbirc.c:(.text+0x6f8): undefined reference to `socket'
+icbirc.c:(.text+0x72f): undefined reference to `connect'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/icbirc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/icbirc
+===> inspircd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching InspIRCd-1.1.23.tar.bz2
+=> Total size: 505853 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file InspIRCd-1.1.23.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  493k  100  493k    0     0  88228      0  0:00:05  0:00:05 --:--:--  111k
+===> Building for inspircd-1.1.23nb15
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+*************************************
+*       BUILDING INSPIRCD           *
+*                                   *
+*   This will take a *long* time.   *
+*     Why not read our wiki at      *
+*   http://www.inspircd.org/wiki    *
+*  while you wait for make to run?  *
+*************************************
+make -C src DIRNAME="src" 'PROGS=inspircd' 'FLAGS=-fno-strict-aliasing -fPIC -Wall -Woverloaded-virtual -Wno-deprecated -g1' 'CC=g++' 'LDLIBS=-lstdc++' 'MODULES=m_alias.so m_alltime.so m_antibear.so m_antibottler.so m_auditorium.so m_banexception.so m_banredirect.so m_blockamsg.so m_blockcaps.so m_blockcolor.so m_botmode.so m_cban.so m_censor.so m_cgiirc.so m_chancreate.so m_chanfilter.so m_chanprotect.so m_check.so m_chghost.so m_chgident.so m_chgname.so m_cloaking.so m_clones.so m_close.so m_commonchans.so m_conn_join.so m_conn_umodes.so m_conn_waitpong.so m_connflood.so m_customtitle.so m_cycle.so m_dccallow.so m_deaf.so m_denychans.so m_devoice.so m_dnsbl.so m_filter.so m_foobar.so m_globalload.so m_globops.so m_helpop.so m_hidechans.so m_hideoper.so m_hostchange.so m_httpd.so m_httpd_stats.so m_ident.so m_invisible.so m_inviteexception.so m_joinflood.so m_jumpserver.so m_kicknorejoin.so m_knock.so m_lockserv.so m_md5.so m_messageflood.so m_namesx.so m_nickflood.so m_nicklock.so m_noctcp.so m_noinvite.so m_nokicks.so m_nonicks.so m_nonotice.so m_oper_hash.so m_operchans.so m_operjoin.so m_operlevels.so m_operlog.so m_opermodes.so m_opermotd.so m_override.so m_randquote.so m_redirect.so m_regonlycreate.so m_remove.so m_restrictbanned.so m_restrictchans.so m_restrictmsg.so m_safelist.so m_sajoin.so m_samode.so m_sanick.so m_sapart.so m_saquit.so m_securelist.so m_seenicks.so m_services.so m_services_account.so m_sethost.so m_setident.so m_setidle.so m_setname.so m_sha256.so m_showwhois.so m_silence.so m_silence_ext.so m_spy.so m_ssl_dummy.so m_sslmodes.so m_stripcolor.so m_svshold.so m_swhois.so m_taxonomy.so m_testcommand.so m_timedbans.so m_tline.so m_uhnames.so m_uninvite.so m_userip.so m_vhost.so m_watch.so m_xmlsocket.so m_spanningtree.so ' 'MODPATH=/boot/home/pkg/share/inspircd/modules' 'LIBPATH=/boot/home/pkg/lib/inspircd' 'STATICLIBS=' 'INSTMODE=0755'
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/inspircd/work/inspircd-1.1.23/src'
+g++ -pipe -I../include -fno-strict-aliasing -fPIC -Wall -Woverloaded-virtual -Wno-deprecated -g1 -export-dynamic -c cmd_stats.cpp
+cmd_stats.cpp: In function 'void DoStats(InspIRCd*, char, userrec*, string_list&)':
+cmd_stats.cpp:210:80: error: 'struct rusage' has no member named 'ru_maxrss'
+     results.push_back(sn+" 249 "+user->nick+" :Total allocation: "+ConvToStr(R.ru_maxrss)+"K");
+                                                                                ^
+cmd_stats.cpp:211:80: error: 'struct rusage' has no member named 'ru_nsignals'
+     results.push_back(sn+" 249 "+user->nick+" :Signals:          "+ConvToStr(R.ru_nsignals));
+                                                                                ^
+cmd_stats.cpp:212:80: error: 'struct rusage' has no member named 'ru_majflt'
+     results.push_back(sn+" 249 "+user->nick+" :Page faults:      "+ConvToStr(R.ru_majflt));
+                                                                                ^
+cmd_stats.cpp:213:80: error: 'struct rusage' has no member named 'ru_nswap'
+     results.push_back(sn+" 249 "+user->nick+" :Swaps:            "+ConvToStr(R.ru_nswap));
+                                                                                ^
+cmd_stats.cpp:214:91: error: 'struct rusage' has no member named 'ru_nvcsw'
+     results.push_back(sn+" 249 "+user->nick+" :Context Switches: Voluntary; "+ConvToStr(R.ru_nvcsw)+" Involuntary; "+ConvToStr(R.ru_nivcsw));
+                                                                                           ^
+cmd_stats.cpp:214:130: error: 'struct rusage' has no member named 'ru_nivcsw'
+     results.push_back(sn+" 249 "+user->nick+" :Context Switches: Voluntary; "+ConvToStr(R.ru_nvcsw)+" Involuntary; "+ConvToStr(R.ru_nivcsw));
+                                                                                                                                  ^
+make[1]: *** [cmd_stats.so] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/inspircd/work/inspircd-1.1.23/src'
+make: *** [ircd] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/inspircd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/inspircd
+===> inspircd12
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching InspIRCd-1.2.0.tar.bz2
+=> Total size: 635384 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file InspIRCd-1.2.0.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  620k  100  620k    0     0   103k      0  0:00:06  0:00:06 --:--:--  151k
+===> Building for inspircd-1.2.0nb16
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+*************************************
+*       BUILDING INSPIRCD           *
+*                                   *
+*   This will take a *long* time.   *
+*     Why not read our wiki at      *
+*     http://wiki.inspircd.org      *
+*  while you wait for make to run?  *
+*************************************
+        BUILD:              socketengine.cpp socketengines/socketengine_poll.cpp
+An error occured when executing: g++ -pipe -fPIC -Woverloaded-virtual -Wshadow -Wformat=2 -Wmissing-format-attribute -Wall -g1 -I/boot/home/pkgsrc/pkgsrc/chat/inspircd12/work/inspircd-1.2.0/include -pedantic -c socketengine.cpp socketengines/socketengine_poll.cpp
+socketengines/socketengine_poll.cpp:17:20: fatal error: ulimit.h: No such file or directory
+ #include <ulimit.h>
+                    ^
+compilation terminated.
+make[1]: *** [socketengine_poll.o] Error 1
+make: *** [ircd] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/inspircd12
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/inspircd12
+===> ircd-hybrid
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ircd-hybrid-7.2.3.tgz
+=> Total size: 1010625 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   420    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   399    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  986k  100  986k    0     0   420k      0  0:00:02  0:00:02 --:--:--  728k
+===> Building for ircd-hybrid-7.2.3nb9
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+depend ==> lib
+depend ==> pcre
+`.depend' is up to date.
+depend ==> modules
+`.depend' is up to date.
+depend ==> src
+`.depend' is up to date.
+depend ==> servlink
+`.depend' is up to date.
+build ==> lib
+depend ==> pcre
+`.depend' is up to date.
+build ==> pcre
+build ==> modules
+gcc -fPIC -DPIC -shared -I../include -I../lib/pcre -I/boot/home/pkg/include -I/boot/home/pkg/include -Wall -O2 -g -Wno-error -I/boot/home/pkg/include m_stats.c -o m_stats.so
+m_stats.c: In function 'send_usage':
+m_stats.c:358:58: error: 'struct rusage' has no member named 'ru_maxrss'
+              me.name, RPL_STATSDEBUG, source_p->name, rus.ru_maxrss,
+                                                          ^
+m_stats.c:359:18: error: 'struct rusage' has no member named 'ru_ixrss'
+              (rus.ru_ixrss / rup), (rus.ru_idrss / rup),
+                  ^
+m_stats.c:359:40: error: 'struct rusage' has no member named 'ru_idrss'
+              (rus.ru_ixrss / rup), (rus.ru_idrss / rup),
+                                        ^
+m_stats.c:360:18: error: 'struct rusage' has no member named 'ru_isrss'
+              (rus.ru_isrss / rup));
+                  ^
+m_stats.c:362:63: error: 'struct rusage' has no member named 'ru_nswap'
+              me.name, RPL_STATSDEBUG, source_p->name, (int)rus.ru_nswap,
+                                                               ^
+m_stats.c:363:22: error: 'struct rusage' has no member named 'ru_minflt'
+              (int)rus.ru_minflt, (int)rus.ru_majflt);
+                      ^
+m_stats.c:363:42: error: 'struct rusage' has no member named 'ru_majflt'
+              (int)rus.ru_minflt, (int)rus.ru_majflt);
+                                          ^
+m_stats.c:365:63: error: 'struct rusage' has no member named 'ru_inblock'
+              me.name, RPL_STATSDEBUG, source_p->name, (int)rus.ru_inblock,
+                                                               ^
+m_stats.c:366:22: error: 'struct rusage' has no member named 'ru_oublock'
+              (int)rus.ru_oublock);
+                      ^
+m_stats.c:368:63: error: 'struct rusage' has no member named 'ru_msgrcv'
+              me.name, RPL_STATSDEBUG, source_p->name, (int)rus.ru_msgrcv,
+                                                               ^
+m_stats.c:369:22: error: 'struct rusage' has no member named 'ru_msgsnd'
+              (int)rus.ru_msgsnd);
+                      ^
+m_stats.c:371:63: error: 'struct rusage' has no member named 'ru_nsignals'
+              me.name, RPL_STATSDEBUG, source_p->name, (int)rus.ru_nsignals,
+                                                               ^
+m_stats.c:372:22: error: 'struct rusage' has no member named 'ru_nvcsw'
+              (int)rus.ru_nvcsw, (int)rus.ru_nivcsw);
+                      ^
+m_stats.c:372:41: error: 'struct rusage' has no member named 'ru_nivcsw'
+              (int)rus.ru_nvcsw, (int)rus.ru_nivcsw);
+                                         ^
+m_stats.c: In function 'stats_deny':
+m_stats.c:684:20: warning: variable 'conf' set but not used [-Wunused-but-set-variable]
+   struct ConfItem *conf;
+                    ^
+m_stats.c: In function 'stats_tdeny':
+m_stats.c:720:20: warning: variable 'conf' set but not used [-Wunused-but-set-variable]
+   struct ConfItem *conf;
+                    ^
+m_stats.c: In function 'stats_exempt':
+m_stats.c:756:20: warning: variable 'conf' set but not used [-Wunused-but-set-variable]
+   struct ConfItem *conf;
+                    ^
+m_stats.c: In function 'stats_auth':
+m_stats.c:925:22: warning: variable 'conf' set but not used [-Wunused-but-set-variable]
+     struct ConfItem *conf;
+                      ^
+m_stats.c: In function 'stats_tklines':
+m_stats.c:958:20: warning: variable 'conf' set but not used [-Wunused-but-set-variable]
+   struct ConfItem *conf;
+                    ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircd-hybrid/work/ircd-hybrid-7.2.3/modules
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircd-hybrid/work/ircd-hybrid-7.2.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircd-hybrid
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircd-hybrid
+===> irchat-pj
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/irchat-pj
+===> ircservices
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ircservices-5.0.64nb3
+/bin/make -C lang index
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/lang'
+make[1]: `index' is up to date.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/lang'
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/chanserv'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/chanserv'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/database'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/database'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/encryption'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/encryption'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/httpd'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/httpd'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/mail'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/mail'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/memoserv'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/memoserv'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/misc'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/misc'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/nickserv'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/nickserv'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/operserv'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/operserv'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/protocol'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/protocol'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/statserv'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules/statserv'
+gcc -c modlist.c -o modlist.o
+ar -r modules.a modlist.o
+ranlib modules.a
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/modules'
+gcc -Wl,-R/boot/home/pkg/lib actions.o channels.o commands.o compat.o conffile.o encrypt.o ignore.o init.o language.o log.o main.o memory.o messages.o misc.o modes.o modules.o process.o send.o servers.o signals.o sockets.o suspinfo.o timeout.o users.o  version.o modules/modules.a -lnetwork -o ircservices
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/lang'
+gcc -DSTATIC_MODULES -Wno-error -g -Wall -Wmissing-prototypes -fno-builtin-log langcomp.c -o langcomp
+langcomp.c:118:14: error: conflicting types for 'getline'
+ static char *getline(FILE *f)
+              ^
+In file included from langcomp.c:40:0:
+/boot/home/pkg/include/stdio.h:151:16: note: previous declaration of 'getline' was here
+ extern ssize_t getline(char **_line, size_t *_length, FILE *stream);
+                ^
+make[1]: *** [langcomp] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/ircservices/work/ircservices-5.0.64/lang'
+make: *** [languages] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircservices
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircservices
+===> ircu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ircu2.10.12.12.tar.gz
+=> Total size: 1013342 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   404    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   377    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  989k  100  989k    0     0   796k      0  0:00:01  0:00:01 --:--:-- 1821k
+===> Installing for ircu-2.10.12.12nb2
+=> Creating installation directories
+/bin/install -c -s -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/chat/ircu/work/ircu2.10.12.12/ircd/ircd /boot/home/pkgsrc/pkgsrc/chat/ircu/work/.destdir/boot/home/pkg/sbin
+/bin/install: cannot stat `/boot/home/pkgsrc/pkgsrc/chat/ircu/work/ircu2.10.12.12/ircd/ircd': No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ircu
+===> iroffer
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching iroffer1.3.b11.tgz
+=> Total size: 126909 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  123k  100  123k    0     0   145k      0 --:--:-- --:--:-- --:--:--  212k
+===> Building for iroffer-1.3.11
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+bmake: cannot open Makefile.
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/iroffer/work/iroffer1.3.b11
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/iroffer
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/iroffer
+===> irssi-xmpp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching irssi-0.8.16.tar.bz2
+=> Total size: 986129 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  963k  100  963k    0     0   201k      0  0:00:04  0:00:04 --:--:--  256k
+=> Fetching irssi-xmpp-0.52.tar.gz
+=> Total size: 68105 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 68105  100 68105    0     0  58200      0  0:00:01  0:00:01 --:--:-- 86099
+===> Installing dependencies for irssi-xmpp-0.52
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency irssi>=0.8.16: found irssi-0.8.16
+=> Full dependency loudmouth>=1.4.3nb6: NOT found
+=> Verifying reinstall for ../../chat/loudmouth
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for loudmouth-1.4.3nb9
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+Making all in loudmouth
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -DLM_NO_DEBUG -I/boot/home/pkg/include  -DLM_COMPILATION -DRUNTIME_ENDIAN  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -Wall  -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c -o lm-connection.lo lm-connection.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/lib/glib-2.0/include -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include -DLM_NO_DEBUG -DLM_COMPILATION -DRUNTIME_ENDIAN -Wall -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c lm-connection.c  -DPIC -o .libs/lm-connection.o
+In file included from lm-connection.c:38:0:
+/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[2]: *** [lm-connection.lo] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/irssi-xmpp
+===> jabberd2
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for udns-0.4
+configure... udns package
+checking for C compiler... $CC (gcc)
+checking whenever the C compiler (gcc -Wno-error -Wl,-R/boot/home/pkg/lib)
+           can produce executables... yes
+checking for ranlib... ranlib
+checking for getopt()... yes
+checking for libraries needed for socket and connect... not found
+configure: fatal: cannot find libraries needed for sockets
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/udns
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/udns
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/jabberd2
+===> kadu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for qt3-libs-3.3.8nb28
+/bin/sed  -e 's:@LOCALBASE@:/boot/home/pkg:g'  -e 's:@X11BASE@:/boot/home/pkg:g'  -e 's:@X11PREFIX@:/boot/home/pkg:g'  -e 's:@LIBTOOL@:libtool:g'  -e 's:@CC@:gcc:g'  -e 's:@CXX@:g++:g'  -e 's:@LDFLAGS@:-L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib:g'  -e 's:@CFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@CXXFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@SYS_LIBS@::g'  -e 's:@LEX@:lex:g'  -e 's:@YACC@::g'  -e 's:@AR@:ar:g'  -e 's:@MKDIR@:/bin/mkdir -p:g'  -e 's:@LIBQT@:/boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/lib/libqt-mt.la:g'  -e 's:@PTHREAD_LDFLAGS@: -pthread:g'  -e 's:@PTHREAD_LIBS@::g'  -e 's:@COMPILER_RPATH_FLAG@:-Wl,-R:g'  -e 's:@QMAKE_RANLIB@:true:g'  /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/../../x11/qt3-libs/files/qmake.conf > /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf
+for dir in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/mkspecs/*; do  /bin/cp /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf ${dir};  /bin/rm -f ${dir}/*.orig;  done
+
+
+   The build script does not currently recognize all
+   platforms supported by Qt.
+   Rerun this script with a -platform option listed to
+   set the system/compiler combination you use.
+
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/kadu
+===> kgb-bot
+                                             ^
+/boot/home/pkg/include/wchar.h:89:44: error: unknown type name 'va_list'
+ extern int  vwscanf(const wchar_t *format, va_list arg);
+                                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses/work/Curses-1.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-POE
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/kgb-bot
+===> kmess
+
+=> Verifying reinstall for ../../x11/qt3-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for qt3-libs-3.3.8nb28
+/bin/sed  -e 's:@LOCALBASE@:/boot/home/pkg:g'  -e 's:@X11BASE@:/boot/home/pkg:g'  -e 's:@X11PREFIX@:/boot/home/pkg:g'  -e 's:@LIBTOOL@:libtool:g'  -e 's:@CC@:gcc:g'  -e 's:@CXX@:g++:g'  -e 's:@LDFLAGS@:-L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib:g'  -e 's:@CFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@CXXFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@SYS_LIBS@::g'  -e 's:@LEX@:lex:g'  -e 's:@YACC@::g'  -e 's:@AR@:ar:g'  -e 's:@MKDIR@:/bin/mkdir -p:g'  -e 's:@LIBQT@:/boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/lib/libqt-mt.la:g'  -e 's:@PTHREAD_LDFLAGS@: -pthread:g'  -e 's:@PTHREAD_LIBS@::g'  -e 's:@COMPILER_RPATH_FLAG@:-Wl,-R:g'  -e 's:@QMAKE_RANLIB@:true:g'  /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/../../x11/qt3-libs/files/qmake.conf > /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf
+for dir in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/mkspecs/*; do  /bin/cp /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf ${dir};  /bin/rm -f ${dir}/*.orig;  done
+
+
+   The build script does not currently recognize all
+   platforms supported by Qt.
+   Rerun this script with a -platform option listed to
+   set the system/compiler combination you use.
+
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/kmess
+===> konversation
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Extracting for qt4-libs-4.8.5nb5
+===> Patching for qt4-libs-4.8.5nb5
+=> Applying pkgsrc patches for qt4-libs-4.8.5nb5
+patch: **** malformed patch at line 7: dgets/qplaintextedit.h ../gui/widgets/qprintpreviewwidget.h ../gui/widgets/qprogressbar.h ../gui/widgets/qpushbutton.h ../gui/widgets/qradiobutton.h ../gui/widgets/qrubberband.h ../gui/widgets/qscrollarea.h ../gui/widgets/qscrollbar.h ../gui/widgets/qsizegrip.h ../gui/widgets/qslider.h ../gui/widgets/qspinbox.h ../gui/widgets/qsplashscreen.h ../gui/widgets/qsplitter.h ../gui/widgets/qstackedwidget.h ../gui/widgets/qstatusbar.h ../gui/widgets/qtabbar.h ../gui/widgets/qtabwidget.h ../gui/widgets/qtextbrowser.h ../gui/widgets/qtextedit.h ../gui/widgets/qtoolbar.h ../gui/widgets/qtoolbox.h ../gui/widgets/qtoolbutton.h ../gui/widgets/qvalidator.h ../gui/widgets/qworkspace.h ../gui/util/qcompleter.h ../gui/util/qdesktopservices.h ../gui/util/qsystemtrayicon.h ../gui/util/qundogroup.h ../gui/util/qundostack.h ../gui/util/qundoview.h ../gui/graphicsview/qgraphicsanchorlayout.h ../gui/graphicsview/qgraphicsgridlayout.h ../gui/graphicsview/qgraphicsitem.h ../gui/graphicsview/qgraphicsitemanimation.h ../gui/graphicsview/qgraphicslayout.h ../gui/graphicsview/qgraphicslayoutitem.h ../gui/graphicsview/qgraphicslinearlayout.h ../gui/graphicsview/qgraphicsproxywidget.h ../gui/graphicsview/qgraphicsscene.h ../gui/graphicsview/qgraphicssceneevent.h ../gui/graphicsview/qgraphicstransform.h ../gui/graphicsview/qgraphicsview.h ../gui/graphicsview/qgraphicswidget.h ../gui/symbian/qsymbianevent.h ../../include/QtGui/QtGui 
+Patch /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-include_QtGui_headers.pri failed
+1 out of 4 hunks failed--saving rejects to qmake/project.cpp.rej
+Patch /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-qmake_project.cpp failed
+1 out of 10 hunks failed--saving rejects to src/3rdparty/webkit/Source/JavaScriptCore/heap/MachineStackMarker.cpp.rej
+Patch /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_3rdparty_webkit_Source_JavaScriptCore_heap_MachineStackMarker.cpp failed
+1 out of 1 hunks failed--saving rejects to src/3rdparty/webkit/Source/JavaScriptCore/jit/JITStubs.cpp.rej
+Patch /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_3rdparty_webkit_Source_JavaScriptCore_jit_JITStubs.cpp failed
+1 out of 1 hunks failed--saving rejects to src/corelib/concurrent/qtconcurrentiteratekernel.cpp.rej
+Patch /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_corelib_concurrent_qtconcurrentiteratekernel.cpp failed
+ERROR: Patching failed due to modified or broken patch file(s):
+ERROR:  /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-include_QtGui_headers.pri
+ERROR:  /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-qmake_project.cpp
+ERROR:  /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_3rdparty_webkit_Source_JavaScriptCore_heap_MachineStackMarker.cpp
+ERROR:  /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_3rdparty_webkit_Source_JavaScriptCore_jit_JITStubs.cpp
+ERROR:  /boot/home/pkg/localpatches/localpatches-master/x11/qt4-libs/patch-src_corelib_concurrent_qtconcurrentiteratekernel.cpp
+ERROR: ==========================================================================
+ERROR:
+ERROR: Some of the selected build options and/or local patches may be incompatible.
+ERROR: Please try building with fewer options or patches.
+ERROR:
+ERROR: ==========================================================================
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/automoc4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/konversation
+===> konversation-kde3
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for qt3-libs-3.3.8nb28
+/bin/sed  -e 's:@LOCALBASE@:/boot/home/pkg:g'  -e 's:@X11BASE@:/boot/home/pkg:g'  -e 's:@X11PREFIX@:/boot/home/pkg:g'  -e 's:@LIBTOOL@:libtool:g'  -e 's:@CC@:gcc:g'  -e 's:@CXX@:g++:g'  -e 's:@LDFLAGS@:-L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib:g'  -e 's:@CFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@CXXFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@SYS_LIBS@::g'  -e 's:@LEX@:lex:g'  -e 's:@YACC@::g'  -e 's:@AR@:ar:g'  -e 's:@MKDIR@:/bin/mkdir -p:g'  -e 's:@LIBQT@:/boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/lib/libqt-mt.la:g'  -e 's:@PTHREAD_LDFLAGS@: -pthread:g'  -e 's:@PTHREAD_LIBS@::g'  -e 's:@COMPILER_RPATH_FLAG@:-Wl,-R:g'  -e 's:@QMAKE_RANLIB@:true:g'  /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/../../x11/qt3-libs/files/qmake.conf > /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf
+for dir in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/mkspecs/*; do  /bin/cp /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf ${dir};  /bin/rm -f ${dir}/*.orig;  done
+
+
+   The build script does not currently recognize all
+   platforms supported by Qt.
+   Rerun this script with a -platform option listed to
+   set the system/compiler combination you use.
+
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/konversation-kde3
+===> libfolks
+
+=> Verifying reinstall for ../../chat/telepathy-glib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for telepathy-glib-0.20.2nb1
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+Making all in m4
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+Making all in tools
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+Making all in spec
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+Making all in telepathy-glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION  -I/boot/home/pkg/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkg/include/dbus-1.0 -I/boot/home/pkg/lib/dbus-1.0/include -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -mt -I/boot/home/pkg/include/glib/gio-unix-2.0/ -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -I.. -I.. -Wno-error -I/boot/home/pkg/include -MT account.lo -MD -MP -MF .deps/account.Tpo -c -o account.lo account.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I.. -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/dbus-1.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/dbus-1.0/include -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/glib-2.0/include -mt -mt -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/gio-unix-2.0/ -MT account.lo -MD -MP -MF .deps/account.Tpo -c account.c  -DPIC -o .libs/account.o
+In file included from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gobject/gbinding.h:30:0,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib-object.h:25,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gioenums.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/giotypes.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gio.h:28,
+                 from ../telepathy-glib/account.h:29,
+                 from ../telepathy-glib/account-internal.h:26,
+                 from account.c:26:
+/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[3]: *** [account.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libfolks
+===> libirc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libirc-0.2.tar.gz
+=> Total size: 121615 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  118k  100  118k    0     0  27052      0  0:00:04  0:00:04 --:--:-- 28737
+===> Building for libirc-0.2nb2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/bin/sh ../libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I/boot/home/pkg/include/glib/glib-1.2 -I/boot/home/pkg/lib/glib/include  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -c irc_core.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/boot/home/pkgsrc/pkgsrc/chat/libirc/work/.buildlink/include/glib/glib-1.2 -I/boot/home/pkgsrc/pkgsrc/chat/libirc/work/.buildlink/lib/glib/include -I/boot/home/pkgsrc/pkgsrc/chat/libirc/work/.buildlink/include -c irc_core.c  -DPIC -o .libs/irc_core.o
+irc_core.c:22:24: fatal error: sys/signal.h: No such file or directory
+ #include <sys/signal.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libirc/work/libirc-0.2/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libirc/work/libirc-0.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libirc/work/libirc-0.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libirc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libirc
+===> libmsn
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libmsn-4.2.1.tar.bz2
+=> Total size: 316900 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   374    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   341    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  309k  100  309k    0     0  36994      0  0:00:08  0:00:08 --:--:-- 83066
+===> Building for libmsn-4.2.1nb2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 95%] Built target msn
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+Linking CXX executable msntest
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+CMakeFiles/msntest.dir/msntest.cpp.o: In function `main':
+msntest.cpp:(.text+0x1a3): undefined reference to `getpass'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libmsn/work/libmsn-4.2.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libmsn/work/libmsn-4.2.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libmsn/work/libmsn-4.2.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libmsn
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libmsn
+===> libpurple
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+===> libtelepathy
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+20121220
+===> Building for telepathy-glib-0.20.2nb1
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+Making all in m4
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+Making all in tools
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+Making all in spec
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+Making all in telepathy-glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION  -I/boot/home/pkg/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkg/include/dbus-1.0 -I/boot/home/pkg/lib/dbus-1.0/include -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -mt -I/boot/home/pkg/include/glib/gio-unix-2.0/ -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -I.. -I.. -Wno-error -I/boot/home/pkg/include -MT account.lo -MD -MP -MF .deps/account.Tpo -c -o account.lo account.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I.. -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/dbus-1.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/dbus-1.0/include -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/glib-2.0/include -mt -mt -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/gio-unix-2.0/ -MT account.lo -MD -MP -MF .deps/account.Tpo -c account.c  -DPIC -o .libs/account.o
+In file included from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gobject/gbinding.h:30:0,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib-object.h:25,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gioenums.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/giotypes.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gio.h:28,
+                 from ../telepathy-glib/account.h:29,
+                 from ../telepathy-glib/account-internal.h:26,
+                 from account.c:26:
+/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[3]: *** [account.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libtelepathy
+===> licq-gui-qt
+=> Verifying reinstall for ../../x11/qt3-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for qt3-libs-3.3.8nb28
+/bin/sed  -e 's:@LOCALBASE@:/boot/home/pkg:g'  -e 's:@X11BASE@:/boot/home/pkg:g'  -e 's:@X11PREFIX@:/boot/home/pkg:g'  -e 's:@LIBTOOL@:libtool:g'  -e 's:@CC@:gcc:g'  -e 's:@CXX@:g++:g'  -e 's:@LDFLAGS@:-L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib:g'  -e 's:@CFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@CXXFLAGS@:-Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2:g'  -e 's:@SYS_LIBS@::g'  -e 's:@LEX@:lex:g'  -e 's:@YACC@::g'  -e 's:@AR@:ar:g'  -e 's:@MKDIR@:/bin/mkdir -p:g'  -e 's:@LIBQT@:/boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/lib/libqt-mt.la:g'  -e 's:@PTHREAD_LDFLAGS@: -pthread:g'  -e 's:@PTHREAD_LIBS@::g'  -e 's:@COMPILER_RPATH_FLAG@:-Wl,-R:g'  -e 's:@QMAKE_RANLIB@:true:g'  /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/../../x11/qt3-libs/files/qmake.conf > /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf
+for dir in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/mkspecs/*; do  /bin/cp /boot/home/pkgsrc/pkgsrc/x11/qt3-libs/work/qt-x11-free-3.3.8/qmake.conf ${dir};  /bin/rm -f ${dir}/*.orig;  done
+
+
+   The build script does not currently recognize all
+   platforms supported by Qt.
+   Rerun this script with a -platform option listed to
+   set the system/compiler combination you use.
+
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/licq-gui-qt
+===> loudmouth
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for loudmouth-1.4.3nb9
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+Making all in loudmouth
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I. -I.. -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -DLM_NO_DEBUG -I/boot/home/pkg/include  -DLM_COMPILATION -DRUNTIME_ENDIAN  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -Wall  -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c -o lm-connection.lo lm-connection.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/lib/glib-2.0/include -I/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include -DLM_NO_DEBUG -DLM_COMPILATION -DRUNTIME_ENDIAN -Wall -MT lm-connection.lo -MD -MP -MF .deps/lm-connection.Tpo -c lm-connection.c  -DPIC -o .libs/lm-connection.o
+In file included from lm-connection.c:38:0:
+/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[2]: *** [lm-connection.lo] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3/loudmouth'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/loudmouth/work/loudmouth-1.4.3'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/loudmouth
+===> mcabber
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mcabber-0.10.2.tar.bz2
+=> Total size: 604378 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  590k  100  590k    0     0  56171      0  0:00:10  0:00:10 --:--:-- 63581
+===> Installing dependencies for mcabber-0.10.2nb1
+==========================================================================
+The supported build options for mcabber are:
+
+        aspell enchant gpgme otr ssl
+
+The currently selected options are:
+
+        gpgme otr ssl
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mcabber (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+mcabber-0.10.2nb1.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency gpgme>=1.3.0nb1: NOT found
+=> Verifying reinstall for ../../security/gpgme
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpgme-1.4.4.tar.bz2
+=> Total size: 958379 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  935k  100  935k    0     0   158k      0  0:00:05  0:00:05 --:--:--  230k
+===> Installing dependencies for gpgme-1.4.4
+==========================================================================
+The supported build options for gpgme are:
+
+        gpgsm
+
+The currently selected options are:
+
+        gpgsm
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gpgme (not defined)
+
+==========================================================================
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  516k  100  516k    0     0   106k      0  0:00:04  0:00:04 --:--:--  113k
+===> Building for libassuan-2.0.3
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in m4
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -MT libassuan_la-assuan.lo -MD -MP -MF .deps/libassuan_la-assuan.Tpo -c -o libassuan_la-assuan.lo `test -f 'assuan.c' || echo './'`assuan.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/security/libassuan2/work/.buildlink/include -Wall -Wcast-align -Wshadow -Wstrict-prototypes -Wpointer-arith -MT libassuan_la-assuan.lo -MD -MP -MF .deps/libassuan_la-assuan.Tpo -c assuan.c  -DPIC -o .libs/libassuan_la-assuan.o
+In file included from assuan.c:27:0:
+assuan-defs.h:355:23: error: unknown type name 'cookie_read_function_t'
+                       cookie_read_function_t *readfn,
+                       ^
+assuan-defs.h:356:23: error: unknown type name 'cookie_write_function_t'
+                       cookie_write_function_t *writefn,
+                       ^
+assuan-defs.h:357:23: error: unknown type name 'cookie_seek_function_t'
+                       cookie_seek_function_t *seekfn,
+                       ^
+assuan-defs.h:358:23: error: unknown type name 'cookie_close_function_t'
+                       cookie_close_function_t *closefn);
+                       ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2/work/libassuan-2.0.3/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2/work/libassuan-2.0.3/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2/work/libassuan-2.0.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2/work/libassuan-2.0.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libassuan2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/dirmngr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnupg2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gpgme
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/mcabber
+===> msn-pecan
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/msn-pecan
+===> msnre
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching msnre-0.91.tar.gz
+=> Total size: 140292 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   362    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   329    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  137k  100  137k    0     0    99k      0  0:00:01  0:00:01 --:--:--  281k
+===> Installing dependencies for msnre-0.91nb7
+=> Full dependency p5-Curses-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/p5-Curses
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for p5-Curses-1.29nb1
+gcc -c  -Iinclude/ncurses  -Wno-error -specs=/boot/home/pkg/etc/specs -fwrapv -fno-strict-aliasing -pipe -fstack-protector -Wno-error -I/boot/home/pkg/include -                                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses/work/Curses-1.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/msnre
+===> navi2ch
+
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/navi2ch
+===> ninja
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ninja-1.5.8.1.tar.gz
+=> Total size: 651142 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (67) Access denied: 530
+fetch: Unable to fetch expected file ninja-1.5.8.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  635k  100  635k    0     0   100k      0  0:00:06  0:00:06 --:--:--  134k
+configure: WARNING: i can not find tgetent.  you might need to help me
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ninja
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ninja
+===> p5-Net-Jabber
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Net-Jabber-2.0.tar.gz
+=> Total size: 112416 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  109k  100  109k    0     0  57891      0  0:00:01  0:00:01 --:--:-- 64274
+===> Installing dependencies for p5-Net-Jabber-2.0nb6
+=> Full dependency p5-Net-XMPP>=1.0: NOT found
+=> Verifying reinstall for ../../net/p5-Net-XMPP
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Net-XMPP-1.02.tar.gz
+=> Total size: 121653 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  118k  100  118k    0     0  28366      0  0:00:04  0:00:04 --:--:-- 28903
+===> Installing dependencies for p5-Net-XMPP-1.02nb6
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for heimdal-1.5.3nb6
+/bin/touch /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/po/localefiles
+Making all in include
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in kadm5
+Making all in hcrypto
+Making all in gssapi
+Making all in base
+Making all in lib
+Making all in roken
+/boot/home/pkg/bin/bmake  all-am
+Making all in vers
+Making all in libedit
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     vis.lo
+In file included from /boot/home/pkg/include/stdio_pre.h:13:0,
+                 from /boot/home/pkg/include/stdio.h:57,
+                 from ./sys.h:96,
+                 from ../config.h:275,
+                 from vis.c:59:
+/boot/home/pkg/include/libio.h:204:50: error: unknown type name 'va_list'
+ extern int _IO_vfscanf(_IO_FILE *, const char *, va_list, int *);
+                                                  ^
+/boot/home/pkg/include/libio.h:205:51: error: unknown type name 'va_list'
+ extern int _IO_vfprintf(_IO_FILE *, const char *, va_list);
+                                                   ^
+In file included from ./sys.h:96:0,
+                 from ../config.h:275,
+                 from vis.c:59:
+/boot/home/pkg/include/stdio.h:159:41: error: unknown type name 'va_list'
+ extern int  vprintf(char const *format, va_list ap);
+                                         ^
+/boot/home/pkg/include/stdio.h:160:56: error: unknown type name 'va_list'
+ extern int  vfprintf(FILE *stream, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:161:56: error: unknown type name 'va_list'
+ extern int  vsprintf(char *string, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:162:70: error: unknown type name 'va_list'
+ extern int  vsnprintf(char *string, size_t size, char const *format, va_list ap);
+                                                                      ^
+/boot/home/pkg/include/stdio.h:163:55: error: unknown type name 'va_list'
+ extern int  vasprintf(char **ret, char const *format, va_list ap);
+                                                       ^
+/boot/home/pkg/include/stdio.h:168:40: error: unknown type name 'va_list'
+ extern int  vscanf(char const *format, va_list ap);
+                                        ^
+/boot/home/pkg/include/stdio.h:169:58: error: unknown type name 'va_list'
+ extern int  vsscanf(char const *str, char const *format, va_list ap);
+                                                          ^
+/boot/home/pkg/include/stdio.h:170:55: error: unknown type name 'va_list'
+ extern int  vfscanf(FILE *stream, char const *format, va_list ap);
+                                                       ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib/libedit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal/work/heimdal-1.5.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/heimdal
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/p5-GSSAPI
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/p5-Authen-SASL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/p5-XML-Stream
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/p5-Net-XMPP
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/p5-Net-Jabber
+===> p5-POE-Component-IRC
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching POE-Component-IRC-6.83.tar.gz
+=> Total size: 394433 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  385k  100  385k    0     0   151k      0  0:00:02  0:00:02 --:--:--  156k
+===> Installing dependencies for p5-POE-Component-IRC-6.83nb1
+                                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses/work/Curses-1.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-POE
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/p5-POE-Component-IRC
+===> p5-POE-Filter-IRCD
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching POE-Filter-IRCD-2.44.tar.gz
+=> Total size: 15760 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 15760  100 15760    0     0   4584      0  0:00:03  0:00:03 --:--:--  5009
+===> Installing dependencies for p5-POE-Filter-IRCD-2.44nb1
+
+                                                                 ^
+In file included from Curses.c:389:0:
+/boot/home/pkg/include/wchar.h:82:60: error: unknown type name 'va_list'
+ extern int  vfwprintf(FILE *stream, const wchar_t *format, va_list arg);
+                                                            ^
+/boot/home/pkg/include/wchar.h:83:59: error: unknown type name 'va_list'
+ extern int  vfwscanf(FILE *stream, const wchar_t *format, va_list arg);
+                                                           ^
+/boot/home/pkg/include/wchar.h:85:29: error: unknown type name 'va_list'
+      const wchar_t *format, va_list arg);
+                             ^
+/boot/home/pkg/include/wchar.h:87:6: error: unknown type name 'va_list'
+      va_list arg);
+      ^
+/boot/home/pkg/include/wchar.h:88:45: error: unknown type name 'va_list'
+ extern int  vwprintf(const wchar_t *format, va_list arg);
+                                             ^
+/boot/home/pkg/include/wchar.h:89:44: error: unknown type name 'va_list'
+ extern int  vwscanf(const wchar_t *format, va_list arg);
+                                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses/work/Curses-1.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Curses
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-POE
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/p5-POE-Filter-IRCD
+===> phone
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching phone-2.0.tar.gz
+=> Total size: 45663 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 45663  100 45663    0     0  26507      0  0:00:01  0:00:01 --:--:-- 30200
+=> Creating binary package /boot/home/packages/phone-2.0nb1.tgz
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/phone/work/.destdir/boot/home/pkg/bin/phone'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/phone/work/.destdir/boot/home/pkg/libexec/convd'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/chat/phone/work/.destdir/boot/home/pkg/sbin/phoned'
+pkg_create: lstat failed for file bin/phone: No such file or directory
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/phone
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/phone
+===> pidgin
+
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/multimedia/farsight2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin
+===> pidgin-facebookchat
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/multimedia/farsight2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-facebookchat
+===> pidgin-icb
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pidgin-icb-20070505.tar.gz
+=> Total size: 17885 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 17885  100 17885    0     0  12660      0  0:00:01  0:00:01 --:--:-- 24567
+===> Installing dependencies for pidgin-icb-20070505nb33
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/multimedia/farsight2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-icb
+===> pidgin-latex
+
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-amsmath
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-latex
+===> pidgin-libnotify
+
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-libnotify
+===> pidgin-otr
+
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/multimedia/farsight2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-otr
+===> pidgin-sametime
+
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-sametime
+===> pidgin-silc
+
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libpurple
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pidgin-silc
+===> pircbot
+
+===> Extracting for kaffe-1.1.7nb8
+===> Patching for kaffe-1.1.7nb8
+=> Applying pkgsrc patches for kaffe-1.1.7nb8
+=> Fixing libltdl convenience library linkage.
+===> Creating toolchain wrappers for kaffe-1.1.7nb8
+===> Configuring for kaffe-1.1.7nb8
+
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/kaffe
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/kaffe
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/pircbot
+===> prosody
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching prosody-0.9.4.tar.gz
+=> Total size: 265898 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  259k  100  259k    0     0   127k      0  0:00:02  0:00:02 --:--:--  158k
+===> Configuring for prosody-0.9.4nb1
+=> Replacing lua interpreter in prosody prosodyctl.
+Lua interpreter found: /boot/home/pkg/bin/lua5.1...
+Looking for Lua... Checking Lua includes... lua.h found in /boot/home/pkg/include/lua-5.2/lua.h
+Writing configuration...
+
+Installation prefix: /boot/home/pkg
+Prosody configuration directory: /boot/home/pkg/etc/prosody
+Using Lua from: /boot/home/pkg
+
+Done. You can now run 'make' to build.
+
+===> Building for prosody-0.9.4nb1
+
+MACOSX_DEPLOYMENT_TARGET="10.3"; export MACOSX_DEPLOYMENT_TARGET;
+gcc -o hashes.so hashes.o -Wl,-R/boot/home/pkg/lib -shared -lcrypto
+gcc -Wno-error -fPIC -Wall -DLUA_COMPAT_MODULE -I/boot/home/pkg/include -I/boot/home/pkg/include/lua-5.2 -I/boot/home/pkg/include/ncurses -ggdb -I/boot/home/pkg/include/lua-5.2 -c -o net.o net.c
+net.c:21:23: fatal error: ifaddrs.h: No such file or directory
+   #include <ifaddrs.h>
+                       ^
+compilation terminated.
+make[1]: *** [net.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/prosody/work/prosody-0.9.4/util-src'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/prosody
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/prosody
+===> psi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file ftp://ftp.fi.NetBSD.org/pub/NetBSD/packages/distfiles/psi-0.15/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file ftp://ftp.fi.NetBSD.org/pub/NetBSD/packages/distfiles/psi-0.15/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file ftp://ftp.fi.NetBSD.org/pub/NetBSD/packages/distfiles/psi-0.15/
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/psi
+===> psybnc
+
+Initializing bouncer compilation
+[*] Running Conversion Tool for older psyBNC Data.
+Using existent configuration File.
+[*] Running Autoconfig.
+System: Haiku
+DNS Library (c-ares): Not available.
+
+Your system does not appear to have the c-ares library installed. This library
+is required for psyBNC to do DNS lookups (as of version 2.4).
+
+Please compile the included c-ares library by executing 'make c-ares'. You can
+then attempt to build psyBNC again by using 'make'.
+
+Alternatively you can install libc-ares system-wide and the build process will
+attempt to pick up and use that installation.
+make: *** [all] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/psybnc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/psybnc
+===> quirc
+make[2]: *** [dcc.o] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/quirc/work/quirc-0.9.84'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/quirc/work/quirc-0.9.84'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/quirc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/quirc
+===> riece
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching riece-9.0.0.tar.gz
+=> Total size: 438553 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   350  100   350    0     0    599      0 --:--:-- --:--:-- --:--:--  1794
+100   328  100   328    0     0    417      0 --:--:-- --:--:-- --:--:--   417
+100  428k  100  428k    0     0   235k      0  0:00:01  0:00:01 --:--:--  685k
+===> Installing dependencies for riece-9.0.0
+
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/riece
+===> ruby-net-irc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching net-irc-0.0.9.gem
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lrt -ldl  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/ruby-net-irc
+===> scrollz
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ScrollZ-1.9.5.tar.gz
+=> Total size: 906167 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file ScrollZ-1.9.5.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  884k  100  884k    0     0   122k      0  0:00:07  0:00:07 --:--:--  204k
+===> Building for scrollz-1.9.5nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+make: don't know how to make /usr/include/sys/stat.h. Stop
+
+make: stopped in /boot/home/pkgsrc/pkgsrc/chat/scrollz/work/ScrollZ-1.9.5/source
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/scrollz/work/ScrollZ-1.9.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/scrollz
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/scrollz
+===> silc-client
+
+===> silc-client
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching silc-client-1.1.8.tar.bz2
+=> Total size: 1532816 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file silc-client-1.1.8.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file silc-client-1.1.8.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1496k  100 1496k    0     0   159k      0  0:00:09  0:00:09 --:--:--  310k
+===> Building for silc-client-1.1.8nb6
+                       ^
+silcrng.c:307:37: error: 'struct rusage' has no member named 'ru_msgrcv'
+   silc_rng_xor(rng, (r.ru_msgsnd ^ r.ru_msgrcv), pos++);
+                                     ^
+silcrng.c:308:23: error: 'struct rusage' has no member named 'ru_nsignals'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                       ^
+silcrng.c:308:39: error: 'struct rusage' has no member named 'ru_msgsnd'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                                       ^
+silcrng.c:308:53: error: 'struct rusage' has no member named 'ru_msgrcv'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                                                     ^
+silcrng.c:309:23: error: 'struct rusage' has no member named 'ru_nsignals'
+   silc_rng_xor(rng, (r.ru_nsignals << 16), pos++);
+                       ^
+silcrng.c:310:23: error: 'struct rusage' has no member named 'ru_nvcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw + r.ru_nivcsw), pos++);
+                       ^
+silcrng.c:310:36: error: 'struct rusage' has no member named 'ru_nivcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw + r.ru_nivcsw), pos++);
+                                    ^
+silcrng.c:311:23: error: 'struct rusage' has no member named 'ru_nvcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw ^ r.ru_nivcsw), pos++);
+                       ^
+silcrng.c:311:36: error: 'struct rusage' has no member named 'ru_nivcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw ^ r.ru_nivcsw), pos++);
+                                    ^
+make[3]: *** [silcrng.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8/lib/silccrypt'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-client
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-client
+===> silc-client-icb
+silcrng.c:296:23: error: 'struct rusage' has no member named 'ru_maxrss'
+   silc_rng_xor(rng, (r.ru_maxrss + r.ru_ixrss), pos++);
+                       ^
+silcrng.c:296:37: error: 'struct rusage' has no member named 'ru_ixrss'
+   silc_rng_xor(rng, (r.ru_maxrss + r.ru_ixrss), pos++);
+                                     ^
+silcrng.c:297:23: error: 'struct rusage' has no member named 'ru_maxrss'
+   silc_rng_xor(rng, (r.ru_maxrss ^ r.ru_ixrss), pos++);
+                       ^
+silcrng.c:297:37: error: 'struct rusage' has no member named 'ru_ixrss'
+   silc_rng_xor(rng, (r.ru_maxrss ^ r.ru_ixrss), pos++);
+                                     ^
+silcrng.c:298:23: error: 'struct rusage' has no member named 'ru_idrss'
+   silc_rng_xor(rng, (r.ru_idrss + r.ru_idrss), pos++);
+                       ^
+silcrng.c:298:36: error: 'struct rusage' has no member named 'ru_idrss'
+   silc_rng_xor(rng, (r.ru_idrss + r.ru_idrss), pos++);
+                                    ^
+silcrng.c:299:23: error: 'struct rusage' has no member named 'ru_idrss'
+   silc_rng_xor(rng, (r.ru_idrss ^ r.ru_idrss), pos++);
+                       ^
+silcrng.c:299:36: error: 'struct rusage' has no member named 'ru_idrss'
+   silc_rng_xor(rng, (r.ru_idrss ^ r.ru_idrss), pos++);
+                                    ^
+silcrng.c:300:23: error: 'struct rusage' has no member named 'ru_idrss'
+   silc_rng_xor(rng, (r.ru_idrss << 16), pos++);
+                       ^
+silcrng.c:301:23: error: 'struct rusage' has no member named 'ru_minflt'
+   silc_rng_xor(rng, (r.ru_minflt + r.ru_majflt), pos++);
+                       ^
+silcrng.c:301:37: error: 'struct rusage' has no member named 'ru_majflt'
+   silc_rng_xor(rng, (r.ru_minflt + r.ru_majflt), pos++);
+                                     ^
+silcrng.c:302:23: error: 'struct rusage' has no member named 'ru_minflt'
+   silc_rng_xor(rng, (r.ru_minflt ^ r.ru_majflt), pos++);
+                       ^
+silcrng.c:302:37: error: 'struct rusage' has no member named 'ru_majflt'
+   silc_rng_xor(rng, (r.ru_minflt ^ r.ru_majflt), pos++);
+                                     ^
+silcrng.c:303:23: error: 'struct rusage' has no member named 'ru_nswap'
+   silc_rng_xor(rng, (r.ru_nswap + r.ru_oublock + r.ru_inblock), pos++);
+                       ^
+silcrng.c:303:36: error: 'struct rusage' has no member named 'ru_oublock'
+   silc_rng_xor(rng, (r.ru_nswap + r.ru_oublock + r.ru_inblock), pos++);
+                                    ^
+silcrng.c:303:51: error: 'struct rusage' has no member named 'ru_inblock'
+   silc_rng_xor(rng, (r.ru_nswap + r.ru_oublock + r.ru_inblock), pos++);
+                                                   ^
+silcrng.c:304:23: error: 'struct rusage' has no member named 'ru_nswap'
+   silc_rng_xor(rng, (r.ru_nswap << 8), pos++);
+                       ^
+silcrng.c:305:23: error: 'struct rusage' has no member named 'ru_inblock'
+   silc_rng_xor(rng, (r.ru_inblock + r.ru_oublock), pos++);
+                       ^
+silcrng.c:305:38: error: 'struct rusage' has no member named 'ru_oublock'
+   silc_rng_xor(rng, (r.ru_inblock + r.ru_oublock), pos++);
+                                      ^
+silcrng.c:306:23: error: 'struct rusage' has no member named 'ru_inblock'
+   silc_rng_xor(rng, (r.ru_inblock ^ r.ru_oublock), pos++);
+                       ^
+silcrng.c:306:38: error: 'struct rusage' has no member named 'ru_oublock'
+   silc_rng_xor(rng, (r.ru_inblock ^ r.ru_oublock), pos++);
+                                      ^
+silcrng.c:307:23: error: 'struct rusage' has no member named 'ru_msgsnd'
+   silc_rng_xor(rng, (r.ru_msgsnd ^ r.ru_msgrcv), pos++);
+                       ^
+silcrng.c:307:37: error: 'struct rusage' has no member named 'ru_msgrcv'
+   silc_rng_xor(rng, (r.ru_msgsnd ^ r.ru_msgrcv), pos++);
+                                     ^
+silcrng.c:308:23: error: 'struct rusage' has no member named 'ru_nsignals'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                       ^
+silcrng.c:308:39: error: 'struct rusage' has no member named 'ru_msgsnd'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                                       ^
+silcrng.c:308:53: error: 'struct rusage' has no member named 'ru_msgrcv'
+   silc_rng_xor(rng, (r.ru_nsignals + r.ru_msgsnd + r.ru_msgrcv), pos++);
+                                                     ^
+silcrng.c:309:23: error: 'struct rusage' has no member named 'ru_nsignals'
+   silc_rng_xor(rng, (r.ru_nsignals << 16), pos++);
+                       ^
+silcrng.c:310:23: error: 'struct rusage' has no member named 'ru_nvcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw + r.ru_nivcsw), pos++);
+                       ^
+silcrng.c:310:36: error: 'struct rusage' has no member named 'ru_nivcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw + r.ru_nivcsw), pos++);
+                                    ^
+silcrng.c:311:23: error: 'struct rusage' has no member named 'ru_nvcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw ^ r.ru_nivcsw), pos++);
+                       ^
+silcrng.c:311:36: error: 'struct rusage' has no member named 'ru_nivcsw'
+   silc_rng_xor(rng, (r.ru_nvcsw ^ r.ru_nivcsw), pos++);
+                                    ^
+make[3]: *** [silcrng.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8/lib/silccrypt'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/silc-client/work/silc-client-1.1.8'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-client
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-client
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-client-icb
+===> silc-server
+
+===> Installing dependencies for silc-server-1.1.18nb1
+
+silc-toolkit Configuration Summary:
+---------------------------
+ Target host ...................: i386-pc-haiku
+ Compiler ......................: gcc
+ CFLAGS ........................: -Wno-error -g -Wall -finline-functions -Wno-pointer-sign -D_REENTRANT
+ LDFLAGS .......................: -L$(silc_top_srcdir)/lib -Wl,-R/boot/home/pkg/lib
+ LIBS ..........................:  -lnsl -ldl -lpthread
+
+ Installation prefix ...........: /boot/home/pkg
+ bin directory .................: /boot/home/pkg/bin
+ sbin directory ................: /boot/home/pkg/sbin
+ etc directory .................: /boot/home/pkg/etc
+ man directory .................: /boot/home/pkg/man
+ doc directory .................: /boot/home/pkg/share/doc/silc-toolkit
+ SIM directory .................: /boot/home/pkg/lib/silc/modules
+ include directory .............: /boot/home/pkg/include/silc
+
+ SIM support ...................: yes
+ IPv6 support ..................: yes
+ Iconv support .................: no
+ Assembler optimizations .......: yes
+ Multi-threads support .........: yes
+ Debugging enabled .............: no
+
+Compile the sources with 'make' or 'gmake' command.
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for silc-toolkit-1.1.10
+                                    ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit/work/silc-toolkit-1.1.10/lib/silccrypt
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit/work/silc-toolkit-1.1.10/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit/work/silc-toolkit-1.1.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit/work/silc-toolkit-1.1.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/silc-toolkit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/silc-server
+===> sirc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching adcc.pl
+===> Installing for sirc-2.211nb7
+=> Creating installation directories
+cd /boot/home/pkgsrc/pkgsrc/chat/sirc/work/sirc-2.211 ; (  echo "y" ;  echo "" ;  echo "" ;  echo "" ;  echo "-O3" ;  echo "" ;  echo "/boot/home/pkg/bin/perl" ;  echo "/boot/home/pkgsrc/pkgsrc/chat/sirc/work/.destdir/boot/home/pkg/bin" ;  echo "y" ;  echo "/boot/home/pkgsrc/pkgsrc/chat/sirc/work/.destdir/boot/home/pkg/lib/sirc" ;  echo "y" ;  echo "n" ;  echo "/boot/home/pkgsrc/pkgsrc/chat/sirc/work/.destdir/boot/home/pkg/man/man1" ;  echo "us.undernet.org" ;  echo "" ;  ) | ./install
+
+This script will compile, configure and install sirc for your system.
+You can exit at any time by pressing ^C (Control-C) and start over if
+you wish to change your settings.
+
+Whenever asked for something, the default answer is shown between
+[brackets]. Pressing Enter at that point will take the default answer.
+
+Continue with the installation? ([y]/n) 
+Checking where dsirc and ssfe.c are - OK
+
+Enter the name of the C compiler you want to use, or "none" if you
+don't have access to one. In that case you can only use this IRC
+client in dumb (not full-screen) mode.
+
+If you don't know what this is all about, just press Enter :)
+
+Compiler? [/bin/gcc] 
+ssfe.c needs the termcap library, or something compatible with it,
+such as ncurses.  Also, on some systems the termcap library is
+included in the curses library, so "curses" might work.
+
+Which library to use? [termcap] Use the old BSD sgtty interface instead of the POSIX one? (y/[n]) Any other flags (-O, -L, -I ...) for the compiler? [none] 
+Attempting to compile ssfe.c with /bin/gcc ... press Enter /bin/gcc  -O3 ssfe.c -o ssfe -ltermcap
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -ltermcap
+collect2: error: ld returned 1 exit status
+
+I can't compile ssfe, for whatever reason. Press ^C and try again
+with a different compiler or different compile options, or press
+Enter to go on and install sirc in dumb mode... Going on.
+
+
+Enter the name of the perl interpreter you want to use, or
+press Enter to use /boot/home/pkgsrc/pkgsrc/chat/sirc/work/.tools/bin/perl
+Perl interpreter? [/boot/home/pkgsrc/pkgsrc/chat/sirc/work/.tools/bin/perl] 
+Checking your perl interpreter... Doesn't seem to work ... aborting.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/sirc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/sirc
+===> spectrum
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching spectrum-1.4.8.tar.gz
+=> Total size: 239725 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   183  100   183    0     0   1426      0 --:--:-- --:--:-- --:--:--  4357
+100  234k  100  234k    0     0   322k      0 --:--:-- --:--:-- --:--:--  733k
+===> Installing dependencies for spectrum-1.4.8nb26
+=> Fetching poco-1.4.2p1-all.tar.gz
+=> Total size: 3922854 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   388    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   361    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3830k  100 3830k    0     0  1099k      0  0:00:03  0:00:03 --:--:-- 1540k
+===> Installing dependencies for poco-data-sqlite-1.4.2p1nb8
+
+===> Extracting for poco-1.4.2p1nb4
+===> Patching for poco-1.4.2p1nb4
+=> Applying pkgsrc patches for poco-1.4.2p1nb4
+===> Creating toolchain wrappers for poco-1.4.2p1nb4
+===> Configuring for poco-1.4.2p1nb4
+Unknown configuration: Haiku
+Please use the --config option to specify another build configuration
+The following configurations are available:
+AIX        Darwin-clang    GCCEMBEDLINUX   OSF1            SunOS-SunForte
+ARM-Linux  Darwin32        HP-UX           PPC-Linux       SunOS-SunStudio
+Android    Darwin32-clang  Linux           QNX             SunOS-SunStudio11
+Angstrom   Darwin64        Linux-stlport   SH-Linux        SunOS-stdcxx-x86_64
+CEGCCARM   Darwin64-clang  Linux.orig      SSV-LINUX       iPhone
+CYGWIN     DigiEL          MinGW           SunOS           iPhoneSimulator
+CygLinux   FreeBSD         MinGW-CrossEnv  SunOS-GCC
+Darwin     FreeBSD.orig    NIOS2-Linux     SunOS-GCC.orig
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/poco
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/poco
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/poco-data
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/poco-data-sqlite
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/spectrum
+===> swift
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching swift-2.0.tar.gz
+=> Total size: 8816954 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   160  100   160    0     0    348      0 --:--:-- --:--:-- --:--:--  1230
+100 8610k  100 8610k    0     0   348k      0  0:00:24  0:00:24 --:--:--  382k
+===> Installing dependencies for swift-2.0nb2
+===> Patching for qt4-libs-4.8.5nb5
+=> Applying pkgsrc patches for qt4-libs-4.8.5nb5
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/swift
+===> telepathy-farsight
+
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-gobject-shared
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-farsight
+===> telepathy-gabble
+
+===> Building for telepathy-glib-0.20.2nb1
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+Making all in m4
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/m4'
+Making all in tools
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/tools'
+Making all in spec
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/spec'
+Making all in telepathy-glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION  -I/boot/home/pkg/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkg/include/dbus-1.0 -I/boot/home/pkg/lib/dbus-1.0/include -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -mt -I/boot/home/pkg/include/glib/gio-unix-2.0/ -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -I.. -I.. -Wno-error -I/boot/home/pkg/include -MT account.lo -MD -MP -MF .deps/account.Tpo -c -o account.lo account.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I.. -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/dbus-1.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/dbus-1.0/include -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/glib-2.0/include -mt -mt -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/gio-unix-2.0/ -MT account.lo -MD -MP -MF .deps/account.Tpo -c account.c  -DPIC -o .libs/account.o
+In file included from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gobject/gbinding.h:30:0,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib-object.h:25,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gioenums.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/giotypes.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gio.h:28,
+                 from ../telepathy-glib/account.h:29,
+                 from ../telepathy-glib/account-internal.h:26,
+                 from account.c:26:
+/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[3]: *** [account.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-gabble
+===> telepathy-glib
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I..  -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION  -I/boot/home/pkg/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkg/include/dbus-1.0 -I/boot/home/pkg/lib/dbus-1.0/include -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -mt -I/boot/home/pkg/include/glib/gio-unix-2.0/ -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -I.. -I.. -Wno-error -I/boot/home/pkg/include -MT account.lo -MD -MP -MF .deps/account.Tpo -c -o account.lo account.c
+libtool: compile:  gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I.. -DG_LOG_DOMAIN=\"tp-glib\" -D_TP_COMPILATION -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include -Wall -Wextra -Wdeclaration-after-statement -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wsign-compare -Wnested-externs -Wpointer-arith -Wformat-security -Winit-self -Wno-missing-field-initializers -Wno-unused-parameter -Wno-deprecated-declarations -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/dbus-1.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/dbus-1.0/include -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0 -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/lib/glib-2.0/include -mt -mt -I/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/gio-unix-2.0/ -MT account.lo -MD -MP -MF .deps/account.Tpo -c account.c  -DPIC -o .libs/account.o
+In file included from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gobject/gbinding.h:30:0,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib-object.h:25,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gioenums.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/giotypes.h:30,
+                 from /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/gio/gio.h:28,
+                 from ../telepathy-glib/account.h:29,
+                 from ../telepathy-glib/account-internal.h:26,
+                 from account.c:26:
+/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[3]: *** [account.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2/telepathy-glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/telepathy-glib/work/telepathy-glib-0.20.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+===> telepathy-idle
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-idle
+===> telepathy-logger
+
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-logger
+===> telepathy-mission-control
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/libtelepathy
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-mission-control
+===> telepathy-mission-control5
+
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1'
+Making all in egg
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1/egg'
+Making all in .
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1/egg'
+  CC     libegg_la-egg-dbus.lo
+In file included from egg-dbus.h:28:0,
+                 from egg-dbus.c:28:
+/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/.buildlink/include/glib/glib-2.0/glib.h:32:21: fatal error: galloca.h: No such file or directory
+ #include <galloca.h>
+                     ^
+compilation terminated.
+make[3]: *** [libegg_la-egg-dbus.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1/egg'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1/egg'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/libgnome-keyring/work/libgnome-keyring-3.4.1'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libgnome-keyring
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/libgnome-keyring
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/telepathy-mission-control5
+===> tirc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tirc-1.2.tar.gz
+=> Total size: 300089 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  293k  100  293k    0     0  24402      0  0:00:12  0:00:12 --:--:-- 38862
+===> Configuring for tirc-1.2nb4
+gcc -DHAVE_CONFIG_H -I. -I. -I../../include -I../../include -I../../lib/roken -I../../lib/roken   -I/boot/home/pkg/include -Wall -Wmissing-prototypes -Wpointer-arith -Wbad-function-cast -Wmissing-declarations -Wnested-externs -Wno-error -I/boot/home/pkg/include -c `test -f 'compile_et.c' || echo './'`compile_et.c
+compile_et.c:47:13: error: conflicting types for 'yyparse'
+ extern void yyparse(void);
+             ^
+In file included from compile_et.c:42:0:
+y.tab.h:87:5: note: previous declaration of 'yyparse' was here
+compile_et.c:58:12: warning: 'yydebug' initialized and declared 'extern' [enabled by default]
+ extern int yydebug = 1;
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib/com_err
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zephyr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/tzc
+===> unrealircd
+===> Building for unrealircd-3.2.10.1nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Building src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/chat/unrealircd/work/Unreal3.2.10.1/src'
+gcc -I../include -I/boot/home/pkg/include  -I/boot/home/pkg/include  -pipe -Wno-error -I/boot/home/pkg/include -funsigned-char -fno-strict-aliasing -Wno-pointer-sign -export-dynamic  -c s_bsd.c
+In file included from s_bsd.c:64:0:
+../include/res.h:5:26: fatal error: ares_version.h: No such file or directory
+ #include <ares_version.h>
+                          ^
+compilation terminated.
+make[1]: *** [s_bsd.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/chat/unrealircd/work/Unreal3.2.10.1/src'
+make: *** [build] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/unrealircd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/unrealircd
+===> weechat
+
+                          ^
+make[4]: *** [common.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib/x509'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/weechat
+===> xaric
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xaric-0.13.6.tar.gz
+checking for OpenSSL... configure: error: Cannot find ssl libraries
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xaric
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xaric
+===> xchat
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xchat-2.8.8.tar.bz2
+
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat
+===> xchat-perl
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat-perl
+===> xchat-python
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat-python
+===> xchat-systray-integration
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/xchat-systray-integration
+===> zenicb
+
+===> Building for cairo-1.12.16nb4
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zenicb
+===> zenirc
+
+Making all in src
+/boot/home/pkg/bin/bmake  all-am
+  CC     cairo-xlib-surface.lo
+cairo-xlib-surface.c:73:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo/work/cairo-1.12.16
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/librsvg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/editors/emacs24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zenirc
+===> zephyr
+
+===> Building for kth-krb4-1.2.2nb8
+Making all in include
+/boot/home/pkg/bin/bmake  all-am
+Making all in lib
+Making all in roken
+/boot/home/pkg/bin/bmake  all-am
+Making all in vers
+Making all in com_err
+gcc -DHAVE_CONFIG_H -I. -I. -I../../include -I../../include -I../../lib/roken -I../../lib/roken   -I/boot/home/pkg/include -Wall -Wmissing-prototypes -Wpointer-arith -Wbad-function-cast -Wmissing-declarations -Wnested-externs -Wno-error -I/boot/home/pkg/include -c `test -f 'compile_et.c' || echo './'`compile_et.c
+compile_et.c:47:13: error: conflicting types for 'yyparse'
+ extern void yyparse(void);
+             ^
+In file included from compile_et.c:42:0:
+y.tab.h:87:5: note: previous declaration of 'yyparse' was here
+compile_et.c:58:12: warning: 'yydebug' initialized and declared 'extern' [enabled by default]
+ extern int yydebug = 1;
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib/com_err
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zephyr
+===> zephyr-mode
+===> Building for kth-krb4-1.2.2nb8
+Making all in include
+/boot/home/pkg/bin/bmake  all-am
+Making all in lib
+Making all in roken
+/boot/home/pkg/bin/bmake  all-am
+Making all in vers
+Making all in com_err
+gcc -DHAVE_CONFIG_H -I. -I. -I../../include -I../../include -I../../lib/roken -I../../lib/roken   -I/boot/home/pkg/include -Wall -Wmissing-prototypes -Wpointer-arith -Wbad-function-cast -Wmissing-declarations -Wnested-externs -Wno-error -I/boot/home/pkg/include -c `test -f 'compile_et.c' || echo './'`compile_et.c
+compile_et.c:47:13: error: conflicting types for 'yyparse'
+ extern void yyparse(void);
+             ^
+In file included from compile_et.c:42:0:
+y.tab.h:87:5: note: previous declaration of 'yyparse' was here
+compile_et.c:58:12: warning: 'yydebug' initialized and declared 'extern' [enabled by default]
+ extern int yydebug = 1;
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib/com_err
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4/work/krb4-1.2.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/kth-krb4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zephyr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/tzc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/chat/zephyr-mode

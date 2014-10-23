@@ -1,0 +1,17 @@
+PKGPATH=geography/cm2gpx
+PKGPATH=geography/cmconvert
+PKGPATH=geography/epsg
+PKGPATH=geography/epsg-docs
+PKGPATH=geography/gama
+PKGPATH=geography/gpspoint
+PKGPATH=geography/libgeotiff
+PKGPATH=geography/p5-Geo-Coordinates-UTM
+PKGPATH=geography/p5-Geo-Distance
+PKGPATH=geography/p5-Geo-Mercator
+PKGPATH=geography/p5-Geo-ShapeFile
+PKGPATH=geography/p5-Geography-Countries
+PKGPATH=geography/proj
+PKGPATH=geography/proj-doc
+PKGPATH=geography/py-geojson
+PKGPATH=geography/shapelib
+PKGPATH=geography/tex-pst-geo-doc

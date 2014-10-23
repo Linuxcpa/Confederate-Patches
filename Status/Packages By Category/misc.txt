@@ -1,0 +1,14 @@
+PKGPATH=misc/dialog
+PKGPATH=misc/getopt
+PKGPATH=misc/ja-less
+PKGPATH=misc/ja-man
+PKGPATH=misc/libutf
+PKGPATH=misc/m17n-db
+PKGPATH=misc/p5-Business-ISBN
+PKGPATH=misc/p5-Business-ISBN-Data
+PKGPATH=misc/p5-File-MMagic
+PKGPATH=misc/p5-File-Tail
+PKGPATH=misc/p5-Locale-US
+PKGPATH=misc/p5-Locale-libintl
+PKGPATH=misc/rhash
+PKGPATH=misc/xdg-utils

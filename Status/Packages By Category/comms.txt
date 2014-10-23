@@ -1,0 +1,16 @@
+PKGPATH=comms/asterisk-sounds-de-x9media
+PKGPATH=comms/fidogate
+PKGPATH=comms/gkermit
+PKGPATH=comms/lrzsz
+PKGPATH=comms/op_panel
+PKGPATH=comms/p5-Asterisk
+PKGPATH=comms/p5-Data-AMF
+PKGPATH=comms/p5-SMS-Send
+PKGPATH=comms/py-serial
+PKGPATH=comms/qpage
+PKGPATH=comms/scmxx
+PKGPATH=comms/spandsp
+PKGPATH=comms/synce-librapi2
+PKGPATH=comms/synce-libsynce
+PKGPATH=comms/synce-rra
+PKGPATH=comms/synce-serial

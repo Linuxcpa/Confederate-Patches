@@ -1,0 +1,15 @@
+PKGPATH=sysutils/bchunk
+PKGPATH=sysutils/ccd2iso
+PKGPATH=sysutils/cdrtools
+PKGPATH=sysutils/checkpassword
+PKGPATH=sysutils/checkperms
+PKGPATH=sysutils/daemontools
+PKGPATH=sysutils/dbus
+PKGPATH=sysutils/file
+PKGPATH=sysutils/gkrellm-share
+PKGPATH=sysutils/heirloom-doc
+PKGPATH=sysutils/p5-File-Copy-Recursive
+PKGPATH=sysutils/p5-File-Remove
+PKGPATH=sysutils/p5-File-chmod
+PKGPATH=sysutils/p5-Sys-Hostname-Long
+PKGPATH=sysutils/tree

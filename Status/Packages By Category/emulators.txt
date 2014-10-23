@@ -1,0 +1,15 @@
+PKGPATH=emulators/DatLib
+PKGPATH=emulators/DatUtil
+PKGPATH=emulators/MAMEDiff
+PKGPATH=emulators/ROMBuild
+PKGPATH=emulators/ROMInfo
+PKGPATH=emulators/ZIPIdent
+PKGPATH=emulators/applyppf
+PKGPATH=emulators/ckmame
+PKGPATH=emulators/cmdpack
+PKGPATH=emulators/gnuboy
+PKGPATH=emulators/hercules-images
+PKGPATH=emulators/makeppf
+PKGPATH=emulators/minivmac
+PKGPATH=emulators/ucon64
+PKGPATH=emulators/x48

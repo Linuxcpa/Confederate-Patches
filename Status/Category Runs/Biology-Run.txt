@@ -1,0 +1,1143 @@
+
+Welcome to the Haiku shell.
+~/pkgsrc/pkgsrc/biology> do
+===> arka
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/arka
+===> azara
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching azara-2.7-src.tar.gz
+=> Total size: 565272 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file azara-2.7-src.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  552k  100  552k    0     0   101k      0  0:00:05  0:00:05 --:--:--  120k
+===> Installing dependencies for azara-2.7nb5
+==========================================================================
+The following variables will affect the build process of this package,
+azara-2.7nb5.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * MOTIFBASE (defined)
+        * MOTIF_TYPE = motif
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency xbitmaps>=1.0: found xbitmaps-1.1.1
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/azara
+===> bioperl
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching BioPerl-1.6.923.tar.gz
+=> Total size: 12562520 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11.9M  100 11.9M    0     0   237k      0  0:00:51  0:00:51 --:--:--  200k
+===> Installing dependencies for bioperl-1.6.923nb2
+==========================================================================
+The supported build options for bioperl are:
+
+        mysql pgsql sqlite
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.bioperl (not defined)
+
+==========================================================================
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Build dependency {perl>=5.19.6,p5-Module-Build>0.42}: found perl-5.20.0nb1
+=> Build dependency p5-Module-Build>=0.42050: found p5-Module-Build-0.42050nb1
+=> Build dependency p5-Test-Most-[0-9]*: found p5-Test-Most-0.33
+=> Full dependency p5-Algorithm-Munkres-[0-9]*: found p5-Algorithm-Munkres-0.08nb1
+=> Full dependency p5-Array-Compare-[0-9]*: found p5-Array-Compare-2.02nb3
+=> Full dependency p5-Bio-ASN1-EntrezGene-[0-9]*: found p5-Bio-ASN1-EntrezGene-1.70nb1
+=> Full dependency p5-Clone-[0-9]*: found p5-Clone-0.36nb1
+=> Full dependency p5-Convert-Binary-C-[0-9]*: found p5-Convert-Binary-C-0.76nb1
+=> Full dependency {perl>=5,p5-DB_File-[0-9]*}: found perl-5.20.0nb1
+=> Full dependency p5-Data-Stag>=0.11: NOT found
+=> Verifying reinstall for ../../devel/p5-Data-Stag
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Data-Stag-0.14.tar.gz
+=> Total size: 428107 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  418k  100  418k    0     0   167k      0  0:00:02  0:00:02 --:--:--  170k
+===> Installing dependencies for p5-Data-Stag-0.14nb1
+=> Full dependency p5-JSON-[0-9]*: found p5-JSON-2.90nb1
+=> Full dependency p5-IO-String-[0-9]*: found p5-IO-String-1.08nb6
+=> Full dependency p5-MLDBM-[0-9]*: found p5-MLDBM-2.05nb1
+=> Full dependency p5-Tk-[0-9]*: found p5-Tk-804.031nb1
+=> Full dependency p5-XML-LibXSLT-[0-9]*: NOT found
+=> Verifying reinstall for ../../textproc/p5-XML-LibXSLT
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching XML-LibXSLT-1.92.tar.gz
+=> Total size: 113741 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  111k  100  111k    0     0  96059      0  0:00:01  0:00:01 --:--:-- 98733
+===> Installing dependencies for p5-XML-LibXSLT-1.92nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency p5-XML-LibXML>=1.70: found p5-XML-LibXML-2.0116nb2
+=> Full dependency libxslt>=1.1.28nb2: found libxslt-1.1.28nb3
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+===> Overriding tools for p5-XML-LibXSLT-1.92nb1
+===> Extracting for p5-XML-LibXSLT-1.92nb1
+===> Patching for p5-XML-LibXSLT-1.92nb1
+===> Creating toolchain wrappers for p5-XML-LibXSLT-1.92nb1
+===> Configuring for p5-XML-LibXSLT-1.92nb1
+running xslt-config... ok
+looking for -lxslt... no
+libxslt not found
+Try setting LIBS and INC values on the command line
+Or get libxslt and libxml2 from
+  http://www.libxml.org/
+If you install via RPMs, make sure you also install the -devel
+RPMs, as this is where the headers (.h files) are.
+===> Building for p5-XML-LibXSLT-1.92nb1
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+bmake: cannot open Makefile.
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/p5-XML-LibXSLT/work/XML-LibXSLT-1.92
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/p5-XML-LibXSLT
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/p5-XML-LibXSLT
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-Data-Stag
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/bioperl
+===> bodr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bodr-9.tar.gz
+=> Total size: 286732 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  280k  100  280k    0     0   158k      0  0:00:01  0:00:01 --:--:--  313k
+===> Building for bodr-9nb5
+Making all in bibtexml-xslt
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/bibtexml-xslt'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/bibtexml-xslt'
+Making all in dicts
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/dicts'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/dicts'
+Making all in crystal
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/crystal'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/crystal'
+Making all in elements
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/elements'
+/boot/home/pkg/bin/xsltproc  ../bibtexml-xslt/html-harvard.xsl elements_biblio.bxml > elements_biblio.html
+runtime_loader: /boot/home/pkg/lib/libz.so.1.2.8: No version information available (required by /boot/home/pkg/lib/libxml2.so.2.9.1)
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Could not resolve symbol 'gzdirect'
+resolve symbol "gzdirect" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Troubles relocating: Symbol not found
+make[1]: *** [elements_biblio.html] Error 4
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/biology/bodr/work/bodr-9/elements'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/bodr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/bodr
+===> chemical-mime-data
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching chemical-mime-data-0.1.94.tar.gz
+=> Total size: 193359 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  188k  100  188k    0     0   146k      0  0:00:01  0:00:01 --:--:--  273k
+===> Installing dependencies for chemical-mime-data-0.1.94
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency ImageMagick-[0-9]*: NOT found
+=> Verifying reinstall for ../../graphics/ImageMagick
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ImageMagick-6.8.9-0.tar.xz
+=> Total size: 7545228 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file ImageMagick-6.8.9-0.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file ImageMagick-6.8.9-0.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 7368k  100 7368k    0     0   265k      0  0:00:27  0:00:27 --:--:--  310k
+===> Installing dependencies for ImageMagick-6.8.9.0nb2
+==========================================================================
+The supported build options for ImageMagick are:
+
+        djvu ghostscript jasper wmf x11
+
+The currently selected options are:
+
+        jasper x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.ImageMagick (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+ImageMagick-6.8.9.0nb2.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency jasper>=1.900.1nb7: found jasper-1.900.1nb7
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+=> Full dependency libltdl>=2.4.2: found libltdl-2.4.2
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency lcms2>=2.2: found lcms2-2.6
+=> Full dependency openexr>=2.1.0nb1: found openexr-2.1.0nb1
+=> Full dependency libwebp>=0.2.0: found libwebp-0.3.1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency tiff>=4.0.3nb5: found tiff-4.0.3nb6
+=> Full dependency fftw>=3.1nb1: NOT found
+=> Verifying reinstall for ../../math/fftw
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching fftw-3.3.4.tar.gz
+=> Total size: 3940427 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3848k  100 3848k    0     0   663k      0  0:00:05  0:00:05 --:--:--  825k
+===> Building for fftw-3.3.4nb1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/ImageMagick
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/chemical-mime-data
+===> chemtool
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching chemtool-1.6.14.tar.gz
+=> Total size: 817735 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  798k  100  798k    0     0   199k      0  0:00:04  0:00:04 --:--:--  225k
+===> Installing dependencies for chemtool-1.6.14nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gobject-introspection-1.38.0nb2
+==========================================================================
+The following variables will affect the build process of this package,
+gobject-introspection-1.38.0nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency py27-cElementTree-[0-9]*: NOT found
+=> Verifying reinstall for ../../textproc/py-cElementTree
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-cElementTree-2.7.7
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/chemtool
+===> gnome-chemistry-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnome-chemistry-utils-0.12.13.tar.bz2
+=> Total size: 5399998 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 5273k  100 5273k    0     0   391k      0  0:00:13  0:00:13 --:--:--  310k
+===> Installing dependencies for gnome-chemistry-utils-0.12.13nb16
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gnome-doc-utils>=0.8.0: NOT found
+=> Verifying reinstall for ../../textproc/gnome-doc-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnome-doc-utils-0.20.10nb2
+==========================================================================
+The following variables will affect the build process of this package,
+gnome-doc-utils-0.20.10nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency libxml2>=2.8.0nb2: found libxml2-2.9.1nb2
+=> Build dependency libxslt>=1.1.28nb2: found libxslt-1.1.28nb3
+=> Full dependency py27-libxml2>=2.6.16: NOT found
+=> Verifying reinstall for ../../textproc/py-libxml2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-libxml2-2.9.1
+==========================================================================
+The following variables will affect the build process of this package,
+py27-libxml2-2.9.1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency py27-expat>=0: NOT found
+=> Verifying reinstall for ../../textproc/py-expat
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-expat-2.7.7
+/bin/ld: use the --help option for usage information
+error: command 'ld' failed with exit status 1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-expat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-expat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-libxml2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/gnome-chemistry-utils
+===> gromacs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gromacs-4.5.5.tar.gz
+=> Total size: 10398178 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9.9M  100  9.9M    0     0   245k      0  0:00:41  0:00:41 --:--:--  233k
+===> Installing dependencies for gromacs-4.5.5nb4
+==========================================================================
+The supported build options for gromacs are:
+
+        mpi x11
+
+The currently selected options are:
+
+        mpi x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gromacs (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency mpich>=3: NOT found
+=> Verifying reinstall for ../../parallel/mpi-ch
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mpich-3.0.4nb2
+==========================================================================
+The supported build options for mpich are:
+
+        debug f90 mpich-mpd threads
+
+The currently selected options are:
+
+        threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mpich (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/mpi-ch
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/gromacs
+===> mopac
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mopac7-linux.diff.gz
+=> Total size: 72591 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 72591  100 72591    0     0  45008      0  0:00:01  0:00:01 --:--:-- 56711
+=> Fetching mopac7-man.tar.gz
+=> Total size: 356464 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  348k  100  348k    0     0  63385      0  0:00:05  0:00:05 --:--:-- 67421
+=> Fetching mopac7.tar.Z
+=> Total size: 606379 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  592k  100  592k    0     0  53185      0  0:00:11  0:00:11 --:--:-- 54948
+===> Installing dependencies for mopac-7.0nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency libf2c>=20090201nb3: found libf2c-20090201nb3
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/mopac
+===> mpqc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mpqc-2.3.1.tar.bz2
+=> Total size: 2521392 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2462k  100 2462k    0     0   699k      0  0:00:03  0:00:03 --:--:--  927k
+===> Installing dependencies for mpqc-2.3.1nb3
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/mpqc
+===> mummer
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching MUMmer3.20.tar.gz
+=> Total size: 3155446 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3081k  100 3081k    0     0   422k      0  0:00:07  0:00:07 --:--:--  488k
+===> Installing dependencies for mummer-3.20nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tcsh-[0-9]*: NOT found
+=> Verifying reinstall for ../../shells/tcsh
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for tcsh-6.18.01nb5
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --enable-shared
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking cached host tuple... ok
+configure: error: Tcsh can't guess the configuration file name
+for `i386-pc-haiku' systems.
+Check tcsh's `Ported' file for manual configuration instructions.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/shells/tcsh
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/shells/tcsh
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/mummer
+===> openbabel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching openbabel-2.3.0.tar.gz
+=> Total size: 14321281 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 13.6M  100 13.6M    0     0   463k      0  0:00:30  0:00:30 --:--:--  473k
+===> Building for openbabel-2.3.0nb17
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 21%] Built target openbabel
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 22%] Built target plugin_charges
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 24%] Built target plugin_descriptors
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 25%] Built target plugin_fingerprints
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 26%] Built target plugin_forcefields
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+[ 31%] Built target plugin_ops
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+Linking C shared library ../../../lib/libinchi.so
+runtime_loader: /boot/home/pkg/lib/libexecinfo.so.1.0: Failed to get gcc version.
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/openbabel/work/openbabel-2.3.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/openbabel/work/openbabel-2.3.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/openbabel/work/openbabel-2.3.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/openbabel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/openbabel
+===> plink
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching plink-1.07-src.zip
+=> Total size: 2257297 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2204k  100 2204k    0     0   110k      0  0:00:19  0:00:19 --:--:-- 67505
+===> Installing dependencies for plink-1.07
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency libf2c>=20090201nb3: found libf2c-20090201nb3
+=> Full dependency lapack>=3.1.1: NOT found
+=> Verifying reinstall for ../../math/lapack
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching lapack-3.5.0.tgz
+=> Total size: 6313139 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file lapack-3.5.0.tgz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 6165k  100 6165k    0     0   480k      0  0:00:12  0:00:12 --:--:--  677k
+===> Installing dependencies for lapack-3.5.0
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/lapack
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/plink
+===> plinkseq
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching plinkseq-0.08.tar.gz
+=> Total size: 2991871 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file plinkseq-0.08.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file plinkseq-0.08.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2921k  100 2921k    0     0  1561k      0  0:00:01  0:00:01 --:--:-- 1622k
+===> Installing dependencies for plinkseq-0.08nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency protobuf>=2.4.1: NOT found
+=> Verifying reinstall for ../../devel/protobuf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for protobuf-2.5.0nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in .
+Making all in src
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..    -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -Wno-error -specs=/boot/home/pkg/etc/specs -MT common.lo -MD -MP -MF .deps/common.Tpo -c -o common.lo `test -f 'google/protobuf/stubs/common.cc' || echo './'`google/protobuf/stubs/common.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -specs=/boot/home/pkg/etc/specs -MT common.lo -MD -MP -MF .deps/common.Tpo -c google/protobuf/stubs/common.cc  -DPIC -o .libs/common.o
+In file included from google/protobuf/stubs/common.cc:34:0:
+./google/protobuf/stubs/once.h: In function 'void google::protobuf::GoogleOnceInit(google::protobuf::ProtobufOnceType*, void (*)())':
+./google/protobuf/stubs/once.h:125:34: error: invalid conversion from 'google::protobuf::ProtobufOnceType* {aka long int*}' to 'const volatile Atomic32* {aka const volatile int*}' [-fpermissive]
+   if (internal::Acquire_Load(once) != ONCE_STATE_DONE) {
+                                  ^
+In file included from ./google/protobuf/stubs/atomicops.h:178:0,
+                 from ./google/protobuf/stubs/once.h:81,
+                 from google/protobuf/stubs/common.cc:34:
+./google/protobuf/stubs/atomicops_internals_x86_gcc.h:163:17: error:   initializing argument 1 of 'google::protobuf::internal::Atomic32 google::protobuf::internal::Acquire_Load(const volatile Atomic32*)' [-fpermissive]
+ inline Atomic32 Acquire_Load(volatile const Atomic32* ptr) {
+                 ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/protobuf/work/protobuf-2.5.0/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/protobuf/work/protobuf-2.5.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/protobuf/work/protobuf-2.5.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/protobuf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/protobuf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/plinkseq
+===> puzzle
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tree-puzzle-5.2.tar.gz
+=> Total size: 875142 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  854k  100  854k    0     0   100k      0  0:00:08  0:00:08 --:--:--  156k
+===> Installing dependencies for puzzle-5.2
+=> Full dependency mpich>=3: NOT found
+=> Verifying reinstall for ../../parallel/mpi-ch
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mpich-3.0.4nb2
+==========================================================================
+The supported build options for mpich are:
+
+        debug f90 mpich-mpd threads
+
+The currently selected options are:
+
+        threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mpich (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/mpi-ch
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/puzzle
+===> py-mol
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pymol-v1.5.0.1.tar.bz2
+=> Total size: 9695855 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 9468k  100 9468k    0     0   778k      0  0:00:12  0:00:12 --:--:--  998k
+===> Installing dependencies for py27-mol-1.5.0.1nb3
+==========================================================================
+The following variables will affect the build process of this package,
+py27-mol-1.5.0.1nb3.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Full dependency py27-numpy-[0-9]*: NOT found
+=> Verifying reinstall for ../../math/py-numpy
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching numpy-1.8.0.tar.gz
+=> Total size: 3779617 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 3691k  100 3691k    0     0   466k      0  0:00:07  0:00:07 --:--:--  631k
+===> Installing dependencies for py27-numpy-1.8.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-numpy-1.8.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/py-numpy
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/py-mol
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for rasmol-2.7.3nb2
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Full dependency libXext>=1.1: found libXext-1.3.2
+=> Full dependency libXi>=1.0.0: found libXi-1.7.2
+===> Overriding tools for rasmol-2.7.3nb2
+===> Extracting for rasmol-2.7.3nb2
+cd /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/src && /bin/rm -rf RCS doc/RCS src/RCS src/msc/RCS
+===> Patching for rasmol-2.7.3nb2
+=> Applying pkgsrc patches for rasmol-2.7.3nb2
+===> Creating toolchain wrappers for rasmol-2.7.3nb2
+src=/boot/home/pkg/lib/pkgconfig/fixesproto.pc  dst=/boot/home/pkgsrc/pkgsrc/biology/rasmol/work/.buildlink/lib/pkgconfig/fixesext.pc;  /bin/mkdir -p /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/.buildlink/lib/pkgconfig;  if test -f ${src}; then  /bin/ln -s -sf ${src} ${dst};  fi
+===> Configuring for rasmol-2.7.3nb2
+/bin/ln -s -sf /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/doc  /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/src
+/bin/ln -s -sf /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/data /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/src
+cd /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/src && /bin/sed "s#@@PREFIX@@#/boot/home/pkg#" rasmol.h >  rasmol.h.new && /bin/mv rasmol.h.new rasmol.h
+imake -DUseInstalled -I/boot/home/pkg/lib/X11/config
+make Makefiles
+make includes
+make depend
+makedepend  --   -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\"  -D_USE_RASMOL_H_   -DUSE_MAKEDEPEND -- rasmol.c rasmol.h molecule.c molecule.h abstree.c abstree.h        cmndline.c cmndline.h command.c command.h tokens.h transfor.c        transfor.h render.c render.h x11win.c graphics.h pixutils.c        pixutils.h font.h outfile.c outfile.h script.c script.h infile.c        infile.h repres.c repres.h tokens.c cif_fract.c cif_fract.h cif.c        cif.h cif_ctonum.c cif_ctonum.h cif_stx.c        multiple.h multiple.c vector.h vector.c        wbrotate.c wbrotate.c langsel.h langsel.c
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/sys/types.h, line 9): cannot find include file "config/types.h"
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/sys/types.h, line 11): cannot find include file "BeBuild.h"
+        not in /boot/home/pkg/include/BeBuild.h
+        not in /usr/include/BeBuild.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/size_t.h, line 9): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/limits.h, line 10): cannot find include file "config/types.h"
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/limits.h, line 12): cannot find include file "float.h"
+        not in /boot/home/pkg/include/float.h
+        not in /usr/include/float.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/limits.h, line 82): cannot find include file "limits.h"
+        not in /usr/include/limits.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/stdlib.h, line 12): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/wchar_t.h, line 8): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/stdio.h, line 11): cannot find include file "stdarg.h"
+        not in /boot/home/pkg/include/stdarg.h
+        not in /usr/include/stdarg.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/libio.h, line 31): cannot find include file "stdarg.h"
+        not in /boot/home/pkg/include/stdarg.h
+        not in /usr/include/stdarg.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/signal.h), line 351: incomplete include == "#include __HAIKU_ARCH_HEADER(signal.h)"
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/sys/select.h, line 9): cannot find include file "config/types.h"
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/stdint.h, line 9): cannot find include file "config/types.h"
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  rasmol.c (reading /boot/home/pkg/include/endian.h, line 9): cannot find include file "config/HaikuConfig.h"
+        not in /boot/home/pkg/include/config/HaikuConfig.h
+        not in /usr/include/config/HaikuConfig.h
+makedepend: warning:  x11win.c (reading /boot/home/pkg/include/X11/Xlib.h, line 51): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  cif_ctonum.c, line 187: cannot find include file "float.h"
+        not in /boot/home/pkg/include/float.h
+        not in /usr/include/float.h
+makedepend: warning:  multiple.c, line 135: cannot find include file "stdarg.h"
+        not in /boot/home/pkg/include/stdarg.h
+        not in /usr/include/stdarg.h
+===> Building for rasmol-2.7.3nb2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c rasmol.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c molecule.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c abstree.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c cmndline.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c command.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c transfor.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c render.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c repres.c
+gcc -O      -I/boot/home/pkg/include        -DRASMOLDIR=\"/boot/home/pkg/share/doc/rasmol/\" -DEIGHTBIT -D_USE_RASMOL_H_   -I/boot/home/pkg/include -c x11win.c
+x11win.c:346:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/rasmol/work/RasMol_2.7.3/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/rasmol
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/biology/rasmol
+~/pkgsrc/pkgsrc/biology/rasmol> 

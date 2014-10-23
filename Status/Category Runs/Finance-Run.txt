@@ -1,0 +1,2152 @@
+
+Welcome to the Haiku shell.
+
+~> go
+===> Installing dependencies for gkrellm-2.2.10nb23
+==========================================================================
+The supported build options for gkrellm are:
+
+        gnutls ssl
+
+The currently selected options are:
+
+        ssl
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gkrellm (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gkrellm-2.2.10nb23.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency gkrellm-share-2.2.10: found gkrellm-share-2.2.10
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+=> Full dependency glib2>=2.34.0: NOT found
+=> Verifying reinstall for ../../devel/glib2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for glib2-2.38.2nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-modular-tests
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /boot/home/pkgsrc/pkgsrc/devel/glib2/work/.tools/bin/mkdir -p
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for i386-pc-haiku-gcc... gcc
+cat: conftest.er1: No such file or directory
+checking whether the C compiler works... no
+configure: error: in `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2':
+configure: error: C compiler cannot create executables
+See `config.log' for more details
+*** Error code 77
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/gkrellm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/gkrellm-stock
+===> gnucash
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnucash-2.6.3.tar.bz2
+=> Total size: 10822437 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 10.3M  100 10.3M    0     0   489k      0  0:00:21  0:00:21 --:--:-- 1062k
+===> Installing dependencies for gnucash-2.6.3nb7
+==========================================================================
+The following variables will affect the build process of this package,
+gnucash-2.6.3nb7.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * PYPACKAGE = python27
+        * TERMCAP_TYPE = c
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency gperf>=3.0.1: found gperf-3.0.4
+=> Build dependency damageproto>=1.1.0: found damageproto-1.2.1
+=> Full dependency guile-slib>=3.2.1: NOT found
+=> Verifying reinstall for ../../devel/guile-slib
+===> Installing dependencies for guile-slib-3.2.2nb2
+=> Full dependency slib>=3.2.2: found slib-3.2.4
+=> Full dependency guile>=1.8.7nb2: NOT found
+=> Verifying reinstall for ../../lang/guile
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching guile-1.8.8.tar.gz
+=> Total size: 3956654 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3863k  100 3863k    0     0   542k      0  0:00:07  0:00:07 --:--:--  647k
+===> Building for guile-1.8.8nb6
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8'
+Making all in oop
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+Making all in goops
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop/goops'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop/goops'
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+Making all in libguile
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H   -I.. -I.. -I.. -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include -Wall -Wmissing-prototypes -MT posix.lo -MD -MP -MF .deps/posix.Tpo -c -o posix.lo posix.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I.. -I/boot/home/pkgsrc/pkgsrc/lang/guile/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -Wall -Wmissing-prototypes -MT posix.lo -MD -MP -MF .deps/posix.Tpo -c posix.c  -DPIC -o .libs/posix.o
+posix.c: In function 'scm_getgrgid':
+posix.c:426:3: error: 'else' without a previous 'if'
+   else
+   ^
+posix.c: In function 'scm_utime':
+posix.c:1241:3: error: 'else' without a previous 'if'
+   else
+   ^
+posix.c:1246:3: error: 'else' without a previous 'if'
+   else
+   ^
+make[3]: *** [posix.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/guile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/guile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/guile-slib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/gnucash
+===> gnucash-docs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnucash-docs-2.6.3.tar.gz
+=> Total size: 58835557 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 56.1M  100 56.1M    0     0   315k      0  0:03:01  0:03:01 --:--:--  591k
+===> Installing dependencies for gnucash-docs-2.6.3
+=> Full dependency yelp-[0-9]*: NOT found
+=> Verifying reinstall for ../../misc/yelp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching yelp-2.30.2.tar.bz2
+=> Total size: 1159521 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   373  100   373    0     0    627      0 --:--:-- --:--:-- --:--:--   851
+100 1132k  100 1132k    0     0   194k      0  0:00:05  0:00:05 --:--:--  257k
+===> Installing dependencies for yelp-2.30.2nb30
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency docbook>=4.2: found docbook-4.5
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+=> Full dependency GConf>=2.32.4nb5: NOT found
+=> Verifying reinstall for ../../devel/GConf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching GConf-2.32.4.tar.bz2
+=> Total size: 1531539 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1495k  100 1495k    0     0   115k      0  0:00:12  0:00:12 --:--:--  234k
+===> Installing dependencies for GConf-2.32.4nb9
+==========================================================================
+The following variables will affect the build process of this package,
+GConf-2.32.4nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: NOT found
+=> Verifying reinstall for ../../devel/glib2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib2-2.38.2nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in m4macros
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+Making all in glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+/bin/make  all-recursive
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+Making all in libcharset
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+Making all in update-pcre
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+Making all in .
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+  CC       libglib_2_0_la-gbase64.lo
+In file included from gbase64.c:32:0:
+glibintl.h:5:2: error: #error "config.h must be included prior to glibintl.h"
+ #error "config.h must be included prior to glibintl.h"
+  ^
+make[4]: *** [libglib_2_0_la-gbase64.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/GConf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/misc/yelp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/gnucash-docs
+===> kmymoney2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching kmymoney2-1.0.5.tar.bz2
+=> Total size: 11042115 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 10.5M  100 10.5M    0     0   368k      0  0:00:29  0:00:29 --:--:--  446k
+===> Installing dependencies for kmymoney2-1.0.5nb29
+==========================================================================
+The supported build options for kmymoney2 are:
+
+        libofx sqlite3
+
+The currently selected options are:
+
+        libofx
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.kmymoney2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+kmymoney2-1.0.5nb29.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+        * JPEG_DEFAULT = jpeg
+        * KRB5_DEFAULT = heimdal
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * KRB5BASE (defined, but empty)
+        * KRB5_TYPE = heimdal
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency autoconf>=2.50: found autoconf-2.69nb5
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency qt3-tools>=3.3.8nb15: NOT found
+=> Verifying reinstall for ../../x11/qt3-tools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching qt-x11-free-3.3.8.tar.bz2
+=> Total size: 14360483 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0
+curl: (28) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+fetch: Unable to fetch expected file qt-x11-free-3.3.8.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0
+curl: (28) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+fetch: Unable to fetch expected file qt-x11-free-3.3.8.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file qt-x11-free-3.3.8.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13.6M  100 13.6M    0     0   164k      0  0:01:25  0:01:25 --:--:--  118k
+===> Installing dependencies for qt3-tools-3.3.8nb16
+==========================================================================
+The supported build options for qt3-tools are:
+
+        cups debug inet6
+
+The currently selected options are:
+
+        inet6
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt3 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt3-tools-3.3.8nb16.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libtool-base-[0-9]*: found libtool-base-2.4.2nb7
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency qt3-libs>=3.3.8nb26: NOT found
+=> Verifying reinstall for ../../x11/qt3-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt3-libs-3.3.8nb28
+==========================================================================
+The supported build options for qt3-libs are:
+
+        cups debug inet6
+
+The currently selected options are:
+
+        inet6
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt3 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt3-libs-3.3.8nb28.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency jpeg>=9: found jpeg-9anb1
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching MesaGLUT-7.11.2.tar.bz2
+=> Total size: 201575 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file MesaGLUT-7.11.2.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file MesaGLUT-7.11.2.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  196k  100  196k    0     0   268k      0 --:--:-- --:--:-- --:--:--  298k
+=> Fetching MesaLib-7.11.2.tar.bz2
+=> Total size: 6257280 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file MesaLib-7.11.2.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file MesaLib-7.11.2.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 6110k  100 6110k    0     0   681k      0  0:00:08  0:00:08 --:--:--  370k
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/kmymoney2
+===> libofx
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libofx-0.9.1.tar.gz
+=> Total size: 1177818 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1150k  100 1150k    0     0   498k      0  0:00:02  0:00:02 --:--:-- 1029k
+===> Installing dependencies for libofx-0.9.1nb5
+==========================================================================
+The following variables will affect the build process of this package,
+libofx-0.9.1nb5.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libxml++1>=1.0.5nb1: found libxml++1-1.0.5nb1
+=> Full dependency opensp>=1.5.2nb1: NOT found
+=> Verifying reinstall for ../../textproc/opensp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching OpenSP-1.5.2.tar.gz
+=> Total size: 1521390 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1485k  100 1485k    0     0   335k      0  0:00:04  0:00:04 --:--:--  417k
+===> Installing dependencies for opensp-1.5.2nb4
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Build dependency xmlto-[0-9]*: found xmlto-0.0.26
+===> Overriding tools for opensp-1.5.2nb4
+===> Extracting for opensp-1.5.2nb4
+===> Patching for opensp-1.5.2nb4
+=> Applying pkgsrc patches for opensp-1.5.2nb4
+===> Creating toolchain wrappers for opensp-1.5.2nb4
+===> Configuring for opensp-1.5.2nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Replacing Perl interpreter in unicode/gensyntax.pl.
+=> Fixing locale directory references.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./doc/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./docsrc/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./generic/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./include/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./lib/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./nsgmls/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./pubtext/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./sgmlnorm/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./spam/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./spcat/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./spent/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./sx/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./tests/Makefile.in.
+INFO: [subst.mk:pkglocaledir] Nothing changed in ./unicode/Makefile.in.
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Could not resolve symbol 'gzdirect'
+resolve symbol "gzdirect" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Troubles relocating: Symbol not found
+make[2]: *** [onsgmls.1] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/textproc/opensp/work/OpenSP-1.5.2/docsrc'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/textproc/opensp/work/OpenSP-1.5.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/opensp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/opensp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/libofx
+===> moneyguru
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching 2.7.1.tar.gz
+=> Total size: 3128081 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   122    0   122    0     0    225      0 --:--:-- --:--:-- --:--:--   322
+  0     0    0 3054k    0     0   275k      0 --:--:--  0:00:11 --:--:--  447k
+===> Installing dependencies for moneyguru-2.7.1nb1
+==========================================================================
+The following variables will affect the build process of this package,
+moneyguru-2.7.1nb1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python34
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency py34-polib-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/py-polib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching polib-1.0.3.tar.gz
+=> Total size: 149954 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 403 Forbidden
+fetch: Unable to fetch expected file polib-1.0.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file polib-1.0.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  146k  100  146k    0     0   266k      0 --:--:-- --:--:-- --:--:--  310k
+=> Full dependency py34-qt4-[0-9]*: NOT found
+=> Verifying reinstall for ../../x11/py-qt4
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching PyQt-x11-gpl-4.10.2.tar.gz
+=> Total size: 11280941 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 10.7M  100 10.7M    0     0   240k      0  0:00:45  0:00:45 --:--:--  183k
+===> Installing dependencies for py34-qt4-4.10.2nb1
+==========================================================================
+The following variables will affect the build process of this package,
+py34-qt4-4.10.2nb1.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * PYTHON_VERSION_DEFAULT = 34
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * PYPACKAGE = python34
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency dbus-python-common>=1.1.1: NOT found
+=> Verifying reinstall for ../../sysutils/dbus-python-common
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching dbus-python-1.2.0.tar.gz
+=> Total size: 602426 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  588k  100  588k    0     0   560k      0  0:00:01  0:00:01 --:--:--  649k
+===> Installing dependencies for dbus-python-common-1.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+dbus-python-common-1.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python34
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency python34>=3.4: found python34-3.4.1nb1
+=> Build dependency dbus-glib>=0.100nb1: NOT found
+=> Verifying reinstall for ../../sysutils/dbus-glib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching dbus-glib-0.102.tar.gz
+=> Total size: 783792 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  765k  100  765k    0     0   174k      0  0:00:04  0:00:04 --:--:--  180k
+===> Installing dependencies for dbus-glib-0.102
+==========================================================================
+The supported build options for dbus-glib are:
+
+        debug
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.dbus-glib (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: NOT found
+=> Verifying reinstall for ../../devel/glib2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib2-2.38.2nb2
+glibintl.h:5:2: error: #error "config.h must be included prior to glibintl.h"
+ #error "config.h must be included prior to glibintl.h"
+  ^
+make[4]: *** [libglib_2_0_la-gbase64.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/dbus-glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/dbus-python-common
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/py-qt4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/moneyguru
+===> p5-Data-Currency
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Data-Currency-0.06000.tar.gz
+=> Total size: 17233 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 17233  100 17233    0     0   4528      0  0:00:03  0:00:03 --:--:--  4630
+===> Installing dependencies for p5-Data-Currency-0.06000nb2
+=> Full dependency p5-Class-Accessor-Grouped>=0.03: found p5-Class-Accessor-Grouped-0.10010nb2
+=> Full dependency p5-Class-Inspector>=0: found p5-Class-Inspector-1.28nb2
+=> Full dependency p5-Finance-Currency-Convert-WebserviceX>=0.03: NOT found
+=> Verifying reinstall for ../../finance/p5-Finance-Currency-Convert-WebserviceX
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Finance-Currency-Convert-WebserviceX-0.07001.tar.gz
+=> Total size: 32705 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 32705  100 32705    0     0   6585      0  0:00:04  0:00:04 --:--:--  7553
+===> py-stripe
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching stripe-1.17.0.tar.gz
+=> Total size: 171234 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  167k  100  167k    0     0   409k      0 --:--:-- --:--:-- --:--:--  530k
+===> Installing dependencies for py34-stripe-1.17.0
+running install_egg_info
+removing '/boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe/work/.destdir/boot/home/pkg/lib/python3.4/site-packages/MarkupSafe-0.23-py3.4.egg-info' (and everything under it)
+Copying MarkupSafe.egg-info to /boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe/work/.destdir/boot/home/pkg/lib/python3.4/site-packages/MarkupSafe-0.23-py3.4.egg-info
+running install_scripts
+==========================================================================
+WARNING: The C extension could not be compiled, speedups are not enabled.
+Plain-Python installation succeeded.
+==========================================================================
+=> Automatic manual page handling
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe/work/.destdir/boot/home/pkg/lib/python3.4/site-packages/markupsafe/_speedups.so'
+=> Creating binary package /boot/home/packages/py34-markupsafe-0.23.tgz
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe/work/.destdir/boot/home/pkg/lib/python3.4/site-packages/markupsafe/_speedups.so'
+pkg_create: lstat failed for file lib/python3.4/site-packages/markupsafe/_speedups.so: No such file or directory
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-markupsafe
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-jinja2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-requests
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-stripe
+===> py-trytond-account
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account-3.2.0.tar.gz
+=> Total size: 286063 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  279k  100  279k    0     0  52868      0  0:00:05  0:00:05 --:--:-- 64240
+===> Installing dependencies for py27-trytond-account-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-python-sql-[0-9]*: NOT found
+=> Verifying reinstall for ../../databases/py-python-sql
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching python-sql-0.3.tar.gz
+=> Total size: 19804 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 19804  100 19804    0     0  71278      0 --:--:-- --:--:-- --:--:--   97k
+===> Installing dependencies for py27-python-sql-0.3
+==========================================================================
+The following variables will affect the build process of this package,
+py27-python-sql-0.3.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-setuptools>=0.6c9: NOT found
+ setup.py  build )
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account
+===> py-trytond-account-asset
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_asset-3.2.0.tar.gz
+=> Total size: 37338 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 37338  100 37338    0     0  30547      0  0:00:01  0:00:01 --:--:-- 70984
+===> Installing dependencies for py27-trytond-account_asset-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account_asset-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/py-trytond
+PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /boot/home/pkg/bin/python2.7  setup.py  build )
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-asset
+===> py-trytond-account-fr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_fr-3.2.0.tar.gz
+=> Total size: 47957 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 47957  100 47957    0     0  63475      0 --:--:-- --:--:-- --:--:-- 71152
+===> Installing dependencies for py27-trytond-account_fr-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account_fr-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-account-[0-9]*: NOT found
+=> Verifying reinstall for ../../finance/py-trytond-account
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-account-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-python-sql-[0-9]*: NOT found
+=> Verifying reinstall for ../../databases/py-python-sql
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-python-sql-0.3
+==========================================================================
+The following variables will affect the build process of this package,
+py27-python-sql-0.3.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-setuptools>=0.6c9: NOT found
+=> Verifying reinstall for ../../devel/py-setuptools
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-fr
+===> py-trytond-account-invoice
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_invoice-3.2.0.tar.gz
+=> Total size: 120607 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  117k  100  117k    0     0  35811      0  0:00:03  0:00:03 --:--:-- 38300
+===> Installing dependencies for py27-trytond-account-invoice-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-invoice-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-python-sql-[0-9]*: NOT found
+=> Verifying reinstall for ../../databases/py-python-sql
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-python-sql-0.3
+==========================================================================
+The following variables will affect the build process of this package,
+py27-python-sql-0.3.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-setuptools>=0.6c9: NOT found
+=> Verifying reinstall for ../../devel/py-setuptools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-setuptools-5.0.1
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-invoice
+===> py-trytond-account-payment
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_payment-3.2.0.tar.gz
+=> Total size: 31321 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 31321  100 31321    0     0  38992      0 --:--:-- --:--:-- --:--:-- 59096
+===> Installing dependencies for py27-trytond-account-payment-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-payment-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+=> Full dependency py27-setuptools>=0.6c9: NOT found
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-currency
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-payment
+===> py-trytond-account-payment-sepa
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_payment_sepa-3.2.0.tar.gz
+=> Total size: 45070 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 45070  100 45070    0     0  58299      0 --:--:-- --:--:-- --:--:-- 64662
+===> Installing dependencies for py27-trytond-account-payment-sepa-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-payment-sepa-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-account-payment-[0-9]*: NOT found
+=> Verifying reinstall for ../../finance/py-trytond-account-payment
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-account-payment-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-payment-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-currency-[0-9]*: NOT found
+=> Verifying reinstall for ../../finance/py-trytond-currency
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-currency-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-currency-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/py-trytond
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-3.2.0
+==========================================================================
+The supported build options for py27-trytond are:
+
+        cdecimal mysql psycopg pydot pytz simplejson
+        sphinx webdav
+
+The currently selected options are:
+
+        psycopg pytz simplejson sphinx
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.py-trytond (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+ setup.py  build )
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-currency
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-payment
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-payment-sepa
+===> py-trytond-account-product
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_product-3.2.0.tar.gz
+=> Total size: 26100 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 26100  100 26100    0     0  42337      0 --:--:-- --:--:-- --:--:-- 48968
+===> Installing dependencies for py27-trytond-account-product-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-product-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/misc/py-trytond-product
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-product
+===> py-trytond-account-statement
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_account_statement-3.2.0.tar.gz
+=> Total size: 35042 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 35042  100 35042    0     0  57966      0 --:--:-- --:--:-- --:--:-- 66619
+===> Installing dependencies for py27-trytond-account-statement-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-account-statement-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-currency-[0-9]*: NOT found
+=> Verifying reinstall for ../../finance/py-trytond-currency
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-currency-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-currency-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+ setup.py  build )
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-currency
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-account-statement
+===> py-trytond-bank
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching trytond_bank-3.2.0.tar.gz
+=> Total size: 23440 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 23440  100 23440    0     0  39518      0 --:--:-- --:--:-- --:--:-- 45603
+===> Installing dependencies for py27-trytond-bank-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-bank-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-stdnum-[0-9]*: NOT found
+=> Verifying reinstall for ../../misc/py-stdnum
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching python-stdnum-0.9.tar.gz
+=> Total size: 136636 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  133k  100  133k    0     0   496k      0 --:--:-- --:--:-- --:--:--  694k
+===> Installing dependencies for py27-stdnum-0.9
+==========================================================================
+The following variables will affect the build process of this package,
+py27-stdnum-0.9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/py-suds
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/misc/py-stdnum
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-bank
+===> py-trytond-currency
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-currency-3.2.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-currency-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/py-python-sql
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-trytond-currency
+===> py-vatnumber
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching vatnumber-1.1.tar.gz
+=> Total size: 22032 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 22032  100 22032    0     0  58627      0 --:--:-- --:--:-- --:--:-- 75194
+===> Installing dependencies for py27-vatnumber-1.1
+==========================================================================
+The supported build options for py27-vatnumber are:
+
+        vatnumber-suds
+
+The currently selected options are:
+
+        vatnumber-suds
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.py-vatnumber (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+py27-vatnumber-1.1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-suds-[0-9]*: NOT found
+=> Verifying reinstall for ../../net/py-suds
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-suds-0.4
+==========================================================================
+The following variables will affect the build process of this package,
+py27-suds-0.4.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    exec(init_file.read(), command_ns)
+  File "<string>", line 8, in <module>
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/__init__.py", line 12, in <module>
+    from setuptools.extension import Extension
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/extension.py", line 7, in <module>
+    from setuptools.dist import _get_unpatched
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/dist.py", line 15, in <module>
+    from setuptools.depends import Require
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/depends.py", line 6, in <module>
+    from setuptools import compat
+  File "/boot/home/pkgsrc/pkgsrc/devel/py-setuptools/work/setuptools-5.0.1/setuptools/compat.py", line 18, in <module>
+    import httplib
+  File "/boot/home/pkg/lib/python2.7/httplib.py", line 71, in <module>
+    import socket
+  File "/boot/home/pkg/lib/python2.7/socket.py", line 229, in <module>
+    p.__doc__ = getattr(_realsocket,_m).__doc__
+AttributeError: type object '_socket.socket' has no attribute 'getpeername'
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-setuptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/py-suds
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/py-vatnumber
+===> ruby-activemerchant
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching activemerchant-1.20.0.gem
+=> Total size: 231424 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0    321      0 --:--:-- --:--:-- --:--:--  2617
+100   154  100   154    0     0    158      0 --:--:-- --:--:-- --:--:--   158
+100  226k  100  226k    0     0  75739      0  0:00:03  0:00:03 --:--:--  119k
+===> Installing dependencies for ruby200-activemerchant-1.20.0
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-builder>=2.0.0: NOT found
+=> Verifying reinstall for ../../textproc/ruby-builder
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching builder-3.0.4.gem
+=> Total size: 26112 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0    862      0 --:--:-- --:--:-- --:--:--  2333
+100 26112  100 26112    0     0  42126      0 --:--:-- --:--:-- --:--:-- 42126
+===> Installing dependencies for ruby200-builder-3.0.4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ruby-2.0.0-p481.tar.bz2
+=> Total size: 10727244 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 10.2M  100 10.2M    0     0   140k      0  0:01:14  0:01:14 --:--:--  185k
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/ruby-builder
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/ruby-activemerchant
+===> ruby-braintree
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching braintree-2.13.1.gem
+=> Total size: 88576 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0    552      0 --:--:-- --:--:-- --:--:--  2579
+100   154  100   154    0     0    263      0 --:--:-- --:--:-- --:--:--   263
+100 88576  100 88576    0     0  57778      0  0:00:01  0:00:01 --:--:--  256k
+===> Installing dependencies for ruby200-braintree-2.13.1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-builder>=2.0.0: NOT found
+=> Verifying reinstall for ../../textproc/ruby-builder
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for ruby200-builder-3.0.4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/ruby-builder
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/ruby-braintree
+===> tclticker
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tclticker-1.1.tar.gz
+=> Total size: 11420 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11420  100 11420    0     0  35574      0 --:--:-- --:--:-- --:--:-- 46422
+===> Installing dependencies for tclticker-1.1nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tk>=8.3.2: found tk-8.6.1nb2
+===> Overriding tools for tclticker-1.1nb1
+===> Extracting for tclticker-1.1nb1
+===> Patching for tclticker-1.1nb1
+=> Applying pkgsrc patches for tclticker-1.1nb1
+=> Fixing hardcoded paths and command names.
+===> Creating toolchain wrappers for tclticker-1.1nb1
+===> Installing for tclticker-1.1nb1
+=> Creating installation directories
+/bin/install -c -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/tclticker-1.1/tclticker /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/.destdir/boot/home/pkg/bin
+/bin/install -c -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/tclticker-1.1/mailquote /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/.destdir/boot/home/pkg/bin
+/bin/install -d -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/.destdir/boot/home/pkg/share/tclticker
+cd /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/tclticker-1.1/lib && pax -rw . /boot/home/pkgsrc/pkgsrc/finance/tclticker/work/.destdir/boot/home/pkg/share/tclticker
+=> Automatic manual page handling
+=> Creating binary package /boot/home/packages/tclticker-1.1nb1.tgz
+===> Install binary package of tclticker-1.1nb1
+===> tex-euro
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching euro.tar.xz
+=> Total size: 2552 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  2552  100  2552    0     0   5765      0 --:--:-- --:--:-- --:--:--  6915
+===> Installing dependencies for tex-euro-1.1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-fp-[0-9]*: NOT found
+=> Fetching pixman-0.32.4.tar.bz2
+=> Total size: 701414 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  684k  100  684k    0     0  54371      0  0:00:12  0:00:12 --:--:--  100k
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/tex-fp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/tex-euro
+===> xfinans
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xfinans-5.9.tar.gz
+=> Total size: 124696 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  121k  100  121k    0     0  27996      0  0:00:04  0:00:04 --:--:-- 28554
+===> Installing dependencies for xfinans-5.9nb4
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency gnuplot>=3.7: NOT found
+=> Verifying reinstall for ../../textproc/py-cElementTree
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-cElementTree-2.7.7
+building '_elementtree' extension
+gcc -DNDEBUG -Wno-error -DHAVE_DB_185_H -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include -DUSE_EXPAT -I/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/include -I/boot/home/pkg/include/python2.7 -c Modules/_elementtree.c -o build/temp.haiku-1-BePC-2.7/Modules/_elementtree.o
+Modules/_elementtree.c:58:0: warning: "USE_EXPAT" redefined [enabled by default]
+ #define USE_EXPAT
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+ld -L/boot/home/pkgsrc/pkgsrc/lang/python27/work/Python-2.7.7 -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -L/boot/system/lib -Wl,-R/boot/system/lib -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include build/temp.haiku-1-BePC-2.7/Modules/_elementtree.o -L/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/lib -L/boot/home/pkg/lib -Wl,-R/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/lib -lexpat -lpython2.7 -o build/lib.haiku-1-BePC-2.7/_elementtree.so -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -L/boot/system/lib -Wl,-R/boot/system/lib
+/bin/ld: unrecognized option '-specs=/boot/home/pkg/etc/specs'
+/bin/ld: use the --help option for usage information
+error: command 'ld' failed with exit status 1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gnuplot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/xfinans
+===> xinvest
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xinvest-2.6.9.tar.gz
+=> Total size: 282748 bytes
+curl: (6) Couldn't resolve host 'xinvest.sunsite.dk'
+fetch: Unable to fetch expected file xinvest-2.6.9.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  276k  100  276k    0     0  54902      0  0:00:05  0:00:05 --:--:-- 60223
+===> Installing dependencies for xinvest-2.6.9nb3
+==========================================================================
+The following variables will affect the build process of this package,
+xinvest-2.6.9nb3.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * MOTIFBASE (defined)
+        * MOTIF_TYPE = motif
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency xbitmaps>=1.0: found xbitmaps-1.1.1
+=> Full dependency libXpm>=3.5.4.2: found libXpm-3.5.11
+=> Full dependency motif>=2.3.4nb6: NOT found
+=> Verifying reinstall for ../../x11/motif
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching motif-2.3.4-src.tgz
+=> Total size: 9527040 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 9303k  100 9303k    0     0   167k      0  0:00:55  0:00:55 --:--:--  302k
+===> Building for motif-2.3.4nb7
+Making all in bindings
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/x11/motif/work/motif-2.3.4/bindings'
+runtime_loader: /boot/home/pkg/lib/libz.so.1.2.8: No version information available (required by /boot/home/pkg/lib/libpng16.so.16.12.0)
+runtime_loader: /boot/home/pkg/lib/libpng16.so.16.12.0: Could not resolve symbol 'inflateReset2'
+resolve symbol "inflateReset2" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libpng16.so.16.12.0: Troubles relocating: Symbol not found
+make[2]: *** [XmStrDefs.h] Error 4
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/x11/motif/work/motif-2.3.4/lib/Xm'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/x11/motif/work/motif-2.3.4/lib'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/xinvest
+===> xquote
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xquote-2.6.10.tar.gz
+=> Total size: 106006 bytes
+curl: (6) Couldn't resolve host 'xinvest.sunsite.dk'
+fetch: Unable to fetch expected file xquote-2.6.10.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  103k  100  103k    0     0  20353      0  0:00:05  0:00:05 --:--:-- 25829
+===> Installing dependencies for xquote-2.6.10nb4
+==========================================================================
+The following variables will affect the build process of this package,
+xquote-2.6.10nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * MOTIFBASE (defined)
+        * MOTIF_TYPE = motif
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency xbitmaps>=1.0: found xbitmaps-1.1.1
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libXmu>=1.0.0: found libXmu-1.1.2
+=> Full dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency libXpm>=3.5.4.2: found libXpm-3.5.11
+=> Full dependency Xbae>=4.51.01nb2: NOT found
+=> Verifying reinstall for ../../x11/Xbae
+runtime_loader: /boot/home/pkg/lib/libz.so.1.2.8: No version information available (required by /boot/home/pkg/lib/libpng16.so.16.12.0)
+runtime_loader: /boot/home/pkg/lib/libpng16.so.16.12.0: Could not resolve symbol 'inflateReset2'
+resolve symbol "inflateReset2" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libpng16.so.16.12.0: Troubles relocating: Symbol not found
+make[2]: *** [XmStrDefs.h] Error 4
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/x11/motif/work/motif-2.3.4/lib/Xm'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/x11/motif/work/motif-2.3.4/lib'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/Xbae
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/finance/xquote

@@ -1,0 +1,3 @@
+PKGPATH=ham/cwtext
+PKGPATH=ham/locator
+PKGPATH=ham/wwl

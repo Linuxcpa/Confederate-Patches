@@ -1,0 +1,1093 @@
+
+Welcome to the Haiku shell.
+
+~> go
+~/pkgsrc/pkgsrc> cd parallel/
+~/pkgsrc/pkgsrc/parallel> do
+===> clusterit
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching clusterit-2.5.tar.gz
+=> Total size: 295347 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  288k  100  288k    0     0   120k      0  0:00:02  0:00:02 --:--:--  166k
+===> Installing dependencies for clusterit-2.5nb1
+==========================================================================
+The following variables will affect the build process of this package,
+clusterit-2.5nb1.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+===> Overriding tools for clusterit-2.5nb1
+===> Extracting for clusterit-2.5nb1
+===> Patching for clusterit-2.5nb1
+=> Applying pkgsrc patches for clusterit-2.5nb1
+===> Creating toolchain wrappers for clusterit-2.5nb1
+===> Configuring for clusterit-2.5nb1
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+===> Building for clusterit-2.5nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in barrier
+gcc -DHAVE_CONFIG_H -I. -I..    -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT barrierd.o -MD -MP -MF .deps/barrierd.Tpo -c -o barrierd.o barrierd.c
+barrierd.c: In function 'sleeper':
+barrierd.c:157:8: warning: passing argument 3 of 'accept' from incompatible pointer type [enabled by default]
+        &size);
+        ^
+In file included from /boot/home/pkg/include/netdb.h:94:0,
+                 from ../common/sockcommon.h:41,
+                 from barrierd.c:43:
+/boot/home/pkg/include/sys/socket.h:164:6: note: expected 'socklen_t *' but argument is of type 'size_t *'
+ int  accept(int socket, struct sockaddr *address, socklen_t *_addressLength);
+      ^
+mv -f .deps/barrierd.Tpo .deps/barrierd.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT sockcommon.o -MD -MP -MF .deps/sockcommon.Tpo -c -o sockcommon.o `test -f '../common/sockcommon.c' || echo './'`../common/sockcommon.c
+mv -f .deps/sockcommon.Tpo .deps/sockcommon.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT common.o -MD -MP -MF .deps/common.Tpo -c -o common.o `test -f '../common/common.c' || echo './'`../common/common.c
+../common/common.c: In function 'parse_rcmd':
+../common/common.c:607:4: warning: passing argument 1 of 'strdup' makes pointer from integer without a cast [enabled by default]
+    cmd[i++] = strdup(strsep(&tmp, " "));
+    ^
+In file included from ../common/common.h:39:0,
+                 from ../common/common.c:39:
+/boot/home/pkg/include/string.h:65:15: note: expected 'const char *' but argument is of type 'int'
+ extern char  *strdup(const char *string);
+               ^
+../common/common.c:620:3: warning: passing argument 1 of 'strdup' makes pointer from integer without a cast [enabled by default]
+   cmd[i++] = strdup(strsep(&tmp, " "));
+   ^
+In file included from ../common/common.h:39:0,
+                 from ../common/common.c:39:
+/boot/home/pkg/include/string.h:65:15: note: expected 'const char *' but argument is of type 'int'
+ extern char  *strdup(const char *string);
+               ^
+mv -f .deps/common.Tpo .deps/common.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT netbsd.o -MD -MP -MF .deps/netbsd.Tpo -c -o netbsd.o `test -f '../common/netbsd.c' || echo './'`../common/netbsd.c
+../common/netbsd.c:88:24: fatal error: sys/syslog.h: No such file or directory
+ #include <sys/syslog.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/clusterit/work/clusterit-2.5/barrier
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/clusterit/work/clusterit-2.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/clusterit/work/clusterit-2.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/clusterit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/clusterit
+===> dqs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching DQS-3.3.2.tgz
+=> Total size: 1498996 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   254  100   254    0     0    106      0  0:00:02  0:00:02 --:--:--   152
+100   255  100   255    0     0     81      0  0:00:03  0:00:03 --:--:--  1526
+100 1463k  100 1463k    0     0  20656      0  0:01:12  0:01:12 --:--:-- 43175
+===> Installing dependencies for dqs-3.3.2nb2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for dqs-3.3.2nb2
+===> Extracting for dqs-3.3.2nb2
+===> Patching for dqs-3.3.2nb2
+=> Applying pkgsrc patches for dqs-3.3.2nb2
+echo '#undef DEFAULT_HOST' >> /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/SRC/dqs.h
+===> Creating toolchain wrappers for dqs-3.3.2nb2
+===> Configuring for dqs-3.3.2nb2
+/bin/cp /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/UTIL/config.guess
+/bin/cp /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.sub /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/UTIL/config.sub
+===> Building for dqs-3.3.2nb2
+=> Adding Haiku lnetwork to libraries
+UTIL/make_arcs make CC=cc -f Makefile
+myhostname = shredder.haikuhost.haikudomain
+Making the directory ARCS
+/boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/ARCS
+Linking ../SRC SRC
+Linking ../UTIL UTIL
+/boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/ARCS/i586-pc-haiku
+rm -f Makefile.c
+cp ../SRC/Makefile.proto Makefile.c
+echo "#define `../UTIL/config.guess 1`" | sed s/\\./_/g | sed s/-/_/g > Makefile.h
+config.guess: too many arguments
+Try `config.guess --help' for more information.
+cc -traditional -E Makefile.c | sed 's/        /        /g' | sed 's/\/ /\//g' | sed 's/ \//\//g' | sed 's/ ( BIN_DIR )/(BIN_DIR)/g' > Makefile.typ
+In file included from Makefile.c:412:0:
+Makefile.h:1:0: error: no macro name given in #define directive
+ #define 
+ ^
+cc -g      -c ../SRC/dqs_ddes.c
+cc -g      -c ../SRC/dqs_setup.c
+In file included from ../SRC/dqs_setup.c:284:0:
+../SRC/h.h:121:24: fatal error: sys/signal.h: No such file or directory
+ #include <sys/signal.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/ARCS/i586-pc-haiku
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3/ARCS/i586-pc-haiku
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/dqs/work/DQS3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/dqs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/dqs
+pkg_add: package `dsh-0.25.10nb1' already recorded as installed
+===> ganglia-monitor-core
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ganglia-3.1.2.tar.gz
+=> Total size: 1213196 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1184k  100 1184k    0     0   393k      0  0:00:03  0:00:03 --:--:--  535k
+===> Installing dependencies for ganglia-monitor-core-3.1.2nb24
+==========================================================================
+The supported build options for ganglia-monitor-core are:
+
+        python
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.ganglia (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency rrdtool>=1.4.7nb16: NOT found
+=> Verifying reinstall for ../../databases/rrdtool
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching rrdtool-1.4.7.tar.gz
+=> Total size: 1349040 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1317k  100 1317k    0     0   300k      0  0:00:04  0:00:04 --:--:--  305k
+===> Installing dependencies for rrdtool-1.4.7nb17
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.20.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency dejavu-ttf>=2.26: found dejavu-ttf-2.34nb1
+=> Full dependency glib2>=2.34.0: NOT found
+=> Verifying reinstall for ../../devel/glib2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib2-2.38.2nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in m4macros
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+Making all in glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+/bin/make  all-recursive
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+Making all in libcharset
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+Making all in update-pcre
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+Making all in .
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+  CC       libglib_2_0_la-gtimer.lo
+In file included from /boot/home/pkg/include/sys/select.h:12:0,
+                 from /boot/home/pkg/include/sys/time.h:17,
+                 from gtimer.c:41:
+/boot/home/pkg/include/signal.h:271:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmin();
+ ^
+/boot/home/pkg/include/signal.h:272:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmax();
+ ^
+gtimer.c: In function 'mktime_utc':
+gtimer.c:330:3: error: implicit declaration of function 'timegm' [-Werror=implicit-function-declaration]
+   retval = timegm (tm);
+   ^
+cc1: some warnings being treated as errors
+make[4]: *** [libglib_2_0_la-gtimer.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/rrdtool
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/ganglia-monitor-core
+===> gridscheduler
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: SGE_ARCH and SGE_BUILDARCH need to be configured for your OS
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/gridscheduler
+===> hwloc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching hwloc-1.7.1.tar.bz2
+=> Total size: 3214808 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3139k  100 3139k    0     0   686k      0  0:00:04  0:00:04 --:--:--  712k
+===> Installing dependencies for hwloc-1.7.1nb1
+==========================================================================
+The following variables will affect the build process of this package,
+hwloc-1.7.1nb1.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libxml2>=2.8.0nb2: found libxml2-2.9.1nb2
+===> Overriding tools for hwloc-1.7.1nb1
+===> Extracting for hwloc-1.7.1nb1
+===> Patching for hwloc-1.7.1nb1
+===> Creating toolchain wrappers for hwloc-1.7.1nb1
+===> Configuring for hwloc-1.7.1nb1
+cd /boot/home/pkgsrc/pkgsrc/parallel/hwloc/work/hwloc-1.7.1 && autoreconf -ivf
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I ./config
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+autoreconf: configure.ac: tracing
+autoreconf: running: libtoolize --copy --force
+Making all in utils
+  CC       lstopo_no_graphics-lstopo.o
+  CC       lstopo_no_graphics-lstopo-color.o
+  CC       lstopo_no_graphics-lstopo-text.o
+lstopo-text.c: In function 'set_textcolor':
+lstopo-text.c:356:9: error: 'enter_bold_mode' undeclared (first use in this function)
+     if (enter_bold_mode)
+         ^
+lstopo-text.c:356:9: note: each undeclared identifier is reported only once for each function it appears in
+lstopo-text.c:360:9: error: 'exit_attribute_mode' undeclared (first use in this function)
+     if (exit_attribute_mode)
+         ^
+lstopo-text.c: In function 'set_color':
+lstopo-text.c:382:9: error: 'set_a_background' undeclared (first use in this function)
+     if (set_a_background)
+         ^
+lstopo-text.c:392:7: error: 'set_a_foreground' undeclared (first use in this function)
+   if (set_a_foreground) {
+       ^
+lstopo-text.c:399:14: error: 'set_foreground' undeclared (first use in this function)
+   } else if (set_foreground) {
+              ^
+lstopo-text.c:404:24: error: 'set_background' undeclared (first use in this function)
+     if ((toput = tparm(set_background, color, 0, 0, 0, 0, 0, 0, 0, 0)))
+                        ^
+lstopo-text.c:406:14: error: 'set_color_pair' undeclared (first use in this function)
+   } else if (set_color_pair) {
+              ^
+lstopo-text.c: In function 'output_text':
+lstopo-text.c:721:11: error: 'orig_colors' undeclared (first use in this function)
+       if (orig_colors)
+           ^
+lstopo-text.c:725:15: error: 'initialize_pair' undeclared (first use in this function)
+       initp = initialize_pair;
+               ^
+lstopo-text.c:726:11: error: 'max_pairs' undeclared (first use in this function)
+       if (max_pairs <= 16 || !initp || !set_color_pair) {
+           ^
+lstopo-text.c:726:41: error: 'set_color_pair' undeclared (first use in this function)
+       if (max_pairs <= 16 || !initp || !set_color_pair) {
+                                         ^
+lstopo-text.c:729:6: error: 'max_colors' undeclared (first use in this function)
+  if (max_colors > 16)
+      ^
+lstopo-text.c:730:8: error: 'can_change' undeclared (first use in this function)
+    if (can_change)
+        ^
+lstopo-text.c:731:21: error: 'initialize_color' undeclared (first use in this function)
+             initc = initialize_color;
+                     ^
+lstopo-text.c:780:17: error: 'orig_pair' undeclared (first use in this function)
+     if (term && orig_pair) {
+                 ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/hwloc/work/hwloc-1.7.1/utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/hwloc/work/hwloc-1.7.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/hwloc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/hwloc
+===> linda
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching linda-0.1.1.tar.gz
+=> Total size: 187939 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  183k  100  183k    0     0   127k      0  0:00:01  0:00:01 --:--:--  524k
+===> Installing dependencies for linda-0.1.1nb10
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: NOT found
+=> Verifying reinstall for ../../devel/glib2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib2-2.38.2nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+Making all in m4macros
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/m4macros'
+Making all in glib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+/bin/make  all-recursive
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+Making all in libcharset
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/libcharset'
+Making all in update-pcre
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+/bin/make  all-am
+make[5]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib/update-pcre'
+Making all in .
+make[4]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+  CC       libglib_2_0_la-gtimer.lo
+In file included from /boot/home/pkg/include/sys/select.h:12:0,
+                 from /boot/home/pkg/include/sys/time.h:17,
+                 from gtimer.c:41:
+/boot/home/pkg/include/signal.h:271:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmin();
+ ^
+/boot/home/pkg/include/signal.h:272:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmax();
+ ^
+gtimer.c: In function 'mktime_utc':
+gtimer.c:330:3: error: implicit declaration of function 'timegm' [-Werror=implicit-function-declaration]
+   retval = timegm (tm);
+   ^
+cc1: some warnings being treated as errors
+make[4]: *** [libglib_2_0_la-gtimer.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/linda
+===> mpi-ch
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mpich-3.0.4.tar.gz
+=> Total size: 10921075 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 10.4M  100 10.4M    0     0   774k      0  0:00:13  0:00:13 --:--:--  823k
+===> Installing dependencies for mpich-3.0.4nb2
+==========================================================================
+The supported build options for mpich are:
+
+        debug f90 mpich-mpd threads
+
+The currently selected options are:
+
+        threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mpich (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:3: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:3: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+Makefile.am:10: warning: source file 'intrinsics/adjust.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+automake: warning: possible forward-incompatibility.
+automake: At least a source file is in a subdirectory, but the 'subdir-objects'
+automake: automake option hasn't been enabled.  For now, the corresponding output
+automake: object file(s) will be placed in the top-level directory.  However,
+automake: this behaviour will change in future Automake versions: they will
+automake: unconditionally cause object files to be placed in the same subdirectory
+automake: of the corresponding sources.
+automake: You are advised to start using 'subdir-objects' option throughout your
+automake: project, to avoid future incompatibilities.
+Makefile.am:10: warning: source file 'intrinsics/all.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/any.c' is in a subdirectory,
+Makefile.am:56: warning: source file 'windows/idate_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+rm -f /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95 && /bin/env LIBTOOL="libtool " INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo FLEX= BISON= AWK=/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/bin/chmod CMP=/bin/cmp CP=/bin/cp DIFF=/bin/diff ECHO=echo ac_cv_path_ECHO=echo EGREP=/bin/egrep ac_cv_path_EGREP=/bin/egrep SETENV=/bin/env ENV_PROG=/bin/env ac_cv_path_ENV=/bin/env FALSE=false ac_cv_path_FALSE=false FIND=/bin/find GREP=/bin/grep ac_cv_path_GREP=/bin/grep TAR=/bin/tar HOSTNAME=/bin/hostname LN=/bin/ln\ -s LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/bin/rmdir SED=/bin/sed SORT=/bin/sort TAR=/bin/tar TEST=test ac_cv_path_TEST=test TOUCH=/bin/touch TR=/bin/tr TRUE=true ac_cv_path_TRUE=true PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs CPPFLAGS= CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/system/develop/lib\ -lnetwork\ -Wl,-R/boot/system/develop/lib\ -Wl,-R/boot/home/pkg/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.home CONFIG_SHELL=/bin/sh LIBS= ac_given_INSTALL=/bin/install\ -c\ -o\ user\ -g\ root ../configure --with-gcc-dir=/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2 PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig --enable-shared --prefix=/boot/home/pkg --prefix=/boot/home/pkg --build=i386-pc-haiku --host=i386-pc-haiku --mandir=/boot/home/pkg/man --enable-languages=c --disable-multilib --disable-libssp
+configure: warning: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig: invalid host type
+loading cache ./config.cache
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+Configuring in ./fixincludes
+configure: loading cache ./config.cache
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+configure: error: /bin/sh ../../fixincludes/../config.sub PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig failed
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/mpi-ch
+===> openmpi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching openmpi-1.6.4.tar.bz2
+=> Total size: 10869229 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 10.3M  100 10.3M    0     0   749k      0  0:00:14  0:00:14 --:--:--  799k
+===> Installing dependencies for openmpi-1.6.4nb3
+==========================================================================
+The supported build options for openmpi are:
+
+        debug f90 sge
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.openmpi (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/openmpi
+===> p5-Parallel-Pvm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Parallel-Pvm-1.4.0.tar.gz
+=> Total size: 19422 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 19422  100 19422    0     0   4475      0  0:00:04  0:00:04 --:--:--  4971
+===> Installing dependencies for p5-Parallel-Pvm-1.4.0nb6
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+=> Full dependency pvm>=3.4.5nb1: NOT found
+=> Verifying reinstall for ../../parallel/pvm3
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pvm3.4.6.tgz
+=> Total size: 1014257 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  990k  100  990k    0     0  89419      0  0:00:11  0:00:11 --:--:-- 98242
+===> Installing dependencies for pvm-3.4.6nb1
+==========================================================================
+The following variables will affect the build process of this package,
+pvm-3.4.6nb1.  Their current value is shown below:
+
+        * PVM_SSH = /boot/home/pkg/bin/ssh
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:3: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:3: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /bin/make -j1
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+Configuring in ./fixincludes
+configure: loading cache ./config.cache
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+configure: error: /bin/sh ../../fixincludes/../config.sub PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig failed
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pvm3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/p5-Parallel-Pvm
+===> paexec
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching paexec-0.19.1.tar.gz
+=> Total size: 147668 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  144k  100  144k    0     0  21279      0  0:00:06  0:00:06 --:--:-- 23919
+===> Installing dependencies for paexec-0.19.1
+=> Build dependency mk-configure>=0.20.0: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mk-configure-0.26.0.tar.gz
+=> Total size: 274771 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  268k  100  268k    0     0  26134      0  0:00:10  0:00:10 --:--:-- 13923
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bmkdep-20131215.tar.gz
+=> Total size: 7570 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7570  100  7570    0     0  17062      0 --:--:-- --:--:-- --:--:-- 20911
+===> Installing dependencies for bmkdep-20131215
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for bmkdep-20131215
+===> Extracting for bmkdep-20131215
+===> Patching for bmkdep-20131215
+=> Applying pkgsrc patches for bmkdep-20131215
+===> Creating toolchain wrappers for bmkdep-20131215
+===> Configuring for bmkdep-20131215
+===> Building for bmkdep-20131215
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -Wno-error  -Werror   -c mkdep.c
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -Wno-error  -Werror   -c findcc.c
+gcc -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/paexec
+===> pdsh
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pdsh-2.29.tar.bz2
+=> Total size: 470693 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  459k  100  459k    0     0   697k      0 --:--:-- --:--:-- --:--:--  798k
+===> Installing dependencies for pdsh-2.29nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+===> Overriding tools for pdsh-2.29nb1
+===> Extracting for pdsh-2.29nb1
+===> Patching for pdsh-2.29nb1
+===> Creating toolchain wrappers for pdsh-2.29nb1
+===> Configuring for pdsh-2.29nb1
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Replacing Perl interpreter in scripts/dshbak.
+libtool: link: ar cru .libs/libcommon.a .libs/err.o .libs/fd.o .libs/hostlist.o .libs/list.o .libs/split.o .libs/xmalloc.o .libs/xpoll.o .libs/xstring.o .libs/pipecmd.o 
+libtool: link: ranlib .libs/libcommon.a
+libtool: link: ( cd ".libs" && rm -f "libcommon.la" && ln -s "../libcommon.la" "libcommon.la" )
+Making all in qsnet
+Making all in modules
+(echo  "{ global:";                 echo "    pdsh_module_info;";      echo "    pdsh_module_priority;";  echo "  local: *;";                echo "};") > version.map
+/boot/home/pkg/bin/bmake  all-am
+if /bin/sh ../../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H  -I. -I. -I../.. -I../..     -Wno-error -specs=/boot/home/pkg/etc/specs -MT xrcmd.lo -MD -MP -MF ".deps/xrcmd.Tpo" -c -o xrcmd.lo xrcmd.c;  then mv -f ".deps/xrcmd.Tpo" ".deps/xrcmd.Plo"; else rm -f ".deps/xrcmd.Tpo"; exit 1; fi
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -specs=/boot/home/pkg/etc/specs -MT xrcmd.lo -MD -MP -MF .deps/xrcmd.Tpo -c xrcmd.c  -DPIC -o .libs/xrcmd.o
+xrcmd.c: In function 'xrcmd':
+xrcmd.c:233:18: error: 'F_SETOWN' undeclared (first use in this function)
+         fcntl(s, F_SETOWN, pid);
+                  ^
+xrcmd.c:233:18: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh/work/pdsh-2.29/src/modules
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh/work/pdsh-2.29/src/modules
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh/work/pdsh-2.29/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh/work/pdsh-2.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh/work/pdsh-2.29
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pdsh
+===> pvm3
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for pvm-3.4.6nb1
+==========================================================================
+The following variables will affect the build process of this package,
+pvm-3.4.6nb1.  Their current value is shown below:
+
+        * PVM_SSH = /boot/home/pkg/bin/ssh
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/pvm3
+===> sge
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: SGE_ARCH and SGE_BUILDARCH need to be configured for your OS
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/sge
+===> slurm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching slurm-2.6.4.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 5814k  100 5814k    0     0   488k      0  0:00:11  0:00:11 --:--:--  497k
+===> Installing dependencies for slurm-2.6.4nb4
+==========================================================================
+The following variables will affect the build process of this package,
+slurm-2.6.4nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * PAM_DEFAULT = openpam
+        * PYTHON_VERSION_DEFAULT = 34
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * PAMBASE (defined, but empty)
+        * PYPACKAGE = python34
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency python34>=3.4: found python34-3.4.1nb1
+=> Full dependency munge>=0.5.10: NOT found
+=> Verifying reinstall for ../../security/munge
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching munge-0.5.11.tar.bz2
+=> Total size: 423232 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  413k  100  413k    0     0   604k      0 --:--:-- --:--:-- --:--:--  755k
+===> Installing dependencies for munge-0.5.11nb3
+==========================================================================
+The following variables will affect the build process of this package,
+munge-0.5.11nb3.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+=> Full dependency libgcrypt>=1.6.0: found libgcrypt-1.6.1
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+===> Overriding tools for munge-0.5.11nb3
+===> Extracting for munge-0.5.11nb3
+===> Patching for munge-0.5.11nb3
+=> Applying pkgsrc patches for munge-0.5.11nb3
+===> Creating toolchain wrappers for munge-0.5.11nb3
+===> Configuring for munge-0.5.11nb3
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+===> Building for slurm-2.6.4nb4
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in auxdir
+Making all in src
+Making all in common
+/bin/sh ../../libtool --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../.. -I../../slurm -I../..     -I/boot/home/pkg/include/python3.4 -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include/python3.4 -I/boot/home/pkg/include  -pthread  -fno-gcse -MT xcgroup_read_config.lo -MD -MP -MF .deps/xcgroup_read_config.Tpo -c -o xcgroup_read_config.lo xcgroup_read_config.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../slurm -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include/python3.4 -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -fno-gcse -MT xcgroup_read_config.lo -MD -MP -MF .deps/xcgroup_read_config.Tpo -c xcgroup_read_config.c  -DPIC -o .libs/xcgroup_read_config.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../slurm -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include/python3.4 -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -fno-gcse -MT xcgroup_read_config.lo -MD -MP -MF .deps/xcgroup_read_config.Tpo -c xcgroup_read_config.c -o xcgroup_read_config.o >/dev/null 2>&1
+mv -f .deps/xcgroup_read_config.Tpo .deps/xcgroup_read_config.Plo
+/bin/sh ../../libtool --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H -I. -I../.. -I../../slurm -I../..     -I/boot/home/pkg/include/python3.4 -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include/python3.4 -I/boot/home/pkg/include  -pthread  -fno-gcse -MT xcgroup.lo -MD -MP -MF .deps/xcgroup.Tpo -c -o xcgroup.lo xcgroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../slurm -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include/python3.4 -I/boot/home/pkgsrc/pkgsrc/parallel/slurm/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -fno-gcse -MT xcgroup.lo -MD -MP -MF .deps/xcgroup.Tpo -c xcgroup.c  -DPIC -o .libs/xcgroup.o
+xcgroup.c:57:23: fatal error: sys/mount.h: No such file or directory
+ #include <sys/mount.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm/work/slurm-2.6.4/src/common
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm/work/slurm-2.6.4/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm/work/slurm-2.6.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm/work/slurm-2.6.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/slurm
+===> threadingbuildingblocks
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tbb30_20110325oss_src.tgz
+=> Total size: 1880565 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0    568      0 --:--:-- --:--:-- --:--:--  1017
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file tbb30_20110325oss_src.tgz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1836k  100 1836k    0     0   127k      0  0:00:14  0:00:14 --:--:--  195k
+===> Installing dependencies for threadingbuildingblocks-3.0.6
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+===> Overriding tools for threadingbuildingblocks-3.0.6
+===> Extracting for threadingbuildingblocks-3.0.6
+===> Patching for threadingbuildingblocks-3.0.6
+=> Applying pkgsrc patches for threadingbuildingblocks-3.0.6
+===> Creating toolchain wrappers for threadingbuildingblocks-3.0.6
+===> Configuring for threadingbuildingblocks-3.0.6
+cd /boot/home/pkgsrc/pkgsrc/parallel/threadingbuildingblocks/work/tbb30_20110325oss/build/ && cp FreeBSD.gcc.inc NetBSD.gcc.inc && cp FreeBSD.inc NetBSD.inc
+===> Building for threadingbuildingblocks-3.0.6
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+build/common.inc:55: *** "Haiku" is not supported. Add build/Haiku.inc file with os-specific settings .  Stop.
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/threadingbuildingblocks
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/threadingbuildingblocks
+~/pkgsrc/pkgsrc/parallel> 

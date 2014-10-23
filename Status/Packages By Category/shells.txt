@@ -1,0 +1,9 @@
+PKGPATH=shells/bash
+PKGPATH=shells/bash-completion
+PKGPATH=shells/bash2-doc
+PKGPATH=shells/mksh
+PKGPATH=shells/mudsh
+PKGPATH=shells/osh
+PKGPATH=shells/pdksh
+PKGPATH=shells/rc
+PKGPATH=shells/xsh

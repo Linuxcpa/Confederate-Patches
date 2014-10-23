@@ -1,0 +1,2274 @@
+
+~/pkgsrc/pkgsrc/ham> do
+===> 7plus
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching 7pl210mg.tgz
+=> Fetching 7pl225sr.tgz
+=> Total size: 65122 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 65122  100 65122    0     0   316k      0 --:--:-- --:--:-- --:--:--  392k
+===> Installing dependencies for 7plus-225nb1
+===> Building for 7plus-225nb1
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -c -O2 -Wall -pedantic -ansi  -D__unix__ 7plus.c
+In file included from 7plus.c:91:0:
+7plus.h:257:22: fatal error: termio.h: No such file or directory
+   #include <termio.h>
+                      ^
+compilation terminated.
+make: *** [7plus.o] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/7plus
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/7plus
+===> dpbox
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching dpbox-60000.tar.gz
+=> Total size: 957010 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  934k  100  934k    0     0   227k      0  0:00:04  0:00:04 --:--:--  244k
+===> Installing dependencies for dpbox-6.00.00nb3
+===> Building for dpbox-6.00.00nb3
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wall -O2 -funsigned-char -fomit-frame-pointer -fno-strength-reduce  -DNO_SHELL -c filesys.c
+In file included from filesys.c:11:0:
+filesys.h:148:46: error: unknown type name 'DTA'
+ extern short sffirst(char *pfad, short attr, DTA *dirr);
+                                              ^
+filesys.h:149:21: error: unknown type name 'DTA'
+ extern short sfnext(DTA *dirr);
+                     ^
+filesys.c: In function 'del_dir':
+filesys.c:800:3: error: unknown type name 'DTA'
+   DTA dirinfo;
+   ^
+filesys.c:803:3: warning: implicit declaration of function 'sffirst' [-Wimplicit-function-declaration]
+   result = sffirst(name, 0, &dirinfo);
+   ^
+filesys.c:806:40: error: request for member 'd_fname' in something not a structure or union
+     sprintf(STR1, "%s%s", name, dirinfo.d_fname);
+                                        ^
+filesys.c:808:5: warning: implicit declaration of function 'sfnext' [-Wimplicit-function-declaration]
+     result = sfnext(&dirinfo);
+     ^
+filesys.c: In function 'app_file2':
+filesys.c:826:12: error: 'minhandle' undeclared (first use in this function)
+   if (k2 < minhandle)
+            ^
+filesys.c:826:12: note: each undeclared identifier is reported only once for each function it appears in
+In file included from filesys.c:11:0:
+filesys.c:828:22: error: 'FO_READ' undeclared (first use in this function)
+   k1 = sfopen(filea, FO_READ);
+                      ^
+filesys.h:196:53: note: in definition of macro 'sfopen'
+ #define sfopen(name, mode) open_locked(false, name, mode)
+                                                     ^
+filesys.c:831:25: error: 'SFSEEKEND' undeclared (first use in this function)
+   fsize = sfseek(0, k1, SFSEEKEND);
+                         ^
+filesys.c:832:17: error: 'SFSEEKSET' undeclared (first use in this function)
+   sfseek(0, k1, SFSEEKSET);
+                 ^
+filesys.c: In function 'fmv_x':
+filesys.c:891:5: warning: pointer targets in passing argument 2 of 'sfgetdatime' differ in signedness [-Wpointer-sign]
+     sfgetdatime(filea, &ddate, &dtime);
+     ^
+In file included from filesys.c:11:0:
+filesys.h:144:14: note: expected 'short unsigned int *' but argument is of type 'short int *'
+ extern short sfgetdatime(char *name, unsigned short *date,
+              ^
+filesys.c:891:5: warning: pointer targets in passing argument 3 of 'sfgetdatime' differ in signedness [-Wpointer-sign]
+     sfgetdatime(filea, &ddate, &dtime);
+     ^
+In file included from filesys.c:11:0:
+filesys.h:144:14: note: expected 'short unsigned int *' but argument is of type 'short int *'
+ extern short sfgetdatime(char *name, unsigned short *date,
+              ^
+filesys.c:895:22: error: 'FO_READ' undeclared (first use in this function)
+   k1 = sfopen(filea, FO_READ);
+                      ^
+filesys.h:196:53: note: in definition of macro 'sfopen'
+ #define sfopen(name, mode) open_locked(false, name, mode)
+                                                     ^
+filesys.c:896:12: error: 'minhandle' undeclared (first use in this function)
+   if (k1 < minhandle)
+            ^
+filesys.c:899:25: error: 'SFSEEKEND' undeclared (first use in this function)
+   fsize = sfseek(0, k1, SFSEEKEND);
+                         ^
+filesys.c:900:17: error: 'SFSEEKSET' undeclared (first use in this function)
+   sfseek(0, k1, SFSEEKSET);
+                 ^
+In file included from filesys.c:11:0:
+filesys.c:943:26: error: 'FC_FILE' undeclared (first use in this function)
+     k2 = sfcreate(fileb, FC_FILE);
+                          ^
+filesys.h:195:54: note: in definition of macro 'sfcreate'
+ #define sfcreate(name, mode) open_locked(true, name, mode)
+                                                      ^
+filesys.c:969:5: warning: pointer targets in passing argument 2 of 'sfsetdatime' differ in signedness [-Wpointer-sign]
+     sfsetdatime(fileb, &ddate, &dtime);
+     ^
+In file included from filesys.c:11:0:
+filesys.h:146:14: note: expected 'short unsigned int *' but argument is of type 'short int *'
+ extern short sfsetdatime(char *name, unsigned short *date,
+              ^
+filesys.c:969:5: warning: pointer targets in passing argument 3 of 'sfsetdatime' differ in signedness [-Wpointer-sign]
+     sfsetdatime(fileb, &ddate, &dtime);
+     ^
+In file included from filesys.c:11:0:
+filesys.h:146:14: note: expected 'short unsigned int *' but argument is of type 'short int *'
+ extern short sfsetdatime(char *name, unsigned short *date,
+              ^
+filesys.c: In function 'validate':
+filesys.c:991:48: error: 'extsep' undeclared (first use in this function)
+   while (exist((sprintf(try, "%s%c%.3d", name, extsep, extnum++), try)));
+                                                ^
+filesys.c:991:65: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   while (exist((sprintf(try, "%s%c%.3d", name, extsep, extnum++), try)));
+                                                                 ^
+filesys.c: In function 'str2file':
+filesys.c:1003:17: error: 'minhandle' undeclared (first use in this function)
+   if (*handle < minhandle)
+                 ^
+filesys.c: In function 'file2lstr2':
+filesys.c:1028:16: error: 'minhandle' undeclared (first use in this function)
+   if (handle < minhandle)
+                ^
+filesys.c:1048:21: error: 'SFSEEKCUR' undeclared (first use in this function)
+  sfseek(ct, handle, SFSEEKCUR);
+                     ^
+In file included from filesys.c:11:0:
+filesys.c: In function 'append':
+filesys.c:1072:20: error: 'FO_RW' undeclared (first use in this function)
+   k = sfopen(name, FO_RW);
+                    ^
+filesys.h:196:53: note: in definition of macro 'sfopen'
+ #define sfopen(name, mode) open_locked(false, name, mode)
+                                                     ^
+filesys.c:1073:11: error: 'minhandle' undeclared (first use in this function)
+   if (k < minhandle)
+           ^
+In file included from filesys.c:11:0:
+filesys.c:1074:24: error: 'FC_FILE' undeclared (first use in this function)
+     k = sfcreate(name, FC_FILE);
+                        ^
+filesys.h:195:54: note: in definition of macro 'sfcreate'
+ #define sfcreate(name, mode) open_locked(true, name, mode)
+                                                      ^
+filesys.c:1077:21: error: 'SFSEEKEND' undeclared (first use in this function)
+   sz = sfseek(0, k, SFSEEKEND) + strlen(zeile);
+                     ^
+filesys.c: In function 'flockprotocole':
+filesys.c:1183:46: error: 'extsep' undeclared (first use in this function)
+   sprintf(w, "%sfile_err%ctxt", boxprotodir, extsep);
+                                              ^
+filesys.c:1184:15: error: 'FO_RW' undeclared (first use in this function)
+   k = open(w, FO_RW);
+               ^
+filesys.c:1185:11: error: 'minhandle' undeclared (first use in this function)
+   if (k < minhandle)
+           ^
+filesys.c:1186:24: error: 'FO_CREATE' undeclared (first use in this function)
+     k = dpsyscreate(w, FO_CREATE, FC_FILE);
+                        ^
+filesys.c:1186:35: error: 'FC_FILE' undeclared (first use in this function)
+     k = dpsyscreate(w, FO_CREATE, FC_FILE);
+                                   ^
+filesys.c: In function 'open_locked':
+filesys.c:1212:12: error: 'nohandle' undeclared (first use in this function)
+   Result = nohandle;
+            ^
+filesys.c:1215:34: error: 'FO_READ' undeclared (first use in this function)
+   wantwrite = (create || mode != FO_READ);
+                                  ^
+filesys.c:1235:34: error: 'FO_CREATE' undeclared (first use in this function)
+       handle = dpsyscreate(name, FO_CREATE, mode);
+                                  ^
+filesys.c:1239:18: error: 'minhandle' undeclared (first use in this function)
+     if (handle < minhandle)  /* File geoeffnet */
+                  ^
+filesys.c:1207:9: warning: variable 'Result' set but not used [-Wunused-but-set-variable]
+   short Result, handle;
+         ^
+filesys.c: In function 'sfclose_x':
+filesys.c:1334:24: error: 'nohandle' undeclared (first use in this function)
+     lastactivehandle = nohandle;
+                        ^
+filesys.c: In function 'tas_lockfile':
+filesys.c:1428:28: error: 'FO_CREATE' undeclared (first use in this function)
+   close( dpsyscreate(name, FO_CREATE, FC_FILE_RALL) );
+                            ^
+filesys.c:1428:39: error: 'FC_FILE_RALL' undeclared (first use in this function)
+   close( dpsyscreate(name, FO_CREATE, FC_FILE_RALL) );
+                                       ^
+filesys.c: In function '_filesys_init':
+filesys.c:1531:22: error: 'nohandle' undeclared (first use in this function)
+   lastactivehandle = nohandle;
+                      ^
+make: *** [filesys.o] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/dpbox
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/dpbox
+===> fl_logbook
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching fl_logbook-2.5.tar.gz
+=> Total size: 58672 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 58672  100 58672    0     0  95483      0 --:--:-- --:--:-- --:--:--  198k
+===> Installing dependencies for fl_logbook-2.5nb2
+==========================================================================
+The following variables will affect the build process of this package,
+fl_logbook-2.5nb2.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency fltk>=1.3.0nb10: NOT found
+=> Verifying reinstall for ../../x11/fltk13
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for fltk-1.3.2nb3
+==========================================================================
+The supported build options for fltk are:
+
+        opengl
+
+The currently selected options are:
+
+        opengl
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.fltk13 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+fltk-1.3.2nb3.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/fltk13
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/fl_logbook
+===> fldigi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libsndfile-1.0.25nb1
+==========================================================================
+The supported build options for libsndfile are:
+
+        octave oss sun
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.libsndfile (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency flac>=1.1.3nb1: found flac-1.3.0
+=> Full dependency libogg>=1.1.3: found libogg-1.3.2
+=> Full dependency libvorbis>=1.1.0nb1: found libvorbis-1.3.4
+===> Overriding tools for libsndfile-1.0.25nb1
+===> Extracting for libsndfile-1.0.25nb1
+===> Patching for libsndfile-1.0.25nb1
+=> Applying pkgsrc patches for libsndfile-1.0.25nb1
+===> Creating toolchain wrappers for libsndfile-1.0.25nb1
+-=-=-=-=-=-=-=-=-=-= Configuration Complete =-=-=-=-=-=-=-=-=-=-
+
+  Configuration summary :
+
+    libsndfile version : .................. 1.0.25
+
+    Host CPU : ............................ i386
+    Host Vendor : ......................... pc
+    Host OS : ............................. haiku
+
+    Experimental code : ................... no
+    Using ALSA in example programs : ...... no
+    External FLAC/Ogg/Vorbis : ............ yes
+
+  Tools :
+
+    Compiler is GCC : ..................... yes
+    GCC version : ......................... 4.8.3
+
+  Installation directories :
+
+    Library directory : ................... /boot/home/pkg/lib
+    Program directory : ................... /boot/home/pkg/bin
+    Pkgconfig directory : ................. /boot/home/pkg/lib/pkgconfig
+    HTML docs directory : ................. /boot/home/pkg/share/doc/libsndfile1-dev/html
+
+Compiling some other packages against libsndfile may require
+the addition of '/boot/home/pkg/lib/pkgconfig' to the
+PKG_CONFIG_PATH environment variable.
+
+make: Nothing to be done for `genfiles'.
+make: Nothing to be done for `genfiles'.
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for libsndfile-1.0.25nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Making all in M4
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/M4'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/M4'
+Making all in man
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/man'
+ln -s ./sndfile-metadata-get.1 sndfile-metadata-set.1
+ln -s ./sndfile-interleave.1 sndfile-deinterleave.1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/man'
+Making all in doc
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/doc'
+Making all in Win32
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/Win32'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/Win32'
+Making all in src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/src'
+/bin/make  all-am
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/src'
+  CC     sndfile.lo
+In file included from sndfile.c:26:0:
+sndfile.h:318:1: error: unknown type name 'int64_t'
+ typedef int64_t sf_count_t ;
+ ^
+sndfile.c: In function 'psf_open_file':
+sndfile.c:2625:3: warning: overflow in implicit constant conversion [-Woverflow]
+   psf->filelength = SF_COUNT_MAX ;
+   ^
+sndfile.c:2658:9: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+  if (psf->filelength == SF_COUNT_MAX)
+         ^
+make[2]: *** [sndfile.lo] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/src'
+make[1]: *** [all] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/audio/libsndfile/work/libsndfile-1.0.25/src'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/libsndfile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/libsndfile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/libsamplerate
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/fldigi
+===> gmfsk
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gmfsk-0.6.tar.gz
+=> Total size: 540765 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  528k  100  528k    0     0   186k      0  0:00:02  0:00:02 --:--:--  230k
+===> Installing dependencies for gmfsk-0.6nb44
+==========================================================================
+The following variables will affect the build process of this package,
+gmfsk-0.6nb44.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency GConf>=2.32.4nb5: NOT found
+=> Verifying reinstall for ../../devel/GConf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching GConf-2.32.4.tar.bz2
+=> Total size: 1531539 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1495k  100 1495k    0     0   166k      0  0:00:08  0:00:08 --:--:--  286k
+===> Installing dependencies for GConf-2.32.4nb9
+==========================================================================
+The following variables will affect the build process of this package,
+GConf-2.32.4nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+=> Full dependency ORBit2>=2.14.19nb4: NOT found
+=> Verifying reinstall for ../../net/ORBit2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ORBit2-2.14.19.tar.bz2
+=> Total size: 764820 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file ORBit2-2.14.19.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  746k  100  746k    0     0   138k      0  0:00:05  0:00:05 --:--:--  179k
+===> Installing dependencies for ORBit2-2.14.19nb4
+==========================================================================
+The supported build options for ORBit2 are:
+
+        inet6
+
+The currently selected options are:
+
+        inet6
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.ORBit2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency libIDL>=0.8.14nb4: NOT found
+=> Verifying reinstall for ../../net/libIDL
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libIDL-0.8.14.tar.gz
+=> Total size: 499807 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  488k  100  488k    0     0   126k      0  0:00:03  0:00:03 --:--:--  128k
+===> Configuring for libIDL-0.8.14nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/ORBit2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/GConf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gmfsk
+===> gnuradio-audio-jack
+
+
+===> Installing dependencies for cairo-1.12.16nb4
+==========================================================================
+The supported build options for cairo are:
+
+        x11 xcb
+
+The currently selected options are:
+
+        x11 xcb
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.cairo (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libxcb>=1.6: found libxcb-1.11
+=> Full dependency libXrender>=0.9.2: found libXrender-0.9.8
+=> Full dependency lzo>=2.01: found lzo-2.08
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency pixman>=0.25.2: NOT found
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pixman-0.32.4.tar.bz2
+=> Total size: 701414 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  684k  100  684k    0     0   100k      0  0:00:06  0:00:06 --:--:--  151k
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-audio-jack
+===> gnuradio-audio-oss
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-audio-oss-3.3.0nb9
+==========================================================================
+The following variables will affect the build process of this package,
+gnuradio-audio-oss-3.3.0nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.5.1: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+doxygen-1.8.7nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency tex-epsf-[0-9]*: found tex-epsf-2.7.4
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency dvipsk-[0-9]*: found dvipsk-5.993
+=> Full dependency makeindexk-[0-9]*: found makeindexk-2.15nb5
+=> Full dependency tex-a4wide>=2010nb1: NOT found
+=> Verifying reinstall for ../../print/tex-a4wide
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-a4wide-2010nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-ntgclass-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-ntgclass
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-ntgclass-2010
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-latex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-latex-2012
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latexconfig>=2011: found tex-latexconfig-2013
+=> Full dependency tex-latex-fonts-[0-9]*: found tex-latex-fonts-2013
+=> Full dependency tex-luatex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-luatex-0.70.1pl30581nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency luatex>=0.60.1: NOT found
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+==========================================================================
+The following variables will affect the build process of this package,
+luatex-0.76.0nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency poppler-includes>=0.26.0: found poppler-includes-0.26.1nb1
+=> Full dependency kpathsea>=6.0.1: found kpathsea-6.1.1
+=> Full dependency zziplib>=0.13.56: found zziplib-0.13.59
+=> Full dependency cairo>=1.12.16nb2: NOT found
+=> Verifying reinstall for ../../graphics/cairo
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for cairo-1.12.16nb4
+==========================================================================
+The supported build options for cairo are:
+
+        x11 xcb
+
+The currently selected options are:
+
+        x11 xcb
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.cairo (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libxcb>=1.6: found libxcb-1.11
+=> Full dependency libXrender>=0.9.2: found libXrender-0.9.8
+=> Full dependency lzo>=2.01: found lzo-2.08
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency pixman>=0.25.2: NOT found
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-audio-oss
+===> gnuradio-audio-portaudio
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-audio-portaudio-3.3.0nb9
+==========================================================================
+The following variables will affect the build process of this package,
+gnuradio-audio-portaudio-3.3.0nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.5.1: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+doxygen-1.8.7nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency tex-epsf-[0-9]*: found tex-epsf-2.7.4
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency dvipsk-[0-9]*: found dvipsk-5.993
+=> Full dependency makeindexk-[0-9]*: found makeindexk-2.15nb5
+=> Full dependency tex-a4wide>=2010nb1: NOT found
+=> Verifying reinstall for ../../print/tex-a4wide
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-a4wide-2010nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-ntgclass-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-ntgclass
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-ntgclass-2010
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-latex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-latex-2012
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latexconfig>=2011: found tex-latexconfig-2013
+=> Full dependency tex-latex-fonts-[0-9]*: found tex-latex-fonts-2013
+=> Full dependency tex-luatex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-luatex-0.70.1pl30581nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency luatex>=0.60.1: NOT found
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-audio-portaudio
+===> gnuradio-core
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-core-3.3.0nb10
+==========================================================================
+The following variables will affect the build process of this package,
+gnuradio-core-3.3.0nb10.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * PYPACKAGE = python27
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.5.1: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+==> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-core
+===> gnuradio-core-docs
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-core-docs
+===> gnuradio-examples
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-examples-3.3.0nb26
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-examples
+===> gnuradio-gsm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-gsm-3.3.0nb8
+==========================================================================
+The following variables will affect the build process of this package,
+gnuradio-gsm-3.3.0nb8.  Their current value is shown below:
+
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-gsm
+===> gnuradio-howto
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gr-howto-write-a-block-3.3.0.tar.gz
+=> Total size: 415280 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  405k  100  405k    0     0   225k      0  0:00:01  0:00:01 --:--:--  240k
+===> Installing dependencies for gnuradio-howto-3.3.0nb10
+==========================================================================
+The following variables will affect the build process of this package,
+gnuradio-howto-3.3.0nb10.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.5.1: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-howto
+===> gnuradio-radio-astronomy
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-radio-astronomy-3.3.0nb27
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-radio-astronomy
+===> gnuradio-trellis
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-trellis-3.3.0nb10
+
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-trellis
+===> gnuradio-usrp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-usrp
+===> gnuradio-video-sdl
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnuradio-video-sdl-3.3.0nb9
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-video-sdl
+===> gnuradio-wxgui
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gnuradio-wxgui
+===> gpredict
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpredict-1.3.tar.gz
+=> Total size: 4750388 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   359    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   441    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+1
+checking if C preprocessor can read from stdin... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/ORBit2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/GConf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/gpredict
+===> grig
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching grig-0.8.0.tar.gz
+
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+Making all in macros
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/macros'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/macros'
+Making all in include
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+/bin/make  all-am
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+Making all in lib
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/lib'
+  CC     getaddrinfo.lo
+getaddrinfo.c: In function 'getaddrinfo':
+getaddrinfo.c:92:5: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+     memset(p, 0, sizeof(struct addrinfo));
+     ^
+getaddrinfo.c:92:5: warning: incompatible implicit declaration of built-in function 'memset' [enabled by default]
+  CC     termios.lo
+  CC     dummy.lo
+  CCLD   libmisc.la
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/lib'
+Making all in src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+  CC     libhamlib_la-rig.lo
+  CC     libhamlib_la-serial.lo
+serial.c: In function 'ser_get_car':
+serial.c:528:17: error: 'TIOCM_CAR' undeclared (first use in this function)
+   *state = (y & TIOCM_CAR) == TIOCM_CAR;
+                 ^
+serial.c:528:17: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [libhamlib_la-serial.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/grig
+===> hamlib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for hamlib-1.2.15.3nb2
+Making all in macros
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/macros'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/macros'
+Making all in include
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+/bin/make  all-am
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/include'
+Making all in lib
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/lib'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/lib'
+Making all in src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+  CC     libhamlib_la-serial.lo
+serial.c: In function 'ser_get_car':
+serial.c:528:17: error: 'TIOCM_CAR' undeclared (first use in this function)
+   *state = (y & TIOCM_CAR) == TIOCM_CAR;
+                 ^
+serial.c:528:17: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [libhamlib_la-serial.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+===> linpsk
+
+=> Full dependency qt3-libs>=3.3.8nb26: NOT found
+
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/linpsk
+===> nec2c
+config.status: executing depfiles commands
+===> Building for nec2c-1.1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/boot/home/pkg/bin/bmake  all-am
+gcc -DHAVE_CONFIG_H -I.  -DPACKAGE_DATA_DIR=\""/boot/home/pkg/share"\"  -DPACKAGE_LOCALE_DIR=\""/boot/home/pkg//locale"\"    -Wno-error -MT calculations.o -MD -MP -MF .deps/calculations.Tpo -c -o calculations.o calculations.c
+In file included from calculations.c:26:0:
+nec2c.h:4:21: fatal error: complex.h: No such file or directory
+ #include <complex.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/nec2c/work/nec2c-1.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/nec2c/work/nec2c-1.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/nec2c
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/nec2c
+===> tfkiss
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tfkiss-1.2.4.tar.gz
+
+checking for a BSD compatible install... /bin/install -c -o user -g root
+configure: error: i386-pc-haiku is currently not supported
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/tfkiss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/tfkiss
+===> tlf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tlf-0.9.30.tar.gz
+Making all in src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+  CC     libhamlib_la-serial.lo
+serial.c: In function 'ser_get_car':
+serial.c:528:17: error: 'TIOCM_CAR' undeclared (first use in this function)
+   *state = (y & TIOCM_CAR) == TIOCM_CAR;
+                 ^
+serial.c:528:17: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [libhamlib_la-serial.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/tlf
+===> tnt
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tnt-1.9.2.tar.gz
+
+configure: error: i386-pc-haiku is currently not supported
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/tnt
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/tnt
+===> trustedQSL
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tqsl-2.0.2.tar.gz
+
+
+libtool: compile:  gcc -c -I. -I../src ../src/repmgr/repmgr_net.c  -DPIC -o .libs/repmgr_net.o
+libtool: compile:  gcc -c -I. -I../src ../src/repmgr/repmgr_net.c -o repmgr_net.o >/dev/null 2>&1
+./libtool --mode=compile gcc -c -I. -I../src -Wno-error ../src/repmgr/repmgr_posix.c
+libtool: compile:  gcc -c -I. -I../src ../src/repmgr/repmgr_posix.c  -DPIC -o .libs/repmgr_posix.o
+../src/repmgr/repmgr_posix.c:574:21: error: expected ')' before 'iovec'
+ __repmgr_writev(fd, iovec, buf_count, byte_count_p)
+                     ^
+../src/repmgr/repmgr_posix.c:576:14: error: 'iovec' redeclared as different kind of symbol
+  db_iovec_t *iovec;
+              ^
+In file included from ./db_int.h:45:0,
+                 from ../src/repmgr/repmgr_posix.c:11:
+/boot/system/develop/headers/posix/sys/uio.h:15:3: note: previous declaration of 'iovec' was here
+ } iovec;
+   ^
+../src/repmgr/repmgr_posix.c:579:1: error: expected identifier or '(' before '{' token
+ {
+ ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/db5/work/db-5.3.21/build_unix
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/db5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/db5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/trustedQSL
+===> usrp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for usrp-3.3.0nb10
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/usrp
+===> usrp-docs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/usrp-docs
+===> xdx
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xdx-2.4.2.tar.gz
+
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/xdx
+===> xlog
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for xlog-2.0.5nb10
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+Making all in src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+  CC     libhamlib_la-serial.lo
+serial.c: In function 'ser_get_car':
+serial.c:528:17: error: 'TIOCM_CAR' undeclared (first use in this function)
+   *state = (y & TIOCM_CAR) == TIOCM_CAR;
+                 ^
+serial.c:528:17: note: each undeclared identifier is reported only once for each function it appears in
+make[1]: *** [libhamlib_la-serial.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/ham/hamlib/work/hamlib-1.2.15.3/src'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/hamlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/xlog
+===> xnec2c
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/xnec2c
+===> yaesu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for yaesu-0.13nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -funsigned-char -c -o aux.o aux.c
+gcc -funsigned-char -c -o bright.o bright.c
+gcc -funsigned-char -c -o clar.o clar.c
+gcc -funsigned-char -c -o ctcss.o ctcss.c
+gcc -funsigned-char -c -o freq_out.o freq_out.c
+gcc -funsigned-char -c -o ham_gen.o ham_gen.c
+gcc -funsigned-char -c -o lock.o lock.c
+gcc -funsigned-char -c -I./ -I/usr/lib -I/usr/X11R6/lib -o main.o main.c
+main.c: In function 'main':
+main.c:43:45: error: 'IMAXBEL' undeclared (first use in this function)
+     termattribs.c_iflag = IGNBRK | IGNPAR | IMAXBEL | IXOFF;
+                                             ^
+main.c:43:45: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/yaesu/work/yaesu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/yaesu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/ham/yaesu
+~/pkgsrc/pkgsrc/ham> 

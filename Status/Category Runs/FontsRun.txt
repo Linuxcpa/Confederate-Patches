@@ -1,0 +1,3716 @@
+
+Welcome to the Haiku shell.
+
+~> go
+~/pkgsrc/pkgsrc> cd fonts/
+~/pkgsrc/pkgsrc/fonts> do
+===> SDL2_ttf
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/SDL2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/SDL2_ttf
+===> Xg
+===> Building for libXfont-1.4.8
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in doc
+Making all in src
+Making all in fontfile
+Making all in FreeType
+Making all in bitmap
+Making all in builtins
+Making all in fc
+  CC       fserve.lo
+In file included from fserve.c:63:0:
+fserve.c: In function 'fs_block_handler':
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:99:43: error: expected identifier before ')' token
+ # define __FDS_BITS(p)  ((p)->__X_FDS_BITS)
+                                           ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:102:28: note: in expansion of macro '__FDS_BITS'
+ #define __XFDS_BITS(p, n) (__FDS_BITS(p))[n]
+                            ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:145:3: note: in expansion of macro '__XFDS_BITS'
+   __XFDS_BITS((dst), __i__) = ((__XFDS_BITS((b1), __i__)) | (__XFDS_BITS((b2), __i__))); \
+   ^
+fserve.c:1311:5: note: in expansion of macro 'XFD_ORSET'
+     XFD_ORSET((fd_set *)LastSelectMask, (fd_set *)LastSelectMask,
+     ^
+fserve.c: In function 'fs_register_fpe_functions':
+fserve.c:3416:5: warning: passing argument 1 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'NameCheckFunc' but argument is of type 'Bool (*)(char *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 5 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'OpenFontFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, Mask,  char *, int,  fsBitmapFormat,  fsBitmapFormatMask,  XID,  struct _Font **, char **, struct _Font *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 7 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'ListFontsFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  struct _FontNames *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 8 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'StartLfwiFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  void **)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/Xg
+===> bdftopcf
+===> Building for libXfont-1.4.8
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+===> cyr-rfx-share
+bmake: don't know how to make install. Stop
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/cyr-rfx-share
+===> efont-unicode
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/efont-unicode
+===> fntsample
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/fntsample
+===> font-adobe-100dpi
+=
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-adobe-100dpi
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-adobe-75dpi
+===> font-adobe-utopia-100dpi
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-adobe-utopia-100dpi
+===> font-adobe-utopia-75dpi
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-adobe-utopia-75dpi
+===> font-arabic-misc
+
+ 
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-arabic-misc
+===> font-bh-100dpi
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bh-100dpi
+===> font-bh-75dpi
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bh-75dpi
+===> font-bh-lucidatypewriter-100dpi
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bh-lucidatypewriter-100dpi
+===> font-bh-lucidatypewriter-75dpi
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bh-lucidatypewriter-75dpi
+===> font-bitstream-100dpi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bitstream-100dpi
+===> font-bitstream-75dpi
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-bitstream-75dpi
+===> font-cronyx-cyrillic
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-cronyx-cyrillic
+===> font-cursor-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-cursor-misc
+===> font-daewoo-misc
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-daewoo-misc
+===> font-dec-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-dec-misc
+===> font-isas-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-isas-misc
+===> font-jis-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-jis-misc
+===> font-micro-misc
+
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-micro-misc
+===> font-misc-cyrillic
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for font-misc-cyrillic-1.0.3
+=> Tool dependency bdftopcf-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/bdftopcf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for bdftopcf-1.0.4nb2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency fontsproto>=2.0: found fontsproto-2.1.3
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Full dependency libXfont>=1.4.5nb2: NOT found
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-misc-cyrillic
+===> font-misc-misc
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-misc-misc
+===> font-mutt-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-mutt-misc
+===> font-schumacher-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-schumacher-misc
+~/pkgsrc/pkgsrc/fonts> 
+
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-screen-cyrillic
+===> font-sony-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-sony-misc
+===> font-sun-misc
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-sun-misc
+===> font-winitzki-cyrillic
+=
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/font-winitzki-cyrillic
+===> fontforge
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/fontforge
+===> gbdfed
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/gbdfed
+===> ghostscript-cidfonts
+
+===> Install binary package of ghostscript-cidfonts-20000901nb6
+===> ghostscript-cidfonts-ryumin
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: (gpl) You need to set PKG_OPTIONS.ghostscript+= disable-compile-inits, at its compile time.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ghostscript-cidfonts-ryumin
+===> ghostscript-cmaps
+
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/gsftopkk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/gsftopkk
+===> gucharmap
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gucharmap-2.32.1.tar.bz2
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/gucharmap
+===> harfbuzz
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching harfbuzz-0.9.29.tar.bz2
+=> Total size: 1066222 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1041k  100 1041k    0     0   286k      0  0:00:03  0:00:03 --:--:--  309k
+===> Installing dependencies for harfbuzz-0.9.29
+
+checking whether we are cross compiling... configure: error: in `/boot/home/pkgsrc/pkgsrc/fonts/harfbuzz/work/harfbuzz-0.9.29':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/harfbuzz
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/harfbuzz
+===> intlfonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Asian.tar.gz
+
+===> Building for libXfont-1.4.8
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/intlfonts
+
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ja-elisat
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ja-kaname
+===> ja-kappa20
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Kappa20-0.394.tar.bz2
+=> Total size: 595861 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  581k  100  581k    0     0    98k      0  0:00:05  0:00:05 --:--:--  142k
+===> Installing dependencies for ja-kappa20-0.394nb2
+=> Tool dependency bdftopcf-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/bdftopcf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for bdftopcf-1.0.4nb2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency fontsproto>=2.0: found fontsproto-2.1.3
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Full dependency libXfont>=1.4.5nb2: NOT found
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libXfont-1.4.8
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in doc
+Making all in src
+Making all in fontfile
+Making all in FreeType
+Making all in bitmap
+Making all in builtins
+Making all in fc
+  CC       fserve.lo
+In file included from fserve.c:63:0:
+fserve.c: In function 'fs_block_handler':
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:99:43: error: expected identifier before ')' token
+ # define __FDS_BITS(p)  ((p)->__X_FDS_BITS)
+                                           ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:102:28: note: in expansion of macro '__FDS_BITS'
+ #define __XFDS_BITS(p, n) (__FDS_BITS(p))[n]
+                            ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:145:3: note: in expansion of macro '__XFDS_BITS'
+   __XFDS_BITS((dst), __i__) = ((__XFDS_BITS((b1), __i__)) | (__XFDS_BITS((b2), __i__))); \
+   ^
+fserve.c:1311:5: note: in expansion of macro 'XFD_ORSET'
+     XFD_ORSET((fd_set *)LastSelectMask, (fd_set *)LastSelectMask,
+     ^
+fserve.c: In function 'fs_register_fpe_functions':
+fserve.c:3416:5: warning: passing argument 1 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'NameCheckFunc' but argument is of type 'Bool (*)(char *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 5 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'OpenFontFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, Mask,  char *, int,  fsBitmapFormat,  fsBitmapFormatMask,  XID,  struct _Font **, char **, struct _Font *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 7 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'ListFontsFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  struct _FontNames *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 8 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'StartLfwiFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  void **)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ja-kappa20
+===> ja-naga10
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ja-naga10
+===> jisx0208fonts
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ja-elisat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/jisx0208fonts
+===> jisx0212fonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching jisksp14.bdf.gz
+=> Total size: 181005 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  176k  100  176k    0     0   452k      0 --:--:-- --:--:-- --:--:--  452k
+=> Fetching jisksp16-1990.bdf.Z
+=> Total size: 255235 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file jisksp16-1990.bdf.Z
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0  249k    0     0   697k      0 --:--:-- --:--:-- --:--:-- 1204k
+=> Fetching jisksp40.bdf.Z
+=> Total size: 893895 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file jisksp40.bdf.Z
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0  872k    0     0  1486k      0 --:--:-- --:--:-- --:--:-- 2465k
+=> Fetching min-1-24.bdf.gz
+=> Total size: 336272 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  328k  100  328k    0     0    98k      0  0:00:03  0:00:03 --:--:--   99k
+===> Installing dependencies for jisx0212fonts-0.0nb3
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/jisx0212fonts
+===> jisx0213fonts
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/jisx0213fonts
+===> jmk-fonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching jmk-x11-fonts-3.0.tar.gz
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/jmk-fonts
+===> ko-baekmuk
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ko-baekmuk
+===> ko-kaist
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ko-kaist
+===> ko-mizi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xfntmizi-1.1-2.noarch.rpm
+=> Total size: 1484554 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0
+curl: (28) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+fetch: Unable to fetch expected file xfntmizi-1.1-2.noarch.rpm
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for nspr-4.10.6
+/bin/make -C config export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+rm -f ../dist/bin/nspr-config
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/config'
+/bin/make -C pr export
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+/bin/make -C include export
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+/bin/make -C md export
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+../../../config/./nsinstall -R -m 444 ./_unixware7.cfg ./_hpux32.cfg ./_netbsd.cfg ./_symbian.cfg ./_unixware.cfg ./_irix64.cfg ./_freebsd.cfg ./_solaris.cfg ./_aix64.cfg ./_win95.cfg ./_winnt.cfg ./_irix32.cfg ./_beos.cfg ./_bsdi.cfg ./_darwin.cfg ./_qnx.cfg ./_linux.cfg ./_os2.cfg ./_hpux64.cfg ./_aix32.cfg ./_dgux.cfg ./_riscos.cfg ./_osf1.cfg ./_nto.cfg ./_scoos.cfg ./_dragonfly.cfg ./_openbsd.cfg ../../../dist/include/nspr/md
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/misc/rpm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ko-mizi
+===> ko-x11fonts
+
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ko-baekmuk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ko-x11fonts
+===> mftrace
+ .libs/libfftw3.lax/libsimd_sse2_nonportable.a/libsimd_sse2_nonportable_la-sse2-nonportable.o
+/bin/ar: .libs/libfftw3.lax/lt1-buffered.o: No such file or directory
+make[2]: *** [libfftw3.la] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/ImageMagick
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/autotrace
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/mftrace
+===> mglfonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching fontkit-nobdf.tar.gz
+=> Total size: 629152 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  614k  100  614k    0     0   258k      0  0:00:02  0:00:02 --:--:--  307k
+===> Installing dependencies for mglfonts-0.1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for mglfonts-0.1
+===> Extracting for mglfonts-0.1
+===> Patching for mglfonts-0.1
+=> Applying pkgsrc patches for mglfonts-0.1
+===> Creating toolchain wrappers for mglfonts-0.1
+===> Configuring for mglfonts-0.1
+===> Building for mglfonts-0.1
+gcc -O -o mgl_fontinfo mgl_fontinfo.c
+mgl_fontinfo.c: In function 'load_font':
+mgl_fontinfo.c:82:21: error: 'MAP_FILE' undeclared (first use in this function)
+        MAP_SHARED | MAP_FILE,
+                     ^
+mgl_fontinfo.c:82:21: note: each undeclared identifier is reported only once for each function it appears in
+mgl_fontinfo.c: In function 'main':
+mgl_fontinfo.c:154:11: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+       if (strlen(mes) >= 64* font.kbytes) {
+           ^
+mgl_fontinfo.c:158:11: warning: incompatible implicit declaration of built-in function 'strcpy' [enabled by default]
+           strcpy(font_base + font.koffset + font.kbytes*8000
+           ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/mglfonts/work/fontkit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/mglfonts
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/mglfonts
+===> misaki-fonts
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/misaki-fonts
+===> monafonts
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/monafonts
+===> mozilla-fonts
+
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/mozilla-fonts
+
+Making all in src
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/fonts/oto/work/oto-0.4/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I..    -DPKGDATADIR=\"/boot/home/pkg/share/oto\" -Wno-error -specs=/boot/home/pkg/etc/specs -c main.c
+In file included from /boot/home/pkg/include/stdio_pre.h:13:0,
+                 from /boot/home/pkg/include/stdio.h:57,
+                 from main.c:23:
+/boot/home/pkg/include/libio.h:204:50: error: unknown type name 'va_list'
+ extern int _IO_vfscanf(_IO_FILE *, const char *, va_list, int *);
+                                                  ^
+/boot/home/pkg/include/libio.h:205:51: error: unknown type name 'va_list'
+ extern int _IO_vfprintf(_IO_FILE *, const char *, va_list);
+                                                   ^
+In file included from main.c:23:0:
+/boot/home/pkg/include/stdio.h:159:41: error: unknown type name 'va_list'
+ extern int  vprintf(char const *format, va_list ap);
+                                         ^
+/boot/home/pkg/include/stdio.h:160:56: error: unknown type name 'va_list'
+ extern int  vfprintf(FILE *stream, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:161:56: error: unknown type name 'va_list'
+ extern int  vsprintf(char *string, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:162:70: error: unknown type name 'va_list'
+ extern int  vsnprintf(char *string, size_t size, char const *format, va_list ap);
+                                                                      ^
+/boot/home/pkg/include/stdio.h:163:55: error: unknown type name 'va_list'
+ extern int  vasprintf(char **ret, char const *format, va_list ap);
+                                                       ^
+/boot/home/pkg/include/stdio.h:168:40: error: unknown type name 'va_list'
+ extern int  vscanf(char const *format, va_list ap);
+                                        ^
+/boot/home/pkg/include/stdio.h:169:58: error: unknown type name 'va_list'
+ extern int  vsscanf(char const *str, char const *format, va_list ap);
+                                                          ^
+/boot/home/pkg/include/stdio.h:170:55: error: unknown type name 'va_list'
+ extern int  vfscanf(FILE *stream, char const *format, va_list ap);
+                                                       ^
+make[2]: *** [main.o] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/fonts/oto/work/oto-0.4/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/fonts/oto/work/oto-0.4'
+make: *** [all-recursive-am] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/oto
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/oto
+===> p5-Font-FreeType
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Font-FreeType-0.03.tar.gz
+=> Total size: 95275 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 95275  100 95275    0     0  13905      0  0:00:06  0:00:06 --:--:-- 20003
+===> Installing dependencies for p5-Font-FreeType-0.03nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+===> Overriding tools for p5-Font-FreeType-0.03nb1
+===> Extracting for p5-Font-FreeType-0.03nb1
+===> Patching for p5-Font-FreeType-0.03nb1
+=> Applying pkgsrc patches for p5-Font-FreeType-0.03nb1
+===> Creating toolchain wrappers for p5-Font-FreeType-0.03nb1
+===> Configuring for p5-Font-FreeType-0.03nb1
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Font::FreeType
+Writing MYMETA.yml and MYMETA.json
+===> Building for p5-Font-FreeType-0.03nb1
+cp lib/Font/FreeType/Glyph.pm blib/lib/Font/FreeType/Glyph.pm
+cp lib/Font/FreeType.pm blib/lib/Font/FreeType.pm
+cp lib/Font/FreeType/Face.pm blib/lib/Font/FreeType/Face.pm
+Running Mkbootstrap for Font::FreeType ()
+/boot/home/pkg/bin/perl -MExtUtils::Command -e 'chmod' -- 644 FreeType.bs
+/boot/home/pkg/bin/perl /boot/home/pkg/lib/perl5/5.20.0/ExtUtils/xsubpp  -typemap /boot/home/pkg/lib/perl5/5.20.0/ExtUtils/typemap -typemap typemap  FreeType.xs > FreeType.xsc && /boot/home/pkg/bin/perl -MExtUtils::Command -e 'mv' -- FreeType.xsc FreeType.c
+gcc -c  -I/boot/home/pkg/include/freetype2  -Wno-error -specs=/boot/home/pkg/etc/specs -fwrapv -fno-strict-aliasing -pipe -fstack-protector -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include    -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include    -DVERSION=\"0.03\"  -DXS_VERSION=\"0.03\" -fpic "-I/boot/home/pkg/lib/perl5/5.20.0/i386-haiku/CORE"   FreeType.c
+In file included from /boot/home/pkg/include/stdio_pre.h:13:0,
+                 from /boot/home/pkg/include/stdio.h:57,
+                 from /boot/home/pkg/include/netdb.h:96,
+                 from /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/perl.h:1102,
+                 from FreeType.xs:13:
+/boot/home/pkg/include/libio.h:204:50: error: unknown type name 'va_list'
+ extern int _IO_vfscanf(_IO_FILE *, const char *, va_list, int *);
+                                                  ^
+/boot/home/pkg/include/libio.h:205:51: error: unknown type name 'va_list'
+ extern int _IO_vfprintf(_IO_FILE *, const char *, va_list);
+                                                   ^
+In file included from /boot/home/pkg/include/netdb.h:96:0,
+                 from /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/perl.h:1102,
+                 from FreeType.xs:13:
+/boot/home/pkg/include/stdio.h:159:41: error: unknown type name 'va_list'
+ extern int  vprintf(char const *format, va_list ap);
+                                         ^
+/boot/home/pkg/include/stdio.h:160:56: error: unknown type name 'va_list'
+ extern int  vfprintf(FILE *stream, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:161:56: error: unknown type name 'va_list'
+ extern int  vsprintf(char *string, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:162:70: error: unknown type name 'va_list'
+ extern int  vsnprintf(char *string, size_t size, char const *format, va_list ap);
+                                                                      ^
+/boot/home/pkg/include/stdio.h:163:55: error: unknown type name 'va_list'
+ extern int  vasprintf(char **ret, char const *format, va_list ap);
+                                                       ^
+/boot/home/pkg/include/stdio.h:168:40: error: unknown type name 'va_list'
+ extern int  vscanf(char const *format, va_list ap);
+                                        ^
+/boot/home/pkg/include/stdio.h:169:58: error: unknown type name 'va_list'
+ extern int  vsscanf(char const *str, char const *format, va_list ap);
+                                                          ^
+/boot/home/pkg/include/stdio.h:170:55: error: unknown type name 'va_list'
+ extern int  vfscanf(FILE *stream, char const *format, va_list ap);
+                                                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/iperlsys.h:51:0,
+                 from /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/perl.h:3248,
+                 from FreeType.xs:13:
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/perlio.h:274:58: error: unknown type name 'va_list'
+ PERL_EXPORT_C int PerlIO_vprintf(PerlIO *, const char *, va_list);
+                                                          ^
+In file included from /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/perl.h:5016:0,
+                 from FreeType.xs:13:
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:1082:86: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_dump_vindent(pTHX_ I32 level, PerlIO *file, const char* pat, va_list *args)
+                                                                                      ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:2702:89: error: unknown type name 'va_list'
+ PERL_CALLCONV int Perl_my_vsnprintf(char *buffer, const Size_t len, const char *format, va_list ap)
+                                                                                         ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4593:79: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vcatpvf(pTHX_ SV *const sv, const char *const pat, va_list *const args)
+                                                                               ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4599:82: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vcatpvf_mg(pTHX_ SV *const sv, const char *const pat, va_list *const args)
+                                                                                  ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4605:101: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vcatpvfn(pTHX_ SV *const sv, const char *const pat, const STRLEN patlen, va_list *const args, SV **const svargs, const I32 svmax, bool *const maybe_tainted)
+                                                                                                     ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4611:107: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vcatpvfn_flags(pTHX_ SV *const sv, const char *const pat, const STRLEN patlen, va_list *const args, SV **const svargs, const I32 svmax, bool *const maybe_tainted, const U32 flags)
+                                                                                                           ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4617:79: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vsetpvf(pTHX_ SV *const sv, const char *const pat, va_list *const args)
+                                                                               ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4623:82: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vsetpvf_mg(pTHX_ SV *const sv, const char *const pat, va_list *const args)
+                                                                                  ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4629:101: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_sv_vsetpvfn(pTHX_ SV *const sv, const char *const pat, const STRLEN patlen, va_list *const args, SV **const svargs, const I32 svmax, bool *const maybe_tainted)
+                                                                                                     ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4891:62: error: unknown type name 'va_list'
+ PERL_CALLCONV_NO_RET void Perl_vcroak(pTHX_ const char* pat, va_list* args)
+                                                              ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4894:53: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_vdeb(pTHX_ const char* pat, va_list* args)
+                                                     ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4899:55: error: unknown type name 'va_list'
+ PERL_CALLCONV char* Perl_vform(pTHX_ const char* pat, va_list* args)
+                                                       ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4915:74: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_vload_module(pTHX_ U32 flags, SV* name, SV* ver, va_list* args)
+                                                                          ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4920:53: error: unknown type name 'va_list'
+ PERL_CALLCONV SV* Perl_vmess(pTHX_ const char* pat, va_list* args)
+                                                     ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4925:63: error: unknown type name 'va_list'
+ PERL_CALLCONV SV* Perl_vnewSVpvf(pTHX_ const char *const pat, va_list *const args)
+                                                               ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4952:54: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_vwarn(pTHX_ const char* pat, va_list* args)
+                                                      ^
+/boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/.buildlink/lib/perl5/5.20.0/i386-haiku/CORE/proto.h:4957:65: error: unknown type name 'va_list'
+ PERL_CALLCONV void Perl_vwarner(pTHX_ U32 err, const char* pat, va_list* args)
+                                                                 ^
+FreeType.xs: In function 'XS_Font__FreeType__Glyph_outline_decompose_':
+FreeType.xs:1016:27: warning: assignment from incompatible pointer type [enabled by default]
+         handlers.conic_to = handle_conic_to;
+                           ^
+FreeType.xs:1017:27: warning: assignment from incompatible pointer type [enabled by default]
+         handlers.cubic_to = handle_cubic_to;
+                           ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType/work/Font-FreeType-0.03
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/p5-Font-FreeType
+===> py-TTFQuery
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching TTFQuery-1.0.5.tar.gz
+=> Total size: 17850 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 17850  100 17850    0     0  32243      0 --:--:-- --:--:-- --:--:-- 30653
+===> Installing dependencies for py27-TTFQuery-1.0.5
+==========================================================================
+The following variables will affect the build process of this package,
+py27-TTFQuery-1.0.5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-fonttools>=2.0b1: NOT found
+=> Verifying reinstall for ../../fonts/py-fonttools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching fonttools-2.4.tar.gz
+
+Configuring in ./fixincludes
+configure: loading cache ./config.cache
+configure: error: `CFLAGS' has changed since the previous run:
+configure:   former value:  -Wno-error 
+configure:   current value: -Wno-error -specs=/boot/home/pkg/etc/specs
+configure: error: `target_alias' has changed since the previous run:
+configure:   former value:  i386-pc-haiku
+configure:   current value: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig
+configure: error: changes in the environment can compromise the build
+configure: error: run `make distclean' and/or `rm ./config.cache' and start over
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/py-numpy
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/py-fonttools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/py-TTFQuery
+===> py-fonttools
+
+configure: loading cache ./config.cache
+configure: error: `CFLAGS' has changed since the previous run:
+configure:   former value:  -Wno-error 
+configure:   current value: -Wno-error -specs=/boot/home/pkg/etc/specs
+configure: error: `target_alias' has changed since the previous run:
+configure:   former value:  i386-pc-haiku
+configure:   current value: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig
+configure: error: changes in the environment can compromise the build
+configure: error: run `make distclean' and/or `rm ./config.cache' and start over
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/py-numpy
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/py-fonttools
+===> ricty-ttf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Ricty-3.2.1.zip
+=> Total size: 16506 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   119    0   119    0     0    246      0 --:--:-- --:--:-- --:--:--   317
+  0     0    0 16668    0     0  11809      0 --:--:--  0:00:01 --:--:-- 62426
+fetch: Size of the file Ricty-3.2.1.zip doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file Ricty-3.2.1.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16506  100 16506    0     0  30354      0 --:--:-- --:--:-- --:--:-- 34970
+===> Installing dependencies for ricty-ttf-3.2.1nb1
+=> Build dependency fontforge-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/fontforge
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for fontforge-20120731nb10
+==========================================================================
+The supported build options for fontforge are:
+
+        x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.fontforge (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+fontforge-20120731nb10.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency libX11>=1.5: found libX11-1.6.2nb1
+=> Full dependency libXi>=1.0.0: found libXi-1.7.2
+=> Full dependency pango>=1.36.3nb1: NOT found
+=> Verifying reinstall for ../../devel/pango
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for pango-1.36.3nb2
+==========================================================================
+The supported build options for pango are:
+
+        libthai quartz x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.pango (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency help2man-[0-9]*: found help2man-1.45.1nb1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/fontforge
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ricty-ttf
+===> ruby-afm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching afm-0.2.0.gem
+=> Total size: 17408 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0   1031      0 --:--:-- --:--:-- --:--:--  2081
+100 17408  100 17408    0     0  42864      0 --:--:-- --:--:-- --:--:-- 42864
+===> Installing dependencies for ruby200-afm-0.2.0
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ruby-afm
+===> ruby-ttfunk
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ttfunk-1.1.1.gem
+=> Total size: 369664 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0   1301      0 --:--:-- --:--:-- --:--:--  2200
+100  361k  100  361k    0     0   838k      0 --:--:-- --:--:-- --:--:--  838k
+===> Installing dependencies for ruby200-ttfunk-1.1.1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/ruby-ttfunk
+===> sgi-fonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching sgi-fonts-1.0-457.src.rpm
+=> Total size: 68579 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 20322    0 20322    0     0  18946      0 --:--:--  0:00:01 --:--:-- 38271
+fetch: Size of the file sgi-fonts-1.0-457.src.rpm doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 68579  100 68579    0     0  17884      0  0:00:03  0:00:03 --:--:-- 18066
+===> Installing dependencies for sgi-fonts-1.0.457nb4
+=> Tool dependency bdftopcf-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/bdftopcf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for bdftopcf-1.0.4nb2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency fontsproto>=2.0: found fontsproto-2.1.3
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Full dependency libXfont>=1.4.5nb2: NOT found
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libXfont-1.4.8
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in doc
+Making all in src
+Making all in fontfile
+Making all in FreeType
+Making all in bitmap
+Making all in builtins
+Making all in fc
+  CC       fserve.lo
+In file included from fserve.c:63:0:
+fserve.c: In function 'fs_block_handler':
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:99:43: error: expected identifier before ')' token
+ # define __FDS_BITS(p)  ((p)->__X_FDS_BITS)
+                                           ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:102:28: note: in expansion of macro '__FDS_BITS'
+ #define __XFDS_BITS(p, n) (__FDS_BITS(p))[n]
+                            ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:145:3: note: in expansion of macro '__XFDS_BITS'
+   __XFDS_BITS((dst), __i__) = ((__XFDS_BITS((b1), __i__)) | (__XFDS_BITS((b2), __i__))); \
+   ^
+fserve.c:1311:5: note: in expansion of macro 'XFD_ORSET'
+     XFD_ORSET((fd_set *)LastSelectMask, (fd_set *)LastSelectMask,
+     ^
+fserve.c: In function 'fs_register_fpe_functions':
+fserve.c:3416:5: warning: passing argument 1 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'NameCheckFunc' but argument is of type 'Bool (*)(char *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 5 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'OpenFontFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, Mask,  char *, int,  fsBitmapFormat,  fsBitmapFormatMask,  XID,  struct _Font **, char **, struct _Font *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 7 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'ListFontsFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  struct _FontNames *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 8 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'StartLfwiFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  void **)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/sgi-fonts
+===> t1utils
+
+checking whether we are cross compiling... configure: error: in `/boot/home/pkgsrc/pkgsrc/fonts/t1utils/work/t1utils-1.38':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/t1utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/t1utils
+===> terminus-font
+===> Building for libXfont-1.4.8
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in doc
+Making all in src
+Making all in fontfile
+Making all in FreeType
+Making all in bitmap
+Making all in builtins
+Making all in fc
+  CC       fserve.lo
+In file included from fserve.c:63:0:
+fserve.c: In function 'fs_block_handler':
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:99:43: error: expected identifier before ')' token
+ # define __FDS_BITS(p)  ((p)->__X_FDS_BITS)
+                                           ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:102:28: note: in expansion of macro '__FDS_BITS'
+ #define __XFDS_BITS(p, n) (__FDS_BITS(p))[n]
+                            ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:145:3: note: in expansion of macro '__XFDS_BITS'
+   __XFDS_BITS((dst), __i__) = ((__XFDS_BITS((b1), __i__)) | (__XFDS_BITS((b2), __i__))); \
+   ^
+fserve.c:1311:5: note: in expansion of macro 'XFD_ORSET'
+     XFD_ORSET((fd_set *)LastSelectMask, (fd_set *)LastSelectMask,
+     ^
+fserve.c: In function 'fs_register_fpe_functions':
+fserve.c:3416:5: warning: passing argument 1 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'NameCheckFunc' but argument is of type 'Bool (*)(char *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 5 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'OpenFontFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, Mask,  char *, int,  fsBitmapFormat,  fsBitmapFormatMask,  XID,  struct _Font **, char **, struct _Font *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 7 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'ListFontsFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  struct _FontNames *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 8 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'StartLfwiFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  void **)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/terminus-font
+===> tex-ae
+
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-ae
+===> tex-ae-doc
+
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-bbold
+===> tex-bera
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bera.tar.xz
+
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-bera
+===> tex-collection-fontsrecommended
+
+
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/web2c
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-bibtex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-collection-basic
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-collection-fontsrecommended
+===> tex-eco
+
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-eco
+===> tex-esint
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching esint.tar.xz
+
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-esint
+===> tex-eurofont
+
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-eurofont
+===> tex-fontspec
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-booktabs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/tex-l3kernel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-fontspec
+===> tex-fourier
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-fourier
+===> tex-lcyw
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-lcyw
+===> tex-luaotfload
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/tex-lualibs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-luaotfload
+===> tex-mathdesign
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-mathdesign
+===> tex-metafont
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/web2c
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-metafont
+===> tex-mfware
+
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/web2c
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-mfware
+===> tex-tex-gyre
+
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-tex-gyre
+===> tex-tipa
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-tipa
+
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/web2c
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-ttfutils
+===> tex-wasysym
+
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/tex-wasysym
+===> thaixfonts
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching thaixfonts-1.2.5.tar.gz
+=> Total size: 168324 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  164k  100  164k    0     0  59416      0  0:00:02  0:00:02 --:--:-- 95911
+===> Installing dependencies for thaixfonts-1.2.5nb1
+=> Tool dependency bdftopcf-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/bdftopcf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for bdftopcf-1.0.4nb2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency fontsproto>=2.0: found fontsproto-2.1.3
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Full dependency libXfont>=1.4.5nb2: NOT found
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/thaixfonts
+===> uni-vga
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/uni-vga
+===> xmbdfed
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+=> Verifying reinstall for ../../x11/motif
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/motif
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/xmbdfed
+~/pkgsrc/pkgsrc/fonts> 

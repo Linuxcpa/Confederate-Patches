@@ -1,0 +1,16 @@
+PKGPATH=biology/clustalw
+PKGPATH=biology/coalesce
+PKGPATH=biology/fastDNAml
+PKGPATH=biology/fluctuate
+PKGPATH=biology/genesplicer
+PKGPATH=biology/glimmer
+PKGPATH=biology/gp
+PKGPATH=biology/hmmer
+PKGPATH=biology/lucy
+PKGPATH=biology/nut
+PKGPATH=biology/p5-Bio-ASN1-EntrezGene
+PKGPATH=biology/pdbalign
+PKGPATH=biology/primer3
+PKGPATH=biology/sewer
+PKGPATH=biology/stride
+PKGPATH=biology/xylem

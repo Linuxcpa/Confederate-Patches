@@ -6,7 +6,7 @@ of the features, such that they may decide to add them.
 
 To enact a feature or turn off a setting, edit /boot/home/pkg/etc/mk.conf
 
-1. Pkgsrc annoyance to turn off:
+***1. Pkgsrc annoyances to turn off:***
 
 A.) License checks 
 
@@ -32,7 +32,23 @@ Useful examples:
 #TOOLS_PLATFORM.ln?=             /bin/ln -s
 #.endif
 
-2. Pkgsrc file location settings you can change:
+F.) Refuse to build packages because pthreads-stubs is not present
+
+To resolve this issue, create a text file called pthread-stubs.pc and place it in 
+/boot/home/pkg/lib/pkgconfig
+
+Add the following contents:
+
+prefix=/boot/home/pkg
+exec_prefix=${prefix}
+libdir=/boot/home/pkg/lib
+
+Name: pthread stubs
+Description: Stubs missing from libc for standard pthread functions
+Version: 0.3
+Libs:
+
+***2. Pkgsrc file location settings you can change:***
 
 A.) Where packages are compiled
 By default, packages compile in pkgsrc/category/NameOfPackage/work/PackageName-VersionNumber
@@ -344,4 +360,4 @@ X11_TYPE=modular
 M.) TURN OFF PKGSRC DEPENDENCIES NOT APPLICABLE TO HAIKU:
 Example:
 PKG_DEFAULT_OPTIONS= -x11 -esound -nas -pulseaudio wide-curses
-
+ 

@@ -1,0 +1,2296 @@
+~/pkgsrc/pkgsrc/geography> do
+===> emerillon
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for emerillon-0.1.2nb26
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gnome-common-[0-9]*: found gnome-common-3.12.0
+=> Build dependency vala-[0-9]*: NOT found
+=> Verifying reinstall for ../../lang/vala
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for vala-0.12.1nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --with-libintl-prefix
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/vala
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/vala
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/emerillon
+===> garmin-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for garmin-utils-2.5nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for garmin-utils-2.5nb1
+===> Extracting for garmin-utils-2.5nb1
+===> Patching for garmin-utils-2.5nb1
+=> Applying pkgsrc patches for garmin-utils-2.5nb1
+===> Creating toolchain wrappers for garmin-utils-2.5nb1
+===> Configuring for garmin-utils-2.5nb1
+===> Building for garmin-utils-2.5nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+all ===> garmin-utils/lib
+gcc -Wno-error -Wno-error -g -I/boot/home/pkgsrc/pkgsrc/geography/garmin-utils/work/garmin-utils-2.5/lib/../lib -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Werror -DDEFAULT_PORT=\"/dev/gps\" -DVERSION=\"2.5\" -DSIO_TYPE=BSD  -Werror   -c gps1.c
+In file included from gps1.c:21:0:
+gpslib.h:116:2: error: unknown type name 'u_int32_t'
+  u_int32_t u;
+  ^
+gps1.c: In function 'gps_open':
+gps1.c:91:26: error: 'TIOCGETA' undeclared (first use in this function)
+  if (ioctl(gps_state.fd, TIOCGETA, &termios) < 0)
+                          ^
+gps1.c:91:26: note: each undeclared identifier is reported only once for each function it appears in
+gps1.c:95:2: error: large integer implicitly truncated to unsigned type [-Werror=overflow]
+  termios.c_ispeed = termios.c_ospeed = 9600;
+  ^
+gps1.c:103:26: error: 'TIOCSETAF' undeclared (first use in this function)
+  if (ioctl(gps_state.fd, TIOCSETAF, &termios) < 0)
+                          ^
+gps1.c: In function 'gps_close':
+gps1.c:132:28: error: 'TIOCSETAF' undeclared (first use in this function)
+    if (ioctl(gps_state.fd, TIOCSETAF,
+                            ^
+cc1: all warnings being treated as errors
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/garmin-utils/work/garmin-utils-2.5/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/garmin-utils/work/garmin-utils-2.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/garmin-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/garmin-utils
+===> garmintools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for garmintools-0.10
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Full dependency libusb>=0.1.8nb2: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/garmintools
+===> gdal-lib
+*** Configuration i386-pc-haiku not supported
+make[1]: *** [configure-gcc] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+WARNING: Please add USE_TOOLS+=perl to the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gdal-lib
+===> geoclue
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching geoclue-0.12.0.tar.gz
+=> Total size: 567552 bytes
+curl: (6) Couldn't resolve host 'folks.o-hand.com'
+fetch: Unable to fetch expected file geoclue-0.12.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  554k  100  554k    0     0  99519      0  0:00:05  0:00:05 --:--:--  125k
+===> Installing dependencies for geoclue-0.12.0nb19
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency libxslt-[0-9]*: found libxslt-1.1.28nb3
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency dbus-glib>=0.100nb1: found dbus-glib-0.102
+=> Full dependency libxml2>=2.8.0nb2: found libxml2-2.9.1nb2
+=> Full dependency GConf>=2.32.4nb5: NOT found
+=> Verifying reinstall for ../../devel/GConf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for GConf-2.32.4nb9
+==========================================================================
+The following variables will affect the build process of this package,
+GConf-2.32.4nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+=> Full dependency ORBit2>=2.14.19nb4: NOT found
+=> Verifying reinstall for ../../net/ORBit2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for ORBit2-2.14.19nb4
+==========================================================================
+The supported build options for ORBit2 are:
+
+        inet6
+
+The currently selected options are:
+
+        inet6
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.ORBit2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+checking if C preprocessor likes IDL... yes
+checking if C preprocessor can read from stdin... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/libIDL
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/ORBit2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/GConf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geoclue
+===> geos
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching geos-3.4.2.tar.bz2
+=> Total size: 1813726 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1771k  100 1771k    0     0  1181k      0  0:00:01  0:00:01 --:--:-- 1238k
+===> Installing dependencies for geos-3.4.2
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for geos-3.4.2
+===> Extracting for geos-3.4.2
+===> Patching for geos-3.4.2
+=> Applying pkgsrc patches for geos-3.4.2
+===> Creating toolchain wrappers for geos-3.4.2
+===> Configuring for geos-3.4.2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Fixing locale directory references.
+/bin/sh ../../../libtool --tag=CXX    --mode=compile g++ -DHAVE_CONFIG_H -I. -I../../../include -I../../../include/geos -I../../../include    -DGEOS_INLINE  -pedantic -Wall -ansi -Wno-long-long  -ffloat-store -Wno-error -MT IndexedPointInAreaLocator.lo -MD -MP -MF .deps/IndexedPointInAreaLocator.Tpo -c -o IndexedPointInAreaLocator.lo IndexedPointInAreaLocator.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../../../include -I../../../include/geos -DGEOS_INLINE -pedantic -Wall -ansi -Wno-long-long -ffloat-store -MT IndexedPointInAreaLocator.lo -MD -MP -MF .deps/IndexedPointInAreaLocator.Tpo -c IndexedPointInAreaLocator.cpp  -DPIC -o .libs/IndexedPointInAreaLocator.o
+In file included from ../../../include/geos/geom/Geometry.h:25:0,
+                 from IndexedPointInAreaLocator.cpp:17:
+../../../include/geos/platform.h:112:2: error: #error "Can not compile without isnan function or macro"
+ #error "Can not compile without isnan function or macro"
+  ^
+In file included from ../../../include/geos/geom/Coordinate.h:158:0,
+                 from ../../../include/geos/geom/Envelope.h:25,
+                 from ../../../include/geos/geom/Geometry.h:27,
+                 from IndexedPointInAreaLocator.cpp:17:
+../../../include/geos/geom/Coordinate.inl: In member function 'bool geos::geom::Coordinate::isNull() const':
+../../../include/geos/geom/Coordinate.inl:38:17: error: 'ISNAN' was not declared in this scope
+  return (ISNAN(x) && ISNAN(y) && ISNAN(z));
+                 ^
+../../../include/geos/geom/Coordinate.inl: In member function 'bool geos::geom::Coordinate::equals3D(const geos::geom::Coordinate&) const':
+../../../include/geos/geom/Coordinate.inl:77:28: error: 'ISNAN' was not declared in this scope
+   ((z == other.z)||(ISNAN(z) && ISNAN(other.z)));
+                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2/src/algorithm/locate
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2/src/algorithm/locate
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2/src/algorithm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos/work/geos-3.4.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/geos
+===> gipfel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gipfel-0.4.0.tar.gz
+=> Total size: 496685 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  485k  100  485k    0     0   149k      0  0:00:03  0:00:03 --:--:--  176k
+===> Installing dependencies for gipfel-0.4.0nb1
+==========================================================================
+The following variables will affect the build process of this package,
+gipfel-0.4.0nb1.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency tiff>=4.0.3nb5: found tiff-4.0.3nb6
+=> Full dependency exiv2>=0.24: found exiv2-0.24
+=> Full dependency gsl>=1.5nb1: found gsl-1.16
+=> Full dependency fltk>=1.3.0nb10: NOT found
+=> Verifying reinstall for ../../x11/fltk13
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching fltk-1.3.2-source.tar.gz
+100 15506  100 15506    0     0  36114      0 --:--:-- --:--:-- --:--:-- 38959
+===> Installing dependencies for fltk-1.3.2nb3
+==========================================================================
+The supported build options for fltk are:
+
+        opengl
+
+The currently selected options are:
+
+        opengl
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.fltk13 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+fltk-1.3.2nb3.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=1.1: found libXext-1.3.2
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/fltk13
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gipfel
+===> gpsbabel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpsbabel-1.4.4.tar.gz
+=> Total size: 7811264 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file gpsbabel-1.4.4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 7628k  100 7628k    0     0  1454k      0  0:00:05  0:00:05 --:--:-- 1678k
+===> Installing dependencies for gpsbabel-1.4.4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency libusb>=0.1.8nb2: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsbabel
+===> gpsd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpsd-2.96.tar.gz
+=> Total size: 1554607 bytes
+curl: (6) Couldn't resolve host 'download.berlios.de'
+fetch: Unable to fetch expected file gpsd-2.96.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1518k  100 1518k    0     0   171k      0  0:00:08  0:00:08 --:--:--  302k
+===> Installing dependencies for gpsd-2.96nb1
+==========================================================================
+The following variables will affect the build process of this package,
+gpsd-2.96nb1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency xmlto-[0-9]*: found xmlto-0.0.26
+=> Full dependency ncurses>=5.4nb1: found ncurses-5.9nb3
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+===> Overriding tools for gpsd-2.96nb1
+===> Extracting for gpsd-2.96nb1
+===> Patching for gpsd-2.96nb1
+=> Applying pkgsrc patches for gpsd-2.96nb1
+===> Creating toolchain wrappers for gpsd-2.96nb1
+===> Configuring for gpsd-2.96nb1
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --with-libintl-prefix
+==========================================
+gpsd 2.96
+------------------------------------------
+        Protocols
+        ---------
+Generic NMEA            : yes
+AIVDM/AIVDO             : yes
+Ashtech                 : yes
+Earthmate               : yes
+EverMore                : yes
+Furuno GPSclock         : yes
+FV-18                   : yes
+Garmin                  : yes
+Garmin Simple Text      : yes
+Geostar                 : yes
+iTrax                   : yes
+MTK-3301                : yes
+NTRIP                   : yes
+Navcom                  : yes
+OceanServer             : yes
+OnCore                  : yes
+RTCM104V2               : yes
+RTCM104V3               : yes
+SiRF                    : yes
+SuperStarII             : yes
+Trimble TSIP            : yes
+Tripmate                : yes
+True North              : yes
+UBX                     : yes
+        Daemon Features
+        ---------------
+Timing support          : yes
+NTP SHM                 : yes
+NTP PPS                 : yes
+PPS input on            : DCD
+Fixed port speed        : no
+Priv-drop user          : nobody
+Enable shared libraries : no
+Enable DBUS support     : no
+Enable BlueZ support    : no
+Enable IPv6 support     : yes
+Limited max clients     : no
+Limited max devices     : no
+Allow device reconfig   : yes
+Allow control send      : yes
+Squelch logging/hexdump : no
+libusb device discovery : no
+        Client Features
+        ---------------
+Client debugging support: yes
+Old protocol in libgps  : yes
+Build ncurses programs  : yes
+Enable Python support   : yes
+Enable C++ support      : yes
+Enable Qt support       : no
+------------------------------------------
+
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating packaging/rpm/gpsd.spec
+config.status: creating libgps.pc
+config.status: creating libgpsd.pc
+config.status: creating jsongen.py
+config.status: creating maskaudit.py
+config.status: creating valgrind-audit
+config.status: creating gpsd_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+/bin/rm: cannot remove `libtoolT': No such file or directory
+config.status: executing default commands
+ntpshm.c:22:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+make[1]: *** [ntpshm.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/geography/gpsd/work/gpsd-2.96'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsd
+===> gpsdrive
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpsdrive-1.31.tar.gz
+=> Total size: 784379 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 22726    0 22726    0     0  16180      0 --:--:--  0:00:01 --:--:-- 33519
+fetch: Size of the file gpsdrive-1.31.tar.gz doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  765k  100  765k    0     0   116k      0  0:00:06  0:00:06 --:--:--  185k
+===> Installing dependencies for gpsdrive-1.31nb22
+==========================================================================
+The following variables will affect the build process of this package,
+gpsdrive-1.31nb22.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Full dependency gpsd>=1.07: NOT found
+=> Verifying reinstall for ../../geography/gpsd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gpsd-2.96nb1
+ls: cannot access ./doc/*.xml: No such file or directory
+/bin/make  all-am
+ls: cannot access ./doc/*.xml: No such file or directory
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/geography/gpsd/work/gpsd-2.96'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.     -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include -Wextra -Wall -Wno-uninitialized -Wno-missing-field-initializers -Wcast-align -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wpointer-arith -Wreturn-type -D_GNU_SOURCE  -DSYSCONFDIR=\"/boot/home/pkg/etc\" -MT ntpshm.lo -MD -MP -MF .deps/ntpshm.Tpo -c -o ntpshm.lo ntpshm.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/boot/home/pkgsrc/pkgsrc/geography/gpsd/work/.buildlink/include/ncurses -I/boot/home/pkgsrc/pkgsrc/geography/gpsd/work/.buildlink/include -Wextra -Wall -Wno-uninitialized -Wno-missing-field-initializers -Wcast-align -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wpointer-arith -Wreturn-type -D_GNU_SOURCE -DSYSCONFDIR=\"/boot/home/pkg/etc\" -MT ntpshm.lo -MD -MP -MF .deps/ntpshm.Tpo -c ntpshm.c  -DPIC -o .libs/ntpshm.o
+ntpshm.c:22:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+make[1]: *** [ntpshm.lo] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/geography/gpsd/work/gpsd-2.96'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsdrive
+===> gpsutils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gpsutils-0.4.0.tar.gz
+=> Total size: 2013739 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1966k  100 1966k    0     0   313k      0  0:00:06  0:00:06 --:--:--  351k
+===> Installing dependencies for gpsutils-0.4.0
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for gpsutils-0.4.0
+===> Extracting for gpsutils-0.4.0
+===> Patching for gpsutils-0.4.0
+=> Applying pkgsrc patches for gpsutils-0.4.0
+===> Creating toolchain wrappers for gpsutils-0.4.0
+===> Configuring for gpsutils-0.4.0
+===> Building for gpsutils-0.4.0
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error -Wno-error -Wall -DDEBUG=0  -c libgps.c
+gcc -Wno-error -Wno-error -Wall -DDEBUG=0  -c garmin.c
+garmin.c: In function 'garmin_rcv_record':
+garmin.c:69:18: warning: variable 'nvalid' set but not used [-Wunused-but-set-variable]
+     int i,offset,nvalid;
+                  ^
+gcc -Wno-error -Wno-error -Wall -DDEBUG=0  -c garminbin.c
+garminbin.c: In function 'retrieve_record':
+garminbin.c:400:18: warning: variable 'checksum' set but not used [-Wunused-but-set-variable]
+    unsigned char checksum;
+                  ^
+garminbin.c: In function 'output_csv':
+garminbin.c:746:31: warning: variable 'errormag' set but not used [-Wunused-but-set-variable]
+     double Trel,az,el,cclke_t,errormag;
+                               ^
+garminbin.c:746:23: warning: variable 'cclke_t' set but not used [-Wunused-but-set-variable]
+     double Trel,az,el,cclke_t,errormag;
+                       ^
+garminbin.c:745:41: warning: unused variable 'dXrXs' [-Wunused-variable]
+     vec3 Xs,errorvec, Xrg, current_lla, dXrXs;
+                                         ^
+garminbin.c: In function 'output_to_screen':
+garminbin.c:804:42: warning: variable 'cre' set but not used [-Wunused-but-set-variable]
+     double gclke_m, gclke_s, cclke_t,gre,cre;
+                                          ^
+garminbin.c:804:38: warning: variable 'gre' set but not used [-Wunused-but-set-variable]
+     double gclke_m, gclke_s, cclke_t,gre,cre;
+                                      ^
+garminbin.c: In function 'output_rinex_rcv_recordset':
+garminbin.c:714:13: warning: 'rinex_epoch_year' is used uninitialized in this function [-Wuninitialized]
+     fprintf (fd," %3d%3d%3d%3d%3d%14.7f%3d%3d",
+             ^
+garminbin.c:714:13: warning: 'rinex_epoch_month' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_mday' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_hour' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_min' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_sec' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_flag' is used uninitialized in this function [-Wuninitialized]
+garminbin.c:714:13: warning: 'rinex_epoch_nsat' is used uninitialized in this function [-Wuninitialized]
+gcc -o garminbin garminbin.o libgps.o garmin.o -Wl,-R/boot/home/pkg/lib -lm
+gcc -Wno-error -Wno-error -Wall -DDEBUG=0  -c capture.c
+capture.c: In function 'main':
+capture.c:70:5: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+     if (port_name!=NULL &&  strcmp(port_name,"-")!=0 ) 
+     ^
+gcc -Wno-error -Wno-error -Wall -DDEBUG=0  -c siolib.c
+siolib.c:12:23: fatal error: sys/fcntl.h: No such file or directory
+ #include <sys/fcntl.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsutils/work/gpsutils-0.4.0/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsutils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gpsutils
+===> libchamplain04
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libchamplain-0.4.7.tar.bz2
+=> Total size: 548779 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  535k  100  535k    0     0   178k      0  0:00:03  0:00:03 --:--:--  194k
+===> Installing dependencies for libchamplain04-0.4.7nb23
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency damageproto>=1.1.0: found damageproto-1.2.1
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC...  -DPIC
+checking if gcc PIC flag  -DPIC works... yes
+checking if gcc static flag  works... yes
+checking if gcc supports -c -o file.o... /bin/rm: cannot remove `conftest*': No such file or directory
+yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/boot/system/develop/tools/i586-pc-haiku/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... /bin/rm: cannot remove `conftest*': No such file or directory
+yes
+checking dynamic linker characteristics... haiku runtime_loader
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libchamplain04
+===> libchamplain06
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libchamplain-0.6.1.tar.bz2
+=> Total size: 694348 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  678k  100  678k    0     0   186k      0  0:00:03  0:00:03 --:--:--  189k
+===> Installing dependencies for libchamplain06-0.6.1nb29
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency damageproto>=1.1.0: found damageproto-1.2.1
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libchamplain06
+===> libchamplain08
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libchamplain-0.8.3.tar.bz2
+=> Total size: 667873 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  652k  100  652k    0     0   205k      0  0:00:03  0:00:03 --:--:--  207k
+===> Installing dependencies for libchamplain08-0.8.3nb25
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency damageproto>=1.1.0: found damageproto-1.2.1
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libchamplain08
+===> libdrg
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libdrg-0.0.81.tar.gz
+=> Total size: 320228 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  312k  100  312k    0     0   233k      0  0:00:01  0:00:01 --:--:--  313k
+===> Installing dependencies for libdrg-0.0.81nb4
+==========================================================================
+The following variables will affect the build process of this package,
+libdrg-0.0.81nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency tiff>=4.0.3nb5: found tiff-4.0.3nb6
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+===> Overriding tools for libdrg-0.0.81nb4
+===> Extracting for libdrg-0.0.81nb4
+===> Patching for libdrg-0.0.81nb4
+=> Applying pkgsrc patches for libdrg-0.0.81nb4
+===> Creating toolchain wrappers for libdrg-0.0.81nb4
+===> Configuring for libdrg-0.0.81nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Adding run-time search paths to pkg-config files.
+config.status: executing depfiles commands
+=> Modifying libtool scripts to use pkgsrc libtool
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+WARNING: *** Please consider adding fortran to USE_LANGUAGES in the package Makefile.
+===> Building for libdrg-0.0.81nb4
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ./libtool --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H -I.    -I/boot/home/pkg/include -I/boot/home/pkg/include  -I/boot/home/pkg/include  -Wno-error -I/boot/home/pkg/include -MT drg_tiff.lo -MD -MP -MF .deps/drg_tiff.Tpo -c -o drg_tiff.lo drg_tiff.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/boot/home/pkgsrc/pkgsrc/geography/libdrg/work/.buildlink/include -MT drg_tiff.lo -MD -MP -MF .deps/drg_tiff.Tpo -c drg_tiff.c  -DPIC -o .libs/drg_tiff.o
+drg_tiff.c: In function 'drg_tiff_ensure_open':
+drg_tiff.c:569:3: error: unknown type name 'int32_t'
+   int32_t length;
+   ^
+drg_tiff.c: In function 'drg_tiff_image':
+drg_tiff.c:1031:8: error: 'uint16_t' undeclared (first use in this function)
+    *(((uint16_t *)image->data)+(base_pix+map_pix)) =
+        ^
+drg_tiff.c:1031:8: note: each undeclared identifier is reported only once for each function it appears in
+drg_tiff.c:1031:18: error: expected expression before ')' token
+    *(((uint16_t *)image->data)+(base_pix+map_pix)) =
+                  ^
+drg_tiff.c:1034:8: error: 'uint32_t' undeclared (first use in this function)
+    *(((uint32_t *)image->data)+(base_pix+map_pix)) =
+        ^
+drg_tiff.c:1034:18: error: expected expression before ')' token
+    *(((uint32_t *)image->data)+(base_pix+map_pix)) =
+                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libdrg/work/libdrg-0.0.81
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libdrg/work/libdrg-0.0.81
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libdrg
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/libdrg
+===> mapserver
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mapserver-5.6.8.tar.gz
+=> Total size: 2332277 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2277k  100 2277k    0     0  1114k      0  0:00:02  0:00:02 --:--:-- 1251k
+===> Installing dependencies for mapserver-5.6.8nb17
+==========================================================================
+The supported build options for mapserver are:
+
+        fastcgi mysql pgsql x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mapserver (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+mapserver-5.6.8nb17.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * JPEG_DEFAULT = jpeg
+        * READLINE_DEFAULT = readline
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency libXpm>=3.5.4.2: found libXpm-3.5.11
+=> Full dependency fribidi>=0.19.1: found fribidi-0.19.6
+=> Full dependency readline>=6.0: found readline-6.3
+=> Full dependency gdal-lib>=1.9.2nb9: NOT found
+=> Verifying reinstall for ../../geography/gdal-lib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gdal-lib-1.9.2nb10
+==========================================================================
+The supported build options for gdal-lib are:
+
+        mysql pgsql sqlite
+
+The currently selected options are:
+
+        pgsql
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gdal-lib (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gdal-lib-1.9.2nb10.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+checking whether times is declared... yes
+checking for struct tms... yes
+checking for clock_t... yes
+checking for .preinit_array/.init_array/.fini_array support... no
+checking if mkdir takes one argument... no
+*** Configuration i386-pc-haiku not supported
+make[1]: *** [configure-gcc] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+WARNING: Please add USE_TOOLS+=perl to the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/gdal-lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/mapserver
+===> merkaartor
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching merkaartor-0.17.2.tar.bz2
+=> Total size: 7138991 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0
+curl: (28) Operation too slow. Less than 1 bytes/sec transferred the last 120 seconds
+fetch: Unable to fetch expected file merkaartor-0.17.2.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 6971k  100 6971k    0     0   265k      0  0:00:26  0:00:26 --:--:--  320k
+===> Installing dependencies for merkaartor-0.17.2nb27
+==========================================================================
+The following variables will affect the build process of this package,
+merkaartor-0.17.2nb27.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency boost-headers-1.55.*: found boost-headers-1.55.0nb1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency qt4-tools>=4.8.5: NOT found
+=> Verifying reinstall for ../../x11/qt4-tools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-tools-4.8.5nb1
+==========================================================================
+The supported build options for qt4-tools are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-tools-4.8.5nb1.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libtool-base-[0-9]*: found libtool-base-2.4.2nb7
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+=> Full dependency qt4-libs>=4.8.5nb2: NOT found
+=> Verifying reinstall for ../../x11/qt4-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-libs-4.8.5nb5
+==========================================================================
+The supported build options for qt4-libs are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-libs-4.8.5nb5.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/merkaartor
+===> opencpn
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching OpenCPN-3.2.2-Source.tar.gz
+=> Total size: 158329955 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  150M  100  150M    0     0   629k      0  0:04:05  0:04:05 --:--:--  631k
+===> Installing dependencies for opencpn-3.2.2
+==========================================================================
+The following variables will affect the build process of this package,
+opencpn-3.2.2.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency cmake>=2.8.5nb1: found cmake-2.8.12.2nb3
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/opencpn
+===> p5-Geo-Weather
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Geo-Weather-1.41.tar.gz
+=> Total size: 8744 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  8744  100  8744    0     0  12821      0 --:--:-- --:--:-- --:--:-- 21069
+===> Installing dependencies for p5-Geo-Weather-1.41nb6
+=> Full dependency p5-libwww>=5.803nb1: found p5-libwww-6.06nb1
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+===> Overriding tools for p5-Geo-Weather-1.41nb6
+===> Extracting for p5-Geo-Weather-1.41nb6
+===> Patching for p5-Geo-Weather-1.41nb6
+===> Creating toolchain wrappers for p5-Geo-Weather-1.41nb6
+===> Configuring for p5-Geo-Weather-1.41nb6
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for Geo::Weather
+Writing MYMETA.yml and MYMETA.json
+===> Building for p5-Geo-Weather-1.41nb6
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+cp Weather.pm blib/lib/Geo/Weather.pm
+=> Unwrapping files-to-be-installed.
+===> Installing for p5-Geo-Weather-1.41nb6
+Installing /boot/home/pkgsrc/pkgsrc/geography/p5-Geo-Weather/work/.destdir/boot/home/pkg/lib/perl5/vendor_perl/5.20.0/Geo/Weather.pm
+Appending installation info to /boot/home/pkgsrc/pkgsrc/geography/p5-Geo-Weather/work/.destdir/boot/home/pkg/lib/perl5/5.20.0/i386-haiku/perllocal.pod
+=> Automatic manual page handling
+=> Creating binary package /boot/home/packages/p5-Geo-Weather-1.41nb6.tgz
+===> Install binary package of p5-Geo-Weather-1.41nb6
+===> proj-swig
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching proj-swig-0.02.tar.gz
+=> Total size: 324428 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  316k  100  316k    0     0   167k      0  0:00:01  0:00:01 --:--:--  231k
+===> Installing dependencies for proj-swig-0.02nb5
+==========================================================================
+The following variables will affect the build process of this package,
+proj-swig-0.02nb5.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * PYPACKAGE = python27
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency swig>=1.3.24<2.0: found swig-1.3.36nb4
+=> Build dependency swig>=1.3.31<2.0: found swig-1.3.36nb4
+=> Full dependency proj>=4.4.7nb2: found proj-4.8.0
+=> Full dependency guile>=1.8.7nb2: NOT found
+=> Verifying reinstall for ../../lang/guile
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for guile-1.8.8nb6
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8'
+Making all in oop
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+Making all in goops
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop/goops'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop/goops'
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/oop'
+Making all in libguile
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+/bin/make  all-am
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H   -I.. -I.. -I.. -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include -Wall -Wmissing-prototypes -MT posix.lo -MD -MP -MF .deps/posix.Tpo -c -o posix.lo posix.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I.. -I/boot/home/pkgsrc/pkgsrc/lang/guile/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -Wall -Wmissing-prototypes -MT posix.lo -MD -MP -MF .deps/posix.Tpo -c posix.c  -DPIC -o .libs/posix.o
+In file included from /boot/home/pkg/include/stdio_pre.h:13:0,
+                 from /boot/home/pkg/include/stdio.h:57,
+                 from posix.c:25:
+/boot/home/pkg/include/libio.h:204:50: error: unknown type name 'va_list'
+ extern int _IO_vfscanf(_IO_FILE *, const char *, va_list, int *);
+                                                  ^
+/boot/home/pkg/include/libio.h:205:51: error: unknown type name 'va_list'
+ extern int _IO_vfprintf(_IO_FILE *, const char *, va_list);
+                                                   ^
+In file included from posix.c:25:0:
+/boot/home/pkg/include/stdio.h:159:41: error: unknown type name 'va_list'
+ extern int  vprintf(char const *format, va_list ap);
+                                         ^
+/boot/home/pkg/include/stdio.h:160:56: error: unknown type name 'va_list'
+ extern int  vfprintf(FILE *stream, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:161:56: error: unknown type name 'va_list'
+ extern int  vsprintf(char *string, char const *format, va_list ap);
+                                                        ^
+/boot/home/pkg/include/stdio.h:162:70: error: unknown type name 'va_list'
+ extern int  vsnprintf(char *string, size_t size, char const *format, va_list ap);
+                                                                      ^
+/boot/home/pkg/include/stdio.h:163:55: error: unknown type name 'va_list'
+ extern int  vasprintf(char **ret, char const *format, va_list ap);
+                                                       ^
+/boot/home/pkg/include/stdio.h:168:40: error: unknown type name 'va_list'
+ extern int  vscanf(char const *format, va_list ap);
+                                        ^
+/boot/home/pkg/include/stdio.h:169:58: error: unknown type name 'va_list'
+ extern int  vsscanf(char const *str, char const *format, va_list ap);
+                                                          ^
+/boot/home/pkg/include/stdio.h:170:55: error: unknown type name 'va_list'
+ extern int  vfscanf(FILE *stream, char const *format, va_list ap);
+                                                       ^
+posix.c: In function 'scm_getgrgid':
+posix.c:426:3: error: 'else' without a previous 'if'
+   else
+   ^
+posix.c: In function 'scm_utime':
+posix.c:1241:3: error: 'else' without a previous 'if'
+   else
+   ^
+posix.c:1246:3: error: 'else' without a previous 'if'
+   else
+   ^
+make[3]: *** [posix.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8/libguile'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/guile/work/guile-1.8.8'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/guile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/guile
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/proj-swig
+===> py-proj
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pyproj-1.9.3.tar.gz
+=> Total size: 2687498 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2624k  100 2624k    0     0  1309k      0  0:00:02  0:00:02 --:--:-- 1346k
+===> Installing dependencies for py27-proj-1.9.3
+==========================================================================
+The following variables will affect the build process of this package,
+py27-proj-1.9.3.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+=> Full dependency proj>=4.4.7nb2: found proj-4.8.0
+===> Overriding tools for py27-proj-1.9.3
+===> Extracting for py27-proj-1.9.3
+===> Patching for py27-proj-1.9.3
+===> Creating toolchain wrappers for py27-proj-1.9.3
+===> Configuring for py27-proj-1.9.3
+===> Building for py27-proj-1.9.3
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+(cd /boot/home/pkgsrc/pkgsrc/geography/py-proj/work/pyproj-1.9.3/ && /bin/env USETOOLS=no PTHREAD_CFLAGS=\ -pthread\  PTHREAD_LDFLAGS=\ -pthread PTHREAD_LIBS= PTHREADBASE=/boot/system ==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-country-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-trytond-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/py-trytond
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-trytond-3.2.0
+==========================================================================
+The supported build options for py27-trytond are:
+
+        cdecimal mysql psycopg pydot pytz simplejson
+        sphinx webdav
+
+The currently selected options are:
+
+        psycopg pytz simplejson sphinx
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.py-trytond (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+py27-trytond-3.2.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-python-sql>=0.2: found py27-python-sql-0.3
+=> Full dependency py27-polib-[0-9]*: found py27-polib-1.0.3
+=> Full dependency py27-relatorio>=0.2.0: NOT found
+=> Verifying reinstall for ../../textproc/py-relatorio
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-relatorio-0.6.0
+==========================================================================
+The following variables will affect the build process of this package,
+py27-relatorio-0.6.0.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency py27-genshi>=0.5: found py27-genshi-0.7
+=> Full dependency py27-lxml>=2.0: NOT found
+=> Verifying reinstall for ../../textproc/py-lxml
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-lxml-3.3.5
+(cd /boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/lxml-3.3.5/ && /bin/env USETOOLS=no PTHREAD_CFLAGS=\ -pthread\  PTHREAD_LDFLAGS=\ -pthread PTHREAD_LIBS= PTHREADBASE=/boot/system DL_CFLAGS= DL_LDFLAGS= DL_LIBS= PYTHON=/boot/home/pkg/bin/python2.7 CC=gcc CFLAGS=-Wno-error\ -I/boot/home/pkg/include CPPFLAGS=-I/boot/home/pkg/include CXX=g++ CXXFLAGS=-Wno-error\ -I/boot/home/pkg/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/system/lib\ -Wl,-R/boot/system/lib\ -L/boot/home/pkg/lib\ -Wl,-R/boot/home/pkg/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/system/non-packaged/apps/X11R6.4/bin:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.home CPP=cpp LINK_ALL_LIBGCC_HACK= LOCALBASE=/boot/home/pkg NO_WHOLE_ARCHIVE_FLAG=-Wl,--no-whole-archive WHOLE_ARCHIVE_FLAG=-Wl,--whole-archive X11BASE=/boot/home/pkg X11PREFIX=/boot/home/pkg PKGMANDIR=man PKGINFODIR=info PKGGNUDIR=gnu/ MAKECONF=/dev/null OBJECT_FMT=ELF USETOOLS=no BSD_INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL_MAN=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL=/bin/install BSD_INSTALL_PROGRAM_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_MAN_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 BSD_INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 BSD_INSTALL_GAME_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /boot/home/pkg/bin/python2.7  setup.py  build )
+Building lxml version 3.3.5.
+Building without Cython.
+Using build configuration of libxslt 1.1.28
+Building against libxml2/libxslt in the following directory: /boot/home/pkg/lib
+/boot/home/pkg/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'bugtrack_url'
+  warnings.warn(msg)
+running build
+running build_py
+copying src/lxml/includes/lxml-version.h -> build/lib.haiku-1-BePC-2.7/lxml/includes
+running build_ext
+building 'lxml.etree' extension
+gcc -DNDEBUG -Wno-error -DHAVE_DB_185_H -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include -fPIC -I/boot/home/pkg/include -I/boot/home/pkg/include/libxml2 -I/boot/home/pkgsrc/pkgsrc/textproc/py-lxml/work/lxml-3.3.5/src/lxml/includes -I/boot/home/pkg/include/python2.7 -c src/lxml/lxml.etree.c -o build/temp.haiku-1-BePC-2.7/src/lxml/lxml.etree.o -w
+src/lxml/lxml.etree.c:8:22: fatal error: pyconfig.h: No such file or directory
+ #include "pyconfig.h"
+                      ^
+compilation terminated.
+error: command 'gcc' failed with exit status 1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-lxml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-lxml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-relatorio
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/py-trytond
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/py-trytond-country
+===> qgis
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: qgis-1.7.4nb23 is marked as broken:
+ERROR: Doesn't build with QWT 5.2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/qgis
+===> qlandkartegt
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching qlandkartegt-1.4.2.tar.gz
+=> Total size: 6347471 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100 6198k  100 6198k    0     0   517k      0  0:00:11  0:00:11 --:--:--  647k
+===> Installing dependencies for qlandkartegt-1.4.2nb16
+==========================================================================
+The following variables will affect the build process of this package,
+qlandkartegt-1.4.2nb16.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency cmake>=2.8.5nb1: found cmake-2.8.12.2nb3
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency qt4-tools>=4.8.5: NOT found
+=> Verifying reinstall for ../../x11/qt4-tools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-tools-4.8.5nb1
+==========================================================================
+The supported build options for qt4-tools are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-tools-4.8.5nb1.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libtool-base-[0-9]*: found libtool-base-2.4.2nb7
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+=> Full dependency qt4-libs>=4.8.5nb2: NOT found
+=> Verifying reinstall for ../../x11/qt4-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-libs-4.8.5nb5
+==========================================================================
+The supported build options for qt4-libs are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-libs-4.8.5nb5.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/qlandkartegt
+===> qlandkartegt-garmindev
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching garmindev-0.3.4.tar.gz
+=> Total size: 85173 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 85173  100 85173    0     0  50661      0  0:00:01  0:00:01 --:--:--  107k
+===> Installing dependencies for qlandkartegt-garmindev-0.3.4
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Full dependency libusb>=0.1.8nb2: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/qlandkartegt-garmindev
+===> qlandkartem
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching QLandkarteM.0.2.0.tar.gz
+=> Total size: 422493 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  412k  100  412k    0     0   227k      0  0:00:01  0:00:01 --:--:--  441k
+===> Installing dependencies for qlandkartem-0.2.0nb27
+==========================================================================
+The following variables will affect the build process of this package,
+qlandkartem-0.2.0nb27.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency cmake>=2.8.5nb1: found cmake-2.8.12.2nb3
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency qt4-tools>=4.8.5: NOT found
+=> Verifying reinstall for ../../x11/qt4-tools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-tools-4.8.5nb1
+==========================================================================
+The supported build options for qt4-tools are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-tools-4.8.5nb1.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libtool-base-[0-9]*: found libtool-base-2.4.2nb7
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+=> Full dependency qt4-libs>=4.8.5nb2: NOT found
+=> Verifying reinstall for ../../x11/qt4-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for qt4-libs-4.8.5nb5
+==========================================================================
+The supported build options for qt4-libs are:
+
+        cups debug gtk2
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.qt4 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+qt4-libs-4.8.5nb5.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt4-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/qlandkartem
+===> tex-pst-geo
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pst-geo.tar.xz
+=> Total size: 24316216 bytes
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex-bin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-amsmath
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-oberdiek
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/tex-auto-pst-pdf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/tex-pstricks
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/tex-pst-node
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/tex-pst-geo
+===> viking
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching viking-1.5.tar.bz2
+=> Total size: 1609467 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1571k  100 1571k    0     0   426k      0  0:00:03  0:00:03 --:--:--  533k
+===> Installing dependencies for viking-1.5nb2
+==========================================================================
+The following variables will affect the build process of this package,
+viking-1.5nb2.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.20.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gnome-doc-utils>=0.8.0: NOT found
+=> Verifying reinstall for ../../textproc/gnome-doc-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gnome-doc-utils-0.20.10nb2
+Making all in data
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils/work/gnome-doc-utils-0.20.10/doc'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/viking
+===> vis5d+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching vis5d+-1.2.1.tar.gz
+=> Total size: 2278840 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2225k  100 2225k    0     0   292k      0  0:00:07  0:00:07 --:--:--  466k
+===> Installing dependencies for vis5d+-1.2.1nb4
+checking for struct tms... yes
+checking for clock_t... yes
+checking for .preinit_array/.init_array/.fini_array support... no
+checking if mkdir takes one argument... no
+*** Configuration i386-pc-haiku not supported
+make[1]: *** [configure-gcc] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+WARNING: Please add USE_TOOLS+=perl to the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/geography/vis5d+

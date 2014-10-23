@@ -1,0 +1,1775 @@
+
+Welcome to the Haiku shell.
+
+~> go
+~/pkgsrc/pkgsrc> cd archivers/
+~/pkgsrc/pkgsrc/archivers> do
+===> afio
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Patching for afio-2.5nb2
+=> Applying pkgsrc patches for afio-2.5nb2
+===> Creating toolchain wrappers for afio-2.5nb2
+===> Configuring for afio-2.5nb2
+===> Building for afio-2.5nb2
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -Wno-error -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE  -DMEMCPY -DMKDIR   -DVOIDFIX  -DHAVEFCNTL    -DHAVEMEMCMP -DDEFFMTCMD='"cdrecord dev=/dev/rcd0d -v -force blank=all"'  -DHAVE_LCHOWN -DPRG_COMPRESS='"gzip"' -DHAVEFNMATCH   -c afio.c
+In file included from afio.c:204:0:
+/boot/home/pkg/include/sys/sysmacros.h:22:22: fatal error: features.h: No such file or directory
+ #include <features.h>
+                      ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/afio/work/afio-2.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/afio
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/afio
+===> archangel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Patching for archangel-20050730nb1
+=> Applying pkgsrc patches for archangel-20050730nb1
+===> Creating toolchain wrappers for archangel-20050730nb1
+===> Configuring for archangel-20050730nb1
+=> Configuring and building libnbcompat
+checking build system type... i586-pc-haiku
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+===> Building for archangel-20050730nb1
+gcc -DHAVE_CONFIG_H -I. -I. -DHOST=\"i386-pc-haiku\" -DVERSION=\"20050730\" -DHAVE_NBCOMPAT_H=1 -I/boot/home/pkgsrc/pkgsrc/archivers/archangel/work/libnbcompat -I/boot/home/pkg/include -Wall -DPREFIX=\""/boot/home/pkg\"" -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -c aa.c -o aa.o
+aa.c: In function 'get_creds':
+aa.c:187:3: warning: implicit declaration of function 'getpass' [-Wimplicit-function-declaration]
+   (void) strlcpy(aa->phrase, getpass("gpg passphrase? "), sizeof(aa->phrase));
+   ^
+aa.c:187:3: warning: passing argument 2 of 'strlcpy' makes pointer from integer without a cast [enabled by default]
+In file included from aa.c:94:0:
+/boot/home/pkg/include/string.h:70:15: note: expected 'const char *' but argument is of type 'int'
+ extern size_t strlcpy(char *dest, const char *source, size_t length);
+               ^
+aa.c: In function 'gzip_compress_file':
+aa.c:252:4: warning: implicit declaration of function 'warn' [-Wimplicit-function-declaration]
+    warn("gzip_compress_file: short read \"%s\"", name);
+    ^
+aa.c: In function 'find_best':
+aa.c:383:2: warning: pointer targets in passing argument 1 of 'compress' differ in signedness [-Wpointer-sign]
+  compress(gzbuf, &gzc, buf, cc);
+  ^
+In file included from aa.c:100:0:
+/boot/home/pkg/include/zlib.h:1160:21: note: expected 'Bytef *' but argument is of type 'char *'
+ ZEXTERN int ZEXPORT compress OF((Bytef *dest,   uLongf *destLen,
+                     ^
+aa.c:383:2: warning: pointer targets in passing argument 3 of 'compress' differ in signedness [-Wpointer-sign]
+  compress(gzbuf, &gzc, buf, cc);
+  ^
+In file included from aa.c:100:0:
+/boot/home/pkg/include/zlib.h:1160:21: note: expected 'const Bytef *' but argument is of type 'char *'
+ ZEXTERN int ZEXPORT compress OF((Bytef *dest,   uLongf *destLen,
+                     ^
+aa.c: In function 'extractfile':
+aa.c:572:17: error: array type has incomplete element type
+  struct timeval tv[2];
+                 ^
+aa.c:583:4: warning: implicit declaration of function 'warnx' [-Wimplicit-function-declaration]
+    warnx("extractfile: too dangerous to extract \"%s\"", name);
+    ^
+aa.c:618:4: warning: implicit declaration of function 'futimes' [-Wimplicit-function-declaration]
+    if (futimes(fd, tv) < 0) {
+    ^
+aa.c:572:17: warning: unused variable 'tv' [-Wunused-variable]
+  struct timeval tv[2];
+                 ^
+aa.c: In function 'print_details':
+aa.c:865:4: warning: implicit declaration of function 'strmode' [-Wimplicit-function-declaration]
+    (void) strmode(aep->sub.mode, buf);
+    ^
+aa.c:861:6: warning: variable 'cc' set but not used [-Wunused-but-set-variable]
+  int cc;
+      ^
+aa.c: In function 'addent':
+aa.c:1007:18: error: 'struct stat' has no member named 'st_flags'
+  a.sub.flags = sp->st_flags;
+                  ^
+aa.c: In function 'archangel_list':
+aa.c:1434:7: warning: variable 'doit' set but not used [-Wunused-but-set-variable]
+  int  doit;
+       ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/archangel/work/archangel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/archangel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/archangel
+===> arj
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Overriding tools for arj-3.10.22
+===> Extracting for arj-3.10.22
+===> Patching for arj-3.10.22
+=> Applying pkgsrc patches for arj-3.10.22
+===> Creating toolchain wrappers for arj-3.10.22
+===> Configuring for arj-3.10.22
+/bin/cp -f /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/environ.c /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/environ.c.1
+/bin/sed -e 's|@PREFIX@|/boot/home/pkg|g' < /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/environ.c.1      > /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/environ.c
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/environ.c.1
+cd /boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22/gnu && autoconf
+configure.in:178: warning: AC_LANG_CONFTEST: no AC_LANG_SOURCE call detected in body
+../../lib/autoconf/lang.m4:193: AC_LANG_CONFTEST is expanded from...
+../../lib/autoconf/general.m4:2729: _AC_RUN_IFELSE is expanded from...
+../../lib/m4sugar/m4sh.m4:639: AS_IF is expanded from...
+../../lib/autoconf/general.m4:2748: AC_RUN_IFELSE is expanded from...
+configure.in:178: the top level
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+===> Building for arj-3.10.22
+mkdir -p ./haiku/en/rs
+mkdir -p ./haiku/en/rs/tools
+mkdir -p ./haiku/en/rs/arjcrypt
+mkdir -p ./haiku/en/rs/sfxstub
+mkdir -p ./haiku/en/rs/arjsfxv
+mkdir -p ./haiku/en/rs/arjsfx
+mkdir -p ./haiku/en/rs/arjsfxjr
+mkdir -p ./haiku/en/rs/arj
+mkdir -p ./haiku/en/rs/rearj
+mkdir -p ./haiku/en/rs/register
+mkdir -p ./haiku/en/rs/arjdisp
+gcc -DARJUTIL -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/tools/filemode.o filemode.c
+gcc -DARJUTIL -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/tools/today.o today.c
+gcc -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -s  -o haiku/en/rs/tools/today ./haiku/en/rs/tools/filemode.o ./haiku/en/rs/tools/today.o 
+./haiku/en/rs/tools/today en ./haiku/en/rs
+TODAY v 1.22  [29/10/2000]  Not a part of any binary package!
+
+/bin/make -f makefile.gnu do-all
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22'
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/filemode.o filemode.c
+./haiku/en/rs/tools/today en ./haiku/en/rs
+TODAY v 1.22  [29/10/2000]  Not a part of any binary package!
+
+gcc -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/date_sig.o haiku/en/rs/date_sig.c
+gcc -DARJUTIL -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/tools/msgbind.o msgbind.c
+gcc -DARJUTIL -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/tools/arjdata.o arjdata.c
+gcc -DARJUTIL -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/tools/crc32.o crc32.c
+gcc -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -s  -o haiku/en/rs/tools/msgbind ./haiku/en/rs/tools/filemode.o ./haiku/en/rs/tools/msgbind.o ./haiku/en/rs/tools/arjdata.o ./haiku/en/rs/tools/crc32.o 
+./haiku/en/rs/tools/msgbind ./resource/resource.txt msg_arj UNIX s en ./haiku/en/rs
+MSGBIND v 1.65  [14/12/2002]  Not a part of any binary package!
+
+gcc -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/fmsg_arj.o haiku/en/rs/fmsg_arj.c
+gcc -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/imsg_arj.o haiku/en/rs/imsg_arj.c
+gcc -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/nmsg_arj.o haiku/en/rs/nmsg_arj.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/integr.o integr.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/file_reg.o file_reg.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/decode.o decode.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/encode.o encode.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/arj.o arj.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/enc_gwy.o enc_gwy.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/fardata.o fardata.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/arj_user.o arj_user.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/arj_arcv.o arj_arcv.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/arj_file.o arj_file.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/crc32.o crc32.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/misc.o misc.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/debug.o debug.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/arj_proc.o arj_proc.c
+gcc -DSFL=4 -c -Ihaiku -I./haiku/en/rs -I. -Wno-error -specs=/boot/home/pkg/etc/specs -DLOCALE=LANG_en -DLOCALE_DESC="\"en\"" -DPKGLIBDIR="\"/boot/home/pkg/lib/arj\"" -D_UNIX -Wno-error -specs=/boot/home/pkg/etc/specs -ohaiku/en/rs/arj/environ.o environ.c
+environ.c:67:26: fatal error: sys/statfs.h: No such file or directory
+   #include <sys/statfs.h>
+                          ^
+compilation terminated.
+make[1]: *** [haiku/en/rs/arj/environ.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/arj/work/arj-3.10.22'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/arj
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/arj
+===> ark
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ark-4.11.5.tar.xz
+=> Total size: 230492 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file ark-4.11.5.tar.xz
+curl: (6) Couldn't resolve host 'ftp.gtlib.cc.gatech.edu'
+fetch: Unable to fetch expected file ark-4.11.5.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  225k  100  225k    0     0   102k      0  0:00:02  0:00:02 --:--:--  124k
+===> Installing dependencies for ark-4.11.5nb3
+==========================================================================
+The following variables will affect the build process of this package,
+ark-4.11.5nb3.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+        * FAM_DEFAULT = fam
+        * JPEG_DEFAULT = jpeg
+        * KRB5_DEFAULT = heimdal
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+        * FAMBASE (defined, but empty)
+        * FAM_TYPE = fam
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * KRB5BASE (defined, but empty)
+        * KRB5_TYPE = heimdal
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency cmake>=2.8.12: NOT found
+=> Verifying reinstall for ../../devel/cmake
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for cmake-2.8.12.2nb3
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/devel/cmake/work/cmake-2.8.12.2/Modules/*.orig /boot/home/pkgsrc/pkgsrc/devel/cmake/work/cmake-2.8.12.2/Modules/Platform/*.orig
+/bin/ln -s -f /boot/home/pkgsrc/pkgsrc/devel/cmake/work/cmake-2.8.12.2/Modules/Platform/OpenBSD.cmake /boot/home/pkgsrc/pkgsrc/devel/cmake/work/cmake-2.8.12.2/Modules/Platform/MirBSD.cmake
+Unknown option: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/cmake
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/cmake
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ark
+===> dar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching dar-2.4.13.tar.gz
+=> Total size: 1799774 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 1757k  100 1757k    0     0   381k      0  0:00:04  0:00:04 --:--:--  549k
+===> Installing dependencies for dar-2.4.13
+==========================================================================
+The supported build options for dar are:
+
+        dar-int32 dar-int64 threads
+
+The currently selected options are:
+
+        dar-int64 threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.dar (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+=> Full dependency libexecinfo>=1.1: found libexecinfo-1.1
+=> Full dependency libgcrypt>=1.6.0: found libgcrypt-1.6.1
+===> Overriding tools for dar-2.4.13
+===> Extracting for dar-2.4.13
+dar and libdar have been successfully configured with the following parameters:
+
+  LIBDAR parameters:
+   Zlib compression (gzip)    : YES
+   Libbz2 compression (bzip2) : YES
+   Liblzo2 compression (lzo)  : NO
+   Strong encryption support  : YES
+   Extended Attributes support: NO
+   Large files support (> 2GB): YES
+   ext2fs NODUMP flag support : NO
+   Special allocation scheme  : YES
+   Integer size used          : 64
+   Thread safe support        : YES
+   Furtive read mode          : NO
+   Large directory optim.     : YES
+
+  DAR SUITE command line programs:
+   Long options available : YES
+   Building examples      : YES
+   Building dar_static    : NO
+   using upx at install   : NO
+   building documentation : NO
+
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for dar-2.4.13
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13'
+Making all in man
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/man'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/man'
+Making all in src
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src'
+Making all in libdar
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src/libdar'
+filesystem.cpp:211:24: error: 'major' was not declared in this scope
+       major(buf.st_rdev),
+                        ^
+filesystem.cpp:212:24: error: 'minor' was not declared in this scope
+       minor(buf.st_rdev), // makedev(major, minor)
+                        ^
+filesystem.cpp:220:25: error: 'major' was not declared in this scope
+        major(buf.st_rdev),
+                         ^
+filesystem.cpp:221:25: error: 'minor' was not declared in this scope
+        minor(buf.st_rdev), // makedev(major, minor)
+                         ^
+filesystem.cpp: In member function 'void libdar::filesystem_hard_link_write::make_file(const libdar::nomme*, const libdar::path&, bool, libdar::inode::comparison_fields)':
+filesystem.cpp:1121:91: error: 'makedev' was not declared in this scope
+       ret = mknod(name, S_IFBLK | 0700, makedev(ref_blo->get_major(), ref_blo->get_minor()));
+                                                                                           ^
+filesystem.cpp:1123:91: error: 'makedev' was not declared in this scope
+       ret = mknod(name, S_IFCHR | 0700, makedev(ref_cha->get_major(), ref_cha->get_minor()));
+                                                                                           ^
+make[3]: *** [filesystem.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src/libdar'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/dar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/dar
+===> file-roller
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching file-roller-2.32.2.tar.bz2
+=> Total size: 1901661 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1857k  100 1857k    0     0   156k      0  0:00:11  0:00:11 --:--:--  311k
+===> Installing dependencies for file-roller-2.32.2nb21
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gnome-doc-utils>=0.8.0: NOT found
+=> Verifying reinstall for ../../textproc/gnome-doc-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnome-doc-utils-0.20.10.tar.xz
+=> Total size: 526700 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  514k  100  514k    0     0   159k      0  0:00:03  0:00:03 --:--:--  180k
+===> Installing dependencies for gnome-doc-utils-0.20.10nb2
+==========================================================================
+The following variables will affect the build process of this package,
+gnome-doc-utils-0.20.10nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency libxml2>=2.8.0nb2: found libxml2-2.9.1nb2
+=> Build dependency libxslt>=1.1.28nb2: found libxslt-1.1.28nb3
+=> Full dependency py27-libxml2>=2.6.16: NOT found
+=> Verifying reinstall for ../../textproc/py-libxml2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-libxml2-2.9.1
+==========================================================================
+The following variables will affect the build process of this package,
+py27-libxml2-2.9.1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency py27-expat>=0: NOT found
+=> Verifying reinstall for ../../textproc/py-expat
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-expat-2.7.7
+/bin/ld: unrecognized option '-specs=/boot/home/pkg/etc/specs'
+/bin/ld: use the --help option for usage information
+error: command 'ld' failed with exit status 1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-expat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-expat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-libxml2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/file-roller
+===> heirloom-tar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for heirloom-tar-070715
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency heirloom-libcommon>=070227: found heirloom-libcommon-070715
+=> Full dependency heirloom-doc-070715: found heirloom-doc-070715
+===> Overriding tools for heirloom-tar-070715
+===> Extracting for heirloom-tar-070715
+===> Patching for heirloom-tar-070715
+=> Applying pkgsrc patches for heirloom-tar-070715
+===> Creating toolchain wrappers for heirloom-tar-070715
+===> Configuring for heirloom-tar-070715
+===> Building for heirloom-tar-070715
+cc -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include/heirloom -I/boot/home/pkg/include/heirloom  -D_FILE_OFFSET_BITS=64L   -DTARDFL='"/boot/home/pkg/heirloom/etc/default/tar"' -DSHELL='"/bin/sh"' -DSV3BIN='"/boot/home/pkg/heirloom/bin"' -DDEFBIN='"/boot/home/pkg/heirloom/bin"' -c tar.c
+tar.c:93:22: fatal error: sys/scsi.h: No such file or directory
+ #include <sys/scsi.h>
+                      ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/heirloom-tar/work/heirloom-070715/tar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/heirloom-tar/work/heirloom-070715
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/heirloom-tar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/heirloom-tar
+===> hpack
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching hpack79src.tar.gz
+=> Total size: 545648 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  532k  100  532k    0     0  33228      0  0:00:16  0:00:16 --:--:--  107k
+===> Installing dependencies for hpack-0.79nb2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for hpack-0.79nb2
+===> Extracting for hpack-0.79nb2
+===> Patching for hpack-0.79nb2
+=> Applying pkgsrc patches for hpack-0.79nb2
+===> Creating toolchain wrappers for hpack-0.79nb2
+===> Configuring for hpack-0.79nb2
+===> Building for hpack-0.79nb2
+gcc -DBSD386 -c -D__UNIX__ -DPREFIX="\"/boot/home/pkg\"" -I. -Icrypt    -Wno-error -specs=/boot/home/pkg/etc/specs arcdir.c
+In file included from arcdir.c:33:0:
+system.h:973:8: error: conflicting types for 'strlwr'
+   void strlwr( char *string );
+        ^
+In file included from arcdir.c:26:0:
+/boot/home/pkg/include/string.h:74:15: note: previous declaration of 'strlwr' was here
+ extern char  *strlwr(char *string);
+               ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/hpack/work
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/hpack
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/hpack
+===> jamjar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching jamjar-0.7.1.tar.gz
+=> Total size: 187035 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  182k  100  182k    0     0  36454      0  0:00:05  0:00:05 --:--:-- 40265
+===> Installing dependencies for jamjar-0.7.1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency acunia-jam>=1.0: NOT found
+=> Verifying reinstall for ../../devel/acunia-jam
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching acunia-jam-1.0.tar.gz
+=> Total size: 138340 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  135k  100  135k    0     0   508k      0 --:--:-- --:--:-- --:--:--  738k
+===> Installing dependencies for acunia-jam-1.0nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency bison>=1.0: found bison-3.0.2nb1
+===> Overriding tools for acunia-jam-1.0nb1
+===> Extracting for acunia-jam-1.0nb1
+===> Patching for acunia-jam-1.0nb1
+=> Applying pkgsrc patches for acunia-jam-1.0nb1
+===> Creating toolchain wrappers for acunia-jam-1.0nb1
+===> Configuring for acunia-jam-1.0nb1
+===> Building for acunia-jam-1.0nb1
+cc -o jam0  command.c compile.c execunix.c execvms.c expand.c  filent.c fileos2.c fileunix.c filevms.c glob.c hash.c  headers.c jam.c jambase.c jamgram.c lists.c make.c make1.c  newstr.c option.c parse.c pathunix.c pathvms.c regexp.c  rules.c scan.c search.c timestamp.c variable.c 
+fileunix.c:65:17: fatal error: ar.h: No such file or directory
+ # include <ar.h>
+                 ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/acunia-jam/work/jam
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/acunia-jam
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/acunia-jam
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/jamjar
+===> lcab
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching lcab-1.0b12.tar.gz
+=> Total size: 74907 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file lcab-1.0b12.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file lcab-1.0b12.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 74907  100 74907    0     0  17662      0  0:00:04  0:00:04 --:--:-- 19045
+if gcc -DHAVE_CONFIG_H -I. -I. -I.      -Wno-error -specs=/boot/home/pkg/etc/specs -MT cwrite.o -MD -MP -MF ".deps/cwrite.Tpo"  -c -o cwrite.o `test -f 'cwrite.c' || echo './'`cwrite.c;  then mv ".deps/cwrite.Tpo" ".deps/cwrite.Po";  else rm -f ".deps/cwrite.Tpo"; exit 1;  fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.      -Wno-error -specs=/boot/home/pkg/etc/specs -MT main.o -MD -MP -MF ".deps/main.Tpo"  -c -o main.o `test -f 'main.c' || echo './'`main.c;  then mv ".deps/main.Tpo" ".deps/main.Po";  else rm -f ".deps/main.Tpo"; exit 1;  fi
+gcc  -Wno-error -specs=/boot/home/pkg/etc/specs  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -o lcab  cdata.o cfile.o cfolder.o  cheader.o checksum.o cwrite.o  main.o  
+main.o: In function `main':
+main.c:(.text+0x6e6): undefined reference to `warn'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lcab/work/lcab-1.0b12
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lcab/work/lcab-1.0b12
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lcab
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lcab
+===> lrzip
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching lrzip-0.616.tar.bz2
+=> Total size: 493886 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  482k  100  482k    0     0   199k      0  0:00:02  0:00:02 --:--:--  211k
+===> Installing dependencies for lrzip-0.616nb1
+------------------------------------------------------------------------
+lrzip 0.616
+------------------------------------------------------------------------
+
+
+Configuration Options Summary:
+
+  ASM.(32 bit only)..: yes
+  Static binary......: no
+
+Documentation..........: no
+
+Compilation............: make (or gmake)
+  CPPFLAGS.............: -I/boot/home/pkg/include
+  CFLAGS...............: -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include
+  CXXFLAGS.............: -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include
+  LDFLAGS..............: -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib
+
+Installation...........: make install (as root if needed, with 'su' or 'sudo')
+  prefix...............: /boot/home/pkg
+
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for lrzip-0.616nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in lzma
+Making all in C
+  CC     7zCrc.lo
+  CC     LzFind.lo
+  CC     LzFindMt.lo
+  CC     LzmaDec.lo
+  CC     LzmaEnc.lo
+  CC     LzmaLib.lo
+  CC     Alloc.lo
+  CC     Threads.lo
+  CCLD   liblzma.la
+Making all in man
+pod2man lrunzip.1.pod lrunzip.1
+pod2man lrzcat.1.pod lrzcat.1
+pod2man lrztar.1.pod lrztar.1
+pod2man lrzuntar.1.pod lrzuntar.1
+/boot/home/pkg/bin/bmake  all-am
+Making all in doc
+  CC     liblrzip.lo
+  CC     lrzip.lo
+In file included from md5.h:30:0,
+                 from lrzip.c:51:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkg/include/sys/param.h:9:0,
+                 from /boot/home/pkg/include/sys/socket.h:10,
+                 from /boot/home/pkg/include/net/route.h:9,
+                 from /boot/home/pkg/include/net/if.h:9,
+                 from /boot/home/pkg/include/netinet/in.h:9,
+                 from /boot/home/pkg/include/arpa/inet.h:9,
+                 from lrzip.c:33:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+lrzip.c: In function 'get_hash':
+lrzip.c:576:2: warning: implicit declaration of function 'mlock' [-Wimplicit-function-declaration]
+  mlock(passphrase, PASS_LEN);
+  ^
+lrzip.c:585:4: warning: implicit declaration of function 'munlock' [-Wimplicit-function-declaration]
+    munlock(passphrase, PASS_LEN);
+    ^
+  CC     rzip.lo
+In file included from md5.h:30:0,
+                 from rzip.c:54:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkgsrc/pkgsrc/archivers/lrzip/work/.buildlink/include/lzo/lzoconf.h:40:0,
+                 from rzip.c:40:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+rzip.c: In function 'lesser_bitness':
+rzip.c:369:2: warning: implicit declaration of function 'ffsll' [-Wimplicit-function-declaration]
+  return (ffsll(a) < ffsll(b));
+  ^
+  CC     runzip.lo
+In file included from md5.h:30:0,
+                 from runzip.c:43:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkg/include/sys/param.h:9:0,
+                 from /boot/home/pkg/include/sys/socket.h:10,
+                 from /boot/home/pkg/include/net/route.h:9,
+                 from /boot/home/pkg/include/net/if.h:9,
+                 from /boot/home/pkg/include/netinet/in.h:9,
+                 from /boot/home/pkg/include/arpa/inet.h:9,
+                 from runzip.c:40:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+  CC     stream.lo
+In file included from util.h:22:0,
+                 from stream.c:60:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkg/include/zconf.h:395:0,
+                 from /boot/home/pkg/include/zlib.h:34,
+                 from stream.c:42:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+stream.c: In function 'compthread':
+stream.c:1273:2: warning: implicit declaration of function 'setpriority' [-Wimplicit-function-declaration]
+  if (unlikely(setpriority(PRIO_PROCESS, 0, control->nice_val) == -1))
+  ^
+  CC     util.lo
+In file included from /boot/home/pkg/include/stdlib.h:11:0,
+                 from lrzip_private.h:28,
+                 from util.c:54:
+/boot/home/pkg/include/limits.h:41:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ #define PAGE_SIZE    (4096)
+ ^
+util.c:45:0: note: this is the location of the previous definition
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from util.c:54:0:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkg/include/stdlib.h:11:0,
+                 from lrzip_private.h:28,
+                 from util.c:54:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+util.c: In function 'lrz_keygen':
+util.c:328:2: warning: implicit declaration of function 'mlock' [-Wimplicit-function-declaration]
+  mlock(buf, HASH_LEN + SALT_LEN + PASS_LEN);
+  ^
+util.c:341:2: warning: implicit declaration of function 'munlock' [-Wimplicit-function-declaration]
+  munlock(buf, sizeof(buf));
+  ^
+  CC     md5.lo
+  CC     aes.lo
+  CC     sha4.lo
+  CXX    libzpaq.lo
+  CXXLD  libtmplrzip.la
+  CXXLD  liblrzip.la
+  CC     main.o
+In file included from rzip.h:22:0,
+                 from main.c:52:
+lrzip_private.h:247:0: warning: "PAGE_SIZE" redefined [enabled by default]
+ # define PAGE_SIZE (sysconf(_SC_PAGE_SIZE))
+ ^
+In file included from /boot/home/pkg/include/sys/param.h:9:0,
+                 from /boot/home/pkg/include/sys/socket.h:10,
+                 from /boot/home/pkg/include/net/route.h:9,
+                 from /boot/home/pkg/include/net/if.h:9,
+                 from /boot/home/pkg/include/netinet/in.h:9,
+                 from /boot/home/pkg/include/arpa/inet.h:9,
+                 from main.c:49:
+/boot/home/pkg/include/limits.h:41:0: note: this is the location of the previous definition
+ #define PAGE_SIZE    (4096)
+ ^
+main.c: In function 'main':
+main.c:384:3: warning: implicit declaration of function 'setpriority' [-Wimplicit-function-declaration]
+   if (unlikely(setpriority(PRIO_PROCESS, 0, control->nice_val / 2) == -1))
+   ^
+  CXXLD  lrzip
+main.o: In function `.L68':
+main.c:(.text+0x21c0): undefined reference to `setpriority'
+main.c:(.text+0x221e): undefined reference to `setpriority'
+./.libs/libtmplrzip.a(lrzip.o): In function `get_hash':
+lrzip.c:(.text+0x2143): undefined reference to `mlock'
+lrzip.c:(.text+0x2156): undefined reference to `mlock'
+lrzip.c:(.text+0x2170): undefined reference to `mlock'
+lrzip.c:(.text+0x2187): undefined reference to `mlock'
+lrzip.c:(.text+0x2203): undefined reference to `munlock'
+lrzip.c:(.text+0x2216): undefined reference to `munlock'
+lrzip.c:(.text+0x24a8): undefined reference to `munlock'
+lrzip.c:(.text+0x24bb): undefined reference to `munlock'
+./.libs/libtmplrzip.a(lrzip.o): In function `release_hashes':
+lrzip.c:(.text+0x254d): undefined reference to `munlock'
+./.libs/libtmplrzip.a(lrzip.o):lrzip.c:(.text+0x2564): more undefined references to `munlock' follow
+./.libs/libtmplrzip.a(rzip.o): In function `lesser_bitness':
+rzip.c:(.text+0x125e): undefined reference to `ffsll'
+rzip.c:(.text+0x1271): undefined reference to `ffsll'
+./.libs/libtmplrzip.a(stream.o): In function `compthread':
+stream.c:(.text+0x4290): undefined reference to `setpriority'
+./.libs/libtmplrzip.a(stream.o): In function `ucompthread':
+stream.c:(.text+0x5508): undefined reference to `setpriority'
+./.libs/libtmplrzip.a(util.o): In function `lrz_keygen':
+util.c:(.text+0x13eb): undefined reference to `mlock'
+util.c:(.text+0x151c): undefined reference to `munlock'
+./.libs/libtmplrzip.a(util.o): In function `lrz_crypt':
+util.c:(.text+0x1565): undefined reference to `mlock'
+util.c:(.text+0x1576): undefined reference to `mlock'
+util.c:(.text+0x158a): undefined reference to `mlock'
+util.c:(.text+0x1a33): undefined reference to `munlock'
+util.c:(.text+0x1a47): undefined reference to `munlock'
+util.c:(.text+0x1a58): undefined reference to `munlock'
+./.libs/libtmplrzip.a(util.o): In function `lrz_stretch':
+util.c:(.text+0x1a91): undefined reference to `mlock'
+util.c:(.text+0x1bff): undefined reference to `munlock'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lrzip/work/lrzip-0.616
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lrzip/work/lrzip-0.616
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lrzip/work/lrzip-0.616
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lrzip
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/lrzip
+===> macutil
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching macutil2.0b3.shar.Z
+=> Total size: 167565 bytes
+curl: (6) Couldn't resolve host 'ftp.cwi.nl'
+fetch: Unable to fetch expected file macutil2.0b3.shar.Z
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  163k  100  163k    0     0  36143      0  0:00:04  0:00:04 --:--:-- 38689
+===> Installing dependencies for macutil-2.0b3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for macutil-2.0b3
+===> Extracting for macutil-2.0b3
+===> Building for macutil-2.0b3
+(cd crc; make CF='-Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS')
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c makecrc.c
+cc -O -o makecrc makecrc.o
+./makecrc
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c arc.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c ccitt.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c kermit.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c binhex.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c ccitt32.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c zip.c
+ar r libcrc.a arc.o ccitt.o kermit.o binhex.o ccitt32.o zip.o
+/bin/ar: creating libcrc.a
+if test -f /usr/bin/ranlib ; then  ranlib libcrc.a ; fi
+(cd util; make CF='-Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS')
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c util.c
+gcc -O -Wno-error -specs=/boot/home/pkg/etc/specs -DBSD -DTYPES_H -DDIRENT_H -DTERMIOS_H -DAUFSPLUS  -c transname.c
+transname.c:5:21: fatal error: sys/dir.h: No such file or directory
+ #include <sys/dir.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/archivers/macutil/work/macutil/util
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/macutil/work/macutil
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/macutil
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/macutil
+===> mousetar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tar.c
+=> Total size: 286925 bytes
+curl: (6) Couldn't resolve host 'sparkle.rodents.montreal.qc.ca'
+fetch: Unable to fetch expected file tar.c
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  280k  100  280k    0     0  54789      0  0:00:05  0:00:05 --:--:-- 69022
+=> Fetching tar.man
+=> Total size: 49336 bytes
+curl: (6) Couldn't resolve host 'sparkle.rodents.montreal.qc.ca'
+fetch: Unable to fetch expected file tar.man
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 49336  100 49336    0     0  12313      0  0:00:04  0:00:04 --:--:-- 13145
+===> Installing dependencies for mousetar-20021217nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for mousetar-20021217nb1
+===> Extracting for mousetar-20021217nb1
+for f in tar.c tar.man; do                                       /bin/cp /boot/home/pkgsrc/pkgsrc/distfiles/$f /boot/home/pkgsrc/pkgsrc/archivers/mousetar/work;                        done
+===> Patching for mousetar-20021217nb1
+=> Applying pkgsrc patches for mousetar-20021217nb1
+===> Creating toolchain wrappers for mousetar-20021217nb1
+===> Configuring for mousetar-20021217nb1
+===> Building for mousetar-20021217nb1
+cd /boot/home/pkgsrc/pkgsrc/archivers/mousetar/work; gcc  -DDIRENT_FIXUP   -Wno-error -specs=/boot/home/pkg/etc/specs tar.c -o mousetar
+tar.c:249:22: fatal error: sys/mtio.h: No such file or directory
+ #include <sys/mtio.h>
+                      ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/mousetar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/mousetar
+===> ocaml-bz2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching camlbz2-0.6.0.tar.gz
+=> Total size: 57771 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 57771  100 57771    0     0  36484      0  0:00:01  0:00:01 --:--:-- 50279
+===> Installing dependencies for ocaml-bz2-0.6.0nb1
+===> Extracting for ocaml-4.01.0nb2
+/bin/cp /boot/home/pkgsrc/pkgsrc/lang/ocaml/work/ocaml-4.01.0/asmrun/power-elf.S /boot/home/pkgsrc/pkgsrc/lang/ocaml/work/ocaml-4.01.0/asmrun/power-bsd.S
+/bin/cp /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/lang/ocaml/work/ocaml-4.01.0/config/gnu/
+/bin/cp /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.sub /boot/home/pkgsrc/pkgsrc/lang/ocaml/work/ocaml-4.01.0/config/gnu/
+===> Patching for ocaml-4.01.0nb2
+=> Applying pkgsrc patches for ocaml-4.01.0nb2
+===> Creating toolchain wrappers for ocaml-4.01.0nb2
+===> Configuring for ocaml-4.01.0nb2
+=> Substituting "extra-rt-libs" in bytecomp/bytelink.ml
+INFO: [subst.mk:extra-rt-libs] Nothing changed in ./bytecomp/bytelink.ml.
+Unknown option "PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig".
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ocaml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ocaml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ocaml-bz2
+===> ocaml-zip
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching camlzip-1.05.tar.gz
+=> Total size: 25817 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 25817  100 25817    0     0  18986      0  0:00:01  0:00:01 --:--:-- 27348
+===> Installing dependencies for ocaml-zip-1.05
+=> Full dependency ocaml>=4.01.0: NOT found
+=> Verifying reinstall for ../../lang/ocaml
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for ocaml-4.01.0nb2
+Unknown option "PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig".
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ocaml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ocaml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ocaml-zip
+===> pbzip2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pbzip2-1.1.8.tar.gz
+=> Total size: 54429 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 54429  100 54429    0     0  52106      0  0:00:01  0:00:01 --:--:-- 82219
+===> Installing dependencies for pbzip2-1.1.8
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+===> Overriding tools for pbzip2-1.1.8
+===> Extracting for pbzip2-1.1.8
+===> Patching for pbzip2-1.1.8
+===> Creating toolchain wrappers for pbzip2-1.1.8
+===> Configuring for pbzip2-1.1.8
+===> Building for pbzip2-1.1.8
+cd /boot/home/pkgsrc/pkgsrc/archivers/pbzip2/work/pbzip2-1.1.8 &&  g++  -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -D_POSIX_PTHREAD_SEMANTICS -DUSE_STACKSIZE_CUSTOMIZATION   -I/boot/home/pkg/include -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib  -pthread -L/boot/system/lib -Wl,-R/boot/system/lib -o pbzip2 pbzip2.cpp  BZ2StreamScanner.cpp ErrorContext.cpp -lbz2 
+pbzip2.cpp: In function 'int main(int, char**)':
+pbzip2.cpp:4016:35: error: 'getloadavg' was not declared in this scope
+   ret = getloadavg(loadAvgArray, 3);
+                                   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/pbzip2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/pbzip2
+===> php-bz2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for php54-bz2-5.4.30
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency php>=5.4.2<5.5: NOT found
+=> Verifying reinstall for ../../lang/php54
+checking for xml2-config path... /boot/home/pkg/bin/xml2-config
+checking whether libxml build works... no
+configure: error: build test failed.  Please check the config.log for details.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/php-bz2
+===> php-zip
+checking for xml2-config path... /boot/home/pkg/bin/xml2-config
+checking whether libxml build works... no
+configure: error: build test failed.  Please check the config.log for details.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/php-zip
+===> php-zlib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+configure: error: build test failed.  Please check the config.log for details.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/php-zlib
+===> py-yuicompressor
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching yuicompressor-2.4.8.tar.gz
+=> Total size: 754433 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  736k  100  736k    0     0   926k      0 --:--:-- --:--:-- --:--:-- 1024k
+===> Installing dependencies for py34-yuicompressor-2.4.8
+==========================================================================
+The following variables will affect the build process of this package,
+py34-yuicompressor-2.4.8.  Their current value is shown below:
+
+        * PKG_JVM_DEFAULT (defined)
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * JAVA_BINPREFIX = /boot/home/pkg/bin/kaffe
+        * PKG_JAVA_HOME = /boot/home/pkg/java/kaffe
+        * PKG_JVM = kaffe
+        * PYPACKAGE = python34
+
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: error: Configuration i386-haiku not supported
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/kaffe
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/kaffe
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/py-yuicompressor
+===> rar
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: rar-4.1.1 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/rar
+===> rox-archive
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching archive-2.0.tgz
+=> Total size: 25789 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100 25789  100 25789    0     0  11767      0  0:00:02  0:00:02 --:--:--  213k
+===> Installing dependencies for rox-archive-2.0nb5
+==========================================================================
+The following variables will affect the build process of this package,
+rox-archive-2.0nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python34
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency rox-lib>=2.0.2nb2: NOT found
+=> Verifying reinstall for ../../devel/rox-lib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for rox-lib-2.0.2nb14
+==========================================================================
+The following variables will affect the build process of this package,
+rox-lib-2.0.2nb14.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency rox>=2.2.0: NOT found
+=> Verifying reinstall for ../../sysutils/rox
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for rox-2.10nb25
+==========================================================================
+The following variables will affect the build process of this package,
+rox-2.10nb25.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+/boot/home/pkg/include/signal.h:271:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmin();
+ ^
+/boot/home/pkg/include/signal.h:272:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int  __signal_get_sigrtmax();
+ ^
+gtimer.c: In function 'mktime_utc':
+gtimer.c:330:3: error: implicit declaration of function 'timegm' [-Werror=implicit-function-declaration]
+   retval = timegm (tm);
+   ^
+cc1: some warnings being treated as errors
+make[4]: *** [libglib_2_0_la-gtimer.lo] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2/glib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/glib2/work/glib-2.38.2'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/databases/shared-mime-info
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/rox
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/rox-lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/rox-archive
+===> ruby-archive-tar-minitar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching archive-tar-minitar-0.5.2.gem
+=> Total size: 23040 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0    842      0 --:--:-- --:--:-- --:--:--  2169
+100 23040  100 23040    0     0  53243      0 --:--:-- --:--:-- --:--:-- 53243
+===> Installing dependencies for ruby200-archive-tar-minitar-0.5.2nb2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for ruby200-base-2.0.0p481
+==========================================================================
+The supported build options for ruby200-base are:
+
+        ruby-build-ri-db
+
+The currently selected options are:
+
+        ruby-build-ri-db
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.ruby (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+ruby200-base-2.0.0p481.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Tool dependency bison>=1.0: found bison-3.0.2nb1
+=> Full dependency db4>=4.8.30: found db4-4.8.30
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+=> Full dependency libyaml>=0.1.4: found libyaml-0.1.6
+===> Overriding tools for ruby200-base-2.0.0p481
+===> Extracting for ruby200-base-2.0.0p481
+===> Patching for ruby200-base-2.0.0p481
+=> Applying pkgsrc patches for ruby200-base-2.0.0p481
+===> Creating toolchain wrappers for ruby200-base-2.0.0p481
+===> Configuring for ruby200-base-2.0.0p481
+config.status: creating ruby-2.0.0.pc
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+compiling main.c
+compiling dmydln.c
+compiling dmyencoding.c
+compiling version.c
+compiling dmyversion.c
+compiling miniprelude.c
+copying dummy probes.h
+compiling array.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling complex.c
+compiling dir.c
+compiling dln_find.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling load.c
+compiling proc.c
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling marshal.c
+compiling math.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling process.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling safe.c
+compiling signal.c
+compiling sprintf.c
+In file included from sprintf.c:1147:0:
+vsnprintf.c:207:0: warning: "EOF" redefined [enabled by default]
+ #define EOF (-1)
+ ^
+In file included from ./include/ruby/ruby.h:68:0,
+                 from sprintf.c:14:
+/boot/home/pkg/include/stdio.h:42:0: note: this is the location of the previous definition
+ #define EOF -1
+ ^
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling time.c
+compiling transcode.c
+compiling util.c
+compiling variable.c
+compiling compile.c
+compiling debug.c
+compiling iseq.c
+compiling vm.c
+compiling vm_dump.c
+compiling vm_backtrace.c
+compiling vm_trace.c
+compiling thread.c
+compiling cont.c
+compiling ./enc/ascii.c
+compiling ./enc/us_ascii.c
+compiling ./enc/unicode.c
+compiling ./enc/utf_8.c
+compiling newline.c
+compiling ./missing/setproctitle.c
+compiling dmyext.c
+linking miniruby
+rbconfig.rb updated
+generating enc.mk
+compiling dln.c
+compiling encoding.c
+generating prelude.c
+compiling prelude.c
+linking static-library libruby200-static.a
+verifying static-library libruby200-static.a
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ruby-archive-tar-minitar
+===> ruby-bz2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bz2-0.2.2.tar.gz
+=> Total size: 17129 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file bz2-0.2.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 17129  100 17129    0     0   4804      0  0:00:03  0:00:03 --:--:--  5181
+===> Installing dependencies for ruby200-bz2-0.2.2nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency bzip2>=1.0.3: found bzip2-1.0.6nb1
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ruby-bz2
+===> ruby-libarchive
+===> ruby-libarchive
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libarchive-0.1.1.gem
+=> Total size: 53760 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0    449      0 --:--:-- --:--:-- --:--:--  2231
+100 53760  100 53760    0     0  49906      0  0:00:01  0:00:01 --:--:--  119k
+===> Installing dependencies for ruby200-libarchive-0.1.1nb2
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ruby-libarchive
+===> ruby-xz
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ruby-xz-0.1.1.gem
+=> Total size: 17408 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0    644      0 --:--:-- --:--:-- --:--:--  1878
+100 17408  100 17408    0     0  27564      0 --:--:-- --:--:-- --:--:-- 8515k
+===> Installing dependencies for ruby200-xz-0.1.1nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency xz-[0-9]*: NOT found
+=> Verifying reinstall for ../../archivers/xz
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xz-5.0.5.tar.bz2
+=> Total size: 1060649 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1035k  100 1035k    0     0   194k      0  0:00:05  0:00:05 --:--:--  217k
+===> Installing dependencies for xz-5.0.5
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+===> Overriding tools for xz-5.0.5
+===> Extracting for xz-5.0.5
+===> Patching for xz-5.0.5
+===> Creating toolchain wrappers for xz-5.0.5
+===> Configuring for xz-5.0.5
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Adding run-time search paths to pkg-config files.
+
+XZ Utils 5.0.5
+
+System type:
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+
+xz-args.o: In function `parse_environment':
+args.c:(.text+0xa0d): undefined reference to `optreset'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz/work/xz-5.0.5/src/xz
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz/work/xz-5.0.5/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz/work/xz-5.0.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz/work/xz-5.0.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xz
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ruby-xz
+===> ruby-zip
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching rubyzip-1.1.4.gem
+=> Total size: 34816 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   154  100   154    0     0    649      0 --:--:-- --:--:-- --:--:--  2298
+100 34816  100 34816    0     0  68512      0 --:--:-- --:--:-- --:--:-- 4725k
+===> Installing dependencies for ruby200-zip-1.1.4
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/ruby-zip
+===> sarab
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching sarab-0.2.4.tar.gz
+=> Total size: 23625 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 23625  100 23625    0     0  23663      0 --:--:-- --:--:-- --:--:-- 23663
+===> Installing dependencies for sarab-0.2.4
+=> Full dependency dar-[0-9]*: NOT found
+=> Verifying reinstall for ../../archivers/dar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for dar-2.4.13
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13'
+Making all in man
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/man'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/man'
+Making all in src
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src'
+Making all in libdar
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src/libdar'
+/bin/sh ../../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I../..  -DLIBDAR_MODE=64 -DDAR_LOCALEDIR=\"/boot/home/pkg/share/locale\"  -I/boot/home/pkg/include  -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include -MT filesystem.lo -MD -MP -MF .deps/filesystem.Tpo -c -o filesystem.lo filesystem.cpp
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I../.. -DLIBDAR_MODE=64 -DDAR_LOCALEDIR=\"/boot/home/pkg/share/locale\" -I/boot/home/pkgsrc/pkgsrc/archivers/dar/work/.buildlink/include -specs=/boot/home/pkg/etc/specs -MT filesystem.lo -MD -MP -MF .deps/filesystem.Tpo -c filesystem.cpp  -DPIC -o .libs/filesystem.o
+filesystem.cpp: In member function 'libdar::nomme* libdar::filesystem_hard_link_read::make_read_entree(libdar::path&, const string&, bool, const libdar::mask&)':
+filesystem.cpp:211:24: error: 'major' was not declared in this scope
+       major(buf.st_rdev),
+                        ^
+filesystem.cpp:212:24: error: 'minor' was not declared in this scope
+       minor(buf.st_rdev), // makedev(major, minor)
+                        ^
+filesystem.cpp:220:25: error: 'major' was not declared in this scope
+        major(buf.st_rdev),
+                         ^
+filesystem.cpp:221:25: error: 'minor' was not declared in this scope
+        minor(buf.st_rdev), // makedev(major, minor)
+                         ^
+filesystem.cpp: In member function 'void libdar::filesystem_hard_link_write::make_file(const libdar::nomme*, const libdar::path&, bool, libdar::inode::comparison_fields)':
+filesystem.cpp:1121:91: error: 'makedev' was not declared in this scope
+       ret = mknod(name, S_IFBLK | 0700, makedev(ref_blo->get_major(), ref_blo->get_minor()));
+                                                                                           ^
+filesystem.cpp:1123:91: error: 'makedev' was not declared in this scope
+       ret = mknod(name, S_IFCHR | 0700, makedev(ref_cha->get_major(), ref_cha->get_minor()));
+                                                                                           ^
+make[3]: *** [filesystem.lo] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src/libdar'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/archivers/dar/work/dar-2.4.13'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/dar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/dar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/sarab
+===> star
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching star-1.4.3.tar.gz
+=> Total size: 520388 bytes
+curl: (6) Couldn't resolve host 'ftp.berlios.de'
+fetch: Unable to fetch expected file star-1.4.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  508k  100  508k    0     0  89594      0  0:00:05  0:00:05 --:--:--  103k
+===> Installing dependencies for star-1.4.3nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for star-1.4.3nb4
+===> Extracting for star-1.4.3nb4
+/bin/tar: star-1.4.3/COMPILE: Cannot hard link to `star-1.4.3/README.compile': Operation not supported
+/bin/tar: star-1.4.3/BUILD: Cannot hard link to `star-1.4.3/README.compile': Operation not supported
+/bin/tar: star-1.4.3/INSTALL: Cannot hard link to `star-1.4.3/README.compile': Operation not supported
+/bin/tar: Exiting with failure status due to previous errors
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/star
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/star
+===> unace-bin
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: unace-bin-2.50 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/unace-bin
+===> xar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xar-1.5.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  134k  100  134k    0     0   415k      0 --:--:-- --:--:-- --:--:--  549k
+===> Installing dependencies for xar-1.5.2nb1
+100  134k  100  134k    0     0   415k      0 --:--:-- --:--:-- --:--:--  549k
+===> Installing dependencies for xar-1.5.2nb1
+===> Overriding tools for xar-1.5.2nb1
+===> Extracting for xar-1.5.2nb1
+===> Patching for xar-1.5.2nb1
+===> Creating toolchain wrappers for xar-1.5.2nb1
+===> Configuring for xar-1.5.2nb1
+===> Building for xar-1.5.2nb1
+bmake: cannot open Makefile.
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xar/work/xar-1.5.2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xar
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xar
+===> xbin
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xbin.man
+=> Total size: 3277 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file xbin.man
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3277  100  3277    0     0   1029      0  0:00:03  0:00:03 --:--:--  1118
+=> Fetching xbinunix.c
+=> Total size: 18563 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file xbinunix.c
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 18563  100 18563    0     0   5039      0  0:00:03  0:00:03 --:--:--  5701
+===> Installing dependencies for xbin-2.3nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for xbin-2.3nb1
+===> Extracting for xbin-2.3nb1
+/bin/cp /boot/home/pkgsrc/pkgsrc/distfiles/xbinunix.c /boot/home/pkgsrc/pkgsrc/archivers/xbin/work
+/bin/cp /boot/home/pkgsrc/pkgsrc/distfiles/xbin.man /boot/home/pkgsrc/pkgsrc/archivers/xbin/work
+===> Patching for xbin-2.3nb1
+=> Applying pkgsrc patches for xbin-2.3nb1
+===> Creating toolchain wrappers for xbin-2.3nb1
+===> Configuring for xbin-2.3nb1
+===> Building for xbin-2.3nb1
+cd /boot/home/pkgsrc/pkgsrc/archivers/xbin/work &&  gcc -Wno-error -specs=/boot/home/pkg/etc/specs -o xbin xbinunix.c  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib 
+xbinunix.c:3:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif lint
+        ^
+xbinunix.c: In function 'forge_info':
+xbinunix.c:304:18: error: storage size of 'tzone' isn't known
+  struct timezone tzone;
+                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xbin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/archivers/xbin
+~/pkgsrc/pkgsrc/archivers> do

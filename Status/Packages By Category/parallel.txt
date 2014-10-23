@@ -1,0 +1,4 @@
+PKGPATH=parallel/dsh
+PKGPATH=parallel/openpa
+PKGPATH=parallel/parallel
+PKGPATH=parallel/py-billiard

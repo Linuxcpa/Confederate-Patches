@@ -1,0 +1,6 @@
+PKGPATH=news/cg
+PKGPATH=news/cleanscore
+PKGPATH=news/nntpcache
+PKGPATH=news/slrn
+PKGPATH=news/suck
+PKGPATH=news/tin

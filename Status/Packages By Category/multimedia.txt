@@ -1,0 +1,15 @@
+PKGPATH=multimedia/ccxstream
+PKGPATH=multimedia/cfourcc
+PKGPATH=multimedia/libmatroska
+PKGPATH=multimedia/libmpeg2
+PKGPATH=multimedia/libnms
+PKGPATH=multimedia/libogg
+PKGPATH=multimedia/libtheora
+PKGPATH=multimedia/libvpx
+PKGPATH=multimedia/ming
+PKGPATH=multimedia/mp4v2
+PKGPATH=multimedia/mpeg-lib
+PKGPATH=multimedia/mplayer-share
+PKGPATH=multimedia/realplayer-codecs
+PKGPATH=multimedia/replex
+PKGPATH=multimedia/win32-codecs

@@ -1,0 +1,763 @@
+~/pkgsrc/pkgsrc/pkgtools> do
+===> distbb
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching distbb-0.46.0.tar.gz
+=> Total size: 51819 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 51819  100 51819    0     0  40472      0  0:00:01  0:00:01 --:--:-- 59221
+===> Installing dependencies for distbb-0.46.0nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency mk-configure>=0.21: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mk-configure-0.26.0.tar.gz
+=> Total size: 274771 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  268k  100  268k    0     0  92386      0  0:00:02  0:00:02 --:--:-- 93906
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bmkdep-20131215.tar.gz
+=> Total size: 7570 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7570  100  7570    0     0  21705      0 --:--:-- --:--:-- --:--:-- 28566
+===> Installing dependencies for bmkdep-20131215
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for bmkdep-20131215
+===> Extracting for bmkdep-20131215
+===> Patching for bmkdep-20131215
+=> Applying pkgsrc patches for bmkdep-20131215
+===> Creating toolchain wrappers for bmkdep-20131215
+===> Configuring for bmkdep-20131215
+===> Building for bmkdep-20131215
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error -Wno-error  -Werror   -c mkdep.c
+gcc -Wno-error -Wno-error  -Werror   -c findcc.c
+gcc -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/distbb
+===> genrpm
+===> Installing dependencies for genrpm-1.2
+=> Full dependency pkg_tarup-[0-9]*: found pkg_tarup-1.9.1
+=> Full dependency rpm-[0-9]*: NOT found
+=> Verifying reinstall for ../../misc/rpm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching rpm-4.11.1.tar.bz2
+=> Total size: 3778922 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 3690k  100 3690k    0     0  1122k      0  0:00:03  0:00:03 --:--:-- 1224k
+===> Installing dependencies for rpm-4.11.1nb1
+==========================================================================
+The following variables will affect the build process of this package,
+rpm-4.11.1nb1.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency gmake>=3.82nb1: found gmake-4.0
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency nss>=3.14.0: NOT found
+=> Verifying reinstall for ../../devel/nss
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching nss-3.16.1.tar.gz
+=> Total size: 6409506 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 6259k  100 6259k    0     0  2399k      0  0:00:02  0:00:02 --:--:-- 2661k
+===> Installing dependencies for nss-3.16.1nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency sqlite3>=3.8.4.3nb1: found sqlite3-3.8.5
+=> Full dependency nspr>=4.9.3.2: NOT found
+=> Verifying reinstall for ../../devel/nspr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching nspr-4.10.6.tar.gz
+=> Total size: 1131328 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1104k  100 1104k    0     0  1444k      0 --:--:-- --:--:-- --:--:-- 2245k
+===> Installing dependencies for nspr-4.10.6
+=> Tool dependency autoconf>=2.50: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+===> Overriding tools for nspr-4.10.6
+===> Extracting for nspr-4.10.6
+===> Patching for nspr-4.10.6
+=> Applying pkgsrc patches for nspr-4.10.6
+===> Creating toolchain wrappers for nspr-4.10.6
+===> Configuring for nspr-4.10.6
+=> Fixing nspr-config run path
+cd /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr && autoconf
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Replacing Perl interpreter in nspr/pr/src/misc/compile-et.pl.
+../../../config/./nsinstall -R -m 444 ./ ../../../dist/include/nspr
+../../../config/./nsinstall: cannot make symbolic link /boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/dist/include/nspr/.: File or Directory already exists
+make[3]: *** [export] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include/md'
+make[2]: *** [export] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr/include'
+make[1]: *** [export] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/nspr/work/nspr-4.10.6/nspr/pr'
+make: *** [export] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nspr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/nss
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/misc/rpm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/genrpm
+===> gensolpkg
+ERROR: This package is only available for these platforms: SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: gensolpkg-1.10nb2 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/gensolpkg
+===> gnome-packagekit
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnome-packagekit-0.4.0.tar.gz
+=> Total size: 2732798 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file gnome-packagekit-0.4.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2668k  100 2668k    0     0   210k      0  0:00:12  0:00:12 --:--:--  316k
+===> Installing dependencies for gnome-packagekit-0.4.0nb35
+==========================================================================
+The following variables will affect the build process of this package,
+gnome-packagekit-0.4.0nb35.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency gnome-doc-utils>=0.8.0: NOT found
+=> Verifying reinstall for ../../textproc/gnome-doc-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnome-doc-utils-0.20.10.tar.xz
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils/work/gnome-doc-utils-0.20.10/doc'
+make: *** [all-recursive] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/gnome-doc-utils
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/gnome-packagekit
+===> libkver
+ERROR: This package is only available for these platforms: NetBSD-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libkver-0.7.2 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/libkver
+===> mtree
+gcc -DHAVE_CONFIG_H -DHAVE_NBCOMPAT_H=1 -I/boot/home/pkgsrc/pkgsrc/pkgtools/mtree/work/libnbcompat -I. -I. -Wno-error -c pack_dev.c
+gcc -L/boot/home/pkgsrc/pkgsrc/pkgtools/mtree/work/libnbcompat -Wl,-R/boot/home/pkg/lib -o mtree compare.o crc.o create.o excludes.o misc.o mtree.o spec.o verify.o  getid.o stat_flags.o pack_dev.o -lnbcompat
+pack_dev.o: In function `pack_native':
+pack_dev.c:(.text+0x32): undefined reference to `makedev'
+pack_dev.c:(.text+0x43): undefined reference to `major'
+pack_dev.c:(.text+0x69): undefined reference to `minor'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/mtree/work/mtree-20130908
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/mtree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/mtree
+===> nih
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pkgnih-0.12.0.tar.gz
+=> Total size: 49597 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 49597  100 49597    0     0  44692      0  0:00:01  0:00:01 --:--:-- 56168
+===> Installing dependencies for nih-0.12.0
+=> Build dependency mk-configure>=0.21.0: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for bmkdep-20131215
+gcc -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/nih
+===> packagekit
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching PackageKit-0.4.0.tar.gz
+=> Total size: 2801146 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file PackageKit-0.4.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2735k  100 2735k    0     0   211k      0  0:00:12  0:00:12 --:--:--  306k
+make[3]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/policykit/work/PolicyKit-0.9/doc/man'
+/boot/home/pkg/bin/xsltproc -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl polkit-auth.xml
+runtime_loader: /boot/home/pkg/lib/libz.so.1.2.8: No version information available (required by /boot/home/pkg/lib/libxml2.so.2.9.1)
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Could not resolve symbol 'gzdirect'
+resolve symbol "gzdirect" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libxml2.so.2.9.1: Troubles relocating: Symbol not found
+make[3]: *** [polkit-auth.1] Error 4
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/policykit/work/PolicyKit-0.9/doc/man'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/policykit/work/PolicyKit-0.9/doc'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/policykit/work/PolicyKit-0.9'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/policykit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/policykit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/packagekit
+===> pkg_comp
+ERROR: This package is only available for these platforms: NetBSD-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: pkg_comp-1.37 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_comp
+===> pkg_filecheck
+cd /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work  && gcc    -I/boot/home/pkg/include/db4 -Wno-error -I/boot/home/pkg/include/db4   -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib -ldb4  -o pkg_filecheck pkg_filecheck.c 
+In file included from pkg_filecheck.c:35:0:
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:83:1: error: unknown type name 'u_int32_t'
+ typedef u_int32_t pgno_t;
+ ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:85:1: error: unknown type name 'u_int16_t'
+ typedef u_int16_t indx_t;
+ ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:87:1: error: unknown type name 'u_int32_t'
+ typedef u_int32_t recno_t;
+ ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:129:2: error: unknown type name 'u_int32_t'
+  u_int32_t flags;
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:130:2: error: unknown type name 'u_int32_t'
+  u_int32_t cachesize; /* bytes to cache */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:131:2: error: unknown type name 'u_int32_t'
+  u_int32_t maxkeypage; /* maximum keys per page */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:132:2: error: unknown type name 'u_int32_t'
+  u_int32_t minkeypage; /* minimum keys per page */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:133:2: error: unknown type name 'u_int32_t'
+  u_int32_t psize; /* page size */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:146:2: error: unknown type name 'u_int32_t'
+  u_int32_t bsize; /* bucket size */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:147:2: error: unknown type name 'u_int32_t'
+  u_int32_t ffactor; /* fill factor */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:148:2: error: unknown type name 'u_int32_t'
+  u_int32_t nelem; /* number of elements */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:149:2: error: unknown type name 'u_int32_t'
+  u_int32_t cachesize; /* bytes to cache */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:150:2: error: expected specifier-qualifier-list before 'u_int32_t'
+  u_int32_t  /* hash function */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:160:2: error: unknown type name 'u_int32_t'
+  u_int32_t flags;
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:161:2: error: unknown type name 'u_int32_t'
+  u_int32_t cachesize; /* bytes to cache */
+  ^
+/boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck/work/.buildlink/include/db4/db_185.h:162:2: error: unknown type name 'u_int32_t'
+  u_int32_t psize; /* page size */
+  ^
+pkg_filecheck.c: In function 'check':
+pkg_filecheck.c:113:5: warning: passing argument 3 of 'fts_open' from incompatible pointer type [enabled by default]
+     if ((fts=fts_open(dir, FTS_PHYSICAL, fts_sort)) == NULL) {
+     ^
+In file included from pkg_filecheck.c:38:0:
+/boot/system/develop/headers/posix/fts.h:131:6: note: expected 'int (*)(const struct FTSENT * const*, const struct FTSENT * const*)' but argument is of type 'int (*)(const struct FTSENT **, const struct FTSENT **)'
+ FTS *fts_open(char * const *, int,
+      ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_filecheck
+===> pkg_online-client
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pkg_online-0.13.1.tar.gz
+=> Total size: 12211 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12211  100 12211    0     0  18920      0 --:--:-- --:--:-- --:--:-- 22081
+===> Installing dependencies for pkg_online-client-0.13.1nb1
+=> Build dependency mk-configure>=0.20.0: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for bmkdep-20131215
+gcc -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_online-client
+===> pkg_online-server
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for pkg_online-server-0.13.1
+=> Build dependency mk-configure>=0.20.0: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for bmkdep-20131215
+gcc -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_online-server
+===> pkg_select
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pkg_select-20090308.tar.gz
+=> Total size: 54637 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 54637  100 54637    0     0    98k      0 --:--:-- --:--:-- --:--:--  114k
+===> Installing dependencies for pkg_select-20090308nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency ncurses>=5.4nb1: found ncurses-5.9nb3
+===> Overriding tools for pkg_select-20090308nb3
+===> Extracting for pkg_select-20090308nb3
+===> Patching for pkg_select-20090308nb3
+=> Applying pkgsrc patches for pkg_select-20090308nb3
+===> Creating toolchain wrappers for pkg_select-20090308nb3
+===> Configuring for pkg_select-20090308nb3
+=> Adjusting path.
+===> Building for pkg_select-20090308nb3
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error -DPKGTOOLS_PATH=\"/boot/home/pkg/sbin\" -I/boot/home/pkg/include/ncurses -Wno-error -g -I. -DPKGSRCBASE=\"/boot/home/pkgsrc/pkgsrc\" -DPKGDB=\"/boot/home/pkg/var/db/pkg\" -DMAKE=\"/boot/home/pkg/bin/bmake\" -DCONFPATH=\"/boot/home/pkg/etc/pkg_select.conf\" -DMIRRORS=\"/boot/home/pkg/share/pkg_select\" -DBGCOLOR=COLOR_BLUE -DFGCOLOR=COLOR_WHITE  -Wall -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wno-uninitialized -Wreturn-type -Wcast-qual -Wpointer-arith -Wwrite-strings -Wswitch -Wshadow -Werror  -I/boot/home/pkg/include/ncurses -c main.c
+main.c:40:9: error: expected declaration specifiers or '...' before string constant
+ __RCSID("$Id: main.c,v 1.52 2009/03/07 18:42:23 imil Exp $");
+         ^
+In file included from pkg_select.h:42:0,
+                 from main.c:47:
+tools.h:42:23: fatal error: sys/queue.h: No such file or directory
+ #include <sys/queue.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_select/work/pkg_select-20090308
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_select
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_select
+===> pkg_summary-utils
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pkg_summary-utils-0.63.0.tar.gz
+=> Total size: 116473 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  113k  100  113k    0     0   198k      0 --:--:-- --:--:-- --:--:--  216k
+===> Installing dependencies for pkg_summary-utils-0.63.0
+=> Build dependency mk-configure>=0.24.0: NOT found
+=> Verifying reinstall for ../../devel/mk-configure
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for mk-configure-0.26.0
+=> Full dependency bmake-[0-9]*: found bmake-20140314
+=> Full dependency bmkdep-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/bmkdep
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for bmkdep-20131215
+gcc -Wl,-R/boot/home/pkg/lib    -o bmkdep mkdep.o findcc.o  
+mkdep.o: In function `run_cc':
+mkdep.c:(.text+0xd9): undefined reference to `err'
+mkdep.c:(.text+0x10b): undefined reference to `err'
+mkdep.c:(.text+0x1db): undefined reference to `err'
+mkdep.c:(.text+0x29e): undefined reference to `err'
+mkdep.c:(.text+0x2f9): undefined reference to `errx'
+mkdep.o: In function `read_fname':
+mkdep.c:(.text+0x3ab): undefined reference to `err'
+mkdep.o: In function `addsuff':
+mkdep.c:(.text+0x434): undefined reference to `err'
+mkdep.c:(.text+0x46a): undefined reference to `err'
+mkdep.o: In function `.L127':
+mkdep.c:(.text+0x7fe): undefined reference to `warn'
+mkdep.c:(.text+0x89e): undefined reference to `err'
+mkdep.c:(.text+0xa48): undefined reference to `errx'
+mkdep.c:(.text+0xd30): undefined reference to `err'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep/work/bmkdep-20131215
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/bmkdep
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/mk-configure
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkg_summary-utils
+===> pkgfind
+===> Installing dependencies for pkgfind-20111022
+===> Overriding tools for pkgfind-20111022
+===> Extracting for pkgfind-20111022
+/bin/cp -R /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind/files /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind/work/pkgfind-20111022
+===> Patching for pkgfind-20111022
+=> Adjusting pkgsrc directory.
+===> Creating toolchain wrappers for pkgfind-20111022
+===> Configuring for pkgfind-20111022
+===> Building for pkgfind-20111022
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error      -Wl,-R/boot/home/pkg/lib -o /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind/work/pkgfind-20111022/pkgfind      /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind/work/pkgfind-20111022/pkgfind.c 
+/tmp//ccsyHqr2.o: In function `main':
+pkgfind.c:(.text+0x32): undefined reference to `setprogname'
+/tmp//ccsyHqr2.o: In function `pkgfind':
+pkgfind.c:(.text+0x205): undefined reference to `err'
+pkgfind.c:(.text+0x25c): undefined reference to `warnx'
+pkgfind.c:(.text+0x2d8): undefined reference to `warn'
+pkgfind.c:(.text+0x345): undefined reference to `warnx'
+/tmp//ccsyHqr2.o: In function `showpkg':
+pkgfind.c:(.text+0x656): undefined reference to `err'
+pkgfind.c:(.text+0x6c6): undefined reference to `err'
+pkgfind.c:(.text+0x781): undefined reference to `err'
+/tmp//ccsyHqr2.o: In function `print_file':
+pkgfind.c:(.text+0x814): undefined reference to `warnx'
+pkgfind.c:(.text+0x88d): undefined reference to `warnx'
+/tmp//ccsyHqr2.o: In function `find_plist_entry':
+pkgfind.c:(.text+0x965): undefined reference to `warnx'
+/tmp//ccsyHqr2.o: In function `usage':
+pkgfind.c:(.text+0xc49): undefined reference to `getprogname'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkgfind
+===> pkgin
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching 3859170568fbe4fe21b5660dbaeca8d65ac10f1b.tar.gz
+=> Total size: 187873 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   156    0   156    0     0    257      0 --:--:-- --:--:-- --:--:--   381
+  0     0    0  183k    0     0   113k      0 --:--:--  0:00:01 --:--:--  444k
+===> Installing dependencies for pkgin-0.6.4nb7
+==========================================================================
+The following variables will affect the build process of this package,
+pkgin-0.6.4nb7.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libfetch>=2.36nb1: found libfetch-2.36nb1
+=> Full dependency pkg_install>=20130901: found pkg_install-20130902nb1
+=> Full dependency libarchive>=2.8.4nb1: found libarchive-2.8.4nb4
+=> Full dependency sqlite3>=3.8.4.3nb1: found sqlite3-3.8.5
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+===> Overriding tools for pkgin-0.6.4nb7
+===> Extracting for pkgin-0.6.4nb7
+checking for library containing fetchGetURL... no
+configure: error: libfetch not found.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkgin
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/pkgin
+===> prereq-readme
+===> Installing dependencies for prereq-readme-20050521
+===> Overriding tools for prereq-readme-20050521
+===> Extracting for prereq-readme-20050521
+===> Patching for prereq-readme-20050521
+===> Creating toolchain wrappers for prereq-readme-20050521
+===> Installing for prereq-readme-20050521
+=> Automatic manual page handling
+=> Creating binary package /boot/home/packages/prereq-readme-20050521.tgz
+===> Install binary package of prereq-readme-20050521
+===> rc.subr
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-[0-4].*-* Interix-*-* Linux-*-* SunOS-*-* QNX-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: rc.subr-20140604 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/x11-links
+===> xpkgwedge
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: xpkgwedge is not needed when X11BASE is LOCALBASE
+ERROR: Do not include x11.buildlink3.mk for X11_TYPE != "native".
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/pkgtools/xpkgwedge

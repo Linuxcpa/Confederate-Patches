@@ -1,0 +1,13 @@
+PKGPATH=lang/elk
+PKGPATH=lang/gawk
+PKGPATH=lang/jikes
+PKGPATH=lang/lua52
+PKGPATH=lang/mawk
+PKGPATH=lang/perl5
+PKGPATH=lang/py-six
+PKGPATH=lang/python27
+PKGPATH=lang/python34
+PKGPATH=lang/tcl
+
+Duplicate package tcl
+

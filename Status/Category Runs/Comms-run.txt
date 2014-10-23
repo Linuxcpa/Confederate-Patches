@@ -1,0 +1,3870 @@
+
+Welcome to the Haiku shell.
+
+~> go
+~/pkgsrc/pkgsrc> cd comms/
+~/pkgsrc/pkgsrc/comms> do
+===> asterisk
+/bin/grep: /usr/include/sys/socket.h: No such file or directory
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for asterisk-11.7.0nb4
+==========================================================================
+The supported build options for asterisk are:
+
+        ilbc jabber ldap spandsp speex unixodbc webvmail
+        x11 zaptel
+
+The currently selected options are:
+
+        jabber ldap speex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.asterisk (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+asterisk-11.7.0nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+        * VARBASE = /boot/home/pkg/var
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency iksemel>=1.4: NOT found
+=> Verifying reinstall for ../../textproc/iksemel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for iksemel-1.4nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency pkg_install-info-[0-9]*: found pkg_install-info-4.5nb3
+=> Full dependency gnutls>=3.0.17: NOT found
+=> Verifying reinstall for ../../security/gnutls
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gnutls-3.2.15
+/bin/make  all-recursive
+  CCLD     libgnutls.la
+libtool: link: cannot find the library `/boot/system/develop/lib/libintl.la' or unhandled argument `/boot/system/develop/lib/libintl.la'
+make[4]: *** [libgnutls.la] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/iksemel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/asterisk
+===> asterisk-sounds-native
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Extracting for asterisk-sounds-native-20060209
+/bin/tar: sounds/vm-from.ulaw: Cannot open: Operation not allowed
+/bin/tar: sounds/vm-tooshort.ulaw: Cannot open: Operation not allowed
+/bin/tar: Exiting with failure status due to previous errors
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/asterisk-sounds-native
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/asterisk-sounds-native
+===> asterisk10
+/bin/grep: /usr/include/sys/socket.h: No such file or directory
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for asterisk-10.12.4nb4
+==========================================================================
+The supported build options for asterisk are:
+
+        ilbc jabber ldap spandsp speex unixodbc webvmail
+        x11 zaptel
+
+The currently selected options are:
+
+        jabber ldap speex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.asterisk (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+asterisk-10.12.4nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+        * VARBASE = /boot/home/pkg/var
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency iksemel>=1.4: NOT found
+=> Verifying reinstall for ../../textproc/iksemel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for iksemel-1.4nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency pkg_install-info-[0-9]*: found pkg_install-info-4.5nb3
+=> Full dependency gnutls>=3.0.17: NOT found
+=> Verifying reinstall for ../../security/gnutls
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gnutls-3.2.15
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+Making all in gl
+  CCLD     libgnutls.la
+libtool: link: cannot find the library `/boot/system/develop/lib/libintl.la' or unhandled argument `/boot/system/develop/lib/libintl.la'
+make[4]: *** [libgnutls.la] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/iksemel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/asterisk10
+===> asterisk18
+/bin/grep: /usr/include/sys/socket.h: No such file or directory
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for asterisk-1.8.25.0nb4
+==========================================================================
+The supported build options for asterisk are:
+
+        ilbc jabber ldap spandsp speex unixodbc webvmail
+        x11 zaptel
+
+The currently selected options are:
+
+        jabber ldap speex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.asterisk (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+asterisk-1.8.25.0nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+        * VARBASE = /boot/home/pkg/var
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency iksemel>=1.4: NOT found
+=> Verifying reinstall for ../../textproc/iksemel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for iksemel-1.4nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency pkg_install-info-[0-9]*: found pkg_install-info-4.5nb3
+=> Full dependency gnutls>=3.0.17: NOT found
+=> Verifying reinstall for ../../security/gnutls
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gnutls-3.2.15
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+Making all in gl
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/gl'
+/bin/make  all-recursive
+  CCLD     libgnutls.la
+libtool: link: cannot find the library `/boot/system/develop/lib/libintl.la' or unhandled argument `/boot/system/develop/lib/libintl.la'
+make[4]: *** [libgnutls.la] Error 1
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[2]: *** [all] Error 2
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15/lib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/security/gnutls/work/gnutls-3.2.15'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/security/gnutls
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/iksemel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/asterisk18
+===> binkd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for binkd-0.9.8nb2
+Linking binkd...
+client.o: In function `call0':
+client.c:(.text+0x1d4): undefined reference to `socket'
+client.c:(.text+0x223): undefined reference to `inet_ntoa'
+client.c:(.text+0x267): undefined reference to `connect'
+client.c:(.text+0x2a6): undefined reference to `inet_addr'
+client.c:(.text+0x2c5): undefined reference to `bind'
+client.c:(.text+0x32c): undefined reference to `inet_ntoa'
+server.o: In function `servmgr':
+server.c:(.text+0x229): undefined reference to `socket'
+server.c:(.text+0x253): undefined reference to `setsockopt'
+server.c:(.text+0x291): undefined reference to `inet_addr'
+server.c:(.text+0x2c9): undefined reference to `bind'
+server.c:(.text+0x2e0): undefined reference to `listen'
+server.c:(.text+0x3cc): undefined reference to `accept'
+server.c:(.text+0x40f): undefined reference to `inet_ntoa'
+protocol.o: In function `send_block':
+protocol.c:(.text+0xcf1): undefined reference to `send'
+protocol.o: In function `ADR':
+protocol.c:(.text+0x3f5c): undefined reference to `getpeername'
+protocol.c:(.text+0x3fed): undefined reference to `inet_addr'
+protocol.c:(.text+0x41ba): undefined reference to `gethostbyname'
+protocol.o: In function `protocol':
+protocol.c:(.text+0x4a9b): undefined reference to `getpeername'
+protocol.c:(.text+0x4aee): undefined reference to `inet_ntoa'
+protocol.c:(.text+0x4b18): undefined reference to `getsockname'
+protocol.c:(.text+0x55cb): undefined reference to `recv'
+protocol.c:(.text+0x5961): undefined reference to `recv'
+ftnnode.o: In function `get_node_info':
+ftnnode.c:(.text+0x856): undefined reference to `gethostbyname'
+srif.o: In function `.L32':
+srif.c:(.text+0x4cb): undefined reference to `getpeername'
+iptools.o: In function `get_hostname':
+iptools.c:(.text+0x39): undefined reference to `gethostbyaddr'
+iptools.c:(.text+0x6b): undefined reference to `inet_ntoa'
+iptools.o: In function `find_port':
+iptools.c:(.text+0x16b): undefined reference to `getservbyname'
+iptools.o: In function `find_host':
+iptools.c:(.text+0x20a): undefined reference to `inet_addr'
+iptools.c:(.text+0x284): undefined reference to `gethostbyname'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/binkd/work/binkd-0.9.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/binkd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/binkd
+===> birda
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for birda-1.3nb1
+all ===> birda/lib
+bmake: "/boot/home/pkg/share/mk/bsd.obj.mk" line 86: warning: duplicate script for target "obj" ignored
+bmake: "/boot/home/pkg/share/mk/bsd.obj.mk" line 86: warning: using previous script for "obj" defined here
+bmake: "/boot/home/pkg/share/mk/bsd.obj.mk" line 91: warning: duplicate script for target "print-objdir" ignored
+bmake: "/boot/home/pkg/share/mk/bsd.obj.mk" line 91: warning: using previous script for "print-objdir" defined here
+gcc -Wno-error -Wno-error -I/boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib/../src  -Werror   -c /boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib/../src/sendobex.c
+/boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib/../src/sendobex.c: In function 'createOBEXSender':
+/boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib/../src/sendobex.c:333:53: error: 'O_ASYNC' undeclared (first use in this function)
+     error = fcntl(sc->socket, F_SETFL, O_NONBLOCK | O_ASYNC);
+                                                     ^
+/boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib/../src/sendobex.c:333:53: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/birda/work/birda-1.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/birda
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/birda
+===> bthfp
+ERROR: This package is only available for these platforms: NetBSD-[4-9].*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: bthfp-0.1nb1 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/bthfp
+===> conserver
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for conserver-7.2.7nb3
+for n in conserver console conserver.cf; do  ( cd $n && /boot/home/pkg/bin/bmake all  ) || exit 1;  done
+gcc -Wno-error -I/boot/home/pkg/include -I.. -I.. -I. -DHAVE_CONFIG_H -DSYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c -o fallback.o fallback.c
+fallback.c:24:23: fatal error: sys/errno.h: No such file or directory
+ #include <sys/errno.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver/work/conserver-7.2.7/conserver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver/work/conserver-7.2.7
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver
+===> conserver8
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for conserver8-8.1.18nb2
+for n in conserver console conserver.cf; do  ( cd $n && /boot/home/pkg/bin/bmake all  ) || exit 1;  done
+gcc -Wno-error -I/boot/home/pkg/include -I.. -I.. -I. -DHAVE_CONFIG_H -DSYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -I/boot/home/pkg/include  -I/boot/home/pkg/include -c -o cutil.o cutil.c
+cutil.c: In function 'ProbeInterfaces':
+cutil.c:2280:36: warning: dereferencing 'void *' pointer [enabled by default]
+  ifr = (struct ifreq *)&ifc.ifc_buf[r];
+                                    ^
+cutil.c:2280:24: warning: taking address of expression of type 'void' [enabled by default]
+  ifr = (struct ifreq *)&ifc.ifc_buf[r];
+                        ^
+cutil.c:2286:29: error: 'struct ifreq' has no member named 'ifr_ifru'
+  if (sa->sa_len > sizeof(ifr->ifr_ifru))
+                             ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver8/work/conserver-8.1.18/conserver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver8/work/conserver-8.1.18
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/conserver8
+===> deforaos-phone
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for deforaos-phone-0.3.12nb9
+==========================================================================
+The supported build options for deforaos-phone are:
+
+        embedded
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.deforaos-phone (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+deforaos-phone-0.3.12nb9.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency libxslt-[0-9]*: found libxslt-1.1.28nb3
+=> Build dependency docbook-xsl-[0-9]*: found docbook-xsl-1.77.1nb2
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Build dependency recordproto>=1.13.1: found recordproto-1.14.2
+=> Build dependency dbus-python-common>=1.1.1: found dbus-python-common-1.2.0
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking whether to build static libraries... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/deforaos-phone
+===> dl-ezkit
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for dl-ezkit-0.8.1
+gcc -Wno-error -Wno-error -g -Wall -O2 -D__NetBSD__  -c dl.c
+In file included from /boot/system/develop/headers/posix/size_t.h:9:0,
+                 from /boot/system/develop/headers/posix/sys/types.h:120,
+                 from /boot/system/develop/headers/posix/stdio.h:9,
+                 from /boot/system/develop/headers/bsd/stdio.h:9,
+                 from dl.c:19:
+/boot/system/develop/tools/lib/gcc/i586-pc-haiku/4.8.3/include/stddef.h:52:26: fatal error: machine/ansi.h: No such file or directory
+ #include <machine/ansi.h>
+                          ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/dl-ezkit/work/dl-ezkit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/dl-ezkit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/dl-ezkit
+===> efax
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for efax-0.9nb2
+gcc -Wno-error -Wno-error  -c efaxio.c
+In file included from efaxio.h:4:0,
+                 from efaxio.c:6:
+efaxos.h:11:36: error: 'SIGIOT' undeclared here (not in a function)
+ #define UNIXSIGS  SIGHUP, SIGQUIT, SIGIOT, SIGALRM
+                                    ^
+efaxos.h:12:29: note: in expansion of macro 'UNIXSIGS'
+ #define CATCHSIGS ANSISIGS, UNIXSIGS
+                             ^
+efaxio.c:20:18: note: in expansion of macro 'CATCHSIGS'
+ int catch [] = { CATCHSIGS, 0 } ;
+                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/efax/work/efax-0.9
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/efax
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/efax
+===> efax-gtk
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for efax-gtk-3.2.3nb20
+==========================================================================
+The following variables will affect the build process of this package,
+efax-gtk-3.2.3nb20.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency tiff>=4.0.3nb5: found tiff-4.0.3nb6
+=> Full dependency dbus-glib>=0.100nb1: found dbus-glib-0.102
+=> Full dependency gtkmm>=2.24.4nb3: NOT found
+=> Verifying reinstall for ../../x11/gtkmm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtkmm-2.24.4nb4
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency bsdtar-[0-9]*: found bsdtar-2.8.4nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency atkmm>=2.22.6nb3: NOT found
+=> Verifying reinstall for ../../devel/atkmm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for atkmm-2.22.7nb2
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency autoconf>=2.50: found autoconf-2.69nb5
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency atk>=2.6.0: NOT found
+=> Verifying reinstall for ../../devel/atk
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for atk-2.10.0
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+yes
+checking dynamic linker characteristics... haiku runtime_loader
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/atk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/atkmm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtkmm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/efax-gtk
+===> estic
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for estic-1.61nb2
+cd /boot/home/pkgsrc/pkgsrc/comms/estic/work/spunk && /bin/env USETOOLS=no CC=gcc CFLAGS=-Wno-error\ -I/boot/home/pkg/include CPPFLAGS=-DFREEBSD\ -I/boot/home/pkg/include CXX=g++ CXXFLAGS=-Wno-error\ -I/boot/home/pkg/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -Wl,-R/boot/home/pkg/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/comms/estic/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/comms/estic/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/comms/estic/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/comms/estic/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/system/non-packaged/apps/X11R6.4/bin:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc HOME=/boot/home/pkgsrc/pkgsrc/comms/estic/work/.home CPP=cpp LINK_ALL_LIBGCC_HACK= LOCALBASE=/boot/home/pkg NO_WHOLE_ARCHIVE_FLAG=-Wl,--no-whole-archive WHOLE_ARCHIVE_FLAG=-Wl,--whole-archive X11BASE=/boot/home/pkg X11PREFIX=/boot/home/pkg PKGMANDIR=man PKGINFODIR=info PKGGNUDIR=gnu/ MAKECONF=/dev/null OBJECT_FMT=ELF USETOOLS=no BSD_INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL_MAN=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL=/bin/install BSD_INSTALL_PROGRAM_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_MAN_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 BSD_INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 BSD_INSTALL_GAME_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/comms/estic/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/comms/estic/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/comms/estic/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/comms/estic/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg                                       /boot/home/pkg/bin/bmake                                            -f make/freebsd-x.mak depend lib
+Creating dependency information
+g++ -DFREEBSD -MM *.cc > .depend
+g++ -Wno-error -I/boot/home/pkg/include -Wno-error -DFREEBSD -I/boot/home/pkg/include -Wall -I/boot/home/pkg/include -fno-implicit-templates -DEXPLICIT_TEMPLATES -c bitset.cc
+In file included from stream.h:47:0,
+                 from bitset.cc:25:
+machine.h:236:28: fatal error: machine/endian.h: No such file or directory
+ #include <machine/endian.h>
+                            ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/estic/work/spunk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/estic
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/estic
+===> gammu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gammu-1.26.1nb5
+==========================================================================
+The following variables will affect the build process of this package,
+gammu-1.26.1nb5.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency dialog-[0-9]*: found dialog-1.2.20140219nb1
+=> Full dependency libusb>=0.1.8nb2: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/gammu
+===> gnome-pilot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gnome-pilot-2.0.17nb44
+==========================================================================
+The following variables will affect the build process of this package,
+gnome-pilot-2.0.17nb44.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gob2-[0-9]*: NOT found
+=> Verifying reinstall for ../../devel/gob2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gob2-2.0.20
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --with-libintl-prefix
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /boot/home/pkgsrc/pkgsrc/devel/gob2/work/.tools/bin/mkdir -p
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for i386-pc-haiku-gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... configure: error: in `/boot/home/pkgsrc/pkgsrc/devel/gob2/work/gob2-2.0.20':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gob2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gob2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/gnome-pilot
+===> gsmlib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gsmlib-1.10nb3
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10'
+Making all in po
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10/po'
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10/po'
+Making all in gsmlib
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10/gsmlib'
+source='gsm_unix_serial.cc' object='gsm_unix_serial.lo' libtool=yes \
+depfile='.deps/gsm_unix_serial.Plo' tmpdepfile='.deps/gsm_unix_serial.TPlo' \
+depmode=gcc3 /bin/sh ../scripts/depcomp \
+/bin/sh ../libtool --mode=compile g++ -DHAVE_CONFIG_H -I. -I. -I.. -I..  -I/boot/home/pkg/include  -Wall -Wno-error -pthread -I/boot/home/pkg/include -c -o gsm_unix_serial.lo `test -f 'gsm_unix_serial.cc' || echo './'`gsm_unix_serial.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -I/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/.buildlink/include -Wall -c gsm_unix_serial.cc -MT gsm_unix_serial.lo -MD -MP -MF .deps/gsm_unix_serial.TPlo  -DPIC -o .libs/gsm_unix_serial.o
+In file included from /boot/system/develop/tools/include/c++/4.8.3/backward/strstream:51:0,
+                 from gsm_unix_serial.cc:22:
+/boot/system/develop/tools/include/c++/4.8.3/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^
+In file included from gsm_unix_serial.cc:17:0:
+../gsmlib/gsm_unix_serial.h:41:55: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+     UnixSerialPort(string device, speed_t lineSpeed = DEFAULT_BAUD_RATE,
+                                                       ^
+gsm_unix_serial.cc: In constructor 'gsmlib::UnixSerialPort::UnixSerialPort(std::string, speed_t, std::string, bool)':
+gsm_unix_serial.cc:199:20: error: 'TIOCMBIC' was not declared in this scope
+     if (ioctl(_fd, TIOCMBIC, &mctl) < 0)
+                    ^
+gsm_unix_serial.cc:203:20: error: 'TIOCMBIS' was not declared in this scope
+     if (ioctl(_fd, TIOCMBIS, &mctl) < 0)
+                    ^
+gsm_unix_serial.cc:217:37: error: 'IMAXBEL' was not declared in this scope
+     t.c_iflag &= ~(INPCK | ISTRIP | IMAXBEL |
+                                     ^
+make[2]: *** [gsm_unix_serial.lo] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10/gsmlib'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/comms/gsmlib/work/gsmlib-1.10'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/gsmlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/gsmlib
+===> hylafax
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for hylafax-6.0.6
+
+Configuring HylaFAX (tm) (aka FlexFAX) 6.0.6.
+
+If configure does the wrong thing, check the file config.log for
+information that may help you understand what went wrong.
+
+Reading site-wide parameters from ./config.site.
+./config.guess: unable to guess system type
+
+This script, last modified 2006-03-13, has failed to recognize
+the operating system you are using. It is advised that you
+download the most up to date version of the config scripts from
+
+  http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.guess
+and
+  http://savannah.gnu.org/cgi-bin/viewcvs/*checkout*/config/config/config.sub
+
+If the version you run (./config.guess) is already up to date, please
+send the following data and any information you think might be
+pertinent to <config-patches@gnu.org> in order to provide the needed
+information to handle your system.
+
+config.guess timestamp = 2006-03-13
+
+uname -m = BePC
+uname -r = 1
+uname -s = Haiku
+uname -v = hrev47523 Jul 18 2014 17:24:02
+
+/usr/bin/uname -p = 
+/bin/uname -X     = 
+
+hostinfo               = 
+/bin/universe          = 
+/usr/bin/arch -k       = 
+/bin/arch              = 
+/usr/bin/oslevel       = 
+/usr/convex/getsysinfo = 
+
+UNAME_MACHINE = BePC
+UNAME_RELEASE = 1
+UNAME_SYSTEM  = Haiku
+UNAME_VERSION = hrev47523 Jul 18 2014 17:24:02
+Sorry, no target was specified on the command line and I don't seem to
+have the GNU config.guess script that is used to deduce your system type.
+
+Unrecoverable error!  Once you've corrected the problem rerun this script.
+/bin/sh: line 1: 12677 Hangup                  /bin/env INSTALL=/bin/install\ -c\ -o\ user\ -g\ root INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 FAXUID=uucp FAXGID=dialer OPTIMIZER=-Wno-error\ -I/boot/home/pkg/include VARBASE=/boot/home/pkg/var INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.tools/bin/pkg-config PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -I/boot/home/pkg/include CPPFLAGS=-I/boot/home/pkg/include CXX=g++ CXXFLAGS=-Wno-error\ -I/boot/home/pkg/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -Wl,-R/boot/home/pkg/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/system/non-packaged/apps/X11R6.4/bin:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc HOME=/boot/home/pkgsrc/pkgsrc/comms/hylafax/work/.home /bin/sh ./configure --with-MAKE=/boot/home/pkg/bin/bmake --with-INSTALL="" --nointeractive --with-ZLIBINC=-I/usr/include --with-LIBZ="-L/usr/lib -lz" --with-SYSVINIT=no --disable-pam
+*** Error code 129
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/hylafax
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/hylafax
+===> java-rxtx
+ERROR: This package is only available for these platforms: DragonFly-*-*  NetBSD-[4-9]*-i386  NetBSD-[5-9]*-x86_64  SunOS-5.11-i386  SunOS-5.11-x86_64 Darwin-9.*-i386 Darwin-9.*-x86_64  Darwin-10.*-i386 Darwin-10.*-x86_64  Darwin-11.*-i386 Darwin-11.*-x86_64  DragonFly-*-i386  FreeBSD-6.*-i386  Linux-*-i[3-6]86  Linux-*-x86_64  NetBSD-[6-9]*-i386 NetBSD-[6-9]*-x86_64  SunOS-5.11-i386  SunOS-5.11-x86_64 Darwin-9.*-i386 Darwin-9.*-x86_64  Darwin-10.*-i386 Darwin-10.*-x86_64  Darwin-11.*-i386 Darwin-11.*-x86_64  DragonFly-*-i386  FreeBSD-6.*-i386  Linux-*-i[3-6]86  Linux-*-x86_64  NetBSD-*-i386 NetBSD-*-x86_64  SunOS-5.10-i386  SunOS-5.10-sparc  SunOS-5.10-x86_64  SunOS-5.11-i386  SunOS-5.11-x86_64  .
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: no acceptable JVM found
+ERROR: java-rxtx-2.1.7r2nb1 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/java-rxtx
+===> jpilot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for jpilot-1.8.1nb4
+==========================================================================
+The following variables will affect the build process of this package,
+jpilot-1.8.1nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency pilot-link-libs>=0.12.5: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/jpilot
+===> jpilot-syncmal
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for jpilot-syncmal-0.80nb21
+==========================================================================
+The following variables will affect the build process of this package,
+jpilot-syncmal-0.80nb21.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency jpilot>=1.8.1nb4: NOT found
+=> Verifying reinstall for ../../comms/jpilot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for jpilot-1.8.1nb4
+==========================================================================
+The following variables will affect the build process of this package,
+jpilot-1.8.1nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency pilot-link-libs>=0.12.5: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/jpilot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/jpilot-syncmal
+===> kermit
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for kermit-9.0.302nb6
+Making C-Kermit 9.0.302 for NetBSD with curses...
+make CC=cc CC2=cc xermit KTARGET=${KTARGET:-netbsd}  "CFLAGS=`grep fseeko /usr/include/stdio.h > /dev/null &&  echo '-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'`  -DBSD44 -DCK_CURSES -DTCPSOCKET -DUSE_STRERROR -DHAVE_OPENPTY  -funsigned-char -DHERALD=\"\\\" NetBSD `uname -r`\\\"\"  -DCK_DTRCD -DCK_DTRCTS -DTPUTSARGTYPE=int -DFNFLOAT  -I/boot/home/pkg/include/ncurses -O"  "LIBS= -lcurses -lcrypt -lm -lutil -lncurses  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib "
+grep: /usr/include/stdio.h: No such file or directory
+cc -DBSD44 -DCK_CURSES -DTCPSOCKET -DUSE_STRERROR -DHAVE_OPENPTY  -funsigned-char -DHERALD="\" NetBSD 1\""  -DCK_DTRCD -DCK_DTRCTS -DTPUTSARGTYPE=int -DFNFLOAT  -I/boot/home/pkg/include/ncurses -O -DKTARGET=\"netbsd\" -c ckcmai.c
+In file included from ckcmai.c:543:0:
+ckupty.h:89:19: fatal error: sgtty.h: No such file or directory
+ #include <sgtty.h>
+                   ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/comms/kermit/work
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/kermit/work
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/kermit
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/kermit
+===> kyopon
+ERROR: This package is only available for these platforms: NetBSD-*-* DragonFly-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: kyopon-0.5 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/kyopon
+===> libmal
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libmal-0.44nb1
+==========================================================================
+The following variables will affect the build process of this package,
+libmal-0.44nb1.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency pilot-link-libs>=0.12.3: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libmal
+===> libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Creating toolchain wrappers for libopensync-0.22nb12
+===> Configuring for libopensync-0.22nb12
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+opensync_debug.c:82:2: warning: implicit declaration of function 'va_start' [-Wimplicit-function-declaration]
+  va_start(arglist, message);
+  ^
+opensync_debug.c:83:2: warning: implicit declaration of function 'g_strdup_vprintf' [-Wimplicit-function-declaration]
+  buffer = g_strdup_vprintf(message, arglist);
+  ^
+opensync_debug.c:83:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+  buffer = g_strdup_vprintf(message, arglist);
+         ^
+opensync_debug.c:126:2: warning: implicit declaration of function 'va_end' [-Wimplicit-function-declaration]
+  va_end(arglist);
+  ^
+opensync_debug.c: In function 'osync_debug':
+opensync_debug.c:165:3: error: unknown type name 'va_list'
+   va_list arglist;
+   ^
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+===> libopensync-plugin-evolution2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libopensync-plugin-evolution2-0.22.tar.bz2
+=> Total size: 219916 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file libopensync-plugin-evolution2-0.22.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  214k  100  214k    0     0  46317      0  0:00:04  0:00:04 --:--:-- 51167
+===> Installing dependencies for libopensync-plugin-evolution2-0.22nb18
+==========================================================================
+The following variables will affect the build process of this package,
+libopensync-plugin-evolution2-0.22nb18.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libopensync>=0.22nb12: NOT found
+=> Verifying reinstall for ../../comms/libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libopensync-0.22nb12
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in opensync
+opensync_debug.c:82:2: warning: implicit declaration of function 'va_start' [-Wimplicit-function-declaration]
+  va_start(arglist, message);
+  ^
+opensync_debug.c:83:2: warning: implicit declaration of function 'g_strdup_vprintf' [-Wimplicit-function-declaration]
+  buffer = g_strdup_vprintf(message, arglist);
+  ^
+opensync_debug.c:83:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+  buffer = g_strdup_vprintf(message, arglist);
+         ^
+opensync_debug.c:126:2: warning: implicit declaration of function 'va_end' [-Wimplicit-function-declaration]
+  va_end(arglist);
+  ^
+opensync_debug.c: In function 'osync_debug':
+opensync_debug.c:165:3: error: unknown type name 'va_list'
+   va_list arglist;
+   ^
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync-plugin-evolution2
+===> libopensync-plugin-file
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libopensync-plugin-file-0.22.tar.bz2
+=> Total size: 216890 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file libopensync-plugin-file-0.22.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  211k  100  211k    0     0  47030      0  0:00:04  0:00:04 --:--:-- 49654
+===> Installing dependencies for libopensync-plugin-file-0.22nb11
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libopensync>=0.22nb12: NOT found
+=> Verifying reinstall for ../../comms/libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libopensync-0.22nb12
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in opensync
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync-plugin-file
+===> libopensync-plugin-kdepim
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libopensync-plugin-kdepim-0.22.tar.bz2
+=> Total size: 307922 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file libopensync-plugin-kdepim-0.22.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  300k  100  300k    0     0  59733      0  0:00:05  0:00:05 --:--:-- 65543
+===> Installing dependencies for libopensync-plugin-kdepim-0.22nb32
+==========================================================================
+The following variables will affect the build process of this package,
+libopensync-plugin-kdepim-0.22nb32.  Their current value is shown below:
+
+        * BDB185_DEFAULT = db4
+        * BDB_DEFAULT = db4
+        * CURSES_DEFAULT = ncurses
+        * JPEG_DEFAULT = jpeg
+        * KRB5_DEFAULT = heimdal
+        * READLINE_DEFAULT = readline
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+Based on these variables, the following variables have been set:
+
+        * BDBBASE (defined, but empty)
+        * BDB_LIBS = -ldb4
+        * BDB_TYPE = db4
+        * CURSES_TYPE = ncurses
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * KRB5BASE (defined, but empty)
+        * KRB5_TYPE = heimdal
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Full dependency libopensync>=0.22nb12: NOT found
+=> Verifying reinstall for ../../comms/libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libopensync-0.22nb12
+/boot/home/pkg/bin/bmake  all-recursive
+opensync_debug.c: In function 'osync_debug':
+opensync_debug.c:165:3: error: unknown type name 'va_list'
+   va_list arglist;
+   ^
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync-plugin-kdepim
+===> libopensync-plugin-syncml
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libopensync-plugin-syncml-0.22.tar.bz2
+=> Total size: 220011 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file libopensync-plugin-syncml-0.22.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  214k  100  214k    0     0  49170      0  0:00:04  0:00:04 --:--:-- 57639
+===> Installing dependencies for libopensync-plugin-syncml-0.22nb12
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libopensync>=0.22nb12: NOT found
+=> Verifying reinstall for ../../comms/libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libopensync-0.22nb12
+/boot/home/pkg/bin/bmake  all-recursive
+                                                           ^
+opensync_debug.c: In function 'osync_trace':
+opensync_debug.c:55:2: error: unknown type name 'va_list'
+  va_list arglist;
+  ^
+opensync_debug.c:70:2: warning: 'g_thread_init' is deprecated (declared at /boot/home/pkg/include/glib/glib-2.0/glib/deprecated/gthread.h:260) [-Wdeprecated-declarations]
+  if (!g_thread_supported ()) g_thread_init (NULL);
+  ^
+opensync_debug.c:74:3: warning: 'g_private_new' is deprecated (declared at /boot/home/pkg/include/glib/glib-2.0/glib/deprecated/gthread.h:232) [-Wdeprecated-declarations]
+   current_tabs = g_private_new (NULL);
+   ^
+opensync_debug.c:82:2: warning: implicit declaration of function 'va_start' [-Wimplicit-function-declaration]
+  va_start(arglist, message);
+  ^
+opensync_debug.c:83:2: warning: implicit declaration of function 'g_strdup_vprintf' [-Wimplicit-function-declaration]
+  buffer = g_strdup_vprintf(message, arglist);
+  ^
+opensync_debug.c:83:9: warning: assignment makes pointer from integer without a cast [enabled by default]
+  buffer = g_strdup_vprintf(message, arglist);
+         ^
+opensync_debug.c:126:2: warning: implicit declaration of function 'va_end' [-Wimplicit-function-declaration]
+  va_end(arglist);
+  ^
+opensync_debug.c: In function 'osync_debug':
+opensync_debug.c:165:3: error: unknown type name 'va_list'
+   va_list arglist;
+   ^
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync-plugin-syncml
+===> libsyncml
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libsyncml-0.4.5.tar.bz2
+=> Total size: 374803 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file libsyncml-0.4.5.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  366k  100  366k    0     0  74342      0  0:00:05  0:00:05 --:--:-- 94242
+===> Installing dependencies for libsyncml-0.4.5nb6
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency openobex>=1.7: NOT found
+=> Verifying reinstall for ../../comms/openobex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching openobex-1.7-Source.tar.gz
+=> Total size: 130372 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  127k  100  127k    0     0  98470      0  0:00:01  0:00:01 --:--:--  320k
+===> Installing dependencies for openobex-1.7nb2
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.8.7: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+doxygen-1.8.7nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency tex-epsf-[0-9]*: found tex-epsf-2.7.4
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency dvipsk-[0-9]*: found dvipsk-5.993
+=> Full dependency makeindexk-[0-9]*: found makeindexk-2.15nb5
+=> Full dependency tex-a4wide>=2010nb1: NOT found
+=> Verifying reinstall for ../../print/tex-a4wide
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-a4wide-2010nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-ntgclass-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-ntgclass
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-ntgclass-2010
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-latex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-latex-2012
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latexconfig>=2011: found tex-latexconfig-2013
+=> Full dependency tex-latex-fonts-[0-9]*: found tex-latex-fonts-2013
+=> Full dependency tex-luatex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-luatex-0.70.1pl30581nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency luatex>=0.60.1: NOT found
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+==========================================================================
+The following variables will affect the build process of this package,
+luatex-0.76.0nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency poppler-includes>=0.26.0: found poppler-includes-0.26.1nb1
+=> Full dependency kpathsea>=6.0.1: found kpathsea-6.1.1
+=> Full dependency zziplib>=0.13.56: found zziplib-0.13.59
+=> Full dependency cairo>=1.12.16nb2: NOT found
+=> Verifying reinstall for ../../graphics/cairo
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for cairo-1.12.16nb4
+==========================================================================
+The supported build options for cairo are:
+
+        x11 xcb
+
+The currently selected options are:
+
+        x11 xcb
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.cairo (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libxcb>=1.6: found libxcb-1.11
+=> Full dependency libXrender>=0.9.2: found libXrender-0.9.8
+=> Full dependency lzo>=2.01: found lzo-2.08
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency pixman>=0.25.2: NOT found
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/openobex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libsyncml
+===> libticables2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libticables2-1.3.3.tar.bz2
+=> Total size: 495883 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  484k  100  484k    0     0   181k      0  0:00:02  0:00:02 --:--:--  374k
+===> Installing dependencies for libticables2-1.3.3
+==========================================================================
+The supported build options for libticables2 are:
+
+        libusb libusb1 nls
+
+The currently selected options are:
+
+        libusb nls
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.libticables2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libusb>=0.1.12: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libticables2
+===> libticalcs2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libticalcs2-1.1.7.tar.bz2
+=> Total size: 525111 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  512k  100  512k    0     0   329k      0  0:00:01  0:00:01 --:--:--  846k
+===> Installing dependencies for libticalcs2-1.1.7
+==========================================================================
+The supported build options for libticalcs2 are:
+
+        nls
+
+The currently selected options are:
+
+        nls
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.libticalcs2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency libtifiles2>=1.1.5: NOT found
+=> Returning to build of libticalcs2-1.1.7
+=> Full dependency libticonv>=1.1.3: found libticonv-1.1.3
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency libticables2>=1.3.3: NOT found
+=> Verifying reinstall for ../../comms/libticables2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libticables2-1.3.3
+==========================================================================
+The supported build options for libticables2 are:
+
+        libusb libusb1 nls
+
+The currently selected options are:
+
+        libusb nls
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.libticables2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libusb>=0.1.12: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libticables2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libticalcs2
+===> libticonv
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Install binary package of libticonv-1.1.3
+pkg_add: package `libticonv-1.1.3' was already installed as dependency, now marked as installed manually
+===> libtifiles2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Install binary package of libtifiles2-1.1.5
+pkg_add: package `libtifiles2-1.1.5' was already installed as dependency, now marked as installed manually
+===> lirc
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: lirc is not available for this platform
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/lirc
+===> malsync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching malsync_2.2.0.src.tar.gz
+=> Total size: 173851 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file malsync_2.2.0.src.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  169k  100  169k    0     0  38938      0  0:00:04  0:00:04 --:--:-- 39235
+===> Installing dependencies for malsync-2.2.0nb1
+==========================================================================
+The following variables will affect the build process of this package,
+malsync-2.2.0nb1.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency pilot-link-libs>=0.12.3: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/malsync
+===> mgetty+sendfax
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mgetty1.1.37-Jun05.tar.gz
+=> Total size: 1057939 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1033k  100 1033k    0     0   134k      0  0:00:07  0:00:07 --:--:--  227k
+===> Installing dependencies for mgetty-1.1.37nb10
+==========================================================================
+The following variables will affect the build process of this package,
+mgetty-1.1.37nb10.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency gtexinfo>=3.12: found gtexinfo-5.2nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency texi2roff-[0-9]*: found texi2roff-2.0
+=> Full dependency pkg_install-info-[0-9]*: found pkg_install-info-4.5nb3
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency netpbm>=10.35.80nb6: found netpbm-10.35.80nb8
+===> Overriding tools for mgetty-1.1.37nb10
+===> Extracting for mgetty-1.1.37nb10
+cd /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax/work/mgetty-1.1.37 && cp policy.h-dist policy.h
+===> Patching for mgetty-1.1.37nb10
+=> Applying pkgsrc patches for mgetty-1.1.37nb10
+===> Creating toolchain wrappers for mgetty-1.1.37nb10
+===> Configuring for mgetty-1.1.37nb10
+=> Fixing hardcoded installation prefix.
+mv /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax/work/mgetty-1.1.37/doc/fax.1in /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax/work/mgetty-1.1.37/doc/sendfax.1in
+===> Building for mgetty-1.1.37nb10
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+cc -Wno-error -DDEVICE_GROUP=\"root\" -I/boot/home/pkg/include -Wno-error -O2 -Wall -pipe -DPREFIX=\"/boot/home/pkg\" -DVARBASE=/boot/home/pkg/var -DVARRUNDIR=\"/var/run\" -c mgetty.c
+In file included from mgetty.c:32:0:
+mgetty.h:330:12: error: conflicting types for 'getopt'
+ extern int getopt _PROTO(( int, char **, char * ));
+            ^
+In file included from /boot/system/develop/headers/bsd/unistd.h:9:0,
+                 from mgetty.c:24:
+/boot/system/develop/headers/posix/unistd.h:280:13: note: previous declaration of 'getopt' was here
+ extern int  getopt(int argc, char *const *argv, const char *shortOpts);
+             ^
+In file included from mgetty.c:34:0:
+tio.h:32:20: fatal error: termio.h: No such file or directory
+ #include <termio.h>
+                    ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax/work/mgetty-1.1.37
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/mgetty+sendfax
+===> minicom
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching minicom-2.6.2.tar.gz
+=> Total size: 855340 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   359  100   359    0     0    658      0 --:--:-- --:--:-- --:--:--  1125
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+fetch: File minicom-2.6.2.tar.gz does not exist.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file minicom-2.6.2.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  835k  100  835k    0     0   641k      0  0:00:01  0:00:01 --:--:--  681k
+===> Installing dependencies for minicom-2.6.2
+==========================================================================
+The supported build options for minicom are:
+
+        nls
+
+The currently selected options are:
+
+        nls
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.minicom (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+minicom-2.6.2.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency gkermit-[0-9]*: found gkermit-1.00nb1
+=> Full dependency lrzsz-[0-9]*: found lrzsz-0.12.20nb1
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency ncurses>=5.4nb1: found ncurses-5.9nb3
+===> Overriding tools for minicom-2.6.2
+===> Extracting for minicom-2.6.2
+===> Patching for minicom-2.6.2
+=> Applying pkgsrc patches for minicom-2.6.2
+=> Fixing hardcoded paths.
+checking for getopt... yes
+checking for getopt_long... yes
+checking for long file names... yes
+checking for com line lock directory... configure: error: No suitable lock directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/minicom
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/minicom
+===> modemd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching modemd-970221.tar.gz
+=> Total size: 56093 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:02:00 --:--:--     0
+curl: (28) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+fetch: Unable to fetch expected file modemd-970221.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 56093  100 56093    0     0  14708      0  0:00:03  0:00:03 --:--:-- 15034
+===> Installing dependencies for modemd-19970221nb2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for modemd-19970221nb2
+===> Extracting for modemd-19970221nb2
+===> Patching for modemd-19970221nb2
+=> Applying pkgsrc patches for modemd-19970221nb2
+===> Creating toolchain wrappers for modemd-19970221nb2
+===> Configuring for modemd-19970221nb2
+===> Building for modemd-19970221nb2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+all ===> modemd/common
+gcc -Wno-error -Wno-error  -Werror   -I/boot/home/pkgsrc/pkgsrc/comms/modemd/work/modemd-970221/common/.. -I/boot/home/pkgsrc/pkgsrc/comms/modemd/work/modemd-970221/common/../include -c atparse.c
+atparse.c: In function 'atparse':
+atparse.c:57:11: error: incompatible implicit declaration of built-in function 'strlen' [-Werror]
+   int i = strlen (string);
+           ^
+atparse.c:117:7: error: incompatible implicit declaration of built-in function 'memcpy' [-Werror]
+       memcpy (bp, s, n - s);
+       ^
+cc1: all warnings being treated as errors
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/modemd/work/modemd-970221/common
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/modemd/work/modemd-970221
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/modemd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/modemd
+===> msynctool
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching msynctool-0.22.tar.bz2
+=> Total size: 219787 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file msynctool-0.22.tar.bz2
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  214k  100  214k    0     0  45726      0  0:00:04  0:00:04 --:--:-- 48051
+===> Installing dependencies for msynctool-0.22nb11
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency libopensync>=0.22nb12: NOT found
+=> Verifying reinstall for ../../comms/libopensync
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libopensync-0.22nb12
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in opensync
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H  -I. -I. -I.. -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -I/boot/home/pkg/include  -Wall -I/boot/home/pkg/include/libxml2  -Werror  -DOPENSYNC_PLUGINDIR=\"/boot/home/pkg/lib/opensync/plugins\" -DOPENSYNC_CONFIGDIR=\"/boot/home/pkg/share/opensync/defaults\" -DOPENSYNC_FORMATSDIR=\"/boot/home/pkg/lib/opensync/formats\" -Wno-error -I/boot/home/pkg/include -MT opensync_debug.lo -MD -MP -MF ".deps/opensync_debug.Tpo" -c -o opensync_debug.lo opensync_debug.c;  then mv -f ".deps/opensync_debug.Tpo" ".deps/opensync_debug.Plo"; else rm -f ".deps/opensync_debug.Tpo"; exit 1; fi
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -mt -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include -Wall -I/boot/home/pkg/include/libxml2 -DOPENSYNC_PLUGINDIR=\"/boot/home/pkg/lib/opensync/plugins\" -DOPENSYNC_CONFIGDIR=\"/boot/home/pkg/share/opensync/defaults\" -DOPENSYNC_FORMATSDIR=\"/boot/home/pkg/lib/opensync/formats\" -MT opensync_debug.lo -MD -MP -MF .deps/opensync_debug.Tpo -c opensync_debug.c  -DPIC -o .libs/opensync_debug.o
+  ^
+opensync_debug.c: In function 'osync_debug':
+opensync_debug.c:165:3: error: unknown type name 'va_list'
+   va_list arglist;
+   ^
+opensync_debug.c:171:3: warning: implicit declaration of function 'g_vsnprintf' [-Wimplicit-function-declaration]
+   g_vsnprintf(buffer, 1024, message, arglist);
+   ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22/opensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync/work/libopensync-0.22
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/libopensync
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/msynctool
+===> multisync-gui
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching multisync-gui-0.91.0.tar.gz
+=> Total size: 112933 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file multisync-gui-0.91.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  110k  100  110k    0     0  27629      0  0:00:04  0:00:04 --:--:-- 27843
+===> Installing dependencies for multisync-gui-0.91.0nb29
+==========================================================================
+The following variables will affect the build process of this package,
+multisync-gui-0.91.0nb29.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+=> Full dependency glib2>=2.34.0: found glib2-2.38.2nb2
+=> Full dependency libxml2>=2.8.0nb2: found libxml2-2.9.1nb2
+=> Full dependency gtk2+>=2.24.22nb3: NOT found
+=> Verifying reinstall for ../../x11/gtk2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gtk2+-2.24.22nb5
+==========================================================================
+The supported build options for gtk2+ are:
+
+        cups debug x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gtk2 (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gtk2+-2.24.22nb5.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/multisync-gui
+===> obexapp
+ERROR: This package is only available for these platforms: FreeBSD-*-* NetBSD-[4-9].*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: obexapp-1.4.15nb2 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/obexapp
+===> obexftp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching obexftp-0.24-Source.tar.gz
+=> Total size: 88154 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 88154  100 88154    0     0  87005      0  0:00:01  0:00:01 --:--:--  207k
+===> Installing dependencies for obexftp-0.24
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency asciidoc>=8.6.6: found asciidoc-8.6.9nb2
+=> Build dependency xmlto>=0.0.25: found xmlto-0.0.26
+=> Build dependency swig>=1.3.24<2.0: found swig-1.3.36nb4
+=> Build dependency swig>=1.3.31<2.0: found swig-1.3.36nb4
+=> Full dependency openobex>=1.7: NOT found
+=> Verifying reinstall for ../../comms/openobex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for openobex-1.7nb2
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.8.7: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+doxygen-1.8.7nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency tex-epsf-[0-9]*: found tex-epsf-2.7.4
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency dvipsk-[0-9]*: found dvipsk-5.993
+=> Full dependency makeindexk-[0-9]*: found makeindexk-2.15nb5
+=> Full dependency tex-a4wide>=2010nb1: NOT found
+=> Verifying reinstall for ../../print/tex-a4wide
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-a4wide-2010nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-ntgclass-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-ntgclass
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-ntgclass-2010
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-latex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-latex-2012
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latexconfig>=2011: found tex-latexconfig-2013
+=> Full dependency tex-latex-fonts-[0-9]*: found tex-latex-fonts-2013
+=> Full dependency tex-luatex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-luatex-0.70.1pl30581nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency luatex>=0.60.1: NOT found
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+==========================================================================
+The following variables will affect the build process of this package,
+luatex-0.76.0nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency poppler-includes>=0.26.0: found poppler-includes-0.26.1nb1
+=> Full dependency kpathsea>=6.0.1: found kpathsea-6.1.1
+=> Full dependency zziplib>=0.13.56: found zziplib-0.13.59
+=> Full dependency cairo>=1.12.16nb2: NOT found
+=> Verifying reinstall for ../../graphics/cairo
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for cairo-1.12.16nb4
+==========================================================================
+The supported build options for cairo are:
+
+        x11 xcb
+
+The currently selected options are:
+
+        x11 xcb
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.cairo (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libxcb>=1.6: found libxcb-1.11
+=> Full dependency libXrender>=0.9.2: found libXrender-0.9.8
+=> Full dependency lzo>=2.01: found lzo-2.08
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency pixman>=0.25.2: NOT found
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/openobex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/obexftp
+===> openobex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for openobex-1.7nb2
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency doxygen>=1.8.7: NOT found
+=> Verifying reinstall for ../../devel/doxygen
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for doxygen-1.8.7nb2
+==========================================================================
+The supported build options for doxygen are:
+
+        latex
+
+The currently selected options are:
+
+        latex
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.doxygen (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+doxygen-1.8.7nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency tex-epsf-[0-9]*: found tex-epsf-2.7.4
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency dvipsk-[0-9]*: found dvipsk-5.993
+=> Full dependency makeindexk-[0-9]*: found makeindexk-2.15nb5
+=> Full dependency tex-a4wide>=2010nb1: NOT found
+=> Verifying reinstall for ../../print/tex-a4wide
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-a4wide-2010nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-ntgclass-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-ntgclass
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-ntgclass-2010
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-latex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-latex-2012
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency tex-latexconfig>=2011: found tex-latexconfig-2013
+=> Full dependency tex-latex-fonts-[0-9]*: found tex-latex-fonts-2013
+=> Full dependency tex-luatex-[0-9]*: NOT found
+=> Verifying reinstall for ../../print/tex-luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for tex-luatex-0.70.1pl30581nb1
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency luatex>=0.60.1: NOT found
+=> Verifying reinstall for ../../print/luatex
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for luatex-0.76.0nb4
+==========================================================================
+The following variables will affect the build process of this package,
+luatex-0.76.0nb4.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency poppler-includes>=0.26.0: found poppler-includes-0.26.1nb1
+=> Full dependency kpathsea>=6.0.1: found kpathsea-6.1.1
+=> Full dependency zziplib>=0.13.56: found zziplib-0.13.59
+=> Full dependency cairo>=1.12.16nb2: NOT found
+=> Verifying reinstall for ../../graphics/cairo
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for cairo-1.12.16nb4
+==========================================================================
+The supported build options for cairo are:
+
+        x11 xcb
+
+The currently selected options are:
+
+        x11 xcb
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.cairo (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libX11>=1.1: found libX11-1.6.2nb1
+=> Full dependency libxcb>=1.6: found libxcb-1.11
+=> Full dependency libXrender>=0.9.2: found libXrender-0.9.8
+=> Full dependency lzo>=2.01: found lzo-2.08
+=> Full dependency fontconfig>=2.10.93nb2: found fontconfig-2.11.1nb1
+=> Full dependency freetype2>=2.4.11: found freetype2-2.5.3nb1
+=> Full dependency png>=1.6.0nb1: found png-1.6.12
+=> Full dependency pixman>=0.25.2: NOT found
+=> Verifying reinstall for ../../x11/pixman
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pixman-0.32.4nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in pixman
+Making all in demos
+Making all in test
+  CCLD     prng-test
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lpng16
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4/test
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman/work/pixman-0.32.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/pixman
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/cairo
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-luatex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-latex
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-ntgclass
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/tex-a4wide
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/doxygen
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/openobex
+===> p5-Device-Gsm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Device-Gsm-1.60.tar.gz
+=> Total size: 59053 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 59053  100 59053    0     0  29399      0  0:00:02  0:00:02 --:--:-- 33064
+===> Installing dependencies for p5-Device-Gsm-1.60nb3
+=> Full dependency p5-Device-Modem>=1.47: NOT found
+=> Verifying reinstall for ../../comms/p5-Device-Modem
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Device-Modem-1.57.tar.gz
+=> Total size: 37969 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 37969  100 37969    0     0   8827      0  0:00:04  0:00:04 --:--:--  8959
+===> Installing dependencies for p5-Device-Modem-1.57nb1
+=> Full dependency p5-Device-SerialPort>=0.19: NOT found
+=> Verifying reinstall for ../../comms/p5-Device-SerialPort
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Device-SerialPort-1.04.tar.gz
+=> Total size: 98706 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   339    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0   362    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 98706  100 98706    0     0   206k      0 --:--:-- --:--:-- --:--:-- 1662k
+===> Installing dependencies for p5-Device-SerialPort-1.04nb6
+=> Full dependency p5-perl-headers-1{,nb*}: NOT found
+=> Verifying reinstall for ../../devel/p5-perl-headers
+===> Installing dependencies for p5-perl-headers-1nb9
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+=> Full dependency osabi-Haiku-1: found osabi-Haiku-1
+===> Overriding tools for p5-perl-headers-1nb9
+===> Extracting for p5-perl-headers-1nb9
+===> Patching for p5-perl-headers-1nb9
+===> Creating toolchain wrappers for p5-perl-headers-1nb9
+===> Building for p5-perl-headers-1nb9
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/bin/mkdir -p /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/packlist
+( cd "/usr/include" &&  /boot/home/pkg/bin/h2ph -d /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph -r -l . )  > /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log
+/bin/sh: line 0: cd: /usr/include: No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-SerialPort
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-Modem
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-Gsm
+===> p5-Device-Modem
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-Device-Modem-1.57nb1
+=> Full dependency p5-Device-SerialPort>=0.19: NOT found
+=> Verifying reinstall for ../../comms/p5-Device-SerialPort
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-Device-SerialPort-1.04nb6
+=> Full dependency p5-perl-headers-1{,nb*}: NOT found
+=> Verifying reinstall for ../../devel/p5-perl-headers
+===> Building for p5-perl-headers-1nb9
+/bin/mkdir -p /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/packlist
+( cd "/usr/include" &&  /boot/home/pkg/bin/h2ph -d /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph -r -l . )  > /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log
+/bin/sh: line 0: cd: /usr/include: No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-SerialPort
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-Modem
+===> p5-Device-SerialPort
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-Device-SerialPort-1.04nb6
+=> Full dependency p5-perl-headers-1{,nb*}: NOT found
+=> Verifying reinstall for ../../devel/p5-perl-headers
+===> Building for p5-perl-headers-1nb9
+/bin/mkdir -p /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/packlist
+( cd "/usr/include" &&  /boot/home/pkg/bin/h2ph -d /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph -r -l . )  > /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log
+/bin/sh: line 0: cd: /usr/include: No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-SerialPort
+===> p5-Device-XBee-API
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching Device-XBee-API-0.7.tar.gz
+=> Total size: 14479 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 14479  100 14479    0     0  42358      0 --:--:-- --:--:-- --:--:-- 42358
+===> Installing dependencies for p5-Device-XBee-API-0.7
+=> Full dependency p5-Device-SerialPort>=1.04: NOT found
+=> Verifying reinstall for ../../comms/p5-Device-SerialPort
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-Device-SerialPort-1.04nb6
+=> Full dependency p5-perl-headers-1{,nb*}: NOT found
+=> Verifying reinstall for ../../devel/p5-perl-headers
+===> Building for p5-perl-headers-1nb9
+/bin/mkdir -p /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph
+/bin/rm -f /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/packlist
+( cd "/usr/include" &&  /boot/home/pkg/bin/h2ph -d /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph -r -l . )  > /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers/work/h2ph_log
+/bin/sh: line 0: cd: /usr/include: No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/p5-perl-headers
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-SerialPort
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-Device-XBee-API
+===> p5-pilot-link
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-pilot-link-0.12.5nb9
+==========================================================================
+The following variables will affect the build process of this package,
+p5-pilot-link-0.12.5nb9.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency pilot-link-libs>=0.12.5: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-pilot-link
+===> pilot-link
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for pilot-link-0.12.5nb8
+==========================================================================
+The following variables will affect the build process of this package,
+pilot-link-0.12.5nb8.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency pilot-link-libs>=0.12.5: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link
+===> pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+===> pilotmgr
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pilotmgr-1.109.tgz
+=> Total size: 201952 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+100  197k  100  197k    0     0  83160      0  0:00:02  0:00:02 --:--:--  273k
+===> Installing dependencies for pilotmgr-1.109nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency {perl>=5.7.3,p5-Digest-MD5-[0-9]*}: found perl-5.20.0nb1
+=> Full dependency p5-Tk-[0-9]*: found p5-Tk-804.031nb1
+=> Full dependency p5-pilot-link-[0-9]*: NOT found
+=> Verifying reinstall for ../../comms/p5-pilot-link
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for p5-pilot-link-0.12.5nb9
+==========================================================================
+The following variables will affect the build process of this package,
+p5-pilot-link-0.12.5nb9.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency pilot-link-libs>=0.12.5: NOT found
+=> Verifying reinstall for ../../comms/pilot-link-libs
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for pilot-link-libs-0.12.5nb1
+/boot/home/pkg/bin/bmake  all-am
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I../include                 -I../include  -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses   -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c -o libpisock_la-unixserial.lo `test -f 'unixserial.c' || echo './'`unixserial.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/.buildlink/include/ncurses -MT libpisock_la-unixserial.lo -MD -MP -MF .deps/libpisock_la-unixserial.Tpo -c unixserial.c  -DPIC -o .libs/libpisock_la-unixserial.o
+In file included from unixserial.c:39:0:
+../include/pi-source.h:26:24: fatal error: sys/errno.h: No such file or directory
+ # include <sys/errno.h>
+                        ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs/work/pilot-link-0.12.5/libpisock
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilot-link-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/p5-pilot-link
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/pilotmgr
+===> plp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching plp_1_8.tar.gz
+=> Total size: 58424 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file plp_1_8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file plp_1_8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file plp_1_8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file plp_1_8.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 58424  100 58424    0     0  15295      0  0:00:03  0:00:03 --:--:-- 15447
+===> Installing dependencies for plp-1.8nb2
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for plp-1.8nb2
+===> Extracting for plp-1.8nb2
+===> Patching for plp-1.8nb2
+=> Applying pkgsrc patches for plp-1.8nb2
+===> Creating toolchain wrappers for plp-1.8nb2
+===> Configuring for plp-1.8nb2
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for plp-1.8nb2
+=> Adding Haiku lnetwork to libraries
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c main.cc -o main.o >/dev/null 2>&1
+libtool  --mode=compile g++ -Wno-error -Wall -g -O2 -I../utils -c link.cc
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c link.cc  -DPIC -o .libs/link.o
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c link.cc -o link.o >/dev/null 2>&1
+libtool  --mode=compile g++ -Wno-error -Wall -g -O2 -I../utils -c channel.cc
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c channel.cc  -DPIC -o .libs/channel.o
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c channel.cc -o channel.o >/dev/null 2>&1
+libtool  --mode=compile g++ -Wno-error -Wall -g -O2 -I../utils -c ncp.cc
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c ncp.cc  -DPIC -o .libs/ncp.o
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c ncp.cc -o ncp.o >/dev/null 2>&1
+libtool  --mode=compile g++ -Wno-error -Wall -g -O2 -I../utils -c mp_serial.c
+libtool: compile:  g++ -Wall -g -O2 -I../utils -c mp_serial.c  -DPIC -o .libs/mp_serial.o
+mp_serial.c:36:23: fatal error: sys/errno.h: No such file or directory
+ #include <sys/errno.h>
+                       ^
+compilation terminated.
+make[1]: *** [mp_serial.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/comms/plp/work/plp_1_8/ncp'
+make: *** [_ncp] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/plp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/plp
+===> py-gammu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for py27-gammu-1.26.1nb1
+==========================================================================
+The following variables will affect the build process of this package,
+py27-gammu-1.26.1nb1.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 27
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Full dependency python27>=2.7.1nb2: found python27-2.7.7nb2
+=> Full dependency gammu>=1.24.0: NOT found
+=> Verifying reinstall for ../../comms/gammu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gammu-1.26.1nb5
+==========================================================================
+The following variables will affect the build process of this package,
+gammu-1.26.1nb5.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency cmake>=2.8.1nb1: found cmake-2.8.12.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency dialog-[0-9]*: found dialog-1.2.20140219nb1
+=> Full dependency libusb>=0.1.8nb2: NOT found
+=> Verifying reinstall for ../../devel/libusb
+ERROR: This package is only available for these platforms: Darwin-*-* FreeBSD-*-* Linux-*-* NetBSD-*-* OpenBSD-*-* DragonFly-*-* SunOS-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libusb-0.1.12nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libusb
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/gammu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/py-gammu
+===> ruby-termios
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ruby-termios-0.9.6.gem
+=> Total size: 15360 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   178  100   178    0     0    606      0 --:--:-- --:--:-- --:--:--  2472
+100   154  100   154    0     0    250      0 --:--:-- --:--:-- --:--:--   905
+100 15360  100 15360    0     0  12968      0  0:00:01  0:00:01 --:--:-- 12968
+===> Installing dependencies for ruby200-termios-0.9.6nb2
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency ruby200-base>=2.0.0: NOT found
+=> Verifying reinstall for ../../lang/ruby200-base
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ruby200-base-2.0.0p481
+        CC = gcc
+        LD = ld
+        LDSHARED = 
+        CFLAGS = -Wno-error -specs=/boot/home/pkg/etc/specs -pthread -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include 
+        XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+        CPPFLAGS = -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include   -I. -I.ext/include/i386-haiku -I./include -I.
+        DLDFLAGS =  
+        SOLIBS = -lpthread -lsocket  
+linking shared-library libruby200.so.2.0.0
+bmake: exec(dln.o) failed (No such file or directory)
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base/work/ruby-2.0.0-p481
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ruby200-base
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/ruby-termios
+===> snooper
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching snooper-19991202.tar.gz
+=> Total size: 38239 bytes
+curl: (6) Couldn't resolve host 'ftp.foretune.co.jp'
+fetch: Unable to fetch expected file snooper-19991202.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 38239  100 38239    0     0  10261      0  0:00:03  0:00:03 --:--:-- 10981
+===> Installing dependencies for snooper-19991202nb4
+==========================================================================
+The following variables will affect the build process of this package,
+snooper-19991202nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency ncurses>=5.4nb1: found ncurses-5.9nb3
+===> Overriding tools for snooper-19991202nb4
+===> Extracting for snooper-19991202nb4
+/bin/rm /boot/home/pkgsrc/pkgsrc/comms/snooper/work/snooper/build/.depend
+===> Patching for snooper-19991202nb4
+=> Applying pkgsrc patches for snooper-19991202nb4
+===> Creating toolchain wrappers for snooper-19991202nb4
+===> Configuring for snooper-19991202nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+creating cache ./config.cache
+checking host system type... i386-pc-haiku
+checking for a BSD compatible install... /bin/install -c -o user -g root
+checking if --enable-debug option specified... no
+checking for tgetstr in -ltermcap... no
+checking for initscr in -lcurses... no
+checking whether the compiler (gcc -Wno-error -I/boot/home/pkg/include/ncurses -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib) actually works... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking for limits.h... yes
+checking for paths.h... yes
+checking for sgtty.h... no
+checking for sys/file.h... yes
+checking for sys/ioctl.h... yes
+checking for sys/time.h... yes
+checking for termio.h... no
+checking for termios.h... yes
+checking for unistd.h... yes
+checking for uid_t in sys/types.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for setreuid... yes
+checking for select... yes
+checking for tigetstr/tigetstr... no
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating config.h
+===> Building for snooper-19991202nb4
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -c -O -I. -I./../include -Wno-error -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include/ncurses -c ../src/main.c
+In file included from ../src/main.c:8:0:
+../src/common.h:23:23: fatal error: sys/fcntl.h: No such file or directory
+ #include <sys/fcntl.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/snooper/work/snooper/build
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/snooper
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/snooper
+===> tilp2
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tilp2-1.16.tar.bz2
+=> Total size: 2837735 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 2771k  100 2771k    0     0   547k      0  0:00:05  0:00:05 --:--:--  683k
+===> Installing dependencies for tilp2-1.16nb6
+==========================================================================
+The supported build options for tilp2 are:
+
+        nls
+
+The currently selected options are:
+
+        nls
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.tilp2 (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency intltool>=0.40.0: found intltool-0.50.2nb3
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency gettext-lib>=0.18: found gettext-lib-0.18.3.2
+=> Full dependency desktop-file-utils>=0.10nb1: found desktop-file-utils-0.22
+=> Full dependency libglade>=2.6.4nb21: NOT found
+=> Verifying reinstall for ../../devel/libglade
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libglade-2.6.4.tar.bz2
+=> Total size: 356119 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  347k  100  347k    0     0   166k      0  0:00:02  0:00:02 --:--:--  174k
+===> Installing dependencies for libglade-2.6.4nb21
+=> Tool dependency xmlcatmgr-[0-9]*: found xmlcatmgr-2.2nb1
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.13: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0.3: found xextproto-7.3.0
+=> Build dependency inputproto>=2.3: found inputproto-2.3.1
+=> Build dependency fixesproto>=3.0.0: found fixesproto-5.0
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Build dependency compositeproto>=0.3.1: found compositeproto-0.4.2
+=> Full dependency atk>=2.6.0: NOT found
+=> Verifying reinstall for ../../devel/atk
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for atk-2.10.0
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency gettext-tools>=0.15: found gettext-tools-0.18.3.2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for gobject-introspection-1.38.0nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --disable-tests, --with-libintl-prefix
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/.tools/bin/mkdir -p
+checking for gawk... /bin/awk
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... configure: error: cannot find output from flex; giving up
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/atk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libglade
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tilp2
+===> tkhylafax
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tkhylafax-3.1.tar.gz
+=> Total size: 26696 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 26696  100 26696    0     0  11875      0  0:00:02  0:00:02 --:--:-- 13925
+===> Installing dependencies for tkhylafax-3.1nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency gv>=3.5.8nb1: NOT found
+=> Verifying reinstall for ../../print/gv
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gv-3.7.4.tar.gz
+=> Total size: 759287 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  741k  100  741k    0     0  27427      0  0:00:27  0:00:27 --:--:-- 70340
+===> Installing dependencies for gv-3.7.4nb2
+==========================================================================
+The following variables will affect the build process of this package,
+gv-3.7.4nb2.  Their current value is shown below:
+
+        * XAW_TYPE = 3d
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency gtexinfo>=4.2: found gtexinfo-5.2nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency xineramaproto>=1.1.1: found xineramaproto-1.2.1
+=> Full dependency ghostscript>=6.01: found ghostscript-9.05nb7
+=> Full dependency pkg_install-info-[0-9]*: found pkg_install-info-4.5nb3
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency Xaw3d>=1.5Enb1: found Xaw3d-1.5Enb4
+===> Overriding tools for gv-3.7.4nb2
+===> Extracting for gv-3.7.4nb2
+=> Substituting "optlong1" in src/gv_message.h
+=> Substituting "optlong2" in doc/gv.1
+===> Patching for gv-3.7.4nb2
+=> Applying pkgsrc patches for gv-3.7.4nb2
+===> Creating toolchain wrappers for gv-3.7.4nb2
+[ ! -h /boot/home/pkgsrc/pkgsrc/print/gv/work/.buildlink/include/X11/Xaw ] &&  /bin/mkdir -p /boot/home/pkgsrc/pkgsrc/print/gv/work/.buildlink/include/X11 &&  /bin/ln -s -s Xaw3d /boot/home/pkgsrc/pkgsrc/print/gv/work/.buildlink/include/X11/Xaw
+===> Configuring for gv-3.7.4nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+=> Replacing Perl interpreter in src/gv-update-userconfig.in.
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking for SIGCLD... no
+checking for SIGCHLD... yes
+configure: error: SIGCLD is needed. You can try --enable-SIGCHLD-fallback. It's secure on MacOS X, but on FreeBSD the fallback creates zombies.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/gv
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/print/gv
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tkhylafax
+===> tn3270
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching tn3270-0.20100116.tar.gz
+=> Total size: 156352 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file tn3270-0.20100116.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  152k  100  152k    0     0   642k      0 --:--:-- --:--:-- --:--:--  919k
+===> Installing dependencies for tn3270-0.20100116nb1
+==========================================================================
+The following variables will affect the build process of this package,
+tn3270-0.20100116nb1.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * TERMCAP_TYPE = curses
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency bison>=1.0: found bison-3.0.2nb1
+=> Full dependency ncurses>=5.4nb1: found ncurses-5.9nb3
+===> Overriding tools for tn3270-0.20100116nb1
+===> Extracting for tn3270-0.20100116nb1
+===> Patching for tn3270-0.20100116nb1
+=> Applying pkgsrc patches for tn3270-0.20100116nb1
+===> Creating toolchain wrappers for tn3270-0.20100116nb1
+===> Configuring for tn3270-0.20100116nb1
+===> Building for tn3270-0.20100116nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+(cd tools && /boot/home/pkg/bin/bmake all)
+(cd mkhits && /boot/home/pkg/bin/bmake all)
+gcc -Wno-error -I/boot/home/pkg/include/ncurses -Wno-error -fstack-protector -Wstack-protector --param ssp-buffer-size=1 -Wall -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wsign-compare -Wno-traditional -Wno-pointer-sign -DTERMCAP -DSRCRT -DKLUDGELINEMODE -DUSE_TERMIO -DTN3270 -Dunix -DPATH_MAP3270=\"/boot/home/pkg/share/tn3270/map3270\" -I../../api -DHOST_TOOL -c mkhits.c
+gcc -Wno-error -I/boot/home/pkg/include/ncurses -Wno-error -fstack-protector -Wstack-protector --param ssp-buffer-size=1 -Wall -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wsign-compare -Wno-traditional -Wno-pointer-sign -DTERMCAP -DSRCRT -DKLUDGELINEMODE -DUSE_TERMIO -DTN3270 -Dunix -DPATH_MAP3270=\"/boot/home/pkg/share/tn3270/map3270\" -I../../api -DHOST_TOOL -c dohits.c
+gcc -Wno-error -I/boot/home/pkg/include/ncurses -Wno-error -fstack-protector -Wstack-protector --param ssp-buffer-size=1 -Wall -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wsign-compare -Wno-traditional -Wno-pointer-sign -DTERMCAP -DSRCRT -DKLUDGELINEMODE -DUSE_TERMIO -DTN3270 -Dunix -DPATH_MAP3270=\"/boot/home/pkg/share/tn3270/map3270\" -I../../api -DHOST_TOOL -c ../../api/asc_ebc.c
+gcc -Wno-error -I/boot/home/pkg/include/ncurses -Wno-error -fstack-protector -Wstack-protector --param ssp-buffer-size=1 -Wall -Wstrict-prototypes -Wmissing-prototypes -Wpointer-arith -Wsign-compare -Wno-traditional -Wno-pointer-sign -DTERMCAP -DSRCRT -DKLUDGELINEMODE -DUSE_TERMIO -DTN3270 -Dunix -DPATH_MAP3270=\"/boot/home/pkg/share/tn3270/map3270\" -I../../api -DHOST_TOOL -c ../../api/ebc_disp.c
+gcc -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib mkhits.o dohits.o asc_ebc.o ebc_disp.o -lncurses  -o mkhits
+dohits.o: In function `scanwhite':
+dohits.c:(.text+0x135): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0x2bb): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0x2c7): undefined reference to `__stack_chk_fail_local'
+dohits.o: In function `scandefine':
+dohits.c:(.text+0x2fc): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0x511): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0x51d): undefined reference to `__stack_chk_fail_local'
+dohits.o: In function `dohits':
+dohits.c:(.text+0x6f4): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0xb0a): undefined reference to `__stack_chk_guard'
+dohits.c:(.text+0xb16): undefined reference to `__stack_chk_fail_local'
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: mkhits: hidden symbol `__stack_chk_fail_local' isn't defined
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: final link failed: Bad value
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tn3270/work/tn3270-0.20100116/tools/mkhits
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tn3270/work/tn3270-0.20100116/tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tn3270/work/tn3270-0.20100116
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tn3270
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/tn3270
+===> xisp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xisp-2.7p4.tar.gz
+=> Total size: 300156 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file xisp-2.7p4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file xisp-2.7p4.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  293k  100  293k    0     0  74436      0  0:00:04  0:00:04 --:--:--  105k
+===> Installing dependencies for xisp-2.7p4nb3
+==========================================================================
+The following variables will affect the build process of this package,
+xisp-2.7p4nb3.  Their current value is shown below:
+
+        * DIALER_GROUP = root
+        * JPEG_DEFAULT = jpeg
+        * VARBASE = /boot/home/pkg/var
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency libXpm>=3.5.4.2: found libXpm-3.5.11
+=> Full dependency xforms>=1.0nb9: NOT found
+=> Verifying reinstall for ../../x11/xforms
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xforms-1.0.tar.gz
+=> Total size: 1012878 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   368  100   368    0     0    629      0 --:--:-- --:--:-- --:--:--  2079
+100   350  100   350    0     0    330      0  0:00:01  0:00:01 --:--:--   330
+100   328  100   328    0     0    283      0  0:00:01  0:00:01 --:--:--     0
+100  989k  100  989k    0     0   312k      0  0:00:03  0:00:03 --:--:--  927k
+===> Installing dependencies for xforms-1.0nb9
+==========================================================================
+The following variables will affect the build process of this package,
+xforms-1.0nb9.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency jpeg>=9: found jpeg-9anb1
+=> Full dependency tiff>=4.0.3nb5: found tiff-4.0.3nb6
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency libXpm>=3.5.4.2: found libXpm-3.5.11
+===> Overriding tools for xforms-1.0nb9
+===> Extracting for xforms-1.0nb9
+===> Patching for xforms-1.0nb9
+=> Applying pkgsrc patches for xforms-1.0nb9
+===> Creating toolchain wrappers for xforms-1.0nb9
+===> Configuring for xforms-1.0nb9
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/boot/home/pkg/lib/X11/config
+make Makefiles
+making Makefiles in lib/include...
+        mv -f Makefile Makefile.bak
+making Makefiles in lib...
+        mv -f Makefile Makefile.bak
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib/Makefile" line 797: Missing dependency operator
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib/Makefile" line 798: Missing dependency operator
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib
+making Makefiles in image...
+        mv -f Makefile Makefile.bak
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/image/Makefile" line 796: Missing dependency operator
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/image/Makefile" line 797: Missing dependency operator
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/image
+making Makefiles in fdesign...
+        mv -f Makefile Makefile.bak
+making Makefiles in fd2ps...
+        mv -f Makefile Makefile.bak
+make includes
+including in ./lib/include...
+including in ./lib...
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib/Makefile" line 797: Missing dependency operator
+bmake: "/boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib/Makefile" line 798: Missing dependency operator
+bmake: Fatal errors encountered -- cannot continue
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0/lib
+*** Error code 1
+
+Stop.
+make: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms/work/xforms-1.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xforms
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/xisp
+===> xtel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching xtel-3.3.0.tar.gz
+=> Total size: 309426 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  302k  100  302k    0     0   143k      0  0:00:02  0:00:02 --:--:--  174k
+=> Fetching xtel-jumbo-patch-20111008.gz
+=> Total size: 43856 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 43856  100 43856    0     0   167k      0 --:--:-- --:--:-- --:--:--  312k
+===> Installing dependencies for xtel-3.3.0nb14
+==========================================================================
+The following variables will affect the build process of this package,
+xtel-3.3.0nb14.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency bdftopcf-[0-9]*: NOT found
+=> Verifying reinstall for ../../fonts/bdftopcf
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching bdftopcf-1.0.4.tar.bz2
+=> Total size: 116380 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  113k  100  113k    0     0   9458      0  0:00:12  0:00:12 --:--:-- 31360
+===> Installing dependencies for bdftopcf-1.0.4nb2
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency fontsproto>=2.0: found fontsproto-2.1.3
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Full dependency libXfont>=1.4.5nb2: NOT found
+=> Verifying reinstall for ../../x11/libXfont
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for libXfont-1.4.8
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in doc
+Making all in src
+Making all in fontfile
+Making all in FreeType
+Making all in bitmap
+Making all in builtins
+Making all in fc
+  CC       fserve.lo
+In file included from fserve.c:63:0:
+fserve.c: In function 'fs_block_handler':
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:99:43: error: expected identifier before ')' token
+ # define __FDS_BITS(p)  ((p)->__X_FDS_BITS)
+                                           ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:102:28: note: in expansion of macro '__FDS_BITS'
+ #define __XFDS_BITS(p, n) (__FDS_BITS(p))[n]
+                            ^
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/Xpoll.h:145:3: note: in expansion of macro '__XFDS_BITS'
+   __XFDS_BITS((dst), __i__) = ((__XFDS_BITS((b1), __i__)) | (__XFDS_BITS((b2), __i__))); \
+   ^
+fserve.c:1311:5: note: in expansion of macro 'XFD_ORSET'
+     XFD_ORSET((fd_set *)LastSelectMask, (fd_set *)LastSelectMask,
+     ^
+fserve.c: In function 'fs_register_fpe_functions':
+fserve.c:3416:5: warning: passing argument 1 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'NameCheckFunc' but argument is of type 'Bool (*)(char *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 5 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'OpenFontFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, Mask,  char *, int,  fsBitmapFormat,  fsBitmapFormatMask,  XID,  struct _Font **, char **, struct _Font *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 7 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'ListFontsFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  struct _FontNames *)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+fserve.c:3416:5: warning: passing argument 8 of 'RegisterFPEFunctions' from incompatible pointer type [enabled by default]
+     NULL);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontstruct.h:295:0,
+                 from fserve.c:69:
+/boot/home/pkgsrc/pkgsrc/x11/libXfont/work/.buildlink/include/X11/fonts/fontproto.h:28:12: note: expected 'StartLfwiFunc' but argument is of type 'int (*)(void *, struct _FontPathElement *, char *, int,  int,  void **)'
+ extern int RegisterFPEFunctions ( NameCheckFunc name_func, 
+            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src/fc
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont/work/libXfont-1.4.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXfont
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/fonts/bdftopcf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/comms/xtel
+~/pkgsrc/pkgsrc/comms> 

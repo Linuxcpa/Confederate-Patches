@@ -1,0 +1,3063 @@
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/3ddesktop
+===> afterstep
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/afterstep
+===> amaterus
+
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency glib>=1.2.10nb7: NOT found
+=> Verifying reinstall for ../../devel/glib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib-1.2.10nb10
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in .
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib    -Wno-error -Wall  -D_REENTRANT -c gstrfuncs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DG_LOG_DOMAIN=g_log_domain_glib -Wall -D_REENTRANT -c gstrfuncs.c  -DPIC -o .libs/gstrfuncs.o
+In file included from glib.h:66:0,
+                 from gstrfuncs.c:45:
+./glibconfig.h:64:0: warning: "GLIB_MICRO_VERSION" redefined [enabled by default]
+ #define GLIB_MICRO_VERSION 10
+ ^
+In file included from gstrfuncs.c:32:0:
+./config.h:71:0: note: this is the location of the previous definition
+ #define GLIB_MICRO_VERSION 23
+ ^
+gstrfuncs.c: In function 'g_strsignal':
+gstrfuncs.c:705:16: error: conflicting types for 'strsignal'
+   extern char *strsignal (int sig);
+                ^
+In file included from /boot/system/develop/headers/bsd/string.h:9:0,
+                 from gstrfuncs.c:38:
+/boot/system/develop/headers/posix/string.h:79:20: note: previous declaration of 'strsignal' was here
+ extern const char *strsignal(int signum);
+                    ^
+gstrfuncs.c: In function 'g_strdown':
+gstrfuncs.c:1139:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   s = string;
+     ^
+gstrfuncs.c: In function 'g_strup':
+gstrfuncs.c:1155:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   s = string;
+     ^
+gstrfuncs.c: In function 'g_strchug':
+gstrfuncs.c:1314:14: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   for (start = string; *start && isspace (*start); start++)
+              ^
+gstrfuncs.c:1317:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   g_memmove(string, start, strlen(start) + 1);
+   ^
+In file included from /boot/system/develop/headers/bsd/string.h:9:0,
+                 from gstrfuncs.c:38:
+/boot/system/develop/headers/posix/string.h:35:15: note: expected 'const char *' but argument is of type 'guchar *'
+ extern size_t strlen(const char *string);
+               ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/amaterus
+===> applewmproto
+ERROR: This package is only available for these platforms: Darwin-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: applewmproto-1.4.2 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/applewmproto
+===> awesome
+
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4/libbench2'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4'
+/bin/sh ./libtool  --tag=CC   --mode=link gcc -std=gnu99  -Wno-error -no-undefined -version-info 7:4:4 -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib -o libfftw3.la -rpath /boot/home/pkg/lib  kernel/libkernel.la dft/libdft.la dft/scalar/libdft_scalar.la dft/scalar/codelets/libdft_scalar_codelets.la rdft/librdft.la rdft/scalar/librdft_scalar.la rdft/scalar/r2cf/librdft_scalar_r2cf.la rdft/scalar/r2cb/librdft_scalar_r2cb.la rdft/scalar/r2r/librdft_scalar_r2r.la reodft/libreodft.la api/libapi.la simd-support/libsimd_support.la simd-support/libsimd_sse2_nonportable.la      -lm 
+libtool: link: rm -fr  .libs/libfftw3.lax .libs/libfftw3.so .libs/libfftw3.so.3 .libs/libfftw3.so.3.4.4
+libtool: link: gcc -shared  -Wl,--whole-archive kernel/.libs/libkernel.a dft/.libs/libdft.a dft/scalar/.libs/libdft_scalar.a dft/scalar/codelets/.libs/libdft_scalar_codelets.a rdft/.libs/librdft.a rdft/scalar/.libs/librdft_scalar.a rdft/scalar/r2cf/.libs/librdft_scalar_r2cf.a rdft/scalar/r2cb/.libs/librdft_scalar_r2cb.a rdft/scalar/r2r/.libs/librdft_scalar_r2r.a reodft/.libs/libreodft.a api/.libs/libapi.a simd-support/.libs/libsimd_support.a simd-support/.libs/libsimd_sse2_nonportable.a -Wl,--no-whole-archive  -L/boot/home/pkgsrc/pkgsrc/math/fftw/work/.buildlink/lib -lnetwork  -Wl,-R/boot/home/pkg/lib   -Wl,-soname -Wl,libfftw3.so.3 -o .libs/libfftw3.so.3.4.4
+.libs/libfftw3.lax/libapi.a/plan-guru64-split-dft-r2c.o .libs/libfftw3.lax/libapi.a/plan-guru64-split-dft.o .libs/libfftw3.lax/libapi.a/plan-many-dft-c2r.o .libs/libfftw3.lax/libapi.a/plan-many-dft-r2c.o .libs/libfftw3.lax/libapi.a/plan-many-dft.o .libs/libfftw3.lax/libapi.a/plan-many-r2r.o .libs/libfftw3.lax/libapi.a/plan-r2r-1d.o .libs/libfftw3.lax/libapi.a/plan-r2r-2d.o .libs/libfftw3.lax/libapi.a/plan-r2r-3d.o .libs/libfftw3.lax/libapi.a/plan-r2r.o .libs/libfftw3.lax/libapi.a/print-plan.o .libs/libfftw3.lax/libapi.a/rdft2-pad.o .libs/libfftw3.lax/libapi.a/the-planner.o .libs/libfftw3.lax/libapi.a/version.o .libs/libfftw3.lax/libsimd_support.a/altivec.o .libs/libfftw3.lax/libsimd_support.a/avx.o .libs/libfftw3.lax/libsimd_support.a/neon.o .libs/libfftw3.lax/libsimd_support.a/sse2.o .libs/libfftw3.lax/libsimd_support.a/taint.o .libs/libfftw3.lax/libsimd_sse2_nonportable.a/libsimd_sse2_nonportable_la-sse2-nonportable.o
+/bin/ar: .libs/libfftw3.lax/lt1-buffered.o: No such file or directory
+make[2]: *** [libfftw3.la] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/math/fftw/work/fftw-3.3.4'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/math/fftw
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/ImageMagick
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/awesome
+===> bbkeys09
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for blackbox70-0.70.1nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in data
+Making all in styles
+Making all in doc
+Making all in lib
+if /bin/sh ../libtool --tag=CXX --mode=compile g++ -DHAVE_CONFIG_H  -I. -I. -I..  -DXFT  -DNLS  -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkg/include -I/boot/home/pkg/include -I/usr/local/include -I/boot/home/pkg/include   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -MT Font.lo -MD -MP -MF ".deps/Font.Tpo" -c -o Font.lo Font.cc;  then mv -f ".deps/Font.Tpo" ".deps/Font.Plo"; else rm -f ".deps/Font.Tpo"; exit 1; fi
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DXFT -DNLS -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include/freetype2 -MT Font.lo -MD -MP -MF .deps/Font.Tpo -c Font.cc  -DPIC -o .libs/Font.o
+Font.cc:36:27: fatal error: X11/Xft/Xft.h: No such file or directory
+ #  include <X11/Xft/Xft.h>
+                           ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bbkeys09
+===> bbpager04
+
+=> Full dependency blackbox70>=0.70.0: NOT found
+=> Verifying reinstall for ../../wm/blackbox70
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for blackbox70-0.70.1nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in data
+Making all in styles
+Making all in doc
+Making all in lib
+if /bin/sh ../libtool --tag=CXX --mode=compile g++ -DHAVE_CONFIG_H  -I. -I. -I..  -DXFT  -DNLS  -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkg/include -I/boot/home/pkg/include -I/usr/local/include -I/boot/home/pkg/include   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -MT Font.lo -MD -MP -MF ".deps/Font.Tpo" -c -o Font.lo Font.cc;  then mv -f ".deps/Font.Tpo" ".deps/Font.Plo"; else rm -f ".deps/Font.Tpo"; exit 1; fi
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DXFT -DNLS -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include/freetype2 -MT Font.lo -MD -MP -MF .deps/Font.Tpo -c Font.cc  -DPIC -o .libs/Font.o
+Font.cc:36:27: fatal error: X11/Xft/Xft.h: No such file or directory
+ #  include <X11/Xft/Xft.h>
+                           ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bbpager04
+===> bbrun
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+
+=> Verifying reinstall for ../../devel/glib
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for glib-1.2.10nb10
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in .
+/bin/sh ./libtool --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I. -DG_LOG_DOMAIN=g_log_domain_glib    -Wno-error -Wall  -D_REENTRANT -c gstrfuncs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DG_LOG_DOMAIN=g_log_domain_glib -Wall -D_REENTRANT -c gstrfuncs.c  -DPIC -o .libs/gstrfuncs.o
+In file included from glib.h:66:0,
+                 from gstrfuncs.c:45:
+./glibconfig.h:64:0: warning: "GLIB_MICRO_VERSION" redefined [enabled by default]
+ #define GLIB_MICRO_VERSION 10
+ ^
+In file included from gstrfuncs.c:32:0:
+./config.h:71:0: note: this is the location of the previous definition
+ #define GLIB_MICRO_VERSION 23
+ ^
+gstrfuncs.c: In function 'g_strsignal':
+gstrfuncs.c:705:16: error: conflicting types for 'strsignal'
+   extern char *strsignal (int sig);
+                ^
+In file included from /boot/system/develop/headers/bsd/string.h:9:0,
+                 from gstrfuncs.c:38:
+/boot/system/develop/headers/posix/string.h:79:20: note: previous declaration of 'strsignal' was here
+ extern const char *strsignal(int signum);
+                    ^
+gstrfuncs.c: In function 'g_strdown':
+gstrfuncs.c:1139:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   s = string;
+     ^
+gstrfuncs.c: In function 'g_strup':
+gstrfuncs.c:1155:5: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   s = string;
+     ^
+gstrfuncs.c: In function 'g_strchug':
+gstrfuncs.c:1314:14: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+   for (start = string; *start && isspace (*start); start++)
+              ^
+gstrfuncs.c:1317:3: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   g_memmove(string, start, strlen(start) + 1);
+   ^
+In file included from /boot/system/develop/headers/bsd/string.h:9:0,
+                 from gstrfuncs.c:38:
+/boot/system/develop/headers/posix/string.h:35:15: note: expected 'const char *' but argument is of type 'guchar *'
+ extern size_t strlen(const char *string);
+               ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib/work/glib-1.2.10
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/glib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bbrun
+===> blackbox
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for blackbox-0.65.0nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Full dependency bsetroot>=0.1nb1: NOT found
+=> Verifying reinstall for ../../wm/bsetroot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for bsetroot-0.1nb7
+=> Creating installation directories
+/bin/install -c -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/blackbox-0.65.0/util/bsetbg /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/bin
+/bin/install -c -s -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/blackbox-0.65.0/util/bsetroot /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/bin
+/bin/install -c -o user -g root -m 644 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/blackbox-0.65.0/doc/bsetbg.1 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/man/man1
+/bin/install -c -o user -g root -m 644 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/blackbox-0.65.0/doc/bsetroot.1 /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/man/man1
+cd /boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/blackbox-0.65.0/nls && /boot/home/pkg/bin/bmake install DESTDIR=/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir
+Making install in C
+Making install in da_DK
+Making install in de_DE
+Making install in es_AR
+Making install in es_ES
+Making install in fr_FR
+Making install in hu_HU
+Making install in it_IT
+Making install in ja_JP
+Making install in ko_KR
+Making install in lv_LV
+Making install in nl_NL
+Making install in no_NO
+Making install in pl_PL
+Making install in pt_BR
+Making install in ro_RO
+Making install in ru_RU
+Making install in sk_SK
+Making install in sl_SI
+Making install in sv_SE
+Making install in uk_UA
+Making install in zh_CN
+Making install in zh_TW
+=> Automatic manual page handling
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/POSIX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/US_ASCII'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_GB'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_US'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_MX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/C/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/da_DK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de_DE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_AR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_ES/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr_FR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/hu_HU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it_IT/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ja_JP/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ko_KR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/lv_LV/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl_NL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/no_NO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pl_PL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pt_BR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ro_RO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ru_RU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sk_SK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sl_SI/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sv_SE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/uk_UA/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_CN/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_TW/blackbox.cat'
+=> Creating binary package /boot/home/packages/bsetroot-0.1nb7.tgz
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/POSIX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/US_ASCII'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_GB'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_US'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_MX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/C/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/da_DK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de_DE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_AR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_ES/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr_FR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/hu_HU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it_IT/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ja_JP/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ko_KR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/lv_LV/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl_NL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/no_NO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pl_PL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pt_BR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ro_RO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ru_RU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sk_SK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sl_SI/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sv_SE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/uk_UA/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_CN/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_TW/blackbox.cat'
+pkg_create: lstat failed for file share/bsetroot/nls/POSIX: No such file or directory
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bsetroot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bsetroot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox
+===> blackbox70
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for blackbox70-0.70.1nb1
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in data
+Making all in styles
+Making all in doc
+Making all in lib
+if /bin/sh ../libtool --tag=CXX --mode=compile g++ -DHAVE_CONFIG_H  -I. -I. -I..  -DXFT  -DNLS  -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkg/include -I/boot/home/pkg/include -I/usr/local/include -I/boot/home/pkg/include   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -MT Font.lo -MD -MP -MF ".deps/Font.Tpo" -c -o Font.lo Font.cc;  then mv -f ".deps/Font.Tpo" ".deps/Font.Plo"; else rm -f ".deps/Font.Tpo"; exit 1; fi
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -DXFT -DNLS -DLOCALEPATH=\"/boot/home/pkg/share/blackbox/nls\" -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/.buildlink/include/freetype2 -MT Font.lo -MD -MP -MF .deps/Font.Tpo -c Font.cc  -DPIC -o .libs/Font.o
+Font.cc:36:27: fatal error: X11/Xft/Xft.h: No such file or directory
+ #  include <X11/Xft/Xft.h>
+                           ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70/work/blackbox-0.70.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/blackbox70
+===> bmpanel2
+
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bmpanel2
+===> bsetroot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Creating binary package /boot/home/packages/bsetroot-0.1nb7.tgz
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/POSIX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/US_ASCII'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_GB'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/en_US'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_MX'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/C/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/da_DK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/de_DE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_AR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/es_ES/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/fr_FR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/hu_HU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/it_IT/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ja_JP/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ko_KR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/lv_LV/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/nl_NL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/no_NO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pl_PL/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/pt_BR/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ro_RO/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/ru_RU/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sk_SK/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sl_SI/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/sv_SE/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/uk_UA/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_CN/blackbox.cat'
+pkg_create: can't stat `/boot/home/pkgsrc/pkgsrc/wm/bsetroot/work/.destdir/boot/home/pkg/share/bsetroot/nls/zh_TW/blackbox.cat'
+pkg_create: lstat failed for file share/bsetroot/nls/POSIX: No such file or directory
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bsetroot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/bsetroot
+===> ccsm
+(rm -f corba-defs.h corba-defs-stubs.c corba-defs-skels.c corba-defs-common.c corba-defs-imodule.c corba-defs-skelimpl.c || true) > /dev/null
+../../../src/idl-compiler/orbit-idl-2 -I../../../src/idl/CORBA_PIDL -I../../../src/idl/CORBA -I../../../src/idl/interop -I../../../src/orb/orb-core --noskels --nodefskels --nostubs --noidata --nocommon --showcpperrors --define=Object=OObject --define=TypeCode=TTypeCode --deps ./.deps/corba-defs.idl.P ../../../src/orb/orb-core/corba-defs.idl
+runtime_loader: /boot/home/pkg/lib/libIDL-2.so.0.0.0: Could not resolve symbol '__IDL_cur_token_line'
+resolve symbol "__IDL_cur_token_line" returned: -2147478780
+runtime_loader: /boot/home/pkg/lib/libIDL-2.so.0.0.0: Troubles relocating: Symbol not found
+make[8]: *** [corba-defs.h] Error 4
+make[8]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/include/orbit/orb-core'
+make[7]: *** [all-recursive] Error 1
+make[7]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/include/orbit'
+make[6]: *** [all] Error 2
+make[6]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/include/orbit'
+make[5]: *** [all-recursive] Error 1
+make[5]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/include'
+make[4]: *** [all] Error 2
+make[4]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/src/orb/include'
+make[3]: *** [all-recursive] Error 1
+make[3]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/src/orb'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/net/ORBit2/work/ORBit2-2.14.19'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/ORBit2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/net/ORBit2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/GConf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/compizconfig-backend-gconf
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/ccsm
+===> compiz
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/compiz
+===> compiz-fusion-plugins-extra
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/compiz-fusion-plugins-extra
+===> compiz-fusion-plugins-main
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/compiz-fusion-plugins-main
+===> ctwm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for ctwm-3.8.1
+rm -f util.o
+gcc -c -O        -I/boot/home/pkg/include  -I/boot/home/pkg/include         -DUSEM4 -DGNOME  -DXPM -DJPEG     -DPATH_TO_M4=\"/bin/m4\" -DNOPUTENV util.c
+util.c: In function 'putenv':
+util.c:1697:11: error: argument 's' doesn't match prototype
+     char *s;
+           ^
+In file included from /boot/system/develop/headers/bsd/stdlib.h:9:0,
+                 from twm.h:476,
+                 from util.c:79:
+/boot/system/develop/headers/posix/stdlib.h:78:13: error: prototype declaration
+ extern int  putenv(const char *string);
+             ^
+util.c: At top level:
+util.c:3944:1: error: unknown type name 'int32_t'
+ int32_t *buffer_32bpp;
+ ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/ctwm/work/ctwm-3.8.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/ctwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/ctwm
+===> cwm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for cwm-3nb6
+/boot/home/pkg/bin/bmake  all-am
+gcc -Wall -Icompat -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2  -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -o cwm  calmwm.o draw.o screen.o  xmalloc.o client.o grab.o  search.o util.o xutil.o conf.o  input.o xevents.o group.o  geographic.o kbfunc.o cursor.o  font.o err.o  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lXft -L/boot/home/pkg/lib -lX11 -lXext
+font.o: In function `_make_font':
+font.c:(.text+0x939): undefined reference to `FcNameParse'
+font.c:(.text+0x99b): undefined reference to `FcPatternDestroy'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/cwm/work/cwm-3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/cwm/work/cwm-3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/cwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/cwm
+===> dwm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for dwm-6.0
+dwm build options:
+CFLAGS   = -Wno-error -I/boot/home/pkg/include -Wno-error -std=c99 -pedantic -Wall -Os -I. -I/usr/include -I/boot/home/pkg/include -DVERSION="6.0" -DXINERAMA
+LDFLAGS  = -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -s -L/usr/lib -lc -L/boot/home/pkg/lib -lX11 -L/boot/home/pkg/lib -lXinerama
+CC       = gcc
+CC -o dwm
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/dwm/work/dwm-6.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/dwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/dwm
+===> e16menuedit2
+
+---------------------------------------------------------------------
+--- Checking to see which audio header files your system uses.
+--- Most of these checks should fail. Do not be alarmed.
+checking soundcard.h usability... no
+checking soundcard.h presence... no
+checking for soundcard.h... no
+checking sys/soundcard.h usability... no
+checking sys/soundcard.h presence... no
+checking for sys/soundcard.h... no
+checking machine/soundcard.h usability... no
+checking machine/soundcard.h presence... no
+checking for machine/soundcard.h... no
+checking sys/audio.h usability... no
+checking sys/audio.h presence... no
+checking for sys/audio.h... no
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking sys/audio.io.h usability... no
+checking sys/audio.io.h presence... no
+checking for sys/audio.io.h... no
+checking sun/audioio.h usability... no
+checking sun/audioio.h presence... no
+checking for sun/audioio.h... no
+checking dmedia/audio.h usability... no
+checking dmedia/audio.h presence... no
+checking for dmedia/audio.h... no
+checking sys/soundlib.h usability... no
+checking sys/soundlib.h presence... no
+checking for sys/soundlib.h... no
+checking sys/asoundlib.h usability... no
+checking sys/asoundlib.h presence... no
+checking for sys/asoundlib.h... no
+checking alsa/asoundlib.h usability... no
+checking alsa/asoundlib.h presence... no
+checking for alsa/asoundlib.h... no
+checking CoreAudio/CoreAudio.h usability... no
+checking CoreAudio/CoreAudio.h presence... no
+checking for CoreAudio/CoreAudio.h... no
+checking mme/mme_api.h usability... no
+checking mme/mme_api.h presence... no
+checking for mme/mme_api.h... no
+checking for artsc-config... no
+checking for ARTS artsc - version >= 0.9.5... no
+*** The artsc-config script installed by ARTS could not be found
+*** If ARTS was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the ARTS_CONFIG environment variable to the
+*** full path to artsc-config.
+configure: error: Could not find a support sound driver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+WARNING: *** Please consider adding fortran to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/enlightenment
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/e16menuedit2
+===> echinus
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for echinus-0.4.3nb4
+echinus build options:
+Package pthread-stubs was not found in the pkg-config search path.
+Perhaps you should add the directory containing `pthread-stubs.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'pthread-stubs', required by 'xcb', not found
+CFLAGS   = -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wno-error -Os -I. -I/usr/include -I/boot/home/pkg/include  -DVERSION="0.4.3" -DSYSCONFPATH="/boot/home/pkg//share/examples/echinus" -Wall -DXRANDR=1
+LDFLAGS  = -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -s -L/usr/lib -lc -L/boot/home/pkg/lib -lX11 -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lXft  -lXrandr
+CC       = gcc
+CC -o echinus
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/echinus/work/echinus-0.4.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/echinus
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/echinus
+===> enlightenment
+
+=> Replacing install-sh with pkgsrc version
+=> Replacing sh interpreter in esd-config.in.
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... i386-pc-haiku
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /boot/home/pkgsrc/pkgsrc/audio/esound/work/.tools/bin/mkdir -p
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for i386-pc-haiku-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether we are using the GNU C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking how to run the C preprocessor... gcc -E
+checking for a sed that does not truncate output... /boot/home/pkgsrc/pkgsrc/audio/esound/work/.tools/bin/sed
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for egrep... (cached) /bin/egrep
+checking for ld used by gcc... /boot/system/develop/tools/i586-pc-haiku/bin/ld
+checking if the linker (/boot/system/develop/tools/i586-pc-haiku/bin/ld) is GNU ld... yes
+checking for /boot/system/develop/tools/i586-pc-haiku/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /bin/nm -B
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for i386-pc-haiku-g77... f77
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether f77 accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for i386-pc-haiku-ar... no
+checking for ar... ar
+checking for i386-pc-haiku-ranlib... no
+checking for ranlib... ranlib
+checking for i386-pc-haiku-strip... no
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... 
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/boot/system/develop/tools/i586-pc-haiku/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... haiku ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "F77" to libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for f77 option to produce PIC... 
+checking if f77 static flag -static works... no
+checking if f77 supports -c -o file.o... no
+checking whether the f77 linker (/boot/system/develop/tools/i586-pc-haiku/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... haiku ld.so
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+checking whether make sets $(MAKE)... (cached) yes
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking for inline... inline
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for setenv... yes
+checking for putenv... yes
+checking for fchown... yes
+checking for fchmod... yes
+checking for gethostbyname2... yes
+checking for connect... yes
+checking for gethostbyname... yes
+checking for hstrerror... yes
+checking for nanosleep... yes
+checking for usleep... yes
+checking for strtok_r... yes
+checking for inet_pton... yes
+checking whether to enable ipv6... yes
+checking for getaddrinfo... yes
+checking for inet_ntop... yes
+checking for getopt_long... yes
+checking sys/filio.h usability... no
+checking sys/filio.h presence... no
+checking for sys/filio.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking if your platform supports esddsp... no
+---------------------------------------------------------------------
+--- Checking to see which audio header files your system uses.
+--- Most of these checks should fail. Do not be alarmed.
+checking soundcard.h usability... no
+checking soundcard.h presence... no
+checking for soundcard.h... no
+checking sys/soundcard.h usability... no
+checking sys/soundcard.h presence... no
+checking for sys/soundcard.h... no
+checking machine/soundcard.h usability... no
+checking machine/soundcard.h presence... no
+checking for machine/soundcard.h... no
+checking sys/audio.h usability... no
+checking sys/audio.h presence... no
+checking for sys/audio.h... no
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking sys/audio.io.h usability... no
+checking sys/audio.io.h presence... no
+checking for sys/audio.io.h... no
+checking sun/audioio.h usability... no
+checking sun/audioio.h presence... no
+checking for sun/audioio.h... no
+checking dmedia/audio.h usability... no
+checking dmedia/audio.h presence... no
+checking for dmedia/audio.h... no
+checking sys/soundlib.h usability... no
+checking sys/soundlib.h presence... no
+checking for sys/soundlib.h... no
+checking sys/asoundlib.h usability... no
+checking sys/asoundlib.h presence... no
+checking for sys/asoundlib.h... no
+checking alsa/asoundlib.h usability... no
+checking alsa/asoundlib.h presence... no
+checking for alsa/asoundlib.h... no
+checking CoreAudio/CoreAudio.h usability... no
+checking CoreAudio/CoreAudio.h presence... no
+checking for CoreAudio/CoreAudio.h... no
+checking mme/mme_api.h usability... no
+checking mme/mme_api.h presence... no
+checking for mme/mme_api.h... no
+checking for artsc-config... no
+checking for ARTS artsc - version >= 0.9.5... no
+*** The artsc-config script installed by ARTS could not be found
+*** If ARTS was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the ARTS_CONFIG environment variable to the
+*** full path to artsc-config.
+configure: error: Could not find a support sound driver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+WARNING: *** Please consider adding fortran to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/enlightenment
+===> ethemes
+---------------------------------------------------------------------
+--- Checking to see which audio header files your system uses.
+--- Most of these checks should fail. Do not be alarmed.
+checking soundcard.h usability... no
+checking soundcard.h presence... no
+checking for soundcard.h... no
+checking sys/soundcard.h usability... no
+checking sys/soundcard.h presence... no
+checking for sys/soundcard.h... no
+checking machine/soundcard.h usability... no
+checking machine/soundcard.h presence... no
+checking for machine/soundcard.h... no
+checking sys/audio.h usability... no
+checking sys/audio.h presence... no
+checking for sys/audio.h... no
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking sys/audio.io.h usability... no
+checking sys/audio.io.h presence... no
+checking for sys/audio.io.h... no
+checking sun/audioio.h usability... no
+checking sun/audioio.h presence... no
+checking for sun/audioio.h... no
+checking dmedia/audio.h usability... no
+checking dmedia/audio.h presence... no
+checking for dmedia/audio.h... no
+checking sys/soundlib.h usability... no
+checking sys/soundlib.h presence... no
+checking for sys/soundlib.h... no
+checking sys/asoundlib.h usability... no
+checking sys/asoundlib.h presence... no
+checking for sys/asoundlib.h... no
+checking alsa/asoundlib.h usability... no
+checking alsa/asoundlib.h presence... no
+checking for alsa/asoundlib.h... no
+checking CoreAudio/CoreAudio.h usability... no
+checking CoreAudio/CoreAudio.h presence... no
+checking for CoreAudio/CoreAudio.h... no
+checking mme/mme_api.h usability... no
+checking mme/mme_api.h presence... no
+checking for mme/mme_api.h... no
+checking for artsc-config... no
+checking for ARTS artsc - version >= 0.9.5... no
+*** The artsc-config script installed by ARTS could not be found
+*** If ARTS was installed in PREFIX, make sure PREFIX/bin is in
+*** your path, or set the ARTS_CONFIG environment variable to the
+*** full path to artsc-config.
+configure: error: Could not find a support sound driver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+WARNING: *** Please consider adding c++ to USE_LANGUAGES in the package Makefile.
+WARNING: *** Please consider adding fortran to USE_LANGUAGES in the package Makefile.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/esound
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/enlightenment
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/ethemes
+===> fluxconf
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fluxconf
+===> flwm
+
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/fltk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/flwm
+===> fvwm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for fvwm-2.6.5nb5
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in libs
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I/boot/home/pkg/include  -I/boot/home/pkg/include           -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses  -Wall -Wno-implicit-int -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT Graphics.o -MD -MP -MF .deps/Graphics.Tpo -c -o Graphics.o Graphics.c
+In file included from ../libs/FImage.h:10:0,
+                 from Graphics.c:34:
+../libs/FShm.h:18:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5/libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm
+===> fvwm-devel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for fvwm-2.5.31nb9
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in libs
+gcc -DHAVE_CONFIG_H -I. -I.. -I..  -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -I/boot/home/pkg/include           -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include/freetype2  -Wall -Wno-implicit-int -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -I/boot/home/pkg/include/freetype2 -MT Graphics.o -MD -MP -MF .deps/Graphics.Tpo -c -o Graphics.o Graphics.c
+In file included from ../libs/FImage.h:10:0,
+                 from Graphics.c:34:
+../libs/FShm.h:18:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-devel/work/fvwm-2.5.31/libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-devel/work/fvwm-2.5.31
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-devel/work/fvwm-2.5.31
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-devel
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-devel
+===> fvwm-themes
+
+===> Building for fvwm-2.6.5nb5
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in libs
+gcc -DHAVE_CONFIG_H -I. -I.. -I.. -I/boot/home/pkg/include  -I/boot/home/pkg/include           -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses  -Wall -Wno-implicit-int -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/ncurses -MT Graphics.o -MD -MP -MF .deps/Graphics.Tpo -c -o Graphics.o Graphics.c
+In file included from ../libs/FImage.h:10:0,
+                 from Graphics.c:34:
+../libs/FShm.h:18:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5/libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm/work/fvwm-2.6.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/fvwm-themes
+===> golem
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for golem-0.0.5nb6
+===> src
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/wm/golem/work/golem-0.0.5/src'
+gcc -I. -Wno-error -DPKG_SYSCONFDIR="\"/boot/home/pkg/etc\"" -I/boot/home/pkg/include -Wall  -I/boot/home/pkg/include -DHAVE_CONFIG_H -DLIBDIR=\"/boot/home/pkg/lib\" -DDATADIR=\"/boot/home/pkg/share\" -I/boot/home/pkg/include  -c -o main.o main.c
+In file included from main.c:29:0:
+wm.h:56:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+make[1]: *** [main.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/golem/work/golem-0.0.5/src'
+make: *** [all] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/golem
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/golem
+===> i3
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/i3
+~/pkgsrc/pkgsrc/wm> 
+
+
+=> Build dependency randrproto>=1.4: found randrproto-1.4.0
+=> Full dependency libXinerama>=1.0.1: found libXinerama-1.1.3
+=> Full dependency jpeg>=9: found jpeg-9anb1
+=> Full dependency MesaLib>=7.11.2: found MesaLib-7.11.2nb4
+=> Full dependency glu>=7.11.2: NOT found
+=> Verifying reinstall for ../../graphics/glu
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing for glu-7.11.2
+=> Creating installation directories
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+/bin/install -c -o user -g root -d /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib/pkgconfig
+/bin/sh ../../bin/minstall ../../lib/libGLU.*so* /boot/home/pkgsrc/pkgsrc/graphics/glu/work/.destdir/boot/home/pkg/lib
+Unknown type of argument:  ../../lib/libGLU.*so*
+make: *** [install] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/glu
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-libs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/qt3-tools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icecc
+===> icewm
+
+                                        ^
+  LD       icesh
+  CXX      icewmhint.o
+  LD       icewmhint
+  CXX      icewmbg.o
+icewmbg.cc: In function 'int main(int, char**)':
+icewmbg.cc:415:11: error: 'nice' was not declared in this scope
+     nice(5);
+           ^
+make[1]: *** [icewmbg.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/icewm/work/icewm-1.2.38pre2/src'
+make: *** [base] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icewm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icewm
+===> icewm-imlib
+                                        ^
+  LD       icesh
+  CXX      icewmhint.o
+  LD       icewmhint
+  CXX      icewmbg.o
+icewmbg.cc: In function 'int main(int, char**)':
+icewmbg.cc:415:11: error: 'nice' was not declared in this scope
+     nice(5);
+           ^
+make[1]: *** [icewmbg.o] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/icewm-imlib/work/icewm-1.2.38pre2/src'
+make: *** [base] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icewm-imlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icewm-imlib
+===> icewm13
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gdk-pixbuf2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gdk-pixbuf2-xlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/icewm13
+===> larswm
+
+===> Overriding tools for larswm-7.5.3nb1
+===> Extracting for larswm-7.5.3nb1
+===> Patching for larswm-7.5.3nb1
+=> Applying pkgsrc patches for larswm-7.5.3nb1
+=> Substituting "paths" in larswm.man
+===> Creating toolchain wrappers for larswm-7.5.3nb1
+===> Configuring for larswm-7.5.3nb1
+imake -DUseInstalled -I/boot/home/pkg/lib/X11/config
+make Makefiles
+make includes
+make depend
+makedepend  --   -I/boot/home/pkg/include          -DUSE_MAKEDEPEND -- main.c event.c manage.c buttons.c client.c error.c tiling.c prefs.c keys.c mouse.c bar.c larsremote.c larsclock.c larsmenu.c       
+makedepend: warning:  main.c (reading /boot/home/pkg/include/config/HaikuConfig.h), line 60: #      error Unsupported architecture!
+makedepend: warning:  main.c (reading /boot/home/pkg/include/size_t.h, line 9): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  main.c (reading /boot/home/pkg/include/limits.h, line 12): cannot find include file "float.h"
+        not in /boot/home/pkg/include/float.h
+        not in /usr/include/float.h
+makedepend: warning:  main.c (reading /boot/home/pkg/include/limits.h, line 82): cannot find include file "limits.h"
+        not in /usr/include/limits.h
+makedepend: warning:  main.c (reading /boot/home/pkg/include/stdlib.h, line 12): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  main.c (reading /boot/home/pkg/include/wchar_t.h, line 8): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  main.c (reading /boot/home/pkg/include/signal.h), line 351: incomplete include == "#include __HAIKU_ARCH_HEADER(signal.h)"
+makedepend: warning:  main.c (reading /boot/home/pkg/include/X11/Xlib.h, line 51): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+===> Building for larswm-7.5.3nb1
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c main.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c event.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c manage.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c buttons.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c client.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c error.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c tiling.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c prefs.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c keys.c
+keys.c: In function 'keyevent':
+keys.c:329:3: warning: 'XKeycodeToKeysym' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/wm/larswm/work/.buildlink/include/X11/Xlib.h:1699) [-Wdeprecated-declarations]
+   k = XKeycodeToKeysym (dpy, e->keycode, 0);
+   ^
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c mouse.c
+gcc -O -DTHREE_D -DUSE_LOCALE     -I/boot/home/pkg/include          -DPKG_SYSCONFDIR=\"/boot/home/pkg/etc\" -I/boot/home/pkg/include -c bar.c
+bmake: don't know how to make /boot/home/pkg/lib/libXaw.a. Stop
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/larswm/work/larswm-7.5.3
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/larswm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/larswm
+===> libAppleWM
+ERROR: This package is only available for these platforms: Darwin-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: libAppleWM-1.4.0 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/libAppleWM
+===> metacity
+===> Building for gdbus-codegen-2.38.2nb2
+/bin/make  all-am
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+  GEN      gdbus-codegen
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+=> Unwrapping files-to-be-installed.
+INFO: [subst.mk:unwrap] Nothing changed in ./gio-2.0.pc.
+INFO: [subst.mk:unwrap] Nothing changed in ./gio-unix-2.0.pc.
+INFO: [subst.mk:unwrap] Nothing changed in ./gio-windows-2.0.pc.
+INFO: [subst.mk:unwrap] Nothing changed in ./gobject-2.0.pc.
+===> Installing for gdbus-codegen-2.38.2nb2
+/bin/make  install-am
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+ /boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.tools/bin/mkdir -p '/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.destdir/boot/home/pkg/bin'
+ /bin/install -c -o user -g root -m 755 gdbus-codegen '/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.destdir/boot/home/pkg/bin'
+ /boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.tools/bin/mkdir -p '/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.destdir/boot/home/pkg/share/glib-2.0/codegen'
+ /bin/install -c -o user -g root -m 644 __init__.py codegen.py codegen_main.py codegen_docbook.py config.py dbustypes.py parser.py utils.py '/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/.destdir/boot/home/pkg/share/glib-2.0/codegen'
+Byte-compiling python modules...
+__init__.pycodegen.pycodegen_main.pycodegen_docbook.pyconfig.pydbustypes.pyparser.pyutils.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pycodegen.pycodegen_main.pycodegen_docbook.pyconfig.pydbustypes.pyparser.pyutils.py
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gdbus-codegen/work/glib-2.38.2/gio/gdbus-2.0/codegen'
+=> Automatic manual page handling
+=> Creating binary package /boot/home/packages/gdbus-codegen-2.38.2nb2.tgz
+===> Install binary package of gdbus-codegen-2.38.2nb2
+=> Returning to build of gtk3+-3.10.7nb4
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/libnotify
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/zenity
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/metacity
+===> mlvwm
+/boot/home/pkgsrc/pkgsrc/wm/mlvwm/work/mlvwm091/mlvwm/event.c:1964: undefined reference to `wait3'
+mlvwm.o: In function `Done':
+/boot/home/pkgsrc/pkgsrc/wm/mlvwm/work/mlvwm091/mlvwm/mlvwm.c:425: undefined reference to `wait3'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/mlvwm/work/mlvwm091/mlvwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/mlvwm/work/mlvwm091
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/mlvwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/mlvwm
+===> musca
+
+=> Fixing Makefile
+gcc -Wno-error -I/boot/home/pkg/include -Wno-error -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -I/boot/home/pkg/include -L/boot/home/pkg/lib -lc -lm -lX11 -o musca musca.c
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/musca/work/musca-0.9.24
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/musca
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/musca
+===> notion
+
+===> Building for notion-3.2014052800
+which: no lua in (/boot/home/pkgsrc/pkgsrc/wm/notion/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/wm/notion/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/wm/notion/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/wm/notion/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/system/non-packaged/apps/X11R6.4/bin:/boot/home/pkg/bin:/boot/home/pkg/bin)
+build/lua-detect.mk:32: *** No lua interpreter found!.  Stop.
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/notion
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/notion
+===> novawm
+
+===> Building for novawm-0.8nb2
+cd . && autoheader
+WARNING: 'autoheader' is missing on your system.  You should only need it if
+         you modified 'acconfig.h' or 'configure.in'.  You might want
+         to install the Autoconf and GNU m4 packages.  Grab them
+         from any GNU archive site.
+cd . \
+  && CONFIG_FILES= CONFIG_HEADERS=config.h \
+     /bin/sh ./config.status
+creating config.h
+config.h is unchanged
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/wm/novawm/work/NovaWM-0.8_alpha'
+Making all in src
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/wm/novawm/work/NovaWM-0.8_alpha/src'
+c++ -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/X11R6/include  -I/boot/home/pkg/include  -D_WIN_GNOME_SUPPORT -DDEBUG        -Wall -Wimplicit -Wreturn-type -Wunused -Wswitch -Wcomment -Wuninitialized -Wparentheses -Wtraditional -Wpointer-arith -Wmissing-prototypes         -g -c main.cpp
+cc1plus: warning: command line option '-Wimplicit' is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option '-Wtraditional' is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++ [enabled by default]
+In file included from main.cpp:17:0:
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ "                "};
+                   ^
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_hide.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+In file included from main.cpp:18:0:
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ "                "};
+                   ^
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_stretch.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+In file included from main.cpp:19:0:
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ "                "};
+                   ^
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+icon_close.xpm:21:19: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+main.cpp: In function 'int main(int, char**)':
+main.cpp:131:6: warning: variable 'timeFormat' set but not used [-Wunused-but-set-variable]
+  int timeFormat = 1;
+      ^
+main.cpp:201:9: warning: variable 'signal_handler' set but not used [-Wunused-but-set-variable]
+  void (*signal_handler) (int);
+         ^
+main.cpp: In member function 'void NovaWM::WM_Start()':
+main.cpp:334:27: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("xterm");
+                           ^
+main.cpp:335:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("?+MENU_SPLIT+?");
+                                    ^
+main.cpp:336:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("Iconify Window");
+                                    ^
+main.cpp:337:33: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("Kill Window");
+                                 ^
+main.cpp:338:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("?+MENU_SPLIT+?");
+                                    ^
+main.cpp:339:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("Restart");
+                             ^
+main.cpp:340:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  rootMenu.AddItem ("Exit");
+                          ^
+main.cpp:342:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Hide");
+                            ^
+main.cpp:343:32: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Maximize");
+                                ^
+main.cpp:344:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Resize");
+                              ^
+main.cpp:345:28: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Kill");
+                            ^
+main.cpp:346:38: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("?+MENU_SPLIT+?");
+                                      ^
+main.cpp:347:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Desktop 1");
+                                         ^
+main.cpp:348:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Desktop 2");
+                                         ^
+main.cpp:349:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Desktop 3");
+                                         ^
+main.cpp:350:41: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Desktop 4");
+                                         ^
+main.cpp:351:44: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Next Desktop");
+                                            ^
+main.cpp:352:48: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  windowMenu.AddItem ("Send to Previous Desktop");
+                                                ^
+main.cpp:358:36: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  novaMenu.AddItem ("?+MENU_SPLIT+?");
+                                    ^
+main.cpp:359:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  novaMenu.AddItem ("Restart");
+                             ^
+main.cpp:360:26: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  novaMenu.AddItem ("Exit");
+                          ^
+main.cpp: In member function 'void NovaWM::Restart()':
+main.cpp:501:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  Run ("novawm");
+               ^
+c++ -DHAVE_CONFIG_H -I. -I. -I.. -I/usr/X11R6/include  -I/boot/home/pkg/include  -D_WIN_GNOME_SUPPORT -DDEBUG        -Wall -Wimplicit -Wreturn-type -Wunused -Wswitch -Wcomment -Wuninitialized -Wparentheses -Wtraditional -Wpointer-arith -Wmissing-prototypes         -g -c events.cpp
+cc1plus: warning: command line option '-Wimplicit' is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option '-Wtraditional' is valid for C/ObjC but not for C++ [enabled by default]
+cc1plus: warning: command line option '-Wmissing-prototypes' is valid for C/ObjC but not for C++ [enabled by default]
+events.cpp: In member function 'void Events::NovaWM_EventLoop()':
+events.cpp:21:3: error: 'fd_set' was not declared in this scope
+   fd_set fd;
+   ^
+events.cpp:21:10: error: expected ';' before 'fd'
+   fd_set fd;
+          ^
+events.cpp:22:18: error: aggregate 'Events::NovaWM_EventLoop()::timeval tv' has incomplete type and cannot be defined
+   struct timeval tv;
+                  ^
+events.cpp:35:17: error: 'fd' was not declared in this scope
+       FD_ZERO (&fd);
+                 ^
+events.cpp:35:19: error: 'FD_ZERO' was not declared in this scope
+       FD_ZERO (&fd);
+                   ^
+events.cpp:36:23: error: 'FD_SET' was not declared in this scope
+       FD_SET (xfd, &fd);
+                       ^
+events.cpp:37:42: error: 'select' was not declared in this scope
+       if (select (xfd + 1, &fd, 0, 0, &tv) == 0)
+                                          ^
+events.cpp:25:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+events.cpp: In member function 'void Events::Event_ButtonUp(XButtonEvent*)':
+events.cpp:297:6: warning: suggest explicit braces to avoid ambiguous 'else' [-Wparentheses]
+   if (event->window == novawm.nbButton)
+      ^
+events.cpp: In member function 'void Events::Event_Property(XPropertyEvent*)':
+events.cpp:549:16: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  window->title = "Unknown";
+                ^
+events.cpp: In member function 'void Events::Event_ClientMessage(XClientMessageEvent*)':
+events.cpp:602:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+       if ((event->data.l[1] == netStateStickyAtom)
+                                ^
+events.cpp:603:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    || (event->data.l[2] == netStateStickyAtom))
+                            ^
+events.cpp: In member function 'void Events::Event_KeyUp(XKeyEvent*)':
+events.cpp:758:19: warning: 'KeySym XKeycodeToKeysym(Display*, unsigned int, int)' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/wm/novawm/work/.buildlink/include/X11/Xlib.h:1699) [-Wdeprecated-declarations]
+   KeySym keysym = XKeycodeToKeysym (display, event->keycode, 0);
+                   ^
+events.cpp:758:63: warning: 'KeySym XKeycodeToKeysym(Display*, unsigned int, int)' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/wm/novawm/work/.buildlink/include/X11/Xlib.h:1699) [-Wdeprecated-declarations]
+   KeySym keysym = XKeycodeToKeysym (display, event->keycode, 0);
+                                                               ^
+events.cpp: In member function 'void Events::rootMenu_Click(int)':
+events.cpp:777:24: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     novawm.Run ("xterm");
+                        ^
+make[2]: *** [events.o] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/novawm/work/NovaWM-0.8_alpha/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/novawm/work/NovaWM-0.8_alpha'
+make: *** [all-recursive-am] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/novawm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/novawm
+===> obconf
+
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/atk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libglade
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/obconf
+===> olvwm
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for xview-lib-3.2.1nb9
+making all in ./lib...
+making all in lib/libolgx...
+making all in lib/libxview...
+making all in lib/libxview/attr...
+rm -f attr.o
+gcc -c -O     -I../../../build/include  -I/boot/home/pkg/include    -DNO_CAST_VATOAV -DFULL_R5 -I/include -DSUNOS41 -DX11R6    -DOS_HAS_LOCALE                         -DOPTIMIZED    attr.c
+In file included from ../../../build/include/xview/pkg.h:27:0,
+                 from ../../../build/include/xview_private/i18n_impl.h:12,
+                 from attr.c:14:
+../../../build/include/xview/notify.h:29:26: fatal error: sys/ucontext.h: No such file or directory
+ #include <sys/ucontext.h>
+                          ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib/work/xview3.2p1-X11R6/lib/libxview/attr
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib/work/xview3.2p1-X11R6/lib/libxview
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib/work/xview3.2p1-X11R6/lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib/work/xview3.2p1-X11R6
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/xview-clients
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/olvwm
+===> openbox
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/openbox
+===> oroborox
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/sysutils/rox
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/rox-lib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/oroborox
+===> piewm
+
+===> Overriding tools for piewm-1.04
+===> Extracting for piewm-1.04
+/bin/tar: piewm-1.04/emblem.xpm: Cannot hard link to `piewm-1.04/emblem.h': Operation not supported
+/bin/tar: Exiting with failure status due to previous errors
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/piewm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/piewm
+
+===> sawfish
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gdk-pixbuf2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gdk-pixbuf2-xlib
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/sawfish
+===> selectwm
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/selectwm
+===> skippy
+
+===> Building for skippy-0.5.0nb17
+gcc -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wno-error -I/boot/home/pkg/include `imlib2-config --cflags` `pkg-config xft --cflags` -pedantic -Wall -DXINERAMA -o skippy skippy.c wm.c dlist.c mainwin.c clientwin.c layout.c focus.c config.c tooltip.c -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/home/pkg/lib -lX11 -lm `imlib2-config --libs` `pkg-config xft --libs` -lXext -lXinerama
+Package pthread-stubs was not found in the pkg-config search path.
+Perhaps you should add the directory containing `pthread-stubs.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'pthread-stubs', required by 'xcb', not found
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from skippy.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from skippy.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from wm.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from wm.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from dlist.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from dlist.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from mainwin.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from mainwin.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from clientwin.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from clientwin.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from layout.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from layout.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from focus.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from focus.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from config.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from config.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+In file included from /boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xlib.h:47:0,
+                 from skippy.h:23,
+                 from tooltip.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xfuncproto.h:145:24: warning: ISO C does not permit named variadic macros [-Wvariadic-macros]
+ #define _X_NONNULL(args...)  __attribute__((__nonnull__(args)))
+                        ^
+In file included from skippy.h:24:0,
+                 from tooltip.c:20:
+/boot/home/pkgsrc/pkgsrc/wm/skippy/work/.buildlink/include/X11/Xmd.h:110:23: warning: ISO C90 does not support 'long long' [-Wlong-long]
+ typedef unsigned long long CARD64;
+                       ^
+/tmp//ccNAfGq2.o: In function `main':
+skippy.c:(.text+0xaf1): undefined reference to `imlib_context_set_display'
+skippy.c:(.text+0xb03): undefined reference to `imlib_context_set_visual'
+skippy.c:(.text+0xb15): undefined reference to `imlib_context_set_colormap'
+/tmp//ccVjREh5.o: In function `mainwin_create':
+mainwin.c:(.text+0x341): undefined reference to `imlib_get_best_visual'
+/tmp//ccVjREh5.o: In function `mainwin_update_bg_pixmap':
+mainwin.c:(.text+0x898): undefined reference to `imlib_free_pixmap_and_mask'
+mainwin.c:(.text+0x8f5): undefined reference to `imlib_context_set_drawable'
+mainwin.c:(.text+0x90b): undefined reference to `imlib_render_pixmaps_for_whole_image'
+/tmp//ccVjREh5.o: In function `mainwin_update_background':
+mainwin.c:(.text+0xa4d): undefined reference to `imlib_context_set_drawable'
+mainwin.c:(.text+0xa6b): undefined reference to `imlib_copy_drawable_to_image'
+/tmp//ccVjREh5.o: In function `mainwin_destroy':
+mainwin.c:(.text+0xfae): undefined reference to `imlib_free_pixmap_and_mask'
+/tmp//cc34D0Pv.o: In function `clientwin_snap':
+clientwin.c:(.text+0x506): undefined reference to `imlib_context_set_drawable'
+clientwin.c:(.text+0x529): undefined reference to `imlib_create_image_from_drawable'
+/tmp//cc34D0Pv.o: In function `clientwin_render':
+clientwin.c:(.text+0x6af): undefined reference to `imlib_context_set_drawable'
+clientwin.c:(.text+0x6be): undefined reference to `imlib_render_image_on_drawable'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/skippy/work/skippy-0.5.0
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/skippy
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/skippy
+===> spectrwm
+
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXcursor
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXcursor
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/libXcursor
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/spectrwm
+===> tvtwm
+
+===> Building for tvtwm-11nb3
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c gram.c
+gram.y:839:1: warning: conflicting types for 'yyerror' [enabled by default]
+ yyerror(s) char *s;
+ ^
+gram.y:344:4: note: previous implicit declaration of 'yyerror' was here
+    yyerror("\"pixmap\" : \"mask\" syntax no longer supported");
+    ^
+gram.y:847:1: warning: conflicting types for 'RemoveDQuote' [enabled by default]
+ RemoveDQuote(str)
+ ^
+gram.y:823:8: note: previous implicit declaration of 'RemoveDQuote' was here
+        RemoveDQuote(ptr);
+        ^
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c lex.c
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c deftwmrc.c
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c add_window.c
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c gc.c
+gcc -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -I/boot/home/pkg/include -c list.c
+rm -f twm.o
+gcc -c -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   -DXLOADIMAGE=\"/boot/home/pkg/bin/xloadimage\" -DM4_DEFAULT  twm.c
+rm -f parse.o
+gcc -c -O      -I/boot/home/pkg/include        -DSHAPE  -DXPM   '-DSYSTEM_INIT_FILE="'/boot/home/pkg/lib/X11/twm'/system.tvtwmrc"' parse.c
+parse.c:109:13: error: conflicting types for 'yyparse'
+ extern void yyparse(void);
+             ^
+In file included from parse.c:49:0:
+y.tab.h:243:5: note: previous declaration of 'yyparse' was here
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/tvtwm/work/tvtwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/tvtwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/tvtwm
+===> uwm
+
+===> Building for uwm-19881027nb2
+yacc -d gram.y
+gcc -O      -I../.. -I/boot/home/pkg/include        -DSYSFILE=\"/boot/home/pkg/lib/X11/uwm/system.uwmrc\"  -I/boot/home/pkg/include -c -o gram.o y.tab.c
+In file included from ../../X11/keysym.h:35:0,
+                 from /boot/home/pkgsrc/pkgsrc/wm/uwm/work/.buildlink/include/X11/Xutil.h:54,
+                 from uwm.h:50,
+                 from gram.y:42:
+../../X11/keysymdef.h:195:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_MISCELLANY
+        ^
+../../X11/keysymdef.h:394:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_LATIN1
+        ^
+../../X11/keysymdef.h:455:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_LATIN2
+        ^
+../../X11/keysymdef.h:485:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_LATIN3
+        ^
+../../X11/keysymdef.h:529:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_LATIN4
+        ^
+../../X11/keysymdef.h:602:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_KATAKANA
+        ^
+../../X11/keysymdef.h:659:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_ARABIC
+        ^
+../../X11/keysymdef.h:759:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_CYRILLIC
+        ^
+../../X11/keysymdef.h:839:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_GREEK
+        ^
+../../X11/keysymdef.h:896:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_TECHNICAL
+        ^
+../../X11/keysymdef.h:928:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_SPECIAL
+        ^
+../../X11/keysymdef.h:1019:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_PUBLISHING
+        ^
+../../X11/keysymdef.h:1046:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_APL
+        ^
+../../X11/keysymdef.h:1082:8: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif XK_HEBREW
+        ^
+gram.y: In function 'yyparse':
+gram.y:171:30: warning: assignment makes pointer from integer without a cast [enabled by default]
+                    menu_info = stashmenuinfo(menu_name, ml_ptr, hcolors);
+                              ^
+gram.y:172:30: warning: assignment makes pointer from integer without a cast [enabled by default]
+                    menu_link = stashmenulink(menu_info);
+                              ^
+gram.y:173:26: warning: assignment makes pointer from integer without a cast [enabled by default]
+                    Menus = appendmenulink(Menus, menu_link);
+                          ^
+gram.y:277:21: warning: assignment makes pointer from integer without a cast [enabled by default]
+    { $$ = appendmenuline($1, $2); }
+                     ^
+gram.y:320:15: warning: assignment makes pointer from integer without a cast [enabled by default]
+        ml_ptr = AllocMenuLine();
+               ^
+gram.y:337:15: warning: assignment makes pointer from integer without a cast [enabled by default]
+        ml_ptr = AllocMenuLine();
+               ^
+gram.y:344:22: warning: assignment makes pointer from integer without a cast [enabled by default]
+        $$ = StashMenuLine(IsShellCommand, $2);
+                      ^
+gram.y:348:22: warning: assignment makes pointer from integer without a cast [enabled by default]
+        $$ = StashMenuLine(IsTextNL, $2);
+                      ^
+gram.y:352:22: warning: assignment makes pointer from integer without a cast [enabled by default]
+        $$ = StashMenuLine(IsText, $2);
+                      ^
+gram.y:358:20: warning: assignment makes pointer from integer without a cast [enabled by default]
+    { $$ = strconcat($1, $2); }
+                    ^
+gram.y: At top level:
+gram.y:506:1: error: conflicting types for 'strconcat'
+ strconcat(s1, s2)
+ ^
+gram.y:358:22: note: previous implicit declaration of 'strconcat' was here
+    { $$ = strconcat($1, $2); }
+                      ^
+gram.y:650:1: error: conflicting types for 'AllocMenuLine'
+ AllocMenuLine()
+ ^
+gram.y:320:17: note: previous implicit declaration of 'AllocMenuLine' was here
+        ml_ptr = AllocMenuLine();
+                 ^
+gram.y:695:1: error: conflicting types for 'StashMenuLine'
+ StashMenuLine(type, string)
+ ^
+gram.y:344:24: note: previous implicit declaration of 'StashMenuLine' was here
+        $$ = StashMenuLine(IsShellCommand, $2);
+                        ^
+gram.y:711:1: error: conflicting types for 'stashmenuinfo'
+ stashmenuinfo(name, line, colors)
+ ^
+gram.y:171:32: note: previous implicit declaration of 'stashmenuinfo' was here
+                    menu_info = stashmenuinfo(menu_name, ml_ptr, hcolors);
+                                ^
+gram.y:732:1: error: conflicting types for 'stashmenulink'
+ stashmenulink(menuinfo)
+ ^
+gram.y:172:32: note: previous implicit declaration of 'stashmenulink' was here
+                    menu_link = stashmenulink(menu_info);
+                                ^
+gram.y:747:1: error: conflicting types for 'appendmenuline'
+ appendmenuline(list, line)
+ ^
+gram.y:277:23: note: previous implicit declaration of 'appendmenuline' was here
+    { $$ = appendmenuline($1, $2); }
+                       ^
+gram.y:768:1: error: conflicting types for 'appendmenulink'
+ appendmenulink(list, link)
+ ^
+gram.y:173:28: note: previous implicit declaration of 'appendmenulink' was here
+                    Menus = appendmenulink(Menus, menu_link);
+                            ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/uwm/work/X.V11R3/clients/uwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/uwm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/uwm
+===> vtwm
+
+gcc -Wno-error -Wno-error -c -O2 -DNeedFunctionPrototypes=1 -DSASR      -DWAV49  -I/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/inc /boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c
+/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c: In function 'update_times':
+/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c:357:18: error: array type has incomplete element type
+   struct timeval tv[2];
+                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/rplay
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/vtwm
+===> waimea
+g++  -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2  -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib   -L/boot/home/pkg/lib  -lSM -lICE -o waimea  main.o Waimea.o Screen.o Window.o Resources.o Event.o Image.o Menu.o Net.o Dockapp.o Timer.o Regex.o Font.o  -L/boot/home/pkg/lib -lX11 -lXext -lXinerama -lXrender  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lXft  -lImlib2
+Screen.o: In function `WaScreen::WaScreen(_XDisplay*, int, Waimea*)':
+Screen.cc:(.text+0x41c): undefined reference to `imlib_context_set_display'
+Screen.cc:(.text+0x44e): undefined reference to `imlib_context_set_drawable'
+Screen.cc:(.text+0x480): undefined reference to `imlib_context_set_colormap'
+Screen.cc:(.text+0x4b2): undefined reference to `imlib_context_set_visual'
+Window.o: In function `.L978':
+Window.cc:(.text+0xbb08): undefined reference to `imlib_free_pixmap_and_mask'
+Resources.o: In function `ResourceHandler::ReadDatabaseTexture(char*, char*, WaTexture*, unsigned long, WaImageControl*)':
+Resources.cc:(.text+0xc01e): undefined reference to `imlib_context_set_mask'
+Image.o: In function `WaImage::render_pixmap(WaTexture*)':
+Image.cc:(.text+0x5b0): undefined reference to `imlib_context_set_mask'
+Image.cc:(.text+0x5fb): undefined reference to `imlib_render_pixmaps_for_whole_image'
+Image.cc:(.text+0x61d): undefined reference to `imlib_render_pixmaps_for_whole_image_at_size'
+collect2: error: ld returned 1 exit status
+make[2]: *** [waimea] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/waimea/work/waimea-0.4.0/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/waimea/work/waimea-0.4.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/waimea
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/waimea
+===> wampager
+
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/wm/waimea/work/waimea-0.4.0/src'
+g++  -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2  -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib   -L/boot/home/pkg/lib  -lSM -lICE -o waimea  main.o Waimea.o Screen.o Window.o Resources.o Event.o Image.o Menu.o Net.o Dockapp.o Timer.o Regex.o Font.o  -L/boot/home/pkg/lib -lX11 -lXext -lXinerama -lXrender  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lXft  -lImlib2
+Screen.o: In function `WaScreen::WaScreen(_XDisplay*, int, Waimea*)':
+Screen.cc:(.text+0x41c): undefined reference to `imlib_context_set_display'
+Screen.cc:(.text+0x44e): undefined reference to `imlib_context_set_drawable'
+Screen.cc:(.text+0x480): undefined reference to `imlib_context_set_colormap'
+Screen.cc:(.text+0x4b2): undefined reference to `imlib_context_set_visual'
+Window.o: In function `.L978':
+Window.cc:(.text+0xbb08): undefined reference to `imlib_free_pixmap_and_mask'
+Resources.o: In function `ResourceHandler::ReadDatabaseTexture(char*, char*, WaTexture*, unsigned long, WaImageControl*)':
+Resources.cc:(.text+0xc01e): undefined reference to `imlib_context_set_mask'
+Image.o: In function `WaImage::render_pixmap(WaTexture*)':
+Image.cc:(.text+0x5b0): undefined reference to `imlib_context_set_mask'
+Image.cc:(.text+0x5fb): undefined reference to `imlib_render_pixmaps_for_whole_image'
+Image.cc:(.text+0x61d): undefined reference to `imlib_render_pixmaps_for_whole_image_at_size'
+collect2: error: ld returned 1 exit status
+make[2]: *** [waimea] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/waimea/work/waimea-0.4.0/src'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/wm/waimea/work/waimea-0.4.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/waimea
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/waimea
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wampager
+===> wbar
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching wbar-2.2.2.tar.gz
+
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/atk
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libglade
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wbar
+===> windowmaker
+
+===> Configuring for windowmaker-0.95.5nb3
+
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for windowmaker-0.95.5nb3
+nclude/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\" -I../WINGs/WINGs -I../wrlib -I../src -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -DPIC -o .libs/error.o
+error.c: In function '__wmessage':
+error.c:43:21: error: '_SC_LINE_MAX' undeclared (first use in this function)
+   linemax = sysconf(_SC_LINE_MAX);
+                     ^
+error.c:43:21: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+===> wm2
+
+===> Building for wm2-4.0nb2
+makedepend -- -Wno-error -I/boot/home/pkg/include -Wno-error -- *.C
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/config/HaikuConfig.h), line 60: #    error Unsupported architecture!
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/size_t.h, line 9): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/signal.h), line 351: incomplete include == "#include __HAIKU_ARCH_HEADER(signal.h)"
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/limits.h, line 12): cannot find include file "float.h"
+        not in /boot/home/pkg/include/float.h
+        not in /usr/include/float.h
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/limits.h, line 82): cannot find include file "limits.h"
+        not in /usr/include/limits.h
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/stdlib.h, line 12): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/wchar_t.h, line 8): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  Border.C (reading /boot/home/pkg/include/X11/Xlib.h, line 51): cannot find include file "stddef.h"
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+g++ -c -Wno-error -I/boot/home/pkg/include -Wno-error Border.C
+Border.C: In constructor 'Border::Border(Client*, Window)':
+Border.C:50:66: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+  if (!(m_tabFont = XRotLoadFont(display(), CONFIG_NICE_FONT, 90.0)) &&
+                                                                  ^
+Border.C:51:67: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      !(m_tabFont = XRotLoadFont(display(), CONFIG_NASTY_FONT, 90.0))) {
+                                                                   ^
+Border.C:62:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      (CONFIG_TAB_FOREGROUND, "tab foreground");
+                                              ^
+Border.C:62:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Border.C:64:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      (CONFIG_TAB_BACKGROUND, "tab background");
+                                              ^
+Border.C:64:46: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Border.C:66:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      (CONFIG_FRAME_BACKGROUND, "frame background");
+                                                  ^
+Border.C:66:50: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Border.C:68:52: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      (CONFIG_BUTTON_BACKGROUND, "button background");
+                                                    ^
+Border.C:68:52: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+Border.C:70:31: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+      (CONFIG_BORDERS, "border");
+                               ^
+Border.C:70:31: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+g++ -c -Wno-error -I/boot/home/pkg/include -Wno-error Buttons.C
+g++ -c -Wno-error -I/boot/home/pkg/include -Wno-error Client.C
+Client.C: In member function 'int Client::getAtomProperty(Atom, Atom)':
+Client.C:413:18: error: 'intptr_t' was not declared in this scope
+     return (int)(intptr_t)x;
+                  ^
+Client.C:413:27: error: expected ';' before 'x'
+     return (int)(intptr_t)x;
+                           ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wm2/work/wm2-4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wm2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wm2
+===> wmakerconf
+
+/bin/sh ../libtool  --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H  -I. -I..  -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\"  -I../WINGs/WINGs -I../wrlib -I../src  -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include  -I/include -I/include  -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\" -I../WINGs/WINGs -I../wrlib -I../src -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -DPIC -o .libs/error.o
+error.c: In function '__wmessage':
+error.c:43:21: error: '_SC_LINE_MAX' undeclared (first use in this function)
+   linemax = sysconf(_SC_LINE_MAX);
+                     ^
+error.c:43:21: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wmakerconf
+===> wmctrl
+
+===> Building for wmctrl-1.07nb4
+if gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"wmctrl\" -DVERSION=\"1.07\" -I. -I.  -I/boot/home/pkg/include -I/boot/home/pkg/include/glib/glib-2.0 -I/boot/home/pkg/lib/glib-2.0/include -I/boot/home/pkg/include  -I/boot/home/pkg/include -Wall -Wno-error -I/boot/home/pkg/include -MT main.o -MD -MP -MF ".deps/main.Tpo"  -c -o main.o `test -f 'main.c' || echo './'`main.c;  then mv -f ".deps/main.Tpo" ".deps/main.Po";  else rm -f ".deps/main.Tpo"; exit 1;  fi
+main.c: In function 'window_set_title':
+main.c:653:21: warning: pointer targets in passing argument 7 of 'XChangeProperty' differ in signedness [-Wpointer-sign]
+                     title_local, strlen(title_local));
+                     ^
+In file included from main.c:33:0:
+/boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.buildlink/include/X11/Xlib.h:2080:12: note: expected 'const unsigned char *' but argument is of type 'gchar *'
+ extern int XChangeProperty(
+            ^
+main.c:660:17: warning: pointer targets in passing argument 7 of 'XChangeProperty' differ in signedness [-Wpointer-sign]
+                 title_utf8, strlen(title_utf8));
+                 ^
+In file included from main.c:33:0:
+/boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.buildlink/include/X11/Xlib.h:2080:12: note: expected 'const unsigned char *' but argument is of type 'gchar *'
+ extern int XChangeProperty(
+            ^
+main.c:667:21: warning: pointer targets in passing argument 7 of 'XChangeProperty' differ in signedness [-Wpointer-sign]
+                     title_local, strlen(title_local));
+                     ^
+In file included from main.c:33:0:
+/boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.buildlink/include/X11/Xlib.h:2080:12: note: expected 'const unsigned char *' but argument is of type 'gchar *'
+ extern int XChangeProperty(
+            ^
+main.c:674:17: warning: pointer targets in passing argument 7 of 'XChangeProperty' differ in signedness [-Wpointer-sign]
+                 title_utf8, strlen(title_utf8));
+                 ^
+In file included from main.c:33:0:
+/boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.buildlink/include/X11/Xlib.h:2080:12: note: expected 'const unsigned char *' but argument is of type 'gchar *'
+ extern int XChangeProperty(
+            ^
+gcc -Wall -Wno-error -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib -o wmctrl  main.o -L/boot/home/pkg/lib  -lSM -lICE -lX11 -lXmu  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -lglib-2.0 -lintl 
+=> Unwrapping files-to-be-installed.
+===> Installing for wmctrl-1.07nb4
+/bin/sh ./mkinstalldirs /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/bin
+mkdir -p -- /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/bin
+  /bin/install -c -s -o user -g root -m 755 wmctrl /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/bin/wmctrl
+/bin/sh ./mkinstalldirs /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/man/man1
+mkdir -p -- /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/man/man1
+ /bin/install -c -o user -g root -m 644 ./wmctrl.1 /boot/home/pkgsrc/pkgsrc/wm/wmctrl/work/.destdir/boot/home/pkg/man/man1/wmctrl.1
+=> Automatic manual page handling
+=> Creating binary package /boot/home/packages/wmctrl-1.07nb4.tgz
+===> Install binary package of wmctrl-1.07nb4
+===> wmextra
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching WindowMaker-extra-0.1.tar.gz
+=> Total size: 238018 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file WindowMaker-extra-0.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  232k  100  232k    0     0  47877      0  0:00:04  0:00:04 --:--:-- 58138
+===> Installing dependencies for wmextra-0.1nb3
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency windowmaker>=0.80.0nb1: NOT found
+=> Verifying reinstall for ../../wm/windowmaker
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for windowmaker-0.95.5nb3
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in wrlib
+Making all in .
+Making all in WINGs
+Making all in WINGs
+Making all in .
+/bin/sh ../libtool  --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H  -I. -I..  -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\"  -I../WINGs/WINGs -I../wrlib -I../src  -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include  -I/include -I/include  -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\" -I../WINGs/WINGs -I../wrlib -I../src -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -DPIC -o .libs/error.o
+error.c: In function '__wmessage':
+error.c:43:21: error: '_SC_LINE_MAX' undeclared (first use in this function)
+   linemax = sysconf(_SC_LINE_MAX);
+                     ^
+error.c:43:21: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wmextra
+===> wmii
+
+===> Building for libixp-0.4
+MAKE all libixp/
+HEADER include/ixp_fcall.h from fcall.h.nounion
+CC libixp/client.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libixp/client.c:384:13: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   memcpy(buf+len, fcall.data, fcall.count);
+             ^
+libixp/client.c:428:20: warning: pointer of type 'void *' used in arithmetic [-Wpointer-arith]
+   fcall.data = buf + len;
+                    ^
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/convert.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libixp/convert.c:17:1: warning: no previous prototype for 'ixp_puint' [-Wmissing-prototypes]
+ ixp_puint(IxpMsg *msg, uint size, uint *val) {
+ ^
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/error.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/intmap.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/message.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libixp/message.c:79:1: warning: no previous prototype for 'ixp_pfcall' [-Wmissing-prototypes]
+ ixp_pfcall(IxpMsg *msg, Fcall *fcall) {
+ ^
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/request.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/rpc.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/server.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/socket.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libixp/socket.c:50:22: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  memset(sa, 0, sizeof(sa));
+                      ^
+libixp/socket.c:54:2: warning: implicit declaration of function 'SUN_LEN' [-Wimplicit-function-declaration]
+  *salen = SUN_LEN(sa);
+  ^
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/thread.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+libixp/thread.c:8:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ errbuf() {
+ ^
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/transport.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+CC libixp/util.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+AR lib/libixp.a
+MAKE all libixp_pthread/
+CC libixp_pthread/thread_pthread.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+gcc: warning: .: linker input file unused because linking not done
+AR lib/libixp_pthread.a
+MAKE all cmd/
+CC cmd/ixpc.o
+<command-line>:0:0: warning: "VERSION" redefined [enabled by default]
+<command-line>:0:0: note: this is the location of the previous definition
+cmd/ixpc.c:36:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ usage() {
+ ^
+cmd/ixpc.c:278:3: warning: pointer targets in passing argument 1 of 'ixp_message' differ in signedness [-Wpointer-sign]
+   m = ixp_message(buf, count, MsgUnpack);
+   ^
+In file included from cmd/ixpc.c:11:0:
+../include/ixp.h:455:8: note: expected '_ixpuchar *' but argument is of type 'char *'
+ IxpMsg ixp_message(uchar *data, uint length, uint mode);
+        ^
+gcc: warning: .: linker input file unused because linking not done
+LD cmd/ixpc.O
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+make[1]: *** [ixpc.O] Error 1
+make: *** [dall] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libixp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libixp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wmii
+===> wmthemes
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching freebsdtheme-0.52.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   319  100   319    0     0    589      0 --:--:-- --:--:-- --:--:--  2084
+=> Fetching netbsd_-0.52.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   319  100   319    0     0   1624      0 --:--:-- --:--:-- --:--:--  2155
+=> Fetching netbsddrinkingteam-0.60.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   319  100   319    0     0   1721      0 --:--:-- --:--:-- --:--:--  2328
+===> Installing dependencies for wmthemes-0.80.0nb2
+==========================================================================
+The following variables will affect the build process of this package,
+wmthemes-0.80.0nb2.  Their current value is shown below:
+
+        * WINDOWMAKER_THEMES = freebsdtheme-0.52 netbsddrinkingteam-0.60.0 netbsd_-0.52
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Full dependency windowmaker>=0.80.0nb1: NOT found
+=> Verifying reinstall for ../../wm/windowmaker
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for windowmaker-0.95.5nb3
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in wrlib
+Making all in .
+Making all in WINGs
+Making all in WINGs
+Making all in .
+/bin/sh ../libtool  --tag=CC    --mode=compile gcc -DHAVE_CONFIG_H  -I. -I..  -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\"  -I../WINGs/WINGs -I../wrlib -I../src  -I/boot/home/pkg/include -I/packages/libxcb-1.11-2/.self/develop/headers -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include  -I/include -I/include  -I/boot/home/pkg/include -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2   -Wno-error -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c -o error.lo error.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/boot/home/pkg/share/locale\" -DRESOURCE_PATH=\"/boot/home/pkg/share/WINGs\" -I../WINGs/WINGs -I../wrlib -I../src -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include -I/boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/.buildlink/include/freetype2 -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-deprecated -Wno-deprecated-declarations -MT error.lo -MD -MP -MF .deps/error.Tpo -c error.c  -DPIC -o .libs/error.o
+error.c: In function '__wmessage':
+error.c:43:21: error: '_SC_LINE_MAX' undeclared (first use in this function)
+   linemax = sysconf(_SC_LINE_MAX);
+                     ^
+error.c:43:21: note: each undeclared identifier is reported only once for each function it appears in
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5/WINGs
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker/work/WindowMaker-0.95.5
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/windowmaker
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/wmthemes
+===> xfce4-wm
+
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/xfce4-wm
+
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for gobject-introspection-1.38.0nb2
+/bin/make  all-recursive
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+Making all in .
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+  GISCAN   GLib-2.0.gir
+/boot/home/pkg/bin/libtool: line 10068: exec: ldd: not found
+ERROR: can't resolve libraries to shared libraries: gobject-2.0, glib-2.0
+make[2]: *** [GLib-2.0.gir] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/devel/gobject-introspection/work/gobject-introspection-1.38.0'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/x11/gtk2
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/xfce4-wm-themes
+===> xmonad
+
+=> Verifying reinstall for ../../lang/ghc7
+bmake: "../../lang/ghc7/../../lang/ghc7/bootstrap.mk" line 142: warning: duplicate script for target "/boot/home/pkgsrc/pkgsrc/lang/ghc7/work/" ignored
+bmake: "../../lang/ghc7/../../lang/ghc7/bootstrap.mk" line 138: warning: using previous script for "/boot/home/pkgsrc/pkgsrc/lang/ghc7/work/" defined here
+bmake: "../../lang/ghc7/../../lang/ghc7/bootstrap.mk" line 143: warning: duplicate script for target "/boot/home/pkgsrc/pkgsrc/lang/ghc7/work/" ignored
+bmake: "../../lang/ghc7/../../lang/ghc7/bootstrap.mk" line 138: warning: using previous script for "/boot/home/pkgsrc/pkgsrc/lang/ghc7/work/" defined here
+ERROR: This package is only available for these platforms: Darwin-*-powerpc  FreeBSD-*-i386  Linux-*-x86_64  NetBSD-*-i386  NetBSD-*-x86_64  SunOS-5.11-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: internal error: unsupported platform
+ERROR: ghc-7.6.3nb3 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/ghc7
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/wm/xmonad
+~/pkgsrc/pkgsrc/wm> 

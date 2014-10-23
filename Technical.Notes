@@ -265,3 +265,8 @@ a.) Code changes: 3
 7 known packages that required modification to compile:
 a.) Code changes: 4
 b.) Changes to makefiles: 3
+
+Total packages built: 4,891
+Total installed packages: 4,804
+Total packages available: 11,771
+Build percentage: 41.5513%

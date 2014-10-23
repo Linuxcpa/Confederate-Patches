@@ -1,0 +1,2832 @@
+
+Welcome to the Haiku shell.
+
+~> go
+~/pkgsrc/pkgsrc> cd benchmarks/
+~/pkgsrc/pkgsrc/benchmarks> do
+===> benchfft
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching benchfft-2.0.tar.gz
+=> Total size: 585518 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file benchfft-2.0.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  571k  100  571k    0     0   227k      0  0:00:02  0:00:02 --:--:--  230k
+=> Fetching fftw-2.0.1.tar.gz
+=> Total size: 894543 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file fftw-2.0.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file fftw-2.0.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  873k  100  873k    0     0  93718      0  0:00:09  0:00:09 --:--:--  190k
+===> Installing dependencies for benchfft-2.0nb4
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libtool-2.4.2.tar.gz
+=> Total size: 2632347 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 2570k  100 2570k    0     0   431k      0  0:00:05  0:00:05 --:--:--  513k
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching g95_source.tgz
+=> Total size: 1355198 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1323k  100 1323k    0     0   660k      0  0:00:02  0:00:02 --:--:--  814k
+=> Fetching gcc-core-4.1.2.tar.bz2
+=> Total size: 17485561 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 16.6M  100 16.6M    0     0   521k      0  0:00:32  0:00:32 --:--:--  587k
+===> Installing dependencies for g95-0.93nb6
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for g95-0.93nb6
+===> Extracting for g95-0.93nb6
+/bin/mkdir -p /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93 && /bin/tar -xzf libf95.a-0.93.tar.gz
+===> Patching for g95-0.93nb6
+=> Applying pkgsrc patches for g95-0.93nb6
+===> Creating toolchain wrappers for g95-0.93nb6
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:3: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:3: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.in:7: installing './compile'
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+Makefile.am:10: warning: source file 'intrinsics/adjust.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+automake: warning: possible forward-incompatibility.
+automake: At least a source file is in a subdirectory, but the 'subdir-objects'
+automake: automake option hasn't been enabled.  For now, the corresponding output
+automake: object file(s) will be placed in the top-level directory.  However,
+automake: this behaviour will change in future Automake versions: they will
+automake: unconditionally cause object files to be placed in the same subdirectory
+automake: of the corresponding sources.
+automake: You are advised to start using 'subdir-objects' option throughout your
+automake: project, to avoid future incompatibilities.
+Makefile.am:10: warning: source file 'intrinsics/all.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/any.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/command.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/count.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/cshift.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/dot_product.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/dot_product10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/eoshift.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/gerror.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/get_environ.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/index.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/iostat.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/isatty.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/len_trim.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/matmul.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/matmul10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/misc.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mmloc.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mmval.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mvbits.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/pack.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/product.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/random.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/real10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/repeat.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/reshape.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/scan.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/shape.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/size.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/spread.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/sum.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/transpose.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/trim.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/unpack.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/verify.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/xfer.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/atof.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/backspace.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/close.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/endfile.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/flush.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/fnum.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/format.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/fwrite.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/ftoa.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/inquire.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/iread.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/iwrite.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/list_read.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/namelist.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/open.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/read.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/rewind.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/stream.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/transfer.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/unit.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/write.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/abs.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/bessel.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/erf.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/ff.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/gamma.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/power.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/mod.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/round.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/single.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/transcendental.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/abs16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/basic.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/power16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/sqrt16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/array.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/coarray.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/environ.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/error.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/fpu_set.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/main.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/mask.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/memory.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/mutex.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/safe-ctype.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/select.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/stop.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/string.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/top.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/abort.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/access.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/chdir.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/chmod.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/link.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/ltime.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/exit.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/ftell.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getarg.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getcwd.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getenv.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/rename.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/signal.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/system.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/time.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/unlink.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:39: warning: source file 'math/x87.S' is in a subdirectory,
+Makefile.am:39: but option 'subdir-objects' is disabled
+Makefile.am:43: warning: source file 'runtime/resume.c' is in a subdirectory,
+Makefile.am:43: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/fpu_trap.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getlog.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getpid.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/system_clock.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/dtime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/etime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/cpu_time.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/date_and_time.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/fdate.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/hostnm.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getuid.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/idate.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/itime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/sleep.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/stat.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/unix_io.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/secnds.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/second.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/fpu_trap_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/dtime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/etime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/system_clock_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/cpu_time_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/date_and_time_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/hostnm_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/itime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/getlog_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/getpid_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/fdate_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/sleep_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/windows_io.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/secnds_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/second_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/stat_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/idate_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+rm -f /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95 && /bin/env LIBTOOL="libtool " INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo FLEX= BISON= AWK=/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/bin/chmod CMP=/bin/cmp CP=/bin/cp DIFF=/bin/diff ECHO=echo ac_cv_path_ECHO=echo EGREP=/bin/egrep ac_cv_path_EGREP=/bin/egrep SETENV=/bin/env ENV_PROG=/bin/env ac_cv_path_ENV=/bin/env FALSE=false ac_cv_path_FALSE=false FIND=/bin/find GREP=/bin/grep ac_cv_path_GREP=/bin/grep TAR=/bin/tar HOSTNAME=/bin/hostname LN=/bin/ln\ -s LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/bin/rmdir SED=/bin/sed SORT=/bin/sort TAR=/bin/tar TEST=test ac_cv_path_TEST=test TOUCH=/bin/touch TR=/bin/tr TRUE=true ac_cv_path_TRUE=true PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs CPPFLAGS= CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -lnetwork\ -Wl,-R/boot/home/pkg/lib\ -L/boot/system/develop/lib/libroot.so\ -Wl,-R/boot/system/develop/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.home CONFIG_SHELL=/bin/sh LIBS= ac_given_INSTALL=/bin/install\ -c\ -o\ user\ -g\ root ../configure --with-gcc-dir=/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2 PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig --enable-shared --prefix=/boot/home/pkg --prefix=/boot/home/pkg --build=i386-pc-haiku --host=i386-pc-haiku --mandir=/boot/home/pkg/man --enable-languages=c --disable-multilib --disable-libssp
+configure: warning: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig: invalid host type
+creating cache ./config.cache
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+
+checking build system type... i386-pc-haiku
+checking for a BSD compatible install... /boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/install -c
+checking whether ln works... yes
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether the C compiler (gcc -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib) works... yes
+checking whether the C compiler (gcc -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gnatbind... no
+checking whether compiler driver understands Ada... no
+checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+checking for correct version of gmp.h... yes
+checking for MPFR... no
+*** This configuration is not supported in the following subdirectories:
+     target-libssp target-libmudflap
+    (Any other directories should still work fine.)
+checking for bison... bison -y
+checking for bison... bison
+checking for gm4... gm4
+checking for flex... flex
+checking for flex... flex
+checking for makeinfo... /boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo
+checking for expect... no
+checking for runtest... no
+checking for i386-pc-haiku-ar... no
+checking for ar... ar
+checking for i386-pc-haiku-as... no
+checking for as... as
+checking for i386-pc-haiku-dlltool... no
+checking for dlltool... no
+checking for i386-pc-haiku-ld... /boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld
+checking for i386-pc-haiku-lipo... no
+checking for lipo... no
+checking for i386-pc-haiku-nm... no
+checking for nm... nm
+checking for i386-pc-haiku-ranlib... no
+checking for ranlib... ranlib
+checking for i386-pc-haiku-strip... no
+checking for strip... strip
+checking for i386-pc-haiku-windres... no
+checking for windres... no
+checking for i386-pc-haiku-objcopy... no
+checking for objcopy... objcopy
+checking for i386-pc-haiku-objdump... no
+checking for objdump... objdump
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ar... no
+../configure: line 4506: test: i386-pc-haiku: unary operator expected
+../configure: line 4542: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-as... no
+../configure: line 4581: test: i386-pc-haiku: unary operator expected
+../configure: line 4617: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-cc... no
+../configure: line 4656: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcc... no
+../configure: line 4656: test: i386-pc-haiku: unary operator expected
+../configure: line 4692: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-c++... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-g++... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-cxx... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gxx... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+../configure: line 4767: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-dlltool... no
+../configure: line 4806: test: i386-pc-haiku: unary operator expected
+../configure: line 4842: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcc... no
+../configure: line 4881: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcj... no
+../configure: line 4951: test: i386-pc-haiku: unary operator expected
+../configure: line 4987: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gfortran... no
+../configure: line 5026: test: i386-pc-haiku: unary operator expected
+../configure: line 5062: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ld... no
+../configure: line 5101: test: i386-pc-haiku: unary operator expected
+../configure: line 5137: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-lipo... no
+../configure: line 5176: test: i386-pc-haiku: unary operator expected
+../configure: line 5212: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-nm... no
+../configure: line 5251: test: i386-pc-haiku: unary operator expected
+../configure: line 5287: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-objdump... no
+../configure: line 5326: test: i386-pc-haiku: unary operator expected
+../configure: line 5362: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ranlib... no
+../configure: line 5401: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-strip... no
+../configure: line 5471: test: i386-pc-haiku: unary operator expected
+../configure: line 5507: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-windres... no
+../configure: line 5546: test: i386-pc-haiku: unary operator expected
+../configure: line 5582: test: i386-pc-haiku: unary operator expected
+checking where to find the target ar... pre-installed
+checking where to find the target as... pre-installed
+checking where to find the target cc... just compiled
+checking where to find the target c++... pre-installed
+checking where to find the target c++ for libstdc++... pre-installed
+checking where to find the target dlltool... pre-installed
+checking where to find the target gcc... just compiled
+checking where to find the target gcj... pre-installed
+checking where to find the target gfortran... pre-installed
+checking where to find the target ld... pre-installed
+checking where to find the target lipo... pre-installed
+checking where to find the target nm... pre-installed
+checking where to find the target objdump... pre-installed
+checking where to find the target ranlib... pre-installed
+checking where to find the target strip... pre-installed
+checking where to find the target windres... pre-installed
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking if symbolic links between directories work... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95 && /bin/env USETOOLS=no CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs CPPFLAGS= CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -lnetwork\ -Wl,-R/boot/home/pkg/lib\ -L/boot/system/develop/lib/libroot.so\ -Wl,-R/boot/system/develop/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.home CPP=cpp LINK_ALL_LIBGCC_HACK= LOCALBASE=/boot/home/pkg NO_WHOLE_ARCHIVE_FLAG=-Wl,--no-whole-archive WHOLE_ARCHIVE_FLAG=-Wl,--whole-archive X11BASE=/boot/home/pkg X11PREFIX=/boot/home/pkg PKGMANDIR=man PKGINFODIR=info PKGGNUDIR=gnu/ MAKECONF=/dev/null OBJECT_FMT=ELF USETOOLS=no LIBTOOL="libtool " BSD_INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL_MAN=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL=/bin/install BSD_INSTALL_PROGRAM_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_MAN_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 BSD_INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 BSD_INSTALL_GAME_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /bin/make -j1
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+mkdir -p -- ./fixincludes
+Configuring in ./fixincludes
+configure: creating cache ./config.cache
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+configure: error: /bin/sh ../../fixincludes/../config.sub PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig failed
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/benchfft
+===> dbench
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for dbench-3.04nb1
+gcc -o dbench fileio.o util.o dbench.o child.o system.o snprintf.o 
+util.o: In function `shm_setup':
+util.c:(.text+0x20): undefined reference to `shmget'
+util.c:(.text+0x6e): undefined reference to `shmat'
+util.c:(.text+0xa8): undefined reference to `shmctl'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/dbench/work/dbench-3.04
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/dbench
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/dbench
+===> filebench
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching filebench-1.4.9.1.tar.gz
+=> Total size: 349535 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  341k  100  341k    0     0  95273      0  0:00:03  0:00:03 --:--:--  152k
+===> Installing dependencies for filebench-1.4.9.1
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency libtecla>=1.6.1nb1: found libtecla-1.6.1nb3
+===> Overriding tools for filebench-1.4.9.1
+===> Extracting for filebench-1.4.9.1
+===> Patching for filebench-1.4.9.1
+=> Applying pkgsrc patches for filebench-1.4.9.1
+===> Creating toolchain wrappers for filebench-1.4.9.1
+===> Configuring for filebench-1.4.9.1
+cd /boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1 && aclocal && automake -a && autoconf
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.ac:11: installing './compile'
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: WARNING: unrecognized options: --enable-shared
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1/missing: Unknown `--is-lightweight' option
+Try `/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.tools/bin/mkdir -p
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for i386-pc-haiku-gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for bison... bison -y
+checking for flex... /boot/home/pkg/bin/flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for egrep... (cached) /bin/egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdint.h... (cached) yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking procfs.h usability... no
+checking procfs.h presence... no
+checking for procfs.h... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for ftruncate... yes
+checking for ftruncate64... no
+checking for getcwd... yes
+checking for gethostname... yes
+checking for gethrtime... no
+checking for gettimeofday... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for munmap... yes
+checking for pow... yes
+checking for rmdir... yes
+checking for socket... yes
+checking for sqrt... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strstr... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for fork1... no
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for sigsend... no
+checking for ftok... yes
+checking for semget... yes
+checking for semop... yes
+checking for semtimedop... no
+checking for cftime... no
+checking for _lwp_self... no
+checking for sigignore... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether closedir returns void... no
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for getpagesize... (cached) yes
+checking for working mmap... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking whether lstat correctly handles trailing slash... no
+checking whether stat accepts an empty string... no
+checking for strftime... yes
+checking for working strtod... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking whether to enable the use of rdtsc... no
+checking whether to use system()... no
+checking for kstat_open in -lkstat... no
+checking for cpl_add_completion in -ltecla... yes
+checking for aio_write in -lrt... no
+checking for aio_write in -lrt... (cached) no
+checking for aio_waitn in -lrt... no
+checking for pow in -lm... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking for pthread_mutexattr_setrobust_np in -lpthread... no
+checking for pthread_mutexattr_setpshared in -lpthread... yes
+checking for pthread_mutexattr_setprotocol in -lpthread... yes
+checking for /proc/stat... no
+checking asm/unistd.h usability... no
+checking asm/unistd.h presence... no
+checking for asm/unistd.h... no
+checking for /proc/1/stat... no
+checking for /proc/sys/kernel/shmmax... no
+checking for off_t... yes
+checking for pid_t... (cached) yes
+checking return type of signal handlers... void
+checking for size_t... (cached) yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for off64_t... no
+checking for boolean_t... no
+checking for u_longlong_t... no
+checking for uint_t... no
+checking for stat64... no
+checking for posix_fadvise... no
+checking for waitid... yes
+checking for aio_error64... no
+checking for aio_write64... no
+checking for aio_return64... no
+checking for open64... no
+checking for mmap64... no
+checking for fstat64... no
+checking for lseek64... no
+checking for pwrite64... no
+checking for pread64... no
+checking for IPC_RMID control for semctl()... yes
+checking for I/O priority system calls... no
+checking for SHM_SHARE_MMU... no
+checking for DIRECT open flag... yes
+checking for directio... no
+checking for NOCACHE fcntl... no
+checking gettid... no
+checking for struct stat.st_rdev... yes
+checking for an ANSI C-conforming const... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating workloads/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --enable-shared
+===> Building for filebench-1.4.9.1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+(CDPATH="${ZSH_VERSION+.}:" && cd . && autoheader)
+rm -f stamp-h1
+touch ./config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+/boot/home/pkg/bin/bmake  all-recursive
+Making all in workloads
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT eventgen.o -MD -MP -MF .deps/eventgen.Tpo -c -o eventgen.o eventgen.c
+mv -f .deps/eventgen.Tpo .deps/eventgen.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT fb_avl.o -MD -MP -MF .deps/fb_avl.Tpo -c -o fb_avl.o fb_avl.c
+mv -f .deps/fb_avl.Tpo .deps/fb_avl.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT fb_localfs.o -MD -MP -MF .deps/fb_localfs.Tpo -c -o fb_localfs.o fb_localfs.c
+fb_localfs.c: In function 'fb_lfs_flowinit':
+fb_localfs.c:147:6: warning: unused variable 'nops' [-Wunused-variable]
+  int nops;
+      ^
+fb_localfs.c: In function 'fb_lfs_recur_rm':
+fb_localfs.c:576:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  int ret;
+      ^
+mv -f .deps/fb_localfs.Tpo .deps/fb_localfs.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT fb_random.o -MD -MP -MF .deps/fb_random.Tpo -c -o fb_random.o fb_random.c
+mv -f .deps/fb_random.Tpo .deps/fb_random.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT fileset.o -MD -MP -MF .deps/fileset.Tpo -c -o fileset.o fileset.c
+mv -f .deps/fileset.Tpo .deps/fileset.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT flowop.o -MD -MP -MF .deps/flowop.Tpo -c -o flowop.o flowop.c
+mv -f .deps/flowop.Tpo .deps/flowop.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT flowop_library.o -MD -MP -MF .deps/flowop_library.Tpo -c -o flowop_library.o flowop_library.c
+flowop_library.c: In function 'flowoplib_iobufsetup':
+flowop_library.c:468:3: warning: passing argument 1 of 'fb_urandom32' from incompatible pointer type [enabled by default]
+   fb_urandom(&memoffset, memsize, iosize, NULL);
+   ^
+In file included from filebench.h:140:0,
+                 from flowop_library.c:45:
+fb_random.h:101:13: note: expected 'uint32_t *' but argument is of type 'size_t *'
+ extern void fb_urandom32(uint32_t *, uint32_t, uint32_t, avd_t);
+             ^
+flowop_library.c: In function 'flowoplib_semblock':
+flowop_library.c:1269:18: warning: variable 'timeout' set but not used [-Wunused-but-set-variable]
+  struct timespec timeout;
+                  ^
+flowop_library.c: In function 'flowoplib_sempost':
+flowop_library.c:1393:19: warning: variable 'timeout' set but not used [-Wunused-but-set-variable]
+   struct timespec timeout;
+                   ^
+mv -f .deps/flowop_library.Tpo .deps/flowop_library.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT gamma_dist.o -MD -MP -MF .deps/gamma_dist.Tpo -c -o gamma_dist.o gamma_dist.c
+mv -f .deps/gamma_dist.Tpo .deps/gamma_dist.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT ipc.o -MD -MP -MF .deps/ipc.Tpo -c -o ipc.o ipc.c
+ipc.c: In function 'ipc_ismcreate':
+ipc.c:787:6: warning: implicit declaration of function 'shmget' [-Wimplicit-function-declaration]
+      shmget(0, size, IPC_CREAT | 0666)) == -1) {
+      ^
+ipc.c:793:2: warning: implicit declaration of function 'shmat' [-Wimplicit-function-declaration]
+  if ((filebench_shm->shm_addr = (caddr_t)shmat(filebench_shm->shm_id,
+  ^
+ipc.c: In function 'ipc_ismattach':
+ipc.c:840:12: warning: comparison between pointer and integer [enabled by default]
+      flag) == NULL)
+            ^
+ipc.c: In function 'ipc_ismdelete':
+ipc.c:890:2: warning: implicit declaration of function 'shmctl' [-Wimplicit-function-declaration]
+  (void) shmctl(filebench_shm->shm_id, IPC_RMID, 0);
+  ^
+mv -f .deps/ipc.Tpo .deps/ipc.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+misc.c: In function 'filebench_log':
+misc.c:190:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  int ret;
+      ^
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT multi_client_sync.o -MD -MP -MF .deps/multi_client_sync.Tpo -c -o multi_client_sync.o multi_client_sync.c
+mv -f .deps/multi_client_sync.Tpo .deps/multi_client_sync.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT parser_gram.o -MD -MP -MF .deps/parser_gram.Tpo -c -o parser_gram.o parser_gram.c
+parser_gram.y: In function 'parser_directory':
+parser_gram.y:3890:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+  int ret;
+      ^
+mv -f .deps/parser_gram.Tpo .deps/parser_gram.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT parser_lex.o -MD -MP -MF .deps/parser_lex.Tpo -c -o parser_lex.o parser_lex.c
+In file included from /boot/home/pkg/include/pthread.h:10:0,
+                 from filebench.h:39,
+                 from parser_lex.l:42:
+/boot/home/pkg/include/stdint.h:64:0: warning: "INT16_MIN" redefined [enabled by default]
+ #define INT16_MIN  (-32768)
+ ^
+parser_lex.c:62:0: note: this is the location of the previous definition
+ #define INT16_MIN              (-32767-1)
+ ^
+In file included from /boot/home/pkg/include/pthread.h:10:0,
+                 from filebench.h:39,
+                 from parser_lex.l:42:
+/boot/home/pkg/include/stdint.h:69:0: warning: "INT32_MIN" redefined [enabled by default]
+ #define INT32_MIN  (-INT32_MAX-1)
+ ^
+parser_lex.c:65:0: note: this is the location of the previous definition
+ #define INT32_MIN              (-2147483647-1)
+ ^
+mv -f .deps/parser_lex.Tpo .deps/parser_lex.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT procflow.o -MD -MP -MF .deps/procflow.Tpo -c -o procflow.o procflow.c
+procflow.c: In function 'procflow_exec':
+procflow.c:307:6: warning: implicit declaration of function 'nice' [-Wimplicit-function-declaration]
+      name, instance, nice(proc_nice + 10));
+      ^
+mv -f .deps/procflow.Tpo .deps/procflow.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT stats.o -MD -MP -MF .deps/stats.Tpo -c -o stats.o stats.c
+mv -f .deps/stats.Tpo .deps/stats.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT threadflow.o -MD -MP -MF .deps/threadflow.Tpo -c -o threadflow.o threadflow.c
+mv -f .deps/threadflow.Tpo .deps/threadflow.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT utils.o -MD -MP -MF .deps/utils.Tpo -c -o utils.o utils.c
+mv -f .deps/utils.Tpo .deps/utils.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT vars.o -MD -MP -MF .deps/vars.Tpo -c -o vars.o vars.c
+vars.c: In function 'var_alloc_cmn':
+vars.c:484:34: warning: argument to 'sizeof' in 'memset' call is the same expression as the destination; did you mean to dereference it? [-Wsizeof-pointer-memaccess]
+  (void) memset(newvar, 0, sizeof (newvar));
+                                  ^
+mv -f .deps/vars.Tpo .deps/vars.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT posset.o -MD -MP -MF .deps/posset.Tpo -c -o posset.o posset.c
+mv -f .deps/posset.Tpo .deps/posset.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT ioprio.o -MD -MP -MF .deps/ioprio.Tpo -c -o ioprio.o ioprio.c
+mv -f .deps/ioprio.Tpo .deps/ioprio.Po
+gcc -D_REENTRANT -DYYDEBUG -DYY_NO_INPUT -DFILEBENCHDIR=\"/boot/home/pkg/share/filebench\" -D_LARGEFILE64_SOURCE -D_GNU_SOURCE -I.    -I/boot/home/pkg/include -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -MT auto_comp.o -MD -MP -MF .deps/auto_comp.Tpo -c -o auto_comp.o auto_comp.c
+mv -f .deps/auto_comp.Tpo .deps/auto_comp.Po
+gcc -Wall -Wno-unknown-pragmas -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include  -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -L/boot/system/lib -Wl,-R/boot/system/lib -o filebench eventgen.o fb_avl.o  fb_localfs.o fb_random.o fileset.o  flowop.o flowop_library.o gamma_dist.o  ipc.o misc.o multi_client_sync.o  parser_gram.o parser_lex.o procflow.o  stats.o threadflow.o utils.o  vars.o posset.o ioprio.o  auto_comp.o  -lpthread -lm -ltecla
+ipc.o: In function `ipc_ismcreate':
+ipc.c:(.text+0x14d7): undefined reference to `shmget'
+ipc.c:(.text+0x1535): undefined reference to `shmat'
+ipc.o: In function `ipc_ismattach':
+ipc.c:(.text+0x163a): undefined reference to `shmat'
+ipc.o: In function `ipc_ismdelete':
+ipc.c:(.text+0x1772): undefined reference to `shmctl'
+procflow.o: In function `procflow_exec':
+procflow.c:(.text+0x5df): undefined reference to `nice'
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.buildlink/lib/libtecla.a(getline.o): In function `gl_print_control_sequence':
+getline.c:(.text+0x588): undefined reference to `tputs'
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.buildlink/lib/libtecla.a(getline.o): In function `gl_set_term_curpos':
+getline.c:(.text+0x6ba): undefined reference to `tparm'
+getline.c:(.text+0x738): undefined reference to `tparm'
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.buildlink/lib/libtecla.a(getline.o): In function `gl_tigetstr':
+getline.c:(.text+0x1fd6): undefined reference to `tigetstr'
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.buildlink/lib/libtecla.a(getline.o): In function `_gl_terminal_size':
+getline.c:(.text+0x209c): undefined reference to `tigetnum'
+getline.c:(.text+0x20eb): undefined reference to `tigetnum'
+/boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/.buildlink/lib/libtecla.a(getline.o): In function `_gl_change_terminal':
+getline.c:(.text+0x5e05): undefined reference to `setupterm'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/filebench/work/filebench-1.4.9.1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/filebench
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/filebench
+===> hbench
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching hbench-OS-1.1.tar.gz
+=> Total size: 205361 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  200k  100  200k    0     0   167k      0  0:00:01  0:00:01 --:--:--  199k
+=> Fetching hbench-OS-1.1-provisional-patch1.diff
+=> Total size: 23836 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 23836  100 23836    0     0  93318      0 --:--:-- --:--:-- --:--:--  112k
+===> Installing dependencies for hbench-1.1nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency gnuplot>=3.7: NOT found
+=> Verifying reinstall for ../../graphics/gnuplot
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching gnuplot-4.6.5.tar.gz
+=> Total size: 5035657 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 4917k  100 4917k    0     0   381k      0  0:00:12  0:00:12 --:--:--  424k
+===> Installing dependencies for gnuplot-4.6.5nb4
+==========================================================================
+The supported build options for gnuplot are:
+
+        gd lua pdf qt4 wxwidgets x11
+
+The currently selected options are:
+
+        gd x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.gnuplot (not defined)
+
+==========================================================================
+==========================================================================
+The following variables will affect the build process of this package,
+gnuplot-4.6.5nb4.  Their current value is shown below:
+
+        * CURSES_DEFAULT = ncurses
+        * JPEG_DEFAULT = jpeg
+        * READLINE_DEFAULT = readline
+
+Based on these variables, the following variables have been set:
+
+        * CURSES_TYPE = ncurses
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+        * READLINE_TYPE = readline
+        * TERMCAP_TYPE = c
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency gd>=2.1.0: found gd-2.1.0nb1
+=> Full dependency libXaw>=1.0.5: found libXaw-1.0.12
+=> Full dependency pango>=1.36.3nb1: NOT found
+=> Verifying reinstall for ../../devel/pango
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for pango-1.36.3nb2
+==========================================================================
+The supported build options for pango are:
+
+        libthai quartz x11
+
+The currently selected options are:
+
+        x11
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.pango (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency help2man-[0-9]*: found help2man-1.45.1nb1
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency gobject-introspection>=1.34.0: NOT found
+=> Verifying reinstall for ../../devel/gobject-introspection
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for gobject-introspection-1.38.0nb2
+==========================================================================
+The following variables will affect the build process of this package,
+gobject-introspection-1.38.0nb2.  Their current value is shown below:
+
+        * PYTHON_VERSION_DEFAULT = 34
+
+Based on these variables, the following variables have been set:
+
+        * PYPACKAGE = python27
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency flex>=2.5.4a: found flex-2.5.39
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pkg-config>=0.25: found pkg-config-0.28
+=> Build dependency flex>=2.5.4a: found flex-2.5.39
+=> Full dependency py27-cElementTree-[0-9]*: NOT found
+=> Verifying reinstall for ../../textproc/py-cElementTree
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Building for py27-cElementTree-2.7.7
+(cd /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/Python-2.7.7/ && /bin/env USETOOLS=no PTHREAD_CFLAGS=\ -pthread\  PTHREAD_LDFLAGS=\ -pthread PTHREAD_LIBS= PTHREADBASE=/boot/system DL_CFLAGS= DL_LDFLAGS= DL_LIBS= PYTHON=/boot/home/pkg/bin/python2.7 CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs\ -I/boot/home/pkg/include CPPFLAGS=-I/boot/home/pkg/include CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs\ -I/boot/home/pkg/include COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -lnetwork\ -Wl,-R/boot/home/pkg/lib\ -L/boot/system/develop/lib/libroot.so\ -Wl,-R/boot/system/develop/lib\ -L/boot/system/lib\ -Wl,-R/boot/system/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.home CPP=cpp LINK_ALL_LIBGCC_HACK= LOCALBASE=/boot/home/pkg NO_WHOLE_ARCHIVE_FLAG=-Wl,--no-whole-archive WHOLE_ARCHIVE_FLAG=-Wl,--whole-archive X11BASE=/boot/home/pkg X11PREFIX=/boot/home/pkg PKGMANDIR=man PKGINFODIR=info PKGGNUDIR=gnu/ MAKECONF=/dev/null OBJECT_FMT=ELF USETOOLS=no BSD_INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL_MAN=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL=/bin/install BSD_INSTALL_PROGRAM_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_MAN_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 BSD_INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 BSD_INSTALL_GAME_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /boot/home/pkg/bin/python2.7  setup.py  build )
+running build
+running build_ext
+building '_elementtree' extension
+gcc -DNDEBUG -Wno-error -DHAVE_DB_185_H -I/boot/home/pkg/include/db4 -I/boot/home/pkg/include -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include -DUSE_EXPAT -I/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/include -I/boot/home/pkg/include/python2.7 -c Modules/_elementtree.c -o build/temp.haiku-1-BePC-2.7/Modules/_elementtree.o
+Modules/_elementtree.c:58:0: warning: "USE_EXPAT" redefined [enabled by default]
+ #define USE_EXPAT
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+ld -L/boot/home/pkgsrc/pkgsrc/lang/python27/work/Python-2.7.7 -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -L/boot/system/lib -Wl,-R/boot/system/lib -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include build/temp.haiku-1-BePC-2.7/Modules/_elementtree.o -L/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/lib -L/boot/home/pkg/lib -Wl,-R/boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree/work/.buildlink/lib -lexpat -lpython2.7 -o build/lib.haiku-1-BePC-2.7/_elementtree.so -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -L/boot/system/lib -Wl,-R/boot/system/lib
+/bin/ld: unrecognized option '-specs=/boot/home/pkg/etc/specs'
+/bin/ld: use the --help option for usage information
+error: command 'ld' failed with exit status 1
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/textproc/py-cElementTree
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/gobject-introspection
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/pango
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/graphics/gnuplot
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/hbench
+===> iozone
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching iozone3_408.tar
+=> Total size: 1822720 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1780k  100 1780k    0     0   527k      0  0:00:03  0:00:03 --:--:--  566k
+===> Installing dependencies for iozone-3.408nb4
+==========================================================================
+The supported build options for iozone are:
+
+        threads
+
+The currently selected options are:
+
+        threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.iozone (not defined)
+
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.0: found perl-5.20.0nb1
+===> Overriding tools for iozone-3.408nb4
+===> Extracting for iozone-3.408nb4
+=> Stripping EOL CR in iozone_visualizer.pl report.pl
+===> Patching for iozone-3.408nb4
+=> Applying pkgsrc patches for iozone-3.408nb4
+===> Creating toolchain wrappers for iozone-3.408nb4
+===> Configuring for iozone-3.408nb4
+=> Replacing Perl interpreter in iozone_visualizer.pl report.pl.
+===> Building for iozone-3.408nb4
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs2] Nothing changed in ./makefile.
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 850: warning: duplicate script for target "fileop_dragonfly.o" ignored
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 841: warning: using previous script for "fileop_dragonfly.o" defined here
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 851: warning: duplicate script for target "fileop_dragonfly.o" ignored
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 841: warning: using previous script for "fileop_dragonfly.o" defined here
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 852: warning: duplicate script for target "fileop_dragonfly.o" ignored
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 841: warning: using previous script for "fileop_dragonfly.o" defined here
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 853: warning: duplicate script for target "fileop_dragonfly.o" ignored
+bmake: "/boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current/makefile" line 841: warning: using previous script for "fileop_dragonfly.o" defined here
+
+Building iozone Generic 
+
+cc -c -O -Dgeneric -Dunix -DHAVE_ANSIC_C -DNO_THREADS  -DNAME='"Generic"'  iozone.c -o iozone_generic.o
+iozone.c: In function 'initfile':
+iozone.c:18935:10: error: 'MAP_FILE' undeclared (first use in this function)
+   mflags=MAP_FILE|MAP_SHARED;
+          ^
+iozone.c:18935:10: note: each undeclared identifier is reported only once for each function it appears in
+iozone.c:18982:45: error: 'MADV_NORMAL' undeclared (first use in this function)
+    madvise( (char *)pa, (size_t) filebytes, MADV_NORMAL);
+                                             ^
+iozone.c:18985:45: error: 'MADV_RANDOM' undeclared (first use in this function)
+    madvise( (char *)pa, (size_t) filebytes, MADV_RANDOM);
+                                             ^
+iozone.c:18988:45: error: 'MADV_SEQUENTIAL' undeclared (first use in this function)
+    madvise( (char *)pa, (size_t) filebytes, MADV_SEQUENTIAL);
+                                             ^
+iozone.c:18991:45: error: 'MADV_DONTNEED' undeclared (first use in this function)
+    madvise( (char *)pa, (size_t) filebytes, MADV_DONTNEED);
+                                             ^
+iozone.c:18994:45: error: 'MADV_WILLNEED' undeclared (first use in this function)
+    madvise( (char *)pa, (size_t) filebytes, MADV_WILLNEED);
+                                             ^
+iozone.c: In function 'child_send':
+iozone.c:20506:50: error: 'EISCONN' undeclared (first use in this function)
+                 if((ecount++ < 200) && (errno != EISCONN))
+                                                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/iozone/work/iozone3_408/src/current
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/iozone
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/iozone
+===> libmicro
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching libmicro-0.4.0.tar.gz
+=> Total size: 48858 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 10669  100 10669    0     0  10983      0 --:--:-- --:--:-- --:--:-- 53079
+fetch: Size of the file libmicro-0.4.0.tar.gz doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 48858  100 48858    0     0  11975      0  0:00:04  0:00:04 --:--:-- 12853
+===> Installing dependencies for libmicro-0.4.0
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for libmicro-0.4.0
+===> Extracting for libmicro-0.4.0
+===> Patching for libmicro-0.4.0
+=> Applying pkgsrc patches for libmicro-0.4.0
+===> Creating toolchain wrappers for libmicro-0.4.0
+===> Configuring for libmicro-0.4.0
+=> Fix machine architecture path
+===> Building for libmicro-0.4.0
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/benchmarks/libmicro/work/libMicro-0.4.0/bin-i386'
+make[1]: ../Makefile.Haiku: No such file or directory
+make[1]: *** No rule to make target `../Makefile.Haiku'.  Stop.
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/benchmarks/libmicro/work/libMicro-0.4.0/bin-i386'
+make: *** [default] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/libmicro
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/libmicro
+===> lmbench
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching lmbench-2alpha11.tgz
+=> Total size: 464956 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  454k  100  454k    0     0  86105      0  0:00:05  0:00:05 --:--:--  115k
+===> Installing dependencies for lmbench-2.11anb6
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency perl>=5.0: found perl-5.20.0nb1
+===> Overriding tools for lmbench-2.11anb6
+===> Extracting for lmbench-2.11anb6
+/bin/install -c -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/scripts/gnu-os
+===> Patching for lmbench-2.11anb6
+=> Applying pkgsrc patches for lmbench-2.11anb6
+===> Creating toolchain wrappers for lmbench-2.11anb6
+===> Configuring for lmbench-2.11anb6
+cd /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11;                       for f in src/Makefile; do                                /bin/sed -e "s|^\\(CC.*\\)|#\\1|g" $f > $f.new;     /bin/mv -f $f.new $f;                           done
+cd /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11;                       for f in scripts/os scripts/results scripts/config-run   scripts/lmbench results/Makefile; do                /bin/sed -e 's|@PREFIX@|/boot/home/pkg|g' $f > $f.new;  /bin/mv -f $f.new $f;                               done
+/bin/chmod 0755 /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/scripts/config-run
+/bin/chmod 0755 /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/scripts/os
+/bin/chmod 0755 /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/scripts/results
+/bin/chmod 0755 /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/scripts/lmbench
+===> Building for lmbench-2.11anb6
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+cd src && /bin/make
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/src'
+Building for unknown
+/bin/make CC="gcc" O=../bin/`../scripts/os.orig` `../scripts/target`
+make[2]: Entering directory `/boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/src'
+gcc -O    -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib -c lib_timing.c -o ../bin/i586-pc-haiku/lib_timing.o
+In file included from lib_timing.c:11:0:
+bench.h:24:21: fatal error: rpc/rpc.h: No such file or directory
+ #include <rpc/rpc.h>
+                     ^
+compilation terminated.
+make[2]: *** [../bin/i586-pc-haiku/lmbench.a] Error 1
+make[2]: Leaving directory `/boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/src'
+make[1]: *** [lmbench] Error 2
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/benchmarks/lmbench/work/lmbench-2alpha11/src'
+make: *** [build] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/lmbench
+===> nettest
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching nettest.92.11.09.tar.Z
+=> Total size: 35068 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 35068  100 35068    0     0  20207      0  0:00:01  0:00:01 --:--:-- 23920
+===> Installing dependencies for nettest-92.11.09
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for nettest-92.11.09
+===> Extracting for nettest-92.11.09
+===> Patching for nettest-92.11.09
+=> Applying pkgsrc patches for nettest-92.11.09
+===> Creating toolchain wrappers for nettest-92.11.09
+===> Configuring for nettest-92.11.09
+===> Building for nettest-92.11.09
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+make: don't know how to make Haiku. Stop
+
+make: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/nettest/work
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/nettest/work
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/nettest
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/nettest
+===> phoronix-test-suite
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching phoronix-test-suite-3.4.0.tar.gz
+=> Total size: 418224 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  408k  100  408k    0     0   333k      0  0:00:01  0:00:01 --:--:--  394k
+===> Installing dependencies for phoronix-test-suite-3.4.0nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency php54-curl>=5.2: NOT found
+=> Verifying reinstall for ../../www/php-curl
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching php-5.4.30.tar.bz2
+=> Total size: 12315772 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   184  100   184    0     0   1076      0 --:--:-- --:--:-- --:--:--  5750
+100 11.7M  100 11.7M    0     0  3222k      0  0:00:03  0:00:03 --:--:-- 3480k
+===> Installing dependencies for php54-curl-5.4.30nb1
+==========================================================================
+The following variables will affect the build process of this package,
+php54-curl-5.4.30nb1.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency automake>=1.9: found automake-1.14.1nb1
+=> Tool dependency autoconf>=2.58: found autoconf-2.69nb5
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency php>=5.4.2<5.5: NOT found
+=> Verifying reinstall for ../../lang/php54
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for php-5.4.30nb1
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for egrep... (cached) /bin/egrep
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... i386-pc-haiku
+checking for i386-pc-haiku-cc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for icc... no
+checking for suncc... no
+checking whether gcc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether ln -s works... yes
+checking for system library directory... lib
+checking whether to enable runpaths... yes
+checking if compiler supports -R... yes
+checking for gawk... /bin/awk
+checking if /bin/awk is broken... no
+checking for bison... bison -y
+checking for bison version... invalid
+configure: WARNING: bison versions supported for regeneration of the Zend/PHP parsers: 1.28 1.35 1.75 1.875 2.0 2.1 2.2 2.3 2.4 2.4.1 2.4.2 2.4.3 2.5 2.5.1 2.6 2.6.1 2.6.2 2.6.4 (found: 3.0).
+checking for re2c... re2c
+checking for re2c version... 0.13.6 (ok)
+checking whether to enable computed goto gcc extension with re2c... no
+./configure: line 5458: test: too many arguments
+checking whether to force non-PIC code in shared modules... no
+checking whether /dev/urandom exists... yes
+checking for pthreads_cflags... 
+checking for pthreads_lib... 
+
+Configuring SAPI modules
+checking for AOLserver support... no
+checking for Apache 1.x module support via DSO through APXS... no
+checking for Apache 1.x module support... no
+checking whether to enable Apache charset compatibility option... no
+checking for Apache 2.0 filter-module support via DSO through APXS... no
+checking for Apache 2.0 handler-module support via DSO through APXS... no
+checking for Apache 1.x (hooks) module support via DSO through APXS... no
+checking for Apache 1.x (hooks) module support... no
+checking whether to enable Apache charset compatibility option... no
+checking for Caudium support... no
+checking for CLI build... yes
+checking for Continuity support... no
+checking for embedded SAPI library support... no
+checking for FPM build... no
+checking for Zeus ISAPI support... no
+checking for LiteSpeed support... no
+checking for Milter support... no
+checking for NSAPI support... no
+checking for PHTTPD support... no
+checking for Pi3Web support... no
+checking whether Roxen module is build using ZTS... no
+checking for Roxen/Pike support... 
+checking for thttpd... no
+checking for TUX... no
+checking for webjames... no
+checking for CGI build... yes
+checking for socklen_t in sys/socket.h... yes
+checking for sun_len in sys/un.h... yes
+checking whether cross-process locking is required by accept()... no
+checking for chosen SAPI module... none
+checking for executable SAPI binaries...  cli cgi
+
+Running system checks
+checking for sendmail... no
+checking whether system uses EBCDIC... no
+checking whether byte ordering is bigendian... no
+checking whether writing to stdout works... This is the test message -- yes
+checking for socket... yes
+checking for socketpair... yes
+checking for htonl... no
+checking for __htonl... no
+checking for htonl in -lsocket... no
+checking for __htonl in -lsocket... no
+checking for gethostname... yes
+checking for gethostbyaddr... yes
+checking for yp_get_default_domain... no
+checking for __yp_get_default_domain... no
+checking for yp_get_default_domain in -lnsl... no
+checking for __yp_get_default_domain in -lnsl... no
+checking for dlopen... yes
+checking for sin in -lm... yes
+checking for inet_aton... yes
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for dirent.h... yes
+checking for ApplicationServices/ApplicationServices.h... no
+checking for sys/param.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... yes
+checking for netinet/in.h... yes
+checking for alloca.h... yes
+checking for arpa/inet.h... yes
+checking for arpa/nameser.h... yes
+checking for assert.h... yes
+checking for crypt.h... no
+checking for dns.h... no
+checking for fcntl.h... yes
+checking for grp.h... yes
+checking for ieeefp.h... no
+checking for langinfo.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for monetary.h... yes
+checking for netdb.h... yes
+checking for pwd.h... yes
+checking for resolv.h... yes
+checking for signal.h... yes
+checking for stdarg.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for syslog.h... yes
+checking for sysexits.h... yes
+checking for sys/ioctl.h... yes
+checking for sys/file.h... yes
+checking for sys/mman.h... yes
+checking for sys/mount.h... no
+checking for sys/poll.h... yes
+checking for sys/resource.h... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/statfs.h... no
+checking for sys/statvfs.h... yes
+checking for sys/vfs.h... no
+checking for sys/sysexits.h... no
+checking for sys/varargs.h... no
+checking for sys/wait.h... yes
+checking for sys/loadavg.h... no
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking for unix.h... no
+checking for utime.h... yes
+checking for sys/utsname.h... yes
+checking for sys/ipc.h... yes
+checking for dlfcn.h... yes
+checking for assert.h... (cached) yes
+checking for fopencookie... yes
+checking for broken getcwd... no
+checking for broken libc stdio... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for missing declarations of reentrant functions... done
+checking for fclose declaration... ok
+checking for tm_gmtoff in struct tm... yes
+checking for struct flock... yes
+checking for socklen_t... yes
+checking size of size_t... 4
+checking size of long long... 8
+checking size of long long int... 8
+checking size of long... 4
+checking size of int... 4
+checking size of intmax_t... 8
+checking size of ssize_t... 4
+checking size of ptrdiff_t... 4
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for struct sockaddr_storage... yes
+checking for field sa_len in struct sockaddr... yes
+checking for IPv6 support... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for alphasort... yes
+checking for asctime_r... yes
+checking for chroot... yes
+checking for ctime_r... yes
+checking for cuserid... yes
+checking for crypt... yes
+checking for flock... yes
+checking for ftok... yes
+checking for funopen... no
+checking for gai_strerror... yes
+checking for gcvt... yes
+checking for getloadavg... no
+checking for getlogin... yes
+checking for getprotobyname... yes
+checking for getprotobynumber... yes
+checking for getservbyname... yes
+checking for getservbyport... yes
+checking for gethostname... (cached) yes
+checking for getrusage... yes
+checking for gettimeofday... yes
+checking for gmtime_r... yes
+checking for getpwnam_r... yes
+checking for getgrnam_r... yes
+checking for getpwuid_r... yes
+checking for grantpt... yes
+checking for inet_ntoa... yes
+checking for inet_ntop... yes
+checking for inet_pton... yes
+checking for isascii... yes
+checking for link... yes
+checking for localtime_r... yes
+checking for lockf... yes
+checking for lchown... yes
+checking for lrand48... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for mkstemp... yes
+checking for mmap... yes
+checking for nl_langinfo... yes
+checking for perror... yes
+checking for poll... yes
+checking for ptsname... yes
+checking for putenv... yes
+checking for realpath... yes
+checking for random... yes
+checking for rand_r... yes
+checking for scandir... yes
+checking for setitimer... yes
+checking for setlocale... yes
+checking for localeconv... yes
+checking for setenv... yes
+checking for setpgid... yes
+checking for setsockopt... yes
+checking for setvbuf... yes
+checking for shutdown... yes
+checking for sin... yes
+checking for snprintf... yes
+checking for srand48... yes
+checking for srandom... yes
+checking for statfs... no
+checking for statvfs... yes
+checking for std_syslog... no
+checking for strcasecmp... yes
+checking for strcoll... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for strnlen... yes
+checking for strptime... yes
+checking for strstr... yes
+checking for strtok_r... yes
+checking for symlink... yes
+checking for tempnam... yes
+checking for tzset... yes
+checking for unlockpt... yes
+checking for unsetenv... yes
+checking for usleep... yes
+checking for utime... yes
+checking for vsnprintf... yes
+checking for vasprintf... yes
+checking for asprintf... yes
+checking for nanosleep... yes
+checking for nanosleep in -lrt... no
+checking for __nanosleep in -lrt... no
+checking for getaddrinfo... yes
+checking for __sync_fetch_and_add... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for getopt... yes
+checking for utime.h... (cached) yes
+checking whether utime accepts a null argument... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for declared timezone... yes
+checking for type of reentrant time-related functions... POSIX
+checking for readdir_r... yes
+checking for type of readdir_r... POSIX
+checking for in_addr_t... yes
+checking for crypt_r... no
+
+General settings
+checking whether to include gcov symbols... no
+checking whether to include debugging symbols... no
+checking layout of installed files... PHP
+checking path to configuration file... /boot/home/pkg/etc
+checking where to scan for configuration files... /boot/home/pkg/etc/php.d
+checking whether to enable PHP's own SIGCHLD handler... no
+checking whether to explicitly link against libgcc... no
+checking whether to enable short tags by default... yes
+checking whether to enable dmalloc... no
+checking whether to enable IPv6 support... yes
+checking whether to enable DTrace support... no
+checking how big to make fd sets... using system default
+
+Configuring extensions
+checking size of long... (cached) 4
+checking size of int... (cached) 4
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for sys/types.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for strtoll... yes
+checking for atoll... yes
+checking for strftime... (cached) yes
+checking which regex library to use... system
+checking whether field re_magic exists in struct regex_t... no
+checking whether to enable LIBXML support... yes
+checking libxml2 install dir... /boot/home/pkg
+checking for xml2-config path... /boot/home/pkg/bin/xml2-config
+checking whether libxml build works... no
+configure: error: build test failed.  Please check the config.log for details.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/php54
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/www/php-curl
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/phoronix-test-suite
+===> pipebench
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching pipebench-0.40.tar.gz
+=> Total size: 11542 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11542  100 11542    0     0   3630      0  0:00:03  0:00:03 --:--:--  3671
+===> Installing dependencies for pipebench-0.40
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for pipebench-0.40
+===> Extracting for pipebench-0.40
+===> Patching for pipebench-0.40
+=> Applying pkgsrc patches for pipebench-0.40
+===> Creating toolchain wrappers for pipebench-0.40
+===> Configuring for pipebench-0.40
+===> Building for pipebench-0.40
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -Wno-error -Wall -w -pedantic -o pipebench pipebench.c
+In file included from pipebench.c:32:0:
+/boot/home/pkg/include/signal.h:75:3: warning: ISO C90 doesn't support unnamed structs/unions [-Wpedantic]
+  };
+   ^
+pipebench.c:67:22: error: unknown type name 'u_int64_t'
+ static char *unitify(u_int64_t _in, char *buf, int max, unsigned long nunit,
+                      ^
+pipebench.c: In function 'time_diff':
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long int' [-Wformat=]
+    diff.tv_usec/10000);
+    ^
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 7 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 6 has type 'long int' [-Wformat=]
+pipebench.c:132:4: warning: format '%d' expects argument of type 'int', but argument 7 has type 'long int' [-Wformat=]
+pipebench.c: In function 'main':
+pipebench.c:153:2: error: unknown type name 'u_int64_t'
+  u_int64_t datalen = 0,last_datalen = 0,speed = 0;
+  ^
+pipebench.c:188:4: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+    bufsize = atoi(optarg);
+    ^
+pipebench.c:241:2: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  while (!(buffer = malloc(bufsize))) {
+  ^
+pipebench.c:241:20: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  while (!(buffer = malloc(bufsize))) {
+                    ^
+pipebench.c:281:5: warning: implicit declaration of function 'unitify' [-Wimplicit-function-declaration]
+     unitify(datalen,datalenbuf,sizeof(datalenbuf),
+     ^
+pipebench.c:286:5: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+     statusfn?'\n':'\r');
+     ^
+pipebench.c:286:5: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'int' [-Wformat=]
+pipebench.c:286:5: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+pipebench.c:286:5: warning: format '%s' expects argument of type 'char *', but argument 5 has type 'int' [-Wformat=]
+pipebench.c:298:5: warning: ISO C90 does not support the 'll' gnu_printf length modifier [-Wformat=]
+     fprintf(statusf, "%llu\n",speed);
+     ^
+pipebench.c:298:5: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 3 has type 'int' [-Wformat=]
+pipebench.c:298:5: warning: ISO C90 does not support the 'll' gnu_printf length modifier [-Wformat=]
+pipebench.c:298:5: warning: format '%llu' expects argument of type 'long long unsigned int', but argument 3 has type 'int' [-Wformat=]
+pipebench.c:302:2: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+  free(buffer);
+  ^
+pipebench.c:302:2: warning: incompatible implicit declaration of built-in function 'free' [enabled by default]
+pipebench.c:325:5: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+     speedbuf,sizeof(speedbuf),unit,dounit));
+     ^
+pipebench.c:325:5: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'int' [-Wformat=]
+pipebench.c:325:5: warning: format '%s' expects argument of type 'char *', but argument 4 has type 'int' [-Wformat=]
+pipebench.c:325:5: warning: format '%s' expects argument of type 'char *', but argument 6 has type 'int' [-Wformat=]
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/pipebench/work/pipebench-0.40
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/pipebench
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/pipebench
+===> postal
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for postal-0.70nb2
+==========================================================================
+The following variables will affect the build process of this package,
+postal-0.70nb2.  Their current value is shown below:
+
+        * SSLBASE (defined)
+        * SSLCERTS = /boot/home/pkg/etc/openssl/certs
+        * SSLDIR = /boot/home/pkg/etc/openssl
+        * SSLKEYS = /boot/home/pkg/etc/openssl/private
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency openssl>=1.0.1c: found openssl-1.0.1i
+===> Overriding tools for postal-0.70nb2
+===> Extracting for postal-0.70nb2
+===> Patching for postal-0.70nb2
+=> Applying pkgsrc patches for postal-0.70nb2
+===> Creating toolchain wrappers for postal-0.70nb2
+===> Configuring for postal-0.70nb2
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking for i386-pc-haiku-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking for an ANSI C-conforming const... yes
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for egrep... (cached) /bin/egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+./configure: line 4151: /usr/bin/uname: No such file or directory
+checking for bind in -lsocket... yes
+checking gnutls/gnutls.h usability... no
+checking gnutls/gnutls.h presence... no
+checking for gnutls/gnutls.h... no
+checking openssl/crypto.h usability... yes
+checking openssl/crypto.h presence... yes
+checking for openssl/crypto.h... yes
+checking vector usability... yes
+checking vector presence... yes
+checking for vector... yes
+checking ext/hash_map usability... yes
+checking ext/hash_map presence... yes
+checking for ext/hash_map... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: WARNING:  Makefile.in seems to ignore the --datarootdir setting
+config.status: creating postal.h
+config.status: creating port.h
+config.status: creating postal.spec
+config.status: creating sun/pkginfo
+config.status: creating conf.h
+config.status: conf.h is unchanged
+===> Building for postal-0.70nb2
+=> Adding Haiku lnetwork to libraries
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+g++ -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -O2 -g -Wall -W -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wcast-qual -pedantic -Woverloaded-virtual -ffor-scope -c expand.cpp
+g++ -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -O2 -g -Wall -W -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Wcast-qual -pedantic -Woverloaded-virtual -ffor-scope postal-list.cpp expand.o -o postal-list -lstdc++  -lsocket -lnsl -lpthread -lnetwork
+/boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld: cannot find -lnsl
+collect2: error: ld returned 1 exit status
+make: *** [postal-list] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/postal
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/postal
+===> postmark
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching postmark-1_5.c
+=> Total size: 46666 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 46666  100 46666    0     0  31386      0  0:00:01  0:00:01 --:--:-- 85001
+===> Installing dependencies for postmark-1.5
+===> Overriding tools for postmark-1.5
+===> Extracting for postmark-1.5
+===> Patching for postmark-1.5
+===> Creating toolchain wrappers for postmark-1.5
+===> Building for postmark-1.5
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+(cd /boot/home/pkgsrc/pkgsrc/benchmarks/postmark/work && gcc -Wno-error -specs=/boot/home/pkg/etc/specs -o postmark postmark.c)
+/tmp//ccYFvaYk.o: In function `cli_show':
+postmark.c:(.text+0x2516): undefined reference to `getwd'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/postmark
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/postmark
+===> randread
+ERROR: This package is only available for these platforms: DragonFly-*-* FreeBSD-*-* NetBSD-*-* OpenBSD-*-*.
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: randread-0.2 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/randread
+===> skampi
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching skampi.tar.gz
+=> Total size: 386126 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  377k  100  377k    0     0   116k      0  0:00:03  0:00:03 --:--:--  144k
+===> Installing dependencies for skampi-5.0.4.355
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency pax>=20040802: found pax-20080110nb2
+=> Full dependency mpich>=3: NOT found
+=> Verifying reinstall for ../../parallel/mpi-ch
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching mpich-3.0.4.tar.gz
+=> Total size: 10921075 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 10.4M  100 10.4M    0     0   763k      0  0:00:13  0:00:13 --:--:--  815k
+===> Installing dependencies for mpich-3.0.4nb2
+==========================================================================
+The supported build options for mpich are:
+
+        debug f90 mpich-mpd threads
+
+The currently selected options are:
+
+        threads
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.mpich (not defined)
+
+==========================================================================
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency libtool-fortran>=2.2.6bnb3: NOT found
+=> Verifying reinstall for ../../devel/libtool-fortran
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Installing dependencies for libtool-fortran-2.4.2nb4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Full dependency g95>=0.91: NOT found
+=> Verifying reinstall for ../../lang/g95
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Configuring for g95-0.93nb6
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/g95-0.93/libf95.a-0.93 && autoreconf -i
+aclocal: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+/boot/home/pkg/share/aclocal/xpk.m4:12: warning: underquoted definition of AM_PATH_XPK
+/boot/home/pkg/share/aclocal/xpk.m4:12:   run info Automake 'Extending aclocal'
+/boot/home/pkg/share/aclocal/xpk.m4:12:   or see http://www.gnu.org/software/automake/manual/automake.html#Extending-aclocal
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+configure.in:5: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1857: AC_CANONICAL_SYSTEM is expanded from...
+configure.in:5: the top level
+configure.in:3: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.in:3: http://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+automake: warning: autoconf input should be named 'configure.ac', not 'configure.in'
+Makefile.am:10: warning: source file 'intrinsics/adjust.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+automake: warning: possible forward-incompatibility.
+automake: At least a source file is in a subdirectory, but the 'subdir-objects'
+automake: automake option hasn't been enabled.  For now, the corresponding output
+automake: object file(s) will be placed in the top-level directory.  However,
+automake: this behaviour will change in future Automake versions: they will
+automake: unconditionally cause object files to be placed in the same subdirectory
+automake: of the corresponding sources.
+automake: You are advised to start using 'subdir-objects' option throughout your
+automake: project, to avoid future incompatibilities.
+Makefile.am:10: warning: source file 'intrinsics/all.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/any.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/command.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/count.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/cshift.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/dot_product.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/dot_product10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/eoshift.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/gerror.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/get_environ.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/index.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/iostat.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/isatty.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/len_trim.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/matmul.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/matmul10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/misc.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mmloc.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mmval.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/mvbits.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/pack.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/product.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/random.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/real10.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/repeat.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/reshape.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/scan.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/shape.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/size.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/spread.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/sum.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/transpose.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/trim.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/unpack.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/verify.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'intrinsics/xfer.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/atof.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/backspace.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/close.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/endfile.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/flush.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/fnum.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/format.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/fwrite.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/ftoa.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/inquire.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/iread.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/iwrite.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/list_read.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/namelist.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/open.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/read.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/rewind.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/stream.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/transfer.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/unit.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'io/write.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/abs.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/bessel.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/erf.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/ff.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/gamma.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/power.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/mod.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/round.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/single.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'math/transcendental.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/abs16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/basic.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/power16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'quad/sqrt16.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/array.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/coarray.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/environ.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/error.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/fpu_set.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/main.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/mask.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/memory.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/mutex.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/safe-ctype.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/select.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/stop.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/string.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'runtime/top.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/abort.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/access.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/chdir.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/chmod.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/link.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/ltime.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/exit.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/ftell.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getarg.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getcwd.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/getenv.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/rename.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/signal.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/system.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/time.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:10: warning: source file 'unix/unlink.c' is in a subdirectory,
+Makefile.am:10: but option 'subdir-objects' is disabled
+Makefile.am:39: warning: source file 'math/x87.S' is in a subdirectory,
+Makefile.am:39: but option 'subdir-objects' is disabled
+Makefile.am:43: warning: source file 'runtime/resume.c' is in a subdirectory,
+Makefile.am:43: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/fpu_trap.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getlog.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getpid.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/system_clock.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/dtime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/etime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/cpu_time.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/date_and_time.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/fdate.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/hostnm.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/getuid.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/idate.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/itime.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/sleep.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/stat.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/unix_io.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/secnds.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:47: warning: source file 'unix/second.c' is in a subdirectory,
+Makefile.am:47: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/fpu_trap_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/dtime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/etime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/system_clock_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/cpu_time_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/date_and_time_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/hostnm_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/itime_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/getlog_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/getpid_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/fdate_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/sleep_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/windows_io.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/secnds_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/second_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/stat_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+Makefile.am:56: warning: source file 'windows/idate_win.c' is in a subdirectory,
+Makefile.am:56: but option 'subdir-objects' is disabled
+rm -f /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.sub /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.sub
+ln -fs /boot/home/pkgsrc/pkgsrc/mk/gnu-config/config.guess /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/config.guess
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95 && /bin/env LIBTOOL="libtool " INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo FLEX= BISON= AWK=/bin/awk CAT=/bin/cat ac_cv_path_CAT=/bin/cat CHMOD=/bin/chmod CMP=/bin/cmp CP=/bin/cp DIFF=/bin/diff ECHO=echo ac_cv_path_ECHO=echo EGREP=/bin/egrep ac_cv_path_EGREP=/bin/egrep SETENV=/bin/env ENV_PROG=/bin/env ac_cv_path_ENV=/bin/env FALSE=false ac_cv_path_FALSE=false FIND=/bin/find GREP=/bin/grep ac_cv_path_GREP=/bin/grep TAR=/bin/tar HOSTNAME=/bin/hostname LN=/bin/ln\ -s LS=/bin/ls MKDIR=/bin/mkdir\ -p MV=/bin/mv RM=/bin/rm RMDIR=/bin/rmdir SED=/bin/sed SORT=/bin/sort TAR=/bin/tar TEST=test ac_cv_path_TEST=test TOUCH=/bin/touch TR=/bin/tr TRUE=true ac_cv_path_TRUE=true PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= MAKE=make WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs CPPFLAGS= CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -lnetwork\ -Wl,-R/boot/home/pkg/lib\ -L/boot/system/develop/lib/libroot.so\ -Wl,-R/boot/system/develop/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.home CONFIG_SHELL=/bin/sh LIBS= ac_given_INSTALL=/bin/install\ -c\ -o\ user\ -g\ root ../configure --with-gcc-dir=/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2 PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig --enable-shared --prefix=/boot/home/pkg --prefix=/boot/home/pkg --build=i386-pc-haiku --host=i386-pc-haiku --mandir=/boot/home/pkg/man --enable-languages=c --disable-multilib --disable-libssp
+configure: warning: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig: invalid host type
+loading cache ./config.cache
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+
+checking build system type... i386-pc-haiku
+checking for a BSD compatible install... (cached) /boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/install -c
+checking whether ln works... (cached) yes
+checking whether ln -s works... (cached) yes
+checking for gcc... (cached) gcc
+checking whether the C compiler (gcc -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib) works... yes
+checking whether the C compiler (gcc -Wno-error -specs=/boot/home/pkg/etc/specs -L/boot/home/pkg/lib -lnetwork -Wl,-R/boot/home/pkg/lib -L/boot/system/develop/lib/libroot.so -Wl,-R/boot/system/develop/lib) is a cross-compiler... no
+checking whether we are using GNU C... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gnatbind... no
+checking whether compiler driver understands Ada... (cached) no
+checking how to compare bootstrapped objects... (cached) cmp --ignore-initial=16 $$f1 $$f2
+checking for correct version of gmp.h... yes
+checking for MPFR... no
+*** This configuration is not supported in the following subdirectories:
+     target-libssp target-libmudflap
+    (Any other directories should still work fine.)
+checking for bison... (cached) bison -y
+checking for bison... (cached) bison
+checking for gm4... (cached) gm4
+checking for flex... (cached) flex
+checking for flex... (cached) flex
+checking for makeinfo... (cached) /boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo
+checking for expect... no
+checking for runtest... no
+checking for i386-pc-haiku-ar... (cached) ar
+checking for i386-pc-haiku-as... (cached) as
+checking for i386-pc-haiku-dlltool... no
+checking for dlltool... no
+checking for i386-pc-haiku-ld... (cached) /boot/system/develop/tools/bin/../lib/gcc/i586-pc-haiku/4.8.3/../../../../i586-pc-haiku/bin/ld
+checking for i386-pc-haiku-lipo... no
+checking for lipo... no
+checking for i386-pc-haiku-nm... (cached) nm
+checking for i386-pc-haiku-ranlib... (cached) ranlib
+checking for i386-pc-haiku-strip... (cached) strip
+checking for i386-pc-haiku-windres... no
+checking for windres... no
+checking for i386-pc-haiku-objcopy... (cached) objcopy
+checking for i386-pc-haiku-objdump... (cached) objdump
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ar... no
+../configure: line 4506: test: i386-pc-haiku: unary operator expected
+../configure: line 4542: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-as... no
+../configure: line 4581: test: i386-pc-haiku: unary operator expected
+../configure: line 4617: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-cc... no
+../configure: line 4656: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcc... no
+../configure: line 4656: test: i386-pc-haiku: unary operator expected
+../configure: line 4692: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-c++... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-g++... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-cxx... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gxx... no
+../configure: line 4731: test: i386-pc-haiku: unary operator expected
+../configure: line 4767: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-dlltool... no
+../configure: line 4806: test: i386-pc-haiku: unary operator expected
+../configure: line 4842: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcc... no
+../configure: line 4881: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gcj... no
+../configure: line 4951: test: i386-pc-haiku: unary operator expected
+../configure: line 4987: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-gfortran... no
+../configure: line 5026: test: i386-pc-haiku: unary operator expected
+../configure: line 5062: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ld... no
+../configure: line 5101: test: i386-pc-haiku: unary operator expected
+../configure: line 5137: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-lipo... no
+../configure: line 5176: test: i386-pc-haiku: unary operator expected
+../configure: line 5212: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-nm... no
+../configure: line 5251: test: i386-pc-haiku: unary operator expected
+../configure: line 5287: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-objdump... no
+../configure: line 5326: test: i386-pc-haiku: unary operator expected
+../configure: line 5362: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-ranlib... no
+../configure: line 5401: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-strip... no
+../configure: line 5471: test: i386-pc-haiku: unary operator expected
+../configure: line 5507: test: i386-pc-haiku: unary operator expected
+checking for PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig-windres... no
+../configure: line 5546: test: i386-pc-haiku: unary operator expected
+../configure: line 5582: test: i386-pc-haiku: unary operator expected
+checking where to find the target ar... pre-installed
+checking where to find the target as... pre-installed
+checking where to find the target cc... just compiled
+checking where to find the target c++... pre-installed
+checking where to find the target c++ for libstdc++... pre-installed
+checking where to find the target dlltool... pre-installed
+checking where to find the target gcc... just compiled
+checking where to find the target gcj... pre-installed
+checking where to find the target gfortran... pre-installed
+checking where to find the target ld... pre-installed
+checking where to find the target lipo... pre-installed
+checking where to find the target nm... pre-installed
+checking where to find the target objdump... pre-installed
+checking where to find the target ranlib... pre-installed
+checking where to find the target strip... pre-installed
+checking where to find the target windres... pre-installed
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking if symbolic links between directories work... (cached) yes
+creating ./config.status
+creating Makefile
+cd /boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95 && /bin/env USETOOLS=no CC=gcc CFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs CPPFLAGS= CXX=g++ CXXFLAGS=-Wno-error\ -specs=/boot/home/pkg/etc/specs COMPILER_RPATH_FLAG=-Wl,-R F77=f77 FC=f77 FFLAGS=-O LANG=C LC_ALL=C LC_COLLATE=C LC_CTYPE=C LC_MESSAGES=C LC_MONETARY=C LC_NUMERIC=C LC_TIME=C LDFLAGS=-L/boot/home/pkg/lib\ -lnetwork\ -Wl,-R/boot/home/pkg/lib\ -L/boot/system/develop/lib/libroot.so\ -Wl,-R/boot/system/develop/lib LINKER_RPATH_FLAG=-R PATH=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.wrapper/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.gcc/bin:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin:/boot/home/pkg/bin:.:/boot/home/config/non-packaged/bin:/boot/home/config/bin:/boot/system/non-packaged/bin:/bin:/boot/system/apps:/boot/system/preferences:/boot/home/pkg/bin:/boot/home/pkg/bin PREFIX=/boot/home/pkg MAKELEVEL=0 PKG_SYSCONFDIR=/boot/home/pkg/etc CXXCPP=cpp HOME=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.home CPP=cpp LINK_ALL_LIBGCC_HACK= LOCALBASE=/boot/home/pkg NO_WHOLE_ARCHIVE_FLAG=-Wl,--no-whole-archive WHOLE_ARCHIVE_FLAG=-Wl,--whole-archive X11BASE=/boot/home/pkg X11PREFIX=/boot/home/pkg PKGMANDIR=man PKGINFODIR=info PKGGNUDIR=gnu/ MAKECONF=/dev/null OBJECT_FMT=ELF USETOOLS=no LIBTOOL="libtool " BSD_INSTALL_PROGRAM=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL_MAN=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 644 BSD_INSTALL=/bin/install BSD_INSTALL_PROGRAM_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_SCRIPT_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_LIB_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_DATA_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_MAN_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 755 BSD_INSTALL_GAME=/bin/install\ -c\ -s\ -o\ user\ -g\ root\ -m\ 0755 BSD_INSTALL_GAME_DATA=/bin/install\ -c\ -o\ user\ -g\ root\ -m\ 0644 BSD_INSTALL_GAME_DIR=/bin/install\ -d\ -o\ user\ -g\ root\ -m\ 0755 INSTALL_INFO= MAKEINFO=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.tools/bin/makeinfo FLEX= BISON= PKG_CONFIG= PKG_CONFIG_LIBDIR=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/lib/pkgconfig:/boot/home/pkgsrc/pkgsrc/lang/g95/work/.buildlink/share/pkgconfig PKG_CONFIG_LOG=/boot/home/pkgsrc/pkgsrc/lang/g95/work/.pkg-config.log PKG_CONFIG_PATH= WRAPPER_DEBUG=no WRAPPER_UPDATE_CACHE=yes VIEWBASE=/boot/home/pkg /bin/make -j1
+make[1]: Entering directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+Configuring in ./fixincludes
+configure: loading cache ./config.cache
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+configure: error: /bin/sh ../../fixincludes/../config.sub PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig failed
+make[1]: *** [configure-fixincludes] Error 1
+make[1]: Leaving directory `/boot/home/pkgsrc/pkgsrc/lang/g95/work/gcc-4.1.2/g95'
+make: *** [all] Error 2
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/lang/g95
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/devel/libtool-fortran
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/parallel/mpi-ch
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/skampi
+===> super_pi
+ERROR: This package has set PKG_FAIL_REASON:
+ERROR: super_pi-20030927 is not available for Haiku-1-i386
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/super_pi
+===> ttcp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching ttcp.tar.Z
+=> Total size: 18163 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 18163  100 18163    0     0   4811      0  0:00:03  0:00:03 --:--:--  5154
+===> Installing dependencies for ttcp-1.12nb2
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for ttcp-1.12nb2
+===> Extracting for ttcp-1.12nb2
+===> Patching for ttcp-1.12nb2
+=> Applying pkgsrc patches for ttcp-1.12nb2
+===> Creating toolchain wrappers for ttcp-1.12nb2
+===> Configuring for ttcp-1.12nb2
+===> Building for ttcp-1.12nb2
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs    -c ttcp.c
+ttcp.c: In function 'prusage':
+ttcp.c:642:10: error: 'struct rusage' has no member named 'ru_nswap'
+    i = r1->ru_nswap - r0->ru_nswap;
+          ^
+ttcp.c:642:25: error: 'struct rusage' has no member named 'ru_nswap'
+    i = r1->ru_nswap - r0->ru_nswap;
+                         ^
+ttcp.c:648:39: error: 'struct rusage' has no member named 'ru_ixrss'
+    sprintf(outp,"%d", t == 0 ? 0 : (r1->ru_ixrss-r0->ru_ixrss)/t);
+                                       ^
+ttcp.c:648:52: error: 'struct rusage' has no member named 'ru_ixrss'
+    sprintf(outp,"%d", t == 0 ? 0 : (r1->ru_ixrss-r0->ru_ixrss)/t);
+                                                    ^
+ttcp.c:654:11: error: 'struct rusage' has no member named 'ru_idrss'
+        (r1->ru_idrss+r1->ru_isrss-(r0->ru_idrss+r0->ru_isrss))/t);
+           ^
+ttcp.c:654:24: error: 'struct rusage' has no member named 'ru_isrss'
+        (r1->ru_idrss+r1->ru_isrss-(r0->ru_idrss+r0->ru_isrss))/t);
+                        ^
+ttcp.c:654:38: error: 'struct rusage' has no member named 'ru_idrss'
+        (r1->ru_idrss+r1->ru_isrss-(r0->ru_idrss+r0->ru_isrss))/t);
+                                      ^
+ttcp.c:654:51: error: 'struct rusage' has no member named 'ru_isrss'
+        (r1->ru_idrss+r1->ru_isrss-(r0->ru_idrss+r0->ru_isrss))/t);
+                                                   ^
+ttcp.c:660:12: error: 'struct rusage' has no member named 'ru_ixrss'
+        ((r1->ru_ixrss+r1->ru_isrss+r1->ru_idrss) -
+            ^
+ttcp.c:660:25: error: 'struct rusage' has no member named 'ru_isrss'
+        ((r1->ru_ixrss+r1->ru_isrss+r1->ru_idrss) -
+                         ^
+ttcp.c:660:38: error: 'struct rusage' has no member named 'ru_idrss'
+        ((r1->ru_ixrss+r1->ru_isrss+r1->ru_idrss) -
+                                      ^
+ttcp.c:661:11: error: 'struct rusage' has no member named 'ru_ixrss'
+        (r0->ru_ixrss+r0->ru_idrss+r0->ru_isrss))/t);
+           ^
+ttcp.c:661:24: error: 'struct rusage' has no member named 'ru_idrss'
+        (r0->ru_ixrss+r0->ru_idrss+r0->ru_isrss))/t);
+                        ^
+ttcp.c:661:37: error: 'struct rusage' has no member named 'ru_isrss'
+        (r0->ru_ixrss+r0->ru_idrss+r0->ru_isrss))/t);
+                                     ^
+ttcp.c:666:25: error: 'struct rusage' has no member named 'ru_maxrss'
+    sprintf(outp,"%d", r1->ru_maxrss/2);
+                         ^
+ttcp.c:671:25: error: 'struct rusage' has no member named 'ru_majflt'
+    sprintf(outp,"%d", r1->ru_majflt-r0->ru_majflt);
+                         ^
+ttcp.c:671:39: error: 'struct rusage' has no member named 'ru_majflt'
+    sprintf(outp,"%d", r1->ru_majflt-r0->ru_majflt);
+                                       ^
+ttcp.c:676:25: error: 'struct rusage' has no member named 'ru_minflt'
+    sprintf(outp,"%d", r1->ru_minflt-r0->ru_minflt);
+                         ^
+ttcp.c:676:39: error: 'struct rusage' has no member named 'ru_minflt'
+    sprintf(outp,"%d", r1->ru_minflt-r0->ru_minflt);
+                                       ^
+ttcp.c:681:25: error: 'struct rusage' has no member named 'ru_inblock'
+    sprintf(outp,"%d", r1->ru_inblock-r0->ru_inblock);
+                         ^
+ttcp.c:681:40: error: 'struct rusage' has no member named 'ru_inblock'
+    sprintf(outp,"%d", r1->ru_inblock-r0->ru_inblock);
+                                        ^
+ttcp.c:686:25: error: 'struct rusage' has no member named 'ru_oublock'
+    sprintf(outp,"%d", r1->ru_oublock-r0->ru_oublock);
+                         ^
+ttcp.c:686:40: error: 'struct rusage' has no member named 'ru_oublock'
+    sprintf(outp,"%d", r1->ru_oublock-r0->ru_oublock);
+                                        ^
+ttcp.c:690:28: error: 'struct rusage' has no member named 'ru_nvcsw'
+    sprintf(outp,"%d+%d", r1->ru_nvcsw-r0->ru_nvcsw,
+                            ^
+ttcp.c:690:41: error: 'struct rusage' has no member named 'ru_nvcsw'
+    sprintf(outp,"%d+%d", r1->ru_nvcsw-r0->ru_nvcsw,
+                                         ^
+ttcp.c:691:7: error: 'struct rusage' has no member named 'ru_nivcsw'
+     r1->ru_nivcsw-r0->ru_nivcsw );
+       ^
+ttcp.c:691:21: error: 'struct rusage' has no member named 'ru_nivcsw'
+     r1->ru_nivcsw-r0->ru_nivcsw );
+                     ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/ttcp/work
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/ttcp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/ttcp
+===> xengine
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching part01.z
+=> Total size: 8176 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file part01.z
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  8176  100  8176    0     0   2345      0  0:00:03  0:00:03 --:--:--  2371
+=> Fetching patch1.z
+=> Total size: 3506 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+curl: (9) Server denied you to change to the given directory
+fetch: Unable to fetch expected file patch1.z
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  3506  100  3506    0     0   1108      0  0:00:03  0:00:03 --:--:--  1122
+===> Installing dependencies for xengine-1.0.1nb4
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency imake-[0-9]*: found imake-1.0.7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency libXaw>=1.0.5: found libXaw-1.0.12
+=> Full dependency libXt>=1.0.0: found libXt-1.1.4
+===> Overriding tools for xengine-1.0.1nb4
+===> Extracting for xengine-1.0.1nb4
+shar: Extracting "Imakefile" (752 characters)
+shar: Extracting "Makefile" (9481 characters)
+shar: Extracting "README" (2136 characters)
+shar: Extracting "patchlevel.h" (22 characters)
+shar: Extracting "xengine.c" (11425 characters)
+shar: Extracting "xengine.man" (1142 characters)
+shar: End of shell archive.
+shar: Extracting "xengine.patch1" (11551 characters)
+shar: End of shell archive.
+===> Patching for xengine-1.0.1nb4
+=> Applying pkgsrc patches for xengine-1.0.1nb4
+===> Creating toolchain wrappers for xengine-1.0.1nb4
+===> Configuring for xengine-1.0.1nb4
+cd /boot/home/pkgsrc/pkgsrc/benchmarks/xengine/work; /boot/home/pkg/bin/nbpatch -V simple -z .orig_dist < xengine.patch1
+Hmm...  Looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -rc old/Makefile new/Makefile
+|*** old/Makefile       Tue Oct  2 19:22:43 1990
+|--- new/Makefile       Tue Oct  2 19:24:18 1990
+--------------------------
+Patching file Makefile using Plan A...
+Hunk #1 succeeded at 7.
+Hunk #2 succeeded at 225.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -rc old/README new/README
+|*** old/README Tue Oct  2 19:22:44 1990
+|--- new/README Tue Oct  2 19:23:16 1990
+--------------------------
+Patching file README using Plan A...
+Hunk #1 succeeded at 31.
+Hunk #2 succeeded at 102.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -rc old/patchlevel.h new/patchlevel.h
+|*** old/patchlevel.h   Tue Oct  2 19:22:44 1990
+|--- new/patchlevel.h   Tue Oct  2 19:21:52 1990
+--------------------------
+Patching file patchlevel.h using Plan A...
+Hunk #1 succeeded at 1.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -rc old/xengine.c new/xengine.c
+|*** old/xengine.c      Tue Oct  2 19:22:45 1990
+|--- new/xengine.c      Tue Oct  2 19:21:52 1990
+--------------------------
+Patching file xengine.c using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 119.
+Hunk #3 succeeded at 185 with fuzz 1 (offset -3 lines).
+Hunk #4 succeeded at 329 (offset -3 lines).
+done
+mv -f Makefile Makefile.bak
+imake -DUseInstalled -I/boot/home/pkg/lib/X11/config
+make Makefiles
+make includes
+make depend
+makedepend  -- -I./X11  -I/boot/home/pkg/include          -DUSE_MAKEDEPEND -- xengine.c
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/sys/types.h, line 9): cannot find include file "config/types.h"
+        not in ./X11/config/types.h
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/sys/types.h, line 11): cannot find include file "BeBuild.h"
+        not in ./X11/BeBuild.h
+        not in /boot/home/pkg/include/BeBuild.h
+        not in /usr/include/BeBuild.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/size_t.h, line 9): cannot find include file "stddef.h"
+        not in ./X11/stddef.h
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/X11/Xlib.h, line 51): cannot find include file "stddef.h"
+        not in ./X11/stddef.h
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/X11/Intrinsic.h, line 90): cannot find include file "stddef.h"
+        not in ./X11/stddef.h
+        not in /boot/home/pkg/include/stddef.h
+        not in /usr/include/stddef.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/sys/select.h, line 9): cannot find include file "config/types.h"
+        not in ./X11/config/types.h
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/signal.h), line 351: incomplete include == "#include __HAIKU_ARCH_HEADER(signal.h)"
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/stdio.h, line 11): cannot find include file "stdarg.h"
+        not in ./X11/stdarg.h
+        not in /boot/home/pkg/include/stdarg.h
+        not in /usr/include/stdarg.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/libio.h, line 31): cannot find include file "stdarg.h"
+        not in ./X11/stdarg.h
+        not in /boot/home/pkg/include/stdarg.h
+        not in /usr/include/stdarg.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/limits.h, line 10): cannot find include file "config/types.h"
+        not in ./X11/config/types.h
+        not in /boot/home/pkg/include/config/types.h
+        not in /usr/include/config/types.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/limits.h, line 12): cannot find include file "float.h"
+        not in ./X11/float.h
+        not in /boot/home/pkg/include/float.h
+        not in /usr/include/float.h
+makedepend: warning:  xengine.c (reading /boot/home/pkg/include/limits.h, line 82): cannot find include file "limits.h"
+        not in /usr/include/limits.h
+===> Building for xengine-1.0.1nb4
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -O    -I./X11  -I/boot/home/pkg/include          -I/boot/home/pkg/include -c xengine.c
+xengine.c: In function 'main':
+xengine.c:50:3: warning: initialization from incompatible pointer type [enabled by default]
+   {"expose", (XtCallbackProc) redraw_callback},
+   ^
+xengine.c:50:3: warning: (near initialization for 'redrawActions[0].proc') [enabled by default]
+xengine.c:84:5: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+     exit(0);
+     ^
+xengine.c:92:4: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+    exit(0);
+    ^
+xengine.c:168:2: warning: passing argument 2 of 'XtAddTimeOut' from incompatible pointer type [enabled by default]
+  XtAddTimeOut(1, Cycle, NULL);
+  ^
+In file included from xengine.c:18:0:
+/boot/home/pkgsrc/pkgsrc/benchmarks/xengine/work/.buildlink/include/X11/Intrinsic.h:978:21: note: expected 'XtTimerCallbackProc' but argument is of type 'void (* (*)())(void *, XtIntervalId *)'
+ extern XtIntervalId XtAddTimeOut( /* obsolete */
+                     ^
+xengine.c: In function 'Cycle':
+xengine.c:220:2: warning: passing argument 2 of 'XtAddTimeOut' from incompatible pointer type [enabled by default]
+  XtAddTimeOut(1, Cycle, NULL);
+  ^
+In file included from xengine.c:18:0:
+/boot/home/pkgsrc/pkgsrc/benchmarks/xengine/work/.buildlink/include/X11/Intrinsic.h:978:21: note: expected 'XtTimerCallbackProc' but argument is of type 'void (* (*)())(void *, XtIntervalId *)'
+ extern XtIntervalId XtAddTimeOut( /* obsolete */
+                     ^
+bmake: don't know how to make /boot/home/pkg/lib/libXaw.a. Stop
+
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/xengine/work
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/xengine
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/xengine
+===> zelibm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+=> Fetching zelibm.tar.gz
+=> Total size: 17616 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   233    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 17616  100 17616    0     0  25086      0 --:--:-- --:--:-- --:--:-- 66475
+===> Installing dependencies for zelibm-0nb14
+==========================================================================
+The following variables will affect the build process of this package,
+zelibm-0nb14.  Their current value is shown below:
+
+        * JPEG_DEFAULT = jpeg
+
+Based on these variables, the following variables have been set:
+
+        * JPEGBASE (defined, but empty)
+        * JPEG_TYPE = jpeg
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Full dependency gmp>=5.0.1: found gmp-6.0.0a
+=> Full dependency gd>=2.1.0: found gd-2.1.0nb1
+=> Full dependency libXaw>=1.0.5: found libXaw-1.0.12
+===> Overriding tools for zelibm-0nb14
+===> Extracting for zelibm-0nb14
+===> Patching for zelibm-0nb14
+=> Applying pkgsrc patches for zelibm-0nb14
+===> Creating toolchain wrappers for zelibm-0nb14
+===> Configuring for zelibm-0nb14
+===> Building for zelibm-0nb14
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs2] Ignoring non-existent file "./makefile".
+gcc -c -o libmtest.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. libmtest.c
+gcc -c -o testx.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. testx.c
+testx.c: In function 'term':
+testx.c:44:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+   exit (0);
+   ^
+gcc -c -o Plot.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. Plot.c
+Plot.c: In function 'InitializeShm':
+Plot.c:116:28: warning: assignment makes pointer from integer without a cast [enabled by default]
+     = pw->plot.image->data = shmat (pw->plot.shminfo.shmid, 0, 0);
+                            ^
+gcc -c -o Progress.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. Progress.c
+gcc -c -o image.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. image.c
+gcc -c -o dbl2mpq.o -Wno-error -specs=/boot/home/pkg/etc/specs -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I. dbl2mpq.c
+dbl2mpq.c:12:26: fatal error: machine/ieee.h: No such file or directory
+ #include <machine/ieee.h>
+                          ^
+compilation terminated.
+make: *** [dbl2mpq.o] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/zelibm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/benchmarks/zelibm
+~/pkgsrc/pkgsrc/benchmarks> 

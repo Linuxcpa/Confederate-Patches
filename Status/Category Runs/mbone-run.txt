@@ -1,0 +1,1659 @@
+~/pkgsrc/pkgsrc> cd mbone
+~/pkgsrc/pkgsrc/mbone> bmake clean
+===> beacon
+===> Cleaning for beacon-1.3nb6
+===> common-mml
+===> Cleaning for common-mml-1.2.16nb4
+===> dbeacon
+===> Cleaning for dbeacon-0.3.9.1nb1
+===> mdd
+===> Cleaning for mdd-20050318
+===> mdp
+===> Cleaning for src-mdp-1.9a5nb1
+===> rat
+===> Cleaning for rat-3.0.28nb8
+===> rtptools
+===> Cleaning for rtptools-1.18
+===> sapserver
+===> Cleaning for miniSAPserver-0.2.4
+===> vat
+===> Cleaning for vat-4.0b2nb8
+===> vic
+===> Cleaning for vic-2.8nb8
+===> vic-devel
+===> Cleaning for vic-devel-2.8.1.4.0beta.4337nb11
+===> wbd
+===> Cleaning for wbd-1.0p4nb7
+~/pkgsrc/pkgsrc/mbone> do
+===> beacon
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching beacon-1.3.tar.gz
+=> Total size: 411823 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file beacon-1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+curl: (78) RETR response: 550
+fetch: Unable to fetch expected file beacon-1.3.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  402k  100  402k    0     0  69278      0  0:00:05  0:00:05 --:--:-- 99426
+===> Installing dependencies for beacon-1.3nb6
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Tool dependency perl>=5.20.0: found perl-5.20.0nb1
+=> Full dependency perl<5.22.0: found perl-5.20.0nb1
+=> Full dependency perl>=5.20.0: found perl-5.20.0nb1
+===> Overriding tools for beacon-1.3nb6
+===> Extracting for beacon-1.3nb6
+cd /boot/home/pkgsrc/pkgsrc/mbone/beacon/work/beacon-1.3 && /bin/tar -zxvf common-1.2.16.tar.gz
+common/
+common/CVS/
+common/CVS/Root
+common/CVS/Repository
+common/CVS/Entries.Log
+common/CVS/Entries
+common/doc/
+common/doc/CVS/
+common/doc/CVS/Root
+common/doc/CVS/Repository
+common/doc/CVS/Entries.Log
+common/doc/CVS/Entries
+common/doc/html/
+common/doc/html/CVS/
+common/doc/html/CVS/Root
+common/doc/html/CVS/Repository
+common/doc/html/CVS/Entries
+common/doc/html/uclmmbase-hmac.html
+common/doc/html/uclmmbase.html
+common/doc/html/uclmmbase-md5.html
+common/doc/html/uclmmbase-net-udp.html
+common/doc/html/book1.html
+common/doc/html/uclmmbase-rtp.html
+common/doc/sgml/
+common/doc/sgml/CVS/
+common/doc/sgml/CVS/Root
+common/doc/sgml/CVS/Repository
+common/doc/sgml/CVS/Entries
+common/doc/tmpl/
+common/doc/tmpl/CVS/
+common/doc/tmpl/CVS/Root
+common/doc/tmpl/CVS/Repository
+common/doc/tmpl/CVS/Entries
+common/doc/tmpl/acconfig.sgml
+common/doc/tmpl/md5.sgml
+common/doc/tmpl/config_win32.sgml
+common/doc/tmpl/uclconf.sgml
+common/doc/tmpl/version.sgml
+common/doc/tmpl/sockstorage.sgml
+common/doc/tmpl/inet_pton.sgml
+common/doc/tmpl/asarray.sgml
+common/doc/tmpl/rtp.sgml
+common/doc/tmpl/crypt_random.sgml
+common/doc/tmpl/mbus.sgml
+common/doc/tmpl/addrinfo.sgml
+common/doc/tmpl/mbus_parser.sgml
+common/doc/tmpl/uclmmbase-unused.sgml
+common/doc/tmpl/btree.sgml
+common/doc/tmpl/net_udp.sgml
+common/doc/tmpl/qfDES.sgml
+common/doc/tmpl/gettimeofday.sgml
+common/doc/tmpl/config_unix.sgml
+common/doc/tmpl/drand48.sgml
+common/doc/tmpl/vsnprintf.sgml
+common/doc/tmpl/mbus_config.sgml
+common/doc/tmpl/base64.sgml
+common/doc/tmpl/cdecl_ext.sgml
+common/doc/tmpl/bittypes.sgml
+common/doc/tmpl/ntp.sgml
+common/doc/tmpl/mbus_addr.sgml
+common/doc/tmpl/memory.sgml
+common/doc/tmpl/addrsize.sgml
+common/doc/tmpl/hmac.sgml
+common/doc/tmpl/util.sgml
+common/doc/tmpl/debug.sgml
+common/doc/tmpl/inet_ntop.sgml
+common/doc/uclmmbase-driver.sgml
+common/doc/README
+common/doc/Makefile.in
+common/doc/uclmmbase-sections.txt
+common/doc/.cvsignore
+common/src/
+common/src/CVS/
+common/src/CVS/Root
+common/src/CVS/Repository
+common/src/CVS/Entries.Log
+common/src/CVS/Entries
+common/src/vsnprintf.c
+common/src/vsnprintf.h
+common/src/debug.c
+common/src/debug.h
+common/src/md5.c
+common/src/md5.h
+common/src/ntp.c
+common/src/ntp.h
+common/src/sap.c
+common/src/sap.h
+common/src/sdp.c
+common/src/sdp.h
+common/src/rtp.c
+common/src/rtp.h
+common/src/win32/
+common/src/win32/CVS/
+common/src/win32/CVS/Root
+common/src/win32/CVS/Repository
+common/src/win32/CVS/Entries
+common/src/win32/set.txt
+common/src/win32/echo.txt
+common/src/win32/null.txt
+common/src/mbus_addr.c
+common/src/mbus_addr.h
+common/src/getaddrinfo.c
+common/src/gettimeofday.c
+common/src/gettimeofday.h
+common/src/sockstorage.h
+common/src/net_udp.c
+common/src/net_udp.h
+common/src/config_unix.h
+common/src/cdecl_ext.h
+common/src/addrinfo.h
+common/src/Makefile.in
+common/src/hmac.c
+common/src/hmac.h
+common/src/README.qfdes
+common/src/config_win32.h
+common/src/mbus.c
+common/src/mbus.h
+common/src/config.h.in
+common/src/addrsize.h
+common/src/mbus_parser.c
+common/src/mbus_parser.h
+common/src/rijndael-api-fst.c
+common/src/rijndael-api-fst.h
+common/src/util.c
+common/src/util.h
+common/src/crypt_random.c
+common/src/crypt_random.h
+common/src/bittypes.h
+common/src/mbus_config.c
+common/src/mbus_config.h
+common/src/boxes-fst.dat
+common/src/inet_ntop.c
+common/src/inet_ntop.h
+common/src/inet_pton.c
+common/src/inet_pton.h
+common/src/asarray.c
+common/src/asarray.h
+common/src/rijndael-alg-fst.c
+common/src/rijndael-alg-fst.h
+common/src/.cvsignore
+common/src/drand48.c
+common/src/drand48.h
+common/src/base64.c
+common/src/base64.h
+common/src/acconfig.h
+common/src/qfDES.c
+common/src/qfDES.h
+common/src/common.dsp
+common/src/btree.c
+common/src/btree.h
+common/src/memory.c
+common/src/memory.h
+common/MODS
+common/tests/
+common/tests/CVS/
+common/tests/CVS/Root
+common/tests/CVS/Repository
+common/tests/CVS/Entries
+common/tests/test_des.c
+common/tests/test_des.h
+common/tests/test_mbus_addr.c
+common/tests/test_mbus_addr.h
+common/tests/test_md5.c
+common/tests/test_md5.h
+common/tests/test_mbus_parser.c
+common/tests/test_mbus_parser.h
+common/tests/test_net_udp.c
+common/tests/test_net_udp.h
+common/tests/Makefile.in
+common/tests/test.c
+common/tests/testcommon.dsp
+common/tests/.cvsignore
+common/tests/test_base64.c
+common/tests/test_base64.h
+common/tests/test_memory.c
+common/tests/test_memory.h
+common/README
+common/configure
+common/configure.in
+common/config.guess
+common/install-sh
+common/config.sub
+common/Makefile.in
+common/VERSION
+common/examples/
+common/examples/CVS/
+common/examples/CVS/Root
+common/examples/CVS/Repository
+common/examples/CVS/Entries.Log
+common/examples/CVS/Entries
+common/examples/sap/
+common/examples/sap/CVS/
+common/examples/sap/CVS/Root
+common/examples/sap/CVS/Repository
+common/examples/sap/CVS/Entries
+common/examples/sap/Makefile
+common/examples/sap/sapdemo.c
+common/examples/sap/Makefile.in
+common/examples/sdp/
+common/examples/sdp/CVS/
+common/examples/sdp/CVS/Root
+common/examples/sdp/CVS/Repository
+common/examples/sdp/CVS/Entries
+common/examples/sdp/Makefile
+common/examples/sdp/sdpdemo.c
+common/examples/sdp/Makefile.in
+common/examples/rtp/
+common/examples/rtp/CVS/
+common/examples/rtp/CVS/Root
+common/examples/rtp/CVS/Repository
+common/examples/rtp/CVS/Entries
+common/examples/rtp/rtpdemo.c
+common/examples/rtp/Makefile.in
+common/examples/rtp/.cvsignore
+common/examples/Makefile.in
+common/examples/.cvsignore
+common/.cvsignore
+common/common.dsw
+common/COPYRIGHT
+===> Patching for beacon-1.3nb6
+cd /boot/home/pkgsrc/pkgsrc/mbone/beacon/work/beacon-1.3 && /boot/home/pkg/bin/nbpatch -p0 < common-beacon.patch
+Hmm...  Looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -u -p -w common/src/rtp.c common-beacon/src/rtp.c
+|--- common/src/rtp.c   2002-04-15 17:40:05.000000000 -0500
+|+++ common-beacon/src/rtp.c    2005-02-11 13:20:37.000000000 -0600
+--------------------------
+Patching file common/src/rtp.c using Plan A...
+Hunk #1 succeeded at 180.
+Hunk #2 succeeded at 604.
+Hunk #3 succeeded at 737.
+Hunk #4 succeeded at 2344.
+Hmm...  The next patch looks like a unified diff to me...
+The text leading up to this was:
+--------------------------
+|diff -u -p -w common/src/rtp.h common-beacon/src/rtp.h
+|--- common/src/rtp.h   2002-04-15 17:40:05.000000000 -0500
+|+++ common-beacon/src/rtp.h    2005-02-11 13:22:50.000000000 -0600
+--------------------------
+Patching file common/src/rtp.h using Plan A...
+Hunk #1 succeeded at 41.
+done
+=> Applying pkgsrc patches for beacon-1.3nb6
+=> Substituting "conf" in src/beacon.in
+===> Creating toolchain wrappers for beacon-1.3nb6
+===> Configuring for beacon-1.3nb6
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking for i386-pc-haiku-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking for i386-pc-haiku-ranlib... no
+checking for ranlib... ranlib
+checking whether gcc and cc understand -c and -o together... yes
+checking for perl... /boot/home/pkg/bin/perl
+checking for swig... /boot/home/pkg/bin/swig
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking for unistd.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for inline... inline
+checking for pid_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working memcmp... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking whether lstat dereferences a symlink specified with a trailing slash... no
+checking whether stat accepts an empty string... no
+checking for working strtod... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for gethostbyaddr... yes
+checking for gethostbyname... yes
+checking for gethostname... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for memmove... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for modf... yes
+checking for select... yes
+checking for socket... yes
+checking for strchr... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for uname... yes
+checking build system type... i586-pc-haiku
+checking host system type... i586-pc-haiku
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking for ranlib... ranlib
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking sys/filio.h usability... no
+checking sys/filio.h presence... no
+checking for sys/filio.h... no
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for uint8_t in <stdint.h>... yes
+checking for uint16_t in <stdint.h>... yes
+checking for uint32_t in <stdint.h>... yes
+checking whether byte ordering is bigendian... no
+checking whether char is unsigned... no
+checking for /dev/urandom... yes
+checking for vsnprintf... yes
+checking for inet_pton in <arpa/inet.h>... yes
+checking for inet_ntop in <arpa/inet.h>... yes
+checking for library containing socket... none required
+checking for library containing inet_addr... none required
+checking whether to enable IPv6... no
+checking for getipnodebyname in <netdb.h>... yes
+checking for struct addrinfo in <netdb.h>... yes
+checking for sin6_len in struct sockaddr_in6... yes
+checking for msg_control in struct msghdr... yes
+checking for gtkdoc-scan... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/rtp/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/uclconf.h
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Net-Multicast-Beacon/Makefile
+config.status: creating libbeacon/Makefile
+config.status: creating src/Makefile
+config.status: creating src/beacon
+config.status: creating config.h
+config.status: executing depfiles commands
+===> Building for beacon-1.3nb6
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -I./common/src -I/boot/home/pkg/include -fPIC -Wno-error -I/boot/home/pkg/include -MT common/src/asarray.o -MD -MP -MF "common/src/.deps/asarray.Tpo"  -c -o common/src/asarray.o `test -f 'common/src/asarray.c' || echo './'`common/src/asarray.c;  then mv -f "common/src/.deps/asarray.Tpo" "common/src/.deps/asarray.Po";  else rm -f "common/src/.deps/asarray.Tpo"; exit 1;  fi
+In file included from common/src/asarray.c:13:0:
+common/src/config_unix.h:79:23: fatal error: sys/fcntl.h: No such file or directory
+ #include <sys/fcntl.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/beacon/work/beacon-1.3
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/beacon
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/beacon
+===> common-mml
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching common-1.2.16.tar.gz
+=> Total size: 247163 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  241k  100  241k    0     0  77903      0  0:00:03  0:00:03 --:--:--  115k
+===> Installing dependencies for common-mml-1.2.16nb4
+=> Tool dependency libtool-base>=2.2.6bnb3: found libtool-base-2.4.2nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for common-mml-1.2.16nb4
+===> Extracting for common-mml-1.2.16nb4
+===> Patching for common-mml-1.2.16nb4
+=> Applying pkgsrc patches for common-mml-1.2.16nb4
+===> Creating toolchain wrappers for common-mml-1.2.16nb4
+===> Configuring for common-mml-1.2.16nb4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking build system type... i386-pc-haiku
+checking host system type... i386-pc-haiku
+checking for i386-pc-haiku-gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking for i386-pc-haiku-ranlib... no
+checking for ranlib... ranlib
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking sys/filio.h usability... no
+checking sys/filio.h presence... no
+checking for sys/filio.h... no
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for uint8_t in <stdint.h>... yes
+checking for uint16_t in <stdint.h>... yes
+checking for uint32_t in <stdint.h>... yes
+checking whether byte ordering is bigendian... no
+checking whether char is unsigned... no
+checking for /dev/urandom... yes
+checking for vsnprintf... yes
+checking for inet_pton in <arpa/inet.h>... yes
+checking for inet_ntop in <arpa/inet.h>... yes
+checking for library containing socket... none required
+checking for library containing inet_addr... none required
+checking whether to enable IPv6... no
+checking for getipnodebyname in <netdb.h>... yes
+checking for struct addrinfo in <netdb.h>... yes
+checking for sin6_len in struct sockaddr_in6... yes
+checking for msg_control in struct msghdr... yes
+checking for gtkdoc-scan... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/rtp/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/uclconf.h
+=> Modifying libtool scripts to use pkgsrc libtool
+===> Building for common-mml-1.2.16nb4
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+for s in src tests examples ; do (cd $s && /boot/home/pkg/bin/bmake) || exit 1 ; done
+sed -e 's/.*/#define CCL_VERSION "v&"/' ../VERSION > version.h
+libtool  --mode=compile gcc -Wno-error -W -Wall -Wwrite-strings -Wbad-function-cast -Wmissing-prototypes -Wcast-qual -Wmissing-declarations -DHAVE_CONFIG_H  -c crypt_random.c
+libtool: compile:  gcc -W -Wall -Wwrite-strings -Wbad-function-cast -Wmissing-prototypes -Wcast-qual -Wmissing-declarations -DHAVE_CONFIG_H -c crypt_random.c  -DPIC -o .libs/crypt_random.o
+In file included from crypt_random.c:46:0:
+config_unix.h:79:23: fatal error: sys/fcntl.h: No such file or directory
+ #include <sys/fcntl.h>
+                       ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/common-mml/work/common/src
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/common-mml/work/common
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/common-mml
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/common-mml
+===> dbeacon
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching dbeacon-0.3.9.1.tar.gz
+=> Total size: 43893 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (56) Recv failure: Socket is not connected
+fetch: Unable to fetch expected file dbeacon-0.3.9.1.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 43893  100 43893    0     0  11791      0  0:00:03  0:00:03 --:--:-- 12645
+===> Installing dependencies for dbeacon-0.3.9.1nb1
+==========================================================================
+The following variables will affect the build process of this package,
+dbeacon-0.3.9.1nb1.  Their current value is shown below:
+
+        * IPV6_READY = YES
+
+You may want to abort the process now with CTRL-C and change their value
+before continuing.  Be sure to run `/boot/home/pkg/bin/bmake clean' after
+the changes.
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for dbeacon-0.3.9.1nb1
+===> Extracting for dbeacon-0.3.9.1nb1
+===> Patching for dbeacon-0.3.9.1nb1
+=> Applying pkgsrc patches for dbeacon-0.3.9.1nb1
+===> Creating toolchain wrappers for dbeacon-0.3.9.1nb1
+===> Building for dbeacon-0.3.9.1nb1
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+g++ -Wno-error -g -Wall   -c -o dbeacon.o dbeacon.cpp
+dbeacon.cpp:31:24: fatal error: sys/signal.h: No such file or directory
+ #include <sys/signal.h>
+                        ^
+compilation terminated.
+make: *** [dbeacon.o] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/dbeacon
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/dbeacon
+===> mdd
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching mdd-20050318.tgz
+=> Total size: 8586 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  8586  100  8586    0     0   6499      0  0:00:01  0:00:01 --:--:-- 10895
+===> Installing dependencies for mdd-20050318
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for mdd-20050318
+===> Extracting for mdd-20050318
+===> Patching for mdd-20050318
+=> Applying pkgsrc patches for mdd-20050318
+===> Creating toolchain wrappers for mdd-20050318
+===> Configuring for mdd-20050318
+===> Building for mdd-20050318
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+gcc -Wno-error -Wno-error  -c mdd.c
+gcc -Wno-error -Wno-error  -c sender.c
+sender.c: In function 'sender':
+sender.c:231:18: warning: passing argument 6 of 'recvfrom' from incompatible pointer type [enabled by default]
+       0, (struct sockaddr *)&from_sin, &from_salen) > 0) {
+                  ^
+In file included from /boot/system/develop/headers/posix/netdb.h:94:0,
+                 from sender.c:36:
+/boot/system/develop/headers/posix/sys/socket.h:177:9: note: expected 'socklen_t *' but argument is of type 'size_t *'
+ ssize_t recvfrom(int socket, void *buffer, size_t bufferLength, int flags,
+         ^
+gcc -Wno-error -Wno-error  -c receiver.c
+gcc -Wno-error -Wno-error  -c sniffer.c
+sniffer.c: In function 'sniffer':
+sniffer.c:143:18: warning: passing argument 6 of 'recvfrom' from incompatible pointer type [enabled by default]
+       0, (struct sockaddr *)&from_sin, &from_salen) > 0) {
+                  ^
+In file included from /boot/system/develop/headers/posix/netdb.h:94:0,
+                 from sniffer.c:36:
+/boot/system/develop/headers/posix/sys/socket.h:177:9: note: expected 'socklen_t *' but argument is of type 'size_t *'
+ ssize_t recvfrom(int socket, void *buffer, size_t bufferLength, int flags,
+         ^
+gcc -Wno-error -Wno-error -static -o mdd mdd.o sender.o receiver.o sniffer.o
+mdd.o: In function `.L11':
+mdd.c:(.text+0xe7): undefined reference to `inet_pton'
+mdd.o: In function `.L12':
+mdd.c:(.text+0x137): undefined reference to `inet_pton'
+mdd.o: In function `.L15':
+mdd.c:(.text+0x238): undefined reference to `inet_pton'
+mdd.o: In function `.L6':
+mdd.c:(.text+0x288): undefined reference to `inet_pton'
+mdd.o: In function `local_addr':
+mdd.c:(.text+0x59a): undefined reference to `socket'
+mdd.c:(.text+0x5d2): undefined reference to `connect'
+mdd.c:(.text+0x60b): undefined reference to `getsockname'
+sender.o: In function `sender':
+sender.c:(.text+0x8c): undefined reference to `socket'
+sender.c:(.text+0xd6): undefined reference to `socket'
+sender.c:(.text+0x137): undefined reference to `setsockopt'
+sender.c:(.text+0x195): undefined reference to `inet_ntoa'
+sender.c:(.text+0x1c3): undefined reference to `setsockopt'
+sender.c:(.text+0x21e): undefined reference to `setsockopt'
+sender.c:(.text+0x284): undefined reference to `setsockopt'
+sender.c:(.text+0x2f1): undefined reference to `bind'
+sender.c:(.text+0x353): undefined reference to `setsockopt'
+sender.c:(.text+0x39c): undefined reference to `setsockopt'
+sender.c:(.text+0x419): undefined reference to `bind'
+sender.c:(.text+0x4bf): undefined reference to `setsockopt'
+sender.c:(.text+0x6ec): undefined reference to `sendto'
+sender.c:(.text+0x76f): undefined reference to `recvfrom'
+sender.c:(.text+0x794): undefined reference to `inet_ntop'
+sender.c:(.text+0x94e): undefined reference to `setsockopt'
+receiver.o: In function `receiver':
+receiver.c:(.text+0x83): undefined reference to `socket'
+receiver.c:(.text+0xcd): undefined reference to `socket'
+receiver.c:(.text+0x12e): undefined reference to `setsockopt'
+receiver.c:(.text+0x18c): undefined reference to `inet_ntoa'
+receiver.c:(.text+0x1ba): undefined reference to `setsockopt'
+receiver.c:(.text+0x215): undefined reference to `setsockopt'
+receiver.c:(.text+0x27b): undefined reference to `setsockopt'
+receiver.c:(.text+0x2f7): undefined reference to `bind'
+receiver.c:(.text+0x359): undefined reference to `setsockopt'
+receiver.c:(.text+0x3a2): undefined reference to `setsockopt'
+receiver.c:(.text+0x41f): undefined reference to `bind'
+receiver.c:(.text+0x481): undefined reference to `setsockopt'
+receiver.c:(.text+0x611): undefined reference to `recvfrom'
+receiver.c:(.text+0xa63): undefined reference to `setsockopt'
+receiver.o: In function `resend_req':
+receiver.c:(.text+0xbe2): undefined reference to `sendto'
+receiver.c:(.text+0xc0a): undefined reference to `inet_ntoa'
+sniffer.o: In function `sniffer':
+sniffer.c:(.text+0x63): undefined reference to `socket'
+sniffer.c:(.text+0xba): undefined reference to `setsockopt'
+sniffer.c:(.text+0x112): undefined reference to `inet_ntoa'
+sniffer.c:(.text+0x13d): undefined reference to `setsockopt'
+sniffer.c:(.text+0x198): undefined reference to `setsockopt'
+sniffer.c:(.text+0x203): undefined reference to `bind'
+sniffer.c:(.text+0x265): undefined reference to `setsockopt'
+sniffer.c:(.text+0x325): undefined reference to `recvfrom'
+sniffer.c:(.text+0x34a): undefined reference to `inet_ntop'
+sniffer.c:(.text+0x6e6): undefined reference to `inet_ntoa'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/mdd/work/mdd-20050318
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/mdd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/mdd
+===> mdp
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching src-mdp-1.9a5.tgz
+=> Total size: 439296 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   249  100   249    0     0    286      0 --:--:-- --:--:-- --:--:--   286
+100  6501  100  6501    0     0   6685      0 --:--:-- --:--:-- --:--:--  6685
+fetch: Size of the file src-mdp-1.9a5.tgz doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   254  100   254    0     0    781      0 --:--:-- --:--:-- --:--:--   781
+100  7496  100  7496    0     0  17504      0 --:--:-- --:--:-- --:--:-- 17504
+fetch: Size of the file src-mdp-1.9a5.tgz doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  429k  100  429k    0     0  79314      0  0:00:05  0:00:05 --:--:--  106k
+=> Fetching src-protolib-1.0a3d.tgz
+=> Total size: 59402 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100   249  100   249    0     0    748      0 --:--:-- --:--:-- --:--:--   748
+100  6501  100  6501    0     0  14837      0 --:--:-- --:--:-- --:--:-- 14837
+fetch: Size of the file src-protolib-1.0a3d.tgz doesn't match.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 59402  100 59402    0     0   110k      0 --:--:-- --:--:-- --:--:--  118k
+===> Installing dependencies for src-mdp-1.9a5nb1
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for src-mdp-1.9a5nb1
+===> Extracting for src-mdp-1.9a5nb1
+rm /boot/home/pkgsrc/pkgsrc/mbone/mdp/work/mdp/protolib
+mv /boot/home/pkgsrc/pkgsrc/mbone/mdp/work/protolib-1.0 /boot/home/pkgsrc/pkgsrc/mbone/mdp/work/mdp/protolib
+===> Patching for src-mdp-1.9a5nb1
+=> Applying pkgsrc patches for src-mdp-1.9a5nb1
+===> Creating toolchain wrappers for src-mdp-1.9a5nb1
+===> Configuring for src-mdp-1.9a5nb1
+cd /boot/home/pkgsrc/pkgsrc/mbone/mdp/work/mdp/unix && rm -f Makefile && ln -s Makefile.netbsd Makefile
+===> Building for src-mdp-1.9a5nb1
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o mdp.o mdp.cpp
+mdp.cpp: In function 'int main(int, char**)':
+mdp.cpp:385:54: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     theApp.SetPostProcessor("xv -rmode 5 -root -quit");
+                                                      ^
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpApp.o ../common/mdpApp.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpItem.o ../common/mdpItem.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/ackList.o ../common/ackList.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpApi.o ../common/mdpApi.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpBitMask.o ../common/mdpBitMask.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpMessage.o ../common/mdpMessage.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpEncoder.o ../common/mdpEncoder.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/galois.o ../common/galois.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpSession.o ../common/mdpSession.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpMsgHandler.o ../common/mdpMsgHandler.cpp
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpNode.o ../common/mdpNode.cpp
+../common/mdpNode.cpp: In member function 'void MdpServerNode::ObjectRepairCheck(long unsigned int, long unsigned int)':
+../common/mdpNode.cpp:918:58: warning: suggest parentheses around '&&' within '||' [-Wparentheses]
+         if((diff > 0x80000000) || ((diff == 0x80000000)) && (objectId > current_object_id))
+                                                          ^
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o ../common/mdpObject.o ../common/mdpObject.cpp
+../common/mdpObject.cpp: In member function 'virtual void MdpVectorPool::Put(char*)':
+../common/mdpObject.cpp:124:29: warning: argument to 'sizeof' in 'void* memset(void*, int, size_t)' call is the same pointer type 'char*' as the destination; expected 'char' or an explicit length [-Wsizeof-pointer-memaccess]
+     memset(vector, 0, sizeof(char *));  // validity of pointer is tested
+                             ^
+g++ -c -g -DPROTO_DEBUG -DUNIX -Wall -O -fPIC -DHAVE_GETLOGIN -DHAVE_ASSERT -DHAVE_FLOCK -DHAVE_DIRFD  -D__socklen_t_defined=1 -I/boot/home/pkg/include -I/boot/home/pkg/include  -I./ -I../common -I../protolib/common -o mdpFile.o mdpFile.cpp
+mdpFile.cpp: In member function 'bool MdpFile::Lock()':
+mdpFile.cpp:105:19: error: 'LOCK_EX' was not declared in this scope
+     if (flock(fd, LOCK_EX | LOCK_NB))
+                   ^
+mdpFile.cpp:105:29: error: 'LOCK_NB' was not declared in this scope
+     if (flock(fd, LOCK_EX | LOCK_NB))
+                             ^
+mdpFile.cpp: In member function 'void MdpFile::Unlock()':
+mdpFile.cpp:119:15: error: 'LOCK_UN' was not declared in this scope
+     flock(fd, LOCK_UN);
+               ^
+mdpFile.cpp: In member function 'bool MdpFile::Lock()':
+mdpFile.cpp:114:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }  // end MdpFile::Lock()
+ ^
+make: *** [mdpFile.o] Error 1
+*** Error code 2
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/mdp
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/mdp
+===> rat
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching rat-3.0.28.tar.gz
+=> Total size: 351749 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not found - file doesn't exist or is read protected [even tried multi]
+fetch: Unable to fetch expected file rat-3.0.28.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  343k  100  343k    0     0  64455      0  0:00:05  0:00:05 --:--:-- 73556
+===> Installing dependencies for rat-3.0.28nb8
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency tcl>=8.6.1nb1: found tcl-8.6.1nb3
+=> Full dependency tk>=8.6.1: found tk-8.6.1nb2
+===> Overriding tools for rat-3.0.28nb8
+===> Extracting for rat-3.0.28nb8
+===> Patching for rat-3.0.28nb8
+=> Applying pkgsrc patches for rat-3.0.28nb8
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_2
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_3
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_4
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_5
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_6
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_DragonFly_2
+/bin/cp /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_NetBSD_1 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/Makefile_DragonFly_3
+===> Creating toolchain wrappers for rat-3.0.28nb8
+===> Configuring for rat-3.0.28nb8
+===> Building for rat-3.0.28nb8
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+cd /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28 && USER=build PREFIX=/boot/home/pkg MAKE=/bin/make LDFLAGS=" -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib  -L/boot/home/pkg/lib -Wl,-R/boot/home/pkg/lib -L/boot/system/lib -Wl,-R/boot/system/lib" X11BASE=/boot/home/pkg LOCALBASE=/boot/home/pkg TCLCONFIG=/boot/home/pkg/lib/tclConfig.sh ./Build rat
+Determining system type...
+Haiku 1 is not supported!
+=> Unwrapping files-to-be-installed.
+===> Installing for rat-3.0.28nb8
+=> Creating installation directories
+/bin/install -c -s -o user -g root -m 755 /boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/bin/rat /boot/home/pkgsrc/pkgsrc/mbone/rat/work/.destdir/boot/home/pkg/bin/rat
+/bin/install: cannot stat `/boot/home/pkgsrc/pkgsrc/mbone/rat/work/rat-3.0.28/bin/rat': No such file or directory
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/rat
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/rat
+===> rtptools
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching rtptools-1.18.tar.gz
+=> Total size: 119272 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   286  100   286    0     0    572      0 --:--:-- --:--:-- --:--:--  1692
+100  116k  100  116k    0     0  99133      0  0:00:01  0:00:01 --:--:--     0
+===> Installing dependencies for rtptools-1.18
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for rtptools-1.18
+===> Extracting for rtptools-1.18
+===> Patching for rtptools-1.18
+=> Applying pkgsrc patches for rtptools-1.18
+===> Creating toolchain wrappers for rtptools-1.18
+===> Configuring for rtptools-1.18
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: warning: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig: invalid host type
+creating cache ./config.cache
+checking for a BSD compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking whether make sets ${MAKE}... yes
+checking for working aclocal... found
+checking for working autoconf... found
+checking for working automake... found
+checking for working autoheader... found
+checking for working makeinfo... missing
+checking host system type... i386-pc-haiku
+checking for gcc... gcc
+checking whether the C compiler (gcc -Wno-error -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib -Wl,-R/boot/home/pkg/lib) works... yes
+checking whether the C compiler (gcc -Wno-error -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib -Wl,-R/boot/home/pkg/lib) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking how to run the C preprocessor... gcc -E
+checking for a BSD compatible install... /bin/install -c -o user -g root
+checking for gethostbyname... yes
+checking for yp_match... no
+checking for yp_match in -lnsl... no
+checking for socket... yes
+checking for ANSI C header files... yes
+checking for search.h... yes
+checking for sys/time.h... yes
+checking for unistd.h... yes
+checking for gcc option to accept ANSI C... none needed
+checking for function prototypes... yes
+checking for working const... yes
+checking whether byte ordering is bigendian... no
+checking for uid_t in sys/types.h... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking whether gcc needs -traditional... no
+checking return type of signal handlers... void
+checking for strftime... yes
+checking for vprintf... yes
+checking for gethostname... yes
+checking for gettimeofday... yes
+checking for mktime... yes
+checking for select... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for uname... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+===> Building for rtptools-1.18
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+gcc -DPACKAGE=\"rtptools\" -DVERSION=\"1.18\" -DHAVE_GETHOSTBYNAME=1 -DHAVE_SOCKET=1 -DSTDC_HEADERS=1 -DHAVE_SEARCH_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_UNISTD_H=1 -DPROTOTYPES=1 -DTIME_WITH_SYS_TIME=1 -DRETSIGTYPE=void -DHAVE_STRFTIME=1 -DHAVE_VPRINTF=1 -DHAVE_GETHOSTNAME=1 -DHAVE_GETTIMEOFDAY=1 -DHAVE_MKTIME=1 -DHAVE_SELECT=1 -DHAVE_STRDUP=1 -DHAVE_STRERROR=1 -DHAVE_STRSTR=1 -DHAVE_STRTOL=1 -DHAVE_UNAME=1  -I. -I.   -Dunix  -Wno-error -Wall -c host2ip.c
+host2ip.c:6:38: fatal error: rpcsvc/ypclnt.h: No such file or directory
+ #include <rpcsvc/ypclnt.h>   /* YP */
+                                      ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/rtptools/work/rtptools-1.18
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/rtptools
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/rtptools
+===> sapserver
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching miniSAPserver-0.2.4.tar.gz
+=> Total size: 83614 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 83614  100 83614    0     0  59716      0  0:00:01  0:00:01 --:--:-- 63200
+===> Installing dependencies for miniSAPserver-0.2.4
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+===> Overriding tools for miniSAPserver-0.2.4
+===> Extracting for miniSAPserver-0.2.4
+===> Patching for miniSAPserver-0.2.4
+=> Applying pkgsrc patches for miniSAPserver-0.2.4
+===> Creating toolchain wrappers for miniSAPserver-0.2.4
+===> Configuring for miniSAPserver-0.2.4
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+checking for a BSD-compatible install... /bin/install -c -o user -g root
+checking whether build environment is sane... yes
+checking for gawk... /bin/awk
+checking whether make sets $(MAKE)... yes
+checking for i386-pc-haiku-gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for i386-pc-haiku-g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking whether make sets $(MAKE)... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for unistd.h... (cached) yes
+checking for memset... yes
+checking for socket... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strstr... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+===> Building for miniSAPserver-0.2.4
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+/boot/home/pkg/bin/bmake  all-am
+if g++ -DHAVE_CONFIG_H -I. -I. -I.      -Wall -MT broadcast.o -MD -MP -MF ".deps/broadcast.Tpo"  -c -o broadcast.o `test -f 'broadcast.cpp' || echo './'`broadcast.cpp;  then mv -f ".deps/broadcast.Tpo" ".deps/broadcast.Po";  else rm -f ".deps/broadcast.Tpo"; exit 1;  fi
+broadcast.cpp: In member function 'int Broadcast::Initv4()':
+broadcast.cpp:55:10: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     group=SAP_IPV4_ADDR;
+          ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I.      -Wall -MT message.o -MD -MP -MF ".deps/message.Tpo"  -c -o message.o `test -f 'message.cpp' || echo './'`message.cpp;  then mv -f ".deps/message.Tpo" ".deps/message.Po";  else rm -f ".deps/message.Tpo"; exit 1;  fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.      -Wall -MT parser.o -MD -MP -MF ".deps/parser.Tpo"  -c -o parser.o `test -f 'parser.cpp' || echo './'`parser.cpp;  then mv -f ".deps/parser.Tpo" ".deps/parser.Po";  else rm -f ".deps/parser.Tpo"; exit 1;  fi
+parser.cpp: In constructor 'Config::Config(std::string)':
+parser.cpp:51:11: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     scope = DEFAULT_SCOPE;
+           ^
+parser.cpp: In member function 'int Config::Parse()':
+parser.cpp:252:45: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+                     pp->SetPort(DEFAULT_PORT);
+                                             ^
+parser.cpp:340:35: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           pp->SetPort(DEFAULT_PORT);
+                                   ^
+if g++ -DHAVE_CONFIG_H -I. -I. -I.      -Wall -MT program.o -MD -MP -MF ".deps/program.Tpo"  -c -o program.o `test -f 'program.cpp' || echo './'`program.cpp;  then mv -f ".deps/program.Tpo" ".deps/program.Po";  else rm -f ".deps/program.Tpo"; exit 1;  fi
+if g++ -DHAVE_CONFIG_H -I. -I. -I.      -Wall -MT sapserver.o -MD -MP -MF ".deps/sapserver.Tpo"  -c -o sapserver.o `test -f 'sapserver.cpp' || echo './'`sapserver.cpp;  then mv -f ".deps/sapserver.Tpo" ".deps/sapserver.Po";  else rm -f ".deps/sapserver.Tpo"; exit 1;  fi
+g++  -Wall  -L/boot/system/develop/lib -lnetwork -Wl,-R/boot/system/develop/lib -Wl,-R/boot/home/pkg/lib  -o sapserver  broadcast.o message.o parser.o  program.o sapserver.o     
+sapserver.o: In function `.L4':
+sapserver.cpp:(.text+0x414): undefined reference to `daemon'
+collect2: error: ld returned 1 exit status
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/sapserver/work/miniSAPserver-0.2.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/sapserver/work/miniSAPserver-0.2.4
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/sapserver
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/sapserver
+===> vat
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching vatsrc-4.0b2.tar.gz
+=> Total size: 263799 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  257k  100  257k    0     0   473k      0 --:--:-- --:--:-- --:--:--  594k
+===> Installing dependencies for vat-4.0b2nb8
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency gsm>=1.0.12: NOT found
+=> Verifying reinstall for ../../audio/gsm
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching gsm-1.0.13.tar.gz
+=> Total size: 65318 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+fetch: Unable to fetch expected file gsm-1.0.13.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 65318  100 65318    0     0  15679      0  0:00:04  0:00:04 --:--:-- 17744
+===> Building for gsm-1.0.13
+=> Adding Haiku lnetwork to libraries
+gcc -Wno-error -Wno-error -c -O2 -DNeedFunctionPrototypes=1 -DSASR      -DWAV49  -I/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/inc /boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c
+/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c: In function 'update_times':
+/boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13/src/toast.c:357:18: error: array type has incomplete element type
+   struct timeval tv[2];
+                  ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm/work/gsm-1.0-pl13
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/audio/gsm
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/vat
+===> vic
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching vicsrc-2.8.tar.gz
+=> Total size: 605136 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  590k  100  590k    0     0   316k      0  0:00:01  0:00:01 --:--:--  346k
+===> Installing dependencies for vic-2.8nb8
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency tk>=8.6.1: found tk-8.6.1nb2
+===> Overriding tools for vic-2.8nb8
+===> Extracting for vic-2.8nb8
+===> Patching for vic-2.8nb8
+=> Applying pkgsrc patches for vic-2.8nb8
+===> Creating toolchain wrappers for vic-2.8nb8
+
+
+
+
+===> Configuring for vic-2.8nb8
+=> Modifying GNU configure scripts to avoid --recheck
+=> Replacing config-guess with pkgsrc versions
+=> Replacing config-sub with pkgsrc versions
+=> Replacing install-sh with pkgsrc version
+configure: warning: PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig: invalid host type
+creating cache ./config.cache
+checking host system type... i386-pc-haiku
+checking target system type... Invalid configuration `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig': machine `PKG_CONFIG_PATH=/boot/home/pkg/lib/pkgconfig' not recognized
+
+checking build system type... i386-pc-haiku
+checking for gcc... gcc
+checking whether we are using GNU C... yes
+checking for c++... g++
+checking whether we are using GNU C++... yes
+checking how to run the C preprocessor... gcc -E
+checking whether cross-compiling... no
+checking for ANSI C header files... yes
+checking for string.h... yes
+checking for -lXbsd... no
+checking for -lsocket... yes
+checking for -lnsl... no
+checking for -ldnet_stub... no
+./configure: line 1258: test: =: unary operator expected
+checking for X11 header files
+checking for X11 library archive
+checking for -lX11... yes
+checking for -lXext... yes
+no dynamic load lib
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+===> Building for vic-2.8nb8
+=> Adding Haiku lnetwork to libraries
+INFO: [subst.mk:libs] Nothing changed in ./Makefile.
+rm -f inet.o; gcc -o inet.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. inet.c
+rm -f cellb_tables.o; gcc -o cellb_tables.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. cellb_tables.c
+rm -f tkStripchart.o; gcc -o tkStripchart.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. tkStripchart.c
+tkStripchart.c: In function 'Tk_StripchartCmd':
+tkStripchart.c:389:6: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+      0);
+      ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tcl.h:2435:0,
+                 from /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tk.h:19,
+                 from tkStripchart.c:34:
+/boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+tkStripchart.c:396:2: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+  interp->result = Tk_PathName(StripchartPtr->tkwin);
+  ^
+tkStripchart.c: In function 'StripchartWidgetCmd':
+tkStripchart.c:452:4: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+    sprintf(interp->result, "%g",
+    ^
+tkStripchart.c: In function 'ConfigureStripchart':
+tkStripchart.c:628:9: warning: passing argument 5 of 'Tk_ConfigureWidget' from incompatible pointer type [enabled by default]
+         argc, argv, (char *)StripchartPtr, flags);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tk.h:1546:0,
+                 from tkStripchart.c:34:
+/boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tkDecls.h:130:13: note: expected 'const char **' but argument is of type 'char **'
+ EXTERN int  Tk_ConfigureWidget(Tcl_Interp *interp,
+             ^
+tkStripchart.c: In function 'StripchartEventProc':
+tkStripchart.c:837:3: warning: passing argument 2 of 'Tcl_EventuallyFree' from incompatible pointer type [enabled by default]
+   Tk_EventuallyFree((ClientData)StripchartPtr, DestroyStripchart);
+   ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tcl.h:2435:0,
+                 from /boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tk.h:19,
+                 from tkStripchart.c:34:
+/boot/home/pkgsrc/pkgsrc/mbone/vic/work/.buildlink/include/tclDecls.h:413:14: note: expected 'void (*)(char *)' but argument is of type 'void (*)(void *)'
+ EXTERN void  Tcl_EventuallyFree(ClientData clientData,
+              ^
+rm -f md5c.o; gcc -o md5c.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. md5c.c
+rm -f random.o; gcc -o random.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. random.c
+rm -f main.o; g++ -o main.o -c -O2 -DUSE_SHM -DED_YBITS=4 -DSIGRET=void -DUSE_INTERP_RESULT   -I/boot/home/pkg/include -I/boot/home/pkg/include    -I./jpeg -I./p64 -I. main.cc
+main.cc:81:21: fatal error: sys/shm.h: No such file or directory
+ #include <sys/shm.h>
+                     ^
+compilation terminated.
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/vic/work/vic-2.8
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/vic
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/vic
+===> vic-devel
+=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+=> Fetching vic-2.8ucl1.4.0beta-4337.tgz
+=> Total size: 9345775 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 9126k  100 9126k    0     0   900k      0  0:00:10  0:00:10 --:--:-- 1102k
+===> Installing dependencies for vic-devel-2.8.1.4.0beta.4337nb11
+==========================================================================
+The supported build options for vic-devel are:
+
+        inet6
+
+The currently selected options are:
+
+        inet6
+
+You can select which build options to use by setting PKG_DEFAULT_OPTIONS
+or the following variable.  Its current value is shown:
+
+        PKG_OPTIONS.vic (not defined)
+
+
+==========================================================================
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Build dependency xextproto>=7.0: found xextproto-7.3.0
+=> Build dependency inputproto>=1.4: found inputproto-2.3.1
+=> Build dependency libXt>=1.0.0: found libXt-1.1.4
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Full dependency libXext>=0.99.0: found libXext-1.3.2
+=> Full dependency common-mml>=1.2.14: found common-mml-1.2.16nb4
+=> Full dependency tk>=8.6.1: found tk-8.6.1nb2
+===> Overriding tools for vic-devel-2.8.1.4.0beta.4337nb11
+===> Extracting for vic-devel-2.8.1.4.0beta.4337nb11
+===> Patching for vic-devel-2.8.1.4.0beta.4337nb11
+=> Applying pkgsrc patches for vic-devel-2.8.1.4.0beta.4337nb11
+===> Creating toolchain wrappers for vic-devel-2.8.1.4.0beta.4337nb11
+bmake: *** /boot/home/pkgsrc/pkgsrc/mbone/vic-devel/work/.wrapper/tmp/untransform.sed removed
+===> wbd
+~/pkgsrc/pkgsrc/mbone> do=> Bootstrap dependency digest>=20010302: found digest-20121220
+===> Skipping vulnerability checks.
+WARNING: No /boot/home/pkg/var/db/pkg/pkg-vulnerabilities file found.
+WARNING: To fix run: `/boot/home/pkg/sbin/pkg_admin -K /boot/home/pkg/var/db/pkg fetch-pkg-vulnerabilities'.
+bmake clean=> Fetching wbd-1.0ucl4.tar.gz
+=> Total size: 53591 bytes
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 53591  100 53591    0     0  26975      0  0:00:01  0:00:01 --:--:-- 43079
+===> Installing dependencies for wbd-1.0p4nb7
+=> Tool dependency nbpatch-[0-9]*: found nbpatch-20100124
+=> Build dependency renderproto>=0.9.3nb1: found renderproto-0.11.1
+=> Build dependency kbproto>=1.0.2: found kbproto-1.0.6
+=> Build dependency xproto>=7.0.9: found xproto-7.0.26
+=> Build dependency xcb-proto>=1.4: found xcb-proto-1.11
+=> Full dependency tk>=8.6.1: found tk-8.6.1nb2
+===> Overriding tools for wbd-1.0p4nb7
+===> Extracting for wbd-1.0p4nb7
+===> Patching for wbd-1.0p4nb7
+=> Applying pkgsrc patches for wbd-1.0p4nb7
+===> Creating toolchain wrappers for wbd-1.0p4nb7
+===> Building for wbd-1.0p4nb7
+=> Adding Haiku lnetwork to libraries
+WARNING: [subst.mk:libs] Ignoring non-existent file "./Makefile".
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -DUSE_INTERP_RESULT -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -c main.c
+main.c: In function 'main':
+main.c:327:5: warning: passing argument 2 of 'Tcl_Concat' from incompatible pointer type [enabled by default]
+     cmd = Tcl_Concat(argc, argv);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:270:16: note: expected 'const char * const*' but argument is of type 'char **'
+ EXTERN char *  Tcl_Concat(int argc, CONST84 char *const *argv);
+                ^
+main.c:329:5: warning: passing argument 4 of 'Tk_ParseArgv' from incompatible pointer type [enabled by default]
+     result = Tk_ParseArgv(tcl, NULL, &argc, argv, argTable, 0);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tk.h:1546:0,
+                 from main.c:73:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tkDecls.h:466:13: note: expected 'const char **' but argument is of type 'char **'
+ EXTERN int  Tk_ParseArgv(Tcl_Interp *interp, Tk_Window tkwin,
+             ^
+main.c:357:5: warning: passing argument 2 of 'Tcl_Merge' from incompatible pointer type [enabled by default]
+     args = Tcl_Merge(argc-2, argv+1);
+     ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:581:16: note: expected 'const char * const*' but argument is of type 'char **'
+ EXTERN char *  Tcl_Merge(int argc, CONST84 char *const *argv);
+                ^
+main.c:385:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:387:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:389:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:391:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:393:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:395:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:397:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:399:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:401:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:403:9: warning: passing argument 3 of 'Tcl_CreateCommand' from incompatible pointer type [enabled by default]
+         (void (*)()) NULL);
+         ^
+In file included from /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:2435:0,
+                 from main.c:72:
+/boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tclDecls.h:298:20: note: expected 'int (*)(void *, struct Tcl_Interp *, int,  const char **)' but argument is of type 'int (*)(void *, struct Tcl_Interp *, int,  char **)'
+ EXTERN Tcl_Command Tcl_CreateCommand(Tcl_Interp *interp,
+                    ^
+main.c:430:12: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+            WishPanic(tcl->result);
+            ^
+main.c: In function 'DoResize':
+main.c:531:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("%s RESULT %s\n", arg, tcl->result);
+         ^
+main.c:535:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("%s RESULT %s\n", arg, tcl->result);
+         ^
+gcc -Wno-error -specs=/boot/home/pkg/etc/specs -DUSE_INTERP_RESULT -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -I/boot/home/pkg/include -I/boot/home/pkg/include/freetype2 -c comms.c
+comms.c: In function 'time_stamp':
+comms.c:333:20: error: storage size of 'gmt' isn't known
+     struct timeval gmt;
+                    ^
+comms.c: In function 'NetFetch':
+comms.c:556:18: error: storage size of 'timeout' isn't known
+  struct timeval  timeout, *tvp;
+                  ^
+comms.c:557:2: error: unknown type name 'fd_set'
+  fd_set          rfds;
+  ^
+comms.c:568:2: warning: passing argument 5 of 'recvfrom' from incompatible pointer type [enabled by default]
+  rlen = recvfrom (sock, buf, buflen, 0, address, &fromlen);
+  ^
+In file included from comms.c:52:0:
+/boot/home/pkg/include/sys/socket.h:177:9: note: expected 'struct sockaddr *' but argument is of type 'struct sockaddr_in *'
+ ssize_t recvfrom(int socket, void *buffer, size_t bufferLength, int flags,
+         ^
+comms.c: In function 'ParseDrawRect':
+comms.c:983:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_rect failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawLine':
+comms.c:1019:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_line failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawGrpLines':
+comms.c:1047:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_group_lines failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawDel':
+comms.c:1154:13: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+             printf ("draw_delete failed: %s\n", tcl->result);
+             ^
+comms.c: In function 'ParseDrawCopy':
+comms.c:1184:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_copy failed: %s\n", tcl->result);
+         ^
+comms.c:1191:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_move failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawOval':
+comms.c:1226:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_oval failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawGrpPS':
+comms.c:1323:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_postscript failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawChr':
+comms.c:1381:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_chr failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'ParseDrawGrpText':
+comms.c:1409:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         printf ("draw_group_text failed: %s\n", tcl->result);
+         ^
+comms.c: In function 'UnDelete':
+comms.c:2330:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "0");
+         ^
+comms.c:2383:5: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+     sprintf (tcl->result, "%d", found);
+     ^
+comms.c: In function 'SendPS':
+comms.c:2405:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "SendPS <filename>");
+         ^
+comms.c:2414:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "failed to open postscript file %s", argv[1]);
+         ^
+comms.c:2438:17: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+                 sprintf (tcl->result, "failed to build message");
+                 ^
+comms.c:2466:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "failed to build group message");
+         ^
+comms.c: In function 'Draw':
+comms.c:2500:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "Draw type ......");
+         ^
+comms.c:2513:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "failed");
+         ^
+comms.c:2527:5: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+     sprintf (tcl->result, "%ld", seqno);
+     ^
+comms.c: In function 'PageCanvasSize':
+comms.c:2548:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "ScaleSet page_width page_height [orientation]");
+         ^
+comms.c:2564:9: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+         sprintf (tcl->result, "bad page values %f %f", w, h);
+         ^
+comms.c:2578:13: warning: 'result' is deprecated (declared at /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/.buildlink/include/tcl.h:509) [-Wdeprecated-declarations]
+             sprintf (tcl->result, "bad page orientation %d", orientation);
+             ^
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/wbd/work/wbd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/wbd
+*** Error code 1
+
+Stop.
+bmake: stopped in /boot/home/pkgsrc/pkgsrc/mbone/wbd

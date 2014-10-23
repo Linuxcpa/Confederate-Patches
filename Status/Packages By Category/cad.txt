@@ -1,0 +1,17 @@
+PKGPATH=cad/atlc
+PKGPATH=cad/cascade
+PKGPATH=cad/cgi-wcalc
+PKGPATH=cad/fasthenry
+PKGPATH=cad/freehdl
+PKGPATH=cad/gdsreader
+PKGPATH=cad/gnetman
+PKGPATH=cad/libwcalc
+PKGPATH=cad/mcalc
+PKGPATH=cad/mpac
+PKGPATH=cad/nelma
+PKGPATH=cad/ntesla
+PKGPATH=cad/py-MyHDL
+PKGPATH=cad/py-simpy
+PKGPATH=cad/spiceprm
+PKGPATH=cad/stdio-wcalc
+PKGPATH=cad/wcalc-docs
