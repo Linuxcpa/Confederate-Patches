@@ -8,24 +8,36 @@ To enact a feature or turn off a setting, edit /boot/home/pkg/etc/mk.conf
 
 1. Pkgsrc annoyance to turn off:
 
-a.) License checks 
+A.) License checks 
 
 SKIP_LICENSE_CHECK = YES
 
+B.) Waiting too long to decide to not download source code:
+
+FETCH_TIMEOUT= 120
+
+C.) Doing a checksum on dowmnloaded source code
+
+NO_CHECKSUM= yes
+
+D.) Refusing to compile "vulnerable packages"
+
+ALLOW_VULNERABLE_PACKAGES= yes
+
 2. Pkgsrc file location settings you can change:
 
-a.) Where packages are compiled
-By default, packages compile in pkgsrc/NameOfPackage/work/PackageName-VersionNumber
+A.) Where packages are compiled
+By default, packages compile in pkgsrc/category/NameOfPackage/work/PackageName-VersionNumber
 
 It is easier to just delete work directories, rather than bmake clean.
 To allow for this, without deleting the recipies and patches for a package, 
 you can change the location where packages compile. So, for example, if you want
-to have your packages land in /boot/work//NameOfPackage/work/PackageName-VersionNumber, 
+to have your packages land in /boot/work/category/NameOfPackage/work/PackageName-VersionNumber, 
 use the followig setting:
 
 WRKOBJDIR= /boot/work
 
-b.) Where source code is downloaded to
+B.) Where source code is downloaded to
 By default, pkgsrc places downloaded source files in pkgsrc/distfiles.
 
 If you want to change this, and have the files land in say /boot/distfiles, 
@@ -33,8 +45,82 @@ use the following setting:
 
 DISTDIR= /boot/distfiles
 
-c.) Where compiled packages are ultimately placed.
-NOTE: THERE MAY BE A BETTER WAY TO DO THIS
+C.) Where compiled packages are ultimately placed.
+By default, pkgsrc places compiled packages in:
+pkgsrc/category/NameOfPackage/work/.packages
 
-To do so, you have to edit two files: pkgsrc/mk/pkg
+If you want to change where the package lands, you have to edit two files: 
+NOTE: THERE MAY BE A BETTER WAY TO DO THIS.
+I. pkgsrc/mk/pkgformat/pkg/package.mk
+II. pkg/etc/mk.conf
 
+If you want your packages to land in /boot/home/packages, edit the following files:
+
+I. pkgsrc/mk/pkgformat/pkg/package.mk
+Edit lines 18, 20 and 25 to read as follows:
+STAGE_PKGFILE?=		${FINAL-PKG-DESTINATION}/${FILEBASE}-${PKGVERSION}${PKG_SUFX}
+
+II. pkg/etc/mk.conf
+
+FINAL-PKG-DESTINATION= /boot/home/packages
+
+3. Pkgsrc compilation features that will allow you to avoid patching:
+NOTE: IF THE ERROR IS PREVELANT, IT IS PROBABLY BEST TO ADD THE FEATURE TO MK.CONF. 
+TO USE THE SETTING ON A PACKAGE BY PACKAGE BASIS, ADD THE SETTING TO PKGSRC'S 
+MAKEFILE FOR THE PACKAGE LOCATED IN pkgsrc/category/NameOfPackage/Makefile
+
+A.) ADD A LIBRARY TO LINK TO AT COMPILE TIME.
+
+***Method 1***
+BUILDLINK_TRANSFORM += 
+Useful examples: 
+BUILDLINK_TRANSFORM+= -lnetwork
+BUILDLINK_TRANSFORM+= -lsupc++
+BUILDLINK_TRANSFORM+= -lroot
+This works most, but not all the time that -lnetwork is needed to compile an application.
+
+***Method 2***
+SUBST_CLASSES+= libs
+SUBST_STAGE.libs= pre-build
+SUBST_MESSAGE.libs = Adding Haiku lnetwork to libraries
+SUBST_FILES.libs=Makefile
+SUBST_SED.libs=		-e '/^LFLAGS/s/$$/ -lnetwork/'
+
+Method 2 targets a file of a particular name and edits it
+
+B.) REMOVE NON-EXISTENT LIBRARY FROM COMPILE LINK PROCESS.
+BUILDLINK_TRANSFORM += rm:
+Useful examples:
+BUILDLINK_TRANSFORM+= -rm:-lpthread
+BUILDLINK_TRANSFORM+= -rm:-pthread
+BUILDLINK_TRANSFORM+= -rm:-lsocket
+BUILDLINK_TRANSFORM+= -rm:-ldl
+BUILDLINK_TRANSFORM+= -rm:-lltdl
+BUILDLINK_TRANSFORM+= -rm:-lm
+BUILDLINK_TRANSFORM+= -rm:-lc
+
+c.) SUBSTITUTE NON-EXISTENT LIBRARY FROM COMPILE LINK PROCESS WITH EXISTING LIBRARY.
+BUILDLINK_TRANSFORM += l: :
+Useful examples:
+#Replace calls for the math library with a call for library root
+BUILDLINK_TRANSFORM+= l:m:root
+
+BUILDLINK_TRANSFORM+=  l:pthread:root
+BUILDLINK_TRANSFORM+=  l:rt:root
+BUILDLINK_TRANSFORM+=  l:c:root
+BUILDLINK_TRANSFORM+=  l:dl:root
+BUILDLINK_TRANSFORM+=  l:bind:network
+BUILDLINK_TRANSFORM+=  l:nsl:network
+BUILDLINK_TRANSFORM+=  l:socket:network
+BUILDLINK_TRANSFORM+=  l:util:bsd
+BUILDLINK_TRANSFORM+=  l:getopt:bsd
+BUILDLINK_TRANSFORM+=  l:attr:gnu
+
+D.) REMOVE COPMPILER SETTINGS THAT CAUSE COMPILE FAILURE
+
+.if ${PKGPATH} == chat/anope || ${PKGPATH} == "chat/ctrlproxy" \
+|| ${PKGPATH} == "chat/eggdrop" || ${PKGPATH} == "cad/covered" \
+|| ${PKGPATH} == "cad/covered-current" || ${PKGPATH} == "cad/MyHDL-iverilog" \
+|| ${PKGPATH} == "cad/verilog" || ${PKGPATH} == "cad/verilog-current"
+BUILDLINK_TRANSFORM+= rm:-rdynamic
+.endif
