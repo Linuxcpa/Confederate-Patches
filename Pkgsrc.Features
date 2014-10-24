@@ -176,10 +176,9 @@ Leave everything else alone.
 
 Copy over the entire contents from:
 1. /boot/system/develop/headers/posix
-2. /boot/home/system/develop/headers/bsd 
-3. /boot/home/develop/headers
-into:
-1. /boot/home/pkg/include
+and Only the headers from:
+2. /boot/system/develop/headers/
+into: /boot/home/pkg/include
 
 Next, edit MK.CONF for use on all compiles:
 
