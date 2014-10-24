@@ -1,16 +1,21 @@
-The Haiku Operating System shows a lot of promise for desktop end users who would like to use FOSS software as a primary desktop platform.
+The Haiku Operating System shows a lot of promise for desktop end users who would like to use FOSS software as 
+a primary desktop platform.
 
-Starting from around 2003, several intelligent and skilled volunteers have worked countless hours to create an operating system with the end user in mind.
-In 2014, Haiku is still being worked on, the developers describe it as alpha software.
+Starting from around 2003, several intelligent and skilled volunteers have worked countless hours to create an 
+operating system with the end user in mind. In 2014, Haiku is still being worked on, the developers describe 
+it as alpha software.
 
 Up through 2011, application porters had managed to compile a number of appealing end user applications.
 Additionally, the community was on the brink of building current versions flagship FOSS applications.
-Once Firefox, Libre Office, Wine and other applications are built, Haiku will become a viable choice to a wider end user base.
+Once Firefox, Libre Office, Wine and other applications are built, Haiku will become a viable choice 
+to a wider end user base.
 
-Unfortunately, sometime in late 2010 or early 2011, end user application development seems to have declined significantly.
-At present, the project appears to have lost momentum. Furthermore, tension between operating system developers and application porters is notceable.
+Unfortunately, sometime in late 2010 or early 2011, end user application development seems to have declined 
+significantly.At present, the project appears to have lost momentum. Furthermore, tension between operating
+system developers and application porters is notceable.
 
-While the developers add polish to Haiku, it clearly is important for the community to have access to information about the viability of porting applications to the platform.
+While the developers add polish to Haiku, it clearly is important for the community to have access to information
+about the viability of porting applications to the platform.
 
 Purpose of this project
 
@@ -19,7 +24,8 @@ Purpose of this project
 3. Determine what changes can be made to Haiku itself, to ease the burden of porting applications to Haiku
 4. Explore what is stopping applications and dependencies from being ported
 5. Provide statistics and facts to the community so that it will be able to make informed strategy choices
-6. Open a dialogue that hopefully, will determine an appropriate balance between operating system design and the needs of application porters
+6. Open a dialogue that hopefully, will determine an appropriate balance between operating system design 
+and the needs of application porters
 7. Make specific discoveries available to experienced developers
 8. Attempt to resolve difficult problems and report about the experience.
 9. Make applications built available to end users if requested
