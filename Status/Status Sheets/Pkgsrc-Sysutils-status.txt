@@ -1,57 +1,51 @@
-├── sysutils ***580*** ***119 Installed, 0 Installable*** ***Count 119*** ***Pass Complete***
-│   ├── 855resolution
-│   ├── 915resolution
-│   ├── 9base
-│   ├── acpica-utils
-│   ├── acpidump
-│   ├── adtool
-│   ├── afbinit
+├── sysutils ***577*** ***193 Installed, 0 Installable*** ***Count 190*** ***Pass Complete***
+│   ├── 9base					{1}
+│   ├── acpica-utils				(Installed)
+│   ├── acpidump				(Installed)
+│   ├── adtool					(Installed)
 │   ├── agedu					(Installed)
-│   ├── amanda
-│   ├── amanda-client
-│   ├── amanda-common
-│   ├── amanda-plot
-│   ├── amanda-server
-│   ├── amtterm
-│   ├── ansible
-│   ├── apcupsd
-│   ├── asapm
-│   ├── atitvout
-│   ├── bacula
-│   ├── bacula-clientonly
-│   ├── bacula-doc
-│   ├── bacula-qt-console
-│   ├── bacula-tray-monitor
+│   ├── amanda					{2}
+│   ├── amanda-client				{2}
+│   ├── amanda-common				{2}
+│   ├── amanda-plot				{2}
+│   ├── amanda-server				{2}
+│   ├── amtterm					(Installed)
+│   ├── ansible					(Installed)
+│   ├── apcupsd					{3}
+│   ├── asapm					{4}
+│   ├── bacula					(Installed)
+│   ├── bacula-clientonly			(Installed)
+│   ├── bacula-doc				{5}
+│   ├── bacula-qt-console			{6}
+│   ├── bacula-tray-monitor			{2}
 │   ├── bacula-wx-console
-│   ├── bbsload
+│   ├── bbsload					{7}
 │   ├── bchunk					(Installed)
-│   ├── bcmfw
-│   ├── bcollect
-│   ├── bkpupsd
-│   ├── boxbackup-client
-│   ├── boxbackup-server
-│   ├── brasero
-│   ├── brasero-nautilus
-│   ├── bsdinstall
-│   ├── bsign
-│   ├── btpin-qt
-│   ├── bubblemon
-│   ├── bup
+│   ├── bcmfw					{8}
+│   ├── boxbackup-client			{9}
+│   ├── boxbackup-server			{9}
+│   ├── brasero					{2}
+│   ├── brasero-nautilus			{2}
+│   ├── bsdinstall				{10}
+│   ├── bsign					{11}
+│   ├── btpin-qt				{2}
+│   ├── bubblemon				{2}
+│   ├── bup					(Installed)
 │   ├── burn
 │   ├── capistrano
 │   ├── ccd2iso 				(Installed)
 │   ├── ccze
 │   ├── cdbkup
 │   ├── cdrdao
-│   ├── cdrkit
+│   ├── cdrkit					{12}
 │   ├── cdrtools				(Installed)
-│   ├── cfengine2
-│   ├── cfengine3
+│   ├── cfengine2				{13}
+│   ├── cfengine3				{13}
 │   ├── checkpassword				(Installed)
 │   ├── checkpassword-pam			(Installed)
 │   ├── checkperms				(Installed)
 │   ├── clex
-│   ├── collectd
+│   ├── collectd				{14}
 │   ├── collectd-amqp
 │   ├── collectd-curl
 │   ├── collectd-dbi
@@ -71,14 +65,14 @@
 │   ├── cpuburn					(Installed)
 │   ├── cpuid
 │   ├── crashme					(Installed)
-│   ├── cuisine
+│   ├── cuisine					(Installed)
 │   ├── cvsreport				(Installed)
 │   ├── daemond
 │   ├── daemontools				(Installed)
 │   ├── dbus					(Installed)
 │   ├── dbus-glib				(Installed)
 │   ├── dbus-python-common			(Installed)
-│   ├── dbus-qt3
+│   ├── dbus-qt3				{15}
 │   ├── dbus-sharp
 │   ├── dbus-sharp-glib
 │   ├── dc-tools				(Installed)
@@ -118,10 +112,10 @@
 │   ├── etckeeper				(Installed)
 │   ├── etcmanage				(Installed)
 │   ├── etcutils				(Installed)
-│   ├── euca2ools
+│   ├── euca2ools				(Installed)
 │   ├── eventlog				(Installed)
-│   ├── extipl
-│   ├── fabric
+│   ├── extipl					(Installed)
+│   ├── fabric					(Installed)
 │   ├── fakeroot				(Installed)
 │   ├── fam
 │   ├── fastfs
@@ -129,7 +123,7 @@
 │   ├── fdupes					(Installed)
 │   ├── file 					(Installed)
 │   ├── filelight
-│   ├── filelight-kde3
+│   ├── filelight-kde3				{15}
 │   ├── findutils				(Installed)
 │   ├── fix4SA110rev2
 │   ├── fixelfprot
@@ -153,7 +147,7 @@
 │   ├── gkrellm-share				(Installed)
 │   ├── gnome-commander
 │   ├── gnome-device-manager
-│   ├── gnome-menus
+│   ├── gnome-menus				(Installed)
 │   ├── gnome-mount
 │   ├── gnome-nds-thumbnailer
 │   ├── gnome-pkgview
@@ -171,8 +165,8 @@
 │   ├── grub
 │   ├── grub2
 │   ├── grun
-│   ├── gsettings-desktop-schemas
-│   ├── gst-plugins0.10-gio
+│   ├── gsettings-desktop-schemas		(Installed)
+│   ├── gst-plugins0.10-gio			(Installed)
 │   ├── gst-plugins0.10-gnomevfs
 │   ├── gst-plugins1-gio
 │   ├── gtk-send-pr
@@ -181,70 +175,70 @@
 │   ├── hal
 │   ├── hal-info				(Installed)
 │   ├── hddtemp
-│   ├── heirloom-basename
-│   ├── heirloom-cat
-│   ├── heirloom-chmod
-│   ├── heirloom-chown
-│   ├── heirloom-cksum
-│   ├── heirloom-cmp
-│   ├── heirloom-copy
+│   ├── heirloom-basename			(Installed)
+│   ├── heirloom-cat				(Installed)
+│   ├── heirloom-chmod				(Installed)
+│   ├── heirloom-chown				(Installed)
+│   ├── heirloom-cksum				(Installed)
+│   ├── heirloom-cmp				(Installed)
+│   ├── heirloom-copy				(Installed)
 │   ├── heirloom-cp
-│   ├── heirloom-csplit
+│   ├── heirloom-csplit				(Installed)
 │   ├── heirloom-dd
-│   ├── heirloom-dirname
+│   ├── heirloom-dirname			(Installed)
 │   ├── heirloom-doc				(Installed)
 │   ├── heirloom-du
-│   ├── heirloom-env
+│   ├── heirloom-env				(Installed)
 │   ├── heirloom-file
 │   ├── heirloom-find
-│   ├── heirloom-getconf
-│   ├── heirloom-groups
-│   ├── heirloom-hostname
-│   ├── heirloom-id
-│   ├── heirloom-listusers
-│   ├── heirloom-ln
-│   ├── heirloom-logins
-│   ├── heirloom-logname
+│   ├── heirloom-getconf			(Installed)
+│   ├── heirloom-groups				(Installed)
+│   ├── heirloom-hostname			(Installed)
+│   ├── heirloom-id				(Installed)
+│   ├── heirloom-listusers			(Installed)
+│   ├── heirloom-ln				(Installed)
+│   ├── heirloom-logins				(Installed)
+│   ├── heirloom-logname			(Installed)
 │   ├── heirloom-ls
-│   ├── heirloom-mesg
-│   ├── heirloom-mkdir
-│   ├── heirloom-mkfifo
+│   ├── heirloom-mesg				(Installed)
+│   ├── heirloom-mkdir				(Installed)
+│   ├── heirloom-mkfifo				(Installed)
 │   ├── heirloom-mknod
 │   ├── heirloom-nice
-│   ├── heirloom-nohup
-│   ├── heirloom-pathchk
+│   ├── heirloom-nohup				(Installed)
+│   ├── heirloom-pathchk			(Installed)
 │   ├── heirloom-pgrep
 │   ├── heirloom-priocntl
 │   ├── heirloom-ps
 │   ├── heirloom-psrinfo
-│   ├── heirloom-pwd
+│   ├── heirloom-pwd				(Installed)
 │   ├── heirloom-renice
 │   ├── heirloom-rm
-│   ├── heirloom-rmdir
-│   ├── heirloom-setpgrp
+│   ├── heirloom-rmdir				(Installed)
+│   ├── heirloom-setpgrp			(Installed)
 │   ├── heirloom-shl
-│   ├── heirloom-sort
-│   ├── heirloom-split
+│   ├── heirloom-sort				(Installed)
+│   ├── heirloom-split				(Installed)
 │   ├── heirloom-stty
-│   ├── heirloom-sync
+│   ├── heirloom-sync				(Installed)
 │   ├── heirloom-tapecntl
-│   ├── heirloom-tee
-│   ├── heirloom-touch
-│   ├── heirloom-tsort
+│   ├── heirloom-tee				(Installed)
+│   ├── heirloom-touch				(Installed)
+│   ├── heirloom-tsort				(Installed)
 │   ├── heirloom-tty
-│   ├── heirloom-uname
+│   ├── heirloom-uname				(Installed)
 │   ├── heirloom-users
 │   ├── heirloom-who
-│   ├── heirloom-whoami
+│   ├── heirloom-whoami				(Installed)
 │   ├── heirloom-whodo
-│   ├── heirloom-xargs
-│   ├── heirloom-yes
+│   ├── heirloom-xargs				(Installed)
+│   ├── heirloom-yes				(Installed)
 │   ├── hfsutils				(Installed)
 │   ├── htop
 │   ├── i2ocfg
 │   ├── i810switch
 │   ├── iat					(Installed)
-│   ├── idesk
+│   ├── idesk					(Installed)
 │   ├── install-sh				(Installed)
 │   ├── intel-microcode-netbsd
 │   ├── ipa
@@ -268,17 +262,19 @@
 │   ├── lambd
 │   ├── lavaps
 │   ├── libburn					(Installed)
-│   ├── libdevkit-gobject
+│   ├── libdevkit-gobject			(Installed)
 │   ├── libgamin
 │   ├── libgksu
 │   ├── libgtop
 │   ├── libirman				(Installed)
 │   ├── libisoburn
 │   ├── libisofs
+│   ├── liblogging				(Installed)
+│   ├── liblognorm				(Installed)
 │   ├── libnotify
 │   ├── libol					(Installed)
 │   ├── liboobs
-│   ├── libpciaccess
+│   ├── libpciaccess				(Installed)
 │   ├── libvirt
 │   ├── lilo
 │   ├── lockf
@@ -288,10 +284,10 @@
 │   ├── logrotate
 │   ├── lsof
 │   ├── magicrescue				(Installed)
-│   ├── manifold
+│   ├── manifold				(Installed)
 │   ├── mbmon
-│   ├── mc
-│   ├── mc46
+│   ├── mc					(Installed)
+│   ├── mc46					(Installed)
 │   ├── mcollective
 │   ├── mdf2iso					(Installed)
 │   ├── memconf
@@ -310,7 +306,7 @@
 │   ├── monitoring				(Installed)
 │   ├── mrsync
 │   ├── mtools					(Installed)
-│   ├── mtoolsfm
+│   ├── mtoolsfm				(Installed)
 │   ├── mtscan
 │   ├── munin-doc
 │   ├── munin-node
@@ -363,12 +359,12 @@
 │   ├── p5-Unix-ConfigFile			(Installed)
 │   ├── p5-Unix-Statgrab
 │   ├── p5-Unix-Syslog
-│   ├── p5-UPS-Nut
+│   ├── p5-UPS-Nut				(Installed)
 │   ├── pciutils
 │   ├── pcmanfm
 │   ├── pcvt-utils
 │   ├── pdumpfs
-│   ├── pear-Log
+│   ├── pear-Log				(Installed)
 │   ├── pflogsumm				(Installed)
 │   ├── pfstat
 │   ├── pftop
@@ -381,38 +377,38 @@
 │   ├── puppet
 │   ├── pv
 │   ├── pwgen					(Installed)
-│   ├── py-dbus
-│   ├── py-gnome-menus
+│   ├── py-dbus					(Installed)
+│   ├── py-gnome-menus				(Installed)
 │   ├── py-kazoo				(Installed)
 │   ├── py-magic				(Installed)
-│   ├── py-notify
+│   ├── py-notify				(Installed)
 │   ├── py-notify-python
-│   ├── py-pefile
+│   ├── py-pefile				(Installed)
 │   ├── py-psutil
-│   ├── py-setproctitle
+│   ├── py-setproctitle				(Installed)
 │   ├── py-xattr
 │   ├── qlogtools
 │   ├── radeontool
 │   ├── radmind
 │   ├── rconfig
-│   ├── rdiff-backup
+│   ├── rdiff-backup				(Installed)
 │   ├── rename					(Installed)
 │   ├── rfstool					(Installed)
 │   ├── roller					(Installed)
 │   ├── rox
 │   ├── rsnapshot				(Installed)
 │   ├── rtty
-│   ├── ruby-activesambaldap
-│   ├── ruby-chef
-│   ├── ruby-chef-zero
-│   ├── ruby-directory-watcher
-│   ├── ruby-facter
-│   ├── ruby-fssm
-│   ├── ruby-libnotify
-│   ├── ruby-listen
-│   ├── ruby-notify
-│   ├── ruby-quota
-│   ├── ruby-rb-appscript
+│   ├── ruby-activesambaldap			{16}
+│   ├── ruby-chef				{16}
+│   ├── ruby-chef-zero				{16}
+│   ├── ruby-directory-watcher			{16}
+│   ├── ruby-facter				{16}
+│   ├── ruby-fssm				{16}
+│   ├── ruby-libnotify				{16}
+│   ├── ruby-listen				{16}
+│   ├── ruby-notify				{16}
+│   ├── ruby-quota				{16}
+│   ├── ruby-rb-appscript			{16}
 │   ├── safetynet				(Installed)
 │   ├── salt
 │   ├── salt-docs
@@ -453,7 +449,7 @@
 │   ├── tarsnap
 │   ├── tcx
 │   ├── tdir					(Installed)
-│   ├── testdisk
+│   ├── testdisk				(Installed)
 │   ├── tits
 │   ├── tkcron					(Installed)
 │   ├── tkdesk
@@ -477,14 +473,14 @@
 │   ├── user_irix
 │   ├── vbetool
 │   ├── vcdimager				(Installed)
-│   ├── vcdimager-devel
+│   ├── vcdimager-devel				(Installed)
 │   ├── vidc-tools
 │   ├── vifm					(Installed)
 │   ├── vip					(Installed)
 │   ├── virt-manager
 │   ├── virtinst				(Installed)
 │   ├── vobcopy
-│   ├── vxargs
+│   ├── vxargs					(Installed)
 │   ├── wbm-apache
 │   ├── wbm-at
 │   ├── wbm-bandwidth
@@ -532,7 +528,7 @@
 │   ├── wipe
 │   ├── wmcpuload
 │   ├── wmmemmon
-│   ├── wmSMPmon
+│   ├── wmSMPmon				{17}
 │   ├── wpi-firmware				(Installed)
 │   ├── wpi-firmware2				(Installed)
 │   ├── wtail					(Installed)
@@ -578,4 +574,22 @@
 │   ├── xosview
 │   ├── xps
 │   ├── xuvmstat
-│   └── zidrav					(Installed)
+│   ├── zidrav					(Installed)
+│   └── znap2end				(Installed)
+{1} Undefined reference to dirread mygetdents
+{2} Wanted pango before it was built
+{3} Wants libusb
+{4} apmverk needed
+{5} Hard link in source tar
+{6} Wants QT4-libs
+{7} Undefined reference to nice aqnd cputimes
+{8} Expected identifier before slist entry
+{9} Wants a system with mount points
+{10} Maxbsize undefined
+{11} Mapfile undefined
+{12} Unclear how to link with -lnetwork
+{13} Haiku Unknown (configure doesn't recognize)
+{14} Configure cannot find socket
+{15} Wants qt3-libs
+{16} Wants ruby
+{17} swap & cpu headers missing

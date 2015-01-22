@@ -1,28 +1,25 @@
-├── multimedia ***193***  ***15 Installed, 0 Installable*** ***Count 15*** ***Pass Complete***
-│   ├── acidrip
-│   ├── adobe-flash-plugin
-│   ├── adobe-flash-plugin11
-│   ├── alevt
-│   ├── audiocd-kio
-│   ├── avidemux
-│   ├── bsdav
+├── multimedia ***188***  ***56 Installed, 0 Installable*** ***Count 56*** ***Pass Complete***
+│   ├── acidrip					{1}
+│   ├── audiocd-kio				{2}
+│   ├── avidemux				{1}
+│   ├── bitstream				(Installed)
 │   ├── ccxstream 				(Installed)
 │   ├── cfourcc 				(Installed)
-│   ├── clutter-gst
-│   ├── deforaos-player
-│   ├── dirac
-│   ├── divxplayer
-│   ├── dragon
-│   ├── dumpmpeg
-│   ├── dvb-apps
-│   ├── dvd-slideshow
-│   ├── dvdauthor
-│   ├── dvdbackup
-│   ├── dvdrip
+│   ├── clutter-gst				{1}
+│   ├── deforaos-player				{1}
+│   ├── dirac					{3}
+│   ├── divxplayer				{4}
+│   ├── dragon					{4}
+│   ├── dumpmpeg				(Installed)
+│   ├── dvb-apps				{6}
+│   ├── dvd-slideshow				{5}
+│   ├── dvdauthor				{5}
+│   ├── dvdbackup				{7}
+│   ├── dvdrip					{8}
 │   ├── dvdstyler
 │   ├── dvdview
 │   ├── farsight2
-│   ├── ffmpeg
+│   ├── ffmpeg					(Installed)
 │   ├── ffmpeg010
 │   ├── ffmpeg2
 │   ├── ffmpeg2theora
@@ -45,20 +42,20 @@
 │   ├── gopchop
 │   ├── gpac
 │   ├── gst-plugins0.10-bad
-│   ├── gst-plugins0.10-base
-│   ├── gst-plugins0.10-dvdread
+│   ├── gst-plugins0.10-base			(Installed)
+│   ├── gst-plugins0.10-dvdread			(Installed)
 │   ├── gst-plugins0.10-ffmpeg
-│   ├── gst-plugins0.10-gnonlin
-│   ├── gst-plugins0.10-good
+│   ├── gst-plugins0.10-gnonlin			(Installed)
+│   ├── gst-plugins0.10-good			(Installed)
 │   ├── gst-plugins0.10-hal
-│   ├── gst-plugins0.10-mpeg2dec
-│   ├── gst-plugins0.10-ogg
+│   ├── gst-plugins0.10-mpeg2dec		(Installed)
+│   ├── gst-plugins0.10-ogg			(Installed)
 │   ├── gst-plugins0.10-resindvd
-│   ├── gst-plugins0.10-theora
-│   ├── gst-plugins0.10-ugly
+│   ├── gst-plugins0.10-theora			(Installed)
+│   ├── gst-plugins0.10-ugly			(Installed)
 │   ├── gst-plugins0.10-v4l2
 │   ├── gst-plugins0.10-vp8
-│   ├── gst-plugins0.10-x264
+│   ├── gst-plugins0.10-x264			(Installed)
 │   ├── gst-plugins0.10-xvid
 │   ├── gst-plugins1-bad
 │   ├── gst-plugins1-base
@@ -74,12 +71,12 @@
 │   ├── gst-plugins1-vpx
 │   ├── gst-plugins1-x264
 │   ├── gst123
-│   ├── gstreamer0.10
+│   ├── gstreamer0.10				(Installed)
 │   ├── gstreamer1
 │   ├── gtranscode
 │   ├── gxine
 │   ├── handbrake
-│   ├── hwdecode-demos
+│   ├── hwdecode-demos				(Installed)
 │   ├── juk
 │   ├── kaffeine
 │   ├── kdemultimedia3
@@ -89,21 +86,19 @@
 │   ├── kmplayer-kde3
 │   ├── kscd
 │   ├── libaacs
-│   ├── libass
-│   ├── libassetml
+│   ├── libass					(Installed)
+│   ├── libassetml				(Installed)
 │   ├── libbdplus
-│   ├── libdv
+│   ├── libblueray
+│   ├── libdv					(Installed)
 │   ├── libdv-tools
+│   ├── libbdvbcsa				(Installed)
 │   ├── libdvbpsi
 │   ├── libdvbpsi0
 │   ├── libdvdcss
-│   ├── libdvdnav
-│   ├── libdvdplay
-│   ├── libdvdread
-│   ├── libflash
-│   ├── libflashsupport
-│   ├── libflashsupport-pulse
-│   ├── libflashsupport10
+│   ├── libdvdnav				(Installed)
+│   ├── libdvdplay				(Installed)
+│   ├── libdvdread				(Installed)
 │   ├── libhdhomerun
 │   ├── libkate
 │   ├── libkcddb
@@ -123,13 +118,13 @@
 │   ├── libva-driver-vdpau
 │   ├── libvdpau
 │   ├── libvpx 					(Installed)
-│   ├── lsdvd
+│   ├── lsdvd 					(Installed)
 │   ├── mediainfo
-│   ├── mediatomb
-│   ├── mencoder
+│   ├── mediatomb 				(Installed)
+│   ├── mencoder 				(Installed)
 │   ├── ming 					(Installed)
 │   ├── minidlna
-│   ├── mjpegtools
+│   ├── mjpegtools				{9}
 │   ├── mkv2mp4
 │   ├── mkvtoolnix
 │   ├── mkvtoolnix-old
@@ -139,32 +134,32 @@
 │   ├── mpeg_play
 │   ├── mpeg-lib				(Installed)
 │   ├── mpeg4ip
-│   ├── mplayer
+│   ├── mplayer 				(Installed)
 │   ├── mplayer-plugin
 │   ├── mplayer-share 				(Installed)
 │   ├── mplayerthumbs
 │   ├── ogle
 │   ├── ogle_gui
-│   ├── ogmtools
-│   ├── openquicktime
-│   ├── p5-GStreamer
+│   ├── ogmtools 				(Installed){10}
+│   ├── openquicktime 				(Installed)
+│   ├── p5-GStreamer 				(Installed)
 │   ├── p5-xmltv
 │   ├── phonon
 │   ├── phonon-backend-gstreamer
 │   ├── phonon-backend-vlc
-│   ├── php-ming
+│   ├── php-ming				(Installed)
 │   ├── pitivi
 │   ├── pspvc
-│   ├── py-gstreamer0.10
-│   ├── py-ming
+│   ├── py-gstreamer0.10			(Installed)
+│   ├── py-ming					(Installed)
 │   ├── realplayer-codecs			(Installed)
 │   ├── regionset
 │   ├── replex					(Installed)
 │   ├── ruby-gnome2-clutter-gstreamer
 │   ├── ruby-gnome2-gstreamer
 │   ├── ruby-ming
-│   ├── schroedinger
-│   ├── smpeg
+│   ├── schroedinger				(Installed)
+│   ├── smpeg					(Installed)
 │   ├── smpeg2
 │   ├── subtitleeditor
 │   ├── swfdec
@@ -181,7 +176,7 @@
 │   ├── vlc
 │   ├── vlc2
 │   ├── win32-codecs 				(Installed)
-│   ├── x264-devel
+│   ├── x264-devel				(Installed)
 │   ├── xanim
 │   ├── xawtv
 │   ├── xfce4-mpc-plugin
@@ -191,4 +186,14 @@
 │   ├── xine-v4l
 │   ├── xine-v4l2
 │   ├── xvid4conf
-│   └── xvidcore
+│   └── xvidcore				(Installed)
+{1} Wanted pango before it was built
+{2} Wants Qt4-tools, but its not built yet
+{3} Template arguement deduction substitution failed
+{4} Wants Qt4-libs, but its not built yet
+{5} Wanted Imagemagick before it was built
+{6} Wants <linux/dvb/audio.h>
+{7} Undefined reference to rpl_malloc
+{8} Undefined reference to pthread
+{9} Could not find link object
+{10} Original error: Undefined reference to 'nice'

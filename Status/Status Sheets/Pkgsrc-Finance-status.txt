@@ -1,7 +1,7 @@
-├── finance ***32*** ***9 Installed, 0 Installable*** ***Count 9*** ***Pass Complete***
-│   ├── gkrellm-stock				{16}{11}{1}
+├── finance ***32*** ***13 Installed, 0 Installable*** ***Count 13*** ***Pass Complete***
+│   ├── gkrellm-stock				{19}{16}{11}{1}
 │   ├── gnucash					{2}
-│   ├── gnucash-docs				{18}{12}{1}
+│   ├── gnucash-docs				{19}{18}{12}{1}
 │   ├── kmymoney2				{17}{3}
 │   ├── libofx					{15}{4}
 │   ├── moneyguru				{13}{1}
@@ -11,26 +11,26 @@
 │   ├── p5-Finance-Quote			(Installed)
 │   ├── p5-Locale-Currency-Format		(Installed)
 │   ├── py-python-bitcoinlib			(Installed)
-│   ├── py-stripe				{5}
-│   ├── py-trytond-account			{6}
-│   ├── py-trytond-account-asset		{6}
-│   ├── py-trytond-account-fr			{6}
-│   ├── py-trytond-account-invoice		{6}
-│   ├── py-trytond-account-payment		{6}
-│   ├── py-trytond-account-payment-sepa		{6}
-│   ├── py-trytond-account-product		{6}
-│   ├── py-trytond-account-statement		{6}
-│   ├── py-trytond-bank				{6}
-│   ├── py-trytond-currency			{6}
+│   ├── py-stripe				(Installed){5}
+│   ├── py-trytond-account			{19}{6}
+│   ├── py-trytond-account-asset		{19}{6}
+│   ├── py-trytond-account-fr			{19}{6}
+│   ├── py-trytond-account-invoice		{19}{6}
+│   ├── py-trytond-account-payment		{19}{6}
+│   ├── py-trytond-account-payment-sepa		{19}{6}
+│   ├── py-trytond-account-product		{19}{6}
+│   ├── py-trytond-account-statement		{19}{6}
+│   ├── py-trytond-bank				{19}{6}
+│   ├── py-trytond-currency			{19}{6}
 │   ├── py-vatnumber				(Installed){14}
 │   ├── ruby-activemerchant			{7}
 │   ├── ruby-braintree				{7}
 │   ├── tclticker				(Installed)
-│   ├── tex-euro				{16}{8}
+│   ├── tex-euro				(Installed){16}{8}
 │   ├── tex-euro-doc				(Installed)
 │   ├── xfinans					{16}{11}{9}
-│   ├── xinvest					{10}
-│   └── xquote					{10}
+│   ├── xinvest					(Installed){10}
+│   └── xquote					(Installed){10}
 
 {1} Original error: wanted glib2 before it was built
 {2} Wants guile, but its not built yet
@@ -41,12 +41,13 @@
 {7} Wants ruby, but its not built yet
 {8} Original error: wanted pixman before it was built
 {9} Original error: wanted py27-cElementTree before it was built
-{10} Wants motif, but its not built yet
+{10} Wanted motif before it was built
 {11} Original error: wanted gobject-introspection before it was built
 {12} Original error: wanted libidl before it was built
 {13} Wants py-sip, but its not built yet
 {14} Original error: compile error: python 27 object _socket.socket had no attribute 'getpeername'
 {15} Error in ofxpreproc.cpp initializing arguement 2 of 'size_t libiconv libiconv_t char** size_t*) extern size_t *inbytesleft char* * outbuf size_t *outbytesleft)
-{16} Wants cairo, but its not built yet
+{16} Wanted cairo before it was built
 {17} Wants qt3-libs, but its not built yet
-{18} Wants SDL, but its not built yet
+{18} Wanted SDL before it was built
+{19} Wants gtk2, but its not built yet

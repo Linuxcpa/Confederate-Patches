@@ -1,9 +1,9 @@
-├── editors ***163*** ***31 Installed, 1 Installable*** ***Count 32*** ***Pass Complete***
+├── editors ***163*** ***36 Installed, 2 Installable*** ***Count 38*** ***Pass Complete***
 │   ├── abiword 				{1}
 │   ├── abiword-plugins
 │   ├── beav 					{3}
 │   ├── beaver 					{1}
-│   ├── biew
+│   ├── biew 					(Installed)
 │   ├── bvi 					(Installed)
 │   ├── ce 					(Installed)
 │   ├── ce-doc 					(Installed)
@@ -74,8 +74,8 @@
 │   ├── mule
 │   ├── mule-ucs
 │   ├── nano 					(Installed)
-│   ├── ne
-│   ├── nedit
+│   ├── ne 					(Installed)
+│   ├── nedit 					(Installed)
 │   ├── ng
 │   ├── notecase
 │   ├── nts
@@ -108,7 +108,7 @@
 │   ├── qgoogletranslator
 │   ├── rox-edit
 │   ├── sam
-│   ├── sandy
+│   ├── sandy 					(Installed)
 │   ├── scite
 │   ├── se 					(Installed)
 │   ├── Sigil
@@ -136,7 +136,7 @@
 │   ├── texworks
 │   ├── tomboy
 │   ├── tweak 					(Installed)
-│   ├── uemacs
+│   ├── uemacs 					(Installed)
 │   ├── ve
 │   ├── vigor
 │   ├── vile 					(Installed) {4}
@@ -144,7 +144,7 @@
 │   ├── vim 					(Installed)
 │   ├── vim-gtk2
 │   ├── vim-lang 				(Installed)
-│   ├── vim-motif
+│   ├── vim-motif 				(Installed)
 │   ├── vim-share 				(Installed)
 │   ├── vim-xaw 				(Installable)
 │   ├── wily

@@ -1,62 +1,60 @@
-├── games ***375*** ***69 Installed, 2 installable*** ***Count 71*** ***Pass Complete***
-│   ├── 0verkill
-│   ├── 4stAttack
-│   ├── abuse
-│   ├── adom
-│   ├── alephone
+├── games ***373*** ***116 Installed, 3 installable*** ***Count 119*** ***Pass Complete***
+│   ├── 0verkill 				(Installed)
+│   ├── 4stAttack				{7}
+│   ├── abuse					{8}
+│   ├── alephone 				(Installed)
 │   ├── amaze 					(Installed){5}
-│   ├── amor
+│   ├── amor					{9}
 │   ├── an 					(Installed)
-│   ├── angband-tty
-│   ├── angband-x11
-│   ├── anise
+│   ├── angband-tty 				(Installed)
+│   ├── angband-x11 				(Installed)
+│   ├── anise 					(Installed)
 │   ├── aop 					(Installed)
-│   ├── asc
-│   ├── asciiquarium
-│   ├── atomix
+│   ├── asc					{7}
+│   ├── asciiquarium 				(Installed)
+│   ├── atomix					{10}
 │   ├── bastet 					(Installed){5}
-│   ├── battalion
+│   ├── battalion				(Installed)
 │   ├── battleball 				(Installed)
-│   ├── billardgl
-│   ├── blindmine
-│   ├── blinken
-│   ├── blokus
-│   ├── bluemoon
-│   ├── bomber
-│   ├── bomberclone
-│   ├── bos
-│   ├── boson
-│   ├── bovo
+│   ├── billardgl				(Installed)
+│   ├── blindmine				{11}
+│   ├── blinken					{9}
+│   ├── blokus					{9}
+│   ├── bluemoon				{10}
+│   ├── bomber					{9}
+│   ├── bomberclone 				(Installed)
+│   ├── bos 					(Installed)
+│   ├── boson					{9}
+│   ├── bovo					{9}
 │   ├── bridge-hands 				(Installed)
-│   ├── bzflag
-│   ├── cbzone
-│   ├── ccgo
+│   ├── bzflag					{12}
+│   ├── cbzone					(Installed)
+│   ├── ccgo					{13}
 │   ├── cgoban 					(Installed)
 │   ├── cgoban-java
 │   ├── chest 					(Installed)
-│   ├── chromium-bsu
-│   ├── circuslinux
-│   ├── civctp-demo
+│   ├── chromium-bsu				{12}
+│   ├── circuslinux 				(Installed)
 │   ├── cmatrix 				(Installed)
-│   ├── colchess
-│   ├── colchess-book-colchess
-│   ├── colchess-book-large
-│   ├── corewars
-│   ├── crack-attack
+│   ├── colchess 				(Installed)
+│   ├── colchess-book-colchess 			(Installed)
+│   ├── colchess-book-large 			(Installed)
+│   ├── corewars 				(Installed)
+│   ├── crack-attack				{10}
 │   ├── crack-attack-sounds 			(Installed)
-│   ├── craft
-│   ├── crafty 		
-│   ├── crafty-book-medium
-│   ├── crafty-book-small
+│   ├── craft					{14}
+│   ├── crafty 					{8}	
+│   ├── crafty-book-medium			{15}
+│   ├── crafty-book-small			{15}
 │   ├── crafty-doc				(Installed)
-│   ├── crimsonfields
-│   ├── criticalmass
-│   ├── crossfire-client
-│   ├── crossfire-client-gtk
-│   ├── crossfire-client-gtk2
-│   ├── crossfire-server
-│   ├── d2x
-│   ├── dd2
+│   ├── crimsonfields				(Installed)
+│   ├── criticalmass				{7}
+│   ├── crossfire-client			{16}
+│   ├── crossfire-client-gtk			{17}
+│   ├── crossfire-client-gtk2			{17}
+│   ├── crossfire-server			{17}
+│   ├── d2x					{18}
+│   ├── dd2					{7}
 │   ├── defendguin 				{1}
 │   ├── digger
 │   ├── dipmap
@@ -72,18 +70,18 @@
 │   ├── exchess-book-medium 			(Installed)
 │   ├── exchess-book-small 			(Installed)
 │   ├── exult
-│   ├── falcons-eye
+│   ├── falcons-eye				{19}
 │   ├── fillets-ng
 │   ├── fillets-ng-data 			(Installed)
-│   ├── finalbattle
-│   ├── fire
+│   ├── finalbattle 				(Installed)
+│   ├── fire 					(Installed)
 │   ├── fkiss 					(Installed)
 │   ├── flare-engine
 │   ├── flare-game
 │   ├── flightgear
 │   ├── flightgear-data 			(Installed)
-│   ├── fltk-sudoku
-│   ├── foobillard
+│   ├── fltk-sudoku 				(Installed)
+│   ├── foobillard 				(Installed)
 │   ├── fortune-strfile 			(Installed)
 │   ├── fortunes-calvin 			(Installed)
 │   ├── fortunes-de 				(Installed)
@@ -98,7 +96,7 @@
 │   ├── frotz
 │   ├── frozen-bubble
 │   ├── fruit 					(Installed)
-│   ├── galaxa
+│   ├── galaxa 					(Installed)
 │   ├── gamazons
 │   ├── gate88
 │   ├── gbrainy
@@ -108,7 +106,7 @@
 │   ├── genecys-data 				(Installed)
 │   ├── ggz-client-libs
 │   ├── glaxium
-│   ├── glickomania
+│   ├── glickomania 				(Installed)
 │   ├── gltron
 │   ├── gnome-games
 │   ├── gnome-games-extra-data
@@ -136,26 +134,26 @@
 │   ├── icebreaker
 │   ├── imaze
 │   ├── InterLOGIC
-│   ├── ioquake3 				(Installed)
-│   ├── ioquake3-pk3
+│   ├── ioquake3
+│   ├── ioquake3-pk3 				(Installed)
 │   ├── ivan
 │   ├── jetpack
 │   ├── jools
 │   ├── kajaani-kombat
-│   ├── kajongg
-│   ├── kanagram
-│   ├── kanatest
-│   ├── kapman
+│   ├── kajongg					{20}
+│   ├── kanagram				{20}
+│   ├── kanatest				{10}
+│   ├── kapman					{20}
 │   ├── kapooka
-│   ├── katomic
-│   ├── kblackbox
+│   ├── katomic					{20}
+│   ├── kblackbox				{20}
 │   ├── kblocks
 │   ├── kbounce
 │   ├── kbreakout
 │   ├── kdegames3
 │   ├── kdetoys3
 │   ├── kdiamond
-│   ├── ketm
+│   ├── ketm 					(Installed)
 │   ├── kfourinline
 │   ├── kgoldrunner
 │   ├── khangman
@@ -195,10 +193,10 @@
 │   ├── lgeneral
 │   ├── lgeneral-data
 │   ├── lgogdownloader
-│   ├── libggz
+│   ├── libggz 					(Installed)
 │   ├── libkdegames
 │   ├── libkmahjongg
-│   ├── lincity
+│   ├── lincity 				(Installed)
 │   ├── lincity-ng
 │   ├── liquidwar
 │   ├── lmarbles
@@ -210,7 +208,7 @@
 │   ├── maelstrom-sdl
 │   ├── maelstrom-x11
 │   ├── majesty-demo
-│   ├── marathon-evil
+│   ├── marathon-evil 				(Installed)
 │   ├── marathon-trilogy 			(Installed) {3}
 │   ├── minami
 │   ├── mirrormagic 				(Installed)
@@ -237,7 +235,7 @@
 │   ├── openttd
 │   ├── openttd-data 				(Installed)
 │   ├── orbital_eunuchs_sniper
-│   ├── pag
+│   ├── pag 					(Installed)
 │   ├── palapeli
 │   ├── picmi
 │   ├── pingus
@@ -250,13 +248,13 @@
 │   ├── prboom
 │   ├── pushover 				{1}
 │   ├── puzzles 				{1}
-│   ├── py-ranking
+│   ├── py-ranking 				(Installed)
 │   ├── py-renpy
-│   ├── py-trueskill
+│   ├── py-trueskill 				(Installed)
 │   ├── pysolfc
 │   ├── pytraffic
 │   ├── qnetwalk
-│   ├── qonk
+│   ├── qonk 					(Installed)
 │   ├── qstat 					(Installed){4}
 │   ├── quake
 │   ├── quake2forge
@@ -268,22 +266,22 @@
 │   ├── quake3server-ra3
 │   ├── quake3server-ut
 │   ├── quake6
-│   ├── quakedata
+│   ├── quakedata 				(Installed)
 │   ├── quakeforge
 │   ├── quakespasm
 │   ├── quarry
-│   ├── REminiscence
+│   ├── REminiscence 				(Installed)
 │   ├── rftg
-│   ├── robotfindskitten
+│   ├── robotfindskitten 			(Installed)
 │   ├── rocksndiamonds
 │   ├── rocksndiamonds-levels
 │   ├── rollemup
 │   ├── rtcw
-│   ├── sarien
+│   ├── sarien 					(Installed)
 │   ├── scid
-│   ├── scummvm
-│   ├── scummvm-bass
-│   ├── scummvm-fotaq
+│   ├── scummvm 				(Installed)
+│   ├── scummvm-bass 				(Installed)
+│   ├── scummvm-fotaq 				(Installed)
 │   ├── scummvm-tools
 │   ├── sex 					(Installed)
 │   ├── simgear 				{1}
@@ -297,7 +295,7 @@
 │   ├── spellcast 				(Installed){1}
 │   ├── spider
 │   ├── stegavorto
-│   ├── stratagus
+│   ├── stratagus 				(Installed)
 │   ├── sudoku-cli				(Installed)
 │   ├── supertuxkart
 │   ├── svb
@@ -305,8 +303,8 @@
 │   ├── tanked
 │   ├── teg
 │   ├── tetrinetx				(Installed)
-│   ├── thew
-│   ├── tileworld
+│   ├── thew 					(Installed)
+│   ├── tileworld 				(Installed)
 │   ├── toppler
 │   ├── tscp					(Installed)
 │   ├── tuxmath
@@ -316,7 +314,7 @@
 │   ├── uqm
 │   ├── urban
 │   ├── velena					(Installed)
-│   ├── vms-empire
+│   ├── vms-empire 				(Installed)
 │   ├── wargames				(Installed)
 │   ├── warmux
 │   ├── warzone2100
@@ -336,10 +334,10 @@
 │   ├── xconq					(Installed)
 │   ├── xcowsay
 │   ├── xdemineur				(Installed)
-│   ├── xdoom
+│   ├── xdoom 					(Installed)
 │   ├── xemeraldia
 │   ├── xevil
-│   ├── xfreecell
+│   ├── xfreecell 				(Installed)
 │   ├── xfrisk					(Installed)
 │   ├── xgalaga
 │   ├── xgospel					(Installed)
@@ -353,9 +351,9 @@
 │   ├── xpat2
 │   ├── xpilot
 │   ├── xpipeman
-│   ├── xpuyopuyo
+│   ├── xpuyopuyo 				(Installed)
 │   ├── xracer
-│   ├── xrick
+│   ├── xrick 					(Installed)
 │   ├── xroach					(Installed)
 │   ├── xroads					(Installed)
 │   ├── xsc					(Installed)
@@ -370,13 +368,27 @@
 │   ├── xu4
 │   ├── xvier
 │   ├── xworm
-│   ├── xye
+│   ├── xye 					(Installed)
 │   ├── xzip					(Installed)
 │   ├── zombies					(Installed)
-│   └── zoom
-{1} Wanted gcc-3c
-{2} Inconsstent
+│   └── zoom 					(Installed)
+{1} Wanted gcc-3c in Haiku Hybrid
+{2} Inconsstent build success between gcc2 and gcc4
 {3} License
 {4} Undefined References
 {5} Needs mk.conf to have "CURSES_DEFAULT? = ncurses" for success.
 {6} Hard to inject -lnetwork - configure file spelt with capital c in Configure.
+{7} Configure could not find SDL_mixer, even though it was installed in pkgsrc and buildlink3 was active.
+{8} Program wants to use shared memory functions sdhctl shmget shmdt
+{9} Wants Qt4-libs, but its not built yet
+{10} Wants gtk2, but its not built yet
+{11} Wants py-game, but its not built yet
+{12} Wants glew, but its not built yet
+{13} Wants libxcb with shared memory
+{14} Wants tcsh, but its not built yet
+{15} Presumed to want crafty, but its not built yet
+{16} Build cannot find curl, even though it is installed in pkgsrc
+{17} Presumed that build cannot find curl, even though it is installed in pkgsrc
+{18} Header clash, issues with strings definitions
+{19} Groff complains that ascii is an invalid device
+{20} Wants kde4libs, per pkgsrc makefile - untested

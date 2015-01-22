@@ -7,12 +7,13 @@
 ├── p5-MooseX-Types-Path-Tiny			(Installed)
 ├── p5-Path-Tiny				(Installed)					
 ├── py-filesystem				(Installed)
-├── tahoe-lafs					{6}{4}
+├── tahoe-lafs					{7}{6}{4}
 └── u9fs					{5}
 
-{1} Wants boehm-gc, but its not built yet
+{1} Wants boehm-gc, but it isn't built yet
 {2} Configure: an AFS sysname is required
-{3} Wants heimdal, but its not nuilt yet
-{4} Original error: Wanted py27-cElementTree - but it wasn't built yet.
+{3} Wants heimdal, but it isn't built yet
+{4} Original error: Wanted py27-cElementTree before it was built.
 {5} Undefined reference to 'MKDEV' in u9fs.c
 {6} Wants py34-markupsafe, but it isn't built yet
+{7} Wants py-twisted, but it isn't built yet
